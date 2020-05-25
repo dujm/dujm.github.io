@@ -1,0 +1,72 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – PyTorch</title>
+    <link>/docs/machinelearning/frameworks/pytorch/</link>
+    <description>Recent content in PyTorch on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/frameworks/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: PyTorch Tutorial</title>
+      <link>/docs/machinelearning/frameworks/pytorch/pytorch-tutorial/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/frameworks/pytorch/pytorch-tutorial/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;install-pytorch&#34;&gt;Install PyTorch&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://pytorch.org/get-started/locally/#macos-version&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;conda install pytorch torchvision -c pytorch
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;what-is-pytorch&#34;&gt;What is PyTorch?&lt;/h4&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&#34;&gt;pytorch 60 min&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/&#34;&gt;pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/kanncaa1/pytorch-tutorial-for-deep-learning-lovers&#34;&gt;pytorch kaggle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: PyTorch</title>
+      <link>/docs/machinelearning/frameworks/pytorch/pytorch-toolkit/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/frameworks/pytorch/pytorch-toolkit/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;high-level-training-apis-in-the-pytorch-ecosystemhttpshackernooncomeight-leaders-explain-their-model-training-libraries-from-pytorch-ecosystem-nk4g32iq&#34;&gt;&lt;a href=&#34;https://hackernoon.com/eight-leaders-explain-their-model-training-libraries-from-pytorch-ecosystem-nk4g32iq&#34;&gt;High-level training APIs in the PyTorch Ecosystem&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Skorch&lt;/li&gt;
+&lt;li&gt;Catalyst&lt;/li&gt;
+&lt;li&gt;Fastai&lt;/li&gt;
+&lt;li&gt;PyTorch Ignite&lt;/li&gt;
+&lt;li&gt;PyTorch Lightning&lt;/li&gt;
+&lt;li&gt;TorchBearer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;serve&#34;&gt;Serve&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/pytorch/serve&#34;&gt;Model Serving on PyTorch&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pytorch/serve/blob/master/docs/README.md&#34;&gt;Full Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

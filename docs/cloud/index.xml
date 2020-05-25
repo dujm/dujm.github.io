@@ -1,0 +1,346 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Cloud</title>
+    <link>/docs/cloud/</link>
+    <description>Recent content in Cloud on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: AWS SDK Setup</title>
+      <link>/docs/cloud/aws_sdk_cli/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/aws_sdk_cli/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;1-install-aws-command-line-interface-cli&#34;&gt;1. Install AWS Command Line Interface (CLI)&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/cli/&#34;&gt;Doc&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Optional: activate conda environment
+source activate pinenuts
+
+# Install AWS CLI
+pip install awscli
+
+# Install command completion feature on Raspberry Pi’s CLI interface
+complete -C aws_completer aws
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;2-setup-security-credentials&#34;&gt;2. Setup Security Credentials&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://console.aws.amazon.com/iam/home?region=eu-west-1#/security_credentials&#34;&gt;Security_credentials&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# 1) Create Access Key ID and secret access keys
+&#39;&#39;&#39;
+User on right top menu =&amp;gt; &#39;My seceurity Credentials =&amp;gt; Access keys =&amp;gt; Create New Access Key =&amp;gt; Download the csv to your local drive
+&#39;&#39;&#39;
+
+# 2) In your local terminal
+aws configure
+
+&#39;&#39;&#39;
+AWS Access Key ID [None]: aaaaaaaaaaaaaa
+AWS Secret Access Key [None]: aaaaaaaaaa
+Default region name [None]: eu-west-1
+Default output format [None]: json
+&#39;&#39;&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;3-use-aws-sdk-in-your-local-terminal&#34;&gt;3. Use AWS SDK in your local terminal&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;# Create a new Thing
+aws iot create-thing --thing-name &amp;quot;YourThingName&amp;quot;
+
+#  List all your IoT Things
+aws iot list-things
+
+# List all your buckts
+aws s3 ls
+
+# List the content in one bucket
+aws s3 ls s3://greengrass-bucket-pinenuts
+
+# Copy files to your bucket
+aws s3 cp myfolder s3://greengrass-bucket-pinenuts --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;4-use-aws-sdk-in-python-boto3-package&#34;&gt;4. Use AWS SDK in Python (Boto3 package)&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#installation&#34;&gt;Boto 3&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Install boto3
+pip install boto3
+
+# Use boto3
+Python
+import boto3
+
+# Let&#39;s use Amazon S3
+s3 = boto3.resource(&#39;s3&#39;)
+
+# Print out bucket names
+for bucket in s3.buckets.all():
+    print(bucket.name)
+
+# Upload a new file
+data = open(&#39;test.jpg&#39;, &#39;rb&#39;)
+s3.Bucket(&#39;my-bucket&#39;).put_object(Key=&#39;test.jpg&#39;, Body=data)
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Azure</title>
+      <link>/docs/cloud/azure/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/azure/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;about-azure-devops&#34;&gt;About Azure DevOps&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Repo: a git repo (e.g. clone, fork etc)&lt;/li&gt;
+&lt;li&gt;Pipeline&lt;/li&gt;
+&lt;li&gt;Work Items (e.g. issue, epic )&lt;/li&gt;
+&lt;li&gt;Test Plan: more for large organization&lt;/li&gt;
+&lt;li&gt;Artifacts: more for a small team
+&lt;ul&gt;
+&lt;li&gt;Create new feed and use in the pipelines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;1-what-is-azure-pipeline&#34;&gt;1. What is Azure Pipeline?&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops&#34;&gt;Azure Pipelines&lt;/a&gt; is a cloud service that you can use to automatically &lt;strong&gt;build and test&lt;/strong&gt; your code project and make it available to other users. It works with just about any language or project type.&lt;/p&gt;
+&lt;p&gt;Azure Pipelines combines &lt;strong&gt;continuous integration (CI)&lt;/strong&gt; and &lt;strong&gt;continuous delivery (CD)&lt;/strong&gt; to constantly and consistently test and build your code and ship it to any target.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Continuous integration (CI)&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Continuous delivery (CD)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Automatically ensure you don&amp;rsquo;t ship broken code.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Automatically deploy code to production.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Build faster by splitting test and build run&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ensure deployment targets have latest code.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Run tests continually.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Use tested code from CI process.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Increase code coverage.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;2-create-an-azure-pipeline-to-build-a-github-repository&#34;&gt;2. Create an Azure Pipeline to build a GitHub repository&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;On GitHub
+&lt;ul&gt;
+&lt;li&gt;Register a GitHub account&lt;/li&gt;
+&lt;li&gt;Create a new &lt;code&gt;public&lt;/code&gt; repo (e.g. &lt;code&gt;azure&lt;/code&gt;) and push an initial commit (e.g. &lt;code&gt;README.md&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;On Azure
+&lt;ul&gt;
+&lt;li&gt;Sign up an &lt;a href=&#34;https://azure.microsoft.com/en-us/services/devops/pipelines/&#34;&gt;an Azure DevOps account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add an Azure DevOps organization&lt;/li&gt;
+&lt;li&gt;Add a &lt;code&gt;public&lt;/code&gt; Azure project&lt;/li&gt;
+&lt;li&gt;In the project, navigate to the &lt;code&gt;Pipiline&lt;/code&gt; page&lt;/li&gt;
+&lt;li&gt;Select the GitHub repo &lt;code&gt;azure&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Build a new pipeline following the &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&amp;amp;tabs=tfs-2018-2&#34;&gt;tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-customize-your-pipeline&#34;&gt;3. Customize your pipeline&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Edit a yml file on Azure DevOps project/pipeline/Builds =&amp;gt; Commit and Run =&amp;gt; The yml file will be pushed to GitHub automatically&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Push a new yml file to GitHub =&amp;gt; On Azure DevOps, select &lt;code&gt;Existing Azure pipeline YAML file&lt;/code&gt; =&amp;gt; Select the yml on GitHub&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4-pipeline-structures&#34;&gt;4. Pipeline structures&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Stage&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Major divisions in a pipeline&lt;/li&gt;
+&lt;li&gt;By default, stages run sequentially&lt;/li&gt;
+&lt;li&gt;e.g. &lt;code&gt;build this app&lt;/code&gt;, &lt;code&gt;run these tests&lt;/code&gt;, and &lt;code&gt;deploy to pre-production&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Job&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jobs can be run conditionally, and they may depend on earlier jobs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A collection of steps to be run by an agent or on the server.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A linear sequence of operations that make up a job&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Each step runs in its own process on an agent and has access to the pipeline workspace on disk.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This means environment variables are not preserved between steps but filesystem changes are.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Variables&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Hardcoded values can be added directly, or variable groups can be referenced.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Variables may be specified at the pipeline, stage, or job level.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=H-R2bCXfz8I&#34;&gt;Intro to Azure DevOps - Source Control, CI/CD, Automation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops&#34;&gt;Azure Pipelines Doc&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&amp;amp;tabs=yaml&#34;&gt;Jobs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&amp;amp;tabs=yaml%2Cbatch&#34;&gt;Variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MicrosoftDocs/pipelines-anaconda&#34;&gt;Pipelines-anaconda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/anaconda?view=azure-devops&amp;amp;tabs=macos&#34;&gt;Run pipelines with Anaconda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vlBuNM6Wzic&#34;&gt;Continuous Builds for master branch and pull request&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/python-webapp?view=azure-devops&#34;&gt;Deploy a Python web app using CI/CD to Azure App Service&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&amp;amp;tabs=schema&#34;&gt;YAML schema reference&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/yaml/&#34;&gt;Learn YAML in Y minutes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: GCP SDK Setup</title>
+      <link>/docs/cloud/gcp_sdk/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/gcp_sdk/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;1-set-up-google-cloud-platform-gcp&#34;&gt;1. Set up Google Cloud Platform (GCP)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://console.cloud.google.com/apis/credentials/serviceaccountkey?_ga=2.262041677.-1312817518.1554382349&amp;amp;project=quiet-mechanic-236610&amp;amp;folder&amp;amp;organizationId&#34;&gt;Create service account key page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Select project on top &amp;lsquo;pines1&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;Service account, my account&lt;/li&gt;
+&lt;li&gt;JSON&lt;/li&gt;
+&lt;li&gt;Provide authentication credentials to your application code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://console.developers.google.com/billing/enable?project=650311275390&#34;&gt;Enable billing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;export GOOGLE_APPLICATION_CREDENTIALS=&amp;quot;/home/pi/gcp/pines1-6e82e765805d.json&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-install-gcp-sdk&#34;&gt;2. Install GCP SDK&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.google.com/sdk/docs/downloads-apt-get&#34;&gt;Installing with apt-get for Debian and Ubuntu&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;export CLOUD_SDK_REPO=&amp;quot;cloud-sdk-$(lsb_release -c -s)&amp;quot;
+
+echo &amp;quot;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main&amp;quot; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+
+sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install google-cloud-sdk
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;3-setup-gcloud-sdk&#34;&gt;3. Setup GCloud SDK&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;gcloud init
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;4-authorizing-cloud-sdk-tools&#34;&gt;4. Authorizing Cloud SDK tools&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.google.com/sdk/docs/authorizing&#34;&gt;Authorizing a service accounts&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;gloud auth login
+gcloud auth application-default login
+gcloud auth list
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Google Colab</title>
+      <link>/docs/cloud/colab/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/colab/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;how-to-load-csv-files-to-colab&#34;&gt;How to load csv files to colab?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;From Github (Files &amp;lt; 25MB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;  import pandas as pd
+  url = &#39;copied_raw_link&#39;
+  df1 = pd.read_csv(url)
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;From a local drive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;  From google.colab import files  
+  uploaded = files.upload()
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h3 id=&#34;what-is-colab&#34;&gt;What is colab?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Colab (short for Colaboratory) is a free platform from Google that allows users to code in Python.&lt;/li&gt;
+&lt;li&gt;Colab is essentially the Google Suite version of a Jupyter Notebook.&lt;/li&gt;
+&lt;li&gt;Advantages of Colab over Jupyter include:
+&lt;ul&gt;
+&lt;li&gt;an easier installation of packages&lt;/li&gt;
+&lt;li&gt;easy sharing of documents
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-to-save-a-colab-notebook-to-github&#34;&gt;How to save a colab notebook to GitHub?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;cmd/ctrl-shift-P
+In the dropdown menu, select &#39;Save a copy in GitHub&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h3 id=&#34;how-to-use-tensorflow-with-gpu&#34;&gt;How to use TensorFlow with GPU?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/notebooks/gpu.ipynb&#34;&gt;demo code&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;more-examples&#34;&gt;More examples&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/drive/17u-pRZJnKN0gO5XZmq8n5A2bKGrfKEUg&#34;&gt;TensorFlow 2.0 + Keras&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/3-ways-to-load-csv-files-into-colab-7c14fcbdcb92&#34;&gt;3 Ways to Load CSV files into Colab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/notebooks/welcome.ipynb&#34;&gt;Colab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

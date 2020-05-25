@@ -1,0 +1,74 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Data Set</title>
+    <link>/docs/data/dataset/</link>
+    <description>Recent content in Data Set on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/data/dataset/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Find Dataset</title>
+      <link>/docs/data/dataset/datasets/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/dataset/datasets/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;1-tensorflow-datasets&#34;&gt;1. TensorFlow Datasets&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;# Install: pip install tensorflow-datasets
+
+import tensorflow_datasets as tfds
+
+mnist_data = tfds.load(&amp;quot;mnist&amp;quot;)
+
+mnist_train, mnist_test = mnist_data[&amp;quot;train&amp;quot;], mnist_data[&amp;quot;test&amp;quot;]
+
+assert isinstance(mnist_train, tf.data.Dataset)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h2 id=&#34;2-data-for-everyone&#34;&gt;2. Data For Everyone&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.figure-eight.com/data-for-everyone/&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;3-autonomous-driving-dataset&#34;&gt;3. Autonomous Driving Dataset&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.a2d2.audi/a2d2/en/download.html&#34;&gt;Audi A2D2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A2D2 is around 2.3 TB in total. It is split by annotation type (i.e. semantic segmentation, 3D bounding box), to break up the download into smaller packages. Each split is packaged into a single tar file, while the remaining unlabelled sequence data is split into multiple tar files.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt; 
+&lt;h2 id=&#34;4-sound&#34;&gt;4. Sound&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/turpaultn/DESED&#34;&gt;DESED&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Domestic environment sound event detection (DESED). &amp;gt; Mix of recorded and synthetic data.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt; 
+&lt;hr&gt;
+&lt;h4 id=&#34;read-more&#34;&gt;Read More&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/tensorflow/introducing-tensorflow-datasets-c7f01f7e19f3&#34;&gt;Introducing TensorFlow Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tensorflow.org/datasets/datasets&#34;&gt;What datasets are available in Datasetsv1.0.2?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/github/tensorflow/datasets/blob/master/docs/overview.ipynb&#34;&gt;Try TensorFlow Datasets in Colab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tensorflow.org/datasets/add_dataset&#34;&gt;How to Add a Dataset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tensorflow/tensor2tensor&#34;&gt;tensor2tensor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

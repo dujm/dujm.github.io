@@ -1,0 +1,282 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Web</title>
+    <link>/docs/web/</link>
+    <description>Recent content in Web on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: My Apps</title>
+      <link>/docs/web/my-app/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/web/my-app/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dujm/ds_smart_job_search&#34;&gt;Smart Job Searching App for Myself&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://x-ray-vision.herokuapp.com&#34;&gt;X-Ray Imaging Diagnostics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://duju.shinyapps.io/PubMed-Literature-Search&#34;&gt;PubMed Literature Search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vsranker.broadinstitute.org/&#34;&gt;Variant Ranker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Static Websites</title>
+      <link>/docs/web/static-website/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/web/static-website/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Jekyll in Ruby. This option is clearly the most popular, and it is the only one integrated into GitHub (builds are simpler). Even though I have no experience with Ruby, I wanted to choose this option initially. But then I discovered that Jekyll is not supported on Windows. Moreover, you cannot even use Ruby packages without downloading and installing 1GB Linux subsystem. It became apparent that this ecosystem does not care for Windows users (which I am one of).&lt;/li&gt;
+&lt;li&gt;Hexo in javascript. This option is less popular, but will probably rise in the nearest future. Using javascript for generating websites is a great idea, because any client-side code has to be in javascript anyway, so it is more convenient to use one language in both areas. I have suffered enough from javascript on my daily job, so I decided to avoid this too.&lt;/li&gt;
+&lt;li&gt;Pelican in Python. This option is probably even less popular than Hexo. Python is a great language for a variety of tasks, and my experience with it is strongly positive. It is very user-friendly, truly cross-platform, does not have tons of stupid legacy stuff like javascript.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Pelican Website</title>
+      <link>/docs/web/pelican-website/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/web/pelican-website/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;How to build a beautiful website using Pelican?&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h4 id=&#34;what-is-pelican&#34;&gt;What is Pelican?&lt;/h4&gt;
+&lt;p&gt;Pelican is a Python library that lets you generate static websites from templates.&lt;/p&gt;
+&lt;h4 id=&#34;1-installation&#34;&gt;1. Installation&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;# Install pelican
+pip install pelican markdown
+
+# Choose a name for your project (e.g. pelican-website) and directory for your site (fishingbird)
+mkdir -p pelican-website/fishingbird
+cd pelican-website/fishingbird
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-generate-the-initial-boilerplate&#34;&gt;2. Generate the initial boilerplate&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;pelican-quickstart
+
+&amp;gt; Where do you want to create your new web site? [.]
+&amp;gt; What will be the title of this web site? Fishing Birds
+&amp;gt; Who will be the author of this web site? j
+&amp;gt; What will be the default language of this web site? [en]
+&amp;gt; Do you want to specify a URL prefix? e.g., https://example.com   (Y/n) n
+&amp;gt; Do you want to enable article pagination? (Y/n) Y
+&amp;gt; How many articles per page do you want? [10]
+&amp;gt; What is your time zone? [Europe/Paris]
+&amp;gt; Do you want to generate a tasks.py/Makefile to automate generation and publishing? (Y/n) Y
+&amp;gt; Do you want to upload your website using FTP? (y/N) n
+&amp;gt; Do you want to upload your website using SSH? (y/N) n
+&amp;gt; Do you want to upload your website using Dropbox? (y/N) n
+&amp;gt; Do you want to upload your website using S3? (y/N) n
+&amp;gt; Do you want to upload your website using Rackspace Cloud Files? (y/N) n
+&amp;gt; Do you want to upload your website using GitHub Pages? (y/N) y
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;3-add-content-in-a-markdown-file&#34;&gt;3. Add content in a markdown file&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;vim content/fish.md
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;4-generate-your-site&#34;&gt;4. Generate your site&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;pelican content
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;5-preview-your-site&#34;&gt;5. Preview your site&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;pelican --listen
+
+# Navigate to http://localhost:8000/ in your browser.
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;6-optional&#34;&gt;6. Optional:&lt;/h4&gt;
+&lt;h4 id=&#34;61-how-to-add-a-theme&#34;&gt;6.1 How to add a theme?&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;# Choose a path for to clone pelican-themes directory (e.g. pelican-website/)
+git clone --recursive https://github.com/getpelican/pelican-themes ../pelican-themes
+
+# Add a theme in the pelicanconf.py of your site (e.g. fishingbird/pelicanconf.py)
+THEME = &#39;../pelican-themes/bootstrap2&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;62--how-to-add-theme-as-git-module&#34;&gt;6.2  How to add theme as git module&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;# Add a .gitmodules and a directory `themes/` in the project perclican-website
+git submodule add git@github.com:getpelican/pelican-themes.git themes
+
+# Commit
+git commit -am &#39;Add theme as a submodule&#39;
+
+# Check whether the themes is listed as a submodule
+git submodule status
+&#39;565dc8959ad2573c4a9245eaaec73916c782f6d9 theme (heads/master)&#39;
+
+# Check available themes
+cd themes
+git submodule status
+
+# Initialize the bootstrap2 theme
+git submodule init bootstrap2
+
+# Update the submodule
+git submodule update
+cd ..
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;# Add the theme path in the pelicanconf.py of your site (e.g. fishingbird/pelicanconf.py)
+THEME = &#39;../themes/bootstrap2&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;7-publish-to-github-project-page&#34;&gt;7. Publish to Github project page&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;# Add your SITE_URL in pelicanconf.py (e.g. fishingbird/pelicanconf.py)
+SITEURL = &#39;https://dj-application.github.io/pelican-website/&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cd fishingbird
+pelican content -o output -s pelicanconf.py
+ghp-import output -n
+git push origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;8-what-are-the-files&#34;&gt;8. What are the files?&lt;/h4&gt;
+&lt;hr&gt;
+&lt;pre&gt;&lt;code&gt; ├── License.md
+ ├── README.md
+ ├── fishingbird
+ │   ├── Makefile
+ │   ├── content
+ │   ├── output
+ │   ├── pelicanconf.py
+ │   ├── publishconf.py
+ │   └── tasks.py
+ ├── requirements.txt
+ └──  themes
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Makefile - This file defines make commands that perform the most important tasks like generating your site and starting a local http server.&lt;/li&gt;
+&lt;li&gt;pelicanconf.py - This file contains settings to customize your site.&lt;/li&gt;
+&lt;li&gt;publishconf.py - This file contains settings that are only used when you’re ready to publish to the web.&lt;/li&gt;
+&lt;li&gt;content/ - This folder is where you’ll put the templates and files that will be translated into the content of your site.&lt;/li&gt;
+&lt;li&gt;output/ - This folder might not exist until you convert your content into html. By default, the translated website lands here.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;9-reference&#34;&gt;9. Reference&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/getpelican/pelican/wiki/Tutorials&#34;&gt;Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.getpelican.com/en/stable/&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lepture/python-livereload#script-example-sphinx&#34;&gt;python-livereload&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://merlijn.vandeen.nl/2015/pelican-livereload.html&#34;&gt;Using LiveReload with Pelican&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://.justalfred.com/getting-started-with-pelican-on-github-pages.html&#34;&gt;Getting Started with Pelican on Github Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dirtyhandscoding.github.io/posts/-migrated-to-pelican-and-github-pages.html&#34;&gt; migrated to Pelican and GitHub pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Hugo Website</title>
+      <link>/docs/web/hugo-website/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/web/hugo-website/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;How to build a beautiful website using Hugo?&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h4 id=&#34;what-is-hugo&#34;&gt;What is Hugo?&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo&#34;&gt;Hugo&lt;/a&gt; is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;1-create-two-repos-on-your-github&#34;&gt;1. Create two repos on your GitHub&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a &lt;code&gt;your-project (e.g. hugo-website)&lt;/code&gt; repository on GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This repository will contain Hugo’s content and other source files.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a &lt;code&gt;yourusrname.github.io&lt;/code&gt; GitHub repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is the repository that will contain the fully rendered version of your Hugo website.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;2-add-website-content-in-your-project-eg-hugo-website&#34;&gt;2. Add website content in &lt;code&gt;your-project (e.g. hugo-website)&lt;/code&gt;&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;# Add a new repo `hugo-website`on your GitHub
+git clone git@github.com:yourusrname/hugo-website.git&amp;amp;&amp;amp; cd hugo-website
+git init
+
+# Add a theme (e.g. docsy) as a submodule
+git submodule add https://github.com/google/docsy.git themes/docsy
+echo &#39;theme = &amp;quot;docsy&amp;quot;&#39; &amp;gt;&amp;gt; config.toml
+git submodule update --init --recursive
+
+# Commit in your repo
+git add .
+git commit &#39;initial commit&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;3-deploy-to-yourusrnamegithubio&#34;&gt;3. Deploy to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure your website works locally
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hugo server&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;open your browser to &lt;code&gt;http://localhost:1313&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Prepare a &lt;code&gt;deploy.sh&lt;/code&gt; file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;# ./deploy.sh
+set -e
+printf &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m\n&amp;quot;
+
+# Build the project.
+#hugo #-t docsy # if using a theme, replace with `hugo -t &amp;lt;YOURTHEME&amp;gt;`
+hugo -t docsy
+
+# Go To Public folder
+cd public
+
+# Add changes to git.
+git add .
+
+# Commit changes.
+msg=&amp;quot;rebuilding site $(date)&amp;quot;
+if [ -n &amp;quot;$*&amp;quot; ]; then
+	msg=&amp;quot;$*&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Deploy your website to your &lt;code&gt;yourusrname.githu.bio&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;git submodule add -b master git@github.com:dujm/dujm.github.io.git public
+
+./deploy.sh &amp;quot;v0&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;The public folder will be pushed to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Check your website &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;Host on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

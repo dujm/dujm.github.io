@@ -1,0 +1,44 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – NLP</title>
+    <link>/docs/machinelearning/nlp/</link>
+    <description>Recent content in NLP on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/nlp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Papers</title>
+      <link>/docs/machinelearning/nlp/nlp-papers/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/nlp/nlp-papers/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Tools</title>
+      <link>/docs/machinelearning/nlp/nlp-tools/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/nlp/nlp-tools/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

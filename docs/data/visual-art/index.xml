@@ -1,0 +1,150 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Visualization</title>
+    <link>/docs/data/visual-art/</link>
+    <description>Recent content in Visualization on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/data/visual-art/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Data to Viz</title>
+      <link>/docs/data/visual-art/data-viz/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/data-viz/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;which-type-of-visualization-plot-to-choose&#34;&gt;Which type of visualization plot to choose?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.data-to-viz.com/&#34;&gt;data-to-viz guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Matploitlib</title>
+      <link>/docs/data/visual-art/matplotlib/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/matplotlib/</guid>
+      <description>
+        
+        
+        &lt;br&gt; 
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/cyberpunk-style-with-matplotlib-f47404c9d4c5&#34;&gt;Cyberpunk Style with Matplotlib&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 3-D Visualization</title>
+      <link>/docs/data/visual-art/3d/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/3d/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;gr-framework&#34;&gt;GR framework&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gr-framework.org/python.html&#34;&gt;gr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GR3 is a software library for simple visualization of 3D scenes. It was developed by Florian Rhiem as part of his bachelor’s thesis. GR3 is written in C and can also be used from Python or Julia through a wrapper module.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nilearn.github.io/auto_examples/index.html&#34;&gt;nilearn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data.&lt;/p&gt;
+&lt;p&gt;It leverages the scikit-learn Python toolbox for multivariate statistics with applications such as predictive modelling, classification, decoding, or connectivity analysis.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Image Processing</title>
+      <link>/docs/data/visual-art/image-processing/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/image-processing/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+ * [scikit-image](https://scikit-image.org/docs/stable/overview.html): image processing in Python
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: R Package - factoextra</title>
+      <link>/docs/data/visual-art/r-factoextra/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/r-factoextra/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;factoextra--extract-and-visualize-the-results-of-multivariate-data-analyses&#34;&gt;factoextra : Extract and Visualize the Results of Multivariate Data Analyses&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kassambara/factoextra&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Functions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Principal Component Analysis (PCA), which is used to summarize the information contained in a continuous (i.e, quantitative) multivariate data by reducing the dimensionality of the data without loosing important information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Correspondence Analysis (CA), which is an extension of the principal component analysis suited to analyse a large contingency table formed by two qualitative variables (or categorical data).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Multiple Correspondence Analysis (MCA), which is an adaptation of CA to a data table containing more than two categorical variables.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Multiple Factor Analysis (MFA) dedicated to datasets where variables are organized into groups (qualitative and/or quantitative variables).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hierarchical Multiple Factor Analysis (HMFA): An extension of MFA in a situation where the data are organized into a hierarchical structure.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Factor Analysis of Mixed Data (FAMD), a particular case of the MFA, dedicated to analyze a data set containing both quantitative and qualitative variables.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/kassambara/factoextra/master/tools/factoextra-r-package.png&#34; alt=&#34;factoextra&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/kassambara/factoextra/master/tools/factoextra-r-package.png&#34;&gt;factoextra&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/kassambara/factoextra/master/tools/multivariate-analysis-factoextra.png&#34; alt=&#34;Dimension reduction&#34;&gt; &lt;br&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/kassambara/factoextra/master/tools/multivariate-analysis-factoextra.png&#34;&gt;Dimension reduction&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/kassambara/factoextra/master/tools/README-mca-graph-of-individuals-1.png&#34; alt=&#34;MCA&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/kassambara/factoextra/master/tools/README-mca-graph-of-individuals-1.png&#34;&gt;MCA&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
+&lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/kassambara/factoextra&#34;&gt;factoextra&lt;/a&gt;  has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
+&lt;br&gt; 
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
