@@ -1,0 +1,217 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Functional Coding</title>
+    <link>/docs/coding/functional-coding/</link>
+    <description>Recent content in Functional Coding on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/coding/functional-coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Bash</title>
+      <link>/docs/coding/functional-coding/bash/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/bash/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Error Collections</title>
+      <link>/docs/coding/functional-coding/error_collection/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/error_collection/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Git</title>
+      <link>/docs/coding/functional-coding/git/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/git/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;find-bugs&#34;&gt;Find bugs&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;git-bisect&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Use binary search to find the commit that introduced a bug&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;git-patch&#34;&gt;Git patch&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/mattlewissf/9958704&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add -p&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git add partial (or patch)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add -i&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Git will ask you which files you would like to partially stage
+Then, for each section of the selected files, it will display hunks of the file diff and ask if you would like to stage them one by one.
+Choose type 5 or p (for patch)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git reset -p&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reset in patch&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git commit -p&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Combines git add -p and git commit in one command.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Patch mode allows you to stage parts of a changed file, instead of the entire file. This allows you to make concise, well-crafted commits that make for an easier to read history. This feature can improve the quality of the commits. It also makes it easy to remove parts of the changes in a file that were only there for debugging purposes - prior to the commit without having to go back to the editor.&lt;/p&gt;
+&lt;p&gt;It allows you to see the changes (delta) to the code that you are trying to add, and lets you add them (or not) separately from each other using an interactive prompt. Here&amp;rsquo;s how to use it:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/UbSnkwX.png&#34; alt=&#34;here&amp;rsquo;s a visual&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At each point, you will be asked whether you want to &amp;ldquo;stage this hunk&amp;rdquo;. Here are the commands you can use:&lt;/p&gt;
+&lt;h4 id=&#34;commonly-used-commands&#34;&gt;Commonly used commands&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;y - stage this hunk&lt;/li&gt;
+&lt;li&gt;n - do not stage this hunk&lt;/li&gt;
+&lt;li&gt;a - stage this and all the remaining hunks in the file&lt;/li&gt;
+&lt;li&gt;d - do not stage this hunk nor any of the remaining hunks in the file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;more-advanced-commands&#34;&gt;More advanced commands&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;g - select a hunk to go to&lt;/li&gt;
+&lt;li&gt;/ - search for a hunk matching the given regex&lt;/li&gt;
+&lt;li&gt;j - leave this hunk undecided, see next undecided hunk&lt;/li&gt;
+&lt;li&gt;J - leave this hunk undecided, see next hunk&lt;/li&gt;
+&lt;li&gt;k - leave this hunk undecided, see previous undecided hunk&lt;/li&gt;
+&lt;li&gt;K - leave this hunk undecided, see previous hunk&lt;/li&gt;
+&lt;li&gt;s - split the current hunk into smaller hunks&lt;/li&gt;
+&lt;li&gt;e - manually edit the current hunk&lt;/li&gt;
+&lt;li&gt;? - print help&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;some-cool-tips-from-the-internet&#34;&gt;Some cool tips from the internet:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;If git presents you with a chunk larger than what you would like to add, you can use the &amp;ldquo;e&amp;rdquo; interactive command to specify the exact lines that you want added or removed. This is probably the most powerful option. As promised, it will open the hunk in a text editor and you can edit it to your hearts content&lt;/li&gt;
+&lt;li&gt;Split the hunk into smaller hunks. This only works if there’s unchanged lines between the changes in the displayed hunk, so this wouldn’t have any effect in the example above&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Markdown</title>
+      <link>/docs/coding/functional-coding/markdown/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/markdown/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;how-to-align-columns-in-markdown&#34;&gt;How to align columns in markdown?&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Left alignment&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Right alignment&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Center alignment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&amp;mdash;&amp;mdash;-:&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;:&amp;mdash;&amp;mdash;:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;how-to-copy-table-in-excel-and-paste-as-a-markdown-table&#34;&gt;How to copy table in excel and paste as a markdown table?&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/&#34;&gt;thisdavej.com&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt; 
+&lt;h4 id=&#34;how-to-create-books-in-markdown&#34;&gt;How to create books in markdown?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rust-lang.github.io/mdBook/index.html&#34;&gt;mdBook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;mdBook is a command line tool and Rust crate to create books using Markdown files.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;# Install Rust
+curl --proto &#39;=https&#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Add Cargo&#39;s bin directory ($HOME/.cargo/bin) in your PATH
+
+source $HOME/.cargo/env
+
+# Install mdBook
+cargo install mdbook
+
+# Initialize 
+mdbook init 
+
+# Render your book
+mdbook build
+
+# Preview a book by serving it over HTTP at localhost:3000 by default 
+mdbook serve
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/GitbookIO/gitbook&#34;&gt;GitBook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Javascript</title>
+      <link>/docs/coding/functional-coding/javascript/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;how-to-create-and-change-emojis-using-javascript&#34;&gt;How to create and change emojis using JavaScript?&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/coding/javascript.jpg&#34; alt=&#34;js-emojis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/mgechev/status/1250672809946370051?s=20&#34;&gt;Image from Minko Gechev&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt; 
+&lt;h4 id=&#34;read-more&#34;&gt;Read More&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://mathiasbynens.be/notes/javascript-unicode&#34;&gt;JavaScript has a Unicode problem&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Python</title>
+      <link>/docs/coding/functional-coding/python/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/python/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,205 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Error Collections</title>
+    <link>/docs/coding/functional-coding/error_collection/</link>
+    <description>Recent content in Error Collections on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 17 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/coding/functional-coding/error_collection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: AWS</title>
+      <link>/docs/coding/functional-coding/error_collection/aws/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/error_collection/aws/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;ec2&#34;&gt;EC2&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-bash: cd: directory/: Permission denied&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Reason: The ec2-user doesn&amp;rsquo;t have permission on that directory.&lt;/li&gt;
+&lt;li&gt;Solution:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo su -&lt;/code&gt; to become root. Then you&amp;rsquo;ll be able to go into the directory and do as you see fit.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo chmod 755 /home/ec2-user&lt;/code&gt; which will make that user directory world readable.&lt;/li&gt;
+&lt;li&gt;If the &lt;code&gt;ec2-user&lt;/code&gt; is a real user (i.e. has an entry in /etc/passwd) then you can &lt;code&gt;sudo su - ec2-user&lt;/code&gt; to become that operating system user.&lt;/li&gt;
+&lt;li&gt;The relative merits of the answers depend on the security that you want in your system. If you just need to look then the first or third answer are likely the best as they are not a persistent change. But if you really want to use that directory by the &lt;code&gt;ec2-user&lt;/code&gt; then you may want to use the second answer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;which-spark-kernel-to-use-on-aws-sagemaker&#34;&gt;Which Spark kernel to use on AWS SageMaker?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Use python3 and &lt;code&gt;import pysaprk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If you want to use &lt;code&gt;spark magic  &lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;You should also start Livy which is API service used by magicspark to talk to your Spark cluster.&lt;/li&gt;
+&lt;li&gt;How?
+&lt;ul&gt;
+&lt;li&gt;Download Livy from Apache Livy and unzip it&lt;/li&gt;
+&lt;li&gt;Check SPARK_HOME environment is set, if not, set to your Spark&lt;/li&gt;
+&lt;li&gt;Run Livy server by &lt;code&gt;&amp;lt;livy_home&amp;gt;/bin/livy-server&lt;/code&gt; in the command line&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Git</title>
+      <link>/docs/coding/functional-coding/error_collection/git/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/error_collection/git/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;commit&#34;&gt;Commit&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;How to revert last commit in the remote?&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git reset HEAD^ --hard&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git push -f&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to remove a file added in the most recent unpushed commit?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stage our giant file for removal, but leave it on disk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;git rm --cached giant_file&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Commit this change&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;git commit --amend -CHEAD&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Push our rewritten, smaller commit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;submodule&#34;&gt;Submodule&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;How to remove a Git submodule?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Delete the relevant section from the &lt;code&gt;.gitmodules&lt;/code&gt; file&lt;/li&gt;
+&lt;li&gt;Stage the .gitmodules changes &lt;code&gt;git add .gitmodules&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete the relevant section from &lt;code&gt;.git/config&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;git rm --cached path_to_submodule -r&lt;/code&gt; (no trailing slash)&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;rm -rf .git/modules/path_to_submodule&lt;/code&gt; (no trailing slash)&lt;/li&gt;
+&lt;li&gt;Commit &lt;code&gt;git commit -m &#39;Removed submodule&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete the now untracked submodule files &lt;code&gt;rm -rf path_to_submodule&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Pyspark</title>
+      <link>/docs/coding/functional-coding/error_collection/pyspark/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/error_collection/pyspark/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;warnings&#34;&gt;Warnings&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Python</title>
+      <link>/docs/coding/functional-coding/error_collection/python/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/error_collection/python/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;typeerror&#34;&gt;TypeError&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;TypeError: **init**\ () takes 1 positional argument but 3 were given&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Example: &lt;code&gt;bmi = calculate_bmi(heigh,weight)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Reason: only position arguments were passed
+&lt;code&gt;bmi = calculate_bmi(x,y)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Solution: pass keyword arguments
+&lt;code&gt;bmi = calculate_bmi(height=x,  weight=y)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Windows</title>
+      <link>/docs/coding/functional-coding/error_collection/windows/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/error_collection/windows/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;windows-command&#34;&gt;Windows Command&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;export is not recognized as an internal or external command&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solution: In Windows use &lt;code&gt;set&lt;/code&gt; instead of &lt;code&gt;export&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;windows-installation&#34;&gt;Windows Installation&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;How to install &lt;code&gt;make&lt;/code&gt; for Windows?
+&lt;ul&gt;
+&lt;li&gt;Run as an Administrator&lt;/li&gt;
+&lt;li&gt;Install &lt;code&gt;chocolatey&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;choco install make&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt; 
+&lt;h4 id=&#34;errors&#34;&gt;Errors&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;UnicodeDecodeError: &#39;charmap&#39; codec can&#39;t decode byte 0x8d in position 3896: character maps to &amp;lt;undefined&amp;gt;&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Solution: &lt;code&gt;rm ~/.python_history&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

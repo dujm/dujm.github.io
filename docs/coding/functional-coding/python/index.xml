@@ -1,0 +1,316 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Python</title>
+    <link>/docs/coding/functional-coding/python/</link>
+    <description>Recent content in Python on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/coding/functional-coding/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Read Files</title>
+      <link>/docs/coding/functional-coding/python/snippets-file-reading/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/python/snippets-file-reading/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;how-to-read-json-files-in-a-directory-to-a-dataframe&#34;&gt;How to read json files in a directory to a dataframe?&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;import pandas as pd
+import json, os
+
+# List of json files
+files = list(os.listdir(json_dir))[0:400]
+df = pd.DataFrame()
+for file in files:
+    json_path = os.path.join(json_dir, file)
+
+    # Load json files
+    with open(json_path) as json_file:
+        json_data = json.load(json_file)
+
+    # Convert to dataframe     
+    json_data_df = pd.io.json.json_normalize(json_data)
+    df = df.append(json_data_df)
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Unit Test</title>
+      <link>/docs/coding/functional-coding/python/unittest/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/python/unittest/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;unit-test&#34;&gt;Unit Test&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/library/unittest.html&#34;&gt;Unit testing framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;import unittest 
+from sklearn.metrics import precision_score, recall_score
+
+from src.train import prepare_data_and_train_model
+
+class TestModelMetrics(unittest.TestCase):
+  def test_model_precision_score_should_be_above_threshold(self):
+    model, X_test, Y_test = prepare_data_and_train_model()
+    Y_pred = model.predict(X_test)
+
+    precision = precision_score(Y_test, Y_pred)
+
+    self.assertGreaterEqual(precision, 0.7)
+
+  def test_model_recall_score_should_be_above_threshold(self):
+    model, X_test, Y_test = prepare_data_and_train_model()
+    Y_pred = model.predict(X_test)
+
+    recall = recall_score(Y_test, Y_pred)
+
+    self.assertGreaterEqual(recall, 0.6)
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://gist.githubusercontent.com/davified/41046fc2665804aa38da0098ab2f1b34/raw/3716b2fd3614e29591c3f0dbe981486bb5c5587d/test_model_metrics.py&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;read-more&#34;&gt;Read More&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/habits-for-managing-complexity-in-data-science-codebases-5a16314c3737&#34;&gt;Better habits for managing complexity in data science codebases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.pytest.org/en/latest/&#34;&gt;pytest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python-guide.org/writing/tests/&#34;&gt;Testing Your Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Outliers</title>
+      <link>/docs/coding/functional-coding/python/outliers/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/python/outliers/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;how-to-detect-and-remove-outliers&#34;&gt;How to detect and remove outliers?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove outliers by interquartile range (IQR)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;def remove_outliers_by_iqr(df,colname,iqr_threshold):
+
+  df_drop_na = df[df[colname].notnull()]
+  threshold = float(iqr_threshold)
+
+  Q3 = df_drop_na[colname].quantile(0.75)
+  Q1 = df_drop_na[colname].quantile(0.25)
+  IQR = Q3 - Q1
+
+  df_drop_na_qt = df_drop_na[~((df_drop_na[colname] &amp;lt; (Q1 - threshold * IQR)) |(df_drop_na[colname] &amp;gt; (Q3 + threshold * IQR)))]
+
+  number_nas = len(df.index) - df_drop_na[colname].count()
+  number_outliers = df_drop_na[colname].count() -df_drop_na_qt[colname].count()
+
+  print(&#39;Dataframe shape before removing outliers: &#39;, df.shape)
+  print(number_nas, &#39;rows where column&#39; ,colname,&#39;are NULL are removed&#39;)
+  print(&#39;Dataframe shape after removing NAs in the column&#39;, colname,&#39;:&#39;, df_drop_na.shape)
+  print(number_outliers, &#39;outliers are removed&#39;)
+  print(&#39;Dataframe shape after removing NAs and ourliers in the column&#39;, colname, &#39;by&#39;,iqr_threshold,&#39;* IQR:&#39;, df_drop_na_qt.shape)
+  return df_drop_na_qt
+
+df2= remove_outliers_by_iqr(df,&#39;area&#39;,1.5)    
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Remove outliers by Z score&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;def remove_outliers_by_z(df,colname,z_score_threshold):
+  df_drop_na = df[df[colname].notnull()]
+
+  from scipy import stats    
+  import numpy as np
+
+  z = np.abs(stats.zscore(df_drop_na[colname]))
+  df_drop_na_zoutlier =df_drop_na[(z &amp;lt; float(z_score_threshold))]
+
+  number_nas = len(df.index) - df_drop_na[colname].count()
+  number_outliers = df_drop_na[colname].count() -df_drop_na_zoutlier[colname].count()
+
+  print(&#39;Dataframe shape before removing outliers: &#39;, df.shape)
+  print(number_nas, &#39;rows where column&#39; ,colname,&#39;are NULL are removed&#39;)
+  print(&#39;Dataframe shape after removing NAs in the column&#39;, colname, &#39;:&#39;, df_drop_na.shape)
+  print(number_outliers, &#39;outliers are removed&#39;)
+  print(&#39;Dataframe shape after removing NAs and ourliers in the column&#39;, colname, &#39;by Z score threshold&#39;,z_score_threshold,&#39;:&#39;, df_drop_na_zoutlier.shape)
+  return df_drop_na_zoutlier
+
+df3= remove_outliers_by_z(df,&#39;area&#39;,3)
+
+&lt;/code&gt;&lt;/pre&gt;  &lt;br&gt;
+&lt;h3 id=&#34;what-kind-of-outliers-should-be-removed&#34;&gt;What kind of outliers should be removed?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Wrong calculation, these can be identified as Outliers should be dropped but at the same time you might want to correct them too, as they &lt;a href=&#34;https://towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba&#34;&gt;&lt;strong&gt;change the level of data&lt;/strong&gt; and cause issues when you model your data.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;br&gt;
+&lt;h3 id=&#34;what-kind-of-outliers-should-not-be-removed&#34;&gt;What kind of outliers should not be removed?&lt;/h3&gt;
+  &lt;br&gt;
+&lt;h3 id=&#34;read-more&#34;&gt;Read more&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://haridas.in/outlier-removal-clustering.html&#34;&gt;Outlier removal clustering&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/post/When_is_it_justifiable_to_exclude_outlier_data_points_from_statistical_analyses&#34;&gt;1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/post/Which_is_the_best_method_for_removing_outliers_in_a_data_set&#34;&gt;2&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.theanalysisfactor.com/outliers-to-drop-or-not-to-drop/&#34;&gt;3&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Bar Plot</title>
+      <link>/docs/coding/functional-coding/python/plot/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/python/plot/</guid>
+      <description>
+        
+        
+        &lt;h4 id=&#34;bar-plot&#34;&gt;Bar Plot&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;import matplotlib.pyplot as plt
+def plot_count(df, feature, title=&#39;&#39;, size=2):
+    f, ax = plt.subplots(1,1, figsize=(4*size,3*size))
+    total = float(len(df))
+    sns.countplot(df[feature],order = df[feature].value_counts().index, palette=&#39;Set2&#39;)
+    plt.title(title)
+    for p in ax.patches:
+        height = p.get_height()
+        ax.text(p.get_x()+p.get_width()/2.,
+                height + 3,
+                &#39;{:1.2f}%&#39;.format(100*height/total),
+                ha=&amp;quot;center&amp;quot;) 
+    plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: f-string</title>
+      <link>/docs/coding/functional-coding/python/f-string/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/python/f-string/</guid>
+      <description>
+        
+        
+        &lt;h4 id=&#34;python-f-string-formatting&#34;&gt;Python f-string formatting&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All examples below were executed in Python interactive shell&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;precision&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; import math
+&amp;gt;&amp;gt;&amp;gt; math.pi
+3.141592653589793
+&amp;gt;&amp;gt;&amp;gt; f&#39;{math.pi:.2f}&#39;
+&#39;3.14&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;grouping_option&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{1000000:,.2f}&#39;
+&#39;1,000,000.00&#39;
+&amp;gt;&amp;gt;&amp;gt; f&#39;{1000000:_.2f}&#39;
+&#39;1_000_000.00&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;with numbers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{12345:0&amp;gt;10}&#39;
+&#39;0000012345&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;negative numbers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{-12345:0=10}&#39;
+&#39;-000012345&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;shortcut (no align)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{12345:010}&#39;
+&#39;0000012345&#39;
+&amp;gt;&amp;gt;&amp;gt; f&#39;{-12345:010}&#39;
+&#39;-000012345&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;sign (+/-)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{12345:+}&#39;
+&#39;+12345&#39;
+&amp;gt;&amp;gt;&amp;gt; f&#39;{-12345:+}&#39;
+&#39;-12345&#39;
+&amp;gt;&amp;gt;&amp;gt; f&#39;{-12345:+10}&#39;
+&#39;    -12345&#39;
+&amp;gt;&amp;gt;&amp;gt; f&#39;{-12345:+010}&#39;
+&#39;-000012345&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;binary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{10:b}&#39;
+&#39;1010&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;octal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{10:o}&#39;
+&#39;12&#39; 
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;hexadecimal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{200:x}&#39;
+&#39;c8&#39;
+&amp;gt;&amp;gt;&amp;gt; f&#39;{200:X}&#39;
+&#39;C8&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;scientific notation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{345600000000:e}&#39;
+&#39;3.456000e+11&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;character type&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{65:c}&#39;  
+&#39;A&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;with notation (base)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{10:#b}&#39;
+&#39;0b1010&#39;
+&amp;gt;&amp;gt;&amp;gt; f&#39;{10:#o}&#39;
+&#39;0o12&#39;
+&amp;gt;&amp;gt;&amp;gt; f&#39;{10:#x}&#39;
+&#39;0xa&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;- percentage (multiply by 100)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; f&#39;{0.25:0%}&#39;
+&#39;25.000000%&#39;
+&amp;gt;&amp;gt;&amp;gt; f&#39;{0.25:.0%}&#39;
+&#39;25%&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
+&lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/s-sebastian/myshell-src&#34;&gt;myshell-src&lt;/a&gt;  has waived all copyright and related or neighboring rights to this file.&lt;/p&gt;
+&lt;br&gt; 
+      </description>
+    </item>
+    
+  </channel>
+</rss>
