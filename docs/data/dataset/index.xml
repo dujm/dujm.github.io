@@ -15,16 +15,16 @@
     
     
     <item>
-      <title>Docs: Find Dataset</title>
-      <link>/docs/data/dataset/datasets/</link>
+      <title>Docs: Find Data</title>
+      <link>/docs/data/dataset/find-data/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/dataset/datasets/</guid>
+      <guid>/docs/data/dataset/find-data/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;h2 id=&#34;1-tensorflow-datasets&#34;&gt;1. TensorFlow Datasets&lt;/h2&gt;
+&lt;h4 id=&#34;1-tensorflow-datasets&#34;&gt;1. TensorFlow Datasets&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;# Install: pip install tensorflow-datasets
 
 import tensorflow_datasets as tfds
@@ -36,12 +36,12 @@ mnist_train, mnist_test = mnist_data[&amp;quot;train&amp;quot;], mnist_data[&amp
 assert isinstance(mnist_train, tf.data.Dataset)
 
 &lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h2 id=&#34;2-data-for-everyone&#34;&gt;2. Data For Everyone&lt;/h2&gt;
+&lt;h4 id=&#34;2-data-for-everyone&#34;&gt;2. Data For Everyone&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.figure-eight.com/data-for-everyone/&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;3-autonomous-driving-dataset&#34;&gt;3. Autonomous Driving Dataset&lt;/h2&gt;
+&lt;h4 id=&#34;3-autonomous-driving-dataset&#34;&gt;3. Autonomous Driving Dataset&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.a2d2.audi/a2d2/en/download.html&#34;&gt;Audi A2D2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -49,7 +49,7 @@ assert isinstance(mnist_train, tf.data.Dataset)
 &lt;p&gt;A2D2 is around 2.3 TB in total. It is split by annotation type (i.e. semantic segmentation, 3D bounding box), to break up the download into smaller packages. Each split is packaged into a single tar file, while the remaining unlabelled sequence data is split into multiple tar files.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt; 
-&lt;h2 id=&#34;4-sound&#34;&gt;4. Sound&lt;/h2&gt;
+&lt;h4 id=&#34;4-sound&#34;&gt;4. Sound&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/turpaultn/DESED&#34;&gt;DESED&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -67,6 +67,32 @@ assert isinstance(mnist_train, tf.data.Dataset)
 &lt;li&gt;&lt;a href=&#34;https://github.com/tensorflow/tensor2tensor&#34;&gt;tensor2tensor&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Build Data</title>
+      <link>/docs/data/dataset/build-data/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/dataset/build-data/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;snorkel&#34;&gt;Snorkel&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://snorkel.org&#34;&gt;Snorkel website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/snorkel-team/snorkel-tutorials&#34;&gt;Snorkel tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://snorkel.readthedocs.io/&#34;&gt;Snorkel documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://spectrum.chat/snorkel&#34;&gt;Snorkel community forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/snorkel-ml&#34;&gt;Snorkel mailing list&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/SnorkelML&#34;&gt;Snorkel Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install snorkel
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or &lt;code&gt;conda&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;conda install snorkel -c conda-forge
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     

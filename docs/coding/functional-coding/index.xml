@@ -114,7 +114,11 @@ Choose type 5 or p (for patch)&lt;/p&gt;
 &lt;li&gt;If git presents you with a chunk larger than what you would like to add, you can use the &amp;ldquo;e&amp;rdquo; interactive command to specify the exact lines that you want added or removed. This is probably the most powerful option. As promised, it will open the hunk in a text editor and you can edit it to your hearts content&lt;/li&gt;
 &lt;li&gt;Split the hunk into smaller hunks. This only works if there’s unchanged lines between the changes in the displayed hunk, so this wouldn’t have any effect in the example above&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;br&gt;
+&lt;h2 id=&#34;remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesystem&#34;&gt;Remove a file from a Git repository without deleting it from the local filesystem&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;git rm --cached file
+git rm -r --cached folderName
+&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     

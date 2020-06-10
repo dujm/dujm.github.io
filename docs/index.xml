@@ -443,16 +443,16 @@ conda clean -a
     </item>
     
     <item>
-      <title>Docs: Find Dataset</title>
-      <link>/docs/data/dataset/datasets/</link>
+      <title>Docs: Find Data</title>
+      <link>/docs/data/dataset/find-data/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/dataset/datasets/</guid>
+      <guid>/docs/data/dataset/find-data/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;h2 id=&#34;1-tensorflow-datasets&#34;&gt;1. TensorFlow Datasets&lt;/h2&gt;
+&lt;h4 id=&#34;1-tensorflow-datasets&#34;&gt;1. TensorFlow Datasets&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;# Install: pip install tensorflow-datasets
 
 import tensorflow_datasets as tfds
@@ -464,12 +464,12 @@ mnist_train, mnist_test = mnist_data[&amp;quot;train&amp;quot;], mnist_data[&amp
 assert isinstance(mnist_train, tf.data.Dataset)
 
 &lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h2 id=&#34;2-data-for-everyone&#34;&gt;2. Data For Everyone&lt;/h2&gt;
+&lt;h4 id=&#34;2-data-for-everyone&#34;&gt;2. Data For Everyone&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.figure-eight.com/data-for-everyone/&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;3-autonomous-driving-dataset&#34;&gt;3. Autonomous Driving Dataset&lt;/h2&gt;
+&lt;h4 id=&#34;3-autonomous-driving-dataset&#34;&gt;3. Autonomous Driving Dataset&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.a2d2.audi/a2d2/en/download.html&#34;&gt;Audi A2D2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -477,7 +477,7 @@ assert isinstance(mnist_train, tf.data.Dataset)
 &lt;p&gt;A2D2 is around 2.3 TB in total. It is split by annotation type (i.e. semantic segmentation, 3D bounding box), to break up the download into smaller packages. Each split is packaged into a single tar file, while the remaining unlabelled sequence data is split into multiple tar files.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt; 
-&lt;h2 id=&#34;4-sound&#34;&gt;4. Sound&lt;/h2&gt;
+&lt;h4 id=&#34;4-sound&#34;&gt;4. Sound&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/turpaultn/DESED&#34;&gt;DESED&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1737,6 +1737,32 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://vsranker.broadinstitute.org/&#34;&gt;Variant Ranker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Build Data</title>
+      <link>/docs/data/dataset/build-data/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/dataset/build-data/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;snorkel&#34;&gt;Snorkel&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://snorkel.org&#34;&gt;Snorkel website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/snorkel-team/snorkel-tutorials&#34;&gt;Snorkel tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://snorkel.readthedocs.io/&#34;&gt;Snorkel documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://spectrum.chat/snorkel&#34;&gt;Snorkel community forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/snorkel-ml&#34;&gt;Snorkel mailing list&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/SnorkelML&#34;&gt;Snorkel Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install snorkel
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or &lt;code&gt;conda&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;conda install snorkel -c conda-forge
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     
@@ -6613,7 +6639,11 @@ Choose type 5 or p (for patch)&lt;/p&gt;
 &lt;li&gt;If git presents you with a chunk larger than what you would like to add, you can use the &amp;ldquo;e&amp;rdquo; interactive command to specify the exact lines that you want added or removed. This is probably the most powerful option. As promised, it will open the hunk in a text editor and you can edit it to your hearts content&lt;/li&gt;
 &lt;li&gt;Split the hunk into smaller hunks. This only works if there’s unchanged lines between the changes in the displayed hunk, so this wouldn’t have any effect in the example above&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;br&gt;
+&lt;h2 id=&#34;remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesystem&#34;&gt;Remove a file from a Git repository without deleting it from the local filesystem&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;git rm --cached file
+git rm -r --cached folderName
+&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     
@@ -7377,107 +7407,6 @@ In the dropdown menu, select &#39;Save a copy in GitHub&#39;
 &lt;li&gt;Edward Meinert&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;course-notes-httpsgithubcomdujmhealth_datablobmasterreportshealth_data_coursepdf&#34;&gt;&lt;a href=&#34;https://github.com/dujm/Health_Data/blob/master/reports/Health_data_course.pdf&#34;&gt;Course Notes &lt;/a&gt;&lt;/h4&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Hugo Website</title>
-      <link>/docs/web/hugo-website/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/web/hugo-website/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;How to build a beautiful website using Hugo?&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;br&gt;
-&lt;h4 id=&#34;what-is-hugo&#34;&gt;What is Hugo?&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo&#34;&gt;Hugo&lt;/a&gt; is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;1-create-two-repos-on-your-github&#34;&gt;1. Create two repos on your GitHub&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a &lt;code&gt;your-project (e.g. hugo-website)&lt;/code&gt; repository on GitHub.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This repository will contain Hugo’s content and other source files.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a &lt;code&gt;yourusrname.github.io&lt;/code&gt; GitHub repository.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is the repository that will contain the fully rendered version of your Hugo website.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;2-add-website-content-in-your-project-eg-hugo-website&#34;&gt;2. Add website content in &lt;code&gt;your-project (e.g. hugo-website)&lt;/code&gt;&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;# Add a new repo `hugo-website`on your GitHub
-git clone git@github.com:yourusrname/hugo-website.git&amp;amp;&amp;amp; cd hugo-website
-git init
-
-# Add a theme (e.g. docsy) as a submodule
-git submodule add https://github.com/google/docsy.git themes/docsy
-echo &#39;theme = &amp;quot;docsy&amp;quot;&#39; &amp;gt;&amp;gt; config.toml
-git submodule update --init --recursive
-
-# Commit in your repo
-git add .
-git commit &#39;initial commit&#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h4 id=&#34;3-deploy-to-yourusrnamegithubio&#34;&gt;3. Deploy to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Make sure your website works locally
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;hugo server&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;open your browser to &lt;code&gt;http://localhost:1313&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Prepare a &lt;code&gt;deploy.sh&lt;/code&gt; file&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;# ./deploy.sh
-set -e
-printf &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m\n&amp;quot;
-
-# Build the project.
-#hugo #-t docsy # if using a theme, replace with `hugo -t &amp;lt;YOURTHEME&amp;gt;`
-hugo -t docsy
-
-# Go To Public folder
-cd public
-
-# Add changes to git.
-git add .
-
-# Commit changes.
-msg=&amp;quot;rebuilding site $(date)&amp;quot;
-if [ -n &amp;quot;$*&amp;quot; ]; then
-	msg=&amp;quot;$*&amp;quot;
-fi
-git commit -m &amp;quot;$msg&amp;quot;
-
-# Push source and build repos.
-git push origin master
-
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Deploy your website to your &lt;code&gt;yourusrname.githu.bio&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;git submodule add -b master git@github.com:dujm/dujm.github.io.git public
-
-./deploy.sh &amp;quot;v0&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;The public folder will be pushed to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Check your website &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;Host on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
       </description>
     </item>

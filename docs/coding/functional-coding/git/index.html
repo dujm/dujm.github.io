@@ -38,7 +38,7 @@
   git add -i   Git will ask you which files you would like to partially stage Then, for each section of the selected files, it will display hunks of the file diff and ask if you would like to stage them one by one.">
 <meta itemprop="datePublished" content="2020-05-18T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-05-18T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="445">
+<meta itemprop="wordCount" content="468">
 
 
 
@@ -464,7 +464,13 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatadatasetdatasets" href="/docs/data/dataset/datasets/">Find Dataset</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatadatasetfind-data" href="/docs/data/dataset/find-data/">Find Data</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatadatasetbuild-data" href="/docs/data/dataset/build-data/">Build Data</a>
       
       
     </li>
@@ -1227,13 +1233,42 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningprojects" href="/docs/machinelearning/projects/">Projects</a>
-      
-      
-      
-      
-      
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningkaggle" href="/docs/machinelearning/kaggle/">Kaggle</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/privacy/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Privacy</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningprivacy">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningprivacydifferential-privacy" href="/docs/machinelearning/privacy/differential-privacy/">Differential Privacy</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningprojects" href="/docs/machinelearning/projects/">Projects</a>
       
       
     </li>
@@ -1525,6 +1560,17 @@
 
 
 
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesystem">Remove a file from a Git repository without deleting it from the local filesystem</a></li>
+  </ul>
+</nav>
+
 
 
           </div>
@@ -1645,7 +1691,11 @@ Choose type 5 or p (for patch)</p>
 <li>If git presents you with a chunk larger than what you would like to add, you can use the &ldquo;e&rdquo; interactive command to specify the exact lines that you want added or removed. This is probably the most powerful option. As promised, it will open the hunk in a text editor and you can edit it to your hearts content</li>
 <li>Split the hunk into smaller hunks. This only works if there’s unchanged lines between the changes in the displayed hunk, so this wouldn’t have any effect in the example above</li>
 </ul>
-
+<br>
+<h2 id="remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesystem">Remove a file from a Git repository without deleting it from the local filesystem</h2>
+<pre><code>git rm --cached file
+git rm -r --cached folderName
+</code></pre>
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified May 18, 2020
