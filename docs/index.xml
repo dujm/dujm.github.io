@@ -1755,10 +1755,8 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://snorkel.org&#34;&gt;Snorkel website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/snorkel-team/snorkel-tutorials&#34;&gt;Snorkel tutorials&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://snorkel.readthedocs.io/&#34;&gt;Snorkel documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://spectrum.chat/snorkel&#34;&gt;Snorkel community forum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/snorkel-ml&#34;&gt;Snorkel mailing list&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/SnorkelML&#34;&gt;Snorkel Twitter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h5 id=&#34;installation&#34;&gt;Installation&lt;/h5&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install snorkel
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or &lt;code&gt;conda&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;conda install snorkel -c conda-forge
@@ -6640,7 +6638,7 @@ Choose type 5 or p (for patch)&lt;/p&gt;
 &lt;li&gt;Split the hunk into smaller hunks. This only works if there’s unchanged lines between the changes in the displayed hunk, so this wouldn’t have any effect in the example above&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesystem&#34;&gt;Remove a file from a Git repository without deleting it from the local filesystem&lt;/h2&gt;
+&lt;h4 id=&#34;remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesystem&#34;&gt;Remove a file from a Git repository without deleting it from the local filesystem&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;git rm --cached file
 git rm -r --cached folderName
 &lt;/code&gt;&lt;/pre&gt;

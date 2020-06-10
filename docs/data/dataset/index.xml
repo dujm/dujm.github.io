@@ -85,10 +85,8 @@ assert isinstance(mnist_train, tf.data.Dataset)
 &lt;li&gt;&lt;a href=&#34;https://snorkel.org&#34;&gt;Snorkel website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/snorkel-team/snorkel-tutorials&#34;&gt;Snorkel tutorials&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://snorkel.readthedocs.io/&#34;&gt;Snorkel documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://spectrum.chat/snorkel&#34;&gt;Snorkel community forum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/snorkel-ml&#34;&gt;Snorkel mailing list&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/SnorkelML&#34;&gt;Snorkel Twitter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h5 id=&#34;installation&#34;&gt;Installation&lt;/h5&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install snorkel
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or &lt;code&gt;conda&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;conda install snorkel -c conda-forge
