@@ -1,0 +1,183 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – FreeCodeCamp</title>
+    <link>/docs/coding/functional-coding/javascript/freecodecamp/</link>
+    <description>Recent content in FreeCodeCamp on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/coding/functional-coding/javascript/freecodecamp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Introduction</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/basics/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/basics/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;br&gt; 
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;1-basic-javascript&#34;&gt;1. Basic JavaScript&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Comment&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; //exactitude
+ /* hi, 
+ how is the novel?*/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Seven Data types&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;undefined: declared variables without values&lt;/li&gt;
+&lt;li&gt;null&lt;/li&gt;
+&lt;li&gt;symbol&lt;/li&gt;
+&lt;li&gt;boolean&lt;/li&gt;
+&lt;li&gt;string: immutable&lt;/li&gt;
+&lt;li&gt;number&lt;/li&gt;
+&lt;li&gt;object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-variable-name&#34;&gt;2. Variable name&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Variable name can be&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;letters: case sensitive&lt;/li&gt;
+&lt;li&gt;numbers&lt;/li&gt;
+&lt;li&gt;symbols &lt;code&gt;$&lt;/code&gt; and &lt;code&gt;_&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Best practice&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;camelCase:  multi-word variable names have the first word in lowercase and the first letter of each subsequent word is capitalized&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;var anOrdinaryMan
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-numeric-variable&#34;&gt;3. Numeric variable&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Store a value in a variable&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;var q = 1.1
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Value Operator&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Increment and decrement&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;i = 19
+i++ 
+// is the equivalent of i = i + 1
+  
+i-- 
+// is the equivalent of i = i - 1
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remainder operator &lt;code&gt;%&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;17 % 2 = 1 // 17 is odd
+18 % 2 = 0 // 18 is even
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compound assignment With augmented addition, substraction, multiplication and devision&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;var a = 90;
+a += 9; // this is equal to a = a + 9;
+a -= 9; // this is equal to a = a -9;
+a *= 9; // this is eqaul to a = a * 9;
+a /= 9; // this is equal to a = a / 9;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4-string-variable&#34;&gt;4. String variable&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;var p = &amp;quot;Mauriat&amp;quot;;
+
+# Escaping Literal Quotes in Strings
+var p = &amp;quot;Mauriat said, \&amp;quot;I worked as an arranger for other artists \&amp;quot;.&amp;quot;;
+
+# Quoting Strings with Single Quotes
+var myStr = &#39;&amp;lt;a href=&amp;quot;http://www.example.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Link&amp;lt;/a&amp;gt;&#39;;
+
+# Escape Sequences in Strings
+var myStr = &#39;FirstLine\n\t\\SecondLine\nThirdLine&#39;; // Change this line
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Escaping characters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;th&gt;Output&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;-&#39;&lt;/td&gt;
+&lt;td&gt;single quote&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;quot;&lt;/td&gt;
+&lt;td&gt;double quote&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\&lt;/td&gt;
+&lt;td&gt;backslash&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\n&lt;/td&gt;
+&lt;td&gt;newline&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\r&lt;/td&gt;
+&lt;td&gt;carriage return&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\t&lt;/td&gt;
+&lt;td&gt;tab&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\b&lt;/td&gt;
+&lt;td&gt;word boundary&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\f&lt;/td&gt;
+&lt;td&gt;form feed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Concatenating Strings with plus operator, plus equals operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var myWords = &amp;quot;I hear &amp;quot; + &amp;quot;you say: &amp;quot;; 
+
+var myWords += &amp;quot;It&#39;s gonna be OK&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Find the lenth of a String&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var myWordseLength = myWords.length;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Use bracket notation to find the first/last character in a string&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var firstLetter = myWords[0];
+var lastLetter = myWords[myWords.length-1];
+var thirdToLastLetter = myWords[myWords.length - 3]; 
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

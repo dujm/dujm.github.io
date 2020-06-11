@@ -41,6 +41,19 @@
     </item>
     
     <item>
+      <title>Docs: JavaScript</title>
+      <link>/docs/coding/functional-coding/javascript/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Git</title>
       <link>/docs/coding/functional-coding/git/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
@@ -180,26 +193,6 @@ mdbook serve
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/GitbookIO/gitbook&#34;&gt;GitBook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Javascript</title>
-      <link>/docs/coding/functional-coding/javascript/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/coding/functional-coding/javascript/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h4 id=&#34;how-to-create-and-change-emojis-using-javascript&#34;&gt;How to create and change emojis using JavaScript?&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/coding/javascript.jpg&#34; alt=&#34;js-emojis&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/mgechev/status/1250672809946370051?s=20&#34;&gt;Image from Minko Gechev&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt; 
-&lt;h4 id=&#34;read-more&#34;&gt;Read More&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://mathiasbynens.be/notes/javascript-unicode&#34;&gt;JavaScript has a Unicode problem&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
