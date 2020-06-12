@@ -564,18 +564,38 @@ assert isinstance(mnist_train, tf.data.Dataset)
     </item>
     
     <item>
-      <title>Docs: Introduction</title>
-      <link>/docs/coding/functional-coding/javascript/freecodecamp/basics/</link>
+      <title>Docs: Emojis</title>
+      <link>/docs/coding/expressitive-coding/emojis/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/javascript/freecodecamp/basics/</guid>
+      <guid>/docs/coding/expressitive-coding/emojis/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;how-to-create-and-change-emojis-using-javascript&#34;&gt;How to create and change emojis using JavaScript?&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/coding/javascript.jpg&#34; alt=&#34;js-emojis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/mgechev/status/1250672809946370051?s=20&#34;&gt;Image from Minko Gechev&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt; 
+&lt;h4 id=&#34;read-more&#34;&gt;Read More&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://mathiasbynens.be/notes/javascript-unicode&#34;&gt;JavaScript has a Unicode problem&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Variable</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/variable/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/variable/</guid>
       <description>
         
         
         &lt;br&gt;
 &lt;br&gt; 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;1-basic-javascript&#34;&gt;1. Basic JavaScript&lt;/h4&gt;
 &lt;ul&gt;
@@ -724,7 +744,70 @@ var myWords += &amp;quot;It&#39;s gonna be OK&amp;quot;;
 &lt;pre&gt;&lt;code&gt;var firstLetter = myWords[0];
 var lastLetter = myWords[myWords.length-1];
 var thirdToLastLetter = myWords[myWords.length - 3]; 
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;5-array-variable&#34;&gt;5. Array variable&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Store multiple values in one variable using JavaScript arrays&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   var myArray = [&amp;quot;a&amp;quot;,1]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Multidimensional array: nest one array within another array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   var myArray = [[&amp;quot;a&amp;quot;,1],[&amp;quot;b&amp;quot;,2]]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Access array data with indexes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   var myData = myArray[0]
+
+   # Access array of arrays 
+   var arr = [
+     [1,2,3],
+     [4,5,6],
+     [7,8,9],
+     [[10,11,12], 13, 14]
+     ];
+   arr[3]; // equals [[10,11,12], 13, 14]
+   arr[3][0]; // equals [10,11,12]
+   arr[3][0][1]; // equals 11
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Modify array data with indexes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;  var ourArray = [50,40,30];
+  ourArray[0] = 15; // equals [15,40,30]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Manipulate arrays with push()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var arr1 = [1,2,3];
+arr1.push(4);
+// arr1 is now [1,2,3,4]
+
+var arr2 = [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, &amp;quot;cat&amp;quot;];
+arr2.push([&amp;quot;happy&amp;quot;, &amp;quot;joy&amp;quot;]);
+// arr2 now equals [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, &amp;quot;cat&amp;quot;, [&amp;quot;happy&amp;quot;, &amp;quot;joy&amp;quot;]]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Remove the first element from an array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var ourArray = [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, [&amp;quot;cat&amp;quot;]];
+var removedFromOurArray = ourArray.shift();
+// removedFromOurArray now equals &amp;quot;Stimpson&amp;quot; and ourArray now equals [&amp;quot;J&amp;quot;, [&amp;quot;cat&amp;quot;]]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Remove the last element from an array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
+console.log(oneDown); // Returns 6
+console.log(threeArr); // Returns [1, 4]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Add an element to the beginning of an array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var ourArray = [&amp;quot;Stimpson&amp;quot;, &amp;quot;dog&amp;quot;];
+ourArray.shift(); // ourArray now equals [&amp;quot;dog&amp;quot;]
+ourArray.unshift(&amp;quot;Happy&amp;quot;);
+// ourArray now equals [&amp;quot;Happy&amp;quot;, &amp;quot;dog&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/store-multiple-values-in-one-variable-using-javascript-arrays&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
       </description>
     </item>
     
@@ -1931,10 +2014,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: Creative Coding</title>
-      <link>/docs/coding/creative-coding/</link>
+      <link>/docs/coding/expressitive-coding/creative-coding/</link>
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/creative-coding/</guid>
+      <guid>/docs/coding/expressitive-coding/creative-coding/</guid>
       <description>
         
         
@@ -7494,60 +7577,6 @@ sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install google-cloud-sdk
 gcloud auth application-default login
 gcloud auth list
 &lt;/code&gt;&lt;/pre&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Google Colab</title>
-      <link>/docs/cloud/colab/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/cloud/colab/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h4 id=&#34;how-to-load-csv-files-to-colab&#34;&gt;How to load csv files to colab?&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;From Github (Files &amp;lt; 25MB)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;  import pandas as pd
-  url = &#39;copied_raw_link&#39;
-  df1 = pd.read_csv(url)
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;From a local drive&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;  From google.colab import files  
-  uploaded = files.upload()
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h3 id=&#34;what-is-colab&#34;&gt;What is colab?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Colab (short for Colaboratory) is a free platform from Google that allows users to code in Python.&lt;/li&gt;
-&lt;li&gt;Colab is essentially the Google Suite version of a Jupyter Notebook.&lt;/li&gt;
-&lt;li&gt;Advantages of Colab over Jupyter include:
-&lt;ul&gt;
-&lt;li&gt;an easier installation of packages&lt;/li&gt;
-&lt;li&gt;easy sharing of documents
-&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;how-to-save-a-colab-notebook-to-github&#34;&gt;How to save a colab notebook to GitHub?&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;cmd/ctrl-shift-P
-In the dropdown menu, select &#39;Save a copy in GitHub&#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h3 id=&#34;how-to-use-tensorflow-with-gpu&#34;&gt;How to use TensorFlow with GPU?&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/notebooks/gpu.ipynb&#34;&gt;demo code&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;more-examples&#34;&gt;More examples&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/drive/17u-pRZJnKN0gO5XZmq8n5A2bKGrfKEUg&#34;&gt;TensorFlow 2.0 + Keras&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/3-ways-to-load-csv-files-into-colab-7c14fcbdcb92&#34;&gt;3 Ways to Load CSV files into Colab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/notebooks/welcome.ipynb&#34;&gt;Colab&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
       </description>
     </item>
     

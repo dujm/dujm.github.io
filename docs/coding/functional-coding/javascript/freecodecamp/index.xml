@@ -15,18 +15,18 @@
     
     
     <item>
-      <title>Docs: Introduction</title>
-      <link>/docs/coding/functional-coding/javascript/freecodecamp/basics/</link>
+      <title>Docs: Variable</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/variable/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/javascript/freecodecamp/basics/</guid>
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/variable/</guid>
       <description>
         
         
         &lt;br&gt;
 &lt;br&gt; 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;1-basic-javascript&#34;&gt;1. Basic JavaScript&lt;/h4&gt;
 &lt;ul&gt;
@@ -175,7 +175,70 @@ var myWords += &amp;quot;It&#39;s gonna be OK&amp;quot;;
 &lt;pre&gt;&lt;code&gt;var firstLetter = myWords[0];
 var lastLetter = myWords[myWords.length-1];
 var thirdToLastLetter = myWords[myWords.length - 3]; 
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;5-array-variable&#34;&gt;5. Array variable&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Store multiple values in one variable using JavaScript arrays&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   var myArray = [&amp;quot;a&amp;quot;,1]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Multidimensional array: nest one array within another array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   var myArray = [[&amp;quot;a&amp;quot;,1],[&amp;quot;b&amp;quot;,2]]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Access array data with indexes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   var myData = myArray[0]
+
+   # Access array of arrays 
+   var arr = [
+     [1,2,3],
+     [4,5,6],
+     [7,8,9],
+     [[10,11,12], 13, 14]
+     ];
+   arr[3]; // equals [[10,11,12], 13, 14]
+   arr[3][0]; // equals [10,11,12]
+   arr[3][0][1]; // equals 11
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Modify array data with indexes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;  var ourArray = [50,40,30];
+  ourArray[0] = 15; // equals [15,40,30]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Manipulate arrays with push()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var arr1 = [1,2,3];
+arr1.push(4);
+// arr1 is now [1,2,3,4]
+
+var arr2 = [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, &amp;quot;cat&amp;quot;];
+arr2.push([&amp;quot;happy&amp;quot;, &amp;quot;joy&amp;quot;]);
+// arr2 now equals [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, &amp;quot;cat&amp;quot;, [&amp;quot;happy&amp;quot;, &amp;quot;joy&amp;quot;]]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Remove the first element from an array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var ourArray = [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, [&amp;quot;cat&amp;quot;]];
+var removedFromOurArray = ourArray.shift();
+// removedFromOurArray now equals &amp;quot;Stimpson&amp;quot; and ourArray now equals [&amp;quot;J&amp;quot;, [&amp;quot;cat&amp;quot;]]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Remove the last element from an array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
+console.log(oneDown); // Returns 6
+console.log(threeArr); // Returns [1, 4]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Add an element to the beginning of an array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var ourArray = [&amp;quot;Stimpson&amp;quot;, &amp;quot;dog&amp;quot;];
+ourArray.shift(); // ourArray now equals [&amp;quot;dog&amp;quot;]
+ourArray.unshift(&amp;quot;Happy&amp;quot;);
+// ourArray now equals [&amp;quot;Happy&amp;quot;, &amp;quot;dog&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/store-multiple-values-in-one-variable-using-javascript-arrays&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
       </description>
     </item>
     
