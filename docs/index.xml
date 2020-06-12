@@ -5120,7 +5120,8 @@ var myPlants = [
 ];
 
 var secondTree = myPlants[1].list[1]; // pine
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/record-collection&#34;&gt;Course link&lt;/a&gt;&lt;/p&gt;
+
       </description>
     </item>
     
