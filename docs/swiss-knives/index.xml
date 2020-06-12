@@ -1386,7 +1386,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;building-a-simple-compilerinterpreter&#34;&gt;Building a Simple Compiler/Interpreter&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/thejameskyle/the-super-tiny-compiler&#34;&gt;:snowman: Possibly the smallest compiler ever&lt;/a&gt; : This is an ultra-simplified example of all the major pieces of a modern compiler written in easy to read JavaScript.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/thejameskyle/the-super-tiny-compiler&#34;&gt;☃ Possibly the smallest compiler ever&lt;/a&gt; : This is an ultra-simplified example of all the major pieces of a modern compiler written in easy to read JavaScript.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://aalhour.com/awesome-compilers/&#34;&gt;Awesome Compilers&lt;/a&gt; : Curated list of awesome resources on Compilers, Interpreters and Runtimes.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cs.dartmouth.edu/~mckeeman/cs48/mxcom/gem/html/GrowingCompiler.html&#34;&gt;Growing a compiler&lt;/a&gt; : Learn how to grow a compiler&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ruslanspivak.com/lsbasi-part1/&#34;&gt;Let’s Build A Simple Interpreter. Part 1.&lt;/a&gt; : Try to demystify compilers by building one&lt;/li&gt;

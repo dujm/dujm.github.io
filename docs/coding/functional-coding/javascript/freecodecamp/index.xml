@@ -17,7 +17,7 @@
     <item>
       <title>Docs: Variable</title>
       <link>/docs/coding/functional-coding/javascript/freecodecamp/variable/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/coding/functional-coding/javascript/freecodecamp/variable/</guid>
       <description>
@@ -49,7 +49,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;2-variable-name&#34;&gt;2. Variable name&lt;/h4&gt;
+&lt;h4 id=&#34;2-variable&#34;&gt;2. Variable&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Variable name can be&lt;/p&gt;
@@ -62,6 +62,9 @@
 &lt;li&gt;
 &lt;p&gt;Best practice&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Always declare an variable with the &lt;code&gt;var&lt;/code&gt; keyword explicitly&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;camelCase:  multi-word variable names have the first word in lowercase and the first letter of each subsequent word is capitalized&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;var anOrdinaryMan
@@ -234,11 +237,588 @@ console.log(threeArr); // Returns [1, 4]
 ourArray.shift(); // ourArray now equals [&amp;quot;dog&amp;quot;]
 ourArray.unshift(&amp;quot;Happy&amp;quot;);
 // ourArray now equals [&amp;quot;Happy&amp;quot;, &amp;quot;dog&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;6-boolean&#34;&gt;6. Boolean&lt;/h4&gt;
+&lt;p&gt;Boolean values are never written with quotes.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/store-multiple-values-in-one-variable-using-javascript-arrays&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The strings &amp;ldquo;true&amp;rdquo; and &amp;ldquo;false&amp;rdquo; are not Boolean and have no special meaning in JavaScript.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Function</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/function/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/function/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;br&gt; 
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;1-write-reusable-javascript-with-functions&#34;&gt;1. Write Reusable JavaScript with Functions&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;function reusableFunction() {
+  console.log(&amp;quot;Hi World&amp;quot;)
+};
+reusableFunction();
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-scope&#34;&gt;2. Scope&lt;/h4&gt;
+&lt;p&gt;In JavaScript, scope refers to the visibility of variables.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function.&lt;/li&gt;
+&lt;li&gt;It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var someVar = &amp;quot;Hat&amp;quot;;
+function myFun() {
+   var someVar = &amp;quot;Head&amp;quot;;
+   return someVar;
+} 
+
+myFun() //return &amp;quot;Head&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Does &lt;code&gt;var&lt;/code&gt; make a difference?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;var x = 1 declares variable x in current scope (aka execution context). If the declaration appears in a function - a local variable is declared; if it&amp;rsquo;s in global scope - a global variable is declared.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;x = 1, on the other hand, is merely a property assignment. It first tries to resolve x against scope chain. If it finds it anywhere in that scope chain, it performs assignment; if it doesn&amp;rsquo;t find x, only then does it creates x property on a global object (which is a top level object in a scope chain). Now, notice that it doesn&amp;rsquo;t declare a global variable, it creates a global property.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/1470488/what-is-the-purpose-of-the-var-keyword-and-when-should-i-use-it-or-omit-it&#34;&gt;Why var matters?&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If you&amp;rsquo;re in the global scope then there&amp;rsquo;s not much difference. Read Kangax&amp;rsquo;s answer for explanation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you&amp;rsquo;re in a function then var will create a local variable, &amp;ldquo;no var&amp;rdquo; will look up the scope chain until it finds the variable or hits the global scope (at which point it will create it):&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;// These are both globals
+var foo = 1;
+bar = 2;
+
+function()
+{
+    var foo = 1; // Local
+    bar = 2;     // Global
+
+    // Execute an anonymous function
+    (function()
+    {
+        var wibble = 1; // Local
+        foo = 2; // Inherits from scope above (creating a closure)
+        moo = 3; // Global
+    }())
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;3-understanding-undefined-value-returned-from-a-function&#34;&gt;3. Understanding Undefined Value returned from a Function&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A function can include the return statement but it does not have to.
+In the case that the function doesn&amp;rsquo;t have a return statement, when you call it, the function processes the inner code but the returned value is undefined&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;var sum = 0;
+function addSum(num) {
+  sum = sum + num;
+}
+addSum(3); // sum will be modified but returned value is undefined
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;queue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;function nextInLine(arr, item) {
+ 
+  arr.push(item);
+
+  var last_element = arr.shift();
+  return last_element;
+}
+
+// Setup
+var testArr = [1,2,3,4,5];
+
+// Display code
+console.log(&amp;quot;Before: &amp;quot; + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log(&amp;quot;After: &amp;quot; + JSON.stringify(testArr));
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;4-use-conditional-logic-with-if-statements&#34;&gt;4. Use Conditional Logic with If Statements&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;function trueOrFalse(wasThatTrue) {
+  if (wasThatTrue) {
+    return &amp;quot;Yes, that was true&amp;quot;
+  }
+  return &amp;quot;No, that was false&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;5-use-else-if-statements&#34;&gt;5. Use Else If Statements&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The function is executed from top to bottom so you will want to be careful of what statement comes first&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;// foo function
+function foo(x) {
+  if (x &amp;lt; 1) {
+    return &amp;quot;Less than one&amp;quot;;
+  } else if (x &amp;lt; 2) {
+    return &amp;quot;Less than two&amp;quot;;
+  } else {
+    return &amp;quot;Greater than or equal to two&amp;quot;;
+  }
+}
+
+// 2 bar function
+function bar(x) {
+  if (x &amp;lt; 2) {
+    return &amp;quot;Less than two&amp;quot;;
+  } else if (x &amp;lt; 1) {
+    return &amp;quot;Less than one&amp;quot;;
+  } else {
+    return &amp;quot;Greater than or equal to two&amp;quot;;
+  }
+}
+
+foo(0) // &amp;quot;Less than one&amp;quot;
+bar(0) // &amp;quot;Less than two&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;6-comparison-with-operators&#34;&gt;6. Comparison with Operators&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparison with the Equality Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;1   ==  1   // true
+1   ==  2   // false
+1   == &#39;1&#39;  // true
+&amp;quot;3&amp;quot; ==  3   // true
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Comparison with the Strict Equality Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;3 ===  3   // true
+3 === &#39;3&#39;  // false
+
+typeof 3   // returns &#39;number&#39;
+typeof &#39;3&#39; // returns &#39;string&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;Strict equality &lt;code&gt;===&lt;/code&gt; is the counterpart to the equality operator &lt;code&gt;==&lt;/code&gt;. However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.&lt;/p&gt;
+&lt;p&gt;If the values being compared have different types, they are considered unequal, and the strict equality operator will return false.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparison with the Inequality Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;1 !=  2     // true
+1 != &amp;quot;1&amp;quot;    // false
+1 != &#39;1&#39;    // false
+1 != true   // false
+0 != false  // false
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The inequality operator (!=) is the opposite of the equality operator.&lt;/li&gt;
+&lt;li&gt;It means &amp;ldquo;Not Equal&amp;rdquo; and returns false where equality would return true and vice versa.&lt;/li&gt;
+&lt;li&gt;Like the equality operator, the inequality operator will convert data types of values while comparing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparison with the Strict Inequality Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;3 !==  3   // false
+3 !== &#39;3&#39;  // true
+4 !==  3   // true
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;The strict inequality operator (!==) is the logical opposite of the strict equality operator.
+It means &amp;ldquo;Strictly Not Equal&amp;rdquo; and returns false where strict equality would return true and vice versa.
+Strict inequality will not convert data types.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparison with the Greater Than Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;5   &amp;gt;  3   // true
+7   &amp;gt; &#39;3&#39;  // true
+2   &amp;gt;  3   // false
+&#39;1&#39; &amp;gt;  9   // false
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Comparison with the Greater Than Or Equal To Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;6   &amp;gt;=  6   // true
+7   &amp;gt;= &#39;3&#39;  // true
+2   &amp;gt;=  3   // false
+&#39;7&#39; &amp;gt;=  9   // false
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Comparisons with the Logical And Operator &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;if (num &amp;gt; 5 &amp;amp;&amp;amp; num &amp;lt;8) {
+    return &amp;quot;weekend&amp;quot;;
+}
+return &amp;quot;work&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Comparisons with the Logical Or Operator &lt;code&gt;||&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;function testLogicalOr(val) {
+ 
+
+  if (val &amp;gt; 20 || val &amp;lt;10) {
+    return &amp;quot;Outside&amp;quot;;
+  }
+
+
+  return &amp;quot;Inside&amp;quot;;
+}
+
+testLogicalOr(15);
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;7-selecting-from-many-options-with-switch-statements&#34;&gt;7. Selecting from Many Options with Switch Statements&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have many options to choose from, use a switch statement.&lt;/li&gt;
+&lt;li&gt;A switch statement tests a value and can have many case statements which define various possible values.&lt;/li&gt;
+&lt;li&gt;Statements are executed from the first matched case value until a break is encountered.&lt;/li&gt;
+&lt;li&gt;Case values are tested with strict equality (===). The break tells JavaScript to stop executing statements.&lt;/li&gt;
+&lt;li&gt;If the break is omitted, the next statement will be executed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;switch(lowercaseLetter) {
+  case &amp;quot;a&amp;quot;:
+    console.log(&amp;quot;A&amp;quot;);
+    break;
+  case &amp;quot;b&amp;quot;:
+    console.log(&amp;quot;B&amp;quot;);
+    break;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Adding a Default Option in Switch Statements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;In a switch statement you may not be able to specify all possible values as case statements.&lt;/li&gt;
+&lt;li&gt;Instead, you can add the default statement which will be executed if no matching case statements are found.&lt;/li&gt;
+&lt;li&gt;Think of it like the final else statement in an if/else chain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;switch (num) {
+  case value1:
+    statement1;
+    break;
+  case value2:
+    statement2;
+    break;
+...
+  default:
+    defaultStatement;
+    break;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Multiple Identical Options in Switch Statements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;function sequentialSizes(val) {
+ var answer = &amp;quot;&amp;quot;;
+
+ switch(val) {
+   case 1:
+   case 2:
+   case 3:
+     answer = &amp;quot;Low&amp;quot;;
+     break;
+   case 4:
+   case 5:
+   case 6:
+     answer = &amp;quot;Mid&amp;quot;;
+     break;
+   case 7:
+   case 8:
+   case 9:
+     answer = &amp;quot;High&amp;quot;;
+     break;
+ }
+
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Replacing If Else Chains with Switch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you have many options to choose from, a switch statement can be easier to write than many chained if/else if statements.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;   function chainToSwitch(val) {
+  var answer = &amp;quot;&amp;quot;;
+ 
+  switch (val) {
+    case &amp;quot;bob&amp;quot;:
+      answer = &amp;quot;Marley&amp;quot;;
+      break;
+    case 42:
+      answer = &amp;quot;The Answer&amp;quot;;
+      break;
+    case 1:
+      answer = &amp;quot;There is no #1&amp;quot;;
+      break;
+    case 99:
+      answer = &amp;quot;Missed me by this much!&amp;quot;;
+      break;
+    case 7:
+      answer = &amp;quot;Ate Nine&amp;quot;;
+      break;
+    
+  }
+  return answer
+}
+chainToSwitch(7);
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;8-returning-boolean-values-from-functions&#34;&gt;8. Returning Boolean Values from Functions&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;function isLess(a, b) {
+  return a  &amp;lt; b
+}
+
+isLess(10, 15);
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;9-return-early-pattern-for-functions&#34;&gt;9. Return Early Pattern for Functions&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When a return statement is reached, the execution of the current function stops and control returns to the calling location.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;function myFun() {
+  console.log(&amp;quot;Hello&amp;quot;);
+  return &amp;quot;World&amp;quot;;
+  console.log(&amp;quot;byebye&amp;quot;)
+}
+myFun();
+
+\\ The above outputs &amp;quot;Hello&amp;quot; to the console, returns &amp;quot;World&amp;quot;, but &amp;quot;byebye&amp;quot; is never output, because the function exits at the return statement
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;10-blackjack-exercise&#34;&gt;10. BlackJack Exercise&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;var count = 0;
+
+function cc(card) {
+  switch(card) {
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count+=1;
+      break;
+    case 10:
+    case &amp;quot;J&amp;quot;:
+    case &amp;quot;Q&amp;quot;:
+    case &amp;quot;K&amp;quot;:
+    case &amp;quot;A&amp;quot;:
+      count--;
+      break;
+  } 
+  if (count &amp;gt; 0) {
+      return count + &amp;quot; Bet&amp;quot;;
+    } else {
+      return count + &amp;quot; Hold&amp;quot;;
+    }
+}
+
+cc(2); cc(3); cc(7); cc(&#39;K&#39;); cc(&#39;A&#39;);
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;11-go-golf-exercise&#34;&gt;11. Go Golf Exercise&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;var names = [&amp;quot;Hole-in-one!&amp;quot;, &amp;quot;Eagle&amp;quot;, &amp;quot;Birdie&amp;quot;, &amp;quot;Par&amp;quot;, &amp;quot;Bogey&amp;quot;, &amp;quot;Double Bogey&amp;quot;, &amp;quot;Go Home!&amp;quot;];
+function golfScore(par, strokes) {
+ 
+  if (strokes == 1) {
+    return &amp;quot;Hole-in-one!&amp;quot;;
+  } else if (strokes &amp;lt;= par -2) {
+    return &amp;quot;Eagle&amp;quot;;
+  } else if (strokes == par -1){
+    return &amp;quot;Birdie&amp;quot;;
+  } else if (strokes == par) {
+    return &amp;quot;Par&amp;quot;;
+  } else if (strokes == par +1){
+    return &amp;quot;Bogey&amp;quot;;
+  } else if (strokes == par +2){
+    return &amp;quot;Double Bogey&amp;quot;
+  } else {
+    return &amp;quot;Go Home!&amp;quot;
+  }
+}
+
+golfScore(5, 4);
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Object</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/object/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/object/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;br&gt; 
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/build-javascript-objects&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;1-build-javascript-objects&#34;&gt;1. Build JavaScript Objects&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;var myDog = {
+
+ &amp;quot;name&amp;quot;: &amp;quot;Snoopy&amp;quot;,
+ &amp;quot;legs&amp;quot;: 4,
+ &amp;quot;tails&amp;quot;: 1,
+ &amp;quot;friends&amp;quot;: [&amp;quot;Woodstock&amp;quot;,&amp;quot;Charlie&amp;quot;]
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2--accessing-object-properties&#34;&gt;2.  Accessing Object Properties&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Use dot notation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When you know the name of the property you&amp;rsquo;re trying to access ahead of time&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;var myObj = {
+  prop1: &amp;quot;val1&amp;quot;,
+  prop2: &amp;quot;val2&amp;quot;
+};
+var prop1val = myObj.prop1; // val1
+var prop2val = myObj.prop2; // val2
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Use Bracket Notation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;E.g. when the property of the object you are trying to access has a space in its name)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;// Setup
+var testObj = {
+ &amp;quot;an entree&amp;quot;: &amp;quot;hamburger&amp;quot;,
+ &amp;quot;my side&amp;quot;: &amp;quot;veggies&amp;quot;,
+ &amp;quot;the drink&amp;quot;: &amp;quot;water&amp;quot;
+};
+// Access
+var entreeValue = testObj[&amp;quot;an entree&amp;quot;];   
+var drinkValue = testObj[&amp;quot;the drink&amp;quot;];  
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Accessing Object Properties with Variables&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For iterating through an object&amp;rsquo;s properties or when accessing a lookup table.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;var testObj = {
+  12: &amp;quot;Namath&amp;quot;,
+  16: &amp;quot;Montana&amp;quot;,
+  19: &amp;quot;Unitas&amp;quot;
+};
+
+var playerNumber=16;       
+var player = testObj[playerNumber];   
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Updating Object Properties&lt;/li&gt;
+&lt;li&gt;Add New Properties to a JavaScript Object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var myDog = {
+ &amp;quot;name&amp;quot;: &amp;quot;Coder&amp;quot;,
+ &amp;quot;legs&amp;quot;: 4,
+ &amp;quot;tails&amp;quot;: 1,
+ &amp;quot;friends&amp;quot;: [&amp;quot;freeCodeCamp Campers&amp;quot;]
+};
+
+myDog.name = &amp;quot;Hppy Coder&amp;quot; 
+myDog.bark = [&amp;quot;woof&amp;quot;];
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Delete Properties from a JavaScript Object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;delete myDog.bark;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Using Objects for Lookups&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When you know that your input data is limited to a certain range.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;function phoneticLookup(val) {
+  var result = &amp;quot;&amp;quot;;
+
+  var result_table ={
+    &amp;quot;alpha&amp;quot;: &amp;quot;Adams&amp;quot;,
+    &amp;quot;bravo&amp;quot;: &amp;quot;Boston&amp;quot;,
+    &amp;quot;charlie&amp;quot;: &amp;quot;Chicago&amp;quot;,
+    &amp;quot;delta&amp;quot;: &amp;quot;Denver&amp;quot;,
+    &amp;quot;echo&amp;quot;: &amp;quot;Easy&amp;quot;,
+    &amp;quot;foxtrot&amp;quot;: &amp;quot;Frank&amp;quot;
+  }
+  result = result_table[val];
+
+  return result;
+}
+
+phoneticLookup(&amp;quot;charlie&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Testing Objects for Properties&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;function checkObj(obj, checkProp) {
+
+ if obj.hasOwnProperty(checkProp) {
+   return obj[checkProp];
+ } else {
+   return &amp;quot;Not Found&amp;quot;,
+ }
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Manipulating Complex Objects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var myMusic = [
+ {
+   &amp;quot;artist&amp;quot;: &amp;quot;Billy Joel&amp;quot;,
+   &amp;quot;title&amp;quot;: &amp;quot;Piano Man&amp;quot;,
+   &amp;quot;release_year&amp;quot;: 1973,
+   &amp;quot;formats&amp;quot;: [
+     &amp;quot;CD&amp;quot;,
+     &amp;quot;8T&amp;quot;,
+     &amp;quot;LP&amp;quot;
+   ],
+   &amp;quot;gold&amp;quot;: true
+ }, //comma
+ // Add a record here
+   {
+   &amp;quot;artist&amp;quot;: &amp;quot;Billy Joel&amp;quot;,
+   &amp;quot;title&amp;quot;: &amp;quot;Piano Man 2&amp;quot;,
+   &amp;quot;release_year&amp;quot;: 1974,
+   &amp;quot;formats&amp;quot;: [
+     &amp;quot;CD&amp;quot;,
+     &amp;quot;8T&amp;quot;,
+     &amp;quot;LP&amp;quot;
+   ],
+   &amp;quot;gold&amp;quot;: true
+ }
+];
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Accessing Nested Objects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;// Setup
+var myStorage = {
+  &amp;quot;car&amp;quot;: {
+    &amp;quot;inside&amp;quot;: {
+      &amp;quot;glove box&amp;quot;: &amp;quot;maps&amp;quot;,
+      &amp;quot;passenger seat&amp;quot;: &amp;quot;crumbs&amp;quot;
+     },
+    &amp;quot;outside&amp;quot;: {
+      &amp;quot;trunk&amp;quot;: &amp;quot;jack&amp;quot;
+    }
+  }
+};
+
+var gloveBoxContents = myStorage.car.inside[&amp;quot;glove box&amp;quot;]; 
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Accessing Nested Arrays&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;// Setup
+var myPlants = [
+  {
+    type: &amp;quot;flowers&amp;quot;,
+    list: [
+      &amp;quot;rose&amp;quot;,
+      &amp;quot;tulip&amp;quot;,
+      &amp;quot;dandelion&amp;quot;
+    ]
+  },
+  {
+    type: &amp;quot;trees&amp;quot;,
+    list: [
+      &amp;quot;fir&amp;quot;,
+      &amp;quot;pine&amp;quot;,
+      &amp;quot;birch&amp;quot;
+    ]
+  }
+];
+
+var secondTree = myPlants[1].list[1]; // pine
+&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     

@@ -15,6 +15,238 @@
     
     
     <item>
+      <title>Docs: Variable</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/variable/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/variable/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;br&gt; 
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;1-basic-javascript&#34;&gt;1. Basic JavaScript&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Comment&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; //exactitude
+ /* hi, 
+ how is the novel?*/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Seven Data types&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;undefined: declared variables without values&lt;/li&gt;
+&lt;li&gt;null&lt;/li&gt;
+&lt;li&gt;symbol&lt;/li&gt;
+&lt;li&gt;boolean&lt;/li&gt;
+&lt;li&gt;string: immutable&lt;/li&gt;
+&lt;li&gt;number&lt;/li&gt;
+&lt;li&gt;object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-variable&#34;&gt;2. Variable&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Variable name can be&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;letters: case sensitive&lt;/li&gt;
+&lt;li&gt;numbers&lt;/li&gt;
+&lt;li&gt;symbols &lt;code&gt;$&lt;/code&gt; and &lt;code&gt;_&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Best practice&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Always declare an variable with the &lt;code&gt;var&lt;/code&gt; keyword explicitly&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;camelCase:  multi-word variable names have the first word in lowercase and the first letter of each subsequent word is capitalized&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;var anOrdinaryMan
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-numeric-variable&#34;&gt;3. Numeric variable&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Store a value in a variable&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;var q = 1.1
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Value Operator&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Increment and decrement&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;i = 19
+i++ 
+// is the equivalent of i = i + 1
+  
+i-- 
+// is the equivalent of i = i - 1
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remainder operator &lt;code&gt;%&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;17 % 2 = 1 // 17 is odd
+18 % 2 = 0 // 18 is even
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compound assignment With augmented addition, substraction, multiplication and devision&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;var a = 90;
+a += 9; // this is equal to a = a + 9;
+a -= 9; // this is equal to a = a -9;
+a *= 9; // this is eqaul to a = a * 9;
+a /= 9; // this is equal to a = a / 9;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4-string-variable&#34;&gt;4. String variable&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;var p = &amp;quot;Mauriat&amp;quot;;
+
+# Escaping Literal Quotes in Strings
+var p = &amp;quot;Mauriat said, \&amp;quot;I worked as an arranger for other artists \&amp;quot;.&amp;quot;;
+
+# Quoting Strings with Single Quotes
+var myStr = &#39;&amp;lt;a href=&amp;quot;http://www.example.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Link&amp;lt;/a&amp;gt;&#39;;
+
+# Escape Sequences in Strings
+var myStr = &#39;FirstLine\n\t\\SecondLine\nThirdLine&#39;; // Change this line
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Escaping characters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;th&gt;Output&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;-&#39;&lt;/td&gt;
+&lt;td&gt;single quote&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;quot;&lt;/td&gt;
+&lt;td&gt;double quote&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\&lt;/td&gt;
+&lt;td&gt;backslash&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\n&lt;/td&gt;
+&lt;td&gt;newline&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\r&lt;/td&gt;
+&lt;td&gt;carriage return&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\t&lt;/td&gt;
+&lt;td&gt;tab&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\b&lt;/td&gt;
+&lt;td&gt;word boundary&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-\f&lt;/td&gt;
+&lt;td&gt;form feed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Concatenating Strings with plus operator, plus equals operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var myWords = &amp;quot;I hear &amp;quot; + &amp;quot;you say: &amp;quot;; 
+
+var myWords += &amp;quot;It&#39;s gonna be OK&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Find the lenth of a String&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var myWordseLength = myWords.length;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Use bracket notation to find the first/last character in a string&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var firstLetter = myWords[0];
+var lastLetter = myWords[myWords.length-1];
+var thirdToLastLetter = myWords[myWords.length - 3]; 
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;5-array-variable&#34;&gt;5. Array variable&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Store multiple values in one variable using JavaScript arrays&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   var myArray = [&amp;quot;a&amp;quot;,1]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Multidimensional array: nest one array within another array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   var myArray = [[&amp;quot;a&amp;quot;,1],[&amp;quot;b&amp;quot;,2]]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Access array data with indexes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   var myData = myArray[0]
+
+   # Access array of arrays 
+   var arr = [
+     [1,2,3],
+     [4,5,6],
+     [7,8,9],
+     [[10,11,12], 13, 14]
+     ];
+   arr[3]; // equals [[10,11,12], 13, 14]
+   arr[3][0]; // equals [10,11,12]
+   arr[3][0][1]; // equals 11
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Modify array data with indexes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;  var ourArray = [50,40,30];
+  ourArray[0] = 15; // equals [15,40,30]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Manipulate arrays with push()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var arr1 = [1,2,3];
+arr1.push(4);
+// arr1 is now [1,2,3,4]
+
+var arr2 = [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, &amp;quot;cat&amp;quot;];
+arr2.push([&amp;quot;happy&amp;quot;, &amp;quot;joy&amp;quot;]);
+// arr2 now equals [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, &amp;quot;cat&amp;quot;, [&amp;quot;happy&amp;quot;, &amp;quot;joy&amp;quot;]]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Remove the first element from an array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var ourArray = [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, [&amp;quot;cat&amp;quot;]];
+var removedFromOurArray = ourArray.shift();
+// removedFromOurArray now equals &amp;quot;Stimpson&amp;quot; and ourArray now equals [&amp;quot;J&amp;quot;, [&amp;quot;cat&amp;quot;]]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Remove the last element from an array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
+console.log(oneDown); // Returns 6
+console.log(threeArr); // Returns [1, 4]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Add an element to the beginning of an array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var ourArray = [&amp;quot;Stimpson&amp;quot;, &amp;quot;dog&amp;quot;];
+ourArray.shift(); // ourArray now equals [&amp;quot;dog&amp;quot;]
+ourArray.unshift(&amp;quot;Happy&amp;quot;);
+// ourArray now equals [&amp;quot;Happy&amp;quot;, &amp;quot;dog&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;6-boolean&#34;&gt;6. Boolean&lt;/h4&gt;
+&lt;p&gt;Boolean values are never written with quotes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The strings &amp;ldquo;true&amp;rdquo; and &amp;ldquo;false&amp;rdquo; are not Boolean and have no special meaning in JavaScript.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Models</title>
       <link>/docs/machinelearning/models/deep-learning/model-list/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
@@ -574,239 +806,17 @@ assert isinstance(mnist_train, tf.data.Dataset)
         
         &lt;br&gt;
 &lt;h4 id=&#34;how-to-create-and-change-emojis-using-javascript&#34;&gt;How to create and change emojis using JavaScript?&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://mathiasbynens.be/notes/javascript-unicode&#34;&gt;JavaScript has a Unicode problem&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;/img/coding/javascript.jpg&#34; alt=&#34;js-emojis&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/mgechev/status/1250672809946370051?s=20&#34;&gt;Image from Minko Gechev&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt; 
-&lt;h4 id=&#34;read-more&#34;&gt;Read More&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://mathiasbynens.be/notes/javascript-unicode&#34;&gt;JavaScript has a Unicode problem&lt;/a&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Variable</title>
-      <link>/docs/coding/functional-coding/javascript/freecodecamp/variable/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/coding/functional-coding/javascript/freecodecamp/variable/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;br&gt; 
+&lt;h4 id=&#34;how-to-use-emojis-in-markdown&#34;&gt;How to use emojis in Markdown?&lt;/h4&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/rxaviers/7360908&#34;&gt;Complete list of github markdown emoji markup &lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4 id=&#34;1-basic-javascript&#34;&gt;1. Basic JavaScript&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Comment&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; //exactitude
- /* hi, 
- how is the novel?*/
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Seven Data types&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;undefined: declared variables without values&lt;/li&gt;
-&lt;li&gt;null&lt;/li&gt;
-&lt;li&gt;symbol&lt;/li&gt;
-&lt;li&gt;boolean&lt;/li&gt;
-&lt;li&gt;string: immutable&lt;/li&gt;
-&lt;li&gt;number&lt;/li&gt;
-&lt;li&gt;object&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2-variable-name&#34;&gt;2. Variable name&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Variable name can be&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;letters: case sensitive&lt;/li&gt;
-&lt;li&gt;numbers&lt;/li&gt;
-&lt;li&gt;symbols &lt;code&gt;$&lt;/code&gt; and &lt;code&gt;_&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Best practice&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;camelCase:  multi-word variable names have the first word in lowercase and the first letter of each subsequent word is capitalized&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;var anOrdinaryMan
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;3-numeric-variable&#34;&gt;3. Numeric variable&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Store a value in a variable&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;var q = 1.1
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Value Operator&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Increment and decrement&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;i = 19
-i++ 
-// is the equivalent of i = i + 1
-  
-i-- 
-// is the equivalent of i = i - 1
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Remainder operator &lt;code&gt;%&lt;/code&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;17 % 2 = 1 // 17 is odd
-18 % 2 = 0 // 18 is even
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Compound assignment With augmented addition, substraction, multiplication and devision&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;var a = 90;
-a += 9; // this is equal to a = a + 9;
-a -= 9; // this is equal to a = a -9;
-a *= 9; // this is eqaul to a = a * 9;
-a /= 9; // this is equal to a = a / 9;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;4-string-variable&#34;&gt;4. String variable&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;var p = &amp;quot;Mauriat&amp;quot;;
-
-# Escaping Literal Quotes in Strings
-var p = &amp;quot;Mauriat said, \&amp;quot;I worked as an arranger for other artists \&amp;quot;.&amp;quot;;
-
-# Quoting Strings with Single Quotes
-var myStr = &#39;&amp;lt;a href=&amp;quot;http://www.example.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Link&amp;lt;/a&amp;gt;&#39;;
-
-# Escape Sequences in Strings
-var myStr = &#39;FirstLine\n\t\\SecondLine\nThirdLine&#39;; // Change this line
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Escaping characters&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Code&lt;/th&gt;
-&lt;th&gt;Output&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;-&#39;&lt;/td&gt;
-&lt;td&gt;single quote&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;-&amp;quot;&lt;/td&gt;
-&lt;td&gt;double quote&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;-\&lt;/td&gt;
-&lt;td&gt;backslash&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;-\n&lt;/td&gt;
-&lt;td&gt;newline&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;-\r&lt;/td&gt;
-&lt;td&gt;carriage return&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;-\t&lt;/td&gt;
-&lt;td&gt;tab&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;-\b&lt;/td&gt;
-&lt;td&gt;word boundary&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;-\f&lt;/td&gt;
-&lt;td&gt;form feed&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;Concatenating Strings with plus operator, plus equals operator&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;var myWords = &amp;quot;I hear &amp;quot; + &amp;quot;you say: &amp;quot;; 
-
-var myWords += &amp;quot;It&#39;s gonna be OK&amp;quot;;
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Find the lenth of a String&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;var myWordseLength = myWords.length;
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Use bracket notation to find the first/last character in a string&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;var firstLetter = myWords[0];
-var lastLetter = myWords[myWords.length-1];
-var thirdToLastLetter = myWords[myWords.length - 3]; 
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;5-array-variable&#34;&gt;5. Array variable&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Store multiple values in one variable using JavaScript arrays&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;   var myArray = [&amp;quot;a&amp;quot;,1]
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Multidimensional array: nest one array within another array&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;   var myArray = [[&amp;quot;a&amp;quot;,1],[&amp;quot;b&amp;quot;,2]]
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Access array data with indexes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;   var myData = myArray[0]
-
-   # Access array of arrays 
-   var arr = [
-     [1,2,3],
-     [4,5,6],
-     [7,8,9],
-     [[10,11,12], 13, 14]
-     ];
-   arr[3]; // equals [[10,11,12], 13, 14]
-   arr[3][0]; // equals [10,11,12]
-   arr[3][0][1]; // equals 11
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Modify array data with indexes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;  var ourArray = [50,40,30];
-  ourArray[0] = 15; // equals [15,40,30]
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Manipulate arrays with push()&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;var arr1 = [1,2,3];
-arr1.push(4);
-// arr1 is now [1,2,3,4]
-
-var arr2 = [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, &amp;quot;cat&amp;quot;];
-arr2.push([&amp;quot;happy&amp;quot;, &amp;quot;joy&amp;quot;]);
-// arr2 now equals [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, &amp;quot;cat&amp;quot;, [&amp;quot;happy&amp;quot;, &amp;quot;joy&amp;quot;]]
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Remove the first element from an array&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;var ourArray = [&amp;quot;Stimpson&amp;quot;, &amp;quot;J&amp;quot;, [&amp;quot;cat&amp;quot;]];
-var removedFromOurArray = ourArray.shift();
-// removedFromOurArray now equals &amp;quot;Stimpson&amp;quot; and ourArray now equals [&amp;quot;J&amp;quot;, [&amp;quot;cat&amp;quot;]]
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Remove the last element from an array&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;var threeArr = [1, 4, 6];
-var oneDown = threeArr.pop();
-console.log(oneDown); // Returns 6
-console.log(threeArr); // Returns [1, 4]
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Add an element to the beginning of an array&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;var ourArray = [&amp;quot;Stimpson&amp;quot;, &amp;quot;dog&amp;quot;];
-ourArray.shift(); // ourArray now equals [&amp;quot;dog&amp;quot;]
-ourArray.unshift(&amp;quot;Happy&amp;quot;);
-// ourArray now equals [&amp;quot;Happy&amp;quot;, &amp;quot;dog&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/store-multiple-values-in-one-variable-using-javascript-arrays&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;script src=&#34;https://gist.github.com/rxaviers/7360908.js&#34;&gt;&lt;/script&gt;
 
       </description>
     </item>
@@ -1984,6 +1994,413 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://duju.shinyapps.io/PubMed-Literature-Search&#34;&gt;PubMed Literature Search&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://vsranker.broadinstitute.org/&#34;&gt;Variant Ranker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Function</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/function/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/function/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;br&gt; 
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;1-write-reusable-javascript-with-functions&#34;&gt;1. Write Reusable JavaScript with Functions&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;function reusableFunction() {
+  console.log(&amp;quot;Hi World&amp;quot;)
+};
+reusableFunction();
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-scope&#34;&gt;2. Scope&lt;/h4&gt;
+&lt;p&gt;In JavaScript, scope refers to the visibility of variables.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function.&lt;/li&gt;
+&lt;li&gt;It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var someVar = &amp;quot;Hat&amp;quot;;
+function myFun() {
+   var someVar = &amp;quot;Head&amp;quot;;
+   return someVar;
+} 
+
+myFun() //return &amp;quot;Head&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Does &lt;code&gt;var&lt;/code&gt; make a difference?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;var x = 1 declares variable x in current scope (aka execution context). If the declaration appears in a function - a local variable is declared; if it&amp;rsquo;s in global scope - a global variable is declared.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;x = 1, on the other hand, is merely a property assignment. It first tries to resolve x against scope chain. If it finds it anywhere in that scope chain, it performs assignment; if it doesn&amp;rsquo;t find x, only then does it creates x property on a global object (which is a top level object in a scope chain). Now, notice that it doesn&amp;rsquo;t declare a global variable, it creates a global property.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/1470488/what-is-the-purpose-of-the-var-keyword-and-when-should-i-use-it-or-omit-it&#34;&gt;Why var matters?&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If you&amp;rsquo;re in the global scope then there&amp;rsquo;s not much difference. Read Kangax&amp;rsquo;s answer for explanation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you&amp;rsquo;re in a function then var will create a local variable, &amp;ldquo;no var&amp;rdquo; will look up the scope chain until it finds the variable or hits the global scope (at which point it will create it):&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;// These are both globals
+var foo = 1;
+bar = 2;
+
+function()
+{
+    var foo = 1; // Local
+    bar = 2;     // Global
+
+    // Execute an anonymous function
+    (function()
+    {
+        var wibble = 1; // Local
+        foo = 2; // Inherits from scope above (creating a closure)
+        moo = 3; // Global
+    }())
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;3-understanding-undefined-value-returned-from-a-function&#34;&gt;3. Understanding Undefined Value returned from a Function&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A function can include the return statement but it does not have to.
+In the case that the function doesn&amp;rsquo;t have a return statement, when you call it, the function processes the inner code but the returned value is undefined&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;var sum = 0;
+function addSum(num) {
+  sum = sum + num;
+}
+addSum(3); // sum will be modified but returned value is undefined
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;queue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;function nextInLine(arr, item) {
+ 
+  arr.push(item);
+
+  var last_element = arr.shift();
+  return last_element;
+}
+
+// Setup
+var testArr = [1,2,3,4,5];
+
+// Display code
+console.log(&amp;quot;Before: &amp;quot; + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log(&amp;quot;After: &amp;quot; + JSON.stringify(testArr));
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;4-use-conditional-logic-with-if-statements&#34;&gt;4. Use Conditional Logic with If Statements&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;function trueOrFalse(wasThatTrue) {
+  if (wasThatTrue) {
+    return &amp;quot;Yes, that was true&amp;quot;
+  }
+  return &amp;quot;No, that was false&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;5-use-else-if-statements&#34;&gt;5. Use Else If Statements&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The function is executed from top to bottom so you will want to be careful of what statement comes first&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;// foo function
+function foo(x) {
+  if (x &amp;lt; 1) {
+    return &amp;quot;Less than one&amp;quot;;
+  } else if (x &amp;lt; 2) {
+    return &amp;quot;Less than two&amp;quot;;
+  } else {
+    return &amp;quot;Greater than or equal to two&amp;quot;;
+  }
+}
+
+// 2 bar function
+function bar(x) {
+  if (x &amp;lt; 2) {
+    return &amp;quot;Less than two&amp;quot;;
+  } else if (x &amp;lt; 1) {
+    return &amp;quot;Less than one&amp;quot;;
+  } else {
+    return &amp;quot;Greater than or equal to two&amp;quot;;
+  }
+}
+
+foo(0) // &amp;quot;Less than one&amp;quot;
+bar(0) // &amp;quot;Less than two&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;6-comparison-with-operators&#34;&gt;6. Comparison with Operators&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparison with the Equality Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;1   ==  1   // true
+1   ==  2   // false
+1   == &#39;1&#39;  // true
+&amp;quot;3&amp;quot; ==  3   // true
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Comparison with the Strict Equality Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;3 ===  3   // true
+3 === &#39;3&#39;  // false
+
+typeof 3   // returns &#39;number&#39;
+typeof &#39;3&#39; // returns &#39;string&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;Strict equality &lt;code&gt;===&lt;/code&gt; is the counterpart to the equality operator &lt;code&gt;==&lt;/code&gt;. However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.&lt;/p&gt;
+&lt;p&gt;If the values being compared have different types, they are considered unequal, and the strict equality operator will return false.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparison with the Inequality Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;1 !=  2     // true
+1 != &amp;quot;1&amp;quot;    // false
+1 != &#39;1&#39;    // false
+1 != true   // false
+0 != false  // false
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The inequality operator (!=) is the opposite of the equality operator.&lt;/li&gt;
+&lt;li&gt;It means &amp;ldquo;Not Equal&amp;rdquo; and returns false where equality would return true and vice versa.&lt;/li&gt;
+&lt;li&gt;Like the equality operator, the inequality operator will convert data types of values while comparing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparison with the Strict Inequality Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;3 !==  3   // false
+3 !== &#39;3&#39;  // true
+4 !==  3   // true
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;The strict inequality operator (!==) is the logical opposite of the strict equality operator.
+It means &amp;ldquo;Strictly Not Equal&amp;rdquo; and returns false where strict equality would return true and vice versa.
+Strict inequality will not convert data types.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparison with the Greater Than Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;5   &amp;gt;  3   // true
+7   &amp;gt; &#39;3&#39;  // true
+2   &amp;gt;  3   // false
+&#39;1&#39; &amp;gt;  9   // false
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Comparison with the Greater Than Or Equal To Operator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;6   &amp;gt;=  6   // true
+7   &amp;gt;= &#39;3&#39;  // true
+2   &amp;gt;=  3   // false
+&#39;7&#39; &amp;gt;=  9   // false
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Comparisons with the Logical And Operator &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;if (num &amp;gt; 5 &amp;amp;&amp;amp; num &amp;lt;8) {
+    return &amp;quot;weekend&amp;quot;;
+}
+return &amp;quot;work&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Comparisons with the Logical Or Operator &lt;code&gt;||&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;function testLogicalOr(val) {
+ 
+
+  if (val &amp;gt; 20 || val &amp;lt;10) {
+    return &amp;quot;Outside&amp;quot;;
+  }
+
+
+  return &amp;quot;Inside&amp;quot;;
+}
+
+testLogicalOr(15);
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;7-selecting-from-many-options-with-switch-statements&#34;&gt;7. Selecting from Many Options with Switch Statements&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have many options to choose from, use a switch statement.&lt;/li&gt;
+&lt;li&gt;A switch statement tests a value and can have many case statements which define various possible values.&lt;/li&gt;
+&lt;li&gt;Statements are executed from the first matched case value until a break is encountered.&lt;/li&gt;
+&lt;li&gt;Case values are tested with strict equality (===). The break tells JavaScript to stop executing statements.&lt;/li&gt;
+&lt;li&gt;If the break is omitted, the next statement will be executed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;switch(lowercaseLetter) {
+  case &amp;quot;a&amp;quot;:
+    console.log(&amp;quot;A&amp;quot;);
+    break;
+  case &amp;quot;b&amp;quot;:
+    console.log(&amp;quot;B&amp;quot;);
+    break;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Adding a Default Option in Switch Statements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;In a switch statement you may not be able to specify all possible values as case statements.&lt;/li&gt;
+&lt;li&gt;Instead, you can add the default statement which will be executed if no matching case statements are found.&lt;/li&gt;
+&lt;li&gt;Think of it like the final else statement in an if/else chain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;switch (num) {
+  case value1:
+    statement1;
+    break;
+  case value2:
+    statement2;
+    break;
+...
+  default:
+    defaultStatement;
+    break;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Multiple Identical Options in Switch Statements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;function sequentialSizes(val) {
+ var answer = &amp;quot;&amp;quot;;
+
+ switch(val) {
+   case 1:
+   case 2:
+   case 3:
+     answer = &amp;quot;Low&amp;quot;;
+     break;
+   case 4:
+   case 5:
+   case 6:
+     answer = &amp;quot;Mid&amp;quot;;
+     break;
+   case 7:
+   case 8:
+   case 9:
+     answer = &amp;quot;High&amp;quot;;
+     break;
+ }
+
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Replacing If Else Chains with Switch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you have many options to choose from, a switch statement can be easier to write than many chained if/else if statements.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;   function chainToSwitch(val) {
+  var answer = &amp;quot;&amp;quot;;
+ 
+  switch (val) {
+    case &amp;quot;bob&amp;quot;:
+      answer = &amp;quot;Marley&amp;quot;;
+      break;
+    case 42:
+      answer = &amp;quot;The Answer&amp;quot;;
+      break;
+    case 1:
+      answer = &amp;quot;There is no #1&amp;quot;;
+      break;
+    case 99:
+      answer = &amp;quot;Missed me by this much!&amp;quot;;
+      break;
+    case 7:
+      answer = &amp;quot;Ate Nine&amp;quot;;
+      break;
+    
+  }
+  return answer
+}
+chainToSwitch(7);
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;8-returning-boolean-values-from-functions&#34;&gt;8. Returning Boolean Values from Functions&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;function isLess(a, b) {
+  return a  &amp;lt; b
+}
+
+isLess(10, 15);
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;9-return-early-pattern-for-functions&#34;&gt;9. Return Early Pattern for Functions&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When a return statement is reached, the execution of the current function stops and control returns to the calling location.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;function myFun() {
+  console.log(&amp;quot;Hello&amp;quot;);
+  return &amp;quot;World&amp;quot;;
+  console.log(&amp;quot;byebye&amp;quot;)
+}
+myFun();
+
+\\ The above outputs &amp;quot;Hello&amp;quot; to the console, returns &amp;quot;World&amp;quot;, but &amp;quot;byebye&amp;quot; is never output, because the function exits at the return statement
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;10-blackjack-exercise&#34;&gt;10. BlackJack Exercise&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;var count = 0;
+
+function cc(card) {
+  switch(card) {
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count+=1;
+      break;
+    case 10:
+    case &amp;quot;J&amp;quot;:
+    case &amp;quot;Q&amp;quot;:
+    case &amp;quot;K&amp;quot;:
+    case &amp;quot;A&amp;quot;:
+      count--;
+      break;
+  } 
+  if (count &amp;gt; 0) {
+      return count + &amp;quot; Bet&amp;quot;;
+    } else {
+      return count + &amp;quot; Hold&amp;quot;;
+    }
+}
+
+cc(2); cc(3); cc(7); cc(&#39;K&#39;); cc(&#39;A&#39;);
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;11-go-golf-exercise&#34;&gt;11. Go Golf Exercise&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;var names = [&amp;quot;Hole-in-one!&amp;quot;, &amp;quot;Eagle&amp;quot;, &amp;quot;Birdie&amp;quot;, &amp;quot;Par&amp;quot;, &amp;quot;Bogey&amp;quot;, &amp;quot;Double Bogey&amp;quot;, &amp;quot;Go Home!&amp;quot;];
+function golfScore(par, strokes) {
+ 
+  if (strokes == 1) {
+    return &amp;quot;Hole-in-one!&amp;quot;;
+  } else if (strokes &amp;lt;= par -2) {
+    return &amp;quot;Eagle&amp;quot;;
+  } else if (strokes == par -1){
+    return &amp;quot;Birdie&amp;quot;;
+  } else if (strokes == par) {
+    return &amp;quot;Par&amp;quot;;
+  } else if (strokes == par +1){
+    return &amp;quot;Bogey&amp;quot;;
+  } else if (strokes == par +2){
+    return &amp;quot;Double Bogey&amp;quot;
+  } else {
+    return &amp;quot;Go Home!&amp;quot;
+  }
+}
+
+golfScore(5, 4);
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Node.js</title>
+      <link>/docs/coding/functional-coding/javascript/nodejs/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/nodejs/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;how-to-run-javascript-using-nodejs&#34;&gt;How to run JavaScript using Node.js?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href=&#34;https://nodejs.org/en/download/&#34;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Open a terminal and run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;$ node
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;Node.js is an asynchronous event-driven JavaScript runtime designed to build scalable network applications.&lt;/p&gt;
+&lt;/blockquote&gt;
 
       </description>
     </item>
@@ -4220,7 +4637,7 @@ DOI:https://doi.org/10.1016/j.trecan.2019.09.009   &lt;br&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;building-a-simple-compilerinterpreter&#34;&gt;Building a Simple Compiler/Interpreter&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/thejameskyle/the-super-tiny-compiler&#34;&gt;:snowman: Possibly the smallest compiler ever&lt;/a&gt; : This is an ultra-simplified example of all the major pieces of a modern compiler written in easy to read JavaScript.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/thejameskyle/the-super-tiny-compiler&#34;&gt;☃ Possibly the smallest compiler ever&lt;/a&gt; : This is an ultra-simplified example of all the major pieces of a modern compiler written in easy to read JavaScript.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://aalhour.com/awesome-compilers/&#34;&gt;Awesome Compilers&lt;/a&gt; : Curated list of awesome resources on Compilers, Interpreters and Runtimes.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cs.dartmouth.edu/~mckeeman/cs48/mxcom/gem/html/GrowingCompiler.html&#34;&gt;Growing a compiler&lt;/a&gt; : Learn how to grow a compiler&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ruslanspivak.com/lsbasi-part1/&#34;&gt;Let’s Build A Simple Interpreter. Part 1.&lt;/a&gt; : Try to demystify compilers by building one&lt;/li&gt;
@@ -4512,6 +4929,198 @@ interests.&lt;/li&gt;
 &lt;li&gt;Pelican in Python. This option is probably even less popular than Hexo. Python is a great language for a variety of tasks, and my experience with it is strongly positive. It is very user-friendly, truly cross-platform, does not have tons of stupid legacy stuff like javascript.&lt;/li&gt;
 &lt;/ul&gt;
 
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Object</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/object/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/object/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;br&gt; 
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/build-javascript-objects&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;1-build-javascript-objects&#34;&gt;1. Build JavaScript Objects&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;var myDog = {
+
+ &amp;quot;name&amp;quot;: &amp;quot;Snoopy&amp;quot;,
+ &amp;quot;legs&amp;quot;: 4,
+ &amp;quot;tails&amp;quot;: 1,
+ &amp;quot;friends&amp;quot;: [&amp;quot;Woodstock&amp;quot;,&amp;quot;Charlie&amp;quot;]
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2--accessing-object-properties&#34;&gt;2.  Accessing Object Properties&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Use dot notation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When you know the name of the property you&amp;rsquo;re trying to access ahead of time&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;var myObj = {
+  prop1: &amp;quot;val1&amp;quot;,
+  prop2: &amp;quot;val2&amp;quot;
+};
+var prop1val = myObj.prop1; // val1
+var prop2val = myObj.prop2; // val2
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Use Bracket Notation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;E.g. when the property of the object you are trying to access has a space in its name)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;// Setup
+var testObj = {
+ &amp;quot;an entree&amp;quot;: &amp;quot;hamburger&amp;quot;,
+ &amp;quot;my side&amp;quot;: &amp;quot;veggies&amp;quot;,
+ &amp;quot;the drink&amp;quot;: &amp;quot;water&amp;quot;
+};
+// Access
+var entreeValue = testObj[&amp;quot;an entree&amp;quot;];   
+var drinkValue = testObj[&amp;quot;the drink&amp;quot;];  
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Accessing Object Properties with Variables&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For iterating through an object&amp;rsquo;s properties or when accessing a lookup table.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;var testObj = {
+  12: &amp;quot;Namath&amp;quot;,
+  16: &amp;quot;Montana&amp;quot;,
+  19: &amp;quot;Unitas&amp;quot;
+};
+
+var playerNumber=16;       
+var player = testObj[playerNumber];   
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Updating Object Properties&lt;/li&gt;
+&lt;li&gt;Add New Properties to a JavaScript Object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var myDog = {
+ &amp;quot;name&amp;quot;: &amp;quot;Coder&amp;quot;,
+ &amp;quot;legs&amp;quot;: 4,
+ &amp;quot;tails&amp;quot;: 1,
+ &amp;quot;friends&amp;quot;: [&amp;quot;freeCodeCamp Campers&amp;quot;]
+};
+
+myDog.name = &amp;quot;Hppy Coder&amp;quot; 
+myDog.bark = [&amp;quot;woof&amp;quot;];
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Delete Properties from a JavaScript Object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;delete myDog.bark;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Using Objects for Lookups&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When you know that your input data is limited to a certain range.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;function phoneticLookup(val) {
+  var result = &amp;quot;&amp;quot;;
+
+  var result_table ={
+    &amp;quot;alpha&amp;quot;: &amp;quot;Adams&amp;quot;,
+    &amp;quot;bravo&amp;quot;: &amp;quot;Boston&amp;quot;,
+    &amp;quot;charlie&amp;quot;: &amp;quot;Chicago&amp;quot;,
+    &amp;quot;delta&amp;quot;: &amp;quot;Denver&amp;quot;,
+    &amp;quot;echo&amp;quot;: &amp;quot;Easy&amp;quot;,
+    &amp;quot;foxtrot&amp;quot;: &amp;quot;Frank&amp;quot;
+  }
+  result = result_table[val];
+
+  return result;
+}
+
+phoneticLookup(&amp;quot;charlie&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Testing Objects for Properties&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;function checkObj(obj, checkProp) {
+
+ if obj.hasOwnProperty(checkProp) {
+   return obj[checkProp];
+ } else {
+   return &amp;quot;Not Found&amp;quot;,
+ }
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Manipulating Complex Objects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var myMusic = [
+ {
+   &amp;quot;artist&amp;quot;: &amp;quot;Billy Joel&amp;quot;,
+   &amp;quot;title&amp;quot;: &amp;quot;Piano Man&amp;quot;,
+   &amp;quot;release_year&amp;quot;: 1973,
+   &amp;quot;formats&amp;quot;: [
+     &amp;quot;CD&amp;quot;,
+     &amp;quot;8T&amp;quot;,
+     &amp;quot;LP&amp;quot;
+   ],
+   &amp;quot;gold&amp;quot;: true
+ }, //comma
+ // Add a record here
+   {
+   &amp;quot;artist&amp;quot;: &amp;quot;Billy Joel&amp;quot;,
+   &amp;quot;title&amp;quot;: &amp;quot;Piano Man 2&amp;quot;,
+   &amp;quot;release_year&amp;quot;: 1974,
+   &amp;quot;formats&amp;quot;: [
+     &amp;quot;CD&amp;quot;,
+     &amp;quot;8T&amp;quot;,
+     &amp;quot;LP&amp;quot;
+   ],
+   &amp;quot;gold&amp;quot;: true
+ }
+];
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Accessing Nested Objects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;// Setup
+var myStorage = {
+  &amp;quot;car&amp;quot;: {
+    &amp;quot;inside&amp;quot;: {
+      &amp;quot;glove box&amp;quot;: &amp;quot;maps&amp;quot;,
+      &amp;quot;passenger seat&amp;quot;: &amp;quot;crumbs&amp;quot;
+     },
+    &amp;quot;outside&amp;quot;: {
+      &amp;quot;trunk&amp;quot;: &amp;quot;jack&amp;quot;
+    }
+  }
+};
+
+var gloveBoxContents = myStorage.car.inside[&amp;quot;glove box&amp;quot;]; 
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Accessing Nested Arrays&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;// Setup
+var myPlants = [
+  {
+    type: &amp;quot;flowers&amp;quot;,
+    list: [
+      &amp;quot;rose&amp;quot;,
+      &amp;quot;tulip&amp;quot;,
+      &amp;quot;dandelion&amp;quot;
+    ]
+  },
+  {
+    type: &amp;quot;trees&amp;quot;,
+    list: [
+      &amp;quot;fir&amp;quot;,
+      &amp;quot;pine&amp;quot;,
+      &amp;quot;birch&amp;quot;
+    ]
+  }
+];
+
+var secondTree = myPlants[1].list[1]; // pine
+&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     
@@ -7303,280 +7912,6 @@ df3= remove_outliers_by_z(df,&#39;area&#39;,3)
 &lt;/li&gt;
 &lt;/ul&gt;
 
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: AWS SDK Setup</title>
-      <link>/docs/cloud/aws_sdk_cli/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/cloud/aws_sdk_cli/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h4 id=&#34;1-install-aws-command-line-interface-cli&#34;&gt;1. Install AWS Command Line Interface (CLI)&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/cli/&#34;&gt;Doc&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Optional: activate conda environment
-source activate pinenuts
-
-# Install AWS CLI
-pip install awscli
-
-# Install command completion feature on Raspberry Pi’s CLI interface
-complete -C aws_completer aws
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h4 id=&#34;2-setup-security-credentials&#34;&gt;2. Setup Security Credentials&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://console.aws.amazon.com/iam/home?region=eu-west-1#/security_credentials&#34;&gt;Security_credentials&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# 1) Create Access Key ID and secret access keys
-&#39;&#39;&#39;
-User on right top menu =&amp;gt; &#39;My seceurity Credentials =&amp;gt; Access keys =&amp;gt; Create New Access Key =&amp;gt; Download the csv to your local drive
-&#39;&#39;&#39;
-
-# 2) In your local terminal
-aws configure
-
-&#39;&#39;&#39;
-AWS Access Key ID [None]: aaaaaaaaaaaaaa
-AWS Secret Access Key [None]: aaaaaaaaaa
-Default region name [None]: eu-west-1
-Default output format [None]: json
-&#39;&#39;&#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;3-use-aws-sdk-in-your-local-terminal&#34;&gt;3. Use AWS SDK in your local terminal&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;# Create a new Thing
-aws iot create-thing --thing-name &amp;quot;YourThingName&amp;quot;
-
-#  List all your IoT Things
-aws iot list-things
-
-# List all your buckts
-aws s3 ls
-
-# List the content in one bucket
-aws s3 ls s3://greengrass-bucket-pinenuts
-
-# Copy files to your bucket
-aws s3 cp myfolder s3://greengrass-bucket-pinenuts --recursive
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h4 id=&#34;4-use-aws-sdk-in-python-boto3-package&#34;&gt;4. Use AWS SDK in Python (Boto3 package)&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#installation&#34;&gt;Boto 3&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Install boto3
-pip install boto3
-
-# Use boto3
-Python
-import boto3
-
-# Let&#39;s use Amazon S3
-s3 = boto3.resource(&#39;s3&#39;)
-
-# Print out bucket names
-for bucket in s3.buckets.all():
-    print(bucket.name)
-
-# Upload a new file
-data = open(&#39;test.jpg&#39;, &#39;rb&#39;)
-s3.Bucket(&#39;my-bucket&#39;).put_object(Key=&#39;test.jpg&#39;, Body=data)
-&lt;/code&gt;&lt;/pre&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Azure</title>
-      <link>/docs/cloud/azure/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/cloud/azure/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h4 id=&#34;about-azure-devops&#34;&gt;About Azure DevOps&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Repo: a git repo (e.g. clone, fork etc)&lt;/li&gt;
-&lt;li&gt;Pipeline&lt;/li&gt;
-&lt;li&gt;Work Items (e.g. issue, epic )&lt;/li&gt;
-&lt;li&gt;Test Plan: more for large organization&lt;/li&gt;
-&lt;li&gt;Artifacts: more for a small team
-&lt;ul&gt;
-&lt;li&gt;Create new feed and use in the pipelines&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;1-what-is-azure-pipeline&#34;&gt;1. What is Azure Pipeline?&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops&#34;&gt;Azure Pipelines&lt;/a&gt; is a cloud service that you can use to automatically &lt;strong&gt;build and test&lt;/strong&gt; your code project and make it available to other users. It works with just about any language or project type.&lt;/p&gt;
-&lt;p&gt;Azure Pipelines combines &lt;strong&gt;continuous integration (CI)&lt;/strong&gt; and &lt;strong&gt;continuous delivery (CD)&lt;/strong&gt; to constantly and consistently test and build your code and ship it to any target.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Continuous integration (CI)&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Continuous delivery (CD)&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Automatically ensure you don&amp;rsquo;t ship broken code.&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Automatically deploy code to production.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Build faster by splitting test and build run&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Ensure deployment targets have latest code.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Run tests continually.&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Use tested code from CI process.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Increase code coverage.&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h4 id=&#34;2-create-an-azure-pipeline-to-build-a-github-repository&#34;&gt;2. Create an Azure Pipeline to build a GitHub repository&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;On GitHub
-&lt;ul&gt;
-&lt;li&gt;Register a GitHub account&lt;/li&gt;
-&lt;li&gt;Create a new &lt;code&gt;public&lt;/code&gt; repo (e.g. &lt;code&gt;azure&lt;/code&gt;) and push an initial commit (e.g. &lt;code&gt;README.md&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;On Azure
-&lt;ul&gt;
-&lt;li&gt;Sign up an &lt;a href=&#34;https://azure.microsoft.com/en-us/services/devops/pipelines/&#34;&gt;an Azure DevOps account&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Add an Azure DevOps organization&lt;/li&gt;
-&lt;li&gt;Add a &lt;code&gt;public&lt;/code&gt; Azure project&lt;/li&gt;
-&lt;li&gt;In the project, navigate to the &lt;code&gt;Pipiline&lt;/code&gt; page&lt;/li&gt;
-&lt;li&gt;Select the GitHub repo &lt;code&gt;azure&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Build a new pipeline following the &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&amp;amp;tabs=tfs-2018-2&#34;&gt;tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;3-customize-your-pipeline&#34;&gt;3. Customize your pipeline&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Edit a yml file on Azure DevOps project/pipeline/Builds =&amp;gt; Commit and Run =&amp;gt; The yml file will be pushed to GitHub automatically&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Push a new yml file to GitHub =&amp;gt; On Azure DevOps, select &lt;code&gt;Existing Azure pipeline YAML file&lt;/code&gt; =&amp;gt; Select the yml on GitHub&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;4-pipeline-structures&#34;&gt;4. Pipeline structures&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Stage&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Major divisions in a pipeline&lt;/li&gt;
-&lt;li&gt;By default, stages run sequentially&lt;/li&gt;
-&lt;li&gt;e.g. &lt;code&gt;build this app&lt;/code&gt;, &lt;code&gt;run these tests&lt;/code&gt;, and &lt;code&gt;deploy to pre-production&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Job&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Jobs can be run conditionally, and they may depend on earlier jobs.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A collection of steps to be run by an agent or on the server.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Step&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;A linear sequence of operations that make up a job&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Each step runs in its own process on an agent and has access to the pipeline workspace on disk.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;This means environment variables are not preserved between steps but filesystem changes are.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Variables&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Hardcoded values can be added directly, or variable groups can be referenced.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Variables may be specified at the pipeline, stage, or job level.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=H-R2bCXfz8I&#34;&gt;Intro to Azure DevOps - Source Control, CI/CD, Automation&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops&#34;&gt;Azure Pipelines Doc&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&amp;amp;tabs=yaml&#34;&gt;Jobs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&amp;amp;tabs=yaml%2Cbatch&#34;&gt;Variables&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/MicrosoftDocs/pipelines-anaconda&#34;&gt;Pipelines-anaconda&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/anaconda?view=azure-devops&amp;amp;tabs=macos&#34;&gt;Run pipelines with Anaconda&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vlBuNM6Wzic&#34;&gt;Continuous Builds for master branch and pull request&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/python-webapp?view=azure-devops&#34;&gt;Deploy a Python web app using CI/CD to Azure App Service&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&amp;amp;tabs=schema&#34;&gt;YAML schema reference&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/yaml/&#34;&gt;Learn YAML in Y minutes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: GCP SDK Setup</title>
-      <link>/docs/cloud/gcp_sdk/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/cloud/gcp_sdk/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h4 id=&#34;1-set-up-google-cloud-platform-gcp&#34;&gt;1. Set up Google Cloud Platform (GCP)&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Go to &lt;a href=&#34;https://console.cloud.google.com/apis/credentials/serviceaccountkey?_ga=2.262041677.-1312817518.1554382349&amp;amp;project=quiet-mechanic-236610&amp;amp;folder&amp;amp;organizationId&#34;&gt;Create service account key page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Select project on top &amp;lsquo;pines1&amp;rsquo;&lt;/li&gt;
-&lt;li&gt;Service account, my account&lt;/li&gt;
-&lt;li&gt;JSON&lt;/li&gt;
-&lt;li&gt;Provide authentication credentials to your application code&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://console.developers.google.com/billing/enable?project=650311275390&#34;&gt;Enable billing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;export GOOGLE_APPLICATION_CREDENTIALS=&amp;quot;/home/pi/gcp/pines1-6e82e765805d.json&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-install-gcp-sdk&#34;&gt;2. Install GCP SDK&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://cloud.google.com/sdk/docs/downloads-apt-get&#34;&gt;Installing with apt-get for Debian and Ubuntu&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;export CLOUD_SDK_REPO=&amp;quot;cloud-sdk-$(lsb_release -c -s)&amp;quot;
-
-echo &amp;quot;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main&amp;quot; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-
-curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
-
-sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install google-cloud-sdk
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;3-setup-gcloud-sdk&#34;&gt;3. Setup GCloud SDK&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;gcloud init
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;4-authorizing-cloud-sdk-tools&#34;&gt;4. Authorizing Cloud SDK tools&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://cloud.google.com/sdk/docs/authorizing&#34;&gt;Authorizing a service accounts&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;gloud auth login
-gcloud auth application-default login
-gcloud auth list
-&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     

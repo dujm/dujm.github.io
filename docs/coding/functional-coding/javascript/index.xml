@@ -27,5 +27,28 @@
       </description>
     </item>
     
+    <item>
+      <title>Docs: Node.js</title>
+      <link>/docs/coding/functional-coding/javascript/nodejs/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/nodejs/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;how-to-run-javascript-using-nodejs&#34;&gt;How to run JavaScript using Node.js?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href=&#34;https://nodejs.org/en/download/&#34;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Open a terminal and run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;$ node
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;Node.js is an asynchronous event-driven JavaScript runtime designed to build scalable network applications.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
