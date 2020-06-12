@@ -2289,7 +2289,8 @@ export PATH=&amp;quot;~/Users/j/miniconda3/bin:$PATH&amp;quot;
 
 # Restart zshell
 source ~/.zshrc
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;6-add-zsh-syntax-highlighting&#34;&gt;6. Add zsh syntax highlighting≈&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;6-add-zsh-syntax-highlighting&#34;&gt;6. Add zsh syntax highlighting&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 
 echo &amp;quot;source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&amp;quot; &amp;gt;&amp;gt; ${ZDOTDIR:-$HOME}/.zshrc

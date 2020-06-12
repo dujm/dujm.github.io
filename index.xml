@@ -262,7 +262,7 @@
         &lt;h4 id=&#34;is-there-anything-good-out-of-goodbye&#34;&gt;Is there anything good out of goodbye?&lt;/h4&gt;
 &lt;p&gt;Hmm, a chance of receiving presents?&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/dujm/dujm.github.io/master/blog/2019/images/motivation.jpg&#34; alt=&#34;motivation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/pics/motivation.jpg&#34; alt=&#34;motivation&#34;&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -277,7 +277,9 @@
         
         
         &lt;h4 id=&#34;what-are-some-some-tasks-human-and-machine-can-perform-equally-bad&#34;&gt;What are some some tasks human and machine can perform equally bad?&lt;/h4&gt;
-&lt;p&gt;Detection of sarcasm&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Detection of sarcasm&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id=&#34;where-to-get-data&#34;&gt;Where to get data?&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Twitter: use hashtag #humor as label&lt;/li&gt;
@@ -388,7 +390,8 @@
 &lt;p&gt;For a GoT fan, it has been such an inspiring journey to see how the POV characters have become a different version of themselves.&lt;/p&gt;
 &lt;p&gt;I guess this is a good thing regarding heart growing. But if they could, I&amp;rsquo;m curious which version of themselves they would choose? Would they choose to live like a golden lion or a Stark solider, a greenhouse flower or a winter tree?&lt;/p&gt;
 &lt;p&gt;Lol, I guess they have no choice. Only he has ;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://izismile.com/img/img9/20160611/640/interesting_quotes_of_george_rr_martin_about_a_song_of_ice_and_fire_640_09.jpg&#34; alt=&#34;George R. R. Marten&#34;&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;/img/pics/george_rr_martin.jpg&#34; alt=&#34;George R. R. Marten&#34;&gt; &lt;br&gt;
 &lt;a href=&#34;https://izismile.com/img/img9/20160611/640/interesting_quotes_of_george_rr_martin_about_a_song_of_ice_and_fire_640_09.jpg&#34;&gt;George RR Marten, image from lzismile&lt;/a&gt;&lt;/p&gt;
 
       </description>
@@ -577,7 +580,8 @@
 &lt;p&gt;Yesterday, I find another reason to like March 20, because it’s the &lt;a href=&#34;https://www.dayofhappiness.net/#join&#34;&gt;International Day of Happiness&lt;/a&gt;! What a day!&lt;/p&gt;
 &lt;p&gt;This special day also made me think what are the things that make me happy in life, besides my spring pancakes and other 99 types of food. And scientifically speaking, the happiness brought by my food fellows is, in fact, a short-term pleasure. But the memories associated with food can be long-term happiness.&lt;/p&gt;
 &lt;p&gt;So how can we differentiate between pleasure and happiness? A simple way would be to ask the brain one question: is this something I want or I like? If you want to know more ways, here is a table for you ;)&lt;/p&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;/img/pics/happiness.png&#34; alt=&#34;Pleasure-Happiness&#34;&gt;
+&lt;br&gt;&lt;/p&gt;
 &lt;h4 id=&#34;what-are-the-things-making-you-happy-and-what-to-do-if-you-are-unhappy&#34;&gt;What are the things making you happy? And what to do if you are unhappy?&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -721,9 +725,10 @@
 &lt;li&gt;
 &lt;p&gt;Knowledge distillation&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1503.02531.pdf&#34;&gt;Hinton 2015, Distilling the Knowledge in a Neural Network&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1503.02531.pdf&#34;&gt;Hinton 2015, Distilling the Knowledge in a Neural Network&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/pics/knowledge_distillation.png&#34; alt=&#34;knowledge_distillation&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.aaai.org/ocs/index.php/SSS/SSS15/paper/viewFile/10292/10066&#34;&gt;Aditya 2015, Visual Common sense for Scene Understanding
 Using Perception, Semantic Parsing and Reasoning&lt;/a&gt;&lt;/p&gt;
@@ -802,9 +807,13 @@ Using Perception, Semantic Parsing and Reasoning&lt;/a&gt;&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
- * Predeep learning era: bias and variance tradeoff was often mentioned because of the lack of ability to train bigger network and getting more data.
 &lt;ul&gt;
-&lt;li&gt;Deep learning era: training a bigger network and getting more data often never hurts.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Predeep learning era: bias and variance tradeoff was often mentioned because of the lack of ability to train bigger network and getting more data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deep learning era: training a bigger network and getting more data often never hurts.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;  
 &lt;h3 id=&#34;question-2&#34;&gt;Question 2:&lt;/h3&gt;
