@@ -36,7 +36,7 @@
   Create a yourusrname.github.io GitHub repository.">
 <meta itemprop="datePublished" content="2020-02-08T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-02-08T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="263">
+<meta itemprop="wordCount" content="288">
 
 
 
@@ -147,7 +147,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.165a8ed668326a916368e5ae5ce5ceaad6c6ab21f9d0362af1bb0dc58f4878baf317c15a8d6697a3a19879d23c7b48799d6655d82df29d4796c7302a8398d159.json"
+  data-offline-search-index-json-src="/offline-search-index.4479985d27d343ff9c0ce0ba99e06d3cda01800fde571c454c2f4e05ada8149a29080efa9ae738f4811fe7028dc47ff07e41f5bf750edecd464571cdde048eb8.json"
   data-offline-search-base-href="/"
 >
 
@@ -177,7 +177,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.165a8ed668326a916368e5ae5ce5ceaad6c6ab21f9d0362af1bb0dc58f4878baf317c15a8d6697a3a19879d23c7b48799d6655d82df29d4796c7302a8398d159.json"
+  data-offline-search-index-json-src="/offline-search-index.4479985d27d343ff9c0ce0ba99e06d3cda01800fde571c454c2f4e05ada8149a29080efa9ae738f4811fe7028dc47ff07e41f5bf750edecd464571cdde048eb8.json"
   data-offline-search-base-href="/"
 >
 
@@ -1817,7 +1817,20 @@ git push origin master
 <li>The public folder will be pushed to <code>yourusrname.github.io</code></li>
 <li>Check your website <code>yourusrname.github.io</code></li>
 </ul>
-<h4 id="reference">Reference</h4>
+<br>
+<h4 id="4-enable-website-search">4. Enable website search</h4>
+<pre><code>vim hugo-website/config.toml 
+
+# Enable Lunr.js offline search
+offlineSearch = true
+</code></pre><p><a href="https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch">Ref</a></p>
+<br>
+<h4 id="5-enable-emoji">5. Enable Emoji</h4>
+<pre><code>vim hugo-website/config.toml 
+
+# Add  
+enableEmoji = true
+</code></pre><h4 id="reference">Reference</h4>
 <ul>
 <li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Host on GitHub</a></li>
 </ul>

@@ -270,7 +270,20 @@ git push origin master
 &lt;li&gt;The public folder will be pushed to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Check your website &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;4-enable-website-search&#34;&gt;4. Enable website search&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;vim hugo-website/config.toml 
+
+# Enable Lunr.js offline search
+offlineSearch = true
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;5-enable-emoji&#34;&gt;5. Enable Emoji&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;vim hugo-website/config.toml 
+
+# Add  
+enableEmoji = true
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;Host on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
