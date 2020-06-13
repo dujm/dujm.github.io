@@ -226,7 +226,25 @@ git submodule update --init --recursive
 git add .
 git commit &#39;initial commit&#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h4 id=&#34;3-deploy-to-yourusrnamegithubio&#34;&gt;3. Deploy to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;3-enable-website-search&#34;&gt;3. Enable website search&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;vim hugo-website/config.toml 
+
+# Enable Lunr.js offline search
+offlineSearch = true
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;4-enable-emoji&#34;&gt;4. Enable Emoji&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;vim hugo-website/config.toml 
+
+# Add  
+enableEmoji = true
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;5-add-resources-using-hugos-short-codes&#34;&gt;5. Add resources using Hugo&amp;rsquo;s short codes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;Short codes&lt;/a&gt; are simple snippets inside your content files calling built-in or custom templates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;6-deploy-to-yourusrnamegithubio&#34;&gt;6. Deploy to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Make sure your website works locally
 &lt;ul&gt;
@@ -271,19 +289,7 @@ git push origin master
 &lt;li&gt;Check your website &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;4-enable-website-search&#34;&gt;4. Enable website search&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;vim hugo-website/config.toml 
-
-# Enable Lunr.js offline search
-offlineSearch = true
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;5-enable-emoji&#34;&gt;5. Enable Emoji&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;vim hugo-website/config.toml 
-
-# Add  
-enableEmoji = true
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
+&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;Host on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

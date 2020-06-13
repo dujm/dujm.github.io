@@ -25,12 +25,11 @@
         
         &lt;br&gt;
 &lt;h4 id=&#34;how-to-create-and-change-emojis-using-javascript&#34;&gt;How to create and change emojis using JavaScript?&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://mathiasbynens.be/notes/javascript-unicode&#34;&gt;JavaScript has a Unicode problem&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;/img/coding/javascript.jpg&#34; alt=&#34;js-emojis&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/mgechev/status/1250672809946370051?s=20&#34;&gt;Image from Minko Gechev&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt; 
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;You can create and change emojis using JavaScript&lt;br&gt;&lt;br&gt;Read more at this fantastic article by &lt;a href=&#34;https://twitter.com/mathias?ref_src=twsrc%5Etfw&#34;&gt;@mathias&lt;/a&gt; &lt;a href=&#34;https://t.co/lSACG8rufx&#34;&gt;https://t.co/lSACG8rufx&lt;/a&gt; &lt;a href=&#34;https://t.co/wdG1yYCkwh&#34;&gt;pic.twitter.com/wdG1yYCkwh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Minko Gechev (@mgechev) &lt;a href=&#34;https://twitter.com/mgechev/status/1250672809946370051?ref_src=twsrc%5Etfw&#34;&gt;April 16, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;br&gt;
 &lt;h4 id=&#34;how-to-use-emojis-in-markdown&#34;&gt;How to use emojis in Markdown?&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://gist.github.com/rxaviers/7360908&#34;&gt;Complete list of github markdown emoji markup &lt;/a&gt;&lt;/p&gt;

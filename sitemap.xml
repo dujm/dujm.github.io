@@ -348,6 +348,11 @@
   </url>
   
   <url>
+    <loc>/docs/coding/functional-coding/javascript/freecodecamp/loops/</loc>
+    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/git/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
@@ -448,17 +453,17 @@
   </url>
   
   <url>
-    <loc>/docs/iot/development_board/</loc>
+    <loc>/docs/engineering/iot/development_board/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/iot/ibm-iot-course/</loc>
+    <loc>/docs/engineering/iot/ibm-iot-course/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/iot/rpi-lcd-display/</loc>
+    <loc>/docs/engineering/iot/rpi-lcd-display/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -528,7 +533,7 @@
   </url>
   
   <url>
-    <loc>/docs/iot/</loc>
+    <loc>/docs/engineering/iot/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -668,7 +673,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>

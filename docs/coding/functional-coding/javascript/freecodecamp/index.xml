@@ -818,8 +818,161 @@ var myPlants = [
 ];
 
 var secondTree = myPlants[1].list[1]; // pine
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/record-collection&#34;&gt;Course link&lt;/a&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;3-record-collection-exercise&#34;&gt;3. Record Collection Exercise&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt; Basic JavaScript: Record CollectionPassed
 
+You are given a JSON object representing a part of your musical album collection. Each album has several properties and a unique id number as its key. Not all albums have complete information.
+
+Write a function which takes an album&#39;s id (like 2548), a property prop (like &amp;quot;artist&amp;quot; or &amp;quot;tracks&amp;quot;), and a value (like &amp;quot;Addicted to Love&amp;quot;) to modify the data in this collection.
+
+If prop isn&#39;t &amp;quot;tracks&amp;quot; and value isn&#39;t empty (&amp;quot;&amp;quot;), update or set the value for that record album&#39;s property.
+
+Your function must always return the entire collection object.
+
+There are several rules for handling incomplete data:
+
+If prop is &amp;quot;tracks&amp;quot; but the album doesn&#39;t have a &amp;quot;tracks&amp;quot; property, create an empty array before adding the new value to the album&#39;s corresponding property.
+
+If prop is &amp;quot;tracks&amp;quot; and value isn&#39;t empty (&amp;quot;&amp;quot;), push the value onto the end of the album&#39;s existing tracks array.
+
+If value is empty (&amp;quot;&amp;quot;), delete the given prop property from the album.
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;function lookUpProfile(name, prop){
+  for (var i =0; i &amp;lt;contacts.length; i++){
+      if (contacts[i].firstName === name){
+          if (contacts[i].hasOwnProperty(prop)){
+              return contacts[i][prop]
+          }
+          return &amp;quot;No such property&amp;quot;
+          }
+      }
+      return &amp;quot;No such contact&amp;quot;      
+} 
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Loops</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/loops/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/loops/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;br&gt; 
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-while-loops&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;1-iterate-with-javascript-while-loops&#34;&gt;1. Iterate with JavaScript While Loops&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The first type of loop we will learn is called a while loop because it runs &amp;ldquo;while&amp;rdquo; a specified condition is true and stops once that condition is no longer true.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;// Setup
+var myArray = [];
+
+var i = 5;
+while (i &amp;gt;=0){
+  myArray.push(i);
+  i--;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-iterate-with-javascript-for-loops&#34;&gt;2. Iterate with JavaScript For Loops&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;// Setup
+var myArray = [];
+
+for (var i = 1; i &amp;lt; 6; i++){
+  myArray.push(i);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;3-iterate-through-an-array-with-a-for-loop&#34;&gt;3. Iterate Through an Array with a For Loop&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;// Setup
+var myArr = [ 2, 3, 4, 5, 6];
+
+// Only change code below this line
+var total = 0;
+for (var i= 0; i&amp;lt; myArr.length; i++){
+  total += myArr[i]; 
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;4-nesting-for-loops&#34;&gt;4. Nesting For Loops&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;  for (var i = 0; i &amp;lt; arr.length; i++) {
+    for (var j = 0; j &amp;lt; arr[i].length; j++) {
+      product *= arr[i][j];
+    }
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;5-iterate-with-javascript-dowhile-loops&#34;&gt;5. Iterate with JavaScript Do&amp;hellip;While Loops&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Essentially, a do&amp;hellip;while loop ensures that the code inside the loop will run at least once&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;// Change the while loop in the code to a do...while loop so the loop will push only the number 10 to myArray, and i will be equal to 11 when your code has finished running. 
+var myArray = [];
+var i = 10;
+
+do {
+  myArray.push(i);
+  i++;
+} while (i&amp;lt;5);
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;6-replace-loops-using-recursion&#34;&gt;6. Replace Loops using Recursion&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The recursive version of multiply breaks down like this. In the base case, where n &amp;lt;= 0, it returns 1. For larger values of n, it calls itself, but with n - 1. That function call is evaluated in the same way, calling multiply again until n &amp;lt;= 0. At this point, all the functions can return and the original multiply returns the answer.&lt;/p&gt;
+&lt;p&gt;Note: Recursive functions must have a base case when they return without calling the function again (in this example, when n &amp;lt;= 0), otherwise they can never finish executing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;  function multiply(arr, n) {
+    if (n &amp;lt;= 0) {
+      return 1;
+    } else {
+      return multiply(arr, n - 1) * arr[n - 1];
+    }
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;// Setup
+var contacts = [
+    {
+        &amp;quot;firstName&amp;quot;: &amp;quot;Akira&amp;quot;,
+        &amp;quot;lastName&amp;quot;: &amp;quot;Laine&amp;quot;,
+        &amp;quot;number&amp;quot;: &amp;quot;0543236543&amp;quot;,
+        &amp;quot;likes&amp;quot;: [&amp;quot;Pizza&amp;quot;, &amp;quot;Coding&amp;quot;, &amp;quot;Brownie Points&amp;quot;]
+    },
+    {
+        &amp;quot;firstName&amp;quot;: &amp;quot;Harry&amp;quot;,
+        &amp;quot;lastName&amp;quot;: &amp;quot;Potter&amp;quot;,
+        &amp;quot;number&amp;quot;: &amp;quot;0994372684&amp;quot;,
+        &amp;quot;likes&amp;quot;: [&amp;quot;Hogwarts&amp;quot;, &amp;quot;Magic&amp;quot;, &amp;quot;Hagrid&amp;quot;]
+    },
+    {
+        &amp;quot;firstName&amp;quot;: &amp;quot;Sherlock&amp;quot;,
+        &amp;quot;lastName&amp;quot;: &amp;quot;Holmes&amp;quot;,
+        &amp;quot;number&amp;quot;: &amp;quot;0487345643&amp;quot;,
+        &amp;quot;likes&amp;quot;: [&amp;quot;Intriguing Cases&amp;quot;, &amp;quot;Violin&amp;quot;]
+    },
+    {
+        &amp;quot;firstName&amp;quot;: &amp;quot;Kristian&amp;quot;,
+        &amp;quot;lastName&amp;quot;: &amp;quot;Vos&amp;quot;,
+        &amp;quot;number&amp;quot;: &amp;quot;unknown&amp;quot;,
+        &amp;quot;likes&amp;quot;: [&amp;quot;JavaScript&amp;quot;, &amp;quot;Gaming&amp;quot;, &amp;quot;Foxes&amp;quot;]
+    }
+];
+
+
+function lookUpProfile(name, prop){
+// Only change code below this line
+  for (var i =0; i &amp;lt;contacts.length; i++){
+      if (contacts[i].firstName == name){
+          for (var j = 0; j &amp;lt; contacts[i].length; j++){
+              if (j == prop){
+                  return contacts[i][prop]
+              } else {
+                  return &amp;quot;No such property&amp;quot;
+                  }  
+        }
+        } else {
+            return &amp;quot;No such contact&amp;quot;  
+  }
+// Only change code above this line
+}
+}
+
+lookUpProfile(&amp;quot;Akira&amp;quot;, &amp;quot;likes&amp;quot;);
+
+&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     

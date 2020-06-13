@@ -34,7 +34,7 @@
  var myDog = { &quot;name&quot;: &quot;Snoopy&quot;, &quot;legs&quot;: 4, &quot;tails&quot;: 1, &quot;friends&quot;: [&quot;Woodstock&quot;,&quot;Charlie&quot;] }; 2. Accessing Object Properties  Use dot notation   When you know the name of the property you&rsquo;re trying to access ahead of time">
 <meta itemprop="datePublished" content="2020-06-12T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-06-12T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="401">
+<meta itemprop="wordCount" content="597">
 
 
 
@@ -144,7 +144,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.4479985d27d343ff9c0ce0ba99e06d3cda01800fde571c454c2f4e05ada8149a29080efa9ae738f4811fe7028dc47ff07e41f5bf750edecd464571cdde048eb8.json"
+  data-offline-search-index-json-src="/offline-search-index.946e9eb959a089d8b81e3eda63d8d56b29835f53f3aaf2af72f5a8f330822fe772eeb55b00cfd3b6742f037b1444b4353070c25451e717698a0972c06fc0d55c.json"
   data-offline-search-base-href="/"
 >
 
@@ -174,7 +174,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.4479985d27d343ff9c0ce0ba99e06d3cda01800fde571c454c2f4e05ada8149a29080efa9ae738f4811fe7028dc47ff07e41f5bf750edecd464571cdde048eb8.json"
+  data-offline-search-index-json-src="/offline-search-index.946e9eb959a089d8b81e3eda63d8d56b29835f53f3aaf2af72f5a8f330822fe772eeb55b00cfd3b6742f037b1444b4353070c25451e717698a0972c06fc0d55c.json"
   data-offline-search-base-href="/"
 >
 
@@ -414,6 +414,12 @@
       
       
       <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docscodingfunctional-codingjavascriptfreecodecampobject" href="/docs/coding/functional-coding/javascript/freecodecamp/object/">Object</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptfreecodecamploops" href="/docs/coding/functional-coding/javascript/freecodecamp/loops/">Loops</a>
       
       
     </li>
@@ -680,12 +686,6 @@
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docsengineeringbig-o" href="/docs/engineering/big-o/">big-O</a>
       
       
-    </li>
-  </ul>
-</ul>
-
-      
-      
       
       
 
@@ -696,29 +696,35 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/iot/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">IoT</a>
+    <a  href="/docs/engineering/iot/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">IoT</a>
   </li>
   <ul>
-    <li class="collapse " id="docsiot">
+    <li class="collapse " id="docsengineeringiot">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsiotdevelopment_board" href="/docs/iot/development_board/">Development Boards</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsengineeringiotdevelopment_board" href="/docs/engineering/iot/development_board/">Development Boards</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsiotibm-iot-course" href="/docs/iot/ibm-iot-course/">IBM IoT Course</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsengineeringiotibm-iot-course" href="/docs/engineering/iot/ibm-iot-course/">IBM IoT Course</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsiotrpi-lcd-display" href="/docs/iot/rpi-lcd-display/">RPI Touch Screen LCD</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsengineeringiotrpi-lcd-display" href="/docs/engineering/iot/rpi-lcd-display/">RPI Touch Screen LCD</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
       
       
     </li>
@@ -1939,8 +1945,36 @@ var myPlants = [
 ];
 
 var secondTree = myPlants[1].list[1]; // pine
-</code></pre><p><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/record-collection">Course link</a></p>
+</code></pre><h4 id="3-record-collection-exercise">3. Record Collection Exercise</h4>
+<pre><code> Basic JavaScript: Record CollectionPassed
 
+You are given a JSON object representing a part of your musical album collection. Each album has several properties and a unique id number as its key. Not all albums have complete information.
+
+Write a function which takes an album's id (like 2548), a property prop (like &quot;artist&quot; or &quot;tracks&quot;), and a value (like &quot;Addicted to Love&quot;) to modify the data in this collection.
+
+If prop isn't &quot;tracks&quot; and value isn't empty (&quot;&quot;), update or set the value for that record album's property.
+
+Your function must always return the entire collection object.
+
+There are several rules for handling incomplete data:
+
+If prop is &quot;tracks&quot; but the album doesn't have a &quot;tracks&quot; property, create an empty array before adding the new value to the album's corresponding property.
+
+If prop is &quot;tracks&quot; and value isn't empty (&quot;&quot;), push the value onto the end of the album's existing tracks array.
+
+If value is empty (&quot;&quot;), delete the given prop property from the album.
+</code></pre><pre><code>function lookUpProfile(name, prop){
+  for (var i =0; i &lt;contacts.length; i++){
+      if (contacts[i].firstName === name){
+          if (contacts[i].hasOwnProperty(prop)){
+              return contacts[i][prop]
+          }
+          return &quot;No such property&quot;
+          }
+      }
+      return &quot;No such contact&quot;      
+} 
+</code></pre>
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified June 12, 2020

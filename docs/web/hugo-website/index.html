@@ -36,7 +36,7 @@
   Create a yourusrname.github.io GitHub repository.">
 <meta itemprop="datePublished" content="2020-02-08T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-02-08T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="288">
+<meta itemprop="wordCount" content="309">
 
 
 
@@ -147,7 +147,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.4479985d27d343ff9c0ce0ba99e06d3cda01800fde571c454c2f4e05ada8149a29080efa9ae738f4811fe7028dc47ff07e41f5bf750edecd464571cdde048eb8.json"
+  data-offline-search-index-json-src="/offline-search-index.946e9eb959a089d8b81e3eda63d8d56b29835f53f3aaf2af72f5a8f330822fe772eeb55b00cfd3b6742f037b1444b4353070c25451e717698a0972c06fc0d55c.json"
   data-offline-search-base-href="/"
 >
 
@@ -177,7 +177,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.4479985d27d343ff9c0ce0ba99e06d3cda01800fde571c454c2f4e05ada8149a29080efa9ae738f4811fe7028dc47ff07e41f5bf750edecd464571cdde048eb8.json"
+  data-offline-search-index-json-src="/offline-search-index.946e9eb959a089d8b81e3eda63d8d56b29835f53f3aaf2af72f5a8f330822fe772eeb55b00cfd3b6742f037b1444b4353070c25451e717698a0972c06fc0d55c.json"
   data-offline-search-base-href="/"
 >
 
@@ -417,6 +417,12 @@
       
       
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptfreecodecampobject" href="/docs/coding/functional-coding/javascript/freecodecamp/object/">Object</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptfreecodecamploops" href="/docs/coding/functional-coding/javascript/freecodecamp/loops/">Loops</a>
       
       
     </li>
@@ -683,12 +689,6 @@
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docsengineeringbig-o" href="/docs/engineering/big-o/">big-O</a>
       
       
-    </li>
-  </ul>
-</ul>
-
-      
-      
       
       
 
@@ -699,29 +699,35 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/iot/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">IoT</a>
+    <a  href="/docs/engineering/iot/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">IoT</a>
   </li>
   <ul>
-    <li class="collapse " id="docsiot">
+    <li class="collapse " id="docsengineeringiot">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsiotdevelopment_board" href="/docs/iot/development_board/">Development Boards</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsengineeringiotdevelopment_board" href="/docs/engineering/iot/development_board/">Development Boards</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsiotibm-iot-course" href="/docs/iot/ibm-iot-course/">IBM IoT Course</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsengineeringiotibm-iot-course" href="/docs/engineering/iot/ibm-iot-course/">IBM IoT Course</a>
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsiotrpi-lcd-display" href="/docs/iot/rpi-lcd-display/">RPI Touch Screen LCD</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsengineeringiotrpi-lcd-display" href="/docs/engineering/iot/rpi-lcd-display/">RPI Touch Screen LCD</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
       
       
     </li>
@@ -1773,7 +1779,25 @@ git submodule update --init --recursive
 git add .
 git commit 'initial commit'
 </code></pre><br>
-<h4 id="3-deploy-to-yourusrnamegithubio">3. Deploy to <code>yourusrname.github.io</code></h4>
+<h4 id="3-enable-website-search">3. Enable website search</h4>
+<pre><code>vim hugo-website/config.toml 
+
+# Enable Lunr.js offline search
+offlineSearch = true
+</code></pre><p><a href="https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch">Ref</a></p>
+<br>
+<h4 id="4-enable-emoji">4. Enable Emoji</h4>
+<pre><code>vim hugo-website/config.toml 
+
+# Add  
+enableEmoji = true
+</code></pre><br>
+<h4 id="5-add-resources-using-hugos-short-codes">5. Add resources using Hugo&rsquo;s short codes</h4>
+<ul>
+<li><a href="https://gohugo.io/content-management/shortcodes/">Short codes</a> are simple snippets inside your content files calling built-in or custom templates.</li>
+</ul>
+<br>
+<h4 id="6-deploy-to-yourusrnamegithubio">6. Deploy to <code>yourusrname.github.io</code></h4>
 <ul>
 <li>Make sure your website works locally
 <ul>
@@ -1818,19 +1842,7 @@ git push origin master
 <li>Check your website <code>yourusrname.github.io</code></li>
 </ul>
 <br>
-<h4 id="4-enable-website-search">4. Enable website search</h4>
-<pre><code>vim hugo-website/config.toml 
-
-# Enable Lunr.js offline search
-offlineSearch = true
-</code></pre><p><a href="https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch">Ref</a></p>
-<br>
-<h4 id="5-enable-emoji">5. Enable Emoji</h4>
-<pre><code>vim hugo-website/config.toml 
-
-# Add  
-enableEmoji = true
-</code></pre><h4 id="reference">Reference</h4>
+<h4 id="reference">Reference</h4>
 <ul>
 <li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Host on GitHub</a></li>
 </ul>
