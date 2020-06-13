@@ -15,11 +15,11 @@
     
     
     <item>
-      <title>Docs: Variable</title>
-      <link>/docs/coding/functional-coding/javascript/freecodecamp/variable/</link>
+      <title>Docs: Variables</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/variables/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/javascript/freecodecamp/variable/</guid>
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/variables/</guid>
       <description>
         
         
@@ -247,11 +247,11 @@ ourArray.unshift(&amp;quot;Happy&amp;quot;);
     </item>
     
     <item>
-      <title>Docs: Function</title>
-      <link>/docs/coding/functional-coding/javascript/freecodecamp/function/</link>
+      <title>Docs: Functions</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/functions/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/javascript/freecodecamp/function/</guid>
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/functions/</guid>
       <description>
         
         
@@ -631,11 +631,11 @@ golfScore(5, 4);
     </item>
     
     <item>
-      <title>Docs: Object</title>
-      <link>/docs/coding/functional-coding/javascript/freecodecamp/object/</link>
+      <title>Docs: Objects</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/objects/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/javascript/freecodecamp/object/</guid>
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/objects/</guid>
       <description>
         
         
@@ -967,11 +967,131 @@ function lookUpProfile(name, prop){
             return &amp;quot;No such contact&amp;quot;  
   }
 // Only change code above this line
-}
+}c
 }
 
 lookUpProfile(&amp;quot;Akira&amp;quot;, &amp;quot;likes&amp;quot;);
 
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Numbers</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/numbers/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/numbers/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;br&gt; 
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/generate-random-fractions-with-javascript&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;1-generate-random-fractions-with-javascript&#34;&gt;1. Generate Random Fractions with JavaScript&lt;/h4&gt;
+&lt;p&gt;JavaScript has a Math.random() function that generates a random decimal number between 0 (inclusive) and not quite up to 1 (exclusive). Thus Math.random() can return a 0 but never quite return a 1&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function randomFraction() {
+  return Math.random();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;2-generate-random-whole-numbers&#34;&gt;2. Generate Random Whole Numbers&lt;/h4&gt;
+&lt;p&gt;It&amp;rsquo;s great that we can generate random decimal numbers, but it&amp;rsquo;s even more useful if we use it to generate random whole numbers.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Use Math.random() to generate a random decimal.&lt;/li&gt;
+&lt;li&gt;Multiply that random decimal by 20.&lt;/li&gt;
+&lt;li&gt;Use another function, Math.floor() to round the number down to its nearest whole number.&lt;/li&gt;
+&lt;li&gt;Remember that Math.random() can never quite return a 1 and, because we&amp;rsquo;re rounding down, it&amp;rsquo;s impossible to actually get 20. This technique will give us a whole number between 0 and 19.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;Math.floor(Math.random() * 20);
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;3-generate-random-whole-numbers-within-a-range&#34;&gt;3. Generate Random Whole Numbers within a Range&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;function randomRange(myMin, myMax) {
+  // Only change code below this line
+  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin
+  // Only change code above this line
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;4-use-the-parseint-function&#34;&gt;4. Use the parseInt Function&lt;/h4&gt;
+&lt;p&gt;The &lt;code&gt;parseInt() &lt;/code&gt;function parses a string and returns an integer&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function convertToInteger(str) {
+  return parseInt(str)
+}
+# test
+convertToInteger(&amp;quot;56&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;5-use-the-parseint-function-with-a-radix&#34;&gt;5. Use the parseInt Function with a Radix&lt;/h4&gt;
+&lt;p&gt;Use parseInt() in the convertToInteger function so it converts a binary number to an integer and returns it&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# parseInt(string, radix);
+function convertToInteger(str) {
+  return parseInt(str,2)
+}
+
+convertToInteger(&amp;quot;10011&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;6-use-the-conditional-ternary-operator-&#34;&gt;6. Use the Conditional (Ternary) Operator 😃&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The conditional operator, also called the ternary operator, can be used as a one line if-else expression.&lt;/li&gt;
+&lt;li&gt;The syntax is: &lt;code&gt;condition ? statement-if-true : statement-if-false;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;function findGreater(a, b) {
+ if(a &amp;gt; b) {
+   return &amp;quot;a is greater&amp;quot;;
+ }
+ else {
+   return &amp;quot;b is greater&amp;quot;;
+ }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;can be re-written using the conditional operator&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function findGreater(a,b){
+    return a &amp;gt;b ? &amp;quot;a is greater&amp;quot; : &amp;quot;b is greater&amp;quot;;
+}
+&lt;/code&gt;&lt;/pre&gt; &lt;br&gt;
+&lt;h4 id=&#34;7-use-multiple-conditional-ternary-operators&#34;&gt;7. Use Multiple Conditional (Ternary) Operators&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Use multiple conditional operators in the checkSign function to check if a number is positive, negative or zero. The function should return &amp;ldquo;positive&amp;rdquo;, &amp;ldquo;negative&amp;rdquo; or &amp;ldquo;zero&amp;rdquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;function checkSign(num) {
+  return (num==0)? &amp;quot;zero&amp;quot;
+  : (num&amp;gt;0) ? &amp;quot;positive&amp;quot;
+  : &amp;quot;negative&amp;quot;
+}
+
+checkSign(10);
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;8-use-recursion-to-create-a-countdown&#34;&gt;8. Use Recursion to Create a Countdown&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The function should use recursion to return an array containing the integers n through 1 based on the n parameter. If the function is called with a number less than 1, the function should return an empty array. For example, calling this function with n = 5 should return the array [5, 4, 3, 2, 1]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;function countdown(n) {
+  if (n &amp;lt; 1) {
+    return [];
+  } else {
+    const arr = countdown(n - 1); //index
+    arr.unshift(n); // unshift
+    return arr;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;9-use-recursion-to-create-a-range-of-numbers&#34;&gt;9. Use Recursion to Create a Range of Numbers&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We have defined a function named rangeOfNumbers with two parameters. The function should return an array of integers which begins with a number represented by the startNum parameter and ends with a number represented by the endNum parameter.&lt;/p&gt;
+&lt;p&gt;The starting number will always be less than or equal to the ending number. Your function must use recursion by calling itself and not use loops of any kind. It should also work for cases where both startNum and endNum are the same.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;function rangeOfNumbers(startNum, endNum) {
+  if (startNum === endNum){
+    return [startNum];
+  } else {
+    // how many 
+    var arr = rangeOfNumbers(startNum, endNum - 1);
+    arr.push(endNum);
+    return arr
+  }
+};
 &lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>

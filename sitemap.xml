@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/freecodecamp/variable/</loc>
+    <loc>/docs/coding/functional-coding/javascript/freecodecamp/variables/</loc>
     <lastmod>2020-06-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -123,7 +123,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/freecodecamp/function/</loc>
+    <loc>/docs/coding/functional-coding/javascript/freecodecamp/functions/</loc>
     <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -283,7 +283,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/freecodecamp/object/</loc>
+    <loc>/docs/coding/functional-coding/javascript/freecodecamp/objects/</loc>
     <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -465,6 +465,11 @@
   <url>
     <loc>/docs/engineering/iot/rpi-lcd-display/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/coding/functional-coding/javascript/freecodecamp/numbers/</loc>
+    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>

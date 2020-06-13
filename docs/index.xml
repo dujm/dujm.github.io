@@ -15,11 +15,11 @@
     
     
     <item>
-      <title>Docs: Variable</title>
-      <link>/docs/coding/functional-coding/javascript/freecodecamp/variable/</link>
+      <title>Docs: Variables</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/variables/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/javascript/freecodecamp/variable/</guid>
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/variables/</guid>
       <description>
         
         
@@ -1998,11 +1998,11 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     </item>
     
     <item>
-      <title>Docs: Function</title>
-      <link>/docs/coding/functional-coding/javascript/freecodecamp/function/</link>
+      <title>Docs: Functions</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/functions/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/javascript/freecodecamp/function/</guid>
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/functions/</guid>
       <description>
         
         
@@ -4937,11 +4937,11 @@ interests.&lt;/li&gt;
     </item>
     
     <item>
-      <title>Docs: Object</title>
-      <link>/docs/coding/functional-coding/javascript/freecodecamp/object/</link>
+      <title>Docs: Objects</title>
+      <link>/docs/coding/functional-coding/javascript/freecodecamp/objects/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/javascript/freecodecamp/object/</guid>
+      <guid>/docs/coding/functional-coding/javascript/freecodecamp/objects/</guid>
       <description>
         
         
@@ -7569,7 +7569,7 @@ function lookUpProfile(name, prop){
             return &amp;quot;No such contact&amp;quot;  
   }
 // Only change code above this line
-}
+}c
 }
 
 lookUpProfile(&amp;quot;Akira&amp;quot;, &amp;quot;likes&amp;quot;);
