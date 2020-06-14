@@ -25,51 +25,51 @@
         
         &lt;br&gt;
 &lt;h4 id=&#34;list-folder-size-and-corresponding-file-sizes&#34;&gt;List folder size and corresponding file sizes&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;du -chd 1 | sort -h    
-du -aBM 2&amp;gt;/dev/null | sort -nr | head -n 50 | more
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;du -chd &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; sort -h    
+du -aBM 2&amp;gt;/dev/null &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; sort -nr &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; head -n &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;50&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; more
 
-# use du&#39;s -x flag to keep things limited to one filesystem 
-# 2&amp;gt;/dev/null redirects any error messages into oblivion. If they don&#39;t bother you, it&#39;s not obligatory.
-sudo du -sx /* 2&amp;gt;/dev/null | sort -n
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# use du&amp;#39;s -x flag to keep things limited to one filesystem&lt;/span&gt; 
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 2&amp;gt;/dev/null redirects any error messages into oblivion. If they don&amp;#39;t bother you, it&amp;#39;s not obligatory.&lt;/span&gt;
+sudo du -sx /* 2&amp;gt;/dev/null &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; sort -n
 
-# List all files larger than 1000MiB
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# List all files larger than 1000MiB&lt;/span&gt;
 find / -size +1000M -ls
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h4 id=&#34;clean-ubuntu&#34;&gt;Clean Ubuntu&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;# To delete downloaded packages (.deb) already installed (and no longer needed)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To delete downloaded packages (.deb) already installed (and no longer needed)&lt;/span&gt;
 sudo apt-get clean
 
-# To remove all stored archives in your cache for packages that can not be downloaded anymore (thus packages that are no longer in the repository or that have a newer version in the repository).
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To remove all stored archives in your cache for packages that can not be downloaded anymore (thus packages that are no longer in the repository or that have a newer version in the repository).&lt;/span&gt;
 
 sudo apt-get autoclean
 
-# To remove unnecessary packages (After uninstalling an app there could be packages you don&#39;t need anymore)
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To remove unnecessary packages (After uninstalling an app there could be packages you don&amp;#39;t need anymore)&lt;/span&gt;
 
 sudo apt-get autoremove
 
-# Install bleachbit 
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install bleachbit&lt;/span&gt; 
 sudo apt-get install bleachbit
 
-# Open bleachbit and select files to clean 
-&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;# To delete old kernel versions
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Open bleachbit and select files to clean&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To delete old kernel versions&lt;/span&gt;
 
 sudo apt-get remove --purge linux-image-X.X.XX-XX-generic
 
-# If you don&#39;t know which kernel version to remove
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# If you don&amp;#39;t know which kernel version to remove&lt;/span&gt;
 
-dpkg --get-selections | grep linux-image
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt; 
+dpkg --get-selections &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; grep linux-image
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt; 
 &lt;h4 id=&#34;clean-conda&#34;&gt;Clean conda&lt;/h4&gt;
 &lt;p&gt;Anaconda accumulate lots of garbage package caches and tarballs.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.conda.io/projects/conda/en/latest/commands/clean.html&#34;&gt;conda clean&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;# To delete caches, tarballs and lock files which are not used (except tmp)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To delete caches, tarballs and lock files which are not used (except tmp)&lt;/span&gt;
 conda clean -iptf
 
-# To delete all
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To delete all&lt;/span&gt;
 conda clean -a
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     

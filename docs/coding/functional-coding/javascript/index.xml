@@ -15,39 +15,30 @@
     
     
     <item>
-      <title>Docs: FreeCodeCamp</title>
-      <link>/docs/coding/functional-coding/javascript/freecodecamp/</link>
+      <title>Docs: Course</title>
+      <link>/docs/coding/functional-coding/javascript/course/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/javascript/freecodecamp/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/&#34;&gt;JavaScript Algorithm and Data Structures Certification&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/&#34;&gt;JavaScript Algorithm and Data Structures Certification by FreeCodeCamp&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>Docs: Node.js</title>
-      <link>/docs/coding/functional-coding/javascript/nodejs/</link>
-      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Practice</title>
+      <link>/docs/coding/functional-coding/javascript/practice/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/javascript/nodejs/</guid>
+      <guid>/docs/coding/functional-coding/javascript/practice/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;how-to-run-javascript-using-nodejs&#34;&gt;How to run JavaScript using Node.js?&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Install &lt;a href=&#34;https://nodejs.org/en/download/&#34;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Open a terminal and run&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;node
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;Node.js is an asynchronous event-driven JavaScript runtime designed to build scalable network applications.&lt;/p&gt;
-&lt;/blockquote&gt;
 
       </description>
     </item>
