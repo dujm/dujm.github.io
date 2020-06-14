@@ -147,7 +147,7 @@ function randomFraction() { return Math.random(); }
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -177,7 +177,7 @@ function randomFraction() { return Math.random(); }
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -1782,10 +1782,10 @@ function randomFraction() { return Math.random(); }
 </blockquote>
 <h4 id="1-generate-random-fractions-with-javascript">1. Generate Random Fractions with JavaScript</h4>
 <p>JavaScript has a Math.random() function that generates a random decimal number between 0 (inclusive) and not quite up to 1 (exclusive). Thus Math.random() can return a 0 but never quite return a 1</p>
-<pre><code>function randomFraction() {
-  return Math.random();
-}
-</code></pre><br>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">randomFraction</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#204a87">Math</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">random</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><br>
 <h4 id="2-generate-random-whole-numbers">2. Generate Random Whole Numbers</h4>
 <p>It&rsquo;s great that we can generate random decimal numbers, but it&rsquo;s even more useful if we use it to generate random whole numbers.</p>
 <blockquote>
@@ -1796,93 +1796,93 @@ function randomFraction() { return Math.random(); }
 <li>Remember that Math.random() can never quite return a 1 and, because we&rsquo;re rounding down, it&rsquo;s impossible to actually get 20. This technique will give us a whole number between 0 and 19.</li>
 </ul>
 </blockquote>
-<pre><code>Math.floor(Math.random() * 20);
-</code></pre><br>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87">Math</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">floor</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87">Math</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">random</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#0000cf;font-weight:bold">20</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><br>
 <h4 id="3-generate-random-whole-numbers-within-a-range">3. Generate Random Whole Numbers within a Range</h4>
-<pre><code>function randomRange(myMin, myMax) {
-  // Only change code below this line
-  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin
-  // Only change code above this line
-}
-</code></pre><br>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">randomRange</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">myMin</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">myMax</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#8f5902;font-style:italic">// Only change code below this line
+</span><span style="color:#8f5902;font-style:italic"></span>  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#204a87">Math</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">floor</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87">Math</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">random</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">myMax</span> <span style="color:#ce5c00;font-weight:bold">-</span> <span style="color:#000">myMin</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">myMin</span>
+  <span style="color:#8f5902;font-style:italic">// Only change code above this line
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><br>
 <h4 id="4-use-the-parseint-function">4. Use the parseInt Function</h4>
 <p>The <code>parseInt() </code>function parses a string and returns an integer</p>
-<pre><code>function convertToInteger(str) {
-  return parseInt(str)
-}
-# test
-convertToInteger(&quot;56&quot;);
-</code></pre><br>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">convertToInteger</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">str</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#204a87">parseInt</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">str</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000;font-weight:bold">}</span>
+<span style="color:#a40000">#</span> <span style="color:#000">test</span>
+<span style="color:#000">convertToInteger</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;56&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><br>
 <h4 id="5-use-the-parseint-function-with-a-radix">5. Use the parseInt Function with a Radix</h4>
 <p>Use parseInt() in the convertToInteger function so it converts a binary number to an integer and returns it</p>
-<pre><code># parseInt(string, radix);
-function convertToInteger(str) {
-  return parseInt(str,2)
-}
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#a40000">#</span> <span style="color:#204a87">parseInt</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">string</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">radix</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">convertToInteger</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">str</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#204a87">parseInt</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">str</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000;font-weight:bold">}</span>
 
-convertToInteger(&quot;10011&quot;);
-</code></pre><br>
+<span style="color:#000">convertToInteger</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;10011&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><br>
 <h4 id="6-use-the-conditional-ternary-operator-">6. Use the Conditional (Ternary) Operator 😃</h4>
 <ul>
 <li>The conditional operator, also called the ternary operator, can be used as a one line if-else expression.</li>
 <li>The syntax is: <code>condition ? statement-if-true : statement-if-false;</code></li>
 <li>Example</li>
 </ul>
-<pre><code>function findGreater(a, b) {
- if(a &gt; b) {
-   return &quot;a is greater&quot;;
- }
- else {
-   return &quot;b is greater&quot;;
- }
-}
-</code></pre><p>can be re-written using the conditional operator</p>
-<pre><code>function findGreater(a,b){
-    return a &gt;b ? &quot;a is greater&quot; : &quot;b is greater&quot;;
-}
-</code></pre> <br>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"> <span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">findGreater</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">a</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">b</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">if</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">a</span> <span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">b</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;a is greater&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span>
+  <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;b is greater&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><p>can be re-written using the conditional operator</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"> <span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">findGreater</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">a</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">b</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">{</span>
+     <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">a</span> <span style="color:#ce5c00;font-weight:bold">&gt;</span><span style="color:#000">b</span> <span style="color:#ce5c00;font-weight:bold">?</span> <span style="color:#4e9a06">&#34;a is greater&#34;</span> <span style="color:#ce5c00;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;b is greater&#34;</span><span style="color:#000;font-weight:bold">;</span>
+ <span style="color:#000;font-weight:bold">}</span>
+</code></pre></div> <br>
 <h4 id="7-use-multiple-conditional-ternary-operators">7. Use Multiple Conditional (Ternary) Operators</h4>
 <blockquote>
 <p>Use multiple conditional operators in the checkSign function to check if a number is positive, negative or zero. The function should return &ldquo;positive&rdquo;, &ldquo;negative&rdquo; or &ldquo;zero&rdquo;.</p>
 </blockquote>
-<pre><code>function checkSign(num) {
-  return (num==0)? &quot;zero&quot;
-  : (num&gt;0) ? &quot;positive&quot;
-  : &quot;negative&quot;
-}
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">checkSign</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">num</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">num</span><span style="color:#ce5c00;font-weight:bold">==</span><span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">?</span> <span style="color:#4e9a06">&#34;zero&#34;</span>
+  <span style="color:#ce5c00;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">num</span><span style="color:#ce5c00;font-weight:bold">&gt;</span><span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">?</span> <span style="color:#4e9a06">&#34;positive&#34;</span>
+  <span style="color:#ce5c00;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;negative&#34;</span>
+<span style="color:#000;font-weight:bold">}</span>
 
-checkSign(10);
-</code></pre><br>
+<span style="color:#000">checkSign</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><br>
 <h4 id="8-use-recursion-to-create-a-countdown">8. Use Recursion to Create a Countdown</h4>
 <blockquote>
 <p>The function should use recursion to return an array containing the integers n through 1 based on the n parameter. If the function is called with a number less than 1, the function should return an empty array. For example, calling this function with n = 5 should return the array [5, 4, 3, 2, 1]</p>
 </blockquote>
-<pre><code>function countdown(n) {
-  if (n &lt; 1) {
-    return [];
-  } else {
-    const arr = countdown(n - 1); //index
-    arr.unshift(n); // unshift
-    return arr;
-  }
-}
-</code></pre><br>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">countdown</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">n</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">n</span> <span style="color:#ce5c00;font-weight:bold">&lt;</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">arr</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">countdown</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">n</span> <span style="color:#ce5c00;font-weight:bold">-</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">//index
+</span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#000">arr</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">unshift</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">n</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// unshift
+</span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">arr</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><br>
 <h4 id="9-use-recursion-to-create-a-range-of-numbers">9. Use Recursion to Create a Range of Numbers</h4>
 <blockquote>
 <p>We have defined a function named rangeOfNumbers with two parameters. The function should return an array of integers which begins with a number represented by the startNum parameter and ends with a number represented by the endNum parameter.</p>
 <p>The starting number will always be less than or equal to the ending number. Your function must use recursion by calling itself and not use loops of any kind. It should also work for cases where both startNum and endNum are the same.</p>
 </blockquote>
-<pre><code>function rangeOfNumbers(startNum, endNum) {
-  if (startNum === endNum){
-    return [startNum];
-  } else {
-    // how many 
-    var arr = rangeOfNumbers(startNum, endNum - 1);
-    arr.push(endNum);
-    return arr
-  }
-};
-</code></pre>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">rangeOfNumbers</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">startNum</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">endNum</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">startNum</span> <span style="color:#ce5c00;font-weight:bold">===</span> <span style="color:#000">endNum</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#000">startNum</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#8f5902;font-style:italic">// how many 
+</span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">arr</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">rangeOfNumbers</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">startNum</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">endNum</span> <span style="color:#ce5c00;font-weight:bold">-</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#000">arr</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">push</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">endNum</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">arr</span>
+  <span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div>
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified June 13, 2020

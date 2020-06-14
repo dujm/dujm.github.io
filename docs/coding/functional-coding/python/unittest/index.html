@@ -144,7 +144,7 @@ Unit Test  Unit testing framework  import unittest from sklearn.metrics import p
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -174,7 +174,7 @@ Unit Test  Unit testing framework  import unittest from sklearn.metrics import p
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -1767,28 +1767,28 @@ Unit Test  Unit testing framework  import unittest from sklearn.metrics import p
 <ul>
 <li><a href="https://docs.python.org/3/library/unittest.html">Unit testing framework</a></li>
 </ul>
-<pre><code>import unittest 
-from sklearn.metrics import precision_score, recall_score
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">unittest</span> 
+<span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">sklearn.metrics</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">precision_score</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">recall_score</span>
 
-from src.train import prepare_data_and_train_model
+<span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">src.train</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">prepare_data_and_train_model</span>
 
-class TestModelMetrics(unittest.TestCase):
-  def test_model_precision_score_should_be_above_threshold(self):
-    model, X_test, Y_test = prepare_data_and_train_model()
-    Y_pred = model.predict(X_test)
+<span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">TestModelMetrics</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">unittest</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">TestCase</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">:</span>
+  <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">test_model_precision_score_should_be_above_threshold</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">:</span>
+    <span style="color:#000">model</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">X_test</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">Y_test</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">prepare_data_and_train_model</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#000">Y_pred</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">model</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">predict</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">X_test</span><span style="color:#000;font-weight:bold">)</span>
 
-    precision = precision_score(Y_test, Y_pred)
+    <span style="color:#000">precision</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">precision_score</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">Y_test</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">Y_pred</span><span style="color:#000;font-weight:bold">)</span>
 
-    self.assertGreaterEqual(precision, 0.7)
+    <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">assertGreaterEqual</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">precision</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">0.7</span><span style="color:#000;font-weight:bold">)</span>
 
-  def test_model_recall_score_should_be_above_threshold(self):
-    model, X_test, Y_test = prepare_data_and_train_model()
-    Y_pred = model.predict(X_test)
+  <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">test_model_recall_score_should_be_above_threshold</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">:</span>
+    <span style="color:#000">model</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">X_test</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">Y_test</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">prepare_data_and_train_model</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#000">Y_pred</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">model</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">predict</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">X_test</span><span style="color:#000;font-weight:bold">)</span>
 
-    recall = recall_score(Y_test, Y_pred)
+    <span style="color:#000">recall</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">recall_score</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">Y_test</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">Y_pred</span><span style="color:#000;font-weight:bold">)</span>
 
-    self.assertGreaterEqual(recall, 0.6)
-</code></pre><blockquote>
+    <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">assertGreaterEqual</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">recall</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">0.6</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><blockquote>
 <p><a href="https://gist.githubusercontent.com/davified/41046fc2665804aa38da0098ab2f1b34/raw/3716b2fd3614e29591c3f0dbe981486bb5c5587d/test_model_metrics.py">Ref</a></p>
 </blockquote>
 <br>

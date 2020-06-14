@@ -21,25 +21,25 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>GCP SDK Setup | DJ&#39;s Website</title><meta property="og:title" content="GCP SDK Setup" />
-<meta property="og:description" content="1. Set up Google Cloud Platform (GCP)  Go to Create service account key page Select project on top &lsquo;pines1&rsquo; Service account, my account JSON Provide authentication credentials to your application code Enable billing  export GOOGLE_APPLICATION_CREDENTIALS=&quot;/home/pi/gcp/pines1-6e82e765805d.json&quot; 2. Install GCP SDK Installing with apt-get for Debian and Ubuntu
-export CLOUD_SDK_REPO=&quot;cloud-sdk-$(lsb_release -c -s)&quot; echo &quot;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main&quot; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-sdk 3." />
+<meta property="og:description" content="1. Set up Google Cloud Platform (GCP)  Go to Create service account key page Select project on top &lsquo;pines1&rsquo; Service account, my account JSON Provide authentication credentials to your application code Enable billing  export GOOGLE_APPLICATION_CREDENTIALS=&#34;/home/pi/gcp/pines1-6e82e765805d.json&#34; 2. Install GCP SDK Installing with apt-get for Debian and Ubuntu
+export CLOUD_SDK_REPO=&#34;cloud-sdk-$(lsb_release -c -s)&#34; echo &#34;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPOmain&#34; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-sdk 3." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/cloud/gcp_sdk/" />
 <meta property="article:published_time" content="2020-02-08T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-02-08T00:00:00+00:00" />
 <meta itemprop="name" content="GCP SDK Setup">
-<meta itemprop="description" content="1. Set up Google Cloud Platform (GCP)  Go to Create service account key page Select project on top &lsquo;pines1&rsquo; Service account, my account JSON Provide authentication credentials to your application code Enable billing  export GOOGLE_APPLICATION_CREDENTIALS=&quot;/home/pi/gcp/pines1-6e82e765805d.json&quot; 2. Install GCP SDK Installing with apt-get for Debian and Ubuntu
-export CLOUD_SDK_REPO=&quot;cloud-sdk-$(lsb_release -c -s)&quot; echo &quot;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main&quot; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-sdk 3.">
+<meta itemprop="description" content="1. Set up Google Cloud Platform (GCP)  Go to Create service account key page Select project on top &lsquo;pines1&rsquo; Service account, my account JSON Provide authentication credentials to your application code Enable billing  export GOOGLE_APPLICATION_CREDENTIALS=&#34;/home/pi/gcp/pines1-6e82e765805d.json&#34; 2. Install GCP SDK Installing with apt-get for Debian and Ubuntu
+export CLOUD_SDK_REPO=&#34;cloud-sdk-$(lsb_release -c -s)&#34; echo &#34;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPOmain&#34; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-sdk 3.">
 <meta itemprop="datePublished" content="2020-02-08T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-02-08T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="100">
+<meta itemprop="wordCount" content="99">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="GCP SDK Setup"/>
-<meta name="twitter:description" content="1. Set up Google Cloud Platform (GCP)  Go to Create service account key page Select project on top &lsquo;pines1&rsquo; Service account, my account JSON Provide authentication credentials to your application code Enable billing  export GOOGLE_APPLICATION_CREDENTIALS=&quot;/home/pi/gcp/pines1-6e82e765805d.json&quot; 2. Install GCP SDK Installing with apt-get for Debian and Ubuntu
-export CLOUD_SDK_REPO=&quot;cloud-sdk-$(lsb_release -c -s)&quot; echo &quot;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main&quot; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-sdk 3."/>
+<meta name="twitter:description" content="1. Set up Google Cloud Platform (GCP)  Go to Create service account key page Select project on top &lsquo;pines1&rsquo; Service account, my account JSON Provide authentication credentials to your application code Enable billing  export GOOGLE_APPLICATION_CREDENTIALS=&#34;/home/pi/gcp/pines1-6e82e765805d.json&#34; 2. Install GCP SDK Installing with apt-get for Debian and Ubuntu
+export CLOUD_SDK_REPO=&#34;cloud-sdk-$(lsb_release -c -s)&#34; echo &#34;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPOmain&#34; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-sdk 3."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -141,7 +141,7 @@ export CLOUD_SDK_REPO=&quot;cloud-sdk-$(lsb_release -c -s)&quot; echo &quot;deb 
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -171,7 +171,7 @@ export CLOUD_SDK_REPO=&quot;cloud-sdk-$(lsb_release -c -s)&quot; echo &quot;deb 
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -1749,24 +1749,24 @@ export CLOUD_SDK_REPO=&quot;cloud-sdk-$(lsb_release -c -s)&quot; echo &quot;deb 
 <li>Provide authentication credentials to your application code</li>
 <li><a href="https://console.developers.google.com/billing/enable?project=650311275390">Enable billing</a></li>
 </ul>
-<pre><code>export GOOGLE_APPLICATION_CREDENTIALS=&quot;/home/pi/gcp/pines1-6e82e765805d.json&quot;
-</code></pre><h4 id="2-install-gcp-sdk">2. Install GCP SDK</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#204a87">export</span> <span style="color:#000">GOOGLE_APPLICATION_CREDENTIALS</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;/home/pi/gcp/pines1-6e82e765805d.json&#34;</span>
+</code></pre></div><h4 id="2-install-gcp-sdk">2. Install GCP SDK</h4>
 <p><a href="https://cloud.google.com/sdk/docs/downloads-apt-get">Installing with apt-get for Debian and Ubuntu</a></p>
-<pre><code>export CLOUD_SDK_REPO=&quot;cloud-sdk-$(lsb_release -c -s)&quot;
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#204a87">export</span> <span style="color:#000">CLOUD_SDK_REPO</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">cloud-sdk-</span><span style="color:#204a87;font-weight:bold">$(</span>lsb_release -c -s<span style="color:#204a87;font-weight:bold">)</span><span style="color:#4e9a06">&#34;</span>
 
-echo &quot;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main&quot; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+<span style="color:#204a87">echo</span> <span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">deb http://packages.cloud.google.com/apt </span><span style="color:#000">$CLOUD_SDK_REPO</span><span style="color:#4e9a06"> main</span><span style="color:#4e9a06">&#34;</span> <span style="color:#000;font-weight:bold">|</span> sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
 
-curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg <span style="color:#000;font-weight:bold">|</span> sudo apt-key add -
 
-sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-sdk
-</code></pre><h4 id="3-setup-gcloud-sdk">3. Setup GCloud SDK</h4>
-<pre><code>gcloud init
-</code></pre><h4 id="4-authorizing-cloud-sdk-tools">4. Authorizing Cloud SDK tools</h4>
+sudo apt-get update <span style="color:#ce5c00;font-weight:bold">&amp;&amp;</span> sudo apt-get install google-cloud-sdk
+</code></pre></div><h4 id="3-setup-gcloud-sdk">3. Setup GCloud SDK</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud init
+</code></pre></div><h4 id="4-authorizing-cloud-sdk-tools">4. Authorizing Cloud SDK tools</h4>
 <p><a href="https://cloud.google.com/sdk/docs/authorizing">Authorizing a service accounts</a></p>
-<pre><code>gloud auth login
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gloud auth login
 gcloud auth application-default login
 gcloud auth list
-</code></pre>
+</code></pre></div>
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified February 8, 2020

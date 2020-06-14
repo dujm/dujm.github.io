@@ -36,7 +36,7 @@
 # 1) Create Access Key ID and secret access keys &#39;&#39;&#39; User on right top menu =&gt; &#39;My seceurity Credentials =&gt; Access keys =&gt; Create New Access Key =&gt; Download the csv to your local drive &#39;&#39;&#39; # 2) In your local terminal aws configure &#39;&#39;&#39; AWS Access Key ID [None]: aaaaaaaaaaaaaa AWS Secret Access Key [None]: aaaaaaaaaa Default region name [None]: eu-west-1 Default output format [None]: json &#39;&#39;&#39; 3.">
 <meta itemprop="datePublished" content="2020-02-08T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-02-08T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="220">
+<meta itemprop="wordCount" content="221">
 
 
 
@@ -147,7 +147,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -177,7 +177,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -1748,67 +1748,65 @@
 	<br>
 <h4 id="1-install-aws-command-line-interface-cli">1. Install AWS Command Line Interface (CLI)</h4>
 <p><a href="https://aws.amazon.com/cli/">Doc</a></p>
-<pre><code># Optional: activate conda environment
-source activate pinenuts
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8f5902;font-style:italic"># Optional: activate conda environment</span>
+<span style="color:#204a87">source</span> activate pinenuts
 
-# Install AWS CLI
+<span style="color:#8f5902;font-style:italic"># Install AWS CLI</span>
 pip install awscli
 
-# Install command completion feature on Raspberry Pi’s CLI interface
-complete -C aws_completer aws
-</code></pre><br>
+<span style="color:#8f5902;font-style:italic"># Install command completion feature on Raspberry Pi’s CLI interface</span>
+<span style="color:#204a87">complete</span> -C aws_completer aws
+</code></pre></div><br>
 <h4 id="2-setup-security-credentials">2. Setup Security Credentials</h4>
 <p><a href="https://console.aws.amazon.com/iam/home?region=eu-west-1#/security_credentials">Security_credentials</a></p>
-<pre><code># 1) Create Access Key ID and secret access keys
-'''
-User on right top menu =&gt; 'My seceurity Credentials =&gt; Access keys =&gt; Create New Access Key =&gt; Download the csv to your local drive
-'''
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8f5902;font-style:italic"># 1) Create Access Key ID and secret access keys</span>
+<span style="color:#4e9a06">&#39;&#39;</span><span style="color:#4e9a06">&#39;
+</span><span style="color:#4e9a06">User on right top menu =&gt; &#39;</span>My seceurity <span style="color:#000">Credentials</span> <span style="color:#ce5c00;font-weight:bold">=</span>&gt; Access <span style="color:#000">keys</span> <span style="color:#ce5c00;font-weight:bold">=</span>&gt; Create New Access <span style="color:#000">Key</span> <span style="color:#ce5c00;font-weight:bold">=</span>&gt; Download the csv to your <span style="color:#204a87">local</span> drive
+<span style="color:#4e9a06">&#39;&#39;</span><span style="color:#4e9a06">&#39;
+</span><span style="color:#4e9a06">
+</span><span style="color:#4e9a06"># 2) In your local terminal
+</span><span style="color:#4e9a06">aws configure
+</span><span style="color:#4e9a06">
+</span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">&#39;&#39;</span>
+AWS Access Key ID <span style="color:#ce5c00;font-weight:bold">[</span>None<span style="color:#ce5c00;font-weight:bold">]</span>: aaaaaaaaaaaaaa
+AWS Secret Access Key <span style="color:#ce5c00;font-weight:bold">[</span>None<span style="color:#ce5c00;font-weight:bold">]</span>: aaaaaaaaaa
+Default region name <span style="color:#ce5c00;font-weight:bold">[</span>None<span style="color:#ce5c00;font-weight:bold">]</span>: eu-west-1
+Default output format <span style="color:#ce5c00;font-weight:bold">[</span>None<span style="color:#ce5c00;font-weight:bold">]</span>: json
+<span style="color:#4e9a06">&#39;&#39;</span><span style="color:#a40000">&#39;</span>
+</code></pre></div><h4 id="3-use-aws-sdk-in-your-local-terminal">3. Use AWS SDK in your local terminal</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8f5902;font-style:italic"># Create a new Thing</span>
+aws iot create-thing --thing-name <span style="color:#4e9a06">&#34;YourThingName&#34;</span>
 
-# 2) In your local terminal
-aws configure
-
-'''
-AWS Access Key ID [None]: aaaaaaaaaaaaaa
-AWS Secret Access Key [None]: aaaaaaaaaa
-Default region name [None]: eu-west-1
-Default output format [None]: json
-'''
-</code></pre><h4 id="3-use-aws-sdk-in-your-local-terminal">3. Use AWS SDK in your local terminal</h4>
-<pre><code># Create a new Thing
-aws iot create-thing --thing-name &quot;YourThingName&quot;
-
-#  List all your IoT Things
+<span style="color:#8f5902;font-style:italic">#  List all your IoT Things</span>
 aws iot list-things
 
-# List all your buckts
+<span style="color:#8f5902;font-style:italic"># List all your buckts</span>
 aws s3 ls
 
-# List the content in one bucket
+<span style="color:#8f5902;font-style:italic"># List the content in one bucket</span>
 aws s3 ls s3://greengrass-bucket-pinenuts
 
-# Copy files to your bucket
+<span style="color:#8f5902;font-style:italic"># Copy files to your bucket</span>
 aws s3 cp myfolder s3://greengrass-bucket-pinenuts --recursive
-</code></pre><br>
+</code></pre></div><br>
 <h4 id="4-use-aws-sdk-in-python-boto3-package">4. Use AWS SDK in Python (Boto3 package)</h4>
 <p><a href="https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#installation">Boto 3</a></p>
-<pre><code># Install boto3
-pip install boto3
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8f5902;font-style:italic"># Install boto3</span>
+$ pip install boto3
+</code></pre></div><h5 id="use-boto3-python-package">Use boto3 python package</h5>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">boto3</span>
 
-# Use boto3
-Python
-import boto3
+<span style="color:#8f5902;font-style:italic"># Let&#39;s use Amazon S3</span>
+<span style="color:#000">s3</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">boto3</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">resource</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">s3</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">)</span>
 
-# Let's use Amazon S3
-s3 = boto3.resource('s3')
+<span style="color:#8f5902;font-style:italic"># Print out bucket names</span>
+<span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">bucket</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">s3</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">buckets</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">all</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">bucket</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">name</span><span style="color:#000;font-weight:bold">)</span>
 
-# Print out bucket names
-for bucket in s3.buckets.all():
-    print(bucket.name)
-
-# Upload a new file
-data = open('test.jpg', 'rb')
-s3.Bucket('my-bucket').put_object(Key='test.jpg', Body=data)
-</code></pre>
+<span style="color:#8f5902;font-style:italic"># Upload a new file</span>
+<span style="color:#000">data</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87">open</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">test.jpg</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">rb</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">s3</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">Bucket</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">my-bucket</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">put_object</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">Key</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">test.jpg</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">Body</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">data</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div>
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified February 8, 2020

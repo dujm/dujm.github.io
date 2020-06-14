@@ -144,7 +144,7 @@ This module provides an interface to the optional garbage collector. It provides
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -174,7 +174,7 @@ This module provides an interface to the optional garbage collector. It provides
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -1819,10 +1819,10 @@ This module provides an interface to the optional garbage collector. It provides
 <blockquote>
 <p>Pipenv is a dependency manager for Python projects. If you’re familiar with Node.js’ npm or Ruby’s bundler, it is similar in spirit to those tools. While pip alone is often sufficient for personal use, Pipenv is recommended for collaborative projects as it’s a higher-level tool that simplifies dependency management for common use cases.</p>
 </blockquote>
-<pre><code>  $ pip install --user pipenv
-  $ cd myproject
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">  $ pip install --user pipenv
+  $ <span style="color:#204a87">cd</span> myproject
   $ pipenv install requests
-</code></pre><br> 
+</code></pre></div><br> 
 <h4 id="how-to-integrate-r-and-python-in-a-single-workflow">How to integrate R and Python in a single workflow?</h4>
 <ul>
 <li>Use R snippet and python snippet developer tools in Knime</li>
@@ -1836,24 +1836,24 @@ This module provides an interface to the optional garbage collector. It provides
 <blockquote>
 <p>Pint is a Python package to define, operate and manipulate physical quantities: the product of a numerical value and a unit of measurement. It allows arithmetic operations between them and conversions from and to different units.</p>
 </blockquote>
-<pre><code># Install
-$ pip install pint
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python">   <span style="color:#8f5902;font-style:italic"># Install</span>
+   <span style="color:#a40000">$</span> <span style="color:#000">pip</span> <span style="color:#000">install</span> <span style="color:#000">pint</span>
 
-&gt;&gt;&gt; import pint
-&gt;&gt;&gt; ureg = pint.UnitRegistry()
+   <span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">pint</span>
+   <span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">ureg</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">pint</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">UnitRegistry</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span>
+  
+  <span style="color:#8f5902;font-style:italic"># 1) Convert between meters and centimeters </span>
+   <span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#0000cf;font-weight:bold">3</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">ureg</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">meter</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#0000cf;font-weight:bold">4</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">ureg</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">cm</span>
+   <span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#000">Quantity</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">3.04</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">meter</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">&gt;</span>
+   
+   <span style="color:#8f5902;font-style:italic"># 2) Or use numpy </span>
+   <span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">numpy</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">np</span>
+   <span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">4</span><span style="color:#000;font-weight:bold">]</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">ureg</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">meter</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">4</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">]</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">ureg</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">cm</span>
+   <span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#000">Quantity</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">[</span> <span style="color:#0000cf;font-weight:bold">3.04</span>  <span style="color:#0000cf;font-weight:bold">4.03</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">meter</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">&gt;</span>
 
-# 1) Convert between meters and centimeters 
-&gt;&gt;&gt; 3 * ureg.meter + 4 * ureg.cm
-&lt;Quantity(3.04, 'meter')&gt;
-
-# 2) Or use numpy 
-&gt;&gt;&gt; import numpy as np
-&gt;&gt;&gt; [3, 4] * ureg.meter + [4, 3] * ureg.cm
-&lt;Quantity([ 3.04  4.03], 'meter')&gt;
-
-&gt;&gt;&gt; np.sum(_)
-&lt;Quantity(7.07, 'meter')&gt;
-</code></pre><br>
+   <span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">np</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">sum</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">_</span><span style="color:#000;font-weight:bold">)</span>
+   <span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#000">Quantity</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">7.07</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">meter</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">&gt;</span>
+</code></pre></div><br>
 <h4 id="how-to-do-geospatial-operations">How to do geospatial operations?</h4>
 <ul>
 <li><a href="https://github.com/manuelbieh/geolib">Geolib</a></li>

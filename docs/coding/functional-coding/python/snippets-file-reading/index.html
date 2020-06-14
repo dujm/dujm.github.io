@@ -22,14 +22,14 @@
 
 <title>Read Files | DJ&#39;s Website</title><meta property="og:title" content="Read Files" />
 <meta property="og:description" content="
-How to read json files in a directory to a dataframe? import pandas as pd import json, os # List of json files files = list(os.listdir(json_dir))[0:400] df = pd.DataFrame() for file in files: json_path = os.path.join(json_dir, file) # Load json files with open(json_path) as json_file: json_data = json.load(json_file) # Convert to dataframe json_data_df = pd.io.json.json_normalize(json_data) df = df.append(json_data_df) " />
+How to read json files in a directory to a dataframe? import pandas as pd import json, os # List of json files files = list(os.listdir(json_dir))[0:400] df = pd.DataFrame() for file in files: json_path = os.path.join(json_dir, file) # Load json files with open(json_path) as json_file: json_data = json.load(json_file) # Convert to dataframe  json_data_df = pd.io.json.json_normalize(json_data) df = df.append(json_data_df) " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/coding/functional-coding/python/snippets-file-reading/" />
 <meta property="article:published_time" content="2020-03-19T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-03-19T00:00:00+00:00" />
 <meta itemprop="name" content="Read Files">
 <meta itemprop="description" content="
-How to read json files in a directory to a dataframe? import pandas as pd import json, os # List of json files files = list(os.listdir(json_dir))[0:400] df = pd.DataFrame() for file in files: json_path = os.path.join(json_dir, file) # Load json files with open(json_path) as json_file: json_data = json.load(json_file) # Convert to dataframe json_data_df = pd.io.json.json_normalize(json_data) df = df.append(json_data_df) ">
+How to read json files in a directory to a dataframe? import pandas as pd import json, os # List of json files files = list(os.listdir(json_dir))[0:400] df = pd.DataFrame() for file in files: json_path = os.path.join(json_dir, file) # Load json files with open(json_path) as json_file: json_data = json.load(json_file) # Convert to dataframe  json_data_df = pd.io.json.json_normalize(json_data) df = df.append(json_data_df) ">
 <meta itemprop="datePublished" content="2020-03-19T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-03-19T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="58">
@@ -39,7 +39,7 @@ How to read json files in a directory to a dataframe? import pandas as pd import
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Read Files"/>
 <meta name="twitter:description" content="
-How to read json files in a directory to a dataframe? import pandas as pd import json, os # List of json files files = list(os.listdir(json_dir))[0:400] df = pd.DataFrame() for file in files: json_path = os.path.join(json_dir, file) # Load json files with open(json_path) as json_file: json_data = json.load(json_file) # Convert to dataframe json_data_df = pd.io.json.json_normalize(json_data) df = df.append(json_data_df) "/>
+How to read json files in a directory to a dataframe? import pandas as pd import json, os # List of json files files = list(os.listdir(json_dir))[0:400] df = pd.DataFrame() for file in files: json_path = os.path.join(json_dir, file) # Load json files with open(json_path) as json_file: json_data = json.load(json_file) # Convert to dataframe  json_data_df = pd.io.json.json_normalize(json_data) df = df.append(json_data_df) "/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -141,7 +141,7 @@ How to read json files in a directory to a dataframe? import pandas as pd import
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -171,7 +171,7 @@ How to read json files in a directory to a dataframe? import pandas as pd import
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -1761,23 +1761,23 @@ How to read json files in a directory to a dataframe? import pandas as pd import
 	
 	<br>
 <h4 id="how-to-read-json-files-in-a-directory-to-a-dataframe">How to read json files in a directory to a dataframe?</h4>
-<pre><code>import pandas as pd
-import json, os
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">pandas</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">pd</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">json</span><span style="color:#ce5c00;font-weight:bold">,</span> <span style="color:#000">os</span>
 
-# List of json files
-files = list(os.listdir(json_dir))[0:400]
-df = pd.DataFrame()
-for file in files:
-    json_path = os.path.join(json_dir, file)
+<span style="color:#8f5902;font-style:italic"># List of json files</span>
+<span style="color:#000">files</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87">list</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">listdir</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">json_dir</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">:</span><span style="color:#0000cf;font-weight:bold">400</span><span style="color:#000;font-weight:bold">]</span>
+<span style="color:#000">df</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">pd</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">DataFrame</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#204a87;font-weight:bold">for</span> <span style="color:#204a87">file</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">files</span><span style="color:#000;font-weight:bold">:</span>
+    <span style="color:#000">json_path</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">join</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">json_dir</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#204a87">file</span><span style="color:#000;font-weight:bold">)</span>
 
-    # Load json files
-    with open(json_path) as json_file:
-        json_data = json.load(json_file)
+    <span style="color:#8f5902;font-style:italic"># Load json files</span>
+    <span style="color:#204a87;font-weight:bold">with</span> <span style="color:#204a87">open</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">json_path</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">json_file</span><span style="color:#000;font-weight:bold">:</span>
+        <span style="color:#000">json_data</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">json</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">load</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">json_file</span><span style="color:#000;font-weight:bold">)</span>
 
-    # Convert to dataframe     
-    json_data_df = pd.io.json.json_normalize(json_data)
-    df = df.append(json_data_df)
-</code></pre>
+    <span style="color:#8f5902;font-style:italic"># Convert to dataframe     </span>
+    <span style="color:#000">json_data_df</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">pd</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">io</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">json</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">json_normalize</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">json_data</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#000">df</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">df</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">append</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">json_data_df</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div>
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified March 19, 2020

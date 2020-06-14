@@ -22,24 +22,24 @@
 
 <title>f-string | DJ&#39;s Website</title><meta property="og:title" content="f-string" />
 <meta property="og:description" content="Python f-string formatting  All examples below were executed in Python interactive shell
-  precision  &gt;&gt;&gt; import math &gt;&gt;&gt; math.pi 3.141592653589793 &gt;&gt;&gt; f&#39;{math.pi:.2f}&#39; &#39;3.14&#39;  grouping_option  &gt;&gt;&gt; f&#39;{1000000:,.2f}&#39; &#39;1,000,000.00&#39; &gt;&gt;&gt; f&#39;{1000000:_.2f}&#39; &#39;1_000_000.00&#39;  with numbers  &gt;&gt;&gt; f&#39;{12345:0&gt;10}&#39; &#39;0000012345&#39;  negative numbers  &gt;&gt;&gt; f&#39;{-12345:0=10}&#39; &#39;-000012345&#39;  shortcut (no align)  &gt;&gt;&gt; f&#39;{12345:010}&#39; &#39;0000012345&#39; &gt;&gt;&gt; f&#39;{-12345:010}&#39; &#39;-000012345&#39;  sign (&#43;/-)  &gt;&gt;&gt; f&#39;{12345:&#43;}&#39; &#39;&#43;12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;}&#39; &#39;-12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;10}&#39; &#39; -12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;010}&#39; &#39;-000012345&#39;  binary  &gt;&gt;&gt; f&#39;{10:b}&#39; &#39;1010&#39;  octal  &gt;&gt;&gt; f&#39;{10:o}&#39; &#39;12&#39;  hexadecimal  &gt;&gt;&gt; f&#39;{200:x}&#39; &#39;c8&#39; &gt;&gt;&gt; f&#39;{200:X}&#39; &#39;C8&#39;  scientific notation  &gt;&gt;&gt; f&#39;{345600000000:e}&#39; &#39;3." />
+  precision  &gt;&gt;&gt; import math &gt;&gt;&gt; math.pi 3.141592653589793 &gt;&gt;&gt; f&#39;{math.pi:.2f}&#39; &#39;3.14&#39;  grouping_option  &gt;&gt;&gt; f&#39;{1000000:,.2f}&#39; &#39;1,000,000.00&#39; &gt;&gt;&gt; f&#39;{1000000:_.2f}&#39; &#39;1_000_000.00&#39;  with numbers  &gt;&gt;&gt; f&#39;{12345:0&gt;10}&#39; &#39;0000012345&#39;  negative numbers  &gt;&gt;&gt; f&#39;{-12345:0=10}&#39; &#39;-000012345&#39;  shortcut (no align)  &gt;&gt;&gt; f&#39;{12345:010}&#39; &#39;0000012345&#39; &gt;&gt;&gt; f&#39;{-12345:010}&#39; &#39;-000012345&#39;  sign (&#43;/-)  &gt;&gt;&gt; f&#39;{12345:&#43;}&#39; &#39;&#43;12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;}&#39; &#39;-12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;10}&#39; &#39;-12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;010}&#39; &#39;-000012345&#39;  binary  &gt;&gt;&gt; f&#39;{10:b}&#39; &#39;1010&#39;  octal  &gt;&gt;&gt; f&#39;{10:o}&#39; &#39;12&#39;  hexadecimal  &gt;&gt;&gt; f&#39;{200:x}&#39; &#39;c8&#39; &gt;&gt;&gt; f&#39;{200:X}&#39; &#39;C8&#39;  scientific notation  &gt;&gt;&gt; f&#39;{345600000000:e}&#39; &#39;3." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/coding/functional-coding/python/f-string/" />
 <meta property="article:published_time" content="2020-02-08T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-02-08T00:00:00+00:00" />
 <meta itemprop="name" content="f-string">
 <meta itemprop="description" content="Python f-string formatting  All examples below were executed in Python interactive shell
-  precision  &gt;&gt;&gt; import math &gt;&gt;&gt; math.pi 3.141592653589793 &gt;&gt;&gt; f&#39;{math.pi:.2f}&#39; &#39;3.14&#39;  grouping_option  &gt;&gt;&gt; f&#39;{1000000:,.2f}&#39; &#39;1,000,000.00&#39; &gt;&gt;&gt; f&#39;{1000000:_.2f}&#39; &#39;1_000_000.00&#39;  with numbers  &gt;&gt;&gt; f&#39;{12345:0&gt;10}&#39; &#39;0000012345&#39;  negative numbers  &gt;&gt;&gt; f&#39;{-12345:0=10}&#39; &#39;-000012345&#39;  shortcut (no align)  &gt;&gt;&gt; f&#39;{12345:010}&#39; &#39;0000012345&#39; &gt;&gt;&gt; f&#39;{-12345:010}&#39; &#39;-000012345&#39;  sign (&#43;/-)  &gt;&gt;&gt; f&#39;{12345:&#43;}&#39; &#39;&#43;12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;}&#39; &#39;-12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;10}&#39; &#39; -12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;010}&#39; &#39;-000012345&#39;  binary  &gt;&gt;&gt; f&#39;{10:b}&#39; &#39;1010&#39;  octal  &gt;&gt;&gt; f&#39;{10:o}&#39; &#39;12&#39;  hexadecimal  &gt;&gt;&gt; f&#39;{200:x}&#39; &#39;c8&#39; &gt;&gt;&gt; f&#39;{200:X}&#39; &#39;C8&#39;  scientific notation  &gt;&gt;&gt; f&#39;{345600000000:e}&#39; &#39;3.">
+  precision  &gt;&gt;&gt; import math &gt;&gt;&gt; math.pi 3.141592653589793 &gt;&gt;&gt; f&#39;{math.pi:.2f}&#39; &#39;3.14&#39;  grouping_option  &gt;&gt;&gt; f&#39;{1000000:,.2f}&#39; &#39;1,000,000.00&#39; &gt;&gt;&gt; f&#39;{1000000:_.2f}&#39; &#39;1_000_000.00&#39;  with numbers  &gt;&gt;&gt; f&#39;{12345:0&gt;10}&#39; &#39;0000012345&#39;  negative numbers  &gt;&gt;&gt; f&#39;{-12345:0=10}&#39; &#39;-000012345&#39;  shortcut (no align)  &gt;&gt;&gt; f&#39;{12345:010}&#39; &#39;0000012345&#39; &gt;&gt;&gt; f&#39;{-12345:010}&#39; &#39;-000012345&#39;  sign (&#43;/-)  &gt;&gt;&gt; f&#39;{12345:&#43;}&#39; &#39;&#43;12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;}&#39; &#39;-12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;10}&#39; &#39;-12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;010}&#39; &#39;-000012345&#39;  binary  &gt;&gt;&gt; f&#39;{10:b}&#39; &#39;1010&#39;  octal  &gt;&gt;&gt; f&#39;{10:o}&#39; &#39;12&#39;  hexadecimal  &gt;&gt;&gt; f&#39;{200:x}&#39; &#39;c8&#39; &gt;&gt;&gt; f&#39;{200:X}&#39; &#39;C8&#39;  scientific notation  &gt;&gt;&gt; f&#39;{345600000000:e}&#39; &#39;3.">
 <meta itemprop="datePublished" content="2020-02-08T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-02-08T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="131">
+<meta itemprop="wordCount" content="130">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="f-string"/>
 <meta name="twitter:description" content="Python f-string formatting  All examples below were executed in Python interactive shell
-  precision  &gt;&gt;&gt; import math &gt;&gt;&gt; math.pi 3.141592653589793 &gt;&gt;&gt; f&#39;{math.pi:.2f}&#39; &#39;3.14&#39;  grouping_option  &gt;&gt;&gt; f&#39;{1000000:,.2f}&#39; &#39;1,000,000.00&#39; &gt;&gt;&gt; f&#39;{1000000:_.2f}&#39; &#39;1_000_000.00&#39;  with numbers  &gt;&gt;&gt; f&#39;{12345:0&gt;10}&#39; &#39;0000012345&#39;  negative numbers  &gt;&gt;&gt; f&#39;{-12345:0=10}&#39; &#39;-000012345&#39;  shortcut (no align)  &gt;&gt;&gt; f&#39;{12345:010}&#39; &#39;0000012345&#39; &gt;&gt;&gt; f&#39;{-12345:010}&#39; &#39;-000012345&#39;  sign (&#43;/-)  &gt;&gt;&gt; f&#39;{12345:&#43;}&#39; &#39;&#43;12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;}&#39; &#39;-12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;10}&#39; &#39; -12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;010}&#39; &#39;-000012345&#39;  binary  &gt;&gt;&gt; f&#39;{10:b}&#39; &#39;1010&#39;  octal  &gt;&gt;&gt; f&#39;{10:o}&#39; &#39;12&#39;  hexadecimal  &gt;&gt;&gt; f&#39;{200:x}&#39; &#39;c8&#39; &gt;&gt;&gt; f&#39;{200:X}&#39; &#39;C8&#39;  scientific notation  &gt;&gt;&gt; f&#39;{345600000000:e}&#39; &#39;3."/>
+  precision  &gt;&gt;&gt; import math &gt;&gt;&gt; math.pi 3.141592653589793 &gt;&gt;&gt; f&#39;{math.pi:.2f}&#39; &#39;3.14&#39;  grouping_option  &gt;&gt;&gt; f&#39;{1000000:,.2f}&#39; &#39;1,000,000.00&#39; &gt;&gt;&gt; f&#39;{1000000:_.2f}&#39; &#39;1_000_000.00&#39;  with numbers  &gt;&gt;&gt; f&#39;{12345:0&gt;10}&#39; &#39;0000012345&#39;  negative numbers  &gt;&gt;&gt; f&#39;{-12345:0=10}&#39; &#39;-000012345&#39;  shortcut (no align)  &gt;&gt;&gt; f&#39;{12345:010}&#39; &#39;0000012345&#39; &gt;&gt;&gt; f&#39;{-12345:010}&#39; &#39;-000012345&#39;  sign (&#43;/-)  &gt;&gt;&gt; f&#39;{12345:&#43;}&#39; &#39;&#43;12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;}&#39; &#39;-12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;10}&#39; &#39;-12345&#39; &gt;&gt;&gt; f&#39;{-12345:&#43;010}&#39; &#39;-000012345&#39;  binary  &gt;&gt;&gt; f&#39;{10:b}&#39; &#39;1010&#39;  octal  &gt;&gt;&gt; f&#39;{10:o}&#39; &#39;12&#39;  hexadecimal  &gt;&gt;&gt; f&#39;{200:x}&#39; &#39;c8&#39; &gt;&gt;&gt; f&#39;{200:X}&#39; &#39;C8&#39;  scientific notation  &gt;&gt;&gt; f&#39;{345600000000:e}&#39; &#39;3."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -141,7 +141,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -171,7 +171,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -1766,88 +1766,88 @@
 <ul>
 <li>precision</li>
 </ul>
-<pre><code>&gt;&gt;&gt; import math
-&gt;&gt;&gt; math.pi
-3.141592653589793
-&gt;&gt;&gt; f'{math.pi:.2f}'
-'3.14'
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">math</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">math</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">pi</span>
+<span style="color:#0000cf;font-weight:bold">3.141592653589793</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{math.pi:.2f}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">3.14</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><ul>
 <li>grouping_option</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{1000000:,.2f}'
-'1,000,000.00'
-&gt;&gt;&gt; f'{1000000:_.2f}'
-'1_000_000.00'
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{1000000:,.2f}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">1,000,000.00</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{1000000:_.2f}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">1_000_000.00</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><ul>
 <li>with numbers</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{12345:0&gt;10}'
-'0000012345'
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{12345:0&gt;10}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">0000012345</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><ul>
 <li>negative numbers</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{-12345:0=10}'
-'-000012345'
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{-12345:0=10}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">-000012345</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><ul>
 <li>shortcut (no align)</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{12345:010}'
-'0000012345'
-&gt;&gt;&gt; f'{-12345:010}'
-'-000012345'
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{12345:010}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">0000012345</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{-12345:010}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">-000012345</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><ul>
 <li>sign (+/-)</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{12345:+}'
-'+12345'
-&gt;&gt;&gt; f'{-12345:+}'
-'-12345'
-&gt;&gt;&gt; f'{-12345:+10}'
-'    -12345'
-&gt;&gt;&gt; f'{-12345:+010}'
-'-000012345'
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{12345:+}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">+12345</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{-12345:+}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">-12345</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{-12345:+10}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">    -12345</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{-12345:+010}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">-000012345</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><ul>
 <li>binary</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{10:b}'
-'1010'
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{10:b}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">1010</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><ul>
 <li>octal</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{10:o}'
-'12' 
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{10:o}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">12</span><span style="color:#4e9a06">&#39;</span> 
+</code></pre></div><ul>
 <li>hexadecimal</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{200:x}'
-'c8'
-&gt;&gt;&gt; f'{200:X}'
-'C8'
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{200:x}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">c8</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{200:X}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">C8</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><ul>
 <li>scientific notation</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{345600000000:e}'
-'3.456000e+11'
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{345600000000:e}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">3.456000e+11</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><ul>
 <li>character type</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{65:c}'  
-'A'
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{65:c}</span><span style="color:#4e9a06">&#39;</span>  
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">A</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><ul>
 <li>with notation (base)</li>
 </ul>
-<pre><code>&gt;&gt;&gt; f'{10:#b}'
-'0b1010'
-&gt;&gt;&gt; f'{10:#o}'
-'0o12'
-&gt;&gt;&gt; f'{10:#x}'
-'0xa'
-</code></pre><p>- percentage (multiply by 100)</p>
-<pre><code>&gt;&gt;&gt; f'{0.25:0%}'
-'25.000000%'
-&gt;&gt;&gt; f'{0.25:.0%}'
-'25%'
-</code></pre><br>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{10:#b}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">0b1010</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{10:#o}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">0o12</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{10:#x}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">0xa</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><p>- percentage (multiply by 100)</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{0.25:0</span><span style="color:#4e9a06">%</span><span style="color:#4e9a06">}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">25.000000</span><span style="color:#4e9a06">%</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#ce5c00;font-weight:bold">&gt;&gt;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000">f</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">{0.25:.0</span><span style="color:#4e9a06">%</span><span style="color:#4e9a06">}</span><span style="color:#4e9a06">&#39;</span>
+<span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">25</span><span style="color:#4e9a06">%</span><span style="color:#4e9a06">&#39;</span>
+</code></pre></div><br>
 <h4 id="license">License</h4>
 <p>To the extent possible under law, <a href="https://github.com/s-sebastian/myshell-src">myshell-src</a>  has waived all copyright and related or neighboring rights to this file.</p>
 <br> 

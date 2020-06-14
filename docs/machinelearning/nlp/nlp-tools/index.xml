@@ -210,7 +210,7 @@ Output: [&#39;Mona Lisa&#39;, &#39;Leonardo&#39;, &#39;Louvre&#39;, &#39;Paris&#
 &lt;a href=&#34;https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0fd545d3-1ead-4042-b692-093aa0587b0f/dddd19g-4eb3f900-2337-4385-9466-913592271a75.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMGZkNTQ1ZDMtMWVhZC00MDQyLWI2OTItMDkzYWEwNTg3YjBmXC9kZGRkMTlnLTRlYjNmOTAwLTIzMzctNDM4NS05NDY2LTkxMzU5MjI3MWE3NS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ccopwLzbIMjXDXlDyp0f-Sq2jWRk-oDMdbGaJ7d9wOg&#34;&gt;Image source&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h4 id=&#34;transformers-developed-by-hugging-face&#34;&gt;Transformers developed by Hugging Face&lt;/h4&gt;
-&lt;p&gt;Transformers is an opinionated library built for NLP researchers seeking to use/study/extend large-scale transformers models.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;Transformers&lt;/a&gt;is an opinionated library built for NLP researchers seeking to use/study/extend large-scale transformers models.&lt;/p&gt;
 &lt;p&gt;The library was designed with two strong goals in mind:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

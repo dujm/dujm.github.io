@@ -1693,23 +1693,18 @@ interests.&lt;/li&gt;
         &lt;br&gt;
 &lt;h3 id=&#34;how-to-convert-a-tab-deliminated-file-txttsv-to-a-csv&#34;&gt;How to convert a tab-deliminated file (.txt/.tsv) to a csv?&lt;/h3&gt;
 &lt;h5 id=&#34;0-open-the-terminal&#34;&gt;0. Open the terminal&lt;/h5&gt;
-&lt;pre&gt;&lt;code&gt;cd filedirectory
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;1-convert-file-commas--to-semi-colon-&#34;&gt;1. Convert file commas (,) to semi-colon (;)&lt;/h5&gt;
-&lt;pre&gt;&lt;code&gt;perl -pe &#39;s/,/;/g&#39; file1.txt &amp;gt; file2.txt
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;2-conver-tab-t-to-comma&#34;&gt;2. Conver tab (\t) to comma(,)&lt;/h5&gt;
-&lt;pre&gt;&lt;code&gt; perl -pe &#39;s/\t/,/g&#39; file2.txt &amp;gt; file3.csv
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; filedirectory
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;1-convert-file-commas--to-semi-colon-&#34;&gt;1. Convert file commas (,) to semi-colon (;)&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/,/;/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;2-conver-tab-t-to-comma&#34;&gt;2. Conver tab (\t) to comma(,)&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/\t/,/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&#34;how-to-convert-a-csv-to-a-tab-deliminated-file-txttsv&#34;&gt;How to convert a csv to a tab-deliminated file (.txt/.tsv)?&lt;/h3&gt;
 &lt;h5 id=&#34;1--conver-file-tabs-t-to-semi-colon&#34;&gt;1.  Conver file tabs (\t) to semi-colon(;)&lt;/h5&gt;
-&lt;pre&gt;&lt;code&gt;perl -pe &#39;s/\t/;/g&#39; file3.csv &amp;gt;file2.csv
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;2--conver-comma--to-tab-t&#34;&gt;2.  Conver comma (,) to tab (\t)&lt;/h5&gt;
-&lt;pre&gt;&lt;code&gt;perl -pe &#39;s/,/\t/g&#39; file2.csv &amp;gt; file1.txt
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/\t/;/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;2--conver-comma--to-tab-t&#34;&gt;2.  Conver comma (,) to tab (\t)&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/,/\t/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     
@@ -1724,22 +1719,22 @@ interests.&lt;/li&gt;
         
         &lt;br&gt;
 &lt;h4 id=&#34;installation&#34;&gt;Installation&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;pip install tabula-py
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;usage&#34;&gt;Usage&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;import tabula
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install tabula-py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;usage&#34;&gt;Usage&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;
 
-# Read pdf into list of DataFrame
-df = tabula.read_pdf(&amp;quot;test.pdf&amp;quot;, pages=&#39;all&#39;)
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Read pdf into list of DataFrame&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;read_pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;test.pdf&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;all&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 
-# Read remote pdf into list of DataFrame
-df2 = tabula.read_pdf(&amp;quot;https://github.com/tabulapdf/tabula-java/raw/master/src/test/resources/technology/tabula/arabic.pdf&amp;quot;)
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Read remote pdf into list of DataFrame&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;df2&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;read_pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;https://github.com/tabulapdf/tabula-java/raw/master/src/test/resources/technology/tabula/arabic.pdf&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 
-# convert PDF into CSV file
-tabula.convert_into(&amp;quot;test.pdf&amp;quot;, &amp;quot;output.csv&amp;quot;, output_format=&amp;quot;csv&amp;quot;, pages=&#39;all&#39;)
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# convert PDF into CSV file&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;convert_into&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;test.pdf&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;output.csv&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;output_format&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;csv&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;all&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 
-# convert all PDFs in a directory
-tabula.convert_into_by_batch(&amp;quot;input_directory&amp;quot;, output_format=&#39;csv&#39;, pages=&#39;all)
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# convert all PDFs in a directory&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;convert_into_by_batch&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;input_directory&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;output_format&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;csv&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;all)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     
@@ -1757,23 +1752,23 @@ tabula.convert_into_by_batch(&amp;quot;input_directory&amp;quot;, output_format=
 &lt;ul&gt;
 &lt;li&gt;Install jupytext&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;# Use conda or pip
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Use conda or pip&lt;/span&gt;
 conda install -c conda-forge jupytext
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Edit Jupyter config&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;# Generate a Jupyter config
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Generate a Jupyter config&lt;/span&gt;
 jupyter notebook --generate-config
 
-# Edit .jupyter/jupyter_notebook_config.py
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Edit .jupyter/jupyter_notebook_config.py&lt;/span&gt;
 vim /Users/j/.jupyter/jupyter_notebook_config.py
 
-# Append the following
-c.NotebookApp.contents_manager_class = &amp;quot;jupytext.TextFileContentsManager&amp;quot;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Append the following&lt;/span&gt;
+c.NotebookApp.contents_manager_class &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;jupytext.TextFileContentsManager&amp;#34;&lt;/span&gt;
 
-# Restart Jupyter Notebook
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Restart Jupyter Notebook&lt;/span&gt;
 jupyter notebook
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Convert format within Notebook&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;# Click Edit=&amp;gt;Edit Notebook Metadata and append the below line
@@ -1781,28 +1776,28 @@ jupyter notebook
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;Or convert format using command line&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;jupytext --to py:percent notebook.ipynb         # create a notebook.py file in the double percent format
-jupytext --to markdown notebook.ipynb           # create a notebook.md file
-jupytext --output script.py notebook.ipynb      # create a script.py file
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;jupytext --to py:percent notebook.ipynb         &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# create a notebook.py file in the double percent format&lt;/span&gt;
+jupytext --to markdown notebook.ipynb           &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# create a notebook.md file&lt;/span&gt;
+jupytext --output script.py notebook.ipynb      &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# create a script.py file&lt;/span&gt;
 
-jupytext --to notebook notebook.py              # overwrite notebook.ipynb (remove outputs)
-jupytext --to notebook --update notebook.py     # update notebook.ipynb (preserve outputs)
-jupytext --to ipynb notebook1.md notebook2.py   # overwrite notebook1.ipynb and notebook2.ipynb
+jupytext --to notebook notebook.py              &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# overwrite notebook.ipynb (remove outputs)&lt;/span&gt;
+jupytext --to notebook --update notebook.py     &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# update notebook.ipynb (preserve outputs)&lt;/span&gt;
+jupytext --to ipynb notebook1.md notebook2.py   &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# overwrite notebook1.ipynb and notebook2.ipynb&lt;/span&gt;
 
-jupytext --to md --test notebook.ipynb          # Test round trip conversion
+jupytext --to md --test notebook.ipynb          &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Test round trip conversion&lt;/span&gt;
 
-jupytext --to md --output - notebook.ipynb      # display the markdown version on screen
-jupytext --from ipynb --to py:percent           # read ipynb from stdin and write double percent script on stdout
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+jupytext --to md --output - notebook.ipynb      &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# display the markdown version on screen&lt;/span&gt;
+jupytext --from ipynb --to py:percent           &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# read ipynb from stdin and write double percent script on stdout&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/MarcusJones/jupytext&#34;&gt;Reference&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/jupytext-1-0-highlights-a49dca9baa7b&#34;&gt;Jupytext highlight&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h4 id=&#34;2-jupyter2slideshttpsgithubcomdatitranjupyter2slides&#34;&gt;2. &lt;a href=&#34;https://github.com/datitran/jupyter2slides&#34;&gt;jupyter2slides&lt;/a&gt;&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;python create_slides.py --file static/filename.ipynb
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;python create_slides.py --file static/filename.ipynb
 python run.py --file static/filename.slides.html
 http://0.0.0.0:9099/
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;change footer in jupyter_template.tpl&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
@@ -1880,52 +1875,52 @@ http://0.0.0.0:9099/
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h4 id=&#34;how-to-know-which-python-and-packages-are-used-in-jupyter-notebook&#34;&gt;How to know which Python and packages are used in jupyter notebook?&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;# Python
-import sys
-print(sys.executable)
-print(sys.version)
-print(sys.version_info)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Python&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;executable&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;version_info&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 
-# Get locally imported modules from current notebook
-import pkg_resources
-import types
-def get_imports():
-    for name, val in globals().items():
-        if isinstance(val, types.ModuleType):
-            # Split ensures you get root package,
-            # not just imported function
-            name = val.__name__.split(&amp;quot;.&amp;quot;)[0]
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Get locally imported modules from current notebook&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pkg_resources&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;types&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;get_imports&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;val&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;globals&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;items&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;isinstance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;val&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;types&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ModuleType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Split ensures you get root package,&lt;/span&gt;
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# not just imported function&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;val&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;__name__&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;split&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
 
-        elif isinstance(val, type):
-            name = val.__module__.split(&amp;quot;.&amp;quot;)[0]
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;elif&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;isinstance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;val&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;val&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;__module__&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;split&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
 
-        # Some packages are weird and have different
-        # imported names vs. system/pip names. Unfortunately,
-        # there is no systematic way to get pip names from
-        # a package&#39;s imported name. You&#39;ll have to had
-        # exceptions to this list manually!
-        poorly_named_packages = {
-            &amp;quot;PIL&amp;quot;: &amp;quot;Pillow&amp;quot;,
-            &amp;quot;sklearn&amp;quot;: &amp;quot;scikit-learn&amp;quot;
-        }
-        if name in poorly_named_packages.keys():
-            name = poorly_named_packages[name]
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Some packages are weird and have different&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# imported names vs. system/pip names. Unfortunately,&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# there is no systematic way to get pip names from&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# a package&amp;#39;s imported name. You&amp;#39;ll have to had&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# exceptions to this list manually!&lt;/span&gt;
+        &lt;span style=&#34;color:#000&#34;&gt;poorly_named_packages&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+            &lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;PIL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;Pillow&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+            &lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;sklearn&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;scikit-learn&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;poorly_named_packages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;keys&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;poorly_named_packages&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
 
-        yield name
-imports = list(set(get_imports()))
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;yield&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;imports&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;list&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;set&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_imports&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 
-# The only way I found to get the version of the root package
-# from only the name of the package is to cross-check the names
-# of installed packages vs. imported packages
-requirements = []
-for m in pkg_resources.working_set:
-    if m.project_name in imports and m.project_name!=&amp;quot;pip&amp;quot;:
-        requirements.append((m.project_name, m.version))
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# The only way I found to get the version of the root package&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# from only the name of the package is to cross-check the names&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# of installed packages vs. imported packages&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;requirements&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pkg_resources&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;working_set&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;project_name&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;imports&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;and&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;project_name&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;!=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;pip&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+        &lt;span style=&#34;color:#000&#34;&gt;requirements&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;append&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;project_name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 
-for r in requirements:
-    print(&amp;quot;{}=={}&amp;quot;.format(*r))
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;r&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;requirements&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;{}=={}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;format&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;r&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/40428931/package-for-listing-version-of-packages-used-in-a-jupyter-notebook&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/40428931/package-for-listing-version-of-packages-used-in-a-jupyter-notebook&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
 
       </description>
@@ -2044,10 +2039,10 @@ This module provides an interface to the optional garbage collector. It provides
 &lt;blockquote&gt;
 &lt;p&gt;Pipenv is a dependency manager for Python projects. If you’re familiar with Node.js’ npm or Ruby’s bundler, it is similar in spirit to those tools. While pip alone is often sufficient for personal use, Pipenv is recommended for collaborative projects as it’s a higher-level tool that simplifies dependency management for common use cases.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;  $ pip install --user pipenv
-  $ cd myproject
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;  $ pip install --user pipenv
+  $ &lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; myproject
   $ pipenv install requests
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt; 
 &lt;h4 id=&#34;how-to-integrate-r-and-python-in-a-single-workflow&#34;&gt;How to integrate R and Python in a single workflow?&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Use R snippet and python snippet developer tools in Knime&lt;/li&gt;
@@ -2061,24 +2056,24 @@ This module provides an interface to the optional garbage collector. It provides
 &lt;blockquote&gt;
 &lt;p&gt;Pint is a Python package to define, operate and manipulate physical quantities: the product of a numerical value and a unit of measurement. It allows arithmetic operations between them and conversions from and to different units.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;# Install
-$ pip install pint
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;   &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install&lt;/span&gt;
+   &lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pip&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;install&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pint&lt;/span&gt;
 
-&amp;gt;&amp;gt;&amp;gt; import pint
-&amp;gt;&amp;gt;&amp;gt; ureg = pint.UnitRegistry()
+   &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pint&lt;/span&gt;
+   &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ureg&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pint&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;UnitRegistry&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+  
+  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 1) Convert between meters and centimeters &lt;/span&gt;
+   &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ureg&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;meter&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ureg&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cm&lt;/span&gt;
+   &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Quantity&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3.04&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;meter&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+   
+   &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 2) Or use numpy &lt;/span&gt;
+   &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;numpy&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;np&lt;/span&gt;
+   &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ureg&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;meter&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ureg&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cm&lt;/span&gt;
+   &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Quantity&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3.04&lt;/span&gt;  &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4.03&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;meter&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 
-# 1) Convert between meters and centimeters 
-&amp;gt;&amp;gt;&amp;gt; 3 * ureg.meter + 4 * ureg.cm
-&amp;lt;Quantity(3.04, &#39;meter&#39;)&amp;gt;
-
-# 2) Or use numpy 
-&amp;gt;&amp;gt;&amp;gt; import numpy as np
-&amp;gt;&amp;gt;&amp;gt; [3, 4] * ureg.meter + [4, 3] * ureg.cm
-&amp;lt;Quantity([ 3.04  4.03], &#39;meter&#39;)&amp;gt;
-
-&amp;gt;&amp;gt;&amp;gt; np.sum(_)
-&amp;lt;Quantity(7.07, &#39;meter&#39;)&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+   &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;np&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sum&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+   &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Quantity&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;7.07&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;meter&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h4 id=&#34;how-to-do-geospatial-operations&#34;&gt;How to do geospatial operations?&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/manuelbieh/geolib&#34;&gt;Geolib&lt;/a&gt;&lt;/li&gt;
@@ -2107,69 +2102,69 @@ $ pip install pint
         
         &lt;br&gt;
 &lt;h4 id=&#34;1-install-z-shell-and-oh-my-zshell&#34;&gt;1. Install z shell and oh-my-zshell&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get update
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt-get update
 sudo apt upgrade
 
 sudo apt install zsh
 sudo apt-get install powerline fonts-powerline
-&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 vim .zshrc
 
-ZSH_THEME=&amp;quot;agnoster&amp;quot;
+&lt;span style=&#34;color:#000&#34;&gt;ZSH_THEME&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;agnoster&amp;#34;&lt;/span&gt;
 
 chsh -s /bin/zsh
-cd /.oh-my-zsh
-# syntax highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git &amp;quot;$HOME/.zsh-syntax-highlighting&amp;quot; --depth 1
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; /.oh-my-zsh
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# syntax highlighting&lt;/span&gt;
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/.zsh-syntax-highlighting&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; --depth &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;
 
-echo &amp;quot;source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&amp;quot; &amp;gt;&amp;gt; &amp;quot;$HOME/.zshrc&amp;quot;
+&lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;source &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/.zshrc&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
 
-# change back to bash
-# chsh -s /bin/bash
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# change back to bash&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# chsh -s /bin/bash&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
 &lt;h4 id=&#34;2-enable-conda-command&#34;&gt;2. Enable conda command&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;# open bashrc
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# open bashrc&lt;/span&gt;
 vim ~/.bashshrc
 
 vim ~/.zshrc
 
-# copy below from bashrc to zshrc
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# copy below from bashrc to zshrc&lt;/span&gt;
 
-# added by miniconda3 5.3.0 installer
-# &amp;gt;&amp;gt;&amp;gt; conda init &amp;gt;&amp;gt;&amp;gt;
-# !! Contents within this block are managed by &#39;conda init&#39; !!
-__conda_setup=&amp;quot;$(CONDA_REPORT_ERRORS=false &#39;/miniconda3/bin/conda&#39; shell.bash hook 2&amp;gt; /dev/null)&amp;quot;
-if [ $? -eq 0 ]; then
-    \eval &amp;quot;$__conda_setup&amp;quot;
-else
-    if [ -f &amp;quot;/miniconda3/etc/profile.d/conda.sh&amp;quot; ]; then
-        . &amp;quot;/miniconda3/etc/profile.d/conda.sh&amp;quot;
-        CONDA_CHANGEPS1=false conda activate base
-    else
-        \export PATH=&amp;quot;/miniconda3/bin:$PATH&amp;quot;
-    fi
-fi
-unset __conda_setup
-# &amp;lt;&amp;lt;&amp;lt; conda init &amp;lt;&amp;lt;&amp;lt;
-&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;# Restart zshell
-source ~/.zshrc
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# added by miniconda3 5.3.0 installer&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; conda init &amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# !! Contents within this block are managed by &amp;#39;conda init&amp;#39; !!&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;__conda_setup&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CONDA_REPORT_ERRORS&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;false&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;/miniconda3/bin/conda&amp;#39;&lt;/span&gt; shell.bash hook 2&amp;gt; /dev/null&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;$?&lt;/span&gt; -eq &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;then&lt;/span&gt;
+    &lt;span style=&#34;color:#4e9a06&#34;&gt;\e&lt;/span&gt;val &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$__conda_setup&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;else&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt; -f &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;then&lt;/span&gt;
+        . &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34;&lt;/span&gt;
+        &lt;span style=&#34;color:#000&#34;&gt;CONDA_CHANGEPS1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;false&lt;/span&gt; conda activate base
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;else&lt;/span&gt;
+        &lt;span style=&#34;color:#4e9a06&#34;&gt;\e&lt;/span&gt;xport &lt;span style=&#34;color:#000&#34;&gt;PATH&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/miniconda3/bin:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$PATH&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;fi&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;fi&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;unset&lt;/span&gt; __conda_setup
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# &amp;lt;&amp;lt;&amp;lt; conda init &amp;lt;&amp;lt;&amp;lt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Restart zshell&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h4 id=&#34;3-level-up-install-power10k-theme&#34;&gt;3. Level Up: install power10k theme&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo &#39;source ~/powerlevel10k/powerlevel10k.zsh-theme&#39; &amp;gt;&amp;gt;! ~/.zshrc
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone --depth&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt; https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+&lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;source ~/powerlevel10k/powerlevel10k.zsh-theme&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt;! ~/.zshrc
 
-# config
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# config&lt;/span&gt;
 p10k configure
 
-# Fix zsh compinit: insecure directories and files
-compaudit | xargs chmod g-w 
-compaudit | xargs chown root
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Fix zsh compinit: insecure directories and files&lt;/span&gt;
+compaudit &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; xargs chmod g-w 
+compaudit &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; xargs chown root
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k#pure-compatibility&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
@@ -2193,9 +2188,9 @@ selected profile under &lt;em&gt;Profiles&lt;/em&gt;. Check &lt;em&gt;Custom fon
 &lt;/blockquote&gt;
 &lt;br&gt;
 &lt;h4 id=&#34;5-change-terminal-settings-for-vscode&#34;&gt;5. Change terminal settings for vscode&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;# install vscode in Ubuntu 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# install vscode in Ubuntu&lt;/span&gt; 
 sudo snap install --classic code  
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;View =&amp;gt; Command Pallete =&amp;gt; Type &lt;code&gt;settings&lt;/code&gt; and Select &lt;code&gt;Preferences: Open Settings (JSON)&lt;/code&gt; =&amp;gt; Add the below lines&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;View =&amp;gt; Command Pallete =&amp;gt; Type &lt;code&gt;settings&lt;/code&gt; and Select &lt;code&gt;Preferences: Open Settings (JSON)&lt;/code&gt; =&amp;gt; Add the below lines&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;{
 &amp;quot;terminal.integrated.fontFamily&amp;quot;: &amp;quot;MesloLGS NF&amp;quot;,
 &amp;quot;terminal.integrated.shell.osx&amp;quot;: &amp;quot;/bin/zsh&amp;quot;
@@ -2218,83 +2213,83 @@ sudo snap install --classic code
         
         &lt;br&gt;
 &lt;h4 id=&#34;1-install-iterm2&#34;&gt;1. Install Iterm2&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;# Install iterm2
-cd myfolder
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install iterm2&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; myfolder
 brew cask install iterm2
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h4 id=&#34;2-install-z-shell&#34;&gt;2. Install Z-shell&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;# Install ZSH
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install ZSH&lt;/span&gt;
 brew install zsh
 
-# Install Oh My Zsh
-sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install Oh My Zsh&lt;/span&gt;
+sh -c &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
 
-# Source .bash_profile
-source ~/.bash_profile
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Source .bash_profile&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.bash_profile
 
-# If you use conda environment
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# If you use conda environment&lt;/span&gt;
 conda init zsh
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h4 id=&#34;3-install-color-scheme&#34;&gt;3. Install Color Scheme&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;git clone git@github.com:mbadolato/iTerm2-Color-Schemes.git
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone git@github.com:mbadolato/iTerm2-Color-Schemes.git
 
-&#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Colors &amp;gt; Color Presets &amp;gt; Import &amp;gt; Select Folder iTerm2-Color-Schemes/Schemes/yourfavouritecolor&#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Colors &amp;gt; Color Presets &amp;gt; Import &amp;gt; Select Folder iTerm2-Color-Schemes/Schemes/yourfavouritecolor&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h4 id=&#34;4-install-powerline-font&#34;&gt;4. Install powerline font&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 vim ~/.zshrc
-  ZSH_THEME=&amp;quot;agnoster&amp;quot;
+  &lt;span style=&#34;color:#000&#34;&gt;ZSH_THEME&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;agnoster&amp;#34;&lt;/span&gt;
 
-# Clone
-git clone https://github.com/powerline/fonts.git --depth=1
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Clone&lt;/span&gt;
+git clone https://github.com/powerline/fonts.git --depth&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;
 
-# Install fonts
-cd fonts
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install fonts&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; fonts
 ./install.sh
 
-# Clean-up
-cd ..
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Clean-up&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; ..
 rm -rf fonts
 
-&#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Text &amp;gt; ChangeFont&#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Text &amp;gt; ChangeFont&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;p&gt;&lt;img src=&#34;/assets/pics/terminal.png&#34; alt=&#34;Terminal&#34;&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h4 id=&#34;5-get-miniconda-working-in-oh-my-zsh&#34;&gt;5. Get miniconda working in Oh My ZSH&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;open ~/.bash_profile
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;open ~/.bash_profile
 open ~/.zshrc
-&#39;&#39;&#39;
-# Copy below from ~/.bash_profile to ~/.zshrc
+&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# Copy below from ~/.bash_profile to ~/.zshrc
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# added by miniconda3 5.3.0 installer
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; conda init &amp;gt;&amp;gt;&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# !! Contents within this block are managed by &amp;#39;&lt;/span&gt;conda init&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39; !!
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;__conda_setup=&amp;#34;$(CONDA_REPORT_ERRORS=false &amp;#39;&lt;/span&gt;/miniconda3/bin/conda&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39; shell.bash hook 2&amp;gt; /dev/null)&amp;#34;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;if [ $? -eq 0 ]; then
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    \eval &amp;#34;$__conda_setup&amp;#34;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;else
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    if [ -f &amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34; ]; then
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        . &amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        CONDA_CHANGEPS1=false conda activate base
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    else
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        \export PATH=&amp;#34;/miniconda3/bin:$PATH&amp;#34;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    fi
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;fi
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;unset __conda_setup
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# &amp;lt;&amp;lt;&amp;lt; conda init &amp;lt;&amp;lt;&amp;lt;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Add the below line in ~/.zshrc file&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PATH&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;~/Users/j/miniconda3/bin:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$PATH&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
 
-# added by miniconda3 5.3.0 installer
-# &amp;gt;&amp;gt;&amp;gt; conda init &amp;gt;&amp;gt;&amp;gt;
-# !! Contents within this block are managed by &#39;conda init&#39; !!
-__conda_setup=&amp;quot;$(CONDA_REPORT_ERRORS=false &#39;/miniconda3/bin/conda&#39; shell.bash hook 2&amp;gt; /dev/null)&amp;quot;
-if [ $? -eq 0 ]; then
-    \eval &amp;quot;$__conda_setup&amp;quot;
-else
-    if [ -f &amp;quot;/miniconda3/etc/profile.d/conda.sh&amp;quot; ]; then
-        . &amp;quot;/miniconda3/etc/profile.d/conda.sh&amp;quot;
-        CONDA_CHANGEPS1=false conda activate base
-    else
-        \export PATH=&amp;quot;/miniconda3/bin:$PATH&amp;quot;
-    fi
-fi
-unset __conda_setup
-# &amp;lt;&amp;lt;&amp;lt; conda init &amp;lt;&amp;lt;&amp;lt;
-&#39;&#39;&#39;
-# Add the below line in ~/.zshrc file
-export PATH=&amp;quot;~/Users/j/miniconda3/bin:$PATH&amp;quot;
-
-# Restart zshell
-source ~/.zshrc
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Restart zshell&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h4 id=&#34;6-add-zsh-syntax-highlighting&#34;&gt;6. Add zsh syntax highlighting&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 
-echo &amp;quot;source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&amp;quot; &amp;gt;&amp;gt; ${ZDOTDIR:-$HOME}/.zshrc
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;source &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(q-)PWD&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ZDOTDIR&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;:-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
 &lt;ul&gt;
@@ -2340,56 +2335,54 @@ echo &amp;quot;source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting
         &lt;br&gt;
 &lt;h4 id=&#34;how-can-i-find-the-memory-usage-on-my-gpu&#34;&gt;How can I find the memory usage on my GPU?&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;For Nvidia GPUs:&lt;br&gt;
-nvidia-smi&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;For Intel GPUs:&lt;br&gt;
-intel_gpu_tools&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;For AMD GPUs:&lt;br&gt;
-aticonfig &amp;ndash;odgc &amp;ndash;odgt&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;For real time watching &amp;ndash; example&lt;br&gt;
-sudo watch nvidia-smi&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://askubuntu.com/questions/276039/how-can-i-find-the-memory-usage-on-my-gpu&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;For Nvidia GPUs:&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;nvidia-smi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;For Intel GPUs:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;intel_gpu_tools
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;For AMD GPUs:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;aticonfig --odgc --odgt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;For real time watching &amp;ndash; example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo watch nvidia-smi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://askubuntu.com/questions/276039/how-can-i-find-the-memory-usage-on-my-gpu&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h4 id=&#34;release-gpu&#34;&gt;Release GPU&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Terminal&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;sudo fuser -v /dev/nvidia*
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo fuser -v /dev/nvidia*
 
 pkill -u PIDs
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Use memory growing:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;config = tf.ConfigProto()
-config.gpu_options.allow_growth = True
-session = tf.Session(config=config, ...)
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.ConfigProto&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+config.gpu_options.allow_growth &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; True
+&lt;span style=&#34;color:#000&#34;&gt;session&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.Session&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;config, ...&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Don&amp;rsquo;t allocate whole of your GPU memory(e.g. only 90%):&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;config = tf.ConfigProto()
-config.gpu_options.per_process_gpu_memory_fraction = 0.9
-session = tf.Session(config=config, ...)
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.ConfigProto&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; 0.9
+&lt;span style=&#34;color:#000&#34;&gt;session&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.Session&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;config, ...&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Clear background&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;keras.backend.clear_session()
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;keras.backend.clear_session&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Add this in the notebook&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;from keras import backend as K
-cfg = K.tf.ConfigProto()
-cfg.gpu_options.allow_growth = True
-K.set_session(K.tf.Session(config=cfg))
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;keras&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;backend&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cfg&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;tf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ConfigProto&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cfg&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;gpu_options&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;allow_growth&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#3465a4&#34;&gt;True&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;set_session&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;tf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Session&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cfg&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/keras-team/keras/issues/3675&#34;&gt;Added gc.collect()&lt;/a&gt; to the end of my custom generator and it helped to get rid of memory errors.&lt;/p&gt;
 &lt;/li&gt;

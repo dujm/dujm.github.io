@@ -144,7 +144,7 @@ How to view Jupyter notebook if Github page fails to render ipynb notebook?  Go 
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -174,7 +174,7 @@ How to view Jupyter notebook if Github page fails to render ipynb notebook?  Go 
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -1774,52 +1774,52 @@ How to view Jupyter notebook if Github page fails to render ipynb notebook?  Go 
 </ul>
 <br>
 <h4 id="how-to-know-which-python-and-packages-are-used-in-jupyter-notebook">How to know which Python and packages are used in jupyter notebook?</h4>
-<pre><code># Python
-import sys
-print(sys.executable)
-print(sys.version)
-print(sys.version_info)
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#8f5902;font-style:italic"># Python</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">sys</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">sys</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">executable</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">sys</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">version</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">sys</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">version_info</span><span style="color:#000;font-weight:bold">)</span>
 
-# Get locally imported modules from current notebook
-import pkg_resources
-import types
-def get_imports():
-    for name, val in globals().items():
-        if isinstance(val, types.ModuleType):
-            # Split ensures you get root package,
-            # not just imported function
-            name = val.__name__.split(&quot;.&quot;)[0]
+<span style="color:#8f5902;font-style:italic"># Get locally imported modules from current notebook</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">pkg_resources</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">types</span>
+<span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">get_imports</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">name</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">val</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#204a87">globals</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">items</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">:</span>
+        <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#204a87">isinstance</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">val</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">types</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">ModuleType</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">:</span>
+            <span style="color:#8f5902;font-style:italic"># Split ensures you get root package,</span>
+            <span style="color:#8f5902;font-style:italic"># not just imported function</span>
+            <span style="color:#000">name</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">val</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">__name__</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">split</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">.</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">]</span>
 
-        elif isinstance(val, type):
-            name = val.__module__.split(&quot;.&quot;)[0]
+        <span style="color:#204a87;font-weight:bold">elif</span> <span style="color:#204a87">isinstance</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">val</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#204a87">type</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">:</span>
+            <span style="color:#000">name</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">val</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">__module__</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">split</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">.</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">]</span>
 
-        # Some packages are weird and have different
-        # imported names vs. system/pip names. Unfortunately,
-        # there is no systematic way to get pip names from
-        # a package's imported name. You'll have to had
-        # exceptions to this list manually!
-        poorly_named_packages = {
-            &quot;PIL&quot;: &quot;Pillow&quot;,
-            &quot;sklearn&quot;: &quot;scikit-learn&quot;
-        }
-        if name in poorly_named_packages.keys():
-            name = poorly_named_packages[name]
+        <span style="color:#8f5902;font-style:italic"># Some packages are weird and have different</span>
+        <span style="color:#8f5902;font-style:italic"># imported names vs. system/pip names. Unfortunately,</span>
+        <span style="color:#8f5902;font-style:italic"># there is no systematic way to get pip names from</span>
+        <span style="color:#8f5902;font-style:italic"># a package&#39;s imported name. You&#39;ll have to had</span>
+        <span style="color:#8f5902;font-style:italic"># exceptions to this list manually!</span>
+        <span style="color:#000">poorly_named_packages</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">{</span>
+            <span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">PIL</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">Pillow</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">,</span>
+            <span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">sklearn</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">scikit-learn</span><span style="color:#4e9a06">&#34;</span>
+        <span style="color:#000;font-weight:bold">}</span>
+        <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">name</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">poorly_named_packages</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">keys</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">:</span>
+            <span style="color:#000">name</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">poorly_named_packages</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">name</span><span style="color:#000;font-weight:bold">]</span>
 
-        yield name
-imports = list(set(get_imports()))
+        <span style="color:#204a87;font-weight:bold">yield</span> <span style="color:#000">name</span>
+<span style="color:#000">imports</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87">list</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87">set</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">get_imports</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span>
 
-# The only way I found to get the version of the root package
-# from only the name of the package is to cross-check the names
-# of installed packages vs. imported packages
-requirements = []
-for m in pkg_resources.working_set:
-    if m.project_name in imports and m.project_name!=&quot;pip&quot;:
-        requirements.append((m.project_name, m.version))
+<span style="color:#8f5902;font-style:italic"># The only way I found to get the version of the root package</span>
+<span style="color:#8f5902;font-style:italic"># from only the name of the package is to cross-check the names</span>
+<span style="color:#8f5902;font-style:italic"># of installed packages vs. imported packages</span>
+<span style="color:#000">requirements</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#000;font-weight:bold">]</span>
+<span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">m</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">pkg_resources</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">working_set</span><span style="color:#000;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">m</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">project_name</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">imports</span> <span style="color:#204a87;font-weight:bold">and</span> <span style="color:#000">m</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">project_name</span><span style="color:#ce5c00;font-weight:bold">!=</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">pip</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">:</span>
+        <span style="color:#000">requirements</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">append</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">m</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">project_name</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">m</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">version</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span>
 
-for r in requirements:
-    print(&quot;{}=={}&quot;.format(*r))
+<span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">r</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">requirements</span><span style="color:#000;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">{}=={}</span><span style="color:#4e9a06">&#34;</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">format</span><span style="color:#000;font-weight:bold">(</span><span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">r</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span>
 
-</code></pre><p><a href="https://stackoverflow.com/questions/40428931/package-for-listing-version-of-packages-used-in-a-jupyter-notebook">Reference</a></p>
+</code></pre></div><p><a href="https://stackoverflow.com/questions/40428931/package-for-listing-version-of-packages-used-in-a-jupyter-notebook">Reference</a></p>
 <br>
 
 	

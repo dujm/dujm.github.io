@@ -129,9 +129,9 @@ Choose type 5 or p (for patch)&lt;/p&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h4 id=&#34;remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesystem&#34;&gt;Remove a file from a Git repository without deleting it from the local filesystem&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;git rm --cached file
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git rm --cached file
 git rm -r --cached folderName
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     
@@ -197,6 +197,9 @@ mdbook serve
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/nhn/tui.editor&#34;&gt;tui.editor&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;5-how-to-highlight-code-in-markdown&#34;&gt;5. How to highlight code in Markdown?&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;9&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/github/linguist/blob/master/lib/linguist/languages.yml&#34;&gt;Check Languages known to GitHub&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>

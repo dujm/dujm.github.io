@@ -22,7 +22,7 @@
 
 <title>Functions | DJ&#39;s Website</title><meta property="og:title" content="Functions" />
 <meta property="og:description" content="Course Link
- 1. Write Reusable JavaScript with Functions function reusableFunction() { console.log(&quot;Hi World&quot;) }; reusableFunction(); 2. Scope In JavaScript, scope refers to the visibility of variables.
+ 1. Write Reusable JavaScript with Functions function reusableFunction() { console.log(&#34;Hi World&#34;) }; reusableFunction(); 2. Scope In JavaScript, scope refers to the visibility of variables.
  Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function. It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/coding/functional-coding/javascript/freecodecamp/functions/" />
@@ -30,7 +30,7 @@
 <meta property="article:modified_time" content="2020-06-12T00:00:00+00:00" />
 <meta itemprop="name" content="Functions">
 <meta itemprop="description" content="Course Link
- 1. Write Reusable JavaScript with Functions function reusableFunction() { console.log(&quot;Hi World&quot;) }; reusableFunction(); 2. Scope In JavaScript, scope refers to the visibility of variables.
+ 1. Write Reusable JavaScript with Functions function reusableFunction() { console.log(&#34;Hi World&#34;) }; reusableFunction(); 2. Scope In JavaScript, scope refers to the visibility of variables.
  Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function. It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable.">
 <meta itemprop="datePublished" content="2020-06-12T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-06-12T00:00:00&#43;00:00" />
@@ -41,7 +41,7 @@
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Functions"/>
 <meta name="twitter:description" content="Course Link
- 1. Write Reusable JavaScript with Functions function reusableFunction() { console.log(&quot;Hi World&quot;) }; reusableFunction(); 2. Scope In JavaScript, scope refers to the visibility of variables.
+ 1. Write Reusable JavaScript with Functions function reusableFunction() { console.log(&#34;Hi World&#34;) }; reusableFunction(); 2. Scope In JavaScript, scope refers to the visibility of variables.
  Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function. It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable."/>
 
 <script type="text/x-mathjax-config">
@@ -144,7 +144,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -174,7 +174,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.e2f42e23ca421277a9e2cc9add998c56f3274de6b8a88eeb20931145b19ad742827c9251fa800657233e0bba65c7d3121dbb4de9ec65aaa112570edd2987aa68.json"
+  data-offline-search-index-json-src="/offline-search-index.32884a9b1ed92f85c1ec1a79a797a27d5006ad6f2c7a259397031ee5a9cef87e1b3e9f807e5cb5f66f95908fcbac1704f62b2d196569acda01a6d6885b44d0f4.json"
   data-offline-search-base-href="/"
 >
 
@@ -1778,24 +1778,24 @@
 <p><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions">Course Link</a></p>
 </blockquote>
 <h4 id="1-write-reusable-javascript-with-functions">1. Write Reusable JavaScript with Functions</h4>
-<pre><code>function reusableFunction() {
-  console.log(&quot;Hi World&quot;)
-};
-reusableFunction();
-</code></pre><h4 id="2-scope">2. Scope</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">reusableFunction</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Hi World&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000">reusableFunction</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><h4 id="2-scope">2. Scope</h4>
 <p>In JavaScript, scope refers to the visibility of variables.</p>
 <ul>
 <li>Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function.</li>
 <li>It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable.</li>
 </ul>
-<pre><code>var someVar = &quot;Hat&quot;;
-function myFun() {
-   var someVar = &quot;Head&quot;;
-   return someVar;
-} 
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">someVar</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Hat&#34;</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">myFun</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">someVar</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Head&#34;</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">someVar</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">}</span> 
 
-myFun() //return &quot;Head&quot;
-</code></pre><ul>
+<span style="color:#000">myFun</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic">//return &#34;Head&#34;
+</span></code></pre></div><ul>
 <li>
 <p>Does <code>var</code> make a difference?</p>
 <ul>
@@ -1819,115 +1819,115 @@ myFun() //return &quot;Head&quot;
 </ul>
 </li>
 </ul>
-<pre><code>// These are both globals
-var foo = 1;
-bar = 2;
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#8f5902;font-style:italic">// These are both globals
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">foo</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000">bar</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">;</span>
 
-function()
-{
-    var foo = 1; // Local
-    bar = 2;     // Global
-
-    // Execute an anonymous function
-    (function()
-    {
-        var wibble = 1; // Local
-        foo = 2; // Inherits from scope above (creating a closure)
-        moo = 3; // Global
-    }())
-}
-</code></pre><h4 id="3-understanding-undefined-value-returned-from-a-function">3. Understanding Undefined Value returned from a Function</h4>
+<span style="color:#204a87;font-weight:bold">function</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">foo</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Local
+</span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#000">bar</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">;</span>     <span style="color:#8f5902;font-style:italic">// Global
+</span><span style="color:#8f5902;font-style:italic"></span>
+    <span style="color:#8f5902;font-style:italic">// Execute an anonymous function
+</span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">function</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#000;font-weight:bold">{</span>
+        <span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">wibble</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Local
+</span><span style="color:#8f5902;font-style:italic"></span>        <span style="color:#000">foo</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Inherits from scope above (creating a closure)
+</span><span style="color:#8f5902;font-style:italic"></span>        <span style="color:#000">moo</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Global
+</span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><h4 id="3-understanding-undefined-value-returned-from-a-function">3. Understanding Undefined Value returned from a Function</h4>
 <blockquote>
 <p>A function can include the return statement but it does not have to.
 In the case that the function doesn&rsquo;t have a return statement, when you call it, the function processes the inner code but the returned value is undefined</p>
 </blockquote>
-<pre><code>var sum = 0;
-function addSum(num) {
-  sum = sum + num;
-}
-addSum(3); // sum will be modified but returned value is undefined
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">sum</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">addSum</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">num</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#000">sum</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">sum</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">num</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000">addSum</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// sum will be modified but returned value is undefined
+</span></code></pre></div><ul>
 <li>queue</li>
 </ul>
-<pre><code>function nextInLine(arr, item) {
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">nextInLine</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">arr</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">item</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
  
-  arr.push(item);
+  <span style="color:#000">arr</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">push</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">item</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
 
-  var last_element = arr.shift();
-  return last_element;
-}
+  <span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">last_element</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">arr</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">shift</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">last_element</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">}</span>
 
-// Setup
-var testArr = [1,2,3,4,5];
+<span style="color:#8f5902;font-style:italic">// Setup
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">testArr</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">4</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span>
 
-// Display code
-console.log(&quot;Before: &quot; + JSON.stringify(testArr));
-console.log(nextInLine(testArr, 6));
-console.log(&quot;After: &quot; + JSON.stringify(testArr));
-</code></pre><h4 id="4-use-conditional-logic-with-if-statements">4. Use Conditional Logic with If Statements</h4>
-<pre><code>function trueOrFalse(wasThatTrue) {
-  if (wasThatTrue) {
-    return &quot;Yes, that was true&quot;
-  }
-  return &quot;No, that was false&quot;
-}
-</code></pre><h4 id="5-use-else-if-statements">5. Use Else If Statements</h4>
+<span style="color:#8f5902;font-style:italic">// Display code
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Before: &#34;</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">JSON</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">stringify</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">testArr</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">nextInLine</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">testArr</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">6</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;After: &#34;</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">JSON</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">stringify</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">testArr</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><h4 id="4-use-conditional-logic-with-if-statements">4. Use Conditional Logic with If Statements</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">trueOrFalse</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">wasThatTrue</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">wasThatTrue</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Yes, that was true&#34;</span>
+  <span style="color:#000;font-weight:bold">}</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;No, that was false&#34;</span>
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><h4 id="5-use-else-if-statements">5. Use Else If Statements</h4>
 <blockquote>
 <p>The function is executed from top to bottom so you will want to be careful of what statement comes first</p>
 </blockquote>
-<pre><code>// foo function
-function foo(x) {
-  if (x &lt; 1) {
-    return &quot;Less than one&quot;;
-  } else if (x &lt; 2) {
-    return &quot;Less than two&quot;;
-  } else {
-    return &quot;Greater than or equal to two&quot;;
-  }
-}
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#8f5902;font-style:italic">// foo function
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">foo</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">&lt;</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Less than one&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">&lt;</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Less than two&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Greater than or equal to two&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000;font-weight:bold">}</span>
 
-// 2 bar function
-function bar(x) {
-  if (x &lt; 2) {
-    return &quot;Less than two&quot;;
-  } else if (x &lt; 1) {
-    return &quot;Less than one&quot;;
-  } else {
-    return &quot;Greater than or equal to two&quot;;
-  }
-}
+<span style="color:#8f5902;font-style:italic">// 2 bar function
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">bar</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">&lt;</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Less than two&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">&lt;</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Less than one&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Greater than or equal to two&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000;font-weight:bold">}</span>
 
-foo(0) // &quot;Less than one&quot;
-bar(0) // &quot;Less than two&quot;
-</code></pre><h4 id="6-comparison-with-operators">6. Comparison with Operators</h4>
+<span style="color:#000">foo</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic">// &#34;Less than one&#34;
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">bar</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic">// &#34;Less than two&#34;
+</span></code></pre></div><h4 id="6-comparison-with-operators">6. Comparison with Operators</h4>
 <ul>
 <li>Comparison with the Equality Operator</li>
 </ul>
-<pre><code>1   ==  1   // true
-1   ==  2   // false
-1   == '1'  // true
-&quot;3&quot; ==  3   // true
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#0000cf;font-weight:bold">1</span>   <span style="color:#ce5c00;font-weight:bold">==</span>  <span style="color:#0000cf;font-weight:bold">1</span>   <span style="color:#8f5902;font-style:italic">// true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">1</span>   <span style="color:#ce5c00;font-weight:bold">==</span>  <span style="color:#0000cf;font-weight:bold">2</span>   <span style="color:#8f5902;font-style:italic">// false
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">1</span>   <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#4e9a06">&#39;1&#39;</span>  <span style="color:#8f5902;font-style:italic">// true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#4e9a06">&#34;3&#34;</span> <span style="color:#ce5c00;font-weight:bold">==</span>  <span style="color:#0000cf;font-weight:bold">3</span>   <span style="color:#8f5902;font-style:italic">// true
+</span></code></pre></div><ul>
 <li>Comparison with the Strict Equality Operator</li>
 </ul>
-<pre><code>3 ===  3   // true
-3 === '3'  // false
-
-typeof 3   // returns 'number'
-typeof '3' // returns 'string'
-</code></pre><blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#0000cf;font-weight:bold">3</span> <span style="color:#ce5c00;font-weight:bold">===</span>  <span style="color:#0000cf;font-weight:bold">3</span>   <span style="color:#8f5902;font-style:italic">// true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">3</span> <span style="color:#ce5c00;font-weight:bold">===</span> <span style="color:#4e9a06">&#39;3&#39;</span>  <span style="color:#8f5902;font-style:italic">// false
+</span><span style="color:#8f5902;font-style:italic"></span>
+<span style="color:#204a87;font-weight:bold">typeof</span> <span style="color:#0000cf;font-weight:bold">3</span>   <span style="color:#8f5902;font-style:italic">// returns &#39;number&#39;
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">typeof</span> <span style="color:#4e9a06">&#39;3&#39;</span> <span style="color:#8f5902;font-style:italic">// returns &#39;string&#39;
+</span></code></pre></div><blockquote>
 <p>Strict equality <code>===</code> is the counterpart to the equality operator <code>==</code>. However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.</p>
 <p>If the values being compared have different types, they are considered unequal, and the strict equality operator will return false.</p>
 </blockquote>
 <ul>
 <li>Comparison with the Inequality Operator</li>
 </ul>
-<pre><code>1 !=  2     // true
-1 != &quot;1&quot;    // false
-1 != '1'    // false
-1 != true   // false
-0 != false  // false
-</code></pre><blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#0000cf;font-weight:bold">1</span> <span style="color:#ce5c00;font-weight:bold">!=</span>  <span style="color:#0000cf;font-weight:bold">2</span>     <span style="color:#8f5902;font-style:italic">// true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">1</span> <span style="color:#ce5c00;font-weight:bold">!=</span> <span style="color:#4e9a06">&#34;1&#34;</span>    <span style="color:#8f5902;font-style:italic">// false
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">1</span> <span style="color:#ce5c00;font-weight:bold">!=</span> <span style="color:#4e9a06">&#39;1&#39;</span>    <span style="color:#8f5902;font-style:italic">// false
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">1</span> <span style="color:#ce5c00;font-weight:bold">!=</span> <span style="color:#204a87;font-weight:bold">true</span>   <span style="color:#8f5902;font-style:italic">// false
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">0</span> <span style="color:#ce5c00;font-weight:bold">!=</span> <span style="color:#204a87;font-weight:bold">false</span>  <span style="color:#8f5902;font-style:italic">// false
+</span></code></pre></div><blockquote>
 <ul>
 <li>The inequality operator (!=) is the opposite of the equality operator.</li>
 <li>It means &ldquo;Not Equal&rdquo; and returns false where equality would return true and vice versa.</li>
@@ -1937,10 +1937,10 @@ typeof '3' // returns 'string'
 <ul>
 <li>Comparison with the Strict Inequality Operator</li>
 </ul>
-<pre><code>3 !==  3   // false
-3 !== '3'  // true
-4 !==  3   // true
-</code></pre><blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#0000cf;font-weight:bold">3</span> <span style="color:#ce5c00;font-weight:bold">!==</span>  <span style="color:#0000cf;font-weight:bold">3</span>   <span style="color:#8f5902;font-style:italic">// false
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">3</span> <span style="color:#ce5c00;font-weight:bold">!==</span> <span style="color:#4e9a06">&#39;3&#39;</span>  <span style="color:#8f5902;font-style:italic">// true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">4</span> <span style="color:#ce5c00;font-weight:bold">!==</span>  <span style="color:#0000cf;font-weight:bold">3</span>   <span style="color:#8f5902;font-style:italic">// true
+</span></code></pre></div><blockquote>
 <p>The strict inequality operator (!==) is the logical opposite of the strict equality operator.
 It means &ldquo;Strictly Not Equal&rdquo; and returns false where strict equality would return true and vice versa.
 Strict inequality will not convert data types.</p>
@@ -1948,40 +1948,36 @@ Strict inequality will not convert data types.</p>
 <ul>
 <li>Comparison with the Greater Than Operator</li>
 </ul>
-<pre><code>5   &gt;  3   // true
-7   &gt; '3'  // true
-2   &gt;  3   // false
-'1' &gt;  9   // false
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#0000cf;font-weight:bold">5</span>   <span style="color:#ce5c00;font-weight:bold">&gt;</span>  <span style="color:#0000cf;font-weight:bold">3</span>   <span style="color:#8f5902;font-style:italic">// true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">7</span>   <span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#4e9a06">&#39;3&#39;</span>  <span style="color:#8f5902;font-style:italic">// true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">2</span>   <span style="color:#ce5c00;font-weight:bold">&gt;</span>  <span style="color:#0000cf;font-weight:bold">3</span>   <span style="color:#8f5902;font-style:italic">// false
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#4e9a06">&#39;1&#39;</span> <span style="color:#ce5c00;font-weight:bold">&gt;</span>  <span style="color:#0000cf;font-weight:bold">9</span>   <span style="color:#8f5902;font-style:italic">// false
+</span></code></pre></div><ul>
 <li>Comparison with the Greater Than Or Equal To Operator</li>
 </ul>
-<pre><code>6   &gt;=  6   // true
-7   &gt;= '3'  // true
-2   &gt;=  3   // false
-'7' &gt;=  9   // false
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#0000cf;font-weight:bold">6</span>   <span style="color:#ce5c00;font-weight:bold">&gt;=</span>  <span style="color:#0000cf;font-weight:bold">6</span>   <span style="color:#8f5902;font-style:italic">// true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">7</span>   <span style="color:#ce5c00;font-weight:bold">&gt;=</span> <span style="color:#4e9a06">&#39;3&#39;</span>  <span style="color:#8f5902;font-style:italic">// true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#0000cf;font-weight:bold">2</span>   <span style="color:#ce5c00;font-weight:bold">&gt;=</span>  <span style="color:#0000cf;font-weight:bold">3</span>   <span style="color:#8f5902;font-style:italic">// false
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#4e9a06">&#39;7&#39;</span> <span style="color:#ce5c00;font-weight:bold">&gt;=</span>  <span style="color:#0000cf;font-weight:bold">9</span>   <span style="color:#8f5902;font-style:italic">// false
+</span></code></pre></div><ul>
 <li>Comparisons with the Logical And Operator <code>&amp;&amp;</code></li>
 </ul>
-<pre><code>if (num &gt; 5 &amp;&amp; num &lt;8) {
-    return &quot;weekend&quot;;
-}
-return &quot;work&quot;;
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">num</span> <span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#0000cf;font-weight:bold">5</span> <span style="color:#ce5c00;font-weight:bold">&amp;&amp;</span> <span style="color:#000">num</span> <span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#0000cf;font-weight:bold">8</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;weekend&#34;</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">}</span>
+<span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;work&#34;</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><ul>
 <li>Comparisons with the Logical Or Operator <code>||</code></li>
 </ul>
-<pre><code>function testLogicalOr(val) {
- 
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">testLogicalOr</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">val</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">val</span> <span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#0000cf;font-weight:bold">20</span> <span style="color:#ce5c00;font-weight:bold">||</span> <span style="color:#000">val</span> <span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Outside&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Inside&#34;</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">}</span>
 
-  if (val &gt; 20 || val &lt;10) {
-    return &quot;Outside&quot;;
-  }
-
-
-  return &quot;Inside&quot;;
-}
-
-testLogicalOr(15);
-</code></pre><h4 id="7-selecting-from-many-options-with-switch-statements">7. Selecting from Many Options with Switch Statements</h4>
+<span style="color:#000">testLogicalOr</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">15</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><h4 id="7-selecting-from-many-options-with-switch-statements">7. Selecting from Many Options with Switch Statements</h4>
 <blockquote>
 <ul>
 <li>If you have many options to choose from, use a switch statement.</li>
@@ -1991,15 +1987,15 @@ testLogicalOr(15);
 <li>If the break is omitted, the next statement will be executed.</li>
 </ul>
 </blockquote>
-<pre><code>switch(lowercaseLetter) {
-  case &quot;a&quot;:
-    console.log(&quot;A&quot;);
-    break;
-  case &quot;b&quot;:
-    console.log(&quot;B&quot;);
-    break;
-}
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">switch</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">lowercaseLetter</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#4e9a06">&#34;a&#34;</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;A&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#4e9a06">&#34;b&#34;</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;B&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><ul>
 <li>Adding a Default Option in Switch Statements</li>
 </ul>
 <blockquote>
@@ -2009,141 +2005,141 @@ testLogicalOr(15);
 <li>Think of it like the final else statement in an if/else chain.</li>
 </ul>
 </blockquote>
-<pre><code>switch (num) {
-  case value1:
-    statement1;
-    break;
-  case value2:
-    statement2;
-    break;
-...
-  default:
-    defaultStatement;
-    break;
-}
-</code></pre><ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">switch</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">num</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#000">value1</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#000">statement1</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#000">value2</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#000">statement2</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">...</span>
+  <span style="color:#204a87;font-weight:bold">default</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#000">defaultStatement</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><ul>
 <li>Multiple Identical Options in Switch Statements</li>
 </ul>
-<pre><code>function sequentialSizes(val) {
- var answer = &quot;&quot;;
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"> <span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">sequentialSizes</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">val</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">answer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;&#34;</span><span style="color:#000;font-weight:bold">;</span>
+ 
+  <span style="color:#204a87;font-weight:bold">switch</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">val</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">3</span><span style="color:#ce5c00;font-weight:bold">:</span>
+      <span style="color:#000">answer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Low&#34;</span><span style="color:#000;font-weight:bold">;</span>
+      <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">4</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">5</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">6</span><span style="color:#ce5c00;font-weight:bold">:</span>
+      <span style="color:#000">answer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Mid&#34;</span><span style="color:#000;font-weight:bold">;</span>
+      <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">7</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">8</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">9</span><span style="color:#ce5c00;font-weight:bold">:</span>
+      <span style="color:#000">answer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;High&#34;</span><span style="color:#000;font-weight:bold">;</span>
+      <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span>
 
- switch(val) {
-   case 1:
-   case 2:
-   case 3:
-     answer = &quot;Low&quot;;
-     break;
-   case 4:
-   case 5:
-   case 6:
-     answer = &quot;Mid&quot;;
-     break;
-   case 7:
-   case 8:
-   case 9:
-     answer = &quot;High&quot;;
-     break;
- }
-
-</code></pre><ul>
+</code></pre></div><ul>
 <li>Replacing If Else Chains with Switch</li>
 </ul>
 <blockquote>
 <p>If you have many options to choose from, a switch statement can be easier to write than many chained if/else if statements.</p>
 </blockquote>
-<pre><code>   function chainToSwitch(val) {
-  var answer = &quot;&quot;;
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript">   <span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">chainToSwitch</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">val</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">answer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;&#34;</span><span style="color:#000;font-weight:bold">;</span>
  
-  switch (val) {
-    case &quot;bob&quot;:
-      answer = &quot;Marley&quot;;
-      break;
-    case 42:
-      answer = &quot;The Answer&quot;;
-      break;
-    case 1:
-      answer = &quot;There is no #1&quot;;
-      break;
-    case 99:
-      answer = &quot;Missed me by this much!&quot;;
-      break;
-    case 7:
-      answer = &quot;Ate Nine&quot;;
-      break;
+  <span style="color:#204a87;font-weight:bold">switch</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">val</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#4e9a06">&#34;bob&#34;</span><span style="color:#ce5c00;font-weight:bold">:</span>
+      <span style="color:#000">answer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Marley&#34;</span><span style="color:#000;font-weight:bold">;</span>
+      <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">42</span><span style="color:#ce5c00;font-weight:bold">:</span>
+      <span style="color:#000">answer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;The Answer&#34;</span><span style="color:#000;font-weight:bold">;</span>
+      <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#ce5c00;font-weight:bold">:</span>
+      <span style="color:#000">answer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;There is no #1&#34;</span><span style="color:#000;font-weight:bold">;</span>
+      <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">99</span><span style="color:#ce5c00;font-weight:bold">:</span>
+      <span style="color:#000">answer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Missed me by this much!&#34;</span><span style="color:#000;font-weight:bold">;</span>
+      <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">7</span><span style="color:#ce5c00;font-weight:bold">:</span>
+      <span style="color:#000">answer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Ate Nine&#34;</span><span style="color:#000;font-weight:bold">;</span>
+      <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
     
-  }
-  return answer
-}
-chainToSwitch(7);
-</code></pre><h4 id="8-returning-boolean-values-from-functions">8. Returning Boolean Values from Functions</h4>
-<pre><code>function isLess(a, b) {
-  return a  &lt; b
-}
+  <span style="color:#000;font-weight:bold">}</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">answer</span>
+<span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000">chainToSwitch</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">7</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><h4 id="8-returning-boolean-values-from-functions">8. Returning Boolean Values from Functions</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">isLess</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">a</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">b</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">a</span>  <span style="color:#ce5c00;font-weight:bold">&lt;</span> <span style="color:#000">b</span>
+<span style="color:#000;font-weight:bold">}</span>
 
-isLess(10, 15);
-</code></pre><h4 id="9-return-early-pattern-for-functions">9. Return Early Pattern for Functions</h4>
+<span style="color:#000">isLess</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">15</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><h4 id="9-return-early-pattern-for-functions">9. Return Early Pattern for Functions</h4>
 <blockquote>
 <p>When a return statement is reached, the execution of the current function stops and control returns to the calling location.</p>
 </blockquote>
-<pre><code>function myFun() {
-  console.log(&quot;Hello&quot;);
-  return &quot;World&quot;;
-  console.log(&quot;byebye&quot;)
-}
-myFun();
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">myFun</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Hello&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;World&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;byebye&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000">myFun</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
 
-\\ The above outputs &quot;Hello&quot; to the console, returns &quot;World&quot;, but &quot;byebye&quot; is never output, because the function exits at the return statement
-</code></pre><h4 id="10-blackjack-exercise">10. BlackJack Exercise</h4>
-<pre><code>var count = 0;
+<span style="color:#a40000">\</span><span style="color:#a40000">\</span> <span style="color:#000">The</span> <span style="color:#000">above</span> <span style="color:#000">outputs</span> <span style="color:#4e9a06">&#34;Hello&#34;</span> <span style="color:#000">to</span> <span style="color:#000">the</span> <span style="color:#000">console</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">returns</span> <span style="color:#4e9a06">&#34;World&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">but</span> <span style="color:#4e9a06">&#34;byebye&#34;</span> <span style="color:#000">is</span> <span style="color:#000">never</span> <span style="color:#000">output</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">because</span> <span style="color:#000">the</span> <span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">exits</span> <span style="color:#000">at</span> <span style="color:#000">the</span> <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">statement</span>
+</code></pre></div><h4 id="10-blackjack-exercise">10. BlackJack Exercise</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">count</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">;</span>
 
-function cc(card) {
-  switch(card) {
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-    case 6:
-      count+=1;
-      break;
-    case 10:
-    case &quot;J&quot;:
-    case &quot;Q&quot;:
-    case &quot;K&quot;:
-    case &quot;A&quot;:
-      count--;
-      break;
-  } 
-  if (count &gt; 0) {
-      return count + &quot; Bet&quot;;
-    } else {
-      return count + &quot; Hold&quot;;
-    }
-}
+<span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">cc</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">card</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">switch</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">card</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">3</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">4</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">5</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">6</span><span style="color:#ce5c00;font-weight:bold">:</span>
+      <span style="color:#000">count</span><span style="color:#ce5c00;font-weight:bold">+=</span><span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">;</span>
+      <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#0000cf;font-weight:bold">10</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#4e9a06">&#34;J&#34;</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#4e9a06">&#34;Q&#34;</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#4e9a06">&#34;K&#34;</span><span style="color:#ce5c00;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#4e9a06">&#34;A&#34;</span><span style="color:#ce5c00;font-weight:bold">:</span>
+      <span style="color:#000">count</span><span style="color:#ce5c00;font-weight:bold">--</span><span style="color:#000;font-weight:bold">;</span>
+      <span style="color:#204a87;font-weight:bold">break</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> 
+  <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">count</span> <span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+      <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">count</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#4e9a06">&#34; Bet&#34;</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
+      <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">count</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#4e9a06">&#34; Hold&#34;</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000;font-weight:bold">}</span>
 
-cc(2); cc(3); cc(7); cc('K'); cc('A');
-</code></pre><h4 id="11-go-golf-exercise">11. Go Golf Exercise</h4>
-<pre><code>var names = [&quot;Hole-in-one!&quot;, &quot;Eagle&quot;, &quot;Birdie&quot;, &quot;Par&quot;, &quot;Bogey&quot;, &quot;Double Bogey&quot;, &quot;Go Home!&quot;];
-function golfScore(par, strokes) {
+<span style="color:#000">cc</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">cc</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">cc</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">7</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">cc</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;K&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">cc</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;A&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><h4 id="11-go-golf-exercise">11. Go Golf Exercise</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">names</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;Hole-in-one!&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;Eagle&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;Birdie&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;Par&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;Bogey&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;Double Bogey&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;Go Home!&#34;</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">golfScore</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">par</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">strokes</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
  
-  if (strokes == 1) {
-    return &quot;Hole-in-one!&quot;;
-  } else if (strokes &lt;= par -2) {
-    return &quot;Eagle&quot;;
-  } else if (strokes == par -1){
-    return &quot;Birdie&quot;;
-  } else if (strokes == par) {
-    return &quot;Par&quot;;
-  } else if (strokes == par +1){
-    return &quot;Bogey&quot;;
-  } else if (strokes == par +2){
-    return &quot;Double Bogey&quot;
-  } else {
-    return &quot;Go Home!&quot;
-  }
-}
+  <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">strokes</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Hole-in-one!&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">strokes</span> <span style="color:#ce5c00;font-weight:bold">&lt;=</span> <span style="color:#000">par</span> <span style="color:#ce5c00;font-weight:bold">-</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Eagle&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">strokes</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#000">par</span> <span style="color:#ce5c00;font-weight:bold">-</span><span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Birdie&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">strokes</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#000">par</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Par&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">strokes</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#000">par</span> <span style="color:#ce5c00;font-weight:bold">+</span><span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Bogey&#34;</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">strokes</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#000">par</span> <span style="color:#ce5c00;font-weight:bold">+</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Double Bogey&#34;</span>
+  <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#4e9a06">&#34;Go Home!&#34;</span>
+  <span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000;font-weight:bold">}</span>
 
-golfScore(5, 4);
-</code></pre>
+<span style="color:#000">golfScore</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">4</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div>
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified June 12, 2020
