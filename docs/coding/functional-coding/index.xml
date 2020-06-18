@@ -15,6 +15,24 @@
     
     
     <item>
+      <title>Docs: Clean Code</title>
+      <link>/docs/coding/functional-coding/clean-code/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/clean-code/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;summary-of-clean-code--robert-c-martin&#34;&gt;Summary of &lt;em&gt;Clean code — Robert C. Martin&lt;/em&gt;&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Summarized by &lt;a href=&#34;https://gist.github.com/wojteklu&#34;&gt; wojteklu&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;script src=&#34;https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29.js&#34;&gt;&lt;/script&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Bash</title>
       <link>/docs/coding/functional-coding/bash/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>

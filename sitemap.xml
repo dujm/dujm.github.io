@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/coding/functional-coding/clean-code/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/javascript/course/regular-expression/part1/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
@@ -145,6 +150,11 @@
   <url>
     <loc>/docs/web/my-app/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/coding/functional-coding/javascript/course/regular-expression/part2/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -723,7 +733,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
