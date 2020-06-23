@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/debugging/</loc>
-    <lastmod>2020-06-21T00:00:00+00:00</lastmod>
+    <loc>/docs/coding/functional-coding/javascript/course/data-structure/intro/</loc>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,17 +13,12 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/clean-code/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/coding/functional-coding/javascript/course/regular-expression/part1/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/practice/best-practices/</loc>
+    <loc>/docs/coding/functional-coding/javascript/practices/best-practices/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,7 +38,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/practice/</loc>
+    <loc>/docs/coding/functional-coding/javascript/practices/</loc>
     <lastmod>2020-06-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,7 +113,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/error_collection/aws/</loc>
+    <loc>/docs/coding/practices/error_collection/aws/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,6 +158,11 @@
   </url>
   
   <url>
+    <loc>/docs/coding/functional-coding/javascript/course/data-structure/array/</loc>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/javascript/course/debugging/howto/</loc>
     <lastmod>2020-06-21T00:00:00+00:00</lastmod>
   </url>
@@ -188,7 +188,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/practice/nodejs/</loc>
+    <loc>/docs/coding/functional-coding/javascript/practices/nodejs/</loc>
     <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -273,21 +273,6 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/error_collection/</loc>
-    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/coding/functional-coding/error_collection/git/</loc>
-    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/coding/functional-coding/javascript/</loc>
-    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/healthcare/papers/fibroblasts/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
@@ -343,6 +328,11 @@
   </url>
   
   <url>
+    <loc>/docs/coding/practices/</loc>
+    <lastmod>2020-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/javascript/course/regular-expression/part3/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url>
@@ -378,7 +368,12 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/error_collection/pyspark/</loc>
+    <loc>/docs/coding/functional-coding/python/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/coding/practices/error_collection/pyspark/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -423,13 +418,13 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/basics/loops/</loc>
-    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
+    <loc>/docs/coding/functional-coding/javascript/course/debugging/</loc>
+    <lastmod>2020-06-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/git/</loc>
-    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+    <loc>/docs/coding/functional-coding/javascript/course/basics/loops/</loc>
+    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -458,7 +453,12 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/error_collection/python/</loc>
+    <loc>/docs/coding/functional-coding/javascript/</loc>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/coding/practices/error_collection/python/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -543,6 +543,11 @@
   </url>
   
   <url>
+    <loc>/docs/coding/functional-coding/javascript/course/data-structure/</loc>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/javascript/course/basics/numbers/</loc>
     <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url>
@@ -578,7 +583,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/error_collection/windows/</loc>
+    <loc>/docs/coding/practices/error_collection/windows/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -632,6 +637,11 @@
   </url>
   
   <url>
+    <loc>/docs/coding/practices/git/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/python/plot/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url>
@@ -639,11 +649,6 @@
   <url>
     <loc>/docs/data/visual-art/image-processing/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/coding/functional-coding/python/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -672,6 +677,11 @@
   </url>
   
   <url>
+    <loc>/docs/coding/practices/clean-code/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/privacy/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
@@ -694,6 +704,11 @@
   <url>
     <loc>/docs/data/visual-art/r-factoextra/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/coding/practices/error_collection/</loc>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -753,7 +768,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -769,6 +784,11 @@
   <url>
     <loc>/blog/2020/04/20/time/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/coding/practices/error_collection/git/</loc>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
