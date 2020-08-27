@@ -32,7 +32,7 @@
  1. Use an Array to Store a Collection of Data  One-dimensional array  let simpleArray =[1, &#34;plains hymn&#34;, true,null,undefined]; // Change this line  // Access the length property console.log(simpleArray.length); // logs 5  multi-dimensional array arrays are also capable of storing complex objects.  let complexArray = [ [ { one: 1, two: 2 }, { three: 3, four: 4 } ], [ { a: &#34;a&#34;, b: &#34;b&#34; }, { c: &#34;c&#34;, d: &#34;d&#34; } ] ];">
 <meta itemprop="datePublished" content="2020-06-23T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-06-23T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="725">
+<meta itemprop="wordCount" content="819">
 
 
 
@@ -131,7 +131,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.97972359723ad104ea211ffd292e40973ccc63b64df28deb266ed883a21a68da0fd46c3fe88211ab77e3645209c6ed0985286172395f9aea2d1b40cfab9c27c4.json"
+  data-offline-search-index-json-src="/offline-search-index.a50ef4bb98cb9d6dec29ca4265d9d977a6f0e1638090691151742f5e243fc4a85ce1b9fed458e995b212345c7f2b30fa4bb6b59e602b81cb4e6d7d95d9307832.json"
   data-offline-search-base-href="/"
 >
 
@@ -161,7 +161,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.97972359723ad104ea211ffd292e40973ccc63b64df28deb266ed883a21a68da0fd46c3fe88211ab77e3645209c6ed0985286172395f9aea2d1b40cfab9c27c4.json"
+  data-offline-search-index-json-src="/offline-search-index.a50ef4bb98cb9d6dec29ca4265d9d977a6f0e1638090691151742f5e243fc4a85ce1b9fed458e995b212345c7f2b30fa4bb6b59e602b81cb4e6d7d95d9307832.json"
   data-offline-search-base-href="/"
 >
 
@@ -2103,6 +2103,7 @@
 
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">newArray</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">array</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">splice</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#8f5902;font-style:italic">// newArray equals [&#39;really&#39;, &#39;sleepy&#39;]
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#8f5902;font-style:italic">// array equals [ &#39;I&#39;, &#39;am&#39;, &#39;feeling&#39; ]
 </span></code></pre></div><div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// Use splice() to remove elements from arr, so that it only contains elements that sum to the value of 10
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">arr</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">4</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">7</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#8f5902;font-style:italic">// Only change code below this line
@@ -2159,7 +2160,33 @@
 
 <span style="color:#8f5902;font-style:italic">// Only change code above this line
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">forecast</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#39;cold&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;rainy&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;warm&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;sunny&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;cool&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;thunderstorms&#39;</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
-</code></pre></div>
+</code></pre></div><br>
+<h4 id="9-copy-an-array-with-the-spread-operator-">9. Copy an Array with the Spread Operator <code>...</code></h4>
+<ul>
+<li>Example 1</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">thisArray</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#204a87;font-weight:bold">true</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#204a87;font-weight:bold">true</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#204a87;font-weight:bold">undefined</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#204a87;font-weight:bold">false</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#204a87;font-weight:bold">null</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">thatArray</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#000;font-weight:bold">...</span><span style="color:#000">thisArray</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#8f5902;font-style:italic">// thatArray equals [true, true, undefined, false, null]
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#8f5902;font-style:italic">// thisArray remains unchanged, and is identical to thatArray
+</span></code></pre></div><ul>
+<li>Example 2</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">function</span> <span style="color:#000">copyMachine</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">arr</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">num</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">newArr</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#204a87;font-weight:bold">while</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">num</span> <span style="color:#ce5c00;font-weight:bold">&gt;=</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#8f5902;font-style:italic">// Only change code below this line
+</span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#000">newArr</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">push</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000;font-weight:bold">...</span><span style="color:#000">arr</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#8f5902;font-style:italic">// Only change code above this line
+</span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#000">num</span><span style="color:#ce5c00;font-weight:bold">--</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000;font-weight:bold">}</span>
+  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">newArr</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">}</span>
+
+<span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">copyMachine</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">[</span><span style="color:#204a87;font-weight:bold">true</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#204a87;font-weight:bold">false</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#204a87;font-weight:bold">true</span><span style="color:#000;font-weight:bold">]</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><br>
+<h4 id="10-combine-arrays-with-the-spread-operator">10. Combine Arrays with the Spread Operator</h4>
+
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified June 23, 2020
