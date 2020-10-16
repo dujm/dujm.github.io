@@ -73,7 +73,19 @@
 &lt;p&gt;Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data.&lt;/p&gt;
 &lt;p&gt;It leverages the scikit-learn Python toolbox for multivariate statistics with applications such as predictive modelling, classification, decoding, or connectivity analysis.&lt;/p&gt;
 &lt;/blockquote&gt;
-
+&lt;br&gt;
+&lt;h4 id=&#34;3-d-scientific-visualization-in-the-jupyter-notebook&#34;&gt;3-D Scientific Visualization in the Jupyter Notebook&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/QuantStack/ipygany&#34;&gt;ipygany&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;interactive-graph-visualization-with-cytoscapejs-in-jupyterlab-and-the-jupyter-notebook&#34;&gt;Interactive graph visualization with cytoscape.js in JupyterLab and the Jupyter notebook&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/QuantStack/ipycytoscape&#34;&gt;ipycytoscape&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install ipycytoscape
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# enable&lt;/span&gt;
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytoscape
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     
@@ -87,7 +99,11 @@
         
         
         &lt;br&gt;
- * [scikit-image](https://scikit-image.org/docs/stable/overview.html): image processing in Python
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/overview.html&#34;&gt;scikit-image&lt;/a&gt;
+s&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
