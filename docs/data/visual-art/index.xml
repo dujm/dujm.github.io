@@ -100,8 +100,7 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytosca
         
         &lt;br&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/overview.html&#34;&gt;scikit-image&lt;/a&gt;
-s&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/overview.html&#34;&gt;scikit-image&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
