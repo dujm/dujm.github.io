@@ -15,6 +15,30 @@
     
     
     <item>
+      <title>Docs: Optimizer</title>
+      <link>/docs/machinelearning/frameworks/tensorflow/optimizer/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/frameworks/tensorflow/optimizer/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;adabelief-optimizer&#34;&gt;AdaBelief Optimizer&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Trains fast as Adam, generalizes well as SGD, and is stable to train GANs.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/juntang-zhuang/Adabelief-Optimizer&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install adabelief-tf&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;0.0.1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;adabelief_tf&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;impoty&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;AdaBeliefOptimizer&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;optimizer&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;AdaBeliefOptimizer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;learning_rate&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;epsilon&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1e-12&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Introduction</title>
       <link>/docs/coding/functional-coding/javascript/course/data-structure/intro/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
@@ -2740,6 +2764,31 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://duju.shinyapps.io/PubMed-Literature-Search&#34;&gt;PubMed Literature Search&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://vsranker.broadinstitute.org/&#34;&gt;Variant Ranker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: TensorPipe</title>
+      <link>/docs/machinelearning/frameworks/tensorflow/tensorpipe/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/frameworks/tensorflow/tensorpipe/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;tensorpipe&#34;&gt;TensorPipe&lt;/h4&gt;
+&lt;p&gt;A high Performance Tensorflow Data Pipeline with State of Art Augmentations and low level optimizations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kartik4949/TensorPipe&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@kartiksharma_96489/how-to-write-efficient-datapipeline-in-keras-tensorflow-with-tensorpipe-3391b4be191d&#34;&gt;How to write Efficient DataPipeline in Keras/Tensorflow with TensorPipe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Developing DataPipeline which is flexible and high performing is a painful task in TensorFlow.&lt;/p&gt;
+&lt;p&gt;State of Art Augmentations are written in a very clumsy way and it is not necessary you will find a version of it in Tensorflow.&lt;/p&gt;
+&lt;p&gt;TensorPipe fills this “Gap” with high performance, flexible and loaded with all SOTA augmentations available in the computer vision domain in one package written in core TensorFlow.&lt;/p&gt;
+&lt;/blockquote&gt;
 
       </description>
     </item>
@@ -9165,151 +9214,6 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytosca
 &lt;li&gt;&lt;a href=&#34;https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf&#34;&gt;conda&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/abhat222/Data-Science--Cheat-Sheet&#34;&gt;Data science cheatsheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463&#34;&gt;A lof of cheatsheets&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Naive Bayes</title>
-      <link>/docs/machinelearning/models/-naive-bayes/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/models/-naive-bayes/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/x8-the-ai-community/a-simple-introduction-to-naive-bayes-23538a0395a&#34;&gt;A Simple Introduction to Naive Bayes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Probablity</title>
-      <link>/docs/math/probability/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/math/probability/</guid>
-      <description>
-        
-        
-        
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;Probability – making the best estimate of the chance in an uncertain world&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;br&gt;
-&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#Basic_probability&#34;&gt;Basic Probability&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#Compound_Probability&#34;&gt;Compound Probability&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#Probability_Distributions&#34;&gt;Probability Distributions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#Frequentist_Inference&#34;&gt;Frequentist Inference&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#Bayesian_Inference&#34;&gt;Bayesian Inference&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#Regression_Analysis&#34;&gt;Regression Analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#refs&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;basic-probability&#34;&gt;Basic Probability&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Probability theory is the mathematical framework that allows us to analyze chance events in a logically sound manner.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Chance Events&lt;/li&gt;
-&lt;li&gt;Expectation: provides a measure of centrality&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;The expectation of a random variable is a number that attempts to capture the center of that random variable&amp;rsquo;s distribution.&lt;/li&gt;
-&lt;li&gt;It can be interpreted as the long-run average of many independent samples from the given distribution.&lt;/li&gt;
-&lt;li&gt;More precisely, it is defined as the probability-weighted sum of all possible values in the random variable&amp;rsquo;s support,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Variance: quantifies the spread of that random variable&amp;rsquo;s distribution&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;compound-probability&#34;&gt;Compound Probability&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Set: a collection of compound events
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cs.brown.edu/courses/cs022/static/files/documents/sets.pdf&#34;&gt;Set Identities&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Permutations: different ordered sequences&lt;/li&gt;
-&lt;li&gt;Combinations: different unordered sets&lt;/li&gt;
-&lt;li&gt;Conditional Probability: a conditional probability is the probability of an event, given some other event has already occurred.
-&lt;ul&gt;
-&lt;li&gt;It allows us to account for information we have about our system of interest&lt;/li&gt;
-&lt;li&gt;Mathematically, computing a conditional probability amounts to shrinking our sample space to a particular event.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;(http://setosa.io/conditional/)&#34;&gt;A visual explaination&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;For example, we might expect the probability that it will rain tomorrow (in general) to be smaller than the probability it will rain tomorrow given that it is cloudy today. This latter probability is a conditional probability, since it accounts for relevant information that we possess.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;probability-distributions&#34;&gt;Probability Distributions&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A probability distribution specifies the relative likelihoods of all possible outcomes.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Random Variables: Formally, a random variable is a function that assigns a real number to each outcome in the probability space.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.dummies.com/wp-content/uploads/250474.image0.jpg&#34; alt=&#34;Discrete Probability Distributions&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.dummies.com/education/math/probability/discrete-probability-distributions/&#34;&gt;Discrete Probability Distributions&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.wolfram.com/mathematica/new-in-8/parametric-probability-distributions/HTMLImages.en/univariate-discrete-distributions/O_2.png&#34; alt=&#34;Univariate Discrete Distributions&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.wolfram.com/mathematica/new-in-8/parametric-probability-distributions/HTMLImages.en/univariate-discrete-distributions/O_2.png&#34;&gt;Univariate Discrete Distributions&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The Central Limit Theorem (CLT) states that the sample mean of a sufficiently large number of i.i.d. random variables is approximately normally distributed. The larger the sample, the better the approximation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;frequentist-inference&#34;&gt;Frequentist Inference&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Bootstrap provides a convenient way to estimate properties of an estimator via resampling.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;bayesian-inference&#34;&gt;Bayesian Inference&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Bayesian inference techniques specify how one should update one’s beliefs upon observing data.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;regression-analysis&#34;&gt;Regression Analysis&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Analysis of Variance (ANOVA) is a statistical method for testing whether groups of data have the same mean. ANOVA generalizes the t-test to two or more groups by comparing the sum of square error within and between groups.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/mavam/stat-cookbook&#34;&gt;stat-cookbook&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uzkc-qNVoOk&amp;amp;list=PLC58778F28211FA19&#34;&gt;Probability by Khan Academy&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/dj-basis/Seeing-Theory&#34;&gt;A visual introduction to probability and statistics&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://seeing-theory.brown.edu/doc/seeing-theory.pdf&#34;&gt;pdf version&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/unpingco/Python-for-Probability-Statistics-and-Machine-Learning&#34;&gt;Python for probability statistics and machine-learning&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/tensorflow/probability&#34;&gt;Probabilistic reasoning and statistical analysis in TensorFlow&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://mlwhiz.com/blog/2017/09/14/discrete_distributions/&#34;&gt;The story of every distribution - Discrete Distributions&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/specializations/statistics?siteID=lVarvwc5BD0-1nQtJg8.ENATqSUIufAaaw&amp;amp;utm_content=2&amp;amp;utm_medium=partners&amp;amp;utm_source=linkshare&amp;amp;utm_campaign=lVarvwc5BD0&amp;amp;ranMID=40328&amp;amp;ranEAID=je6NUbpObpQ&amp;amp;ranSiteID=je6NUbpObpQ-xCM1Xw3kG_HPBPyYFr1lKw&amp;amp;siteID=je6NUbpObpQ-xCM1Xw3kG_HPBPyYFr1lKw&amp;amp;utm_content=10&amp;amp;utm_medium=partners&amp;amp;utm_source=linkshare&amp;amp;utm_campaign=je6NUbpObpQ&#34;&gt;Statistics with R Specialization&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

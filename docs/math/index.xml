@@ -1708,6 +1708,31 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     </item>
     
     <item>
+      <title>Docs: Bayes Theorem</title>
+      <link>/docs/math/bayes-theorem/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/bayes-theorem/</guid>
+      <description>
+        
+        
+        &lt;h4 id=&#34;books&#34;&gt;Books&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.greenteapress.com/thinkbayes/thinkbayes.pdf&#34;&gt;Think Bayes by Allen B. Downey, free book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;what-does-bayes-theorem-do&#34;&gt;What does Bayes Theorem do?&lt;/h4&gt;
+&lt;p&gt;It helps us to update a hypothesis based on new evidence.&lt;/p&gt;
+&lt;h4 id=&#34;terms&#34;&gt;Terms&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Base Rate Fallacy (Base Rate Neglect): If presented with related &lt;strong&gt;base rate information&lt;/strong&gt; (i.e., general information on prevalence) and &lt;strong&gt;specific information&lt;/strong&gt; (i.e., information pertaining only to a specific case), people tend to &lt;strong&gt;ignore the base rate&lt;/strong&gt; in favor of the individuating information, rather than correctly integrating the two.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://thedecisionlab.b-cdn.net/wp-content/uploads/2020/09/base-rate-fallacy.jpg&#34; alt=&#34;stereotypes&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://thedecisionlab.b-cdn.net/wp-content/uploads/2020/09/base-rate-fallacy.jpg&#34;&gt;Image from thedecisionlab&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Mathematics of Neural Networks</title>
       <link>/docs/math/neural-networks/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>

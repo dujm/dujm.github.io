@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/machinelearning/frameworks/tensorflow/optimizer/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/javascript/course/data-structure/intro/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url>
@@ -113,6 +118,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/frameworks/pytorch/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/practices/error_collection/aws/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -155,6 +165,16 @@
   <url>
     <loc>/docs/web/my-app/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/frameworks/tensorflow/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/frameworks/tensorflow/tensorpipe/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -249,11 +269,6 @@
   
   <url>
     <loc>/docs/machinelearning/cv/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/machinelearning/frameworks/pytorch/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -608,12 +623,17 @@
   </url>
   
   <url>
+    <loc>/docs/math/bayes-theorem/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/graph-nn/tools/rank/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/python-command-line/</loc>
+    <loc>/docs/coding/functional-coding/python/python-command-line/</loc>
     <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -652,7 +672,7 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/python-packages/</loc>
+    <loc>/docs/coding/functional-coding/python/python-packages/</loc>
     <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -768,7 +788,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
