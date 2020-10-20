@@ -293,7 +293,19 @@ git commit &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;initial commit&amp
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;Host on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;br&gt;
+&lt;h4 id=&#34;error&#34;&gt;Error&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;If you acidentally delete (e.g. rm -rf public) the folder which Hugo uses to place the rendered flies, you probably will encounter this error when you try to git push:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;fatal: in unpopulated submodule &#39;public&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://felixmon.dev/posts/deploy/&#34;&gt;Ref&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git rm --cached public
+git submodule add -b master --force git@github.com:yourusrname/yourusrname.github.io.git public
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     
