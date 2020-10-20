@@ -787,6 +787,11 @@
   </url>
   
   <url>
+    <loc>/blog/</loc>
+    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2020/08/27/how-to-hone-my-craft/</loc>
     <lastmod>2020-08-27T00:00:00+00:00</lastmod>
   </url>
@@ -913,10 +918,6 @@
   
   <url>
     <loc>/index.json</loc>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
   </url>
   
   <url>

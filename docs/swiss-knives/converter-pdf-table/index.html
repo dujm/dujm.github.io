@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.63.2" />
+<meta name="generator" content="Hugo 0.76.5" />
 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
@@ -30,13 +30,14 @@ R Tabulizer  GitHub Installation  install." />
 <meta itemprop="name" content="Converter PDF - Table">
 <meta itemprop="description" content="tabula-py  tabula-py is a simple Python wrapper of tabula-java Installation  pip install tabula-py  Usage  import tabula # Read pdf into list of DataFrame df = tabula.read_pdf(&#34;test.pdf&#34;, pages=&#39;all&#39;) # Read remote pdf into list of DataFrame df2 = tabula.read_pdf(&#34;https://github.com/tabulapdf/tabula-java/raw/master/src/test/resources/technology/tabula/arabic.pdf&#34;) # convert PDF into CSV file tabula.convert_into(&#34;test.pdf&#34;, &#34;output.csv&#34;, output_format=&#34;csv&#34;, pages=&#39;all&#39;) # convert all PDFs in a directory tabula.convert_into_by_batch(&#34;input_directory&#34;, output_format=&#39;csv&#39;, pages=&#39;all) 
 R Tabulizer  GitHub Installation  install.">
-<meta itemprop="datePublished" content="2020-10-18T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-10-18T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2020-10-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-10-18T00:00:00+00:00" />
 <meta itemprop="wordCount" content="76">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Converter PDF - Table"/>
 <meta name="twitter:description" content="tabula-py  tabula-py is a simple Python wrapper of tabula-java Installation  pip install tabula-py  Usage  import tabula # Read pdf into list of DataFrame df = tabula.read_pdf(&#34;test.pdf&#34;, pages=&#39;all&#39;) # Read remote pdf into list of DataFrame df2 = tabula.read_pdf(&#34;https://github.com/tabulapdf/tabula-java/raw/master/src/test/resources/technology/tabula/arabic.pdf&#34;) # convert PDF into CSV file tabula.convert_into(&#34;test.pdf&#34;, &#34;output.csv&#34;, output_format=&#34;csv&#34;, pages=&#39;all&#39;) # convert all PDFs in a directory tabula.convert_into_by_batch(&#34;input_directory&#34;, output_format=&#39;csv&#39;, pages=&#39;all) 
 R Tabulizer  GitHub Installation  install."/>
@@ -67,8 +68,8 @@ R Tabulizer  GitHub Installation  install."/>
 
 
 
-<link rel="preload" href="/scss/main.min.6ca91c1f1fce086842eb1bd80b503b1a623183950b73374882023fde9fdab4ac.css" as="style">
-<link href="/scss/main.min.6ca91c1f1fce086842eb1bd80b503b1a623183950b73374882023fde9fdab4ac.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" as="style">
+<link href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -131,7 +132,7 @@ R Tabulizer  GitHub Installation  install."/>
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c15cb5bef60776e3cf82d0cbb73778fa3bad5ee019287807c22270dd2a09d6b18643caa912c9447d04cf115e7a8e720574f59388e8ea1af7a3266372f196cf15.json"
+  data-offline-search-index-json-src="/offline-search-index.273e9b304cb4609df19f8aabed4038a4364bc3cbe4aa27e2c8ed00666195553fe763a68fe183f3ea9afd0d0f068d5349685bfdfbb5a3575fc94c4ba0862d8326.json"
   data-offline-search-base-href="/"
 >
 
@@ -161,7 +162,7 @@ R Tabulizer  GitHub Installation  install."/>
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c15cb5bef60776e3cf82d0cbb73778fa3bad5ee019287807c22270dd2a09d6b18643caa912c9447d04cf115e7a8e720574f59388e8ea1af7a3266372f196cf15.json"
+  data-offline-search-index-json-src="/offline-search-index.273e9b304cb4609df19f8aabed4038a4364bc3cbe4aa27e2c8ed00666195553fe763a68fe183f3ea9afd0d0f068d5349685bfdfbb5a3575fc94c4ba0862d8326.json"
   data-offline-search-base-href="/"
 >
 
@@ -2016,28 +2017,28 @@ R Tabulizer  GitHub Installation  install."/>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">tabula</span>
 
 <span style="color:#8f5902;font-style:italic"># Read pdf into list of DataFrame</span>
-<span style="color:#000">df</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">tabula</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">read_pdf</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">test.pdf</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">pages</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">all</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">df</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">tabula</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">read_pdf</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;test.pdf&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">pages</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;all&#39;</span><span style="color:#000;font-weight:bold">)</span>
 
 <span style="color:#8f5902;font-style:italic"># Read remote pdf into list of DataFrame</span>
-<span style="color:#000">df2</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">tabula</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">read_pdf</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">https://github.com/tabulapdf/tabula-java/raw/master/src/test/resources/technology/tabula/arabic.pdf</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">df2</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">tabula</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">read_pdf</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;https://github.com/tabulapdf/tabula-java/raw/master/src/test/resources/technology/tabula/arabic.pdf&#34;</span><span style="color:#000;font-weight:bold">)</span>
 
 <span style="color:#8f5902;font-style:italic"># convert PDF into CSV file</span>
-<span style="color:#000">tabula</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">convert_into</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">test.pdf</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">output.csv</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">output_format</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">csv</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">pages</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">all</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">tabula</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">convert_into</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;test.pdf&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;output.csv&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">output_format</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;csv&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">pages</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;all&#39;</span><span style="color:#000;font-weight:bold">)</span>
 
 <span style="color:#8f5902;font-style:italic"># convert all PDFs in a directory</span>
-<span style="color:#000">tabula</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">convert_into_by_batch</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">input_directory</span><span style="color:#4e9a06">&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">output_format</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">csv</span><span style="color:#4e9a06">&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">pages</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06"></span><span style="color:#4e9a06">&#39;</span><span style="color:#4e9a06">all)</span>
+<span style="color:#000">tabula</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">convert_into_by_batch</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;input_directory&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">output_format</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;csv&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">pages</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;all)</span>
 </code></pre></div><br>
 <h4 id="r-tabulizer">R Tabulizer</h4>
 <ul>
 <li><a href="https://github.com/ropensci/tabulizer">GitHub</a></li>
 <li>Installation</li>
 </ul>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">install.packages</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">tabulizer&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">install.packages</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;tabulizer&#34;</span><span style="color:#000;font-weight:bold">)</span>
 </code></pre></div><ul>
 <li>Usage</li>
 </ul>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">library</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">tabulizer&#34;</span><span style="color:#000;font-weight:bold">)</span>
-<span style="color:#000">f</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">system.file</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">examples&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">data.pdf&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">package</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">tabulizer&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">library</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;tabulizer&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">f</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">system.file</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;examples&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;data.pdf&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">package</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;tabulizer&#34;</span><span style="color:#000;font-weight:bold">)</span>
 <span style="color:#000">out1</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">extract_tables</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">f</span><span style="color:#000;font-weight:bold">)</span>
 <span style="color:#000">str</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">out1</span><span style="color:#000;font-weight:bold">)</span>
 </code></pre></div>

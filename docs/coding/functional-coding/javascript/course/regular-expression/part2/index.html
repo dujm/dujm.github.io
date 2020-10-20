@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.63.2" />
+<meta name="generator" content="Hugo 0.76.5" />
 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
@@ -36,13 +36,14 @@
  Defaulft for Regular Expression    A lazy match finds the smallest possible part of the string that satisfies the regex pattern.
  Use ?    Example 1
   // string &#34;titanic&#34; // A greedy match /t[a-z]*i/ //return titani  // A lazy match /t[a-z]*?">
-<meta itemprop="datePublished" content="2020-06-18T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-06-18T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2020-06-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-06-18T00:00:00+00:00" />
 <meta itemprop="wordCount" content="736">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Part 2"/>
 <meta name="twitter:description" content="Course Link
  1. Find Characters with Lazy Matching   A greedy match finds the longest possible part of a string that fits the regex pattern and returns it as a match.
@@ -76,8 +77,8 @@
 
 
 
-<link rel="preload" href="/scss/main.min.6ca91c1f1fce086842eb1bd80b503b1a623183950b73374882023fde9fdab4ac.css" as="style">
-<link href="/scss/main.min.6ca91c1f1fce086842eb1bd80b503b1a623183950b73374882023fde9fdab4ac.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" as="style">
+<link href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -140,7 +141,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c15cb5bef60776e3cf82d0cbb73778fa3bad5ee019287807c22270dd2a09d6b18643caa912c9447d04cf115e7a8e720574f59388e8ea1af7a3266372f196cf15.json"
+  data-offline-search-index-json-src="/offline-search-index.273e9b304cb4609df19f8aabed4038a4364bc3cbe4aa27e2c8ed00666195553fe763a68fe183f3ea9afd0d0f068d5349685bfdfbb5a3575fc94c4ba0862d8326.json"
   data-offline-search-base-href="/"
 >
 
@@ -170,7 +171,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c15cb5bef60776e3cf82d0cbb73778fa3bad5ee019287807c22270dd2a09d6b18643caa912c9447d04cf115e7a8e720574f59388e8ea1af7a3266372f196cf15.json"
+  data-offline-search-index-json-src="/offline-search-index.273e9b304cb4609df19f8aabed4038a4364bc3cbe4aa27e2c8ed00666195553fe763a68fe183f3ea9afd0d0f068d5349685bfdfbb5a3575fc94c4ba0862d8326.json"
   data-offline-search-base-href="/"
 >
 
@@ -2076,16 +2077,16 @@
 </li>
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// string &#34;titanic&#34;
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#8f5902;font-style:italic">// A greedy match
+</span><span style="color:#8f5902;font-style:italic">// A greedy match
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#4e9a06">/t[a-z]*i/</span> <span style="color:#8f5902;font-style:italic">//return titani
 </span><span style="color:#8f5902;font-style:italic"></span>
 <span style="color:#8f5902;font-style:italic">// A lazy match
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#4e9a06">/t[a-z]*?i/</span> <span style="color:#8f5902;font-style:italic">//return ti
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#8f5902;font-style:italic">// 
+</span><span style="color:#8f5902;font-style:italic">// 
 </span></code></pre></div><div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// return the HTML tag &lt;h1&gt;
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">text</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;&lt;h1&gt;Winter is coming&lt;/h1&gt;&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">myRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/&lt;.*?&gt;/</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Change this line
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">text</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">myRegex</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">text</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">myRegex</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><br>
 <h4 id="2-match-beginning-string-patterns">2. Match Beginning String Patterns</h4>
 <ul>
@@ -2094,7 +2095,7 @@
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">rickyAndCal</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Cal and Ricky both like racing.&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">calRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/^Cal/</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Change this line
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">calRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">rickyAndCal</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">calRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">rickyAndCal</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><br>
 <h4 id="3-match-ending-string-patterns">3. Match Ending String Patterns</h4>
 <ul>
@@ -2102,10 +2103,10 @@
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">theEnding</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;This is a never ending story&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">storyRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/story$/</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">storyRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">theEnding</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000">storyRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">theEnding</span><span style="color:#000;font-weight:bold">);</span>
 <span style="color:#8f5902;font-style:italic">// Returns true
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">noEnding</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Sometimes a story will have to end&#34;</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">storyRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">noEnding</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000">storyRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">noEnding</span><span style="color:#000;font-weight:bold">);</span>
 <span style="color:#8f5902;font-style:italic">// Returns false
 </span></code></pre></div><br>
 <h4 id="4-match-all-letters-and-numbers">4. Match All Letters and Numbers</h4>
@@ -2118,17 +2119,17 @@
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">shortHand</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/\w+/</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">numbers</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;42&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">varNames</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;important_var&#34;</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">longHand</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">numbers</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns true
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">shortHand</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">numbers</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns true
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">longHand</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">varNames</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns true
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">shortHand</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">varNames</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns true
+<span style="color:#000">longHand</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">numbers</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">shortHand</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">numbers</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">longHand</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">varNames</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">shortHand</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">varNames</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns true
 </span></code></pre></div><ul>
 <li>Example 2</li>
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// Use the shorthand character class \w to count the number of alphanumeric characters in various quotes and strings 
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">quoteSample</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;The five boxing wizards jump quickly.&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">alphabetRegexV2</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/\w/g</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Change this line
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">quoteSample</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">alphabetRegexV2</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">quoteSample</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">alphabetRegexV2</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">;</span>
 </code></pre></div><br>
 <h4 id="5-match-everything-but-letters-and-numbers">5. Match Everything But Letters and Numbers</h4>
 <ul>
@@ -2139,15 +2140,15 @@
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">shortHand</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/\W/</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">numbers</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;42%&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">sentence</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Coding!&#34;</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">numbers</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">shortHand</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns [&#34;%&#34;]
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">sentence</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">shortHand</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns [&#34;!&#34;]
+<span style="color:#000">numbers</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">shortHand</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns [&#34;%&#34;]
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">sentence</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">shortHand</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns [&#34;!&#34;]
 </span></code></pre></div><ul>
 <li>Example 2</li>
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// Use the shorthand character class \W to count the number of non-alphanumeric characters in various quotes and strings
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">quoteSample</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;The five boxing wizards jump quickly.&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">nonAlphabetRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/\W/g</span><span style="color:#000;font-weight:bold">;</span> 
-<span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">quoteSample</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">nonAlphabetRegex</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">quoteSample</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">nonAlphabetRegex</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">;</span>
 </code></pre></div><br>
 <h4 id="6-match-all-numbers">6. Match All Numbers</h4>
 <ul>
@@ -2156,7 +2157,7 @@
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// Use the shorthand character class \d to count how many digits are in movie titles. Written out numbers (&#34;six&#34; instead of 6) do not count.
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">movieName</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;2001: A Space Odyssey&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">numRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/\d/g</span><span style="color:#000;font-weight:bold">;</span> 
-<span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">movieName</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">numRegex</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">movieName</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">numRegex</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">;</span>
 </code></pre></div><br>
 <h4 id="7-match-all-non-numbers">7. Match All Non-Numbers</h4>
 <ul>
@@ -2165,7 +2166,7 @@
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">//Use the shorthand character class for non-digits \D to count how many non-digits are in movie titles
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">movieName</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;2001: A Space Odyssey&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">noNumRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/\D/g</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Change this line
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">movieName</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">noNumRegex</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">movieName</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">noNumRegex</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">;</span>
 </code></pre></div><br>
 <h4 id="8-restrict-possible-usernames-">8. Restrict Possible Usernames 📓</h4>
 <blockquote>
@@ -2196,7 +2197,7 @@
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">username</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;JackOfAllTrades&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">userCheck</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/^[a-z]([0-9][0-9]+|[a-z]+\d*)$/i</span><span style="color:#000;font-weight:bold">;</span>
  <span style="color:#8f5902;font-style:italic">// Change this line
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">userCheck</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">username</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">userCheck</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">username</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><br>
 <h4 id="9-match-whitespaces-or-spaces-between-letters">9. Match Whitespaces or Spaces between Letters</h4>
 <ul>
@@ -2206,7 +2207,7 @@
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">whiteSpace</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Whitespace. Whitespace everywhere!&#34;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">spaceRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/\s/g</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">whiteSpace</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">spaceRegex</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000">whiteSpace</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">spaceRegex</span><span style="color:#000;font-weight:bold">);</span>
 <span style="color:#8f5902;font-style:italic">// Returns [&#34; &#34;, &#34; &#34;]
 </span></code></pre></div><ul>
 <li>Example 2</li>
@@ -2220,7 +2221,7 @@
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">whiteSpace</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Whitespace. Whitespace everywhere!&#34;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">nonSpaceRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/\S/g</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">whiteSpace</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">nonSpaceRegex</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns 32
+<span style="color:#000">whiteSpace</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">nonSpaceRegex</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns 32
 </span></code></pre></div>
 	
 	

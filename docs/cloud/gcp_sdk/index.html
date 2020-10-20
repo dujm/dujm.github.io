@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.63.2" />
+<meta name="generator" content="Hugo 0.76.5" />
 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
@@ -30,13 +30,14 @@ export CLOUD_SDK_REPO=&#34;cloud-sdk-$(lsb_release -c -s)&#34; echo &#34;deb htt
 <meta itemprop="name" content="GCP SDK Setup">
 <meta itemprop="description" content="1. Set up Google Cloud Platform (GCP)  Go to Create service account key page Select project on top &lsquo;pines1&rsquo; Service account, my account JSON Provide authentication credentials to your application code Enable billing  export GOOGLE_APPLICATION_CREDENTIALS=&#34;/home/pi/gcp/pines1-6e82e765805d.json&#34; 2. Install GCP SDK Installing with apt-get for Debian and Ubuntu
 export CLOUD_SDK_REPO=&#34;cloud-sdk-$(lsb_release -c -s)&#34; echo &#34;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPOmain&#34; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-sdk 3.">
-<meta itemprop="datePublished" content="2020-02-08T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-02-08T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2020-02-08T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-02-08T00:00:00+00:00" />
 <meta itemprop="wordCount" content="99">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="GCP SDK Setup"/>
 <meta name="twitter:description" content="1. Set up Google Cloud Platform (GCP)  Go to Create service account key page Select project on top &lsquo;pines1&rsquo; Service account, my account JSON Provide authentication credentials to your application code Enable billing  export GOOGLE_APPLICATION_CREDENTIALS=&#34;/home/pi/gcp/pines1-6e82e765805d.json&#34; 2. Install GCP SDK Installing with apt-get for Debian and Ubuntu
 export CLOUD_SDK_REPO=&#34;cloud-sdk-$(lsb_release -c -s)&#34; echo &#34;deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPOmain&#34; | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-sdk 3."/>
@@ -67,8 +68,8 @@ export CLOUD_SDK_REPO=&#34;cloud-sdk-$(lsb_release -c -s)&#34; echo &#34;deb htt
 
 
 
-<link rel="preload" href="/scss/main.min.6ca91c1f1fce086842eb1bd80b503b1a623183950b73374882023fde9fdab4ac.css" as="style">
-<link href="/scss/main.min.6ca91c1f1fce086842eb1bd80b503b1a623183950b73374882023fde9fdab4ac.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" as="style">
+<link href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -131,7 +132,7 @@ export CLOUD_SDK_REPO=&#34;cloud-sdk-$(lsb_release -c -s)&#34; echo &#34;deb htt
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c15cb5bef60776e3cf82d0cbb73778fa3bad5ee019287807c22270dd2a09d6b18643caa912c9447d04cf115e7a8e720574f59388e8ea1af7a3266372f196cf15.json"
+  data-offline-search-index-json-src="/offline-search-index.273e9b304cb4609df19f8aabed4038a4364bc3cbe4aa27e2c8ed00666195553fe763a68fe183f3ea9afd0d0f068d5349685bfdfbb5a3575fc94c4ba0862d8326.json"
   data-offline-search-base-href="/"
 >
 
@@ -161,7 +162,7 @@ export CLOUD_SDK_REPO=&#34;cloud-sdk-$(lsb_release -c -s)&#34; echo &#34;deb htt
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c15cb5bef60776e3cf82d0cbb73778fa3bad5ee019287807c22270dd2a09d6b18643caa912c9447d04cf115e7a8e720574f59388e8ea1af7a3266372f196cf15.json"
+  data-offline-search-index-json-src="/offline-search-index.273e9b304cb4609df19f8aabed4038a4364bc3cbe4aa27e2c8ed00666195553fe763a68fe183f3ea9afd0d0f068d5349685bfdfbb5a3575fc94c4ba0862d8326.json"
   data-offline-search-base-href="/"
 >
 
@@ -2016,9 +2017,9 @@ export CLOUD_SDK_REPO=&#34;cloud-sdk-$(lsb_release -c -s)&#34; echo &#34;deb htt
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#204a87">export</span> <span style="color:#000">GOOGLE_APPLICATION_CREDENTIALS</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;/home/pi/gcp/pines1-6e82e765805d.json&#34;</span>
 </code></pre></div><h4 id="2-install-gcp-sdk">2. Install GCP SDK</h4>
 <p><a href="https://cloud.google.com/sdk/docs/downloads-apt-get">Installing with apt-get for Debian and Ubuntu</a></p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#204a87">export</span> <span style="color:#000">CLOUD_SDK_REPO</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">cloud-sdk-</span><span style="color:#204a87;font-weight:bold">$(</span>lsb_release -c -s<span style="color:#204a87;font-weight:bold">)</span><span style="color:#4e9a06">&#34;</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#204a87">export</span> <span style="color:#000">CLOUD_SDK_REPO</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;cloud-sdk-</span><span style="color:#204a87;font-weight:bold">$(</span>lsb_release -c -s<span style="color:#204a87;font-weight:bold">)</span><span style="color:#4e9a06">&#34;</span>
 
-<span style="color:#204a87">echo</span> <span style="color:#4e9a06">&#34;</span><span style="color:#4e9a06">deb http://packages.cloud.google.com/apt </span><span style="color:#000">$CLOUD_SDK_REPO</span><span style="color:#4e9a06"> main</span><span style="color:#4e9a06">&#34;</span> <span style="color:#000;font-weight:bold">|</span> sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+<span style="color:#204a87">echo</span> <span style="color:#4e9a06">&#34;deb http://packages.cloud.google.com/apt </span><span style="color:#000">$CLOUD_SDK_REPO</span><span style="color:#4e9a06"> main&#34;</span> <span style="color:#000;font-weight:bold">|</span> sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
 
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg <span style="color:#000;font-weight:bold">|</span> sudo apt-key add -
 

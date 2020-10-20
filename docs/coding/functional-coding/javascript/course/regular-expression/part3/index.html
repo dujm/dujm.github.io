@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.63.2" />
+<meta name="generator" content="Hugo 0.76.5" />
 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
@@ -30,13 +30,14 @@
 <meta itemprop="name" content="Part 3">
 <meta itemprop="description" content="Course Link
  1. Specify Upper and Lower Number of Matches  You can specify the lower and upper number of patterns with quantity specifiers. Quantity specifiers are used with curly brackets { }. You put two numbers between the curly brackets - for the lower and upper number of patterns. Example 1  // Match only the letter a appearing between 3 and 5 times in the string &#34;eh&#34;, your regex would be `/a{3,5}h/` let A4 = &#34;eeeh&#34;; let A2 = &#34;eeh&#34;; let multipleA = /e{3,5}h/; multipleA.">
-<meta itemprop="datePublished" content="2020-06-20T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-06-20T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2020-06-20T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-06-20T00:00:00+00:00" />
 <meta itemprop="wordCount" content="1278">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Part 3"/>
 <meta name="twitter:description" content="Course Link
  1. Specify Upper and Lower Number of Matches  You can specify the lower and upper number of patterns with quantity specifiers. Quantity specifiers are used with curly brackets { }. You put two numbers between the curly brackets - for the lower and upper number of patterns. Example 1  // Match only the letter a appearing between 3 and 5 times in the string &#34;eh&#34;, your regex would be `/a{3,5}h/` let A4 = &#34;eeeh&#34;; let A2 = &#34;eeh&#34;; let multipleA = /e{3,5}h/; multipleA."/>
@@ -67,8 +68,8 @@
 
 
 
-<link rel="preload" href="/scss/main.min.6ca91c1f1fce086842eb1bd80b503b1a623183950b73374882023fde9fdab4ac.css" as="style">
-<link href="/scss/main.min.6ca91c1f1fce086842eb1bd80b503b1a623183950b73374882023fde9fdab4ac.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" as="style">
+<link href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -131,7 +132,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c15cb5bef60776e3cf82d0cbb73778fa3bad5ee019287807c22270dd2a09d6b18643caa912c9447d04cf115e7a8e720574f59388e8ea1af7a3266372f196cf15.json"
+  data-offline-search-index-json-src="/offline-search-index.273e9b304cb4609df19f8aabed4038a4364bc3cbe4aa27e2c8ed00666195553fe763a68fe183f3ea9afd0d0f068d5349685bfdfbb5a3575fc94c4ba0862d8326.json"
   data-offline-search-base-href="/"
 >
 
@@ -161,7 +162,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c15cb5bef60776e3cf82d0cbb73778fa3bad5ee019287807c22270dd2a09d6b18643caa912c9447d04cf115e7a8e720574f59388e8ea1af7a3266372f196cf15.json"
+  data-offline-search-index-json-src="/offline-search-index.273e9b304cb4609df19f8aabed4038a4364bc3cbe4aa27e2c8ed00666195553fe763a68fe183f3ea9afd0d0f068d5349685bfdfbb5a3575fc94c4ba0862d8326.json"
   data-offline-search-base-href="/"
 >
 
@@ -2057,15 +2058,15 @@
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">A4</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;eeeh&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">A2</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;eeh&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">multipleA</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/e{3,5}h/</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">multipleA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A4</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns true
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">multipleA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A2</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns false
+<span style="color:#000">multipleA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A4</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">multipleA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A2</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns false
 </span></code></pre></div><ul>
 <li>Example 2</li>
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// Change the regex ohRegex to match the entire phrase &#34;Oh no&#34; only when it has 3 to 6 letter h&#39;s
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">ohStr</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Ohhh no&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">ohRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/Oh{3,6} no/</span><span style="color:#000;font-weight:bold">;</span> 
-<span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">ohRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">ohStr</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">ohRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">ohStr</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><br>
 <h4 id="2-specify-only-the-lower-number-of-matches">2. Specify Only the Lower Number of Matches</h4>
 <ul>
@@ -2078,16 +2079,16 @@
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">A2</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;haah&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">A100</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;h&#34;</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#4e9a06">&#34;a&#34;</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">repeat</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">100</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#4e9a06">&#34;h&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">multipleA</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/ha{3,}h/</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">multipleA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A4</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns true
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">multipleA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A2</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns false
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">multipleA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A100</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns true
+<span style="color:#000">multipleA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A4</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">multipleA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A2</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns false
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">multipleA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A100</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns true
 </span></code></pre></div><ul>
 <li>Example 2</li>
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// Change the regex haRegex to match the word &#34;Hazzah&#34; only when it has four or more letter z&#39;s.
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">haStr</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Hazzzzah&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">haRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/Haz{4,}ah/</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Change this line
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">haRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">haStr</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">haRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">haStr</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><br>
 <h4 id="3-specify-exact-number-of-matches">3. Specify Exact Number of Matches</h4>
 <ul>
@@ -2100,16 +2101,16 @@
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">A3</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;haaah&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">A100</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;h&#34;</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#4e9a06">&#34;a&#34;</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">repeat</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">100</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#4e9a06">&#34;h&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">multipleHA</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/ha{3}h/</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">multipleHA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A4</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns false
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">multipleHA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A3</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns true
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">multipleHA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A100</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns false
+<span style="color:#000">multipleHA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A4</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns false
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">multipleHA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A3</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">multipleHA</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">A100</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns false
 </span></code></pre></div><ul>
 <li>Example 2</li>
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// Change the regex timRegex to match the word &#34;Timber&#34; only when it has four letter m&#39;s.
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">timStr</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Timmmmber&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">timRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/Tim{4}ber/</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">timRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">timStr</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">timRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">timStr</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><h4 id="4-check-for-all-or-none">4. Check for All or None</h4>
 <ul>
 <li>Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless</li>
@@ -2120,15 +2121,15 @@
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">american</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;color&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">british</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;colour&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">rainbowRegex</span><span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/colou?r/</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">rainbowRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">american</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> 
-<span style="color:#000">rainbowRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">british</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> 
+<span style="color:#000">rainbowRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">american</span><span style="color:#000;font-weight:bold">);</span> 
+<span style="color:#000">rainbowRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">british</span><span style="color:#000;font-weight:bold">);</span> 
 </code></pre></div><ul>
 <li>Example 2</li>
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// Change the regex favRegex to match both the American English (favorite) and the British English (favourite) version of the word.
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">favWord</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;favorite&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">favRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/favou?rite/</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Change this line
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">favRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">favWord</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">favRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">favWord</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><br>
 <h4 id="5-positive-and-negative-lookahead-">5. Positive and Negative Lookahead 🔭</h4>
 <ul>
@@ -2165,9 +2166,9 @@
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">quRegex</span><span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/q(?=u)/</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">qRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/q(?!u)/</span><span style="color:#000;font-weight:bold">;</span>
 
-<span style="color:#000">quit</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">quRegex</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns [&#34;q&#34;]
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">noquit</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">qRegex</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns [&#34;q&#34;]
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#8f5902;font-style:italic">// 
+<span style="color:#000">quit</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">quRegex</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns [&#34;q&#34;]
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">noquit</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">qRegex</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns [&#34;q&#34;]
+</span><span style="color:#8f5902;font-style:italic">// 
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">quit</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">qRegex</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic">// Returns null 
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">noquit</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">quRegex</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic">// Returns null 
 </span></code></pre></div><ul>
@@ -2178,7 +2179,7 @@
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">pwRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/^\D(?=\w{5})(?=\w*\d{2})/</span>
 
  <span style="color:#8f5902;font-style:italic">// Change this line
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">pwRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">sampleWord</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">pwRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">sampleWord</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><br>
 <h4 id="6-check-for-mixed-grouping-of-characters-">6. Check For Mixed Grouping of Characters 🔖</h4>
 <ul>
@@ -2197,7 +2198,7 @@
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// Fix the regex so that it checks for the names of Franklin Roosevelt or Eleanor Roosevelt in a case sensitive manner and it should make concessions for middle names.
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">myString</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Eleanor Roosevelt&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">myRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/(Eleanor|Franklin).* Roosevelt/</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Change this line
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">myRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">myString</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> 
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">myRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">myString</span><span style="color:#000;font-weight:bold">);</span> 
 </code></pre></div><br>
 <h4 id="7-reuse-patterns-using-capture-groups">7. Reuse Patterns Using Capture Groups</h4>
 <ul>
@@ -2208,11 +2209,11 @@
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">repeatStr</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;regex regex&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">repeatRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/(\w+)\s\1/</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">repeatRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">repeatStr</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns true
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">repeatStr</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">repeatRegex</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Returns [&#34;regex regex&#34;, &#34;regex&#34;]
+<span style="color:#000">repeatRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">repeatStr</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns true
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">repeatStr</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">repeatRegex</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Returns [&#34;regex regex&#34;, &#34;regex&#34;]
 </span></code></pre></div><div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">repeatNum</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;42 42 42&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">reRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/^(\d+)\s\1\s\1$/</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Change this line
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">reRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">repeatNum</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">reRegex</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">test</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">repeatNum</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><br>
 <h4 id="8-use-capture-groups-to-search-and-replace">8. Use Capture Groups to Search and Replace</h4>
 <ul>
@@ -2221,12 +2222,12 @@
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">wrongText</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;The sky is silver.&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">silverRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/silver/</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">wrongText</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">replace</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">silverRegex</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;blue&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000">wrongText</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">replace</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">silverRegex</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;blue&#34;</span><span style="color:#000;font-weight:bold">);</span>
 <span style="color:#8f5902;font-style:italic">// Returns &#34;The sky is blue.&#34;
 </span></code></pre></div><ul>
 <li>Example 2: access capture groups in the replacement string with dollar signs <code>$</code></li>
 </ul>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#4e9a06">&#34;Code Camp&#34;</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">replace</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">/(\w+)\s(\w+)/</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;$2 $1&#39;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#4e9a06">&#34;Code Camp&#34;</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">replace</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">/(\w+)\s(\w+)/</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;$2 $1&#39;</span><span style="color:#000;font-weight:bold">);</span>
 <span style="color:#8f5902;font-style:italic">// Returns &#34;Camp Code&#34;
 </span></code></pre></div><ul>
 <li>Write a regex fixRegex using three capture groups that will search for each word in the string &ldquo;one two three&rdquo;. Then update the replaceText variable to replace &ldquo;one two three&rdquo; with the string &ldquo;three two one&rdquo; and assign the result to the result variable. Make sure you are utilizing capture groups in the replacement string using the dollar sign ($) syntax</li>
@@ -2234,7 +2235,7 @@
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">str</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;one two three&#34;</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">fixRegex</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">/(\w+)\s(\w+)\s(\w+)/</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// 
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">replaceText</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;$3 $2 $1&#34;</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// 
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">str</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">replace</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">fixRegex</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">replaceText</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">str</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">replace</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">fixRegex</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">replaceText</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><br>
 <h4 id="9-remove-whitespace-from-start-and-end">9. Remove Whitespace from Start and End</h4>
 <ul>

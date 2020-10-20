@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.63.2" />
+<meta name="generator" content="Hugo 0.76.5" />
 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
@@ -32,13 +32,14 @@
 <meta itemprop="description" content="Course Link
  1. Use getters and setters to Control Access to an Object 🔖   Getter functions are meant to simply return (get) the value of an object&rsquo;s private variable to the user without the user directly accessing the private variable.
   Setter functions are meant to modify (set) the value of an object&rsquo;s private variable based on the value passed into the setter function. This change could involve calculations, or even overwriting the previous value completely.">
-<meta itemprop="datePublished" content="2020-06-16T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-06-16T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2020-06-16T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-06-16T00:00:00+00:00" />
 <meta itemprop="wordCount" content="1220">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Part 3"/>
 <meta name="twitter:description" content="Course Link
  1. Use getters and setters to Control Access to an Object 🔖   Getter functions are meant to simply return (get) the value of an object&rsquo;s private variable to the user without the user directly accessing the private variable.
@@ -70,8 +71,8 @@
 
 
 
-<link rel="preload" href="/scss/main.min.6ca91c1f1fce086842eb1bd80b503b1a623183950b73374882023fde9fdab4ac.css" as="style">
-<link href="/scss/main.min.6ca91c1f1fce086842eb1bd80b503b1a623183950b73374882023fde9fdab4ac.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" as="style">
+<link href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -134,7 +135,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c15cb5bef60776e3cf82d0cbb73778fa3bad5ee019287807c22270dd2a09d6b18643caa912c9447d04cf115e7a8e720574f59388e8ea1af7a3266372f196cf15.json"
+  data-offline-search-index-json-src="/offline-search-index.273e9b304cb4609df19f8aabed4038a4364bc3cbe4aa27e2c8ed00666195553fe763a68fe183f3ea9afd0d0f068d5349685bfdfbb5a3575fc94c4ba0862d8326.json"
   data-offline-search-base-href="/"
 >
 
@@ -164,7 +165,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c15cb5bef60776e3cf82d0cbb73778fa3bad5ee019287807c22270dd2a09d6b18643caa912c9447d04cf115e7a8e720574f59388e8ea1af7a3266372f196cf15.json"
+  data-offline-search-index-json-src="/offline-search-index.273e9b304cb4609df19f8aabed4038a4364bc3cbe4aa27e2c8ed00666195553fe763a68fe183f3ea9afd0d0f068d5349685bfdfbb5a3575fc94c4ba0862d8326.json"
   data-offline-search-base-href="/"
 >
 
@@ -2072,8 +2073,8 @@
     <span style="color:#204a87;font-weight:bold">this</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">fahrenheit</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">fahrenheit</span><span style="color:#000;font-weight:bold">;</span>
   <span style="color:#000;font-weight:bold">}</span>
   
-  <span style="color:#000">get</span> <span style="color:#000">temperature</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
-    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">5</span> <span style="color:#ce5c00;font-weight:bold">/</span> <span style="color:#0000cf;font-weight:bold">9</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">this</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">fahrenheit</span> <span style="color:#ce5c00;font-weight:bold">-</span> <span style="color:#0000cf;font-weight:bold">32</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000">get</span> <span style="color:#000">temperature</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">5</span> <span style="color:#ce5c00;font-weight:bold">/</span> <span style="color:#0000cf;font-weight:bold">9</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">this</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">fahrenheit</span> <span style="color:#ce5c00;font-weight:bold">-</span> <span style="color:#0000cf;font-weight:bold">32</span><span style="color:#000;font-weight:bold">);</span>
   <span style="color:#000;font-weight:bold">}</span>
   
   <span style="color:#000">set</span> <span style="color:#000">temperature</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">celsius</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
@@ -2082,7 +2083,7 @@
 <span style="color:#000;font-weight:bold">}</span>
 <span style="color:#8f5902;font-style:italic">// Only change code above this line
 </span><span style="color:#8f5902;font-style:italic"></span>
-<span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">thermos</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#000">Thermostat</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">76</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// Setting in Fahrenheit scale
+<span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">thermos</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#000">Thermostat</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">76</span><span style="color:#000;font-weight:bold">);</span> <span style="color:#8f5902;font-style:italic">// Setting in Fahrenheit scale
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">temp</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">thermos</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">temperature</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// 24.44 in Celsius
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">thermos</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">temperature</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">26</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#000">temp</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">thermos</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">temperature</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#8f5902;font-style:italic">// 26 in Celsius
@@ -2095,12 +2096,12 @@
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#000">html</span><span style="color:#ce5c00;font-weight:bold">&gt;</span>
   <span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#000">body</span><span style="color:#ce5c00;font-weight:bold">&gt;</span>
-    <span style="color:#8f5902;font-style:italic">&lt;!--</span> <span style="color:#000">Only</span> <span style="color:#000">change</span> <span style="color:#000">code</span> <span style="color:#000">below</span> <span style="color:#204a87;font-weight:bold">this</span> <span style="color:#000">line</span> <span style="color:#ce5c00;font-weight:bold">--</span><span style="color:#ce5c00;font-weight:bold">&gt;</span>
-    <span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#000">script</span> <span style="color:#000">type</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;module&#34;</span> <span style="color:#000">src</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;index.js&#34;</span><span style="color:#ce5c00;font-weight:bold">&gt;</span><span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#a40000">/</span><span style="color:#a40000">s</span><span style="color:#a40000">c</span><span style="color:#a40000">r</span><span style="color:#a40000">i</span><span style="color:#a40000">p</span><span style="color:#a40000">t</span><span style="color:#a40000">&gt;</span>
+    <span style="color:#8f5902;font-style:italic">&lt;!--</span> <span style="color:#000">Only</span> <span style="color:#000">change</span> <span style="color:#000">code</span> <span style="color:#000">below</span> <span style="color:#204a87;font-weight:bold">this</span> <span style="color:#000">line</span> <span style="color:#ce5c00;font-weight:bold">--&gt;</span>
+    <span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#000">script</span> <span style="color:#000">type</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;module&#34;</span> <span style="color:#000">src</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;index.js&#34;</span><span style="color:#ce5c00;font-weight:bold">&gt;&lt;</span><span style="color:#a40000">/script&gt;</span>
 
-    <span style="color:#8f5902;font-style:italic">&lt;!--</span> <span style="color:#000">Only</span> <span style="color:#000">change</span> <span style="color:#000">code</span> <span style="color:#000">above</span> <span style="color:#204a87;font-weight:bold">this</span> <span style="color:#000">line</span> <span style="color:#ce5c00;font-weight:bold">--</span><span style="color:#ce5c00;font-weight:bold">&gt;</span>
-  <span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#a40000">/</span><span style="color:#a40000">b</span><span style="color:#a40000">o</span><span style="color:#a40000">d</span><span style="color:#a40000">y</span><span style="color:#a40000">&gt;</span>
-<span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#a40000">/</span><span style="color:#a40000">h</span><span style="color:#a40000">t</span><span style="color:#a40000">m</span><span style="color:#a40000">l</span><span style="color:#a40000">&gt;</span>
+    <span style="color:#8f5902;font-style:italic">&lt;!--</span> <span style="color:#000">Only</span> <span style="color:#000">change</span> <span style="color:#000">code</span> <span style="color:#000">above</span> <span style="color:#204a87;font-weight:bold">this</span> <span style="color:#000">line</span> <span style="color:#ce5c00;font-weight:bold">--&gt;</span>
+  <span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#a40000">/body&gt;</span>
+<span style="color:#ce5c00;font-weight:bold">&lt;</span><span style="color:#a40000">/html&gt;</span>
 </code></pre></div><br>
 <h4 id="3-use-export-to-share-a-code-block">3. Use export to Share a Code Block</h4>
 <ul>
@@ -2110,7 +2111,7 @@
  <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">y</span><span style="color:#000;font-weight:bold">;</span>
 <span style="color:#000;font-weight:bold">}</span>
 
-<span style="color:#204a87;font-weight:bold">export</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#000">add</span> <span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">export</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#000">add</span> <span style="color:#000;font-weight:bold">};</span>
 </code></pre></div><h4 id="4-reuse-javascript-code-using-import">4. Reuse JavaScript Code Using import</h4>
 <ul>
 <li><code>import</code> allows you to choose which parts of a file or module to load.</li>
@@ -2125,8 +2126,8 @@
 <li>The object will contain all of the exports from math_functions.js in it, so you can access the functions like you would any other object property.</li>
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">as</span> <span style="color:#000">myMathModule</span> <span style="color:#000">from</span> <span style="color:#4e9a06">&#34;./math_functions.js&#34;</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">myMathModule</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">add</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000">myMathModule</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">subtract</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000">myMathModule</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">add</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">);</span>
+<span style="color:#000">myMathModule</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">subtract</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">);</span>
 </code></pre></div><br>
 <h4 id="6-create-an-export-fallback-with-export-default">6. Create an Export Fallback with export default</h4>
 <ul>
@@ -2159,10 +2160,10 @@
 <li>Promise is a constructor function, so you need to use the new keyword to create one.</li>
 <li>It takes a function, as its argument, with two parameters - <code>resolve</code> and <code>reject</code>, which are methods used to determine the outcome of the promise. The syntax looks like this:</li>
 </ul>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">myPromise</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
-<span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">myPromise</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">((</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
+<span style="color:#000;font-weight:bold">});</span>
 
-<span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">makeServerRequest</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span><span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">makeServerRequest</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">((</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{})</span>
 </code></pre></div><br>
 <h4 id="9-complete-a-promise-with-resolve-and-reject">9. Complete a Promise with resolve and reject</h4>
 <ul>
@@ -2172,17 +2173,17 @@
 <li><code>resolve</code> is used when you want your promise to succeed</li>
 <li><code>reject</code> is used when you want it to fail.</li>
 </ul>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">myPromise</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">myPromise</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">((</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
   <span style="color:#204a87;font-weight:bold">if</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">condition</span> <span style="color:#000">here</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
-    <span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Promise was fulfilled&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Promise was fulfilled&#34;</span><span style="color:#000;font-weight:bold">);</span>
   <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
-    <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Promise was rejected&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Promise was rejected&#34;</span><span style="color:#000;font-weight:bold">);</span>
   <span style="color:#000;font-weight:bold">}</span>
-<span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">});</span>
 </code></pre></div><ul>
 <li>The example above uses strings for the argument of these functions, but it can really be anything. Often, it might be an object, that you would use data from, to put on your website or elsewhere.</li>
 </ul>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">makeServerRequest</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">makeServerRequest</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">((</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
   <span style="color:#8f5902;font-style:italic">// responseFromServer represents a response from a server
 </span><span style="color:#8f5902;font-style:italic"></span>  <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">responseFromServer</span><span style="color:#000;font-weight:bold">;</span>
     
@@ -2191,7 +2192,7 @@
   <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>  
     <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Data not received&#34;</span><span style="color:#000;font-weight:bold">)</span>
   <span style="color:#000;font-weight:bold">}</span>
-<span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">});</span>
 </code></pre></div><br>
 <h4 id="10-handle-a-fulfilled-promise-with-then">10. Handle a Fulfilled Promise with then</h4>
 <ul>
@@ -2202,22 +2203,22 @@
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#8f5902;font-style:italic">// result comes from the argument given to the resolve method.
 </span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">myPromise</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">then</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">result</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
   <span style="color:#8f5902;font-style:italic">// do something with the result.
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000;font-weight:bold">});</span>
 </code></pre></div><ul>
 <li>Example</li>
 </ul>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">makeServerRequest</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">makeServerRequest</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">((</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
   <span style="color:#8f5902;font-style:italic">// responseFromServer is set to true to represent a successful response from a server
 </span><span style="color:#8f5902;font-style:italic"></span>  <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">responseFromServer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">true</span><span style="color:#000;font-weight:bold">;</span>
   <span style="color:#204a87;font-weight:bold">if</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">responseFromServer</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
-    <span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;We got the data&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
-    <span style="color:#000">makeServerRequest</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">then</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">result</span> <span style="color:#000;font-weight:bold">=&gt;</span><span style="color:#000;font-weight:bold">{</span>
+    <span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;We got the data&#34;</span><span style="color:#000;font-weight:bold">);</span>
+    <span style="color:#000">makeServerRequest</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">then</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">result</span> <span style="color:#000;font-weight:bold">=&gt;{</span>
       <span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">result</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#000;font-weight:bold">})</span>
   <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>  
-    <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Data not received&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Data not received&#34;</span><span style="color:#000;font-weight:bold">);</span>
   <span style="color:#000;font-weight:bold">}</span>
-<span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">});</span>
 </code></pre></div><br>
 <h4 id="11-handle-a-rejected-promise-with-catch">11. Handle a Rejected Promise with catch</h4>
 <ul>
@@ -2226,27 +2227,27 @@
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#000">myPromise</span><span style="color:#000;font-weight:bold">.</span><span style="color:#204a87;font-weight:bold">catch</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">error</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
   <span style="color:#8f5902;font-style:italic">// do something with the error.
-</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000;font-weight:bold">});</span>
 </code></pre></div><ul>
 <li>Example</li>
 </ul>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">makeServerRequest</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">makeServerRequest</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">new</span> <span style="color:#204a87">Promise</span><span style="color:#000;font-weight:bold">((</span><span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
   <span style="color:#8f5902;font-style:italic">// responseFromServer is set to false to represent an unsuccessful response from a server
 </span><span style="color:#8f5902;font-style:italic"></span>  <span style="color:#204a87;font-weight:bold">let</span> <span style="color:#000">responseFromServer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">false</span><span style="color:#000;font-weight:bold">;</span>
     
   <span style="color:#204a87;font-weight:bold">if</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">responseFromServer</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
-    <span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;We got the data&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#000">resolve</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;We got the data&#34;</span><span style="color:#000;font-weight:bold">);</span>
   <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>  
-    <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Data not received&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+    <span style="color:#000">reject</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Data not received&#34;</span><span style="color:#000;font-weight:bold">);</span>
     <span style="color:#000">makeServerRequest</span><span style="color:#000;font-weight:bold">.</span><span style="color:#204a87;font-weight:bold">catch</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">error</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
-      <span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">error</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
-    <span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span>
+      <span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">error</span><span style="color:#000;font-weight:bold">);</span>
+    <span style="color:#000;font-weight:bold">})</span>
   <span style="color:#000;font-weight:bold">}</span>
-<span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">});</span>
 
 <span style="color:#000">makeServerRequest</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">then</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">result</span> <span style="color:#000;font-weight:bold">=&gt;</span> <span style="color:#000;font-weight:bold">{</span>
-  <span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">result</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000;font-weight:bold">}</span><span style="color:#000;font-weight:bold">)</span><span style="color:#000;font-weight:bold">;</span>
+  <span style="color:#000">console</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">log</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">result</span><span style="color:#000;font-weight:bold">);</span>
+<span style="color:#000;font-weight:bold">});</span>
 </code></pre></div><br>
 <p>The quote today on <a href="https://www.freecodecamp.org">freeCodeCamp</a> is from Bruce Lee.</p>
  <br>  
