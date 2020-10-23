@@ -173,6 +173,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/frameworks/tensorflow/callbacks/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/frameworks/tensorflow/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
   </url>
