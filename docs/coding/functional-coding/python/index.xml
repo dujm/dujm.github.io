@@ -342,6 +342,7 @@ This module provides an interface to the optional garbage collector. It provides
 &lt;li&gt;&lt;a href=&#34;https://ai.googleblog.com/2019/03/introducing-gpipe-open-source-library.html&#34;&gt;GPipe&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/dnouri/nolearn&#34;&gt;nolearn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.snorkel.org/&#34;&gt;Snorkel: Data gerneration and augmentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/koaning/human-learn/&#34;&gt;human learn&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
   &lt;br&gt;   
 &lt;h4 id=&#34;data-versioning&#34;&gt;Data versioning&lt;/h4&gt;
@@ -375,7 +376,15 @@ This module provides an interface to the optional garbage collector. It provides
 &lt;br&gt;   
 &lt;h4 id=&#34;how-to-manage-application-dependencies&#34;&gt;How to manage application dependencies?&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Generate requirements.txt from a project or a file using &lt;a href=&#34;https://github.com/damnever/pigar&#34;&gt;pigar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://python-poetry.org/docs/basic-usage/&#34;&gt;Poetry: Dependency Management for Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# install&lt;/span&gt;
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; python
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# configure your current shell &lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;/.poetry/env
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/damnever/pigar&#34;&gt;Pigar: Generate requirements.txt from a project or a file&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To install it with pip&lt;/span&gt;
   $ &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;sudo&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt; pip install pigar
