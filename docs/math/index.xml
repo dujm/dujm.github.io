@@ -925,28 +925,16 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/mavam/stat-cookbook&#34;&gt;stat-cookbook&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uzkc-qNVoOk&amp;amp;list=PLC58778F28211FA19&#34;&gt;Probability by Khan Academy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&#34;&gt;Harvard Statistics 110: Probability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dj-basis/Seeing-Theory&#34;&gt;A visual introduction to probability and statistics&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://seeing-theory.brown.edu/doc/seeing-theory.pdf&#34;&gt;pdf version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uzkc-qNVoOk&amp;amp;list=PLC58778F28211FA19&#34;&gt;Probability by Khan Academy&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/dj-basis/Seeing-Theory&#34;&gt;A visual introduction to probability and statistics&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://seeing-theory.brown.edu/doc/seeing-theory.pdf&#34;&gt;pdf version&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/unpingco/Python-for-Probability-Statistics-and-Machine-Learning&#34;&gt;Python for probability statistics and machine-learning&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/tensorflow/probability&#34;&gt;Probabilistic reasoning and statistical analysis in TensorFlow&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://mlwhiz.com/blog/2017/09/14/discrete_distributions/&#34;&gt;The story of every distribution - Discrete Distributions&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/specializations/statistics?siteID=lVarvwc5BD0-1nQtJg8.ENATqSUIufAaaw&amp;amp;utm_content=2&amp;amp;utm_medium=partners&amp;amp;utm_source=linkshare&amp;amp;utm_campaign=lVarvwc5BD0&amp;amp;ranMID=40328&amp;amp;ranEAID=je6NUbpObpQ&amp;amp;ranSiteID=je6NUbpObpQ-xCM1Xw3kG_HPBPyYFr1lKw&amp;amp;siteID=je6NUbpObpQ-xCM1Xw3kG_HPBPyYFr1lKw&amp;amp;utm_content=10&amp;amp;utm_medium=partners&amp;amp;utm_source=linkshare&amp;amp;utm_campaign=je6NUbpObpQ&#34;&gt;Statistics with R Specialization&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/unpingco/Python-for-Probability-Statistics-and-Machine-Learning&#34;&gt;Python for probability statistics and machine-learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tensorflow/probability&#34;&gt;Probabilistic reasoning and statistical analysis in TensorFlow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mlwhiz.com/blog/2017/09/14/discrete_distributions/&#34;&gt;The story of every distribution - Discrete Distributions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -961,9 +949,20 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
       <description>
         
         
-        &lt;h4 id=&#34;read-more&#34;&gt;Read More&lt;/h4&gt;
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Statistics – the logic of uncertainty&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h4 id=&#34;read-more&#34;&gt;Read More&lt;/h4&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/&#34;&gt;Statistics for Applications &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw&#34;&gt;StatQuest with Josh Starmer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/statistics?siteID=lVarvwc5BD0-1nQtJg8.ENATqSUIufAaaw&amp;amp;utm_content=2&amp;amp;utm_medium=partners&amp;amp;utm_source=linkshare&amp;amp;utm_campaign=lVarvwc5BD0&amp;amp;ranMID=40328&amp;amp;ranEAID=je6NUbpObpQ&amp;amp;ranSiteID=je6NUbpObpQ-xCM1Xw3kG_HPBPyYFr1lKw&amp;amp;siteID=je6NUbpObpQ-xCM1Xw3kG_HPBPyYFr1lKw&amp;amp;utm_content=10&amp;amp;utm_medium=partners&amp;amp;utm_source=linkshare&amp;amp;utm_campaign=je6NUbpObpQ&#34;&gt;Statistics with R Specialization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mavam/stat-cookbook&#34;&gt;stat-cookbook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/engineering/cs/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/data/structure/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/math/probability/s110_l01_probability_and_counting/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/frameworks/tensorflow/optimizer/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
   </url>
@@ -158,11 +173,6 @@
   </url>
   
   <url>
-    <loc>/docs/data/dataset/</loc>
-    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/coding/functional-coding/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
@@ -170,6 +180,16 @@
   <url>
     <loc>/docs/web/my-app/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/data/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/engineering/software-engineering/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -343,7 +363,7 @@
   </url>
   
   <url>
-    <loc>/docs/data/</loc>
+    <loc>/docs/data/dataset/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -498,7 +518,7 @@
   </url>
   
   <url>
-    <loc>/docs/engineering/big-o/</loc>
+    <loc>/docs/engineering/software-engineering/big-o/</loc>
     <lastmod>2020-03-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -563,8 +583,8 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/multi-label/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
+    <loc>/docs/machinelearning/models/multi-class/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -630,6 +650,11 @@
   <url>
     <loc>/docs/swiss-knives/jupyter-notebook/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/models/multi-label/</loc>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -793,7 +818,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>

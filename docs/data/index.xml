@@ -4,7 +4,7 @@
     <link>/docs/data/</link>
     <description>Recent content in Data on DJ&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="/docs/data/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,15 +15,22 @@
     
     
     <item>
-      <title>Docs: Data Set</title>
-      <link>/docs/data/dataset/</link>
-      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Data Structure</title>
+      <link>/docs/data/structure/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/dataset/</guid>
+      <guid>/docs/data/structure/</guid>
       <description>
         
         
-        
+        &lt;br&gt;
+&lt;h4 id=&#34;data-structure&#34;&gt;Data Structure&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513&#34;&gt;Intro to Data Structures and Algorithms, Udacity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/a-data-scientists-guide-to-data-structures-algorithms-1176395015a0&#34;&gt;A Data Scientist’s Guide to Data Structures &amp;amp; Algorithms, Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/&#34;&gt;Advanced Data Structures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
@@ -33,6 +40,19 @@
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/data/visual-art/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Data Set</title>
+      <link>/docs/data/dataset/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/dataset/</guid>
       <description>
         
         
