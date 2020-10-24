@@ -30,7 +30,7 @@
 <meta itemprop="description" content="Probability and Life  Genetics Finance History  Mosteller &amp; Wallace Apply Computing in Disputed Authorship Investigation of The Federalist Papers   Games  Fermat and Pascal Letters  The problem of points, also called the problem of division of the stakes, is a classical problem in probability theory. One of the famous problems that motivated the beginnings of modern probability theory in the 17th century, it led Blaise Pascal to the first explicit reasoning about what today is known as an expected value.">
 <meta itemprop="datePublished" content="2020-10-24T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-10-24T00:00:00+00:00" />
-<meta itemprop="wordCount" content="192">
+<meta itemprop="wordCount" content="300">
 
 
 
@@ -129,7 +129,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.a44e461a1c4eda47a3ab1a60db93e8222edf674a58f661d0150d63d55c2b2821dcdb8456fb8e309f7ad2674ebc5a5d7da04973feaeaf3dfda8926ac744a4faf4.json"
+  data-offline-search-index-json-src="/offline-search-index.a7540fc3cc837c5d1bae3731746c54e1ad7f830d96a44260ecd988c6882adada1eb2942d9b8b58bb5e348e360f2fc3f6b30f7fb424f7b1123f36faf89b11be45.json"
   data-offline-search-base-href="/"
 >
 
@@ -159,7 +159,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.a44e461a1c4eda47a3ab1a60db93e8222edf674a58f661d0150d63d55c2b2821dcdb8456fb8e309f7ad2674ebc5a5d7da04973feaeaf3dfda8926ac744a4faf4.json"
+  data-offline-search-index-json-src="/offline-search-index.a7540fc3cc837c5d1bae3731746c54e1ad7f830d96a44260ecd988c6882adada1eb2942d9b8b58bb5e348e360f2fc3f6b30f7fb424f7b1123f36faf89b11be45.json"
   data-offline-search-base-href="/"
 >
 
@@ -2166,9 +2166,32 @@
 </ul>
 <h4 id="what-are-some-basic-principles-of-counting">What are some basic principles of counting?</h4>
 <ul>
-<li>Multiplication rules</li>
-<li>Binomial coefficient</li>
-<li>Sampling table
+<li>
+<p>Multiplication rules:</p>
+<ul>
+<li>Independent events assuming
+<ul>
+<li>$P_{(A and B)}=P_{(A)}⋅P_{(B)}$</li>
+</ul>
+</li>
+<li>The general rule
+<ul>
+<li>$P_{(A and B)}=P_{(A)}⋅P_{(B|A)}$</li>
+<li>If the events are independent, one happening doesn&rsquo;t impact the probability of the other, and in that case $P_{(B|A)}=P_{(B)}$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Binomial coefficient	$\binom{n}{k} = \frac{n!}{k!(n-k)!}$ = $\frac{n(n-1)(n-2)(n-k+1)}{k!}$</p>
+<ul>
+<li>Example, what is the probability of having a full house card? (A full house has three cards of one kind and two of another)</li>
+<li>First you choose a type of card (13 choices), then you choose three out of four of those cards, then you choose a second type of card, and finally you choose two of those four cards.</li>
+<li>$P = \frac{\binom{13}{1} \cdot \binom{4}{3} \cdot \binom{12}{1 }\binom{4}{2}}  {\binom{52}{5}} \approx 0.00144 $</li>
+</ul>
+</li>
+<li>
+<p>Sampling table</p>
 <ul>
 <li>With replacement</li>
 <li>Without replacement</li>

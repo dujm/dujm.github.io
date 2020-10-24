@@ -68,9 +68,32 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;what-are-some-basic-principles-of-counting&#34;&gt;What are some basic principles of counting?&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Multiplication rules&lt;/li&gt;
-&lt;li&gt;Binomial coefficient&lt;/li&gt;
-&lt;li&gt;Sampling table
+&lt;li&gt;
+&lt;p&gt;Multiplication rules:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Independent events assuming
+&lt;ul&gt;
+&lt;li&gt;$P_{(A and B)}=P_{(A)}⋅P_{(B)}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The general rule
+&lt;ul&gt;
+&lt;li&gt;$P_{(A and B)}=P_{(A)}⋅P_{(B|A)}$&lt;/li&gt;
+&lt;li&gt;If the events are independent, one happening doesn&amp;rsquo;t impact the probability of the other, and in that case $P_{(B|A)}=P_{(B)}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Binomial coefficient	$\binom{n}{k} = \frac{n!}{k!(n-k)!}$ = $\frac{n(n-1)(n-2)(n-k+1)}{k!}$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Example, what is the probability of having a full house card? (A full house has three cards of one kind and two of another)&lt;/li&gt;
+&lt;li&gt;First you choose a type of card (13 choices), then you choose three out of four of those cards, then you choose a second type of card, and finally you choose two of those four cards.&lt;/li&gt;
+&lt;li&gt;$P = \frac{\binom{13}{1} \cdot \binom{4}{3} \cdot \binom{12}{1 }\binom{4}{2}}  {\binom{52}{5}} \approx 0.00144 $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sampling table&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;With replacement&lt;/li&gt;
 &lt;li&gt;Without replacement&lt;/li&gt;
