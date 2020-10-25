@@ -977,13 +977,7 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
       <description>
         
         
-        
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;How to write and write and display mathematical formulas on your website?&lt;/p&gt;
-
-&lt;/div&gt;
-
+        &lt;br&gt;
 &lt;h4 id=&#34;1-how-to-write-and-display-mathematical-formulas-code-editors&#34;&gt;1. How to write and display mathematical formulas code editors?&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1010,7 +1004,7 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
 &lt;h5 id=&#34;21-add-the-following-code-to&#34;&gt;2.1) Add the following code to&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;If you use Jekyll =&amp;gt; Open &lt;code&gt;_includes/mathjax.html  &lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;If you use Hugo)=&amp;gt; Open &lt;code&gt;themes/layouts/partials/mathjax.html &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If you use Hugo =&amp;gt; Open &lt;code&gt;themes/layouts/partials/mathjax.html &lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;script type=&amp;quot;text/x-mathjax-config&amp;quot;&amp;gt;
   MathJax.Hub.Config({
@@ -1370,6 +1364,11 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;$\notin$&lt;/td&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;\notin&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;$\varnothing$&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;\varnothing&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;

@@ -2281,5 +2281,23 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
       </description>
     </item>
     
+    <item>
+      <title>Docs: White Board</title>
+      <link>/docs/swiss-knives/white-board/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/swiss-knives/white-board/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;white-board-platform&#34;&gt;White Board Platform&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://miro.com/&#34;&gt;miro&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

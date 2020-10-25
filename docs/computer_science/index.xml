@@ -1,0 +1,102 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Computer Science</title>
+    <link>/docs/computer_science/</link>
+    <description>Recent content in Computer Science on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/computer_science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Courses</title>
+      <link>/docs/computer_science/cs/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/cs/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;cs-courses&#34;&gt;CS Courses&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/computer-science-101&#34;&gt;Computer Science 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Six weeks
+The nature of computers and code, what they can and cannot do&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How computer hardware works: chips, cpu, memory, disk&lt;/li&gt;
+&lt;li&gt;Necessary jargon: bits, bytes, megabytes, gigabytes&lt;/li&gt;
+&lt;li&gt;How software works: what is a program, what is &amp;ldquo;running&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;How digital images work&lt;/li&gt;
+&lt;li&gt;Computer code: loops and logic&lt;/li&gt;
+&lt;li&gt;Big ideas: abstraction, logic, bugs&lt;/li&gt;
+&lt;li&gt;How structured data works&lt;/li&gt;
+&lt;li&gt;How the internet works: ip address, routing, ethernet, wi-fi&lt;/li&gt;
+&lt;li&gt;Computer security: viruses, trojans, and passwords, oh my!
+Analog vs. digital&lt;/li&gt;
+&lt;li&gt;Digital media, images, sounds, video, compression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/cs50s-introduction-to-computer-science&#34;&gt;CS50&amp;rsquo;s Introduction to Computer Science&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;11 weeks&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A broad and robust understanding of computer science and programming&lt;/li&gt;
+&lt;li&gt;How to think algorithmically and solve programming problems efficiently&lt;/li&gt;
+&lt;li&gt;Concepts like abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development&lt;/li&gt;
+&lt;li&gt;Familiarity in a number of languages, including C, Python, SQL, and JavaScript plus CSS and HTML&lt;/li&gt;
+&lt;li&gt;How to engage with a vibrant community of like-minded learners from all levels of experience&lt;/li&gt;
+&lt;li&gt;How to develop and present a final programming project to your peers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://teachyourselfcs.com/&#34;&gt;Teach Yourself Computer Science&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/how-to-hack-your-own-cs-degree-for-free/&#34;&gt;How to Hack Together Your Own CS Degree Online&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Software Engineering</title>
+      <link>/docs/computer_science/software-engineering/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/software-engineering/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: IoT</title>
+      <link>/docs/computer_science/iot/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/iot/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

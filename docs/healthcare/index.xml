@@ -15,11 +15,11 @@
     
     
     <item>
-      <title>Docs: Papers</title>
-      <link>/docs/healthcare/papers/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Bioinformatics</title>
+      <link>/docs/healthcare/bioinfo/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/healthcare/papers/</guid>
+      <guid>/docs/healthcare/bioinfo/</guid>
       <description>
         
         
@@ -51,11 +51,11 @@
     </item>
     
     <item>
-      <title>Docs: Bioinformatics</title>
-      <link>/docs/healthcare/bioinfo/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Papers</title>
+      <link>/docs/healthcare/papers/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/healthcare/bioinfo/</guid>
+      <guid>/docs/healthcare/papers/</guid>
       <description>
         
         

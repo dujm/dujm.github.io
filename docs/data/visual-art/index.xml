@@ -33,63 +33,6 @@
     </item>
     
     <item>
-      <title>Docs: Matploitlib</title>
-      <link>/docs/data/visual-art/matplotlib/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/data/visual-art/matplotlib/</guid>
-      <description>
-        
-        
-        &lt;br&gt; 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/cyberpunk-style-with-matplotlib-f47404c9d4c5&#34;&gt;Cyberpunk Style with Matplotlib&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: 3-D Visualization</title>
-      <link>/docs/data/visual-art/3d/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/data/visual-art/3d/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h4 id=&#34;gr-framework&#34;&gt;GR framework&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gr-framework.org/python.html&#34;&gt;gr&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GR3 is a software library for simple visualization of 3D scenes. It was developed by Florian Rhiem as part of his bachelor’s thesis. GR3 is written in C and can also be used from Python or Julia through a wrapper module.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nilearn.github.io/auto_examples/index.html&#34;&gt;nilearn&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data.&lt;/p&gt;
-&lt;p&gt;It leverages the scikit-learn Python toolbox for multivariate statistics with applications such as predictive modelling, classification, decoding, or connectivity analysis.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;3-d-scientific-visualization-in-the-jupyter-notebook&#34;&gt;3-D Scientific Visualization in the Jupyter Notebook&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/QuantStack/ipygany&#34;&gt;ipygany&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;interactive-graph-visualization-with-cytoscapejs-in-jupyterlab-and-the-jupyter-notebook&#34;&gt;Interactive graph visualization with cytoscape.js in JupyterLab and the Jupyter notebook&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/QuantStack/ipycytoscape&#34;&gt;ipycytoscape&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install ipycytoscape
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# enable&lt;/span&gt;
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytoscape
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: Image Processing</title>
       <link>/docs/data/visual-art/image-processing/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
@@ -107,11 +50,28 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytosca
     </item>
     
     <item>
-      <title>Docs: R Package - factoextra</title>
-      <link>/docs/data/visual-art/r-factoextra/</link>
+      <title>Docs: Matploitlib</title>
+      <link>/docs/data/visual-art/matplotlib/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/matplotlib/</guid>
+      <description>
+        
+        
+        &lt;br&gt; 
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/cyberpunk-style-with-matplotlib-f47404c9d4c5&#34;&gt;Cyberpunk Style with Matplotlib&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Multivariate</title>
+      <link>/docs/data/visual-art/multivariate/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/visual-art/r-factoextra/</guid>
+      <guid>/docs/data/visual-art/multivariate/</guid>
       <description>
         
         
@@ -157,6 +117,69 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytosca
 &lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
 &lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/kassambara/factoextra&#34;&gt;factoextra&lt;/a&gt;  has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
 &lt;br&gt; 
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Visualization 3D</title>
+      <link>/docs/data/visual-art/3d/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/3d/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;gr-framework&#34;&gt;GR framework&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gr-framework.org/python.html&#34;&gt;gr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GR3 is a software library for simple visualization of 3D scenes. It was developed by Florian Rhiem as part of his bachelor’s thesis. GR3 is written in C and can also be used from Python or Julia through a wrapper module.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nilearn.github.io/auto_examples/index.html&#34;&gt;nilearn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data.&lt;/p&gt;
+&lt;p&gt;It leverages the scikit-learn Python toolbox for multivariate statistics with applications such as predictive modelling, classification, decoding, or connectivity analysis.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;3-d-scientific-visualization-in-the-jupyter-notebook&#34;&gt;3-D Scientific Visualization in the Jupyter Notebook&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/QuantStack/ipygany&#34;&gt;ipygany&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;interactive-graph-visualization-with-cytoscapejs-in-jupyterlab-and-the-jupyter-notebook&#34;&gt;Interactive graph visualization with cytoscape.js in JupyterLab and the Jupyter notebook&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/QuantStack/ipycytoscape&#34;&gt;ipycytoscape&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install ipycytoscape
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# enable&lt;/span&gt;
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytoscape
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Visualization Timeline</title>
+      <link>/docs/data/visual-art/time-series/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/time-series/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;r-timevis-create-interactive-timeline-visualization-in-r&#34;&gt;R timevis: create interactive timeline visualization in R&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/daattali/timevis&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;timevis&lt;/code&gt; lets you create rich and fully interactive timeline visualizations in R. Timelines can be included in Shiny apps and R markdown documents, or viewed from the R console and RStudio Viewer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;timevis&lt;/code&gt;includes an extensive API to manipulate a timeline after creation, and supports getting data out of the visualization into R. This package is based on the &lt;code&gt;visjs Timeline&lt;/code&gt; JavaScript library.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt; 
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/daattali/timevis/master/inst/img/worldcup.png&#34; alt=&#34;worldcup&#34;&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/daattali/timevis/master/inst/img/worldcup.png&#34;&gt;worldcup&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>

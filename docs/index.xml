@@ -65,6 +65,31 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;The non-naive definition $P_{(A)}$
+&lt;ul&gt;
+&lt;li&gt;A function which takes an input, event $A$, a subset of sample space $S$,&lt;/li&gt;
+&lt;li&gt;returns $P_{(A)} \in [0,1]$ as an output,&lt;/li&gt;
+&lt;li&gt;such that
+&lt;ul&gt;
+&lt;li&gt;the probability of the empty set $P_{\varnothing} = 0$
+&lt;ul&gt;
+&lt;li&gt;Impossible events&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;the probability of the full set $P_{S} = 1$
+&lt;ul&gt;
+&lt;li&gt;Certainty&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;the probability of a countable infinite union equals to the sum of the probabilities of $A_1$,$A_2$,&amp;hellip;, $A_n$ if they are disjoined (non-overlapping)
+&lt;ul&gt;
+&lt;li&gt;$P_{(\bigcup_{i=1}^{\infty} A_{n})} = \sum_{n=1}^{\infty}P_{A_n}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;what-are-some-basic-principles-of-counting&#34;&gt;What are some basic principles of counting?&lt;/h4&gt;
 &lt;ul&gt;
@@ -92,16 +117,86 @@
 &lt;li&gt;$P = \frac{\binom{13}{1} \cdot \binom{4}{3} \cdot \binom{12}{1 }\binom{4}{2}}  {\binom{52}{5}} \approx 0.00144 $&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Sampling table&lt;/p&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;how-to-choose-k-objects-out-of-nå&#34;&gt;How to choose $k$ objects out of $n$?å&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;With replacement&lt;/li&gt;
-&lt;li&gt;Without replacement&lt;/li&gt;
-&lt;li&gt;Order matters&lt;/li&gt;
-&lt;li&gt;Order does not matter&lt;/li&gt;
+&lt;li&gt;Sampling table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Order matters&lt;/th&gt;
+&lt;th&gt;Order doesn&amp;rsquo;t matter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Without replacement&lt;/td&gt;
+&lt;td&gt;S1: $n(n-1)&amp;hellip;(n-k+1)$&lt;/td&gt;
+&lt;td&gt;S3: $\binom{n}{k}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;With replacement&lt;/td&gt;
+&lt;td&gt;S2: $n^k$&lt;/td&gt;
+&lt;td&gt;S4:$\binom{n+k-1}{k}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;S1: The number of choices reduces every time&lt;/li&gt;
+&lt;li&gt;S2: $n$ choices each time&lt;/li&gt;
+&lt;li&gt;S3: $n$ choose $k$: think about how you choose the ice cream flavor and cones&lt;/li&gt;
+&lt;li&gt;S4:
+&lt;ul&gt;
+&lt;li&gt;Simple trivial cases
+&lt;ul&gt;
+&lt;li&gt;$k = 0$:
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{n-1}{0} = 1$&lt;/li&gt;
+&lt;li&gt;not choosing is also a choice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$k = 1$:
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{n}{1} = n$&lt;/li&gt;
+&lt;li&gt;you only choose once, there&amp;rsquo;s no difference whether there&amp;rsquo;s order or replacement&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Simple non-trivial cases:
+&lt;ul&gt;
+&lt;li&gt;$n = 2$:
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{k+1}{k} = \binom{k+1}{1} = k + 1$&lt;/li&gt;
+&lt;li&gt;put $k$ particles in two boxes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;General cases
+&lt;ul&gt;
+&lt;li&gt;how many ways are there to put $k$ indistinguishable particles in $n$ distinguishable boxes?&lt;/li&gt;
+&lt;li&gt;convert the question to a &amp;ldquo;dot and separator&amp;rdquo; code&lt;/li&gt;
+&lt;li&gt;$\binom{n+k-1}{k}$: $n+k-1$ positions, choose $k$ positions to put the dots&lt;/li&gt;
+&lt;li&gt;the same as $\binom{n+k-1}{n-1}$: $n+k-1$ positions, choose $n-1$ positions to put the seperators&lt;/li&gt;
+&lt;li&gt;e.g.
+&lt;ul&gt;
+&lt;li&gt;$n= 4$, $k=6$&lt;/li&gt;
+&lt;li&gt;$\cdot\cdot|\cdot|\cdot|\cdot\cdot$&lt;/li&gt;
+&lt;li&gt;6 dots and 3 separators = 9 positions&lt;/li&gt;
+&lt;li&gt;choose 6 positions to put the dots&lt;/li&gt;
+&lt;li&gt;the same as choose 3 positions to put the seperators&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-1.1.0&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=496&amp;amp;fit=clip&#34; alt=&#34;icecream&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-1.1.0&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=496&amp;amp;fit=clip&#34;&gt;Image Source&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
 &lt;ul&gt;
@@ -109,6 +204,22 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vTs2IQ8OefQ&#34;&gt;Financial Theory (ECON 251)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.amazon.de/Introduction-Quantitative-Finance-Stephen-Blyth/dp/0199666598&#34;&gt;An Introduction to Quantitative Finance by Stephen Blyth&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;terms&#34;&gt;Terms&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate&#34;&gt;Bose-Einstein condensate (BEC)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In condensed matter physics, a Bose–Einstein condensate (BEC) is a state of matter (also called the fifth state of matter) which is typically formed when a &lt;strong&gt;gas of bosons&lt;/strong&gt; at low densities is cooled to temperatures very close to absolute zero (-273.15 °C, -459.67 °F). Under such conditions, a large fraction of bosons occupy the lowest quantum state, at which point microscopic quantum mechanical phenomena, particularly wavefunction interference, become apparent &lt;strong&gt;macroscopically&lt;/strong&gt;.
+A BEC is formed by cooling a gas of extremely low density (about one-hundred-thousandth (1/100,000) the density of normal air) to ultra-low temperatures.
+This state was first predicted, generally, in 1924–1925 by Albert Einstein following and crediting a pioneering paper by Satyendra Nath Bose on the new field now known as &lt;strong&gt;quantum statistics&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Particle_statistics#Quantum_statistics&#34;&gt;Quantum statistics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In quantum statistics, Bose–Einstein (B–E) statistics describe one of two possible ways in which a collection of &lt;strong&gt;non-interacting, indistinguishable&lt;/strong&gt; particles may occupy a set of available discrete energy states at thermodynamic equilibrium.&lt;/p&gt;
+&lt;/blockquote&gt;
 
       </description>
     </item>
@@ -2977,6 +3088,85 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     </item>
     
     <item>
+      <title>Docs: Story Proofs, Axioms of Probability</title>
+      <link>/docs/math/probability/s110_l02_story_proofs_axioms_probability/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/probability/s110_l02_story_proofs_axioms_probability/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;story-proof&#34;&gt;Story Proof&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Proof by interpretation
+&lt;ul&gt;
+&lt;li&gt;Count the same thing in two ways:
+&lt;ul&gt;
+&lt;li&gt;$\binom{n}{k} = \binom{n}{n-k}$&lt;/li&gt;
+&lt;li&gt;$ k\binom{n}{k} = n\binom{n-1}{k-1}$
+&lt;ul&gt;
+&lt;li&gt;Story proof:
+&lt;ul&gt;
+&lt;li&gt;Picking $k$ Cabinet members out of $n$ people, with one selected as the Prime Minister&lt;/li&gt;
+&lt;li&gt;the same as picking one person from $n$ people as the Prime Minister, the rest as $k-1$ the Cabinet members&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Vandermonde&amp;rsquo;s identity $\binom{m+n}{k} = \sum_{j=0}^{k}\binom{m}{j}\binom{n}{k-j}$
+&lt;ul&gt;
+&lt;li&gt;Story proof:
+&lt;ul&gt;
+&lt;li&gt;Picking $k$ people from $m+n$ places
+= the same as picking $j$ people from place $m$, $k-j$ people from place $n$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Alexandre-Th%C3%A9ophile_Vandermonde&#34;&gt;Alexandre-Théophile Vandermonde&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Labeling people is dangerous, but labeling events in a probability problem is important&lt;/li&gt;
+&lt;li&gt;Think about the subtle differences between probabilities of
+&lt;ul&gt;
+&lt;li&gt;choosing one people in a team from four people
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{4}{1}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;choosing three people in a team from four people
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{4}{3}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;choosing one people in a team, three people in another team from a total of four people
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{4}{1} = \binom{4}{3}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;choosing two people in a team, two people in another team from a total of four people
+&lt;ul&gt;
+&lt;li&gt;$P = \frac{\binom{4}{2}}{2}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Callbacks</title>
       <link>/docs/machinelearning/frameworks/tensorflow/callbacks/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
@@ -4873,6 +5063,23 @@ Strict inequality will not convert data types.&lt;/p&gt;
 &lt;h4 id=&#34;gans&#34;&gt;GANs&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/dimitreoliveira/introduction-to-cyclegan-monet-paintings&#34;&gt;introduction-to-cyclegan-monet-paintings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Image Processing</title>
+      <link>/docs/data/visual-art/image-processing/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/image-processing/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/overview.html&#34;&gt;scikit-image&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -7501,73 +7708,6 @@ If value is empty (&amp;#34;&amp;#34;), delete the given prop property from the 
       &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
       &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;No such contact&amp;#34;&lt;/span&gt;      
 &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Plot</title>
-      <link>/docs/coding/functional-coding/python/plot/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/coding/functional-coding/python/plot/</guid>
-      <description>
-        
-        
-        &lt;h4 id=&#34;bar-plot&#34;&gt;Bar Plot&lt;/h4&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;plt&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;plot_count&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;feature&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;size&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
-    &lt;span style=&#34;color:#000&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ax&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;plt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;subplots&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;figsize&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
-    &lt;span style=&#34;color:#000&#34;&gt;total&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;float&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;len&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
-    &lt;span style=&#34;color:#000&#34;&gt;sns&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;countplot&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;feature&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;],&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;order&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;feature&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;value_counts&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;index&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;palette&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Set2&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-    &lt;span style=&#34;color:#000&#34;&gt;plt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ax&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;patches&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
-        &lt;span style=&#34;color:#000&#34;&gt;height&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;p&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
-        &lt;span style=&#34;color:#000&#34;&gt;ax&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;p&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_x&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;p&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_width&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2.&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
-                &lt;span style=&#34;color:#000&#34;&gt;height&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
-                &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;{:1.2f}%&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;format&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;total&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt;
-                &lt;span style=&#34;color:#000&#34;&gt;ha&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;center&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; 
-    &lt;span style=&#34;color:#000&#34;&gt;plt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;show&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: 3-D Visualization</title>
-      <link>/docs/data/visual-art/3d/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/data/visual-art/3d/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h4 id=&#34;gr-framework&#34;&gt;GR framework&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gr-framework.org/python.html&#34;&gt;gr&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GR3 is a software library for simple visualization of 3D scenes. It was developed by Florian Rhiem as part of his bachelor’s thesis. GR3 is written in C and can also be used from Python or Julia through a wrapper module.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nilearn.github.io/auto_examples/index.html&#34;&gt;nilearn&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data.&lt;/p&gt;
-&lt;p&gt;It leverages the scikit-learn Python toolbox for multivariate statistics with applications such as predictive modelling, classification, decoding, or connectivity analysis.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;3-d-scientific-visualization-in-the-jupyter-notebook&#34;&gt;3-D Scientific Visualization in the Jupyter Notebook&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/QuantStack/ipygany&#34;&gt;ipygany&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;interactive-graph-visualization-with-cytoscapejs-in-jupyterlab-and-the-jupyter-notebook&#34;&gt;Interactive graph visualization with cytoscape.js in JupyterLab and the Jupyter notebook&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/QuantStack/ipycytoscape&#34;&gt;ipycytoscape&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install ipycytoscape
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# enable&lt;/span&gt;
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytoscape
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>

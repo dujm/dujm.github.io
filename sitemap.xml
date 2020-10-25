@@ -3,12 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/docs/engineering/cs/</loc>
-    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/data/structure/</loc>
+    <loc>/docs/computer_science/cs/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -183,12 +178,12 @@
   </url>
   
   <url>
-    <loc>/docs/data/</loc>
-    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+    <loc>/docs/math/probability/s110_l02_story_proofs_axioms_probability/</loc>
+    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/engineering/software-engineering/</loc>
+    <loc>/docs/computer_science/software-engineering/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -258,6 +253,16 @@
   </url>
   
   <url>
+    <loc>/docs/healthcare/bioinfo/</loc>
+    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/data/visual-art/image-processing/</loc>
+    <lastmod>2020-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/data/visual-art/matplotlib/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url>
@@ -293,11 +298,6 @@
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/machinelearning/cv/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
@@ -324,11 +324,6 @@
   
   <url>
     <loc>/docs/swiss-knives/find-papers/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/healthcare/papers/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -378,6 +373,11 @@
   </url>
   
   <url>
+    <loc>/docs/data/structure/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/practices/</loc>
     <lastmod>2020-06-21T00:00:00+00:00</lastmod>
   </url>
@@ -405,11 +405,6 @@
   <url>
     <loc>/docs/coding/functional-coding/python/plot/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/data/visual-art/3d/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -463,8 +458,18 @@
   </url>
   
   <url>
+    <loc>/docs/computer_science/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/web/pelican-website/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/data/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -498,6 +503,11 @@
   </url>
   
   <url>
+    <loc>/docs/data/visual-art/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/models/optimization/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
@@ -518,7 +528,7 @@
   </url>
   
   <url>
-    <loc>/docs/engineering/software-engineering/big-o/</loc>
+    <loc>/docs/computer_science/software-engineering/big-o/</loc>
     <lastmod>2020-03-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -568,17 +578,17 @@
   </url>
   
   <url>
-    <loc>/docs/engineering/iot/development_board/</loc>
+    <loc>/docs/computer_science/iot/development_board/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/engineering/iot/ibm-iot-course/</loc>
+    <loc>/docs/computer_science/iot/ibm-iot-course/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/engineering/iot/rpi-lcd-display/</loc>
+    <loc>/docs/computer_science/iot/rpi-lcd-display/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -605,11 +615,6 @@
   <url>
     <loc>/docs/coding/functional-coding/python/unittest/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/healthcare/bioinfo/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -643,11 +648,6 @@
   </url>
   
   <url>
-    <loc>/docs/engineering/</loc>
-    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/swiss-knives/jupyter-notebook/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
@@ -668,7 +668,7 @@
   </url>
   
   <url>
-    <loc>/docs/engineering/iot/</loc>
+    <loc>/docs/computer_science/iot/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -687,13 +687,8 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/git/</loc>
-    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/data/visual-art/image-processing/</loc>
-    <lastmod>2020-05-14T00:00:00+00:00</lastmod>
+    <loc>/docs/data/visual-art/multivariate/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -747,13 +742,13 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/explainability/</loc>
-    <lastmod>2020-05-08T00:00:00+00:00</lastmod>
+    <loc>/docs/coding/practices/create-snippet/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/r-factoextra/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <loc>/docs/machinelearning/models/explainability/</loc>
+    <lastmod>2020-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -787,13 +782,38 @@
   </url>
   
   <url>
+    <loc>/docs/data/visual-art/3d/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/healthcare/papers/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/swiss-knives/gpu/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>/docs/data/visual-art/time-series/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/coding/practices/git/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/swiss-knives/tpu/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/swiss-knives/white-board/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -818,7 +838,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
