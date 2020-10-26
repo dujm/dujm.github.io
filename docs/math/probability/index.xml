@@ -65,7 +65,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;The non-naive definition $P_{(A)}$
+&lt;li&gt;The non-naive definition $P_{(A)}$ or Probability Axioms
 &lt;ul&gt;
 &lt;li&gt;A function which takes an input, event $A$, a subset of sample space $S$,&lt;/li&gt;
 &lt;li&gt;returns $P_{(A)} \in [0,1]$ as an output,&lt;/li&gt;
@@ -73,12 +73,12 @@
 &lt;ul&gt;
 &lt;li&gt;the probability of the empty set $P_{\varnothing} = 0$
 &lt;ul&gt;
-&lt;li&gt;Impossible events&lt;/li&gt;
+&lt;li&gt;An event that is impossible to happy&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;the probability of the full set $P_{S} = 1$
 &lt;ul&gt;
-&lt;li&gt;Certainty&lt;/li&gt;
+&lt;li&gt;Certainty: a guaranteed event that always happens&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;the probability of a countable infinite union equals to the sum of the probabilities of $A_1$,$A_2$,&amp;hellip;, $A_n$ if they are disjoined (non-overlapping)
@@ -118,7 +118,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;how-to-choose-k-objects-out-of-nå&#34;&gt;How to choose $k$ objects out of $n$?å&lt;/h4&gt;
+&lt;h4 id=&#34;how-to-choose-k-objects-out-of-n&#34;&gt;How to choose $k$ objects out of $n$?&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Sampling table&lt;/li&gt;
 &lt;/ul&gt;
@@ -165,7 +165,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Simple non-trivial cases:
+&lt;li&gt;Simple non-trivial cases
 &lt;ul&gt;
 &lt;li&gt;$n = 2$:
 &lt;ul&gt;
@@ -298,6 +298,76 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Birthday</title>
+      <link>/docs/math/probability/s110_l03_birthday/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/probability/s110_l03_birthday/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;what-is-pigeonhole-principle&#34;&gt;What is pigeonhole principle?&lt;/h4&gt;
+&lt;p&gt;If $n$ items are put into $m$ containers, with $n &amp;gt; m$ then at least one container must contain more than one item.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34; alt=&#34;pigeonhole principle&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34;&gt;pigeonhole principle&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;what-is-the-probability-of-two-people-among-k-people-having-the-same-birthday&#34;&gt;What is the probability of two people among $k$ people having the same birthday?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;If $k &amp;gt; 366$, $P = 1$&lt;/li&gt;
+&lt;li&gt;If $k&amp;lt;366$, what is the minimal $k$ to get $P \approx 0.5$?
+&lt;ul&gt;
+&lt;li&gt;$P_{no match} = \frac{365 \cdot 364 \dots (365-k+1)}{365^k}$&lt;/li&gt;
+&lt;li&gt;$P_{match} = 1- P_{no match}$
+&lt;ul&gt;
+&lt;li&gt;$0.51$, $k =23$&lt;/li&gt;
+&lt;li&gt;$0.97$, $k =50$&lt;/li&gt;
+&lt;li&gt;$0.99999$, $k =100$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Let&amp;rsquo;s build some intuition of $P_{match} = \binom{k}{2}$
+&lt;ul&gt;
+&lt;li&gt;$\binom{23}{2} = \frac{23 \cdot 22}{2} =253$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;probability-properties&#34;&gt;Probability Properties&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;$P_{(A^c)} = 1-P_{(A)}$&lt;/li&gt;
+&lt;li&gt;$P_{(A)} \le P_{(B)}$ if $A$ is contained in $B$ ($A \in B$)
+&lt;ul&gt;
+&lt;li&gt;$B= A {\bigcup} (B \bigcap A^c)$, disjoint&lt;/li&gt;
+&lt;li&gt;$P_{(B)} = P_{(A)} + P_{(B \bigcap A^c)} \ge P_{(A)}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$P_{A \bigcup B} =P_{(A)} + P_{(B)} - P_{(A \bigcap B)}$&lt;/li&gt;
+&lt;li&gt;$P_{A \bigcup B \bigcup} =P_{(A)} + P_{(B)} + P_{(C)} - P_{(A \bigcap B)}- P_{(A \bigcap C)}- P_{(B \bigcap C)} + P_{(A \bigcap B \bigcap C)}$&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752&#34;&gt;General Case&lt;/a&gt;&lt;br&gt;
+&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752&#34; alt=&#34;General&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34; alt=&#34;Inclusion–exclusion illustrated by a Venn diagram for three sets&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34;&gt;Inclusion–exclusion illustrated by a Venn diagram for three sets&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;de-montmorts-problem&#34;&gt;De Montmort&amp;rsquo;s Problem&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;1713&lt;/li&gt;
+&lt;li&gt;matching problem for gambling
+&lt;ul&gt;
+&lt;li&gt;$n$ cards, labeled $1, 2, 3, &amp;hellip;, n$, let $A_j$ be the event with matches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$P_{(A_1 \bigcup A_2 \bigcup \dots \bigcup A_n)} \approx 1- \frac{1}{e}$&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

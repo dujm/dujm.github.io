@@ -20,24 +20,30 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>Outliers | DJ&#39;s Website</title><meta property="og:title" content="Outliers" />
-<meta property="og:description" content="How to detect and remove outliers?  Remove outliers by interquartile range (IQR)  def remove_outliers_by_iqr(df,colname,iqr_threshold): df_drop_na = df[df[colname].notnull()] threshold = float(iqr_threshold) Q3 = df_drop_na[colname].quantile(0.75) Q1 = df_drop_na[colname].quantile(0.25) IQR = Q3 - Q1 df_drop_na_qt = df_drop_na[~((df_drop_na[colname] &lt; (Q1 - threshold * IQR)) |(df_drop_na[colname] &gt; (Q3 &#43; threshold * IQR)))] number_nas = len(df.index) - df_drop_na[colname].count() number_outliers = df_drop_na[colname].count() -df_drop_na_qt[colname].count() print(&#39;Dataframe shape before removing outliers: &#39;, df.shape) print(number_nas, &#39;rows where column&#39; ,colname,&#39;are NULL are removed&#39;) print(&#39;Dataframe shape after removing NAs in the column&#39;, colname,&#39;:&#39;, df_drop_na." />
+<title>Birthday | DJ&#39;s Website</title><meta property="og:title" content="Birthday" />
+<meta property="og:description" content="What is pigeonhole principle? If $n$ items are put into $m$ containers, with $n &gt; m$ then at least one container must contain more than one item.
+pigeonhole principle
+What is the probability of two people among $k$ people having the same birthday?  If $k &gt; 366$, $P = 1$ If $k&lt;366$, what is the minimal $k$ to get $P \approx 0.5$?  $P_{no match} = \frac{365 \cdot 364 \dots (365-k&#43;1)}{365^k}$ $P_{match} = 1- P_{no match}$  $0." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/docs/coding/functional-coding/python/outliers/" />
-<meta property="article:published_time" content="2020-03-19T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-03-19T00:00:00+00:00" />
-<meta itemprop="name" content="Outliers">
-<meta itemprop="description" content="How to detect and remove outliers?  Remove outliers by interquartile range (IQR)  def remove_outliers_by_iqr(df,colname,iqr_threshold): df_drop_na = df[df[colname].notnull()] threshold = float(iqr_threshold) Q3 = df_drop_na[colname].quantile(0.75) Q1 = df_drop_na[colname].quantile(0.25) IQR = Q3 - Q1 df_drop_na_qt = df_drop_na[~((df_drop_na[colname] &lt; (Q1 - threshold * IQR)) |(df_drop_na[colname] &gt; (Q3 &#43; threshold * IQR)))] number_nas = len(df.index) - df_drop_na[colname].count() number_outliers = df_drop_na[colname].count() -df_drop_na_qt[colname].count() print(&#39;Dataframe shape before removing outliers: &#39;, df.shape) print(number_nas, &#39;rows where column&#39; ,colname,&#39;are NULL are removed&#39;) print(&#39;Dataframe shape after removing NAs in the column&#39;, colname,&#39;:&#39;, df_drop_na.">
-<meta itemprop="datePublished" content="2020-03-19T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-03-19T00:00:00+00:00" />
-<meta itemprop="wordCount" content="248">
+<meta property="og:url" content="/docs/math/probability/s110_l03_birthday/" />
+<meta property="article:published_time" content="2020-10-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-26T00:00:00+00:00" />
+<meta itemprop="name" content="Birthday">
+<meta itemprop="description" content="What is pigeonhole principle? If $n$ items are put into $m$ containers, with $n &gt; m$ then at least one container must contain more than one item.
+pigeonhole principle
+What is the probability of two people among $k$ people having the same birthday?  If $k &gt; 366$, $P = 1$ If $k&lt;366$, what is the minimal $k$ to get $P \approx 0.5$?  $P_{no match} = \frac{365 \cdot 364 \dots (365-k&#43;1)}{365^k}$ $P_{match} = 1- P_{no match}$  $0.">
+<meta itemprop="datePublished" content="2020-10-26T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-10-26T00:00:00+00:00" />
+<meta itemprop="wordCount" content="210">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Outliers"/>
-<meta name="twitter:description" content="How to detect and remove outliers?  Remove outliers by interquartile range (IQR)  def remove_outliers_by_iqr(df,colname,iqr_threshold): df_drop_na = df[df[colname].notnull()] threshold = float(iqr_threshold) Q3 = df_drop_na[colname].quantile(0.75) Q1 = df_drop_na[colname].quantile(0.25) IQR = Q3 - Q1 df_drop_na_qt = df_drop_na[~((df_drop_na[colname] &lt; (Q1 - threshold * IQR)) |(df_drop_na[colname] &gt; (Q3 &#43; threshold * IQR)))] number_nas = len(df.index) - df_drop_na[colname].count() number_outliers = df_drop_na[colname].count() -df_drop_na_qt[colname].count() print(&#39;Dataframe shape before removing outliers: &#39;, df.shape) print(number_nas, &#39;rows where column&#39; ,colname,&#39;are NULL are removed&#39;) print(&#39;Dataframe shape after removing NAs in the column&#39;, colname,&#39;:&#39;, df_drop_na."/>
+<meta name="twitter:title" content="Birthday"/>
+<meta name="twitter:description" content="What is pigeonhole principle? If $n$ items are put into $m$ containers, with $n &gt; m$ then at least one container must contain more than one item.
+pigeonhole principle
+What is the probability of two people among $k$ people having the same birthday?  If $k &gt; 366$, $P = 1$ If $k&lt;366$, what is the minimal $k$ to get $P \approx 0.5$?  $P_{no match} = \frac{365 \cdot 364 \dots (365-k&#43;1)}{365^k}$ $P_{match} = 1- P_{no match}$  $0."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -82,7 +88,7 @@
 
 
 
-    <title>Outliers | DJ&#39;s Website</title>
+    <title>Birthday | DJ&#39;s Website</title>
   </head>
   <body class="td-page">
     <header>
@@ -243,10 +249,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/coding/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Coding</a>
+    <a  href="/docs/coding/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Coding</a>
   </li>
   <ul>
-    <li class="collapse show" id="docscoding">
+    <li class="collapse " id="docscoding">
       
       
       
@@ -260,10 +266,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/coding/functional-coding/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Functional Coding</a>
+    <a  href="/docs/coding/functional-coding/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Functional Coding</a>
   </li>
   <ul>
-    <li class="collapse show" id="docscodingfunctional-coding">
+    <li class="collapse " id="docscodingfunctional-coding">
       
       
       
@@ -306,10 +312,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/coding/functional-coding/python/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Python</a>
+    <a  href="/docs/coding/functional-coding/python/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Python</a>
   </li>
   <ul>
-    <li class="collapse show" id="docscodingfunctional-codingpython">
+    <li class="collapse " id="docscodingfunctional-codingpython">
       
       
       
@@ -322,7 +328,7 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docscodingfunctional-codingpythonoutliers" href="/docs/coding/functional-coding/python/outliers/">Outliers</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingpythonoutliers" href="/docs/coding/functional-coding/python/outliers/">Outliers</a>
       
       
       
@@ -1060,10 +1066,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/math/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Math</a>
+    <a  href="/docs/math/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Math</a>
   </li>
   <ul>
-    <li class="collapse " id="docsmath">
+    <li class="collapse show" id="docsmath">
       
       
       
@@ -1089,10 +1095,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/math/probability/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Probablity</a>
+    <a  href="/docs/math/probability/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Probablity</a>
   </li>
   <ul>
-    <li class="collapse " id="docsmathprobability">
+    <li class="collapse show" id="docsmathprobability">
       
       
       
@@ -1111,7 +1117,7 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathprobabilitys110_l03_birthday" href="/docs/math/probability/s110_l03_birthday/">Birthday</a>
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docsmathprobabilitys110_l03_birthday" href="/docs/math/probability/s110_l03_birthday/">Birthday</a>
       
       
     </li>
@@ -2096,19 +2102,6 @@
 
 
 
-<nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li></li>
-        <li><a href="#what-kind-of-outliers-should-be-removed">What kind of outliers should be removed?</a></li>
-        <li><a href="#what-kind-of-outliers-should-not-be-removed">What kind of outliers should not be removed?</a></li>
-        <li><a href="#read-more">Read more</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-
 
 
           </div>
@@ -2132,9 +2125,6 @@
 
 
 
-
-
-
 <li class="breadcrumb-item" >
 	<a href="/docs/">Data Science</a>
 </li>
@@ -2143,28 +2133,21 @@
 
 
 <li class="breadcrumb-item" >
-	<a href="/docs/coding/">Coding</a>
+	<a href="/docs/math/">Math</a>
 </li>
 
 
 
 
 <li class="breadcrumb-item" >
-	<a href="/docs/coding/functional-coding/">Functional Coding</a>
-</li>
-
-
-
-
-<li class="breadcrumb-item" >
-	<a href="/docs/coding/functional-coding/python/">Python</a>
+	<a href="/docs/math/probability/">Probablity</a>
 </li>
 
 
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="/docs/coding/functional-coding/python/outliers/">Outliers</a>
+	<a href="/docs/math/probability/s110_l03_birthday/">Birthday</a>
 </li>
 
 	</ol>
@@ -2172,86 +2155,69 @@
 
             
 <div class="td-content">
-	<h1>Outliers</h1>
+	<h1>Birthday</h1>
 	
 	<br>
-<h4 id="how-to-detect-and-remove-outliers">How to detect and remove outliers?</h4>
+<h4 id="what-is-pigeonhole-principle">What is pigeonhole principle?</h4>
+<p>If $n$ items are put into $m$ containers, with $n &gt; m$ then at least one container must contain more than one item.</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg" alt="pigeonhole principle"><br>
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg">pigeonhole principle</a></p>
+<br>
+<h4 id="what-is-the-probability-of-two-people-among-k-people-having-the-same-birthday">What is the probability of two people among $k$ people having the same birthday?</h4>
 <ul>
-<li>Remove outliers by interquartile range (IQR)</li>
-</ul>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python">  <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">remove_outliers_by_iqr</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">df</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">iqr_threshold</span><span style="color:#000;font-weight:bold">):</span>
-
-    <span style="color:#000">df_drop_na</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">df</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">df</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">notnull</span><span style="color:#000;font-weight:bold">()]</span>
-    <span style="color:#000">threshold</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87">float</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">iqr_threshold</span><span style="color:#000;font-weight:bold">)</span>
-
-    <span style="color:#000">Q3</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">quantile</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">0.75</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#000">Q1</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">quantile</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">0.25</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#000">IQR</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Q3</span> <span style="color:#ce5c00;font-weight:bold">-</span> <span style="color:#000">Q1</span>
-
-    <span style="color:#000">df_drop_na_qt</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[</span><span style="color:#ce5c00;font-weight:bold">~</span><span style="color:#000;font-weight:bold">((</span><span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span> <span style="color:#ce5c00;font-weight:bold">&lt;</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">Q1</span> <span style="color:#ce5c00;font-weight:bold">-</span> <span style="color:#000">threshold</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">IQR</span><span style="color:#000;font-weight:bold">))</span> <span style="color:#ce5c00;font-weight:bold">|</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span> <span style="color:#ce5c00;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">Q3</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">threshold</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">IQR</span><span style="color:#000;font-weight:bold">)))]</span>
-
-    <span style="color:#000">number_nas</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87">len</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">df</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">index</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">-</span> <span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">count</span><span style="color:#000;font-weight:bold">()</span>
-    <span style="color:#000">number_outliers</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">count</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#ce5c00;font-weight:bold">-</span><span style="color:#000">df_drop_na_qt</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">count</span><span style="color:#000;font-weight:bold">()</span>
-
-    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;Dataframe shape before removing outliers: &#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">df</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">shape</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">number_nas</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;rows where column&#39;</span> <span style="color:#000;font-weight:bold">,</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">,</span><span style="color:#4e9a06">&#39;are NULL are removed&#39;</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;Dataframe shape after removing NAs in the column&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">colname</span><span style="color:#000;font-weight:bold">,</span><span style="color:#4e9a06">&#39;:&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">df_drop_na</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">shape</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">number_outliers</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;outliers are removed&#39;</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;Dataframe shape after removing NAs and ourliers in the column&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">colname</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;by&#39;</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">iqr_threshold</span><span style="color:#000;font-weight:bold">,</span><span style="color:#4e9a06">&#39;* IQR:&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">df_drop_na_qt</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">shape</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">df_drop_na_qt</span>
-
-  <span style="color:#000">df2</span><span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">remove_outliers_by_iqr</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">df</span><span style="color:#000;font-weight:bold">,</span><span style="color:#4e9a06">&#39;area&#39;</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">1.5</span><span style="color:#000;font-weight:bold">)</span>    
-</code></pre></div><ul>
-<li>Remove outliers by Z score</li>
-</ul>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python">  <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">remove_outliers_by_z</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">df</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">z_score_threshold</span><span style="color:#000;font-weight:bold">):</span>
-    <span style="color:#000">df_drop_na</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">df</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">df</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">notnull</span><span style="color:#000;font-weight:bold">()]</span>
-
-    <span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">scipy</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">stats</span>    
-    <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">numpy</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">np</span>
-
-    <span style="color:#000">z</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">np</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">abs</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">stats</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">zscore</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]))</span>
-    <span style="color:#000">df_drop_na_zoutlier</span> <span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[(</span><span style="color:#000">z</span> <span style="color:#ce5c00;font-weight:bold">&lt;</span> <span style="color:#204a87">float</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">z_score_threshold</span><span style="color:#000;font-weight:bold">))]</span>
-
-    <span style="color:#000">number_nas</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87">len</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">df</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">index</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">-</span> <span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">count</span><span style="color:#000;font-weight:bold">()</span>
-    <span style="color:#000">number_outliers</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">df_drop_na</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">count</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#ce5c00;font-weight:bold">-</span><span style="color:#000">df_drop_na_zoutlier</span><span style="color:#000;font-weight:bold">[</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">count</span><span style="color:#000;font-weight:bold">()</span>
-
-    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;Dataframe shape before removing outliers: &#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">df</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">shape</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">number_nas</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;rows where column&#39;</span> <span style="color:#000;font-weight:bold">,</span><span style="color:#000">colname</span><span style="color:#000;font-weight:bold">,</span><span style="color:#4e9a06">&#39;are NULL are removed&#39;</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;Dataframe shape after removing NAs in the column&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">colname</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;:&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">df_drop_na</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">shape</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">number_outliers</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;outliers are removed&#39;</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;Dataframe shape after removing NAs and ourliers in the column&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">colname</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;by Z score threshold&#39;</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">z_score_threshold</span><span style="color:#000;font-weight:bold">,</span><span style="color:#4e9a06">&#39;:&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">df_drop_na_zoutlier</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">shape</span><span style="color:#000;font-weight:bold">)</span>
-    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">df_drop_na_zoutlier</span>
-
-  <span style="color:#000">df3</span><span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">remove_outliers_by_z</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">df</span><span style="color:#000;font-weight:bold">,</span><span style="color:#4e9a06">&#39;area&#39;</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">)</span>
-
-</code></pre></div>  <br>
-<h3 id="what-kind-of-outliers-should-be-removed">What kind of outliers should be removed?</h3>
+<li>If $k &gt; 366$, $P = 1$</li>
+<li>If $k&lt;366$, what is the minimal $k$ to get $P \approx 0.5$?
 <ul>
-<li>Wrong calculation, these can be identified as Outliers should be dropped but at the same time you might want to correct them too, as they <a href="https://towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba"><strong>change the level of data</strong> and cause issues when you model your data.</a></li>
-</ul>
-  <br>
-<h3 id="what-kind-of-outliers-should-not-be-removed">What kind of outliers should not be removed?</h3>
-  <br>
-<h3 id="read-more">Read more</h3>
+<li>$P_{no match} = \frac{365 \cdot 364 \dots (365-k+1)}{365^k}$</li>
+<li>$P_{match} = 1- P_{no match}$
 <ul>
-<li>
-<p><a href="https://haridas.in/outlier-removal-clustering.html">Outlier removal clustering</a></p>
+<li>$0.51$, $k =23$</li>
+<li>$0.97$, $k =50$</li>
+<li>$0.99999$, $k =100$</li>
+</ul>
 </li>
-<li>
-<p><a href="https://www.researchgate.net/post/When_is_it_justifiable_to_exclude_outlier_data_points_from_statistical_analyses">1</a></p>
+</ul>
+<ul>
+<li>Let&rsquo;s build some intuition of $P_{match} = \binom{k}{2}$
+<ul>
+<li>$\binom{23}{2} = \frac{23 \cdot 22}{2} =253$</li>
+</ul>
 </li>
-<li>
-<p><a href="https://www.researchgate.net/post/Which_is_the_best_method_for_removing_outliers_in_a_data_set">2</a></p>
+</ul>
 </li>
-<li>
-<p><a href="https://www.theanalysisfactor.com/outliers-to-drop-or-not-to-drop/">3</a></p>
+</ul>
+<br>
+<h4 id="probability-properties">Probability Properties</h4>
+<ul>
+<li>$P_{(A^c)} = 1-P_{(A)}$</li>
+<li>$P_{(A)} \le P_{(B)}$ if $A$ is contained in $B$ ($A \in B$)
+<ul>
+<li>$B= A {\bigcup} (B \bigcap A^c)$, disjoint</li>
+<li>$P_{(B)} = P_{(A)} + P_{(B \bigcap A^c)} \ge P_{(A)}$</li>
+</ul>
 </li>
+<li>$P_{A \bigcup B} =P_{(A)} + P_{(B)} - P_{(A \bigcap B)}$</li>
+<li>$P_{A \bigcup B \bigcup} =P_{(A)} + P_{(B)} + P_{(C)} - P_{(A \bigcap B)}- P_{(A \bigcap C)}- P_{(B \bigcap C)} + P_{(A \bigcap B \bigcap C)}$</li>
+<li><a href="https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752">General Case</a><br>
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752" alt="General"></li>
+</ul>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png" alt="Inclusion–exclusion illustrated by a Venn diagram for three sets"><br>
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png">Inclusion–exclusion illustrated by a Venn diagram for three sets</a></p>
+<br>
+<h4 id="de-montmorts-problem">De Montmort&rsquo;s Problem</h4>
+<ul>
+<li>1713</li>
+<li>matching problem for gambling
+<ul>
+<li>$n$ cards, labeled $1, 2, 3, &hellip;, n$, let $A_j$ be the event with matches</li>
+</ul>
+</li>
+<li>$P_{(A_1 \bigcup A_2 \bigcup \dots \bigcup A_n)} \approx 1- \frac{1}{e}$</li>
 </ul>
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified March 19, 2020
+	<div class="text-muted mt-5 pt-3 border-top">Last modified October 26, 2020
 </div>
 </div>
 
