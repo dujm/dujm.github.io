@@ -373,5 +373,54 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
       </description>
     </item>
     
+    <item>
+      <title>Docs: Conditional Probability</title>
+      <link>/docs/math/probability/s110_l04_conditional_probability/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/probability/s110_l04_conditional_probability/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Conditioning – the soul of statistics&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h4 id=&#34;independence-means-multiplication&#34;&gt;Independence means multiplication&lt;/h4&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;newtonpepys-problem-another-gambling-problem-&#34;&gt;Newton–Pepys problem: another gambling problem 🎲&lt;/h4&gt;
+&lt;p&gt;Which of the following three propositions has the greatest chance of success?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A. Six fair dice are tossed independently and at least one “6” appears.&lt;/li&gt;
+&lt;li&gt;B. Twelve fair dice are tossed independently and at least two “6”s appear.&lt;/li&gt;
+&lt;li&gt;C. Eighteen fair dice are tossed independently and at least three “6”s appear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/600cae735b31b4b7eedd4bf6993f00f8c2ca12db&#34; alt=&#34;Newton–Pepys problem&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f2ec31fa405ee2da878b9989baa1b5387025dce1&#34; alt=&#34;Newton–Pepys problem&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f2f2780521f3bc5e4ececb4ea588ed11f152b1ef&#34; alt=&#34;Newton–Pepys problem&#34;&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h4 id=&#34;conditional-probability-&#34;&gt;Conditional probability 🏄‍♂️&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;How do you update probabilities/beliefs/uncertainty based on new evidence?&lt;/li&gt;
+&lt;li&gt;Do you update in a coherent, consistent, and logical manner?&lt;/li&gt;
+&lt;li&gt;$P_{(A | B)} = \frac{P_{(A \bigcap B)}}{P_{(B)}}$ if $P_{(B)} &amp;gt; 0$&lt;/li&gt;
+&lt;li&gt;$P_{(A \bigcap B)} = P_{(B)} P_{(A|B)} = P_{(A)} P_{(B|A)}$&lt;/li&gt;
+&lt;li&gt;$P_{(A | B)} = \frac{P_{(B | A)}P_{(A)}}{P_{(B)}}$  ❤️
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_problem&#34;&gt;Newton–Pepys problem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
