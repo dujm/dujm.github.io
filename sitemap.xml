@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/data/visual-art/eda/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/math/machinelearning/02linear_algebra/</loc>
     <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url>
@@ -863,7 +868,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -994,6 +999,10 @@
   <url>
     <loc>/blog/2019/02/08/image-shape-vs.-texture/</loc>
     <lastmod>2019-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/introduction/c1-intro/</loc>
   </url>
   
   <url>

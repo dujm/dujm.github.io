@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>Docs: EDA</title>
+      <link>/docs/data/visual-art/eda/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/eda/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;data-frame-eda-packages&#34;&gt;Data Frame EDA Packages&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pandas-profiling/pandas-profiling&#34;&gt;pandas profiling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fbdesignpro/sweetviz&#34;&gt;sweetviz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adamerose/pandasgui&#34;&gt;pandasgui&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Data to Viz</title>
       <link>/docs/data/visual-art/data-viz/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
