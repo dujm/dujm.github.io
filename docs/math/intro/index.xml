@@ -1745,5 +1745,34 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
       </description>
     </item>
     
+    <item>
+      <title>Docs: </title>
+      <link>/docs/math/intro/statistics/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/statistics/summary/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;distributions&#34;&gt;Distributions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;discrete&lt;/li&gt;
+&lt;li&gt;continuous distributions&lt;/li&gt;
+&lt;li&gt;their standard properties&lt;/li&gt;
+&lt;li&gt;common statistical measures&lt;/li&gt;
+&lt;li&gt;simple statistical inference&lt;/li&gt;
+&lt;li&gt;Methods useful for &lt;strong&gt;implementing Machine Learning ideas&lt;/strong&gt;, for designing experiments, and for interpreting their results.&lt;/li&gt;
+&lt;li&gt;No advanced topics such as Wiener processes or the Metropolis-Hastings algorithm.&lt;/li&gt;
+&lt;li&gt;University of Cambridge first year statistics course ​[example sheets 1 and 2]​(&lt;a href=&#34;https://www.dpmms.cam.ac.uk/study/IB/Statistics/&#34;&gt;https://www.dpmms.cam.ac.uk/study/IB/Statistics/&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.statslab.cam.ac.uk/~mike/stats/Example1.pdf&#34;&gt;Sheet 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.statslab.cam.ac.uk/~mike/stats/Example2.pdf&#34;&gt;Sheet 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

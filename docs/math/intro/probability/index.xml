@@ -200,7 +200,13 @@
 &lt;hr&gt;
 &lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KbB0FjPg0mw&amp;amp;list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&amp;amp;index=1&#34;&gt;Lecture 1: Probability and Counting | Statistics 110&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KbB0FjPg0mw&amp;amp;list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&amp;amp;index=1&#34;&gt;Lecture 1: Probability and Counting | Statistics 110&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/buruzaemon/stats-110&#34;&gt;GitHub notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1VmkAAGOYCTORq1wxSQqy255qLJjTNvBI/view&#34;&gt;The book provided by authors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/introduction-to-probability&#34;&gt;edx course&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vTs2IQ8OefQ&#34;&gt;Financial Theory (ECON 251)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.amazon.de/Introduction-Quantitative-Finance-Stephen-Blyth/dp/0199666598&#34;&gt;An Introduction to Quantitative Finance by Stephen Blyth&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -417,6 +423,127 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
 &lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_problem&#34;&gt;Newton–Pepys problem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Conditional Probability</title>
+      <link>/docs/math/intro/probability/s110_l05_conditioning_2/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/probability/s110_l05_conditioning_2/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Thinking conditionally – a condition for thinking&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h4 id=&#34;how-do-you-solve-a-problem&#34;&gt;How do you solve a problem?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Try simple and extreme conditions&lt;/li&gt;
+&lt;li&gt;Try to decompose a complex problem into simpler pieces&lt;/li&gt;
+&lt;li&gt;Try Richard Feynman&amp;rsquo;s approach
+&lt;ul&gt;
+&lt;li&gt;Write down the problem&lt;/li&gt;
+&lt;li&gt;Think hard about it 🤔🤔🤔&lt;/li&gt;
+&lt;li&gt;Write down the solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Monty Hall, Simpson&#39;s Paradox</title>
+      <link>/docs/math/intro/probability/s110_l06_montyhall/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/probability/s110_l06_montyhall/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Random Variables and Distributions</title>
+      <link>/docs/math/intro/probability/s110_l07_l08_random_variables_distributions/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/probability/s110_l07_l08_random_variables_distributions/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;gamblers-rules&#34;&gt;Gambler&amp;rsquo;s Rules&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;i&lt;/td&gt;
+&lt;td&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Difference equation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$q=1-p$&lt;/li&gt;
+&lt;li&gt;$p_i = pp_{i+1} + qp_{i-1}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Differential equation
+An equation that relates one or more functions and their derivatives&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;random-variables&#34;&gt;Random variables&lt;/h2&gt;
+&lt;p&gt;A function from the sample space S to the rea lline&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;bernoulli-distribution&#34;&gt;Bernoulli distribution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The Bernoulli distribution, named after Swiss mathematician Jacob Bernoulli, is the discrete probability distribution of a random variable which takes the value 1 with probability $p$ and the value 0 with probability $q = 1 − p$.
+&lt;ul&gt;
+&lt;li&gt;$P_{x=1} = p$&lt;/li&gt;
+&lt;li&gt;$P_{x=0} = 1-p$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;binomial-distribution&#34;&gt;Binomial distribution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In n independent Bernoulli trails, e.g. flipping a coin $n$ times, the distribution of success is called Binomial distribution&lt;/li&gt;
+&lt;li&gt;Indicator variables&lt;/li&gt;
+&lt;li&gt;Independent and identically distributed (iid)&lt;/li&gt;
+&lt;li&gt;Probability Math Function (PMF)
+&lt;ul&gt;
+&lt;li&gt;$P_{(x=k)} = p^k(1-p)^{n-k}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Binomial Distribution vs Normal Distribution:
+&lt;ul&gt;
+&lt;li&gt;Normal distribution describes continuous data which have a symmetric distribution, with a characteristic &amp;lsquo;bell&amp;rsquo; shape.&lt;/li&gt;
+&lt;li&gt;Binomial distribution describes the distribution of binary data from a finite sample. Thus it gives the probability of getting r events out of n trials.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

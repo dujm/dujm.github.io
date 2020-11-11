@@ -41,45 +41,6 @@
     </item>
     
     <item>
-      <title>Docs: Graph NN</title>
-      <link>/docs/machinelearning/graph-nn/</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/graph-nn/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: NLP</title>
-      <link>/docs/machinelearning/nlp/</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/nlp/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Models</title>
-      <link>/docs/machinelearning/models/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/models/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: Frameworks</title>
       <link>/docs/machinelearning/frameworks/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
@@ -89,6 +50,19 @@
         
         
         
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Graph NN</title>
+      <link>/docs/machinelearning/graph-nn/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/graph-nn/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
       </description>
     </item>
     
@@ -194,6 +168,32 @@ from awsome_function import *
     </item>
     
     <item>
+      <title>Docs: Models</title>
+      <link>/docs/machinelearning/models/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: NLP</title>
+      <link>/docs/machinelearning/nlp/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/nlp/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Privacy</title>
       <link>/docs/machinelearning/privacy/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
@@ -220,96 +220,6 @@ from awsome_function import *
 &lt;li&gt;&lt;a href=&#34;https://github.com/dujm/lungfish&#34;&gt;An Imaging Diagnostics Use Case in Healthcare, powered by Ocean Protocol&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/dujm/Health_PrecisionMedicine&#34;&gt;NLP Application in Personalized Medicine&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/dujm/kaggle_quora&#34;&gt;NLP Text Classification of Quora Questsions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: </title>
-      <link>/docs/machinelearning/introduction/c1-intro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/introduction/c1-intro/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Tesauro&amp;rsquo;sTD Gammon network&lt;/li&gt;
-&lt;li&gt;LeCun&amp;rsquo;s hand-written digit recognition network&lt;/li&gt;
-&lt;li&gt;LeNet&lt;/li&gt;
-&lt;li&gt;Compiler vs NN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;classification&#34;&gt;Classification&lt;/h2&gt;
-&lt;h3 id=&#34;pattern-recognition&#34;&gt;Pattern recognition&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Optical Character recognition (OCR)
-&lt;ul&gt;
-&lt;li&gt;hand-written&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;nlp&#34;&gt;NLP&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;sentimental analysis&lt;/li&gt;
-&lt;li&gt;summary&lt;/li&gt;
-&lt;li&gt;spam filtering&lt;/li&gt;
-&lt;li&gt;machine translation: rule&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;biometrics-recognition&#34;&gt;Biometrics recognition&lt;/h3&gt;
-&lt;p&gt;Recognition or authentication of people using their physiological and /or behavioral characteristics, which requires an integration of inputs from different modalities&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;images of face&lt;/li&gt;
-&lt;li&gt;fingerprint&lt;/li&gt;
-&lt;li&gt;iris&lt;/li&gt;
-&lt;li&gt;palm&lt;/li&gt;
-&lt;li&gt;gait&lt;/li&gt;
-&lt;li&gt;key stroke&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;outlier-detection&#34;&gt;Outlier detection&lt;/h3&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;regression-vs-classification&#34;&gt;Regression vs Classification&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Regression function vs discriminant function&lt;/li&gt;
-&lt;li&gt;supervised mapping input to output&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;supervise-vs-unsupervised-learning&#34;&gt;Supervise vs Unsupervised learning&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Unsupervised:
-&lt;ul&gt;
-&lt;li&gt;only input data&lt;/li&gt;
-&lt;li&gt;no supervisor&lt;/li&gt;
-&lt;li&gt;goal is to find the regularities in the input&lt;/li&gt;
-&lt;li&gt;There is a structure to the input space such that &lt;strong&gt;certain patterns occur more often&lt;/strong&gt; than others&lt;/li&gt;
-&lt;li&gt;We want to see what generally happens and what does not&lt;/li&gt;
-&lt;li&gt;In statistics, called density estimation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;clustering&#34;&gt;Clustering&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;A density estimation method&lt;/li&gt;
-&lt;li&gt;The aim is to find clusters orgroupings of input&lt;/li&gt;
-&lt;li&gt;Examples:
-&lt;ul&gt;
-&lt;li&gt;Customer segmentation
-&lt;ul&gt;
-&lt;li&gt;clustering&lt;/li&gt;
-&lt;li&gt;Customer relationship management
-&lt;ul&gt;
-&lt;li&gt;making targeted strategies&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Document clustering
-&lt;ul&gt;
-&lt;li&gt;document is represented as a bag of words&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
