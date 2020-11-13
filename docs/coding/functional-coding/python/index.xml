@@ -121,7 +121,7 @@
     <item>
       <title>Docs: Outliers</title>
       <link>/docs/coding/functional-coding/python/outliers/</link>
-      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/coding/functional-coding/python/outliers/</guid>
       <description>
@@ -184,6 +184,16 @@
 &lt;li&gt;Wrong calculation, these can be identified as Outliers should be dropped but at the same time you might want to correct them too, as they &lt;a href=&#34;https://towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba&#34;&gt;&lt;strong&gt;change the level of data&lt;/strong&gt; and cause issues when you model your data.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
   &lt;br&gt;
+&lt;h3 id=&#34;decomposition-based-detection&#34;&gt;Decomposition Based Detection&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-lego.readthedocs.io/en/latest/outliers.html&#34;&gt;sckit-lego&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://scikit-lego.readthedocs.io/en/latest/_images/decomposition.png&#34; alt=&#34;Decomposition Based Detection&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://scikit-lego.readthedocs.io/en/latest/_images/decomposition.png&#34;&gt;Image from sckit-lego&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;density-based-detection&#34;&gt;Density Based Detection&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://scikit-lego.readthedocs.io/en/latest/mixture-methods.html&#34;&gt;Gaussian Mixture&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
 &lt;h3 id=&#34;what-kind-of-outliers-should-not-be-removed&#34;&gt;What kind of outliers should not be removed?&lt;/h3&gt;
   &lt;br&gt;
 &lt;h3 id=&#34;read-more&#34;&gt;Read more&lt;/h3&gt;
