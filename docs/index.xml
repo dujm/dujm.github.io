@@ -4,7 +4,7 @@
     <link>/docs/</link>
     <description>Recent content in Data Science on DJ&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -5314,10 +5314,10 @@ Strict inequality will not convert data types.&lt;/p&gt;
     
     <item>
       <title>Docs: Graph Analysis</title>
-      <link>/docs/machinelearning/graph-nn/tools/graph-analysis/</link>
+      <link>/docs/machinelearning/models/graph-nn/tools/graph-analysis/</link>
       <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/graph-nn/tools/graph-analysis/</guid>
+      <guid>/docs/machinelearning/models/graph-nn/tools/graph-analysis/</guid>
       <description>
         
         
@@ -5334,10 +5334,10 @@ Strict inequality will not convert data types.&lt;/p&gt;
     
     <item>
       <title>Docs: Tutorials</title>
-      <link>/docs/machinelearning/graph-nn/tools/tutorials/</link>
+      <link>/docs/machinelearning/models/graph-nn/tools/tutorials/</link>
       <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/graph-nn/tools/tutorials/</guid>
+      <guid>/docs/machinelearning/models/graph-nn/tools/tutorials/</guid>
       <description>
         
         

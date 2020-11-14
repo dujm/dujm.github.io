@@ -94,5 +94,106 @@
       </description>
     </item>
     
+    <item>
+      <title>Docs: Kaggle</title>
+      <link>/docs/data/dataset/kaggle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/dataset/kaggle/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h4 id=&#34;course-how-to-win-a-data-science-competition-learn-from-top-kagglers&#34;&gt;Course: How to win a data science competition: learn from top Kagglers&lt;/h4&gt;
+&lt;dl&gt;
+&lt;dt&gt;Instructors&lt;/dt&gt;
+&lt;dd&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Dmitry Ulyanov, Alexander Guschin, Mikhail Trofimov, Dmitry Altukhov, Marios Michailidis*
+National Research University Higher School of Economics&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/competitive-data-science&#34;&gt;Course Link&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/dujm/kaggle_coursera&#34;&gt;My Notes&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;kaggle-perfect-scores&#34;&gt;Kaggle perfect scores&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The public leaderboard is computed based on a fraction of the test set. The private leaderboard is computed on the whole test set.
+If you overfit the test set you can do very well in the public leaderboard and very bad in the private one.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ndres.me/kaggle-past-solutions&#34;&gt;Kaggle past solutions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.chioka.in/kaggle-competition-solutions&#34;&gt;Kaggle competition solutions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ShuaiW/kaggle-classification&#34;&gt;Kaggle classification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/olegtrott/the-perfect-score-script&#34;&gt;The perfect score script&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;how-to-download-data-using-kaggle-api&#34;&gt;How to download data using Kaggle API?&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;# 1) Install kaggle package
+pip install --user kaggle
+# Note: pip install kaggle &amp;lt;== This command cause problems
+
+# 2) Download and save your kaggle API token
+&#39;Go to https://www.kaggle.com/username/account ==&amp;gt; Create API Token&#39;  ==&amp;gt;  Download API token (This will trigger the download of kaggle.json, a file containing your API credentials.)&#39;
+
+ # Place this file in the location ~/.kaggle/kaggle.json
+
+ # Go to the directory where the kaggle.json was saved
+  sudo cp kaggle.json ~/.kaggle/kaggle.json
+
+  sudo cp kaggle.json /Users/j/.local/lib/python3.7/site-packages/kaggle/kaggle.json
+
+ # Ensure other users don&#39;t have access to the key
+sudo chmod 600 ~/.kaggle/kaggle.json
+
+# 3) Download competition data in your project
+
+ # List files in a competition
+kaggle competitions download -c quora-insincere-questions-classification
+
+ # Download all files in a competition
+kaggle competitions files quora-insincere-questions-classification
+
+ # Download your notebook mynotebook.ipynb from the kaggle kernel
+kaggle kernels pull usrname/mynotebook
+
+
+# 4) Add kaggle toyour path
+ # Open .zshrc
+ vi ~/.zshrc
+
+ # add alias kaggle=&amp;quot;/Users/j/.local/lib/python3.7/site-packages/kaggle&amp;quot;
+ source ~/.zshrc
+
+ # Save and run
+ zsh
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h4 id=&#34;how-to-upload-functions-in-kaggle-kernel&#34;&gt;How to upload functions in Kaggle kernel?&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;# 1. Upload your awesome_function.py file as a Dataset in your Notebook/Script kernel
+
+In your running Notebook/Script kernel, click &#39;Add Dataset&#39; =&amp;gt; Select &#39;Dataset&#39; =&amp;gt; Click &#39;Upload a Dataset&#39; =&amp;gt; Upload your awesome_function.py file from local/GitHub =&amp;gt; Enter a title for your dataset e.g. &#39;kutil&#39; (This will in fact create a subfolder &#39;kutil&#39;)=&amp;gt; Click &#39;Create&#39;
+
+
+# 2. Your Notebook/Script kernel will refresh.
+The awesome_function.py is saved in &#39;../input/kutils/&#39;
+
+
+# 3. Copy the awesome_function.py to kaggle working directory &#39;/kaggle/working&#39;
+from shutil import copyfile
+
+copyfile(src = &amp;quot;../input/kutil/awesome_function.py&amp;quot;, dst = &#39;/kaggle/working/awesome_function.py&#39;)
+
+
+# 4. Import functions from awesome_function.py to your Notebook/Script kernel
+from awsome_function import *
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Kaggle/kaggle-api&#34;&gt;Kaggle API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/rtatman/import-functions-from-kaggle-script&#34;&gt;Import functions from Kaggle script&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/docs/kernels&#34;&gt;Adding Data Sources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

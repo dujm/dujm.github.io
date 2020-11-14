@@ -33,8 +33,8 @@
 &lt;br&gt;
 &lt;h4 id=&#34;1-how-do-you-evaluate-codes&#34;&gt;1. How do you evaluate codes?&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Faster? Time complexity&lt;/li&gt;
-&lt;li&gt;Less memory intensive?&lt;/li&gt;
+&lt;li&gt;Time efficiency: Faster? Time complexity&lt;/li&gt;
+&lt;li&gt;Space efficiency: Less memory intensive?&lt;/li&gt;
 &lt;li&gt;More readable ?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;2-what-is-big-o-notation&#34;&gt;2. What is big-O notation?&lt;/h4&gt;
@@ -61,7 +61,7 @@ a nested loop of the same type (or bounded by the first loop parameter), gives O
 &lt;p&gt;O(2N) = O(N)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;O(5) = O(500 =O (1)&lt;/p&gt;
+&lt;p&gt;O(5) = O(500) = O(1)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;O (17N&lt;em&gt;N) = O (N&lt;/em&gt;N)&lt;/p&gt;
@@ -73,7 +73,7 @@ a nested loop of the same type (or bounded by the first loop parameter), gives O
 &lt;p&gt;O($N^2$ +50N +10) == O($N^2$)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;O(1) &amp;lt; O(log n) &amp;lt; O( Sqrt(n) ) &amp;lt; O(n) &amp;lt; O(n log n) &amp;lt; O(n^2) &amp;lt; O(n^3) &amp;lt; O(2^n)&lt;/p&gt;
+&lt;p&gt;O(1) &amp;lt; O(log n) &amp;lt; O( Sqrt(n) ) &amp;lt; O(n) &amp;lt; O(n log n) &amp;lt; O($n^2$) &amp;lt; O($n^3$) &amp;lt; O($2^n$)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;4-what-are-the-big-o-notations-from-these-ml-techniques&#34;&gt;4. What are the big-O notations from these ML techniques?&lt;/h4&gt;
@@ -81,7 +81,11 @@ a nested loop of the same type (or bounded by the first loop parameter), gives O
 &lt;li&gt;Linear:  O(N)&lt;/li&gt;
 &lt;li&gt;Sorting: O(nlogN)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;5-references&#34;&gt;5. References&lt;/h4&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;5-bigo-of-various-operations-in-current-cpython&#34;&gt;5. BigO of various operations in current CPython&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.python.org/moin/TimeComplexity&#34;&gt;Time Complexity)&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&#34;6-references&#34;&gt;6. References&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.albertgao.xyz/2016/08/09/everything-you-need-to-know-about-big-o-notation/&#34;&gt;Everything about big-o&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pdfs.semanticscholar.org/a8b4/786c9128d4a94caeb67c858ab4f4288c49ff.pdf&#34;&gt;SVM Analysis&lt;/a&gt;&lt;/li&gt;
