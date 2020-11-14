@@ -732,7 +732,7 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/transformers/</loc>
+    <loc>/docs/machinelearning/models/deep-learning/transformers/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -777,7 +777,7 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/nlp/nlp-tools/transformers/</loc>
+    <loc>/docs/machinelearning/models/deep-learning/transformers/hugging-face/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -854,6 +854,11 @@
   <url>
     <loc>/docs/swiss-knives/gpu/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/models/deep-learning/transformers/benchmark/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
