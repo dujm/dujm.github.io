@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/machinelearning/frameworks/flax/_index_/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/cloud/devops/course/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/computer_science/cs/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/cloud/devops/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/cloud/devops/evolution-model/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/models/feature/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/models/feature/feature-selection/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/data/visual-art/eda/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
@@ -15,11 +50,6 @@
   <url>
     <loc>/docs/math/intro/</loc>
     <lastmod>2020-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/computer_science/cs/</loc>
-    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -195,6 +225,11 @@
   <url>
     <loc>/docs/web/my-app/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/math/machinelearning/activation/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -633,6 +668,11 @@
   </url>
   
   <url>
+    <loc>/docs/computer_science/software-engineering/sorts/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/math/intro/probability/s110_l05_conditioning_2/</loc>
     <lastmod>2020-10-27T00:00:00+00:00</lastmod>
   </url>
@@ -762,6 +802,11 @@
   </url>
   
   <url>
+    <loc>/docs/coding/functional-coding/python/packages/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/math/intro/probability/s110_l07_l08_random_variables_distributions/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
   </url>
@@ -779,11 +824,6 @@
   <url>
     <loc>/docs/machinelearning/models/deep-learning/transformers/hugging-face/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/coding/functional-coding/python/packages/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -857,6 +897,11 @@
   </url>
   
   <url>
+    <loc>/docs/math/machinelearning/activation/math-proof/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/models/deep-learning/transformers/benchmark/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
@@ -892,13 +937,13 @@
   </url>
   
   <url>
-    <loc>/docs/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+    <loc>/blog/2020/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2020/</loc>
-    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+    <loc>/docs/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -912,13 +957,18 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2020/11/15/temperature/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

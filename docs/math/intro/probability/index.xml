@@ -24,7 +24,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;probability-and-life&#34;&gt;Probability and Life&lt;/h4&gt;
+&lt;h3 id=&#34;probability-and-life&#34;&gt;Probability and Life&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Genetics&lt;/li&gt;
 &lt;li&gt;Finance&lt;/li&gt;
@@ -48,11 +48,11 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;what-is-a-sample-space-s&#34;&gt;What is a sample space &lt;code&gt;S&lt;/code&gt;?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-a-sample-space-s&#34;&gt;What is a sample space &lt;code&gt;S&lt;/code&gt;?&lt;/h3&gt;
 &lt;p&gt;The set of all possible outcomes of a (random) experiment.&lt;/p&gt;
-&lt;h4 id=&#34;what-is-an-event&#34;&gt;What is an event?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-an-event&#34;&gt;What is an event?&lt;/h3&gt;
 &lt;p&gt;A subset of the sample space.&lt;/p&gt;
-&lt;h4 id=&#34;what-is-probability&#34;&gt;What is probability?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-probability&#34;&gt;What is probability?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;The very naive definition of $P_{(A)}$
 &lt;ul&gt;
@@ -91,7 +91,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;what-are-some-basic-principles-of-counting&#34;&gt;What are some basic principles of counting?&lt;/h4&gt;
+&lt;h3 id=&#34;what-are-some-basic-principles-of-counting&#34;&gt;What are some basic principles of counting?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Multiplication rules:&lt;/p&gt;
@@ -118,7 +118,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;how-to-choose-k-objects-out-of-n&#34;&gt;How to choose $k$ objects out of $n$?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-choose-k-objects-out-of-n&#34;&gt;How to choose $k$ objects out of $n$?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Sampling table&lt;/li&gt;
 &lt;/ul&gt;
@@ -198,7 +198,7 @@
 &lt;p&gt;&lt;img src=&#34;https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-1.1.0&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=496&amp;amp;fit=clip&#34; alt=&#34;icecream&#34;&gt;&lt;br&gt;
 &lt;a href=&#34;https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-1.1.0&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=496&amp;amp;fit=clip&#34;&gt;Image Source&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KbB0FjPg0mw&amp;amp;list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&amp;amp;index=1&#34;&gt;Lecture 1: Probability and Counting | Statistics 110&lt;/a&gt;
 &lt;ul&gt;
@@ -211,7 +211,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.amazon.de/Introduction-Quantitative-Finance-Stephen-Blyth/dp/0199666598&#34;&gt;An Introduction to Quantitative Finance by Stephen Blyth&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;terms&#34;&gt;Terms&lt;/h4&gt;
+&lt;h3 id=&#34;terms&#34;&gt;Terms&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate&#34;&gt;Bose-Einstein condensate (BEC)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -240,7 +240,7 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;story-proof&#34;&gt;Story Proof&lt;/h4&gt;
+&lt;h3 id=&#34;story-proof&#34;&gt;Story Proof&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Proof by interpretation
 &lt;ul&gt;
@@ -273,11 +273,11 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Alexandre-Th%C3%A9ophile_Vandermonde&#34;&gt;Alexandre-Théophile Vandermonde&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h4&gt;
+&lt;h3 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Labeling people is dangerous, but labeling events in a probability problem is important&lt;/li&gt;
 &lt;li&gt;Think about the subtle differences between probabilities of
@@ -319,12 +319,12 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;what-is-pigeonhole-principle&#34;&gt;What is pigeonhole principle?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-pigeonhole-principle&#34;&gt;What is pigeonhole principle?&lt;/h3&gt;
 &lt;p&gt;If $n$ items are put into $m$ containers, with $n &amp;gt; m$ then at least one container must contain more than one item.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34; alt=&#34;pigeonhole principle&#34;&gt;&lt;br&gt;
 &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34;&gt;pigeonhole principle&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;what-is-the-probability-of-two-people-among-k-people-having-the-same-birthday&#34;&gt;What is the probability of two people among $k$ people having the same birthday?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-the-probability-of-two-people-among-k-people-having-the-same-birthday&#34;&gt;What is the probability of two people among $k$ people having the same birthday?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;If $k &amp;gt; 366$, $P = 1$&lt;/li&gt;
 &lt;li&gt;If $k&amp;lt;366$, what is the minimal $k$ to get $P \approx 0.5$?
@@ -348,7 +348,7 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;probability-properties&#34;&gt;Probability Properties&lt;/h4&gt;
+&lt;h3 id=&#34;probability-properties&#34;&gt;Probability Properties&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;$P_{(A^c)} = 1-P_{(A)}$&lt;/li&gt;
 &lt;li&gt;$P_{(A)} \le P_{(B)}$ if $A$ is contained in $B$ ($A \in B$)
@@ -365,7 +365,7 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
 &lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34; alt=&#34;Inclusion–exclusion illustrated by a Venn diagram for three sets&#34;&gt;&lt;br&gt;
 &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34;&gt;Inclusion–exclusion illustrated by a Venn diagram for three sets&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;de-montmorts-problem&#34;&gt;De Montmort&amp;rsquo;s Problem&lt;/h4&gt;
+&lt;h3 id=&#34;de-montmorts-problem&#34;&gt;De Montmort&amp;rsquo;s Problem&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;1713&lt;/li&gt;
 &lt;li&gt;matching problem for gambling
@@ -397,9 +397,9 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
 &lt;/div&gt;
 
 &lt;br&gt;
-&lt;h4 id=&#34;independence-means-multiplication&#34;&gt;Independence means multiplication&lt;/h4&gt;
+&lt;h3 id=&#34;independence-means-multiplication&#34;&gt;Independence means multiplication&lt;/h3&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;newtonpepys-problem-another-gambling-problem-&#34;&gt;Newton–Pepys problem: another gambling problem 🎲&lt;/h4&gt;
+&lt;h3 id=&#34;newtonpepys-problem-another-gambling-problem-&#34;&gt;Newton–Pepys problem: another gambling problem 🎲&lt;/h3&gt;
 &lt;p&gt;Which of the following three propositions has the greatest chance of success?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A. Six fair dice are tossed independently and at least one “6” appears.&lt;/li&gt;
@@ -410,7 +410,7 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
 &lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f2ec31fa405ee2da878b9989baa1b5387025dce1&#34; alt=&#34;Newton–Pepys problem&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f2f2780521f3bc5e4ececb4ea588ed11f152b1ef&#34; alt=&#34;Newton–Pepys problem&#34;&gt;
 &lt;br&gt;&lt;/p&gt;
-&lt;h4 id=&#34;conditional-probability-&#34;&gt;Conditional probability 🏄‍♂️&lt;/h4&gt;
+&lt;h3 id=&#34;conditional-probability-&#34;&gt;Conditional probability 🏄‍♂️&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;How do you update probabilities/beliefs/uncertainty based on new evidence?&lt;/li&gt;
 &lt;li&gt;Do you update in a coherent, consistent, and logical manner?&lt;/li&gt;
@@ -420,7 +420,7 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_problem&#34;&gt;Newton–Pepys problem&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -445,7 +445,7 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
 
 &lt;/div&gt;
 
-&lt;h4 id=&#34;how-do-you-solve-a-problem&#34;&gt;How do you solve a problem?&lt;/h4&gt;
+&lt;h3 id=&#34;how-do-you-solve-a-problem&#34;&gt;How do you solve a problem?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Try simple and extreme conditions&lt;/li&gt;
 &lt;li&gt;Try to decompose a complex problem into simpler pieces&lt;/li&gt;
@@ -484,7 +484,7 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
       <description>
         
         
-        &lt;h2 id=&#34;gamblers-rules&#34;&gt;Gambler&amp;rsquo;s Rules&lt;/h2&gt;
+        &lt;h3 id=&#34;gamblers-rules&#34;&gt;Gambler&amp;rsquo;s Rules&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -515,10 +515,10 @@ An equation that relates one or more functions and their derivatives&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;random-variables&#34;&gt;Random variables&lt;/h2&gt;
+&lt;h3 id=&#34;random-variables&#34;&gt;Random variables&lt;/h3&gt;
 &lt;p&gt;A function from the sample space S to the rea lline&lt;/p&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;bernoulli-distribution&#34;&gt;Bernoulli distribution&lt;/h2&gt;
+&lt;h3 id=&#34;bernoulli-distribution&#34;&gt;Bernoulli distribution&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;The Bernoulli distribution, named after Swiss mathematician Jacob Bernoulli, is the discrete probability distribution of a random variable which takes the value 1 with probability $p$ and the value 0 with probability $q = 1 − p$.
 &lt;ul&gt;
@@ -528,7 +528,7 @@ An equation that relates one or more functions and their derivatives&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;binomial-distribution&#34;&gt;Binomial distribution&lt;/h2&gt;
+&lt;h3 id=&#34;binomial-distribution&#34;&gt;Binomial distribution&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;In n independent Bernoulli trails, e.g. flipping a coin $n$ times, the distribution of success is called Binomial distribution&lt;/li&gt;
 &lt;li&gt;Indicator variables&lt;/li&gt;

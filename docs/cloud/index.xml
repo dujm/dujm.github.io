@@ -15,6 +15,20 @@
     
     
     <item>
+      <title>Docs: DevOps</title>
+      <link>/docs/cloud/devops/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/devops/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: AWS SDK Setup</title>
       <link>/docs/cloud/aws_sdk_cli/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
@@ -24,7 +38,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;1-install-aws-command-line-interface-cli&#34;&gt;1. Install AWS Command Line Interface (CLI)&lt;/h4&gt;
+&lt;h3 id=&#34;1-install-aws-command-line-interface-cli&#34;&gt;1. Install AWS Command Line Interface (CLI)&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/cli/&#34;&gt;Doc&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Optional: activate conda environment&lt;/span&gt;
 &lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; activate pinenuts
@@ -35,7 +49,7 @@ pip install awscli
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install command completion feature on Raspberry Pi’s CLI interface&lt;/span&gt;
 &lt;span style=&#34;color:#204a87&#34;&gt;complete&lt;/span&gt; -C aws_completer aws
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;2-setup-security-credentials&#34;&gt;2. Setup Security Credentials&lt;/h4&gt;
+&lt;h3 id=&#34;2-setup-security-credentials&#34;&gt;2. Setup Security Credentials&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://console.aws.amazon.com/iam/home?region=eu-west-1#/security_credentials&#34;&gt;Security_credentials&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 1) Create Access Key ID and secret access keys&lt;/span&gt;
 &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
@@ -51,7 +65,7 @@ AWS Secret Access Key &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt
 Default region name &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;None&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;: eu-west-1
 Default output format &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;None&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;: json
 &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;3-use-aws-sdk-in-your-local-terminal&#34;&gt;3. Use AWS SDK in your local terminal&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-use-aws-sdk-in-your-local-terminal&#34;&gt;3. Use AWS SDK in your local terminal&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Create a new Thing&lt;/span&gt;
 aws iot create-thing --thing-name &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;YourThingName&amp;#34;&lt;/span&gt;
 
@@ -67,11 +81,11 @@ aws s3 ls s3://greengrass-bucket-pinenuts
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Copy files to your bucket&lt;/span&gt;
 aws s3 cp myfolder s3://greengrass-bucket-pinenuts --recursive
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;4-use-aws-sdk-in-python-boto3-package&#34;&gt;4. Use AWS SDK in Python (Boto3 package)&lt;/h4&gt;
+&lt;h3 id=&#34;4-use-aws-sdk-in-python-boto3-package&#34;&gt;4. Use AWS SDK in Python (Boto3 package)&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#installation&#34;&gt;Boto 3&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install boto3&lt;/span&gt;
 $ pip install boto3
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;use-boto3-python-package&#34;&gt;Use boto3 python package&lt;/h5&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;use-boto3-python-package&#34;&gt;Use boto3 python package&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;boto3&lt;/span&gt;
 
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Let&amp;#39;s use Amazon S3&lt;/span&gt;
@@ -98,7 +112,7 @@ $ pip install boto3
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;about-azure-devops&#34;&gt;About Azure DevOps&lt;/h4&gt;
+&lt;h3 id=&#34;about-azure-devops&#34;&gt;About Azure DevOps&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Repo: a git repo (e.g. clone, fork etc)&lt;/li&gt;
 &lt;li&gt;Pipeline&lt;/li&gt;
@@ -110,7 +124,7 @@ $ pip install boto3
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;1-what-is-azure-pipeline&#34;&gt;1. What is Azure Pipeline?&lt;/h4&gt;
+&lt;h3 id=&#34;1-what-is-azure-pipeline&#34;&gt;1. What is Azure Pipeline?&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops&#34;&gt;Azure Pipelines&lt;/a&gt; is a cloud service that you can use to automatically &lt;strong&gt;build and test&lt;/strong&gt; your code project and make it available to other users. It works with just about any language or project type.&lt;/p&gt;
 &lt;p&gt;Azure Pipelines combines &lt;strong&gt;continuous integration (CI)&lt;/strong&gt; and &lt;strong&gt;continuous delivery (CD)&lt;/strong&gt; to constantly and consistently test and build your code and ship it to any target.&lt;/p&gt;
 &lt;table&gt;
@@ -144,7 +158,7 @@ $ pip install boto3
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&#34;2-create-an-azure-pipeline-to-build-a-github-repository&#34;&gt;2. Create an Azure Pipeline to build a GitHub repository&lt;/h4&gt;
+&lt;h3 id=&#34;2-create-an-azure-pipeline-to-build-a-github-repository&#34;&gt;2. Create an Azure Pipeline to build a GitHub repository&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;On GitHub
 &lt;ul&gt;
@@ -163,7 +177,7 @@ $ pip install boto3
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;3-customize-your-pipeline&#34;&gt;3. Customize your pipeline&lt;/h4&gt;
+&lt;h3 id=&#34;3-customize-your-pipeline&#34;&gt;3. Customize your pipeline&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Edit a yml file on Azure DevOps project/pipeline/Builds =&amp;gt; Commit and Run =&amp;gt; The yml file will be pushed to GitHub automatically&lt;/p&gt;
@@ -172,7 +186,7 @@ $ pip install boto3
 &lt;p&gt;Push a new yml file to GitHub =&amp;gt; On Azure DevOps, select &lt;code&gt;Existing Azure pipeline YAML file&lt;/code&gt; =&amp;gt; Select the yml on GitHub&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;4-pipeline-structures&#34;&gt;4. Pipeline structures&lt;/h4&gt;
+&lt;h3 id=&#34;4-pipeline-structures&#34;&gt;4. Pipeline structures&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Stage&lt;/p&gt;
@@ -219,7 +233,7 @@ $ pip install boto3
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=H-R2bCXfz8I&#34;&gt;Intro to Azure DevOps - Source Control, CI/CD, Automation&lt;/a&gt;&lt;/p&gt;
@@ -256,7 +270,7 @@ $ pip install boto3
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;1-set-up-google-cloud-platform-gcp&#34;&gt;1. Set up Google Cloud Platform (GCP)&lt;/h4&gt;
+&lt;h3 id=&#34;1-set-up-google-cloud-platform-gcp&#34;&gt;1. Set up Google Cloud Platform (GCP)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go to &lt;a href=&#34;https://console.cloud.google.com/apis/credentials/serviceaccountkey?_ga=2.262041677.-1312817518.1554382349&amp;amp;project=quiet-mechanic-236610&amp;amp;folder&amp;amp;organizationId&#34;&gt;Create service account key page&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Select project on top &amp;lsquo;pines1&amp;rsquo;&lt;/li&gt;
@@ -266,7 +280,7 @@ $ pip install boto3
 &lt;li&gt;&lt;a href=&#34;https://console.developers.google.com/billing/enable?project=650311275390&#34;&gt;Enable billing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GOOGLE_APPLICATION_CREDENTIALS&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/home/pi/gcp/pines1-6e82e765805d.json&amp;#34;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2-install-gcp-sdk&#34;&gt;2. Install GCP SDK&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-install-gcp-sdk&#34;&gt;2. Install GCP SDK&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://cloud.google.com/sdk/docs/downloads-apt-get&#34;&gt;Installing with apt-get for Debian and Ubuntu&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CLOUD_SDK_REPO&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;cloud-sdk-&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt;lsb_release -c -s&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
 
@@ -275,9 +289,9 @@ $ pip install boto3
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; sudo apt-key add -
 
 sudo apt-get update &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt-get install google-cloud-sdk
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;3-setup-gcloud-sdk&#34;&gt;3. Setup GCloud SDK&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-setup-gcloud-sdk&#34;&gt;3. Setup GCloud SDK&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gcloud init
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;4-authorizing-cloud-sdk-tools&#34;&gt;4. Authorizing Cloud SDK tools&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-authorizing-cloud-sdk-tools&#34;&gt;4. Authorizing Cloud SDK tools&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://cloud.google.com/sdk/docs/authorizing&#34;&gt;Authorizing a service accounts&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gloud auth login
 gcloud auth application-default login
@@ -296,7 +310,7 @@ gcloud auth list
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;how-to-load-csv-files-to-colab&#34;&gt;How to load csv files to colab?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-load-csv-files-to-colab&#34;&gt;How to load csv files to colab?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;From Github (Files &amp;lt; 25MB)&lt;/li&gt;
 &lt;/ul&gt;

@@ -24,7 +24,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;data-frame-eda-packages&#34;&gt;Data Frame EDA Packages&lt;/h4&gt;
+&lt;h3 id=&#34;data-frame-eda-packages&#34;&gt;Data Frame EDA Packages&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/pandas-profiling/pandas-profiling&#34;&gt;pandas profiling&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/fbdesignpro/sweetviz&#34;&gt;sweetviz&lt;/a&gt;&lt;/li&gt;
@@ -44,7 +44,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;which-type-of-visualization-plot-to-choose&#34;&gt;Which type of visualization plot to choose?&lt;/h4&gt;
+&lt;h3 id=&#34;which-type-of-visualization-plot-to-choose&#34;&gt;Which type of visualization plot to choose?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.data-to-viz.com/&#34;&gt;data-to-viz guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -96,7 +96,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;factoextra--extract-and-visualize-the-results-of-multivariate-data-analyses&#34;&gt;factoextra : Extract and Visualize the Results of Multivariate Data Analyses&lt;/h4&gt;
+&lt;h3 id=&#34;factoextra--extract-and-visualize-the-results-of-multivariate-data-analyses&#34;&gt;factoextra : Extract and Visualize the Results of Multivariate Data Analyses&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/kassambara/factoextra&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
@@ -134,7 +134,7 @@
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/kassambara/factoextra/master/tools/README-mca-graph-of-individuals-1.png&#34; alt=&#34;MCA&#34;&gt;&lt;br&gt;
 &lt;a href=&#34;https://raw.githubusercontent.com/kassambara/factoextra/master/tools/README-mca-graph-of-individuals-1.png&#34;&gt;MCA&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
 &lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/kassambara/factoextra&#34;&gt;factoextra&lt;/a&gt;  has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
 &lt;br&gt; 
 
@@ -151,7 +151,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;gr-framework&#34;&gt;GR framework&lt;/h4&gt;
+&lt;h3 id=&#34;gr-framework&#34;&gt;GR framework&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gr-framework.org/python.html&#34;&gt;gr&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -166,11 +166,11 @@
 &lt;p&gt;It leverages the scikit-learn Python toolbox for multivariate statistics with applications such as predictive modelling, classification, decoding, or connectivity analysis.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;3-d-scientific-visualization-in-the-jupyter-notebook&#34;&gt;3-D Scientific Visualization in the Jupyter Notebook&lt;/h4&gt;
+&lt;h3 id=&#34;3-d-scientific-visualization-in-the-jupyter-notebook&#34;&gt;3-D Scientific Visualization in the Jupyter Notebook&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/QuantStack/ipygany&#34;&gt;ipygany&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;interactive-graph-visualization-with-cytoscapejs-in-jupyterlab-and-the-jupyter-notebook&#34;&gt;Interactive graph visualization with cytoscape.js in JupyterLab and the Jupyter notebook&lt;/h4&gt;
+&lt;h3 id=&#34;interactive-graph-visualization-with-cytoscapejs-in-jupyterlab-and-the-jupyter-notebook&#34;&gt;Interactive graph visualization with cytoscape.js in JupyterLab and the Jupyter notebook&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/QuantStack/ipycytoscape&#34;&gt;ipycytoscape&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -191,7 +191,7 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytosca
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;r-timevis-create-interactive-timeline-visualization-in-r&#34;&gt;R timevis: create interactive timeline visualization in R&lt;/h4&gt;
+&lt;h3 id=&#34;r-timevis-create-interactive-timeline-visualization-in-r&#34;&gt;R timevis: create interactive timeline visualization in R&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/daattali/timevis&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;timevis&lt;/code&gt; lets you create rich and fully interactive timeline visualizations in R. Timelines can be included in Shiny apps and R markdown documents, or viewed from the R console and RStudio Viewer.&lt;/li&gt;
@@ -214,9 +214,9 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytosca
         
         
         &lt;br&gt;
-&lt;h2 id=&#34;libraries-for-geospatial-data-visualization-in-pythonhttpstowardsdatasciencecombest-libraries-for-geospatial-data-visualisation-in-python-d23834173b35&#34;&gt;&lt;a href=&#34;https://towardsdatascience.com/best-libraries-for-geospatial-data-visualisation-in-python-d23834173b35&#34;&gt;Libraries for Geospatial Data Visualization in Python&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;libraries-for-geospatial-data-visualization-in-pythonhttpstowardsdatasciencecombest-libraries-for-geospatial-data-visualisation-in-python-d23834173b35&#34;&gt;&lt;a href=&#34;https://towardsdatascience.com/best-libraries-for-geospatial-data-visualisation-in-python-d23834173b35&#34;&gt;Libraries for Geospatial Data Visualization in Python&lt;/a&gt;&lt;/h3&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;pyvizholovizgeoviews-datashader-hvplot&#34;&gt;PyViz/HoloViz(Geoviews, Datashader, HvPlot)&lt;/h4&gt;
+&lt;h3 id=&#34;pyvizholovizgeoviews-datashader-hvplot&#34;&gt;PyViz/HoloViz(Geoviews, Datashader, HvPlot)&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Holoviz maintained libraries have all data visualisations you might need, including dashboards and interactive visualisation. Geoviews, in particular, with its dedicated Geospatial data visualisation library, provides an easy to use and convenient geospatial data.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -249,26 +249,26 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytosca
     &lt;span style=&#34;color:#000&#34;&gt;tools&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;hover&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;],&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;600&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;projection&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;crs&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Robinson&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
 &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;folium&#34;&gt;Folium&lt;/h4&gt;
+&lt;h3 id=&#34;folium&#34;&gt;Folium&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;It is built on top of Leaflet.js and can cover most of your mapping needs in Python with its great plugins&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;foliumm&lt;/span&gt; 
 &lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;folium&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Map&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;location&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;45.5236&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;122.6750&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;])&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;keplerglhttpsgithubcomkeplerglkeplerglblobmasterdocskeplergl-jupyterreadmemd&#34;&gt;&lt;a href=&#34;https://github.com/keplergl/kepler.gl/blob/master/docs/keplergl-jupyter/README.md&#34;&gt;KeplerGL&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;keplerglhttpsgithubcomkeplerglkeplerglblobmasterdocskeplergl-jupyterreadmemd&#34;&gt;&lt;a href=&#34;https://github.com/keplergl/kepler.gl/blob/master/docs/keplergl-jupyter/README.md&#34;&gt;KeplerGL&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;kepler.gl is a web-based visualisation tool for large Geospatial datasets built on top of deck.gl. Uber made it an open-source in 2018, and its functionality is impressive. You can easily drag and drop your dataset and tweak it immediately on the web to visualise large scale geospatial datasets with ease.&lt;/li&gt;
 &lt;li&gt;It combines a world-class visualisation tool, an easy to use User interface (UI), and flexibility of python and Jupyter notebooks.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;ipyleaflet&#34;&gt;IpyLeaflet&lt;/h4&gt;
+&lt;h3 id=&#34;ipyleaflet&#34;&gt;IpyLeaflet&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;It is built on top of Jupyter Widgets and Leaflet visualisation library.&lt;/li&gt;
 &lt;li&gt;The interactive functionality in IpyLeaflet is unparalleled as Widgets enable bidirectional interactions. Therefore, your maps are not only interactive but also can capture user inputs to trigger new computations.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;geopandas&#34;&gt;Geopandas&lt;/h4&gt;
+&lt;h3 id=&#34;geopandas&#34;&gt;Geopandas&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Only for static maps&lt;/li&gt;
 &lt;li&gt;However, recent advances and additions of &lt;a href=&#34;https://github.com/geopandas/contextily&#34;&gt;Contextily&lt;/a&gt; for base maps and &lt;a href=&#34;https://github.com/matplotlib/ipympl&#34;&gt;IPYMPL&lt;/a&gt; for interactive matplotlib plots makes it straightforward to create interactive maps with Geopandas.&lt;/li&gt;

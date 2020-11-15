@@ -31,18 +31,20 @@
 &lt;/div&gt;
 
 &lt;br&gt;
-&lt;h4 id=&#34;1-how-do-you-evaluate-codes&#34;&gt;1. How do you evaluate codes?&lt;/h4&gt;
+&lt;h3 id=&#34;1-how-do-you-evaluate-codes&#34;&gt;1. How do you evaluate codes?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Time efficiency: Faster? Time complexity&lt;/li&gt;
 &lt;li&gt;Space efficiency: Less memory intensive?&lt;/li&gt;
 &lt;li&gt;More readable ?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;2-what-is-big-o-notation&#34;&gt;2. What is big-O notation?&lt;/h4&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;2-what-is-big-o-notation&#34;&gt;2. What is big-O notation?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;a fuzzy way for counting&lt;/li&gt;
 &lt;li&gt;a big picture of the time efficiency of the code&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;3-how-to-measure-the-code-performance-using--big-o&#34;&gt;3. How to measure the code performance using  big-O?&lt;/h4&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;3-how-to-measure-the-code-performance-using--big-o&#34;&gt;3. How to measure the code performance using  big-O?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Assignment statements and if statements that are only executed once regardless of the size of the problem are O(1).&lt;/li&gt;
 &lt;li&gt;A simple “for” loop from 0 to n (with no internal loops), contributes O(n) (linear complexity);
@@ -52,7 +54,7 @@ a nested loop of the same type (or bounded by the first loop parameter), gives O
 &lt;li&gt;A loop with a not-O(1) execution inside, simply multiplies the complexity of the body of the loop, by the number of times the loop will execute.&lt;/li&gt;
 &lt;li&gt;When dealing with multiple statements, add them up.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;rules&#34;&gt;Rules:&lt;/h4&gt;
+&lt;h3 id=&#34;rules&#34;&gt;Rules:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Constants doesn&amp;rsquo;t matter&lt;/p&gt;
@@ -76,16 +78,17 @@ a nested loop of the same type (or bounded by the first loop parameter), gives O
 &lt;p&gt;O(1) &amp;lt; O(log n) &amp;lt; O( Sqrt(n) ) &amp;lt; O(n) &amp;lt; O(n log n) &amp;lt; O($n^2$) &amp;lt; O($n^3$) &amp;lt; O($2^n$)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;4-what-are-the-big-o-notations-from-these-ml-techniques&#34;&gt;4. What are the big-O notations from these ML techniques?&lt;/h4&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;4-what-are-the-big-o-notations-from-these-ml-techniques&#34;&gt;4. What are the big-O notations from these ML techniques?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Linear:  O(N)&lt;/li&gt;
 &lt;li&gt;Sorting: O(nlogN)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;5-bigo-of-various-operations-in-current-cpython&#34;&gt;5. BigO of various operations in current CPython&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://wiki.python.org/moin/TimeComplexity&#34;&gt;Time Complexity)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;5-bigo-of-various-operations-in-current-cpython&#34;&gt;5. BigO of various operations in current CPython&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.python.org/moin/TimeComplexity&#34;&gt;Time Complexity&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;6-references&#34;&gt;6. References&lt;/h4&gt;
+&lt;h3 id=&#34;6-references&#34;&gt;6. References&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.albertgao.xyz/2016/08/09/everything-you-need-to-know-about-big-o-notation/&#34;&gt;Everything about big-o&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pdfs.semanticscholar.org/a8b4/786c9128d4a94caeb67c858ab4f4288c49ff.pdf&#34;&gt;SVM Analysis&lt;/a&gt;&lt;/li&gt;
@@ -97,6 +100,23 @@ a nested loop of the same type (or bounded by the first loop parameter), gives O
 &lt;li&gt;&lt;a href=&#34;https://ai.stackexchange.com/questions/5728/what-is-the-time-complexity-for-training-a-neural-network-using-back-propagation&#34;&gt;Back Prop&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/dj-basis/BigO/blob/master/big-o-cheatsheet.pdf&#34;&gt;Big-O cheatsheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Sorts</title>
+      <link>/docs/computer_science/software-engineering/sorts/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/software-engineering/sorts/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;sorts&#34;&gt;Sorts&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/ineffective_sorts.png&#34; alt=&#34;Ineffective Sorts&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://xkcd.com/1185/&#34;&gt;Image from xkcd&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>

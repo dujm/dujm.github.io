@@ -24,13 +24,13 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;install-pytorch&#34;&gt;Install PyTorch&lt;/h4&gt;
+&lt;h3 id=&#34;install-pytorch&#34;&gt;Install PyTorch&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://pytorch.org/get-started/locally/#macos-version&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;conda install pytorch torchvision -c pytorch
 &lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h4 id=&#34;what-is-pytorch&#34;&gt;What is PyTorch?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-pytorch&#34;&gt;What is PyTorch?&lt;/h3&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&#34;&gt;pytorch 60 min&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pytorch.org/&#34;&gt;pytorch&lt;/a&gt;&lt;/li&gt;
@@ -50,7 +50,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;high-level-training-apis-in-the-pytorch-ecosystemhttpshackernooncomeight-leaders-explain-their-model-training-libraries-from-pytorch-ecosystem-nk4g32iq&#34;&gt;&lt;a href=&#34;https://hackernoon.com/eight-leaders-explain-their-model-training-libraries-from-pytorch-ecosystem-nk4g32iq&#34;&gt;High-level training APIs in the PyTorch Ecosystem&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;high-level-training-apis-in-the-pytorch-ecosystemhttpshackernooncomeight-leaders-explain-their-model-training-libraries-from-pytorch-ecosystem-nk4g32iq&#34;&gt;&lt;a href=&#34;https://hackernoon.com/eight-leaders-explain-their-model-training-libraries-from-pytorch-ecosystem-nk4g32iq&#34;&gt;High-level training APIs in the PyTorch Ecosystem&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Skorch&lt;/li&gt;
 &lt;li&gt;Catalyst&lt;/li&gt;
@@ -59,7 +59,7 @@
 &lt;li&gt;PyTorch Lightning&lt;/li&gt;
 &lt;li&gt;TorchBearer&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;serve&#34;&gt;Serve&lt;/h4&gt;
+&lt;h3 id=&#34;serve&#34;&gt;Serve&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/pytorch/serve&#34;&gt;Model Serving on PyTorch&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/pytorch/serve/blob/master/docs/README.md&#34;&gt;Full Documentation&lt;/a&gt;&lt;/li&gt;

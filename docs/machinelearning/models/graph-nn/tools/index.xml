@@ -23,7 +23,7 @@
       <description>
         
         
-        &lt;h4 id=&#34;analysis-of-large-graphs&#34;&gt;Analysis of large graphs&lt;/h4&gt;
+        &lt;h3 id=&#34;analysis-of-large-graphs&#34;&gt;Analysis of large graphs&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://scikit-network.readthedocs.io/en/latest/installation.html&#34;&gt;scikit-network&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/dj-bioinformatics/ipycytoscape&#34;&gt;ipycytoscape&lt;/a&gt;&lt;/li&gt;
@@ -59,7 +59,7 @@
       <description>
         
         
-        &lt;h4 id=&#34;crank--prioritizing-network-communities&#34;&gt;CRank- Prioritizing network communities&lt;/h4&gt;
+        &lt;h3 id=&#34;crank--prioritizing-network-communities&#34;&gt;CRank- Prioritizing network communities&lt;/h3&gt;
 &lt;p&gt;CRank is an automatic &lt;strong&gt;unsupervised&lt;/strong&gt; method for &lt;strong&gt;prioritizing network communities&lt;/strong&gt; and identifying the most promising ones for further experimentation.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mims-harvard/crank/master/images/crank-overview.png&#34; alt=&#34;CRank&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;

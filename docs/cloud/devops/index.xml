@@ -1,0 +1,55 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – DevOps</title>
+    <link>/docs/cloud/devops/</link>
+    <description>Recent content in DevOps on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/cloud/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Courses</title>
+      <link>/docs/cloud/devops/course/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/devops/course/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;mlops-machine-learning-operations-fundamentals&#34;&gt;MLOps (Machine Learning Operations) Fundamentals&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/mlops-fundamentals?utm_campaign=opencourse.Yo-aqRJkEeu9ZBLzQTJEhw.launch&amp;amp;utm_medium=email&amp;amp;utm_source=other&#34;&gt;Offered by Coursera and Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Evolution Model</title>
+      <link>/docs/cloud/devops/evolution-model/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/devops/evolution-model/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbs.twimg.com/media/EmrU1L2UwAEBYu_?format=jpg&amp;amp;name=large&#34; alt=&#34;DevOps Evolution Model&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Image is copied from
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Next we have a maturity model that has never been shown publicly before to my knowledge; it appears to have sprung fully formed from the forehead of some god. &lt;a href=&#34;https://t.co/7PrKVKhTBG&#34;&gt;pic.twitter.com/7PrKVKhTBG&lt;/a&gt;&lt;/p&gt;&amp;mdash; HydroxyCoreyQuinn (@QuinnyPig) &lt;a href=&#34;https://twitter.com/QuinnyPig/status/1327107148405305345?ref_src=twsrc%5Etfw&#34;&gt;November 13, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

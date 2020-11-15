@@ -24,10 +24,10 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
 &lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/thunlp/GNNPapers&#34;&gt;GNNPapers&lt;/a&gt; has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
 &lt;br&gt; 
-&lt;h4 id=&#34;contentcontent&#34;&gt;&lt;a href=&#34;#content&#34;&gt;Content&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;contentcontent&#34;&gt;&lt;a href=&#34;#content&#34;&gt;Content&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;a href=&#34;#survey-papers&#34;&gt;1. Survey&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt; 
 &lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;a href=&#34;#models&#34;&gt;2. Models&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
@@ -82,7 +82,7 @@
 &lt;/tr&gt; 
 &lt;/table&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;survey-paperscontent&#34;&gt;&lt;a href=&#34;#content&#34;&gt;Survey papers&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;survey-paperscontent&#34;&gt;&lt;a href=&#34;#content&#34;&gt;Survey papers&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Introduction to Graph Neural Networks.&lt;/strong&gt; Synthesis Lectures on Artificial Intelligence and Machine Learning, Morgan &amp;amp; Claypool Publishers, 2020. &lt;a href=&#34;https://www.morganclaypool.com/doi/10.2200/S00980ED1V01Y202001AIM045&#34;&gt;book&lt;/a&gt;&lt;/p&gt;
@@ -125,7 +125,7 @@
 &lt;p&gt;&lt;em&gt;Scarselli, Franco and Gori, Marco and Tsoi, Ah Chung and Hagenbuchner, Markus and Monfardini, Gabriele.&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;modelscontent&#34;&gt;&lt;a href=&#34;#content&#34;&gt;Models&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;modelscontent&#34;&gt;&lt;a href=&#34;#content&#34;&gt;Models&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;basic-modelscontent&#34;&gt;&lt;a href=&#34;#content&#34;&gt;Basic Models&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -729,7 +729,7 @@
 &lt;p&gt;&lt;em&gt;Difan Zou, Ziniu Hu, Yewen Wang, Song Jiang, Yizhou Sun, Quanquan Gu.&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;applicationscontent&#34;&gt;&lt;a href=&#34;#content&#34;&gt;Applications&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;applicationscontent&#34;&gt;&lt;a href=&#34;#content&#34;&gt;Applications&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;physicscontent&#34;&gt;&lt;a href=&#34;#content&#34;&gt;Physics&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -1887,10 +1887,10 @@
         
         
         &lt;br&gt; 
-&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
 &lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/benedekrozemberczki/awesome-community-detection&#34;&gt;awesome-community-detection&lt;/a&gt; has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://img.shields.io/github/license/benedekrozemberczki/awesome-community-detection.svg?color=blue&amp;amp;style=plastic&#34; alt=&#34;License&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h4&gt;
+&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/benedekrozemberczki/awesome-community-detection/blob/master/factorization.md&#34;&gt;Matrix Factorization&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/benedekrozemberczki/awesome-community-detection/blob/master/deep_learning.md&#34;&gt;Deep Learning&lt;/a&gt;&lt;/li&gt;
@@ -1904,7 +1904,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/benedekrozemberczki/awesome-community-detection/blob/master/others.md&#34;&gt;Others&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/benedekrozemberczki/awesome-community-detection/blob/master/libraries.md&#34;&gt;Libraries&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;more&#34;&gt;More&lt;/h4&gt;
+&lt;h3 id=&#34;more&#34;&gt;More&lt;/h3&gt;
 &lt;p&gt;Similar collections about &lt;a href=&#34;https://github.com/benedekrozemberczki/awesome-graph-classification&#34;&gt;graph classification&lt;/a&gt;, &lt;a href=&#34;https://github.com/benedekrozemberczki/awesome-decision-tree-papers&#34;&gt;classification/regression tree&lt;/a&gt;, &lt;a href=&#34;https://github.com/benedekrozemberczki/awesome-fraud-detection-papers&#34;&gt;fraud detection&lt;/a&gt;, and &lt;a href=&#34;https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers&#34;&gt;gradient boosting&lt;/a&gt; papers with implementations.&lt;/p&gt;
 
       </description>

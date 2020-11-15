@@ -24,7 +24,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;ec2&#34;&gt;EC2&lt;/h4&gt;
+&lt;h3 id=&#34;ec2&#34;&gt;EC2&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;-bash: cd: directory/: Permission denied&lt;/code&gt;
 &lt;ul&gt;
@@ -41,7 +41,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;which-spark-kernel-to-use-on-aws-sagemaker&#34;&gt;Which Spark kernel to use on AWS SageMaker?&lt;/h4&gt;
+&lt;h3 id=&#34;which-spark-kernel-to-use-on-aws-sagemaker&#34;&gt;Which Spark kernel to use on AWS SageMaker?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use python3 and &lt;code&gt;import pysaprk&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;If you want to use &lt;code&gt;spark magic  &lt;/code&gt;
@@ -71,7 +71,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;warnings&#34;&gt;Warnings&lt;/h4&gt;
+&lt;h3 id=&#34;warnings&#34;&gt;Warnings&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -89,7 +89,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;typeerror&#34;&gt;TypeError&lt;/h4&gt;
+&lt;h3 id=&#34;typeerror&#34;&gt;TypeError&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;TypeError: **init**\ () takes 1 positional argument but 3 were given&lt;/code&gt;&lt;/p&gt;
@@ -116,7 +116,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;windows-command&#34;&gt;Windows Command&lt;/h4&gt;
+&lt;h3 id=&#34;windows-command&#34;&gt;Windows Command&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;export is not recognized as an internal or external command&lt;/code&gt;&lt;/p&gt;
@@ -126,7 +126,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;windows-installation&#34;&gt;Windows Installation&lt;/h4&gt;
+&lt;h3 id=&#34;windows-installation&#34;&gt;Windows Installation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;How to install &lt;code&gt;make&lt;/code&gt; for Windows?
 &lt;ul&gt;
@@ -137,7 +137,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt; 
-&lt;h4 id=&#34;errors&#34;&gt;Errors&lt;/h4&gt;
+&lt;h3 id=&#34;errors&#34;&gt;Errors&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;UnicodeDecodeError: &#39;charmap&#39; codec can&#39;t decode byte 0x8d in position 3896: character maps to &amp;lt;undefined&amp;gt;&lt;/code&gt;
 &lt;ul&gt;
@@ -159,7 +159,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;commit&#34;&gt;Commit&lt;/h4&gt;
+&lt;h3 id=&#34;commit&#34;&gt;Commit&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;How to revert last commit in the remote?&lt;/p&gt;
@@ -182,7 +182,7 @@
 &lt;p&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;submodule&#34;&gt;Submodule&lt;/h4&gt;
+&lt;h3 id=&#34;submodule&#34;&gt;Submodule&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;How to remove a Git submodule?&lt;/p&gt;

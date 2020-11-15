@@ -24,7 +24,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;adabelief-optimizer&#34;&gt;AdaBelief Optimizer&lt;/h4&gt;
+&lt;h3 id=&#34;adabelief-optimizer&#34;&gt;AdaBelief Optimizer&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Trains fast as Adam, generalizes well as SGD, and is stable to train GANs.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -35,7 +35,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;adabelief_tf&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;impoty&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;AdaBeliefOptimizer&lt;/span&gt;
 &lt;span style=&#34;color:#000&#34;&gt;optimizer&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;AdaBeliefOptimizer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;learning_rate&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;epsilon&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1e-12&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;watch&#34;&gt;Watch&lt;/h4&gt;
+&lt;h3 id=&#34;watch&#34;&gt;Watch&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCkL2HNDjyhrT6hgWjikmQAg/videos&#34;&gt;Optimization&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -53,7 +53,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;callbacks&#34;&gt;Callbacks&lt;/h4&gt;
+&lt;h3 id=&#34;callbacks&#34;&gt;Callbacks&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/ReduceLROnPlateau&#34;&gt;tf.keras.callbacks.ReduceLROnPlateau&lt;/a&gt;&lt;/p&gt;
@@ -79,7 +79,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;tensorpipe&#34;&gt;TensorPipe&lt;/h4&gt;
+&lt;h3 id=&#34;tensorpipe&#34;&gt;TensorPipe&lt;/h3&gt;
 &lt;p&gt;A high Performance Tensorflow Data Pipeline with State of Art Augmentations and low level optimizations.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/kartik4949/TensorPipe&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;

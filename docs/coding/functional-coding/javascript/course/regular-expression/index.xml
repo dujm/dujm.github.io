@@ -28,7 +28,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/using-the-test-method&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4 id=&#34;1-using-the-test-method-to-check-literal-strings&#34;&gt;1. Using the Test Method to Check Literal Strings&lt;/h4&gt;
+&lt;h3 id=&#34;1-using-the-test-method-to-check-literal-strings&#34;&gt;1. Using the Test Method to Check Literal Strings&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;The &lt;code&gt;.test()&lt;/code&gt; method takes the regex, applies it to a string (which is placed inside the parentheses), and returns true or false if your pattern finds something or not.&lt;/li&gt;
 &lt;li&gt;Notice that quote marks are not required within the regular expression&lt;/li&gt;
@@ -39,7 +39,7 @@
 &lt;span style=&#34;color:#000&#34;&gt;testRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;testStr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Returns true
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;2-match-a-literal-string-with-different-possibilities&#34;&gt;2. Match a Literal String with Different Possibilities&lt;/h4&gt;
+&lt;h3 id=&#34;2-match-a-literal-string-with-different-possibilities&#34;&gt;2. Match a Literal String with Different Possibilities&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Search for multiple patterns using the &lt;code&gt;alternation&lt;/code&gt; or OR operator: &lt;code&gt;|&lt;/code&gt;, for instance,  &lt;code&gt;/yes|no|maybe&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -47,13 +47,13 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;petRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/dog|cat|bird|fish/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; 
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;petRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;petString&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;3-use-flag-i-to-match-both-upper-and-lower-cases&#34;&gt;3. Use flag &lt;code&gt;i&lt;/code&gt; to match both upper and lower cases&lt;/h4&gt;
+&lt;h3 id=&#34;3-use-flag-i-to-match-both-upper-and-lower-cases&#34;&gt;3. Use flag &lt;code&gt;i&lt;/code&gt; to match both upper and lower cases&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-JS&#34; data-lang=&#34;JS&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;myString&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Sunflower&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;fccRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/sunfower/i&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; 
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;fccRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;myString&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt; 
 &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//true
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;4-extract-matches&#34;&gt;4. Extract Matches&lt;/h4&gt;
+&lt;h3 id=&#34;4-extract-matches&#34;&gt;4. Extract Matches&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use &lt;code&gt;.match()&lt;/code&gt; method and apply the method on a string and pass in the regex inside the parentheses&lt;/li&gt;
 &lt;li&gt;The &lt;code&gt;.match &lt;/code&gt;syntax is the &amp;ldquo;opposite&amp;rdquo; of the &lt;code&gt;.test&lt;/code&gt; method you have been using thus far&lt;/li&gt;
@@ -76,7 +76,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;codingRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/coding/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extractStr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;codingRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;5-use-g-flag-to-find-more-than-the-first-match&#34;&gt;5. Use &lt;code&gt;g&lt;/code&gt; Flag to Find More Than the First Match&lt;/h4&gt;
+&lt;h3 id=&#34;5-use-g-flag-to-find-more-than-the-first-match&#34;&gt;5. Use &lt;code&gt;g&lt;/code&gt; Flag to Find More Than the First Match&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Example&lt;/li&gt;
 &lt;/ul&gt;
@@ -84,7 +84,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;starRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/Twinkle/gi&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; 
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;twinkleStar&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;starRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;6-match-anything-with-wildcard-period&#34;&gt;6. Match Anything with Wildcard Period&lt;/h4&gt;
+&lt;h3 id=&#34;6-match-anything-with-wildcard-period&#34;&gt;6. Match Anything with Wildcard Period&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Sometimes you won&amp;rsquo;t (or don&amp;rsquo;t need to) know the exact characters in your patterns. Thinking of all words that match, say, a misspelling would take a long time. Luckily, you can save time using the wildcard character: &lt;code&gt;.&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;The wildcard character &lt;code&gt;.&lt;/code&gt; will match any one character. The wildcard is also called &lt;code&gt;dot&lt;/code&gt; and &lt;code&gt;period&lt;/code&gt;. You can use the wildcard character just like any other character in the regex.&lt;/li&gt;
@@ -103,7 +103,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;unRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/.un/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;unRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;exampleStr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;7-use-character-sets-to-match-single-character-with-multiple-possibilities&#34;&gt;7. Use &lt;strong&gt;Character Sets&lt;/strong&gt; to Match Single Character with Multiple Possibilities&lt;/h4&gt;
+&lt;h3 id=&#34;7-use-character-sets-to-match-single-character-with-multiple-possibilities&#34;&gt;7. Use &lt;strong&gt;Character Sets&lt;/strong&gt; to Match Single Character with Multiple Possibilities&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Search for a literal pattern with some &lt;strong&gt;flexibility&lt;/strong&gt; with character classes, which allow you to define a group of characters you wish to match by placing them inside square brackets &lt;code&gt;[]&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Example 1&lt;/li&gt;
@@ -124,7 +124,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;vowelRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/[aeiou]/gi&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line 
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;quoteSample&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;vowelRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;8-match-letters-of-the-alphabet&#34;&gt;8. Match Letters of the Alphabet&lt;/h4&gt;
+&lt;h3 id=&#34;8-match-letters-of-the-alphabet&#34;&gt;8. Match Letters of the Alphabet&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Inside a character set, you can define a range of characters to match using &lt;code&gt;[]&lt;/code&gt; and &lt;code&gt;-&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Example 1&lt;/li&gt;
@@ -143,7 +143,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;alphabetRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/[a-z]/ig&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; 
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;quoteSample&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;alphabetRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;9-match-numbers-and-letters-of-the-alphabet&#34;&gt;9. Match Numbers and Letters of the Alphabet&lt;/h4&gt;
+&lt;h3 id=&#34;9-match-numbers-and-letters-of-the-alphabet&#34;&gt;9. Match Numbers and Letters of the Alphabet&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;/[0-5]/&lt;/code&gt;matches any number between 0 and 5, including the 0 and 5&lt;/li&gt;
 &lt;li&gt;Combine a range of letters and numbers in a single character set&lt;/li&gt;
@@ -161,7 +161,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;myRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/[h-s2-6]/gi&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; 
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;quoteSample&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;myRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;10-match-single-characters-not-specified&#34;&gt;10. Match Single Characters Not Specified&lt;/h4&gt;
+&lt;h3 id=&#34;10-match-single-characters-not-specified&#34;&gt;10. Match Single Characters Not Specified&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a set of characters that you do not want to match. These types of character sets are called &lt;strong&gt;negated character sets&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Create a negated character set, you place a caret character &lt;code&gt;^&lt;/code&gt; &lt;em&gt;after the opening bracket and before the characters you do not want to match&lt;/em&gt;.&lt;/li&gt;
@@ -173,7 +173,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;myRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/[^aeiou0-9]/gi&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;quoteSample&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;myRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;11-match-characters-that-occur-one-or-more-times&#34;&gt;11. Match Characters that Occur One or More Times&lt;/h4&gt;
+&lt;h3 id=&#34;11-match-characters-that-occur-one-or-more-times&#34;&gt;11. Match Characters that Occur One or More Times&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;You can use the &lt;code&gt;+&lt;/code&gt; character to check if that is the case. Remember, the character or pattern has to be present consecutively. That is, the character has to repeat one after the other.&lt;/p&gt;
@@ -195,7 +195,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;myRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/s+/g&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;difficultSpelling&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;myRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;12-match-characters-that-occur-zero-or-more-times-using-&#34;&gt;12. Match Characters that Occur Zero or More Times using &lt;code&gt;*&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;12-match-characters-that-occur-zero-or-more-times-using-&#34;&gt;12. Match Characters that Occur Zero or More Times using &lt;code&gt;*&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Example 1&lt;/li&gt;
 &lt;/ul&gt;
@@ -232,7 +232,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/find-characters-with-lazy-matching&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4 id=&#34;1-find-characters-with-lazy-matching&#34;&gt;1. Find Characters with Lazy Matching&lt;/h4&gt;
+&lt;h3 id=&#34;1-find-characters-with-lazy-matching&#34;&gt;1. Find Characters with Lazy Matching&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;A greedy match&lt;/strong&gt; finds the longest possible part of a string that fits the regex pattern and returns it as a match.&lt;/p&gt;
@@ -262,7 +262,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;myRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/&amp;lt;.*?&amp;gt;/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;myRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;2-match-beginning-string-patterns&#34;&gt;2. Match Beginning String Patterns&lt;/h4&gt;
+&lt;h3 id=&#34;2-match-beginning-string-patterns&#34;&gt;2. Match Beginning String Patterns&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use the caret character (^) &lt;strong&gt;inside&lt;/strong&gt; a character set to create a negated character set in the form [^thingsThatWillNotBeMatched].&lt;/li&gt;
 &lt;li&gt;Outside of a character set, the &lt;code&gt;caret&lt;/code&gt; is used to search for patterns at the &lt;strong&gt;beginning&lt;/strong&gt; of strings.&lt;/li&gt;
@@ -271,7 +271,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;calRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/^Cal/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;calRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rickyAndCal&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;3-match-ending-string-patterns&#34;&gt;3. Match Ending String Patterns&lt;/h4&gt;
+&lt;h3 id=&#34;3-match-ending-string-patterns&#34;&gt;3. Match Ending String Patterns&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use &lt;code&gt;$&lt;/code&gt; at the end of the regex&lt;/li&gt;
 &lt;/ul&gt;
@@ -283,7 +283,7 @@
 &lt;span style=&#34;color:#000&#34;&gt;storyRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;noEnding&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Returns false
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;4-match-all-letters-and-numbers&#34;&gt;4. Match All Letters and Numbers&lt;/h4&gt;
+&lt;h3 id=&#34;4-match-all-letters-and-numbers&#34;&gt;4. Match All Letters and Numbers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use shortcut character classes (shorthand character classes)&lt;/li&gt;
 &lt;li&gt;A shortcut of &lt;code&gt;\[A-Za-z0-9_]\&lt;/code&gt; is &lt;code&gt;\w&lt;/code&gt;&lt;/li&gt;
@@ -305,7 +305,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;alphabetRegexV2&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/\w/g&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;quoteSample&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;alphabetRegexV2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;5-match-everything-but-letters-and-numbers&#34;&gt;5. Match Everything But Letters and Numbers&lt;/h4&gt;
+&lt;h3 id=&#34;5-match-everything-but-letters-and-numbers&#34;&gt;5. Match Everything But Letters and Numbers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;A shortcut of &lt;code&gt;[^A-Za-z0-9_]&lt;/code&gt; is  &lt;code&gt;\W&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Use the shorthand character class &lt;code&gt;\W&lt;/code&gt; to count the number of non-alphanumeric characters in various quotes and strings&lt;/li&gt;
@@ -324,7 +324,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;nonAlphabetRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/\W/g&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; 
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;quoteSample&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;nonAlphabetRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;6-match-all-numbers&#34;&gt;6. Match All Numbers&lt;/h4&gt;
+&lt;h3 id=&#34;6-match-all-numbers&#34;&gt;6. Match All Numbers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;A shortcut of character class &lt;code&gt;[0-9]&lt;/code&gt; is &lt;code&gt;\d&lt;/code&gt;, which looks for a single character of any number between zero and nine&lt;/li&gt;
 &lt;/ul&gt;
@@ -333,7 +333,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;numRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/\d/g&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; 
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;movieName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;numRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;7-match-all-non-numbers&#34;&gt;7. Match All Non-Numbers&lt;/h4&gt;
+&lt;h3 id=&#34;7-match-all-non-numbers&#34;&gt;7. Match All Non-Numbers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;A shortcut for non-digits &lt;code&gt;[^0-9]&lt;/code&gt; is &lt;code&gt;\D&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -342,7 +342,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;noNumRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/\D/g&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;movieName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;match&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;noNumRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;8-restrict-possible-usernames-&#34;&gt;8. Restrict Possible Usernames 📓&lt;/h4&gt;
+&lt;h3 id=&#34;8-restrict-possible-usernames-&#34;&gt;8. Restrict Possible Usernames 📓&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;You need to check all the usernames in a database. Here are some simple rules that users have to follow when creating their username.&lt;/p&gt;
 &lt;ul&gt;
@@ -373,7 +373,7 @@
  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;userCheck&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;username&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;9-match-whitespaces-or-spaces-between-letters&#34;&gt;9. Match Whitespaces or Spaces between Letters&lt;/h4&gt;
+&lt;h3 id=&#34;9-match-whitespaces-or-spaces-between-letters&#34;&gt;9. Match Whitespaces or Spaces between Letters&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;You can search for whitespace using &lt;code&gt;\s&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;This pattern not only matches whitespace, but also &lt;code&gt;carriage return&lt;/code&gt;, &lt;code&gt;tab&lt;/code&gt;, &lt;code&gt;form feed&lt;/code&gt;, and &lt;code&gt;new line characters&lt;/code&gt;. You can think of it as similar to the character class &lt;code&gt;[\r\t\f\n\v]&lt;/code&gt;.&lt;/li&gt;
@@ -388,7 +388,7 @@
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-JS&#34; data-lang=&#34;JS&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Change the regex countWhiteSpace to look for multiple whitespace characters in a string.
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;10-match-non-whitespace-characters&#34;&gt;10. Match Non-Whitespace Characters&lt;/h4&gt;
+&lt;h3 id=&#34;10-match-non-whitespace-characters&#34;&gt;10. Match Non-Whitespace Characters&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Search for non-whitespace using &lt;code&gt;\S&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;This pattern will not match whitespace, carriage return, tab, form feed, and new line characters. You can think of it being similar to the character class &lt;code&gt;[^ \r\t\f\n\v]&lt;/code&gt;&lt;/li&gt;
@@ -414,7 +414,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/specify-upper-and-lower-number-of-matches&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4 id=&#34;1-specify-upper-and-lower-number-of-matches&#34;&gt;1. Specify Upper and Lower Number of Matches&lt;/h4&gt;
+&lt;h3 id=&#34;1-specify-upper-and-lower-number-of-matches&#34;&gt;1. Specify Upper and Lower Number of Matches&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;You can specify the lower and upper number of patterns with quantity specifiers. Quantity specifiers are used with curly brackets &lt;code&gt;{ }&lt;/code&gt;. You put two numbers between the curly brackets - for the lower and upper number of patterns.&lt;/li&gt;
 &lt;li&gt;Example 1&lt;/li&gt;
@@ -433,7 +433,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ohRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/Oh{3,6} no/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; 
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ohRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ohStr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;2-specify-only-the-lower-number-of-matches&#34;&gt;2. Specify Only the Lower Number of Matches&lt;/h4&gt;
+&lt;h3 id=&#34;2-specify-only-the-lower-number-of-matches&#34;&gt;2. Specify Only the Lower Number of Matches&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want to specify the lower number of patterns with no upper limit&lt;/li&gt;
 &lt;li&gt;To only specify the lower number of patterns, keep the first number followed by a comma&lt;/li&gt;
@@ -455,7 +455,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;haRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/Haz{4,}ah/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;haRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;haStr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;3-specify-exact-number-of-matches&#34;&gt;3. Specify Exact Number of Matches&lt;/h4&gt;
+&lt;h3 id=&#34;3-specify-exact-number-of-matches&#34;&gt;3. Specify Exact Number of Matches&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want a specific number of matches.&lt;/li&gt;
 &lt;li&gt;To specify a certain number of patterns, just have that one number between the curly brackets.&lt;/li&gt;
@@ -476,7 +476,7 @@
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;timStr&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Timmmmber&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;timRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/Tim{4}ber/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;timRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;timStr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;4-check-for-all-or-none&#34;&gt;4. Check for All or None&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-check-for-all-or-none&#34;&gt;4. Check for All or None&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless&lt;/li&gt;
 &lt;li&gt;You can specify the &lt;code&gt;possible existence of an element&lt;/code&gt; with a question mark, &lt;code&gt;?&lt;/code&gt;. This checks for &lt;code&gt;zero or one of the preceding element&lt;/code&gt;. You can think of this symbol as &lt;code&gt;saying the previous element is optional&lt;/code&gt;&lt;/li&gt;
@@ -496,7 +496,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;favRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/favou?rite/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;favRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;favWord&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;5-positive-and-negative-lookahead-&#34;&gt;5. Positive and Negative Lookahead 🔭&lt;/h4&gt;
+&lt;h3 id=&#34;5-positive-and-negative-lookahead-&#34;&gt;5. Positive and Negative Lookahead 🔭&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Lookaheads are patterns that tell JavaScript to look-ahead in your string to &lt;strong&gt;check for patterns further along&lt;/strong&gt;&lt;/p&gt;
@@ -546,7 +546,7 @@
  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pwRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sampleWord&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;6-check-for-mixed-grouping-of-characters-&#34;&gt;6. Check For Mixed Grouping of Characters 🔖&lt;/h4&gt;
+&lt;h3 id=&#34;6-check-for-mixed-grouping-of-characters-&#34;&gt;6. Check For Mixed Grouping of Characters 🔖&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Check for groups of characters using a Regular Expression and to achieve that we use parentheses ()&lt;/p&gt;
@@ -565,7 +565,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;myRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/(Eleanor|Franklin).* Roosevelt/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;myRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;myString&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;7-reuse-patterns-using-capture-groups&#34;&gt;7. Reuse Patterns Using Capture Groups&lt;/h4&gt;
+&lt;h3 id=&#34;7-reuse-patterns-using-capture-groups&#34;&gt;7. Reuse Patterns Using Capture Groups&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Some patterns you search for will occur multiple times in a string. It is wasteful to manually repeat that regex. There is a better way to specify when you have multiple repeat substrings in your string.&lt;/li&gt;
 &lt;li&gt;You can search for repeat substrings using &lt;code&gt;capture groups&lt;/code&gt; – &lt;code&gt;( repeat pattern )&lt;/code&gt;&lt;/li&gt;
@@ -580,7 +580,7 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reRegex&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;/^(\d+)\s\1\s\1$/&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Change this line
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;reRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;test&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;repeatNum&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;8-use-capture-groups-to-search-and-replace&#34;&gt;8. Use Capture Groups to Search and Replace&lt;/h4&gt;
+&lt;h3 id=&#34;8-use-capture-groups-to-search-and-replace&#34;&gt;8. Use Capture Groups to Search and Replace&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;You can search and replace text in a string using &lt;code&gt;.replace()&lt;/code&gt; on a string. The inputs for &lt;code&gt;.replace()&lt;/code&gt; is first the regex pattern you want to search for. The second parameter is the string to replace the match or a function to do something&lt;/li&gt;
 &lt;li&gt;Example 1&lt;/li&gt;
@@ -602,7 +602,7 @@
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;replaceText&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;$3 $2 $1&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// 
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;str&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;replace&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;fixRegex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;replaceText&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;9-remove-whitespace-from-start-and-end&#34;&gt;9. Remove Whitespace from Start and End&lt;/h4&gt;
+&lt;h3 id=&#34;9-remove-whitespace-from-start-and-end&#34;&gt;9. Remove Whitespace from Start and End&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Sometimes whitespace characters around strings are not wanted but are there. Typical processing of strings is to remove the whitespace at the start and end of it.&lt;/li&gt;
 &lt;li&gt;Write a regex and use the appropriate string methods to remove whitespace at the beginning and end of strings.&lt;/li&gt;

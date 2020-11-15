@@ -123,7 +123,7 @@
 &lt;br&gt;
 &lt;h3 id=&#34;6-bidrectional-neural-networks-brnns&#34;&gt;6. Bidrectional Neural Networks (BRNNs)&lt;/h3&gt;
 &lt;h3 id=&#34;activation-functions&#34;&gt;Activation Functions:&lt;/h3&gt;
-&lt;h4 id=&#34;hidden-layers&#34;&gt;Hidden Layers:&lt;/h4&gt;
+&lt;h3 id=&#34;hidden-layers&#34;&gt;Hidden Layers:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Relu&lt;/p&gt;
@@ -153,7 +153,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;output-layers&#34;&gt;Output layers&lt;/h4&gt;
+&lt;h3 id=&#34;output-layers&#34;&gt;Output layers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Softmax: For classification&lt;/p&gt;
@@ -162,7 +162,7 @@
 &lt;p&gt;Linear function: For regression&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;note&#34;&gt;Note:&lt;/h4&gt;
+&lt;h3 id=&#34;note&#34;&gt;Note:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;For a real type speech recognition applications: complex modules.&lt;/li&gt;
 &lt;li&gt;NLP processing applications: use standard BRNN when you can get the entire sentence all the same time&lt;/li&gt;
@@ -255,16 +255,16 @@
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h3 id=&#34;10-long-short-term-memory-lstm-network&#34;&gt;10. Long Short-Term Memory (LSTM) network&lt;/h3&gt;
-&lt;h4 id=&#34;what-is-a-lstm-unit-and-network&#34;&gt;What is a LSTM unit and network?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-a-lstm-unit-and-network&#34;&gt;What is a LSTM unit and network?&lt;/h3&gt;
 &lt;p&gt;Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM units is often called an &lt;a href=&#34;https://en.wikipedia.org/wiki/Long_short-term_memory&#34;&gt;LSTM network&lt;/a&gt;.&lt;/p&gt;
-&lt;h4 id=&#34;what-is-a-common-lstm-composed-of&#34;&gt;What is a common LSTM composed of?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-a-common-lstm-composed-of&#34;&gt;What is a common LSTM composed of?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;a cell&lt;/li&gt;
 &lt;li&gt;an input gate&lt;/li&gt;
 &lt;li&gt;an output gate&lt;/li&gt;
 &lt;li&gt;a forget gate&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;how-does-lstm-work&#34;&gt;How does LSTM work?&lt;/h4&gt;
+&lt;h3 id=&#34;how-does-lstm-work&#34;&gt;How does LSTM work?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Forget gate: LSTM should remove that piece of information (e.g. the singular subject) in the corresponding component. If one of the values is 1, then it will keep the information.&lt;/li&gt;
 &lt;li&gt;Update gate: Once we forget that the subject being discussed is singular, we need to find a way to update it to reflect that the new subject is now plural.&lt;/li&gt;

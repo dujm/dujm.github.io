@@ -24,13 +24,13 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;how-to-create-and-change-emojis-using-javascript&#34;&gt;How to create and change emojis using JavaScript?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-create-and-change-emojis-using-javascript&#34;&gt;How to create and change emojis using JavaScript?&lt;/h3&gt;
 &lt;br&gt; 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;You can create and change emojis using JavaScript&lt;br&gt;&lt;br&gt;Read more at this fantastic article by &lt;a href=&#34;https://twitter.com/mathias?ref_src=twsrc%5Etfw&#34;&gt;@mathias&lt;/a&gt; &lt;a href=&#34;https://t.co/lSACG8rufx&#34;&gt;https://t.co/lSACG8rufx&lt;/a&gt; &lt;a href=&#34;https://t.co/wdG1yYCkwh&#34;&gt;pic.twitter.com/wdG1yYCkwh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Minko Gechev (@mgechev) &lt;a href=&#34;https://twitter.com/mgechev/status/1250672809946370051?ref_src=twsrc%5Etfw&#34;&gt;April 16, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 &lt;br&gt;
-&lt;h4 id=&#34;how-to-use-emojis-in-markdown&#34;&gt;How to use emojis in Markdown?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-use-emojis-in-markdown&#34;&gt;How to use emojis in Markdown?&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://gist.github.com/rxaviers/7360908&#34;&gt;Complete list of github markdown emoji markup &lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -49,15 +49,15 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/&#34;&gt;&lt;img src=&#34;http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg&#34; alt=&#34;CC0&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;To the extent possible under law, &lt;a href=&#34;http://terkel.com&#34;&gt;Terkel Gjervig&lt;/a&gt; has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
-&lt;h4 id=&#34;creative-coding&#34;&gt;Creative coding&lt;/h4&gt;
+&lt;h3 id=&#34;creative-coding&#34;&gt;Creative coding&lt;/h3&gt;
 &lt;p&gt;Creative coding is a different discipline than programming systems. The goal is to create something expressive instead of something functional. &lt;strong&gt;Interaction design&lt;/strong&gt;, &lt;strong&gt;information visualization&lt;/strong&gt; and &lt;strong&gt;generative art&lt;/strong&gt; are all different types of creative coding – which has become a household term describing &lt;strong&gt;artworks articulated as code&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t know where to start?&lt;/strong&gt; Check out &lt;strong&gt;&lt;a href=&#34;https://frontendmasters.com/courses/canvas-webgl/&#34;&gt;Creative Coding course on Frontend Masters&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Want to go depper?&lt;/strong&gt; Check out &lt;strong&gt;&lt;a href=&#34;https://frontendmasters.com/courses/webgl-shaders/&#34;&gt;Advanced Creative Coding with WebGL &amp;amp; Shaders on Frontend Masters&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;contents&#34;&gt;Contents&lt;/h4&gt;
+&lt;h3 id=&#34;contents&#34;&gt;Contents&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#books&#34;&gt;Books&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#online-books&#34;&gt;Online Books&lt;/a&gt;&lt;/li&gt;
@@ -105,7 +105,7 @@
 &lt;li&gt;&lt;a href=&#34;#blogs--websites&#34;&gt;Blogs • Websites&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#related&#34;&gt;Related&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;books&#34;&gt;Books&lt;/h4&gt;
+&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://zenbullets.com/book.php&#34;&gt;Generative Art: A Practical Guide&lt;/a&gt; - Practical guide using Processing.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.generative-gestaltung.de/&#34;&gt;Generative Design&lt;/a&gt; - Visualize, Program, and Create with Processing.&lt;/li&gt;
@@ -129,7 +129,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.d-booker.fr/opengl/78-synthese-d-images.html&#34;&gt;Synthèse d&amp;rsquo;images avec OpenGL (ES)&lt;/a&gt; - Book in french, which covers OpenGL, OpenGL ES and WebGL.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://alexandredubreuil.com/publications/2020-01-31-music-generation-with-magenta-deep-learning-in-music-generation/&#34;&gt;Hands-On Music Generation with Magenta&lt;/a&gt; - Design and use machine learning models for music generation using Magenta and make them interact with existing music creation tools&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;online-books&#34;&gt;Online Books&lt;/h4&gt;
+&lt;h3 id=&#34;online-books&#34;&gt;Online Books&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://thebookofshaders.com/&#34;&gt;The Book of Shaders&lt;/a&gt; - Step-by-step guide through the abstract and complex universe of fragment shaders.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://webglfundamentals.org/&#34;&gt;WebGL Fundamentals&lt;/a&gt; - WebGL from the ground up. No magic.&lt;/li&gt;
@@ -149,7 +149,7 @@
 &lt;li&gt;&lt;a href=&#34;https://lettier.github.io/3d-game-shaders-for-beginners&#34;&gt;3D Game Shaders For Beginners&lt;/a&gt; - Step-by-step guide to real-time shading techniques.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://xem.github.io/articles/webgl-guide.html&#34;&gt;XEM WebGL Guide&lt;/a&gt; - Step-by-step guide to WebGL.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;courses&#34;&gt;Courses&lt;/h4&gt;
+&lt;h3 id=&#34;courses&#34;&gt;Courses&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://egghead.io/courses/create-3d-graphics-in-javascript-using-webgl&#34;&gt;Create 3D Graphics in JS Using WebGL&lt;/a&gt; - Get started creating content with WebGL without any frameworks.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://egghead.io/courses/learn-html5-graphics-and-animation&#34;&gt;Learn HTML5 Graphics and Animation&lt;/a&gt; - Introduction to the canvas 2D drawing API.&lt;/li&gt;
@@ -169,8 +169,8 @@
 &lt;li&gt;&lt;a href=&#34;https://frontendmasters.com/courses/canvas-webgl/&#34;&gt;Creative Coding with Canvas &amp;amp; WebGL&lt;/a&gt; - Workshop by Matt DesLauriers. that teaches you about generative art, interactive animations, 3D graphics, and shaders.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://frontendmasters.com/courses/webgl-shaders/&#34;&gt;Advanced Creative Coding with WebGL &amp;amp; Shaders&lt;/a&gt; - Workshop by Matt DesLauriers that go deeper into graphics programming, math and shaders.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;tools&#34;&gt;Tools&lt;/h4&gt;
-&lt;h5 id=&#34;frameworks--libraries--ecosystems&#34;&gt;Frameworks • Libraries • Ecosystems&lt;/h5&gt;
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+&lt;h3 id=&#34;frameworks--libraries--ecosystems&#34;&gt;Frameworks • Libraries • Ecosystems&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://processing.org&#34;&gt;Processing&lt;/a&gt; [Cross-platform] - Computer programming language and IDE for visual arts.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://libcinder.org/&#34;&gt;Cinder&lt;/a&gt; [Cross-platform] - Open source library for professional-quality creative coding in C++.&lt;/li&gt;
@@ -189,7 +189,7 @@
 &lt;li&gt;&lt;a href=&#34;https://phaser.io/&#34;&gt;Phaser&lt;/a&gt; [Cross-platform] - HTML5 framework for building games, uses both a Canvas and WebGL renderer.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/mattdesl/canvas-sketch&#34;&gt;Canvas-sketch&lt;/a&gt; [Cross-platform] - HTML5 framework for making generative artwork in JavaScript and the browser.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;visual-programming-languages&#34;&gt;Visual Programming Languages&lt;/h5&gt;
+&lt;h3 id=&#34;visual-programming-languages&#34;&gt;Visual Programming Languages&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://vvvv.org/&#34;&gt;vvvv&lt;/a&gt; [Win] - Hybrid visual/textual live-programming environment for easy prototyping and development.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.nodebox.net/node/&#34;&gt;NodeBox&lt;/a&gt; [Mac, Win] - Cross-platform, node-based GUI for efficient data visualizations and generative design.&lt;/li&gt;
@@ -209,7 +209,7 @@
 &lt;li&gt;&lt;a href=&#34;https://ncase.me/joy/&#34;&gt;JOY.JS&lt;/a&gt; - Realtime visual coding tool, easy to understand and aimed at beginners.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pixelnodes.app/&#34;&gt;Pixel Nodes&lt;/a&gt; [iPad] - Live graphics node editor, powered by PixelKit.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;sound-programming-languages&#34;&gt;Sound Programming Languages&lt;/h5&gt;
+&lt;h3 id=&#34;sound-programming-languages&#34;&gt;Sound Programming Languages&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://supercollider.github.io/&#34;&gt;SuperCollider&lt;/a&gt; [Multi-platform] - Platform for audio synthesis and algorithmic composition.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://chuck.cs.princeton.edu/&#34;&gt;ChucK&lt;/a&gt; - Strongly-timed, concurrent, and on-the-fly music programming language.&lt;/li&gt;
@@ -218,7 +218,7 @@
 &lt;li&gt;&lt;a href=&#34;https://csound.com/&#34;&gt;Csound&lt;/a&gt; - A sound and music computing system.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://100r.co/pages/orca.html&#34;&gt;Orca&lt;/a&gt; - Live coding environment to quickly create procedural sequencers.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;web-programming--libraries&#34;&gt;Web Programming • Libraries&lt;/h5&gt;
+&lt;h3 id=&#34;web-programming--libraries&#34;&gt;Web Programming • Libraries&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/mrdoob/three.js/&#34;&gt;three.js&lt;/a&gt; - JavaScript 3D library.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/regl-project/regl&#34;&gt;regl&lt;/a&gt; - Functional WebGL.&lt;/li&gt;
@@ -246,7 +246,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/lo-th/Oimo.js/&#34;&gt;Oimo.js&lt;/a&gt; - Lightweight 3d physics engine for javascript&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/kripken/ammo.js/&#34;&gt;Ammo.js&lt;/a&gt; - Direct port of the Bullet physics engine to JavaScript using Emscripten&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;projection-mapping--vjing&#34;&gt;Projection Mapping • VJing&lt;/h5&gt;
+&lt;h3 id=&#34;projection-mapping--vjing&#34;&gt;Projection Mapping • VJing&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.madmapper.com/&#34;&gt;MadMapper&lt;/a&gt; [Mac] - Video mapping projections and Light mapping.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://vidvox.net/&#34;&gt;VDMX&lt;/a&gt; [Mac] - Realtime multimedia performance application.&lt;/li&gt;
@@ -258,7 +258,7 @@
 &lt;li&gt;&lt;a href=&#34;https://smode.fr/&#34;&gt;Smode&lt;/a&gt; [Win] - A real-time 2D/3D creation, compositing and video-mapping engine.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://veejayhq.net/&#34;&gt;Veejay&lt;/a&gt; [Linux] - A live performance tool featuring simple non-linear editing and mixing from multiple sources (files, devices, streams&amp;hellip;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;online&#34;&gt;Online&lt;/h5&gt;
+&lt;h3 id=&#34;online&#34;&gt;Online&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.shadertoy.com/&#34;&gt;Shadertoy&lt;/a&gt; - Build and share shaders with the world and get inspired.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://glslb.in/&#34;&gt;GLSLbin&lt;/a&gt; - Fragment shader sandbox with support for glslify.&lt;/li&gt;
@@ -277,7 +277,7 @@
 &lt;li&gt;&lt;a href=&#34;https://teddavis.org/p5live/&#34;&gt;P5LIVE&lt;/a&gt; - p5.js live-coding environment.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://neort.io/popular&#34;&gt;NEORT&lt;/a&gt; - Digital art platform for creative coders (Fragment Shader, Javascript Canvas).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;hardware&#34;&gt;Hardware&lt;/h5&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.arduino.cc/&#34;&gt;Arduino&lt;/a&gt; - Open source microcontroller kits for building digital devices and interactive objects.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.raspberrypi.org/&#34;&gt;Raspberry Pi&lt;/a&gt; - Small single-board computers.&lt;/li&gt;
@@ -291,7 +291,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.pjrc.com/teensy/&#34;&gt;Teensy&lt;/a&gt; - USB-based microcontroller development system.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lightform.com/&#34;&gt;Lightform&lt;/a&gt; - AR projection mapping with built-in depth sensor.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;other&#34;&gt;Other&lt;/h5&gt;
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://structuresynth.sourceforge.net/&#34;&gt;Structure Synth&lt;/a&gt; [Cross-platform] - Application for generating 3D structures by specifying a design grammar.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.syedrezaali.com/f3-mac-app/&#34;&gt;F3&lt;/a&gt; [Mac] - Powerful 3D design app that enables you to live code 3D form.&lt;/li&gt;
@@ -305,8 +305,8 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/keijiro/Klak&#34;&gt;Klak&lt;/a&gt; - A collection of scripts for creative coding with Unity.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://basiljs.ch/&#34;&gt;basil.js&lt;/a&gt; - Scripting (JS) in InDesign for designers and artists in the spirit of Processing.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;learning-resources&#34;&gt;Learning Resources&lt;/h4&gt;
-&lt;h5 id=&#34;videos&#34;&gt;Videos&lt;/h5&gt;
+&lt;h3 id=&#34;learning-resources&#34;&gt;Learning Resources&lt;/h3&gt;
+&lt;h3 id=&#34;videos&#34;&gt;Videos&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/shiffman&#34;&gt;The Coding Train&lt;/a&gt; - Daniel Shiffman makes videos about creative coding.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLW3Zl3wyJwWMpFSRpeMmSBGDShbkiV1Cq&#34;&gt;MFGD - Fragment Shaders&lt;/a&gt; - YouTube playlist about fragment shaders.&lt;/li&gt;
@@ -323,7 +323,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=u5HAYVHsasc&amp;amp;list=PLGmrMu-IwbguU_nY2egTFmlg691DN7uE5&#34;&gt;Shadertoy Tutorials&lt;/a&gt; - YouTube playlist teaching you how to make shaders, starting with zero knowledge using shadertoy.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLxaZqnd-OQM7Y0lfe7h2cjlQAm5O9_6UL&#34;&gt;WebGL Lightning&lt;/a&gt; - Introduction to WebGL lightning with Greg Tatum.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;talks&#34;&gt;Talks&lt;/h5&gt;
+&lt;h3 id=&#34;talks&#34;&gt;Talks&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://davidscottlyons.com/threejs/presentations/frontporch14/&#34;&gt;Intro to WebGL Slides&lt;/a&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=6eLl8yQnxHQ&#34;&gt;Video&lt;/a&gt; - Intro to WebGL with three.js.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.iquilezles.org/live/index.htm&#34;&gt;Inigo Quilez Live&lt;/a&gt; - Collection of live coding videos by Íñigo Quílez.&lt;/li&gt;
@@ -336,8 +336,8 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bmztlO9_Wvo&amp;amp;t=387s&#34;&gt;Poetic Computation&lt;/a&gt; - Inspiring talk by Zach Lieberman.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8Uo6zFwSO78&#34;&gt;Generative Machines&lt;/a&gt; - FITC talk by Matt DesLauriers about his passion for generative art.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;articles--tutorials&#34;&gt;Articles • Tutorials&lt;/h5&gt;
-&lt;h6 id=&#34;shaders--opengl--webgl&#34;&gt;Shaders • OpenGL • WebGL&lt;/h6&gt;
+&lt;h3 id=&#34;articles--tutorials&#34;&gt;Articles • Tutorials&lt;/h3&gt;
+&lt;h3 id=&#34;shaders--opengl--webgl&#34;&gt;Shaders • OpenGL • WebGL&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://aerotwist.com/tutorials/an-introduction-to-shaders-part-1/&#34;&gt;Introduction to shaders&lt;/a&gt; - Part 1 of an introduction to shaders using threejs.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@necsoft/three-js-101-hello-world-part-1-443207b1ebe1&#34;&gt;Three.js 101&lt;/a&gt; - Introduction to three.js from a creative coder perspective.&lt;/li&gt;
@@ -387,16 +387,16 @@
 &lt;li&gt;&lt;a href=&#34;https://erkaman.github.io/posts/beginner_computer_graphics.html&#34;&gt;How to Start Learning Computer Graphics Programming&lt;/a&gt; - Advice and thoughts on how to get started by Eric Arnebäck.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.johnnovak.net/2016/09/21/what-every-coder-should-know-about-gamma/&#34;&gt;What Every Coder Should Know About Gamma&lt;/a&gt; - Deep dive into the importance of gamma.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h6 id=&#34;canvas&#34;&gt;Canvas&lt;/h6&gt;
+&lt;h3 id=&#34;canvas&#34;&gt;Canvas&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://joshondesign.com/p/books/canvasdeepdive/toc.html&#34;&gt;HTML Canvas Deep Dive&lt;/a&gt; - Profound introduction to the canvas API.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://creativejs.com/2011/08/31-days-of-canvas-tutorials/&#34;&gt;31 days of Canvas tutorials&lt;/a&gt; - Collection of canvas tutorials by Seb Lee-Delisle.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h6 id=&#34;hardware-1&#34;&gt;Hardware&lt;/h6&gt;
+&lt;h3 id=&#34;hardware-1&#34;&gt;Hardware&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://mattdesl.svbtle.com/pen-plotter-1&#34;&gt;Pen Plotter Art &amp;amp; Algorithms Part 1&lt;/a&gt;, &lt;a href=&#34;https://mattdesl.svbtle.com/pen-plotter-2&#34;&gt;2&lt;/a&gt; - How to use the AxiDraw pen plotter with JavaScript.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h6 id=&#34;other-1&#34;&gt;Other&lt;/h6&gt;
+&lt;h3 id=&#34;other-1&#34;&gt;Other&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://catlikecoding.com/unity/tutorials/&#34;&gt;Cat Like Coding&lt;/a&gt; - In depth tutorials on math, algorithms and Unity.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://funprogramming.org/&#34;&gt;Fun Programming&lt;/a&gt; - Learn creative coding writing simple programs.&lt;/li&gt;
@@ -410,7 +410,7 @@
 &lt;li&gt;&lt;a href=&#34;https://tylerxhobbs.com/essays/2018/tips-to-improve-your-generative-artwork&#34;&gt;Tips to Improve Your Generative Artwork&lt;/a&gt; - Tips to make your art look better.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://tylerxhobbs.com/essays/2016/working-with-color-in-generative-art&#34;&gt;Working With Color in Generative Art&lt;/a&gt; - Tips on how to get color right.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;interactive&#34;&gt;Interactive&lt;/h5&gt;
+&lt;h3 id=&#34;interactive&#34;&gt;Interactive&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/stackgl/shader-school&#34;&gt;Shader-school&lt;/a&gt; - Workshop for GLSL shaders and graphics programming.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/stackgl/webgl-workshop&#34;&gt;Webgl-workshop&lt;/a&gt; - The sequel to shader-school: Learn the WebGL API.&lt;/li&gt;
@@ -423,7 +423,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.shadertoy.com/view/MdBfRK&#34;&gt;Let&amp;rsquo;s Make A Ray Marcher&lt;/a&gt; - Interactive Shader-Toy on writing a ray marcher.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.shadertoy.com/view/4dSfRc&#34;&gt;Raymarching&lt;/a&gt; - Interactive Shader-Toy raymarching tutorial.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;quick-references--cheatsheets&#34;&gt;Quick References • Cheatsheets&lt;/h5&gt;
+&lt;h3 id=&#34;quick-references--cheatsheets&#34;&gt;Quick References • Cheatsheets&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.shaderific.com/glsl/&#34;&gt;Shaderific GLSL&lt;/a&gt; - OpenGL ES shading language reference.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://thebookofshaders.com/glossary/&#34;&gt;The Book of Shaders Glossary&lt;/a&gt; - Shader glossary by theme.&lt;/li&gt;
@@ -444,8 +444,8 @@
 &lt;li&gt;&lt;a href=&#34;https://ramesaliyev.com/visual-noises/&#34;&gt;Visual Noises&lt;/a&gt; - Visualize noise algorithms in 1D and 2D.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ramesaliyev.com/trigonoparty/&#34;&gt;Trigonoparty&lt;/a&gt; - Simple trigonometry visualisation.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;communities&#34;&gt;Communities&lt;/h4&gt;
-&lt;h5 id=&#34;subreddits&#34;&gt;Subreddits&lt;/h5&gt;
+&lt;h3 id=&#34;communities&#34;&gt;Communities&lt;/h3&gt;
+&lt;h3 id=&#34;subreddits&#34;&gt;Subreddits&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/creativecoding/&#34;&gt;r/creativecoding&lt;/a&gt; - Sharing and discussing the use of computer programming as a creative discipline.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/raytracing/&#34;&gt;r/raytraycing&lt;/a&gt; - Subreddit on raytracing.&lt;/li&gt;
@@ -456,7 +456,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/proceduralgeneration/&#34;&gt;r/proceduralgeneration&lt;/a&gt; - Subreddit on procedural generation.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/MachineLearning/&#34;&gt;r/MachineLearning&lt;/a&gt; - Subreddit on machine learning.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;slack&#34;&gt;Slack&lt;/h5&gt;
+&lt;h3 id=&#34;slack&#34;&gt;Slack&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://creative-dev.herokuapp.com/&#34;&gt;Creative-Dev Slack&lt;/a&gt; - Creative Development Slack.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://genart.herokuapp.com/&#34;&gt;Generative Art Slack&lt;/a&gt; - Generative Art Slack.&lt;/li&gt;
@@ -464,7 +464,7 @@
 &lt;li&gt;&lt;a href=&#34;http://the-mccc-project.github.io/creative-coding-sign-up/&#34;&gt;Creative Coding&lt;/a&gt; - Creative Coding Slack.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ofslack.herokuapp.com/&#34;&gt;openFrameworks&lt;/a&gt; - openFrameworks Slack.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;other-2&#34;&gt;Other&lt;/h5&gt;
+&lt;h3 id=&#34;other-2&#34;&gt;Other&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://creativecodingpodcast.com/&#34;&gt;The Creative Coding Podcast&lt;/a&gt; - Iain and Seb discuss the ins and outs of creative coding.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://realtimevfx.com/&#34;&gt;realtimevfx.com&lt;/a&gt; - Real Time VFX Community.&lt;/li&gt;
@@ -473,7 +473,7 @@
 &lt;li&gt;&lt;a href=&#34;https://spectrum.chat/codepen/pass-the-pen/&#34;&gt;Pass The Pen&lt;/a&gt; - A community of front-end developers who build collaborative creative coding projects on CodePen.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://us19.campaign-archive.com/home/?u=ac884610ba6fe07f4988a2182&amp;amp;id=ad49a755b1&#34;&gt;Creative Tech Weekly&lt;/a&gt; - A weekly newsletter of resources around creative technology.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;math&#34;&gt;Math&lt;/h4&gt;
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Jam3/math-as-code&#34;&gt;Math as code&lt;/a&gt; - Cheat-sheet for mathematical notation in code form.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/codingmath&#34;&gt;Coding Math&lt;/a&gt; - Teaches you the math you need to understand as a programmer.&lt;/li&gt;
@@ -509,7 +509,7 @@
 &lt;li&gt;&lt;a href=&#34;https://mattdesl.svbtle.com/linear-interpolation&#34;&gt;Linear Interpolation&lt;/a&gt; - Introduction to linear interpolation (also known as mix/lerp).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.gamedev.net/articles/programming/math-and-physics/practical-use-of-vector-math-in-games-r2968/&#34;&gt;Practical use of Vector Math in Games&lt;/a&gt; - In-depth article on vectors for game math.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;machine-learning--computer-vision--ai&#34;&gt;Machine learning • Computer Vision • Ai&lt;/h4&gt;
+&lt;h3 id=&#34;machine-learning--computer-vision--ai&#34;&gt;Machine learning • Computer Vision • Ai&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://ml4a.github.io/&#34;&gt;ml4a&lt;/a&gt; - Machine learning for artists.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://transcranial.github.io/keras-js/&#34;&gt;Keras.js&lt;/a&gt; - Run Keras models (tensorflow backend) in the browser, with GPU support.&lt;/li&gt;
@@ -530,7 +530,7 @@
 &lt;li&gt;&lt;a href=&#34;https://lobe.ai/&#34;&gt;Lobe&lt;/a&gt; - Build, train, and ship custom deep learning models using a simple visual interface.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://modeldepot.io/&#34;&gt;ModelDepot&lt;/a&gt; - Platform for discovering, sharing, and discussing easy to use and pre-trained machine learning models.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;h3 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.openprocessing.org/&#34;&gt;OpenProcessing&lt;/a&gt; - Algorithmic Designs Created with Processing, p5js and processingjs.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dwitter.net/&#34;&gt;Dwitter&lt;/a&gt; - Social network for short JavaScript demos.&lt;/li&gt;
@@ -550,7 +550,7 @@
 &lt;li&gt;&lt;a href=&#34;http://folds2d.tumblr.com/&#34;&gt;Folds2d&lt;/a&gt; - Tumblr with curves, surfaces, scalar and vector fields.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://inspiration.wblut.com/&#34;&gt;W:BLUT Inspiration&lt;/a&gt; - Collection of gifs, links and images by W:Blut.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;events&#34;&gt;Events&lt;/h4&gt;
+&lt;h3 id=&#34;events&#34;&gt;Events&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://offf.barcelona/&#34;&gt;OFFF Festival&lt;/a&gt; - Digital design festival (&lt;em&gt;Online Flash Film Festival&lt;/em&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://resonate.io/&#34;&gt;Resonate&lt;/a&gt; - Festical in Belgrade about cutting edge music, visual arts and digital culture.&lt;/li&gt;
@@ -565,20 +565,20 @@
 &lt;li&gt;&lt;a href=&#34;https://nextart.tech/&#34;&gt;NextArt Night&lt;/a&gt; - Inspiring people through creative uses of tech.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.grow.paris/&#34;&gt;GROW&lt;/a&gt; - The Parisian rendez-vous for creative coders, GROW is about opening new possibilities in digital creation.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;museums--galleries&#34;&gt;Museums • Galleries&lt;/h4&gt;
+&lt;h3 id=&#34;museums--galleries&#34;&gt;Museums • Galleries&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zkm.de&#34;&gt;ZKM — Zentrum für Kunst und Medien, Karlsruhe/Germany&lt;/a&gt; -  ZKM organizes exhibitions and events on the effects of media, digitization, and globalization.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ars.electronica.art/center/&#34;&gt;Ars Electronica Center, Linz/Austria&lt;/a&gt; - Museum of the Future — a place where diverse blends of artistic genres, scientific domains and technological directions are displayed and processed.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.technorama.ch/en/home&#34;&gt;Technorama, Zurich/Switzerland&lt;/a&gt; - Technorama allows hands-on experiences of hundreds of natural phenomena and technology.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;schools--workshops&#34;&gt;Schools • Workshops&lt;/h4&gt;
+&lt;h3 id=&#34;schools--workshops&#34;&gt;Schools • Workshops&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.arts.ac.uk/creative-computing-institute&#34;&gt;UAL Creative Computing Institute&lt;/a&gt; - school in London working at the intersection of creativity and computational technologies&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://sfpc.io/&#34;&gt;School for Poetic Computation&lt;/a&gt; - School in New York that explore the intersections of code, design, hardware and theory.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://ciid.dk/&#34;&gt;Copenhagen Institute of Interaction Design&lt;/a&gt; - Hosts a range of educational initiatives, most notably, the Interaction Design Programme and the CIID Summer School.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1o__WKUBTHLoQX8pSRJsh0wMC8fCGzycQ0ezxe5CklxM/edit?usp=sharing&#34;&gt;Residencies, Fellowships, Summer Schools&lt;/a&gt; - Huge list of residencies, fellowships and summer schools around the world (Navigate with the bottom left tabs).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;blogs--websites&#34;&gt;Blogs • Websites&lt;/h4&gt;
+&lt;h3 id=&#34;blogs--websites&#34;&gt;Blogs • Websites&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://creativeapplications.net/&#34;&gt;CreativeApplications.Net [CAN]&lt;/a&gt; - Famous digital art blog.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.iquilezles.org&#34;&gt;iquilezles.org&lt;/a&gt; - Home of Íñigo Quílez, specialised in GLSL and math snippets.&lt;/li&gt;
@@ -594,7 +594,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/cx20/jsdo.it-archives&#34;&gt;jsdo.it-archives&lt;/a&gt; - Compilation of WebGL experiments including comparisons on WebGL frameworks and physics engine (oimo.js, cannon.js, ammo.js)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.webaudioweekly.com/&#34;&gt;WebAudio Weekly&lt;/a&gt; - Newsletter to know everything about the WebAudio API&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;related&#34;&gt;Related&lt;/h4&gt;
+&lt;h3 id=&#34;related&#34;&gt;Related&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/eug/awesome-opengl&#34;&gt;Awesome opengl&lt;/a&gt; - Curated list of awesome OpenGL libraries, debuggers and resources.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sjfricke/awesome-webgl&#34;&gt;Awesome webgl&lt;/a&gt; - Curated list of awesome WebGL libraries, resources and much more.&lt;/li&gt;
@@ -611,7 +611,7 @@
 &lt;li&gt;&lt;a href=&#34;http://d.hatena.ne.jp/hanecci/20131005/p1&#34;&gt;Link collection of ray marching on the GPU&lt;/a&gt; - Curated list from 2013.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/timzhang642/3D-Machine-Learning&#34;&gt;3D Machine Learning&lt;/a&gt; - A resource repository for 3D machine learning.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;gans&#34;&gt;GANs&lt;/h4&gt;
+&lt;h3 id=&#34;gans&#34;&gt;GANs&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/dimitreoliveira/introduction-to-cyclegan-monet-paintings&#34;&gt;introduction-to-cyclegan-monet-paintings&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

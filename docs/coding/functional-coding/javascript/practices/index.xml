@@ -25,7 +25,7 @@
         
         &lt;br&gt;
 &lt;br&gt; 
-&lt;h4 id=&#34;variables&#34;&gt;Variables&lt;/h4&gt;
+&lt;h3 id=&#34;variables&#34;&gt;Variables&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;1.Always declare an variable with the &lt;code&gt;var&lt;/code&gt; keyword explicitly
 &lt;ul&gt;
@@ -66,7 +66,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;how-to-run-javascript-using-nodejs&#34;&gt;How to run JavaScript using Node.js?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-run-javascript-using-nodejs&#34;&gt;How to run JavaScript using Node.js?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Install &lt;a href=&#34;https://nodejs.org/en/download/&#34;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Open a terminal and run&lt;/li&gt;

@@ -24,10 +24,10 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/&#34;&gt;&lt;img src=&#34;http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg&#34; alt=&#34;CC0&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;To the extent possible under law, &lt;a href=&#34;http://twitter.com/danistefanovic&#34;&gt;Daniel Stefanovic&lt;/a&gt; has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
-&lt;h4 id=&#34;table-of-contents&#34;&gt;Table of contents&lt;/h4&gt;
+&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of contents&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#build-your-own-3d-renderer&#34;&gt;3D Renderer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#build-your-own-augmented-reality&#34;&gt;Augmented Reality&lt;/a&gt;&lt;/li&gt;
@@ -57,8 +57,8 @@
 &lt;li&gt;&lt;a href=&#34;#build-your-own-web-server&#34;&gt;Web Server&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#uncategorized&#34;&gt;Uncategorized&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h2&gt;
-&lt;h4 id=&#34;build-your-own-3d-renderer&#34;&gt;Build your own &lt;code&gt;3D Renderer&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;
+&lt;h3 id=&#34;build-your-own-3d-renderer&#34;&gt;Build your own &lt;code&gt;3D Renderer&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work&#34;&gt;&lt;strong&gt;C++&lt;/strong&gt;: &lt;em&gt;Introduction to Ray Tracing: a Simple Method for Creating 3D Images&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ssloy/tinyrenderer/wiki&#34;&gt;&lt;strong&gt;C++&lt;/strong&gt;: &lt;em&gt;How OpenGL works: software rendering in 500 lines of code&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -71,7 +71,7 @@
 &lt;li&gt;&lt;a href=&#34;http://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html&#34;&gt;&lt;strong&gt;JavaScript / Pseudocode&lt;/strong&gt;: &lt;em&gt;Computer Graphics from scratch&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://aosabook.org/en/500L/a-3d-modeller.html&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;A 3D Modeller&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-augmented-reality&#34;&gt;Build your own &lt;code&gt;Augmented Reality&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-augmented-reality&#34;&gt;Build your own &lt;code&gt;Augmented Reality&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uXNjNcqW4kY&#34;&gt;&lt;strong&gt;C#&lt;/strong&gt;: &lt;em&gt;How To: Augmented Reality App Tutorial for Beginners with Vuforia and Unity 3D&lt;/em&gt;&lt;/a&gt; [video]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLKIKuXdn4ZMjuUAtdQfK1vwTZPQn_rgSv&#34;&gt;&lt;strong&gt;C#&lt;/strong&gt;: &lt;em&gt;How To Unity ARCore&lt;/em&gt;&lt;/a&gt; [video]&lt;/li&gt;
@@ -80,14 +80,14 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Z5AmqMuNi08&#34;&gt;&lt;strong&gt;C#&lt;/strong&gt;: &lt;em&gt;How to Augmented Reality AR Tutorial: ARKit Portal to the Upside Down&lt;/em&gt;&lt;/a&gt; [video]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bitesofcode.wordpress.com/2017/09/12/augmented-reality-with-python-and-opencv-part-1/&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Augmented Reality with Python and OpenCV&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-bittorrent-client&#34;&gt;Build your own &lt;code&gt;BitTorrent Client&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-bittorrent-client&#34;&gt;Build your own &lt;code&gt;BitTorrent Client&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.seanjoflynn.com/research/bittorrent.html&#34;&gt;&lt;strong&gt;C#&lt;/strong&gt;: &lt;em&gt;Building a BitTorrent client from scratch in C#&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://xmonader.github.io/nimdays/day02_bencode.html&#34;&gt;&lt;strong&gt;Nim&lt;/strong&gt;: &lt;em&gt;Writing a Bencode Parser&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-own-bittorrent-client.html&#34;&gt;&lt;strong&gt;Node.js&lt;/strong&gt;: &lt;em&gt;Write your own bittorrent client&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://markuseliasson.se/article/bittorrent-in-python/&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;A BitTorrent client in Python 3.5&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-blockchain--cryptocurrency&#34;&gt;Build your own &lt;code&gt;Blockchain / Cryptocurrency&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-blockchain--cryptocurrency&#34;&gt;Build your own &lt;code&gt;Blockchain / Cryptocurrency&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://beta.observablehq.com/@galletti94/functional-blockchain&#34;&gt;&lt;strong&gt;ATS&lt;/strong&gt;: &lt;em&gt;Functional Blockchain&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://programmingblockchain.gitbooks.io/programmingblockchain/&#34;&gt;&lt;strong&gt;C#&lt;/strong&gt;: &lt;em&gt;Programming The Blockchain in C#&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -112,7 +112,7 @@
 &lt;li&gt;&lt;a href=&#34;https://lhartikk.github.io/&#34;&gt;&lt;strong&gt;TypeScript&lt;/strong&gt;: &lt;em&gt;Naivecoin: a tutorial for building a cryptocurrency&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://naivecoinstake.learn.uno/&#34;&gt;&lt;strong&gt;TypeScript&lt;/strong&gt;: &lt;em&gt;NaivecoinStake: a tutorial for building a cryptocurrency with the Proof of Stake consensus&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-bot&#34;&gt;Build your own &lt;code&gt;Bot&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-bot&#34;&gt;Build your own &lt;code&gt;Bot&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://wiki.haskell.org/Roll_your_own_IRC_bot&#34;&gt;&lt;strong&gt;Haskell&lt;/strong&gt;: &lt;em&gt;Roll your own IRC bot&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@SeloSlav/how-to-make-a-scary-russian-twitter-bot-with-java-b7b62768a3ac&#34;&gt;&lt;strong&gt;Java&lt;/strong&gt;: &lt;em&gt;How To Make a Scary Russian Twitter Bot With Java&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -132,7 +132,7 @@
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1&#34;&gt;&lt;strong&gt;R&lt;/strong&gt;: &lt;em&gt;Build A Cryptocurrency Trading Bot with R&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://habr.com/en/post/436254/&#34;&gt;&lt;strong&gt;Rust&lt;/strong&gt;: &lt;em&gt;A bot for Starcraft in Rust, C or any other language&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-command-line-tool&#34;&gt;Build your own &lt;code&gt;Command-Line Tool&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-command-line-tool&#34;&gt;Build your own &lt;code&gt;Command-Line Tool&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://learnto.computer/screencasts/bsd-cat&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Rewriting the cat command from scratch&lt;/em&gt;&lt;/a&gt; [video]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://flaviocopes.com/go-git-contributions/&#34;&gt;&lt;strong&gt;Go&lt;/strong&gt;: &lt;em&gt;Visualize your local git contributions with Go&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -141,7 +141,7 @@
 &lt;li&gt;&lt;a href=&#34;https://flaviocopes.com/go-tutorial-fortune/&#34;&gt;&lt;strong&gt;Go&lt;/strong&gt;: &lt;em&gt;Go CLI tutorial: fortune clone&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://xmonader.github.io/nimdays/day06_nistow.html&#34;&gt;&lt;strong&gt;Nim&lt;/strong&gt;: &lt;em&gt;Writing a stow alternative to manage dotfiles&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-database&#34;&gt;Build your own &lt;code&gt;Database&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-database&#34;&gt;Build your own &lt;code&gt;Database&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://cstack.github.io/db_tutorial/&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Let&amp;rsquo;s Build a Simple Database&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://codecapsule.com/2012/11/07/ikvs-implementing-a-key-value-store-table-of-contents/&#34;&gt;&lt;strong&gt;C++&lt;/strong&gt;: &lt;em&gt;Implementing a Key-Value Store&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -152,7 +152,7 @@
 &lt;li&gt;&lt;a href=&#34;http://aosabook.org/en/500L/dbdb-dog-bed-database.html&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;DBDB: Dog Bed Database&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://charlesleifer.com/blog/building-a-simple-redis-server-with-python/&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Write your own miniature Redis with Python&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-docker&#34;&gt;Build your own &lt;code&gt;Docker&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-docker&#34;&gt;Build your own &lt;code&gt;Docker&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.lizzie.io/linux-containers-in-500-loc.html&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Linux containers in 500 lines of code&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.infoq.com/articles/build-a-container-golang&#34;&gt;&lt;strong&gt;Go&lt;/strong&gt;: &lt;em&gt;Build Your Own Container Using Less than 100 Lines of Go&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -161,7 +161,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/tonybaloney/mocker&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;A proof-of-concept imitation of Docker, written in 100% Python&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/p8952/bocker&#34;&gt;&lt;strong&gt;Shell&lt;/strong&gt;: &lt;em&gt;Docker implemented in around 100 lines of bash&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-emulator--virtual-machine&#34;&gt;Build your own &lt;code&gt;Emulator / Virtual Machine&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-emulator--virtual-machine&#34;&gt;Build your own &lt;code&gt;Emulator / Virtual Machine&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.felixangell.com/virtual-machine-in-c/&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Virtual machine in C&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://justinmeiners.github.io/lc3-vm/&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Write your Own Virtual Machine&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -174,7 +174,7 @@
 &lt;li&gt;&lt;a href=&#34;http://imrannazar.com/GameBoy-Emulation-in-JavaScript&#34;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: &lt;em&gt;GameBoy Emulation in JavaScript&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://omokute.blogspot.com.br/2012/06/emulation-basics-write-your-own-chip-8.html&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Emulation Basics: Write your own Chip 8 Emulator/Interpreter&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-front-end-framework--library&#34;&gt;Build your own &lt;code&gt;Front-end Framework / Library&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-front-end-framework--library&#34;&gt;Build your own &lt;code&gt;Front-end Framework / Library&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://jasonformat.com/wtf-is-jsx/&#34;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: &lt;em&gt;WTF is JSX (Let&amp;rsquo;s Build a JSX Renderer)&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/hexacta/didact&#34;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: &lt;em&gt;A DIY guide to build your own React&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -192,7 +192,7 @@
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060&#34;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: &lt;em&gt;How to write your own Virtual DOM&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mfrachet.github.io/create-frontend-framework/&#34;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: &lt;em&gt;Building a frontend framework, from scratch, with components (templating, state, VDOM)&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-game&#34;&gt;Build your own &lt;code&gt;Game&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-game&#34;&gt;Build your own &lt;code&gt;Game&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://handmadehero.org/&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Handmade Hero&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://nesdoug.com/&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;How to Program an NES game in C&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -230,7 +230,7 @@
 &lt;li&gt;&lt;a href=&#34;https://a5huynh.github.io/2018/02/02/adventures-in-rust.html&#34;&gt;&lt;strong&gt;Rust&lt;/strong&gt;: &lt;em&gt;Adventures in Rust: A Basic 2D Game&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://tomassedovic.github.io/roguelike-tutorial/&#34;&gt;&lt;strong&gt;Rust&lt;/strong&gt;: &lt;em&gt;Roguelike Tutorial in Rust + tcod&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-git&#34;&gt;Build your own &lt;code&gt;Git&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-git&#34;&gt;Build your own &lt;code&gt;Git&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://stefan.saasen.me/articles/git-clone-in-haskell-from-the-bottom-up/&#34;&gt;&lt;strong&gt;Haskell&lt;/strong&gt;: &lt;em&gt;Reimplementing “git clone” in Haskell from the bottom up&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://gitlet.maryrosecook.com/docs/gitlet.html&#34;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: &lt;em&gt;Gitlet&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -239,13 +239,13 @@
 &lt;li&gt;&lt;a href=&#34;https://wyag.thb.lt/&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Write yourself a Git!&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://robots.thoughtbot.com/rebuilding-git-in-ruby&#34;&gt;&lt;strong&gt;Ruby&lt;/strong&gt;: &lt;em&gt;Rebuilding Git in Ruby&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-network-stack&#34;&gt;Build your own &lt;code&gt;Network Stack&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-network-stack&#34;&gt;Build your own &lt;code&gt;Network Stack&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://beej.us/guide/bgnet/&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Beej&amp;rsquo;s Guide to Network Programming&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Let&amp;rsquo;s code a TCP/IP stack&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/geckoboard-under-the-hood/how-to-build-a-network-stack-in-ruby-f73aeb1b661b&#34;&gt;&lt;strong&gt;Ruby&lt;/strong&gt;: &lt;em&gt;How to build a network stack in Ruby&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-neural-network&#34;&gt;Build your own &lt;code&gt;Neural Network&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-neural-network&#34;&gt;Build your own &lt;code&gt;Neural Network&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.codeproject.com/Articles/11285/Neural-Network-OCR&#34;&gt;&lt;strong&gt;C#&lt;/strong&gt;: &lt;em&gt;Neural Network OCR&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/building-neural-networks-in-f-part-1-a2832ae972e6&#34;&gt;&lt;strong&gt;F#&lt;/strong&gt;: &lt;em&gt;Building Neural Networks in F#&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -261,7 +261,7 @@
 &lt;li&gt;&lt;a href=&#34;https://navoshta.com/traffic-signs-classification/&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Traffic signs classification with a convolutional network&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Generate Music using LSTM Neural Network in Keras&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-operating-system&#34;&gt;Build your own &lt;code&gt;Operating System&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-operating-system&#34;&gt;Build your own &lt;code&gt;Operating System&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://joebergeron.io/posts/post_two.html&#34;&gt;&lt;strong&gt;Assembly&lt;/strong&gt;: &lt;em&gt;Writing a Tiny x86 Bootloader&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/index.html&#34;&gt;&lt;strong&gt;Assembly&lt;/strong&gt;: &lt;em&gt;Baking Pi – Operating Systems Development&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -281,7 +281,7 @@
 &lt;li&gt;&lt;a href=&#34;http://3zanders.co.uk/2017/10/13/writing-a-bootloader/&#34;&gt;&lt;strong&gt;C++&lt;/strong&gt;: &lt;em&gt;Writing a Bootloader&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://os.phil-opp.com/&#34;&gt;&lt;strong&gt;Rust&lt;/strong&gt;: &lt;em&gt;Writing an OS in Rust&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-physics-engine&#34;&gt;Build your own &lt;code&gt;Physics Engine&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-physics-engine&#34;&gt;Build your own &lt;code&gt;Physics Engine&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Video Game Physics Tutorial&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://allenchou.net/game-physics-series/&#34;&gt;&lt;strong&gt;C++&lt;/strong&gt;: &lt;em&gt;Game physics series by Allen Chou&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -293,7 +293,7 @@
 &lt;li&gt;&lt;a href=&#34;http://buildnewgames.com/broad-phase-collision-detection/&#34;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: &lt;em&gt;Broad Phase Collision Detection Using Spatial Partitioning&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ibm.com/developerworks/library/wa-build2dphysicsengine/index.html&#34;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: &lt;em&gt;Build a simple 2D physics engine for JavaScript games&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-programming-language&#34;&gt;Build your own &lt;code&gt;Programming Language&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-programming-language&#34;&gt;Build your own &lt;code&gt;Programming Language&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/kanaka/mal#mal---make-a-lisp&#34;&gt;&lt;strong&gt;(any)&lt;/strong&gt;: &lt;em&gt;mal - Make a Lisp&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/nornagon/jonesforth/blob/master/jonesforth.S&#34;&gt;&lt;strong&gt;Assembly&lt;/strong&gt;: &lt;em&gt;Jonesforth&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -337,7 +337,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/&#34;&gt;&lt;strong&gt;Swift&lt;/strong&gt;: &lt;em&gt;Building a LISP from scratch with Swift&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.scottlogic.com/2019/05/17/webassembly-compiler.html&#34;&gt;&lt;strong&gt;TypeScript&lt;/strong&gt;: &lt;em&gt;Build your own WebAssembly Compiler&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-regex-engine&#34;&gt;Build your own &lt;code&gt;Regex Engine&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-regex-engine&#34;&gt;Build your own &lt;code&gt;Regex Engine&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;A Regular Expression Matcher&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://swtch.com/~rsc/regexp/regexp1.html&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Regular Expression Matching Can Be Simple And Fast&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -346,7 +346,7 @@
 &lt;li&gt;&lt;a href=&#34;https://perl.plover.com/Regex/article.html&#34;&gt;&lt;strong&gt;Perl&lt;/strong&gt;: &lt;em&gt;How Regexes Work&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://rcoh.svbtle.com/no-magic-regular-expressions&#34;&gt;&lt;strong&gt;Scala&lt;/strong&gt;: &lt;em&gt;No Magic: Regular Expressions&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-search-engine&#34;&gt;Build your own &lt;code&gt;Search Engine&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-search-engine&#34;&gt;Build your own &lt;code&gt;Search Engine&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://stories.algolia.com/a-search-engine-in-css-b5ec4e902e97&#34;&gt;&lt;strong&gt;CSS&lt;/strong&gt;: &lt;em&gt;A search engine in CSS&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.dr-josiah.com/2010/07/building-search-engine-using-redis-and.html&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Building a search engine using Redis and redis-py&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -355,7 +355,7 @@
 &lt;li&gt;&lt;a href=&#34;https://medium.com/filament-ai/making-text-search-learn-from-feedback-4fe210fd87b0&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Making text search learn from feedback&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://stevenloria.com/tf-idf/&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Finding Important Words in Text Using TF-IDF&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-shell&#34;&gt;Build your own &lt;code&gt;Shell&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-shell&#34;&gt;Build your own &lt;code&gt;Shell&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://brennan.io/2015/01/16/write-a-shell-in-c/&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Tutorial - Write a Shell in C&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/kamalmarhubi/shell-workshop&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Let&amp;rsquo;s build a shell!&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -365,7 +365,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.jstorimer.com/blogs/workingwithcode/7766107-a-unix-shell-in-ruby&#34;&gt;&lt;strong&gt;Ruby&lt;/strong&gt;: &lt;em&gt;A Unix Shell in Ruby&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.joshmcguigan.com/blog/build-your-own-shell-rust/&#34;&gt;&lt;strong&gt;Rust&lt;/strong&gt;: &lt;em&gt;Build Your Own Shell using Rust&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-template-engine&#34;&gt;Build your own &lt;code&gt;Template Engine&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-template-engine&#34;&gt;Build your own &lt;code&gt;Template Engine&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line&#34;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: &lt;em&gt;JavaScript template engine in just 20 lines&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/wdstack/understanding-javascript-micro-templating-f37a37b3b40e&#34;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: &lt;em&gt;Understanding JavaScript Micro-Templating&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -373,7 +373,7 @@
 &lt;li&gt;&lt;a href=&#34;http://aosabook.org/en/500L/a-template-engine.html&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;A Template Engine&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bits.citrusbyte.com/how-to-write-a-template-library/&#34;&gt;&lt;strong&gt;Ruby&lt;/strong&gt;: &lt;em&gt;How to write a template engine in less than 30 lines of code&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-text-editor&#34;&gt;Build your own &lt;code&gt;Text Editor&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-text-editor&#34;&gt;Build your own &lt;code&gt;Text Editor&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://viewsourcecode.org/snaptoken/kilo/&#34;&gt;&lt;strong&gt;C&lt;/strong&gt;: &lt;em&gt;Build Your Own Text Editor&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.fltk.org/doc-1.1/editor.html&#34;&gt;&lt;strong&gt;C++&lt;/strong&gt;: &lt;em&gt;Designing a Simple Text Editor&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -381,23 +381,23 @@
 &lt;li&gt;&lt;a href=&#34;http://www.instructables.com/id/Create-a-Simple-Python-Text-Editor/&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Create a Simple Python Text Editor!&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.aha.io/text-editor/&#34;&gt;&lt;strong&gt;Ruby&lt;/strong&gt;: &lt;em&gt;Build a Collaborative Text Editor Using Rails&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-visual-recognition-system&#34;&gt;Build your own &lt;code&gt;Visual Recognition System&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-visual-recognition-system&#34;&gt;Build your own &lt;code&gt;Visual Recognition System&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.devcenter.co/developing-a-license-plate-recognition-system-with-machine-learning-in-python-787833569ccd&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Developing a License Plate Recognition System with Machine Learning in Python&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://hackernoon.com/building-a-facial-recognition-pipeline-with-deep-learning-in-tensorflow-66e7645015b8&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Building a Facial Recognition Pipeline with Deep Learning in Tensorflow&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-voxel-engine&#34;&gt;Build your own &lt;code&gt;Voxel Engine&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-voxel-engine&#34;&gt;Build your own &lt;code&gt;Voxel Engine&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/letsmakeavoxelengine/home&#34;&gt;&lt;strong&gt;C++&lt;/strong&gt;: &lt;em&gt;Let&amp;rsquo;s Make a Voxel Engine&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=C_Fo9PcrVXA&amp;amp;list=PLXa65xzz2vplye7cn1HH4GyE6_FjnDSug&amp;amp;index=1&#34;&gt;&lt;strong&gt;Java&lt;/strong&gt;: &lt;em&gt;Let&amp;rsquo;s make a voxel engine&lt;/em&gt;&lt;/a&gt; [video]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=QZ4Vk2PkPZk&amp;amp;list=PL80Zqpd23vJfyWQi-8FKDbeO_ZQamLKJL&#34;&gt;&lt;strong&gt;Java&lt;/strong&gt;: &lt;em&gt;Java Voxel Engine Tutorial&lt;/em&gt;&lt;/a&gt; [video]&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-web-search-engine&#34;&gt;Build your own &lt;code&gt;Web Search Engine&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-web-search-engine&#34;&gt;Build your own &lt;code&gt;Web Search Engine&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://boyter.org/2013/01/code-for-a-search-engine-in-php-part-1/&#34;&gt;&lt;strong&gt;PHP&lt;/strong&gt;: &lt;em&gt;Code a Search Engine in PHP&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.saush.com/2009/03/17/write-an-internet-search-engine-with-200-lines-of-ruby-code/&#34;&gt;&lt;strong&gt;Ruby&lt;/strong&gt;: &lt;em&gt;Write an Internet search engine with 200 lines of Ruby code&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;build-your-own-web-server&#34;&gt;Build your own &lt;code&gt;Web Server&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;build-your-own-web-server&#34;&gt;Build your own &lt;code&gt;Web Server&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.codeproject.com/Articles/859108/Writing-a-Web-Server-from-Scratch&#34;&gt;&lt;strong&gt;C#&lt;/strong&gt;: &lt;em&gt;Writing a Web Server from Scratch&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.codementor.io/ziad-saab/let-s-code-a-web-server-from-scratch-with-nodejs-streams-h4uc9utji&#34;&gt;&lt;strong&gt;Node.js&lt;/strong&gt;: &lt;em&gt;Let&amp;rsquo;s code a web server from scratch with NodeJS Streams&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -410,7 +410,7 @@
 &lt;li&gt;&lt;a href=&#34;http://blog.luisrei.com/articles/flaskrest.html&#34;&gt;&lt;strong&gt;Python&lt;/strong&gt;: &lt;em&gt;Implementing a RESTful Web API with Python &amp;amp; Flask&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.honeybadger.io/building-a-simple-websockets-server-from-scratch-in-ruby/&#34;&gt;&lt;strong&gt;Ruby&lt;/strong&gt;: &lt;em&gt;Building a simple websockets server from scratch in Ruby&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;uncategorized&#34;&gt;Uncategorized&lt;/h4&gt;
+&lt;h3 id=&#34;uncategorized&#34;&gt;Uncategorized&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://nand2tetris.org/&#34;&gt;&lt;strong&gt;(any)&lt;/strong&gt;: &lt;em&gt;From NAND to Tetris: Building a Modern Computer From First Principles&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://aosabook.org/en/500L/the-same-origin-policy.html&#34;&gt;&lt;strong&gt;Alloy&lt;/strong&gt;: &lt;em&gt;The Same-Origin Policy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -480,12 +480,12 @@
         
         
            &lt;br&gt;
-&lt;h4 id=&#34;deep-learninghttpswwwdeeplearningbookorg&#34;&gt;&lt;a href=&#34;https://www.deeplearningbook.org/&#34;&gt;Deep Learning&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;deep-learninghttpswwwdeeplearningbookorg&#34;&gt;&lt;a href=&#34;https://www.deeplearningbook.org/&#34;&gt;Deep Learning&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Ian Goodfellow and Yoshua Bengio and Aaron Courville&lt;/p&gt;
 &lt;/blockquote&gt;
    &lt;br&gt; 
-&lt;h4 id=&#34;the-65-books-released-by-springerhttpstowardsdatasciencecomspringer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189&#34;&gt;&lt;a href=&#34;https://towardsdatascience.com/springer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189&#34;&gt;The 65 books released by Springer&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;the-65-books-released-by-springerhttpstowardsdatasciencecomspringer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189&#34;&gt;&lt;a href=&#34;https://towardsdatascience.com/springer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189&#34;&gt;The 65 books released by Springer&lt;/a&gt;&lt;/h3&gt;
    &lt;br&gt;
 &lt;ul&gt;
 &lt;li&gt;The Elements of Statistical Learning&lt;/li&gt;
@@ -884,10 +884,10 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
 &lt;p&gt;To the extent possible under law,  &lt;a href=&#34;https://github.com/papers-we-love/papers-we-love&#34;&gt;papers-we-love&lt;/a&gt; has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;where-to-find-papers&#34;&gt;Where to Find Papers&lt;/h4&gt;
+&lt;h3 id=&#34;where-to-find-papers&#34;&gt;Where to Find Papers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://iclr.cc/virtual_2020/index.html&#34;&gt;ICLR&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap&#34;&gt;Deep Learning Papers Reading Roadmap&lt;/a&gt;&lt;/li&gt;
@@ -919,7 +919,7 @@
 &lt;p&gt;Check out more on &lt;a href=&#34;https://www.youtube.com/user/PapersWeLove&#34;&gt;YouTube&lt;/a&gt; and &lt;a href=&#34;https://www.mixcloud.com/paperswelove/&#34;&gt;MixCloud&lt;/a&gt; (audio-only format) channels.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;how-to-read-a-paper&#34;&gt;How To Read a Paper&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-read-a-paper&#34;&gt;How To Read a Paper&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://organizationsandmarkets.com/2010/08/31/how-to-read-an-academic-article/&#34;&gt;How to read an academic article&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.cc.gatech.edu/~akmassey/posts/2012-02-15-advice-on-reading-academic-papers.html&#34;&gt;Advice on reading academic papers&lt;/a&gt;&lt;/li&gt;
@@ -941,7 +941,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
 &lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/sdmg15/Best-websites-a-programmer-should-visit&#34;&gt;sdmg15&lt;/a&gt; has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
 &lt;h3&gt;Index&lt;/h3&gt;
 &lt;ul&gt;
@@ -979,7 +979,7 @@
 &lt;li&gt;&lt;a href=&#34;#open-source-websites&#34;&gt;Open Source Websites&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#jobs&#34;&gt;Jobs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;when-you-get-stuck&#34;&gt;When you get stuck&lt;/h2&gt;
+&lt;h3 id=&#34;when-you-get-stuck&#34;&gt;When you get stuck&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.codementor.io&#34;&gt;Codementor&lt;/a&gt; : A mentorship community to learn from fellow developers via live 1:1 help and more.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.devrant.io&#34;&gt;devRant&lt;/a&gt; : Community where you can rant and release your stress&lt;/li&gt;
@@ -987,7 +987,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.quora.com&#34;&gt;Quora&lt;/a&gt; : A place to share knowledge and better understand the world&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com&#34;&gt;Stack Overflow&lt;/a&gt; : subscribe to their weekly newsletter and any other topic which you find interesting&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
+&lt;h3 id=&#34;news&#34;&gt;News&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://technews.acm.org&#34;&gt;ACM TechNews&lt;/a&gt; : TechNews&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://stratechery.com&#34;&gt;Stratechery&lt;/a&gt; : Stratechery by Ben Thompson&lt;/li&gt;
@@ -1014,13 +1014,13 @@
 &lt;li&gt;&lt;a href=&#34;https://www.xda-developers.com&#34;&gt;XDA&lt;/a&gt; : Android Developers News&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://hashnode.com/&#34;&gt;Hashnode&lt;/a&gt; : Hashnode is a friendly and inclusive community for software developers&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;magazines&#34;&gt;Magazines&lt;/h2&gt;
+&lt;h3 id=&#34;magazines&#34;&gt;Magazines&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.technologyreview.com/magazine/&#34;&gt;MIT Technology Review&lt;/a&gt; : MIT&amp;rsquo;s tech review magazine.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://nautil.us&#34;&gt;Nautilus&lt;/a&gt; : NewYorker for tech.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lwn.net&#34;&gt;LWN&lt;/a&gt; : Weekly news coverage of opensource technologies, programming, etc. ( Originally Linux Weekly News).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;coding-practice-for-beginners&#34;&gt;Coding practice for beginners&lt;/h2&gt;
+&lt;h3 id=&#34;coding-practice-for-beginners&#34;&gt;Coding practice for beginners&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.com&#34;&gt;freeCodeCamp&lt;/a&gt; : Learn to code and build projects for nonprofits. Build your full stack web development portfolio today&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blackbird.school&#34;&gt;Blackbird School&lt;/a&gt; : Learn to code online with our beginner-friendly platform.&lt;/li&gt;
@@ -1042,7 +1042,7 @@
 &lt;li&gt;&lt;a href=&#34;https://teamtreehouse.com&#34;&gt;treehouse&lt;/a&gt; : The fast, easy, and affordable way to build your skills.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://practice.geeksforgeeks.org&#34;&gt;GeeksforGeeks&lt;/a&gt; : Learn to code, Study for placement, Do competitive coding.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;cryptocurrency&#34;&gt;CryptoCurrency&lt;/h2&gt;
+&lt;h3 id=&#34;cryptocurrency&#34;&gt;CryptoCurrency&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://blockchaindemo.io/&#34;&gt;Blockchain demo&lt;/a&gt; : A visual demo of Blockchain technology&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://coindemo.io/&#34;&gt;Coin demo&lt;/a&gt; : CryptoCurrency demo&lt;/li&gt;
@@ -1051,7 +1051,7 @@
 &lt;li&gt;&lt;a href=&#34;https://gitcoin.co&#34;&gt;GitCoin&lt;/a&gt; : Gitcoin is the easiest way to monetize or incentivize work in Open Source Software.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://litepaper.com/&#34;&gt;Lite Paper&lt;/a&gt; : Cryptocurrencies &amp;amp; Blockchain made effortless&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;for-those-who-want-to-start-a-small-project-but-cant-find-the-ideas&#34;&gt;For those who want to start a small project but can&amp;rsquo;t find the ideas&lt;/h2&gt;
+&lt;h3 id=&#34;for-those-who-want-to-start-a-small-project-but-cant-find-the-ideas&#34;&gt;For those who want to start a small project but can&amp;rsquo;t find the ideas&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d?gi=c786640fbd11&#34;&gt;freeCodeCamp | React project ideas&lt;/a&gt; : 27 fun app ideas you can build while learning React.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/&#34;&gt;martyr2s-mega-project-ideas-list&lt;/a&gt; : contains about 125 project ideas from beginner to intermediate level.&lt;/li&gt;
@@ -1061,7 +1061,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/AppIdeas/&#34;&gt;reddit.com/r/AppIdeas&lt;/a&gt; : A place to discuss ideas for applications, for bored developers.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/SomebodyMakeThis/&#34;&gt;reddit.com/r/SomebodyMakeThis&lt;/a&gt; : A home for ideas by people who lack time, money, or skills.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;general-coding-advice&#34;&gt;General Coding advice&lt;/h2&gt;
+&lt;h3 id=&#34;general-coding-advice&#34;&gt;General Coding advice&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://stephenhaunts.files.wordpress.com/2014/04/10-ways-to-be-a-better-developer.png&#34;&gt;10-ways-to-be-a-better-developer&lt;/a&gt; : Ways to become a better dev!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html&#34;&gt;Code Review Best Practices&lt;/a&gt; : Kevin London&amp;rsquo;s blog&lt;/li&gt;
@@ -1079,7 +1079,7 @@
 &lt;li&gt;&lt;a href=&#34;https://henrikwarne.com/2012/12/12/working-as-a-software-developer/&#34;&gt;Working as a Software Developer&lt;/a&gt; : Henrik Warne&amp;rsquo;s blog&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.owasp.org&#34;&gt;The Open Web Application Security Project (OWASP)&lt;/a&gt; : OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;coding-style&#34;&gt;Coding Style&lt;/h2&gt;
+&lt;h3 id=&#34;coding-style&#34;&gt;Coding Style&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/airbnb/javascript&#34;&gt;Airbnb JS Style Guide&lt;/a&gt; : A mostly reasonable approach to JavaScript&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/airbnb/ruby&#34;&gt;Airbnb Ruby Style Guide&lt;/a&gt; : A ruby style guide by Airbnb&lt;/li&gt;
@@ -1099,7 +1099,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/behzad888/Aurelia-styleguide&#34;&gt;Aurelia Style Guide&lt;/a&gt; : An Aurelia style guide by Behzad Abbasi(Behzad888)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcemaking.com/&#34;&gt;Source Making &lt;/a&gt;: Design Patterns &amp;amp; Refactoring&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;general-tools&#34;&gt;General Tools&lt;/h2&gt;
+&lt;h3 id=&#34;general-tools&#34;&gt;General Tools&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://codepad.remoteinterview.io/DDCUYLAEYS&#34;&gt;CodePad&lt;/a&gt; : Quickly Conduct Coding Interviews and Phone Screen Interviews.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codepen.io&#34;&gt;CodePen&lt;/a&gt; : Front End Developer Playground &amp;amp; Code Editor in the Browser&lt;/li&gt;
@@ -1117,7 +1117,7 @@
 &lt;li&gt;&lt;a href=&#34;https://extendsclass.com/&#34;&gt;Extends Class&lt;/a&gt; : Online developer tools: REST and SOAP clients, SQLite browser, testers (Regex, XPath, JSONPath) and other tools (Encoders, Converters and formatters)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.emaildrop.io/&#34;&gt;EmailDrop&lt;/a&gt;: Emaildrop is a free disposable email provider.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;bash-and-shell-scripting&#34;&gt;Bash and Shell scripting&lt;/h2&gt;
+&lt;h3 id=&#34;bash-and-shell-scripting&#34;&gt;Bash and Shell scripting&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://tldp.org/LDP/abs/html/&#34;&gt;Advanced Bash-Scripting Guide&lt;/a&gt; : An in-depth exploration of the art of shell scripting&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.tldp.org/LDP/Bash-Beginners-Guide/html/&#34;&gt;Bash Guide for Beginners&lt;/a&gt; : Bash Guide for Beginners Machtelt Garrels&lt;/li&gt;
@@ -1127,7 +1127,7 @@
 &lt;li&gt;&lt;a href=&#34;http://conqueringthecommandline.com/book/frontmatter&#34;&gt;Conquering the Command Line&lt;/a&gt; : Unix and Linux Commands for Developers&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.airbornos.com&#34;&gt;Airbon OS&lt;/a&gt; :  Private Google Docs Alternative&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;interview-preparation&#34;&gt;Interview Preparation&lt;/h2&gt;
+&lt;h3 id=&#34;interview-preparation&#34;&gt;Interview Preparation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/&#34;&gt;/r/cscareerquestions&lt;/a&gt; : Here&amp;rsquo;s a pretty big list of programming interview questions I compiled while studying for big 4 interviews. I think you guys will find it useful!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.java67.com/2013/04/10-frequently-asked-sql-query-interview-questions-answers-database.html&#34;&gt;10 Frequently asked SQL Query Interview Questions&lt;/a&gt;&lt;/li&gt;
@@ -1185,7 +1185,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/cscareerquestions/comments/1b8wa3/why_you_make_less_money/&#34;&gt;Why You Make Less Money • /r/cscareerquestions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ocf.berkeley.edu/~wwu/riddles/hard.shtml&#34;&gt;wu :: riddles(hard)&lt;/a&gt; : logic puzzles and riddles&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;documentaries&#34;&gt;Documentaries&lt;/h2&gt;
+&lt;h3 id=&#34;documentaries&#34;&gt;Documentaries&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://ia801908.us.archive.org/27/items/youtube-S23yie-779k/&#34;&gt;Breaking the Code&lt;/a&gt; : Biography of Alan Turing&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4NIb9l3imAo&#34;&gt;Cracking The Code Interview&lt;/a&gt; : Cracking the Code Interview&lt;/li&gt;
@@ -1211,7 +1211,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLn-Y3vvQbmHO5WUcBdIWqiUfNawhC1cn3&#34;&gt;Triumph of the Nerds&lt;/a&gt; : Play-list&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9vz06QO3UkQ&#34;&gt;The Internet&amp;rsquo;s Own Boy&lt;/a&gt; : The Story of Aaron Swartz&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;moocs-for-learning-something-new&#34;&gt;MOOCs for learning something new&lt;/h2&gt;
+&lt;h3 id=&#34;moocs-for-learning-something-new&#34;&gt;MOOCs for learning something new&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.class-central.com&#34;&gt;Class Central&lt;/a&gt; : a directory of 100,000+ student reviews of thousands of MOOCs.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://classpert.com&#34;&gt;Classpert&lt;/a&gt; : a website that gathers MOOCs and online courses from several providers, focusing on computer science and data science courses.&lt;/li&gt;
@@ -1225,7 +1225,7 @@
 &lt;li&gt;&lt;a href=&#34;http://nptel.ac.in&#34;&gt;NPTEL&lt;/a&gt; : Free online courses by IIT with certificates&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/prakhar1989/awesome-courses/blob/master/README.md&#34;&gt;prakhar1989/awesome-CS-courses&lt;/a&gt; : List containing large amount of CS courses&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;sites-related-to-your-preferred-programming-language-for-me-c&#34;&gt;Sites related to your preferred programming language (For me C++)&lt;/h2&gt;
+&lt;h3 id=&#34;sites-related-to-your-preferred-programming-language-for-me-c&#34;&gt;Sites related to your preferred programming language (For me C++)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://javahungry.blogspot.com/2014/02/best-books-for-learning-java-must-read.html&#34;&gt;Best books for learning java must read&lt;/a&gt; : Get basics of Java&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.stroustrup.com/bs_faq2.html&#34;&gt;Bjarne Stroustrup&amp;rsquo;s C++ Style and Technique FAQ&lt;/a&gt; : The C++ FAQ&lt;/li&gt;
@@ -1256,7 +1256,7 @@
 &lt;li&gt;&lt;a href=&#34;http://www.xyzws.com/javafaq/page/1&#34;&gt;XyzWs Java FAQs&lt;/a&gt; : large collection of java interview questions&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.javatpoint.com/java-tutorial&#34;&gt;JavatPoint&lt;/a&gt; : Best website to get a basic Java programming tutorial&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;learn-ai&#34;&gt;Learn AI&lt;/h2&gt;
+&lt;h3 id=&#34;learn-ai&#34;&gt;Learn AI&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://aima.cs.berkeley.edu&#34;&gt;aima&lt;/a&gt; : The leading textbook in Artificial Intelligence (4th most cited publication of the century). Includes Github repositories and more AI resources!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://course.fast.ai&#34;&gt;fast.ai&lt;/a&gt; : Free practical &lt;em&gt;deep learning&lt;/em&gt; course for coders without grad-level maths!&lt;/li&gt;
@@ -1272,7 +1272,7 @@
 &lt;li&gt;&lt;a href=&#34;https://blog.floydhub.com/colorizing-b&amp;amp;w-photos-with-neural-networks/&#34;&gt;Blog Floydhub&lt;/a&gt; : Colorizing B&amp;amp;W Photos with Neural Networks&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mlcourse.ai/&#34;&gt;MLCOURSE.AI&lt;/a&gt; : Open Machine Learning course by OpenDataScience&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;seminar--research-writing--talks-etc&#34;&gt;Seminar , research writing , talks etc&lt;/h2&gt;
+&lt;h3 id=&#34;seminar--research-writing--talks-etc&#34;&gt;Seminar , research writing , talks etc&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cs.cmu.edu/~mleone/how-to.html&#34;&gt;Advice on Research and Writing&lt;/a&gt; : A collection of advice about how to do research and how to communicate effectively (primarily for computer scientists).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cse.iitd.ac.in/~srsarangi/articles.html&#34;&gt;PHD MS Articles&lt;/a&gt; : articles and views&lt;/li&gt;
@@ -1281,7 +1281,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/LewisVo/Begin-Latex-in-minutes&#34;&gt;Begin Latex in minutes&lt;/a&gt; : Brief Intro to LaTeX for beginners that helps you use LaTeX with ease&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://tobi.oetiker.ch/lshort/lshort.pdf&#34;&gt;Lshort&lt;/a&gt; : The Not So Short Introduction to LATEX2ε&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;everything-in-one-place&#34;&gt;Everything in one place&lt;/h2&gt;
+&lt;h3 id=&#34;everything-in-one-place&#34;&gt;Everything in one place&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.reddit.com/user/ashish2199/m/cs_student_subs/&#34;&gt;reddit.com/user/ashish2199/m/cs_student_subs&lt;/a&gt; : a multisubreddit of all subreddits of topics related to computer science and programming.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.quora.com/What-are-the-best-websites-a-programmer-should-visit/answer/Ashish-Padalkar?srid=OH96&#34;&gt;Websites a programmer should visit&lt;/a&gt; : Response on Quora by ashish2199&lt;/li&gt;
@@ -1290,7 +1290,7 @@
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;MDN&lt;/a&gt; : A place with all the documentation of the web standards&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/chubin/cheat.sh&#34;&gt;cheat.sh&lt;/a&gt; : &lt;code&gt;curl cheat.sh&lt;/code&gt; — the only cheat sheet you need — instant answers on programming questions with &lt;code&gt;curl&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;youtube-channels&#34;&gt;YouTube Channels&lt;/h2&gt;
+&lt;h3 id=&#34;youtube-channels&#34;&gt;YouTube Channels&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UC5e__RG9K3cHrPotPABnrwg&#34;&gt;C++Now (BoostCon)&lt;/a&gt; : C++Now (previously BoostCon) conference&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCU0Rt8VHO5-YNQXwIjkf-1g&#34;&gt;code::dive conference&lt;/a&gt; : code::dive conference organized by NOKIA Wrocław Technology Center&lt;/li&gt;
@@ -1337,7 +1337,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/kudvenkat/&#34;&gt;KudVenkat&lt;/a&gt; : Microsoft .NET technologies and SQL Server tutorials.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg&#34;&gt;The Net Ninja&lt;/a&gt;: Web development tutorials&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;good-articles&#34;&gt;Good Articles&lt;/h2&gt;
+&lt;h3 id=&#34;good-articles&#34;&gt;Good Articles&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://carlcheo.com/compsci&#34;&gt;40 Keys Computer Science Concepts Explained In Layman’s Terms&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://dev.to/vaidehijoshi/a-gentle-introduction-to-graph-theory&#34;&gt;A Gentle Introduction To Graph Theory&lt;/a&gt;&lt;/li&gt;
@@ -1364,7 +1364,7 @@
 &lt;li&gt;&lt;a href=&#34;https://addyosmani.com/resources/essentialjsdesignpatterns/book/&#34;&gt;Learning JavaScript Design Patterns&lt;/a&gt; : online version of the Learning JavaScript Design Patterns published by O&amp;rsquo;Reilly, released by the author Addy Osmani under CC BY-NC-ND 3.0&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://requestbin.com/blog/working-with-webhooks/&#34;&gt;Working with Webhooks&lt;/a&gt; : a comprehensive guide on webhooks&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;podcasts&#34;&gt;Podcasts&lt;/h2&gt;
+&lt;h3 id=&#34;podcasts&#34;&gt;Podcasts&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.codingblocks.net&#34;&gt;Coding Blocks&lt;/a&gt; : A podcast covering topics such as best programming practices, design patterns, coding for performance, object oriented coding, database design and implementation, tips, tricks and a whole lot of other things.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://developeronfire.com/episodes&#34;&gt;Developer On Fire&lt;/a&gt; : A podcast that shares the humanity of developers and tells stories of some of the amazing people in software, hosted by Dave Rael.&lt;/li&gt;
@@ -1389,7 +1389,7 @@
 &lt;li&gt;&lt;a href=&#34;https://talkpython.fm/&#34;&gt;Talk python to me&lt;/a&gt; Podcast to learn about Python through interviews and discussions&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pythonbytes.fm&#34;&gt;Python bytes&lt;/a&gt; Podcast to learn about the latest happenings and trends in Python&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;building-a-simple-compilerinterpreter&#34;&gt;Building a Simple Compiler/Interpreter&lt;/h2&gt;
+&lt;h3 id=&#34;building-a-simple-compilerinterpreter&#34;&gt;Building a Simple Compiler/Interpreter&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/thejameskyle/the-super-tiny-compiler&#34;&gt;☃️ Possibly the smallest compiler ever&lt;/a&gt; : This is an ultra-simplified example of all the major pieces of a modern compiler written in easy to read JavaScript.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://aalhour.com/awesome-compilers/&#34;&gt;Awesome Compilers&lt;/a&gt; : Curated list of awesome resources on Compilers, Interpreters and Runtimes.&lt;/li&gt;
@@ -1402,7 +1402,7 @@
 &lt;li&gt;&lt;a href=&#34;http://staff.polito.it/silvano.rivoira/HowToWriteYourOwnCompiler.htm&#34;&gt;Write your own compiler&lt;/a&gt; : How to write your own compiler&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://craftinginterpreters.com/&#34;&gt;Crafting Interpreters&lt;/a&gt; A handbook for writing interpreters, first implementing a tree walking interpreter and later a bytecode virtual machine&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h2&gt;
+&lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://wildlyinaccurate.com/a-hackers-guide-to-git/&#34;&gt;A Hacker&amp;rsquo;s Guide to Git&lt;/a&gt; : for those wanting to learn git with a solid foundation&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://duartes.org/gustavo/blog/best-of/&#34;&gt;Best Of - Gustavo Duarte&lt;/a&gt; : contains articles on various topics&lt;/li&gt;
@@ -1453,18 +1453,18 @@
 &lt;li&gt;&lt;a href=&#34;https://explainshell.com/&#34;&gt;Explain Shell&lt;/a&gt;: Match command-line arguments to their help text&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://speaking.io/&#34;&gt;Speaking io&lt;/a&gt; : Tips for public speaking&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;watch-others-code&#34;&gt;Watch others code&lt;/h2&gt;
+&lt;h3 id=&#34;watch-others-code&#34;&gt;Watch others code&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.education-ecosystem.com&#34;&gt;Education Ecosystem&lt;/a&gt; : screencast of people building application, websites, games, etc.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.twitch.tv/directory/game/Science%20%26%20Technology&#34;&gt;Twitch.tv&lt;/a&gt; : The programming community of twitch.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;what-should-a-programmer-know&#34;&gt;What should a programmer know&lt;/h2&gt;
+&lt;h3 id=&#34;what-should-a-programmer-know&#34;&gt;What should a programmer know&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com&#34;&gt;GitHub.com Build software better, together&lt;/a&gt; : Place to showcase your project and collaborate with others. (Must know Git in order to use it effectively)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://about.gitlab.com&#34;&gt;Gitlab offers free unlimited (private) repositories and unlimited collaborators&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://sijinjoseph.com/programmer-competency-matrix/&#34;&gt;Programmer Competency Matrix&lt;/a&gt; : article for knowing what our level as a programmer is.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;competitive-programming&#34;&gt;Competitive programming&lt;/h2&gt;
+&lt;h3 id=&#34;competitive-programming&#34;&gt;Competitive programming&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://a2oj.com/categories&#34;&gt;Topic Wise Problem For Competitive Programmer&lt;/a&gt; : Topic wise Practise Problem&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://projecteuler.net/archives&#34;&gt;Archived Problems - Project Euler&lt;/a&gt; : Problems Archives&lt;/li&gt;
@@ -1486,7 +1486,7 @@
 &lt;li&gt;&lt;a href=&#34;https://uva.onlinejudge.org&#34;&gt;UVa Online Judge&lt;/a&gt; : hundreds of problems supporting multiple languages.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://wakatime.com&#34;&gt;WakaTime&lt;/a&gt; : leaderboards of coding metrics collected via editor plugins&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;computer-books&#34;&gt;Computer Books&lt;/h2&gt;
+&lt;h3 id=&#34;computer-books&#34;&gt;Computer Books&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://programming-motherfucker.com/become.html&#34;&gt;Become a Programmer, Motherfucker (list of books)&lt;/a&gt; : Exhaustive list of books from Zed A. Shaw.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://gatecse.in/best-books-for-gatecse/&#34;&gt;Best books for GATE CSE&lt;/a&gt;&lt;/li&gt;
@@ -1497,7 +1497,7 @@
 &lt;li&gt;&lt;a href=&#34;https://goalkicker.com&#34;&gt;Goal Kicker&lt;/a&gt; : Programming Notes for Professionals books&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://graphql.guide&#34;&gt;The GraphQL Guide&lt;/a&gt; : The complete guide to GraphQL, the new REST ✨&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;video-tutorials&#34;&gt;Video Tutorials&lt;/h2&gt;
+&lt;h3 id=&#34;video-tutorials&#34;&gt;Video Tutorials&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCJUmE61LxhbhudzUugHL2wQ/videos&#34;&gt;codedamn&lt;/a&gt; : front end web dev tutorials&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.codeschool.com&#34;&gt;Code School&lt;/a&gt; : A PluralSight Company and an Interactive learning destination for aspiring and experienced Developers&lt;/li&gt;
@@ -1518,7 +1518,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1PhArSujR_A&#34;&gt;Functional programming&lt;/a&gt; : John Carmack on Functional Programming (2013)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://vimeo.com/album/2838732&#34;&gt;Video about vims&lt;/a&gt; : A serie of tutorials about Vim&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;online-compiler-and-sharing-code-snippets&#34;&gt;Online Compiler and Sharing Code snippets&lt;/h2&gt;
+&lt;h3 id=&#34;online-compiler-and-sharing-code-snippets&#34;&gt;Online Compiler and Sharing Code snippets&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://codepad.remoteinterview.io&#34;&gt;CodePad&lt;/a&gt; : Code editor to try, test and run 25+ languages&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codesandbox.io&#34;&gt;Codesandbox.io&lt;/a&gt; : CodeSandbox makes it easier to create, share and reuse React projects with others.&lt;/li&gt;
@@ -1532,7 +1532,7 @@
 &lt;li&gt;&lt;a href=&#34;https://gist.github.com&#34;&gt;Github Gist&lt;/a&gt; : Instantly share code, notes, and snippets.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://coder.com&#34;&gt;Coder&lt;/a&gt; : A Web-based development environment using Visual Studio Code as code editor&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;blogs-of-developers&#34;&gt;Blogs of Developers&lt;/h2&gt;
+&lt;h3 id=&#34;blogs-of-developers&#34;&gt;Blogs of Developers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://algo-geeks.blogspot.com&#34;&gt;Algo-Geeks&lt;/a&gt; : Programming Puzzles, Math Tricks, Algorithms etc&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.amitmerchant.com&#34;&gt;Amit Merchant&lt;/a&gt; : Tutorials, tips &amp;amp; tricks and rants about programming and design.&lt;/li&gt;
@@ -1571,7 +1571,7 @@
 &lt;li&gt;&lt;a href=&#34;https://forum.xda-developers.com&#34;&gt;XDA - Android Developer Forum&lt;/a&gt; : Android Open Source Developers Forum&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.thenetninja.co.uk/&#34;&gt;The Net Ninja&lt;/a&gt;: Web development tutorials&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;for-improving-your-english&#34;&gt;For improving your English&lt;/h2&gt;
+&lt;h3 id=&#34;for-improving-your-english&#34;&gt;For improving your English&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.englishclub.com/learn-english.htm&#34;&gt;Englishclub.com/learn-english&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://grammar.ccc.commnet.edu/grammar/&#34;&gt;Guide to Grammar and Writing&lt;/a&gt; : for those who want to improve their english language skills&lt;/li&gt;
@@ -1579,7 +1579,7 @@
 &lt;li&gt;&lt;a href=&#34;https://owl.english.purdue.edu&#34;&gt;Purdue University Online Writing Lab (OWL)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.quia.com/shared/english/&#34;&gt;Quia - English&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;when-you-get-bored-from-cs-related-stuff&#34;&gt;When you get bored from CS related stuff&lt;/h2&gt;
+&lt;h3 id=&#34;when-you-get-bored-from-cs-related-stuff&#34;&gt;When you get bored from CS related stuff&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/barcroftmedia/featured&#34;&gt;Barcroft TV&lt;/a&gt; : Daily short documentaries about the incredible variety of people that make up the world&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/bigthink/videos&#34;&gt;Big Think&lt;/a&gt; : Expert driven, actionable, educational content, featuring experts ranging from Bill Clinton to Bill Nye&lt;/li&gt;
@@ -1600,7 +1600,7 @@
 &lt;li&gt;&lt;a href=&#34;http://www.ox.ac.uk/research/research-in-conversation/how-live-happy-life/dr-bronwyn-tarr#&#34;&gt;Ox A cuk&lt;/a&gt; : How to live a happy life&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.lonelyspeck.com/the-milky-way-in-los-angeles-light-pollution/&#34;&gt;lonelyspeck&lt;/a&gt; : Expose to the Right for Astrophotography in Light Pollution – Palos Verdes, Los Angeles, California&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;open-source-websites&#34;&gt;Open Source Websites&lt;/h2&gt;
+&lt;h3 id=&#34;open-source-websites&#34;&gt;Open Source Websites&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://openhatch.org&#34;&gt;Open Hatch&lt;/a&gt; : OpenHatch is a non-profit dedicated to matching prospective free software contributors with communities, tools, and education.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourceforge.net&#34;&gt;Source Forge&lt;/a&gt; : SourceForge hosts nearly 280,000 projects (at last count). It serves more than 2 million downloads a day and includes apps and tools in a wide variety of categories.&lt;/li&gt;
@@ -1622,7 +1622,7 @@
 &lt;li&gt;&lt;a href=&#34;http://www.firsttimersonly.com&#34;&gt;First Timers Only&lt;/a&gt; : Contributing to open source for the first time can be scary and a little overwhelming. Perhaps you’re a Code Newbie or maybe you’ve been coding for a while but haven’t found a project you felt comfortable contributing to.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://yourfirstpr.github.io&#34;&gt;Your First PR&lt;/a&gt; : Your First PR helps you get started contributing to Open Source by showcasing great starter issues on GitHub and elsewhere.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;jobs&#34;&gt;Jobs&lt;/h2&gt;
+&lt;h3 id=&#34;jobs&#34;&gt;Jobs&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://angel.co/&#34;&gt;AngelList&lt;/a&gt; : AngelList is a
 website for startups, angel investors, and job-seekers
@@ -1697,7 +1697,7 @@ interests.&lt;/li&gt;
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;tabula-py&#34;&gt;tabula-py&lt;/h4&gt;
+&lt;h3 id=&#34;tabula-py&#34;&gt;tabula-py&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/chezou/tabula-py&#34;&gt;tabula-py&lt;/a&gt; is a simple Python wrapper of tabula-java&lt;/li&gt;
 &lt;li&gt;Installation&lt;/li&gt;
@@ -1720,7 +1720,7 @@ interests.&lt;/li&gt;
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# convert all PDFs in a directory&lt;/span&gt;
 &lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;convert_into_by_batch&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;input_directory&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;output_format&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;csv&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;all)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;r-tabulizer&#34;&gt;R Tabulizer&lt;/h4&gt;
+&lt;h3 id=&#34;r-tabulizer&#34;&gt;R Tabulizer&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ropensci/tabulizer&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Installation&lt;/li&gt;
@@ -1748,17 +1748,17 @@ interests.&lt;/li&gt;
         
         &lt;br&gt;
 &lt;h3 id=&#34;how-to-convert-a-tab-deliminated-file-txttsv-to-a-csv&#34;&gt;How to convert a tab-deliminated file (.txt/.tsv) to a csv?&lt;/h3&gt;
-&lt;h5 id=&#34;0-open-the-terminal&#34;&gt;0. Open the terminal&lt;/h5&gt;
+&lt;h3 id=&#34;0-open-the-terminal&#34;&gt;0. Open the terminal&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; filedirectory
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;1-convert-file-commas--to-semi-colon-&#34;&gt;1. Convert file commas (,) to semi-colon (;)&lt;/h5&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;1-convert-file-commas--to-semi-colon-&#34;&gt;1. Convert file commas (,) to semi-colon (;)&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/,/;/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;2-conver-tab-t-to-comma&#34;&gt;2. Conver tab (\t) to comma(,)&lt;/h5&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-conver-tab-t-to-comma&#34;&gt;2. Conver tab (\t) to comma(,)&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/\t/,/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&#34;how-to-convert-a-csv-to-a-tab-deliminated-file-txttsv&#34;&gt;How to convert a csv to a tab-deliminated file (.txt/.tsv)?&lt;/h3&gt;
-&lt;h5 id=&#34;1--conver-file-tabs-t-to-semi-colon&#34;&gt;1.  Conver file tabs (\t) to semi-colon(;)&lt;/h5&gt;
+&lt;h3 id=&#34;1--conver-file-tabs-t-to-semi-colon&#34;&gt;1.  Conver file tabs (\t) to semi-colon(;)&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/\t/;/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;2--conver-comma--to-tab-t&#34;&gt;2.  Conver comma (,) to tab (\t)&lt;/h5&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2--conver-comma--to-tab-t&#34;&gt;2.  Conver comma (,) to tab (\t)&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/,/\t/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
@@ -1774,7 +1774,7 @@ interests.&lt;/li&gt;
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;1-jupytexthttpsgithubcommwoutsjupytext&#34;&gt;1. &lt;a href=&#34;https://github.com/mwouts/jupytext&#34;&gt;Jupytext&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;1-jupytexthttpsgithubcommwoutsjupytext&#34;&gt;1. &lt;a href=&#34;https://github.com/mwouts/jupytext&#34;&gt;Jupytext&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Install jupytext&lt;/li&gt;
 &lt;/ul&gt;
@@ -1819,7 +1819,7 @@ jupytext --from ipynb --to py:percent           &lt;span style=&#34;color:#8f590
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/jupytext-1-0-highlights-a49dca9baa7b&#34;&gt;Jupytext highlight&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;2-jupyter2slideshttpsgithubcomdatitranjupyter2slides&#34;&gt;2. &lt;a href=&#34;https://github.com/datitran/jupyter2slides&#34;&gt;jupyter2slides&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;2-jupyter2slideshttpsgithubcomdatitranjupyter2slides&#34;&gt;2. &lt;a href=&#34;https://github.com/datitran/jupyter2slides&#34;&gt;jupyter2slides&lt;/a&gt;&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;python create_slides.py --file static/filename.ipynb
 python run.py --file static/filename.slides.html
 http://0.0.0.0:9099/
@@ -1827,7 +1827,7 @@ http://0.0.0.0:9099/
 &lt;li&gt;change footer in jupyter_template.tpl&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;3-nbconverthttpsnbconvertreadthedocsioenlatestinstallhtml&#34;&gt;3. &lt;a href=&#34;https://nbconvert.readthedocs.io/en/latest/install.html&#34;&gt;nbconvert&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;3-nbconverthttpsnbconvertreadthedocsioenlatestinstallhtml&#34;&gt;3. &lt;a href=&#34;https://nbconvert.readthedocs.io/en/latest/install.html&#34;&gt;nbconvert&lt;/a&gt;&lt;/h3&gt;
 
       </description>
     </item>
@@ -1842,7 +1842,7 @@ http://0.0.0.0:9099/
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;gpu-dashborads&#34;&gt;GPU Dashborads&lt;/h4&gt;
+&lt;h3 id=&#34;gpu-dashborads&#34;&gt;GPU Dashborads&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;A JupyterLab extension for displaying dashboards of GPU usage.&lt;/li&gt;
 &lt;li&gt;Install &lt;a href=&#34;https://github.com/rapidsai/jupyterlab-nvdashboard&#34;&gt;jupyterlab-nvdashboard&lt;/a&gt;&lt;/li&gt;
@@ -1851,7 +1851,7 @@ http://0.0.0.0:9099/
 &lt;p&gt;&lt;a href=&#34;https://medium.com/rapids-ai/gpu-dashboards-in-jupyter-lab-757b17aae1d5&#34;&gt;GPU Dashboards in Jupyter Lab&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;version-control&#34;&gt;Version control&lt;/h4&gt;
+&lt;h3 id=&#34;version-control&#34;&gt;Version control&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jupyterlab/jupyterlab-git&#34;&gt;jupyterlab-git&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jupyter/nbdime&#34;&gt;nbdime&lt;/a&gt;&lt;/li&gt;
@@ -1870,21 +1870,21 @@ http://0.0.0.0:9099/
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;how-to-install-jupyter-using-miniconda&#34;&gt;How to install Jupyter using miniconda?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-install-jupyter-using-miniconda&#34;&gt;How to install Jupyter using miniconda?&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;conda install jupyter
 &lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h4 id=&#34;how-to-view-jupyter-notebook-if-github-page-fails-to-render-ipynb-notebook&#34;&gt;How to view Jupyter notebook if Github page fails to render ipynb notebook?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-view-jupyter-notebook-if-github-page-fails-to-render-ipynb-notebook&#34;&gt;How to view Jupyter notebook if Github page fails to render ipynb notebook?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go to &lt;a href=&#34;https://nbviewer.jupyter.org/&#34;&gt;https://nbviewer.jupyter.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Paste the link to your notebook&lt;/li&gt;
 &lt;/ul&gt;
   &lt;br&gt;
-&lt;h4 id=&#34;how-to-parameterize-execute-and-analyze-jupyter-notebook&#34;&gt;How to parameterize, execute, and analyze Jupyter notebook?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-parameterize-execute-and-analyze-jupyter-notebook&#34;&gt;How to parameterize, execute, and analyze Jupyter notebook?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/nteract/papermill&#34;&gt;papermill&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;how-to-format-code-in-jupyter-notebook&#34;&gt;How to format code in Jupyter notebook?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-format-code-in-jupyter-notebook&#34;&gt;How to format code in Jupyter notebook?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/drillan/jupyter-black&#34;&gt;Jupyter Black&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1893,7 +1893,7 @@ jupyter nbextension install https://github.com/drillan/jupyter-black/archive/mas
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# enable &lt;/span&gt;
 jupyter nbextension &lt;span style=&#34;color:#204a87&#34;&gt;enable&lt;/span&gt; jupyter-black-master/jupyter-black
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;how-to-download-all-files-in-a-path-on-jupyter-notebook-server&#34;&gt;How to download all files in a path on Jupyter notebook server&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-download-all-files-in-a-path-on-jupyter-notebook-server&#34;&gt;How to download all files in a path on Jupyter notebook server&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Open a Jupyter notebook &lt;strong&gt;X&lt;/strong&gt; on the server&lt;/p&gt;
@@ -1909,7 +1909,7 @@ jupyter nbextension &lt;span style=&#34;color:#204a87&#34;&gt;enable&lt;/span&gt
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;how-to-know-which-python-and-packages-are-used-in-jupyter-notebook&#34;&gt;How to know which Python and packages are used in jupyter notebook?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-know-which-python-and-packages-are-used-in-jupyter-notebook&#34;&gt;How to know which Python and packages are used in jupyter notebook?&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;executable&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
@@ -1970,7 +1970,7 @@ jupyter nbextension &lt;span style=&#34;color:#204a87&#34;&gt;enable&lt;/span&gt
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;1-install-z-shell-and-oh-my-zshell&#34;&gt;1. Install z shell and oh-my-zshell&lt;/h4&gt;
+&lt;h3 id=&#34;1-install-z-shell-and-oh-my-zshell&#34;&gt;1. Install z shell and oh-my-zshell&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt-get update
 sudo apt upgrade
 
@@ -1996,7 +1996,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git &lt;span styl
 &lt;p&gt;&lt;a href=&#34;https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;2-enable-conda-command&#34;&gt;2. Enable conda command&lt;/h4&gt;
+&lt;h3 id=&#34;2-enable-conda-command&#34;&gt;2. Enable conda command&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# open bashrc&lt;/span&gt;
 vim ~/.bashshrc
 
@@ -2023,7 +2023,7 @@ vim ~/.zshrc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Restart zshell&lt;/span&gt;
 &lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.zshrc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;3-level-up-install-power10k-theme&#34;&gt;3. Level Up: install power10k theme&lt;/h4&gt;
+&lt;h3 id=&#34;3-level-up-install-power10k-theme&#34;&gt;3. Level Up: install power10k theme&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone --depth&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt; https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 &lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;source ~/powerlevel10k/powerlevel10k.zsh-theme&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt;! ~/.zshrc
 
@@ -2037,7 +2037,7 @@ compaudit &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k#pure-compatibility&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;4-install-meslo-nerd-font&#34;&gt;4. Install Meslo Nerd Font&lt;/h4&gt;
+&lt;h3 id=&#34;4-install-meslo-nerd-font&#34;&gt;4. Install Meslo Nerd Font&lt;/h3&gt;
 &lt;p&gt;Download these four ttf files:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf&#34;&gt;MesloLGS NF Regular.ttf&lt;/a&gt;&lt;/li&gt;
@@ -2056,7 +2056,7 @@ selected profile under &lt;em&gt;Profiles&lt;/em&gt;. Check &lt;em&gt;Custom fon
 &lt;p&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;5-change-terminal-settings-for-vscode&#34;&gt;5. Change terminal settings for vscode&lt;/h4&gt;
+&lt;h3 id=&#34;5-change-terminal-settings-for-vscode&#34;&gt;5. Change terminal settings for vscode&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# install vscode in Ubuntu &lt;/span&gt;
 sudo snap install --classic code  
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;View =&amp;gt; Command Pallete =&amp;gt; Type &lt;code&gt;settings&lt;/code&gt; and Select &lt;code&gt;Preferences: Open Settings (JSON)&lt;/code&gt; =&amp;gt; Add the below lines&lt;/p&gt;
@@ -2081,12 +2081,12 @@ sudo snap install --classic code
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;1-install-iterm2&#34;&gt;1. Install Iterm2&lt;/h4&gt;
+&lt;h3 id=&#34;1-install-iterm2&#34;&gt;1. Install Iterm2&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install iterm2&lt;/span&gt;
 &lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; myfolder
 brew cask install iterm2
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;2-install-z-shell&#34;&gt;2. Install Z-shell&lt;/h4&gt;
+&lt;h3 id=&#34;2-install-z-shell&#34;&gt;2. Install Z-shell&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install ZSH&lt;/span&gt;
 brew install zsh
 
@@ -2099,12 +2099,12 @@ sh -c &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span s
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# If you use conda environment&lt;/span&gt;
 conda init zsh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;3-install-color-scheme&#34;&gt;3. Install Color Scheme&lt;/h4&gt;
+&lt;h3 id=&#34;3-install-color-scheme&#34;&gt;3. Install Color Scheme&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone git@github.com:mbadolato/iTerm2-Color-Schemes.git
 
 &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Colors &amp;gt; Color Presets &amp;gt; Import &amp;gt; Select Folder iTerm2-Color-Schemes/Schemes/yourfavouritecolor&amp;#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;4-install-powerline-font&#34;&gt;4. Install powerline font&lt;/h4&gt;
+&lt;h3 id=&#34;4-install-powerline-font&#34;&gt;4. Install powerline font&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 vim ~/.zshrc
@@ -2125,7 +2125,7 @@ rm -rf fonts
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;p&gt;&lt;img src=&#34;/assets/pics/terminal.png&#34; alt=&#34;Terminal&#34;&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;5-get-miniconda-working-in-oh-my-zsh&#34;&gt;5. Get miniconda working in Oh My ZSH&lt;/h4&gt;
+&lt;h3 id=&#34;5-get-miniconda-working-in-oh-my-zsh&#34;&gt;5. Get miniconda working in Oh My ZSH&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;open ~/.bash_profile
 open ~/.zshrc
 &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
@@ -2154,13 +2154,13 @@ open ~/.zshrc
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Restart zshell&lt;/span&gt;
 &lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.zshrc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;6-add-zsh-syntax-highlighting&#34;&gt;6. Add zsh syntax highlighting&lt;/h4&gt;
+&lt;h3 id=&#34;6-add-zsh-syntax-highlighting&#34;&gt;6. Add zsh syntax highlighting&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 
 &lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;source &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(q-)PWD&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ZDOTDIR&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;:-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/.zshrc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156&#34;&gt;How to Configure your macOs Terminal with Zsh like a Pro&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh&#34;&gt;oh-my-zsh&lt;/a&gt;&lt;/li&gt;
@@ -2183,7 +2183,7 @@ open ~/.zshrc
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;vs-code&#34;&gt;VS Code&lt;/h4&gt;
+&lt;h3 id=&#34;vs-code&#34;&gt;VS Code&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext&#34;&gt;Oceanic Next dimmed bg&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda&#34;&gt;Panda&lt;/a&gt;&lt;/li&gt;
@@ -2202,7 +2202,7 @@ open ~/.zshrc
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;how-can-i-find-the-memory-usage-on-my-gpu&#34;&gt;How can I find the memory usage on my GPU?&lt;/h4&gt;
+&lt;h3 id=&#34;how-can-i-find-the-memory-usage-on-my-gpu&#34;&gt;How can I find the memory usage on my GPU?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;For Nvidia GPUs:&lt;/li&gt;
 &lt;/ul&gt;
@@ -2221,7 +2221,7 @@ open ~/.zshrc
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo watch nvidia-smi
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://askubuntu.com/questions/276039/how-can-i-find-the-memory-usage-on-my-gpu&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;release-gpu&#34;&gt;Release GPU&lt;/h4&gt;
+&lt;h3 id=&#34;release-gpu&#34;&gt;Release GPU&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Terminal&lt;/li&gt;
 &lt;/ul&gt;
@@ -2273,7 +2273,7 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;super-duper-fast-pytorch-tpu-kernel&#34;&gt;Super-duper fast pytorch tpu kernel&lt;/h4&gt;
+&lt;h3 id=&#34;super-duper-fast-pytorch-tpu-kernel&#34;&gt;Super-duper fast pytorch tpu kernel&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Abhishek Thakur&lt;br&gt;
 &lt;a href=&#34;https://www.kaggle.com/abhishek/super-duper-fast-pytorch-tpu-kernel&#34;&gt;Kaggle Link&lt;/a&gt;&lt;/p&gt;
@@ -2292,7 +2292,7 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;white-board-platform&#34;&gt;White Board Platform&lt;/h4&gt;
+&lt;h3 id=&#34;white-board-platform&#34;&gt;White Board Platform&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://miro.com/&#34;&gt;miro&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

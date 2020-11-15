@@ -23,7 +23,7 @@
       <description>
         
         
-        &lt;h4 id=&#34;python-f-string-formatting&#34;&gt;Python f-string formatting&lt;/h4&gt;
+        &lt;h3 id=&#34;python-f-string-formatting&#34;&gt;Python f-string formatting&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;All examples below were executed in Python interactive shell&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -112,7 +112,7 @@
 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;{0.25:.0%}&amp;#39;&lt;/span&gt;
 &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;25%&amp;#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
 &lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/s-sebastian/myshell-src&#34;&gt;myshell-src&lt;/a&gt;  has waived all copyright and related or neighboring rights to this file.&lt;/p&gt;
 &lt;br&gt; 
       </description>
@@ -128,7 +128,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;how-to-detect-and-remove-outliers&#34;&gt;How to detect and remove outliers?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-detect-and-remove-outliers&#34;&gt;How to detect and remove outliers?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Remove outliers by interquartile range (IQR)&lt;/li&gt;
 &lt;/ul&gt;
@@ -224,7 +224,7 @@
       <description>
         
         
-        &lt;h4 id=&#34;bar-plot&#34;&gt;Bar Plot&lt;/h4&gt;
+        &lt;h3 id=&#34;bar-plot&#34;&gt;Bar Plot&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;plt&lt;/span&gt;
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;plot_count&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;feature&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;size&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
     &lt;span style=&#34;color:#000&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ax&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;plt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;subplots&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;figsize&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
@@ -252,7 +252,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;unit-test&#34;&gt;Unit Test&lt;/h4&gt;
+&lt;h3 id=&#34;unit-test&#34;&gt;Unit Test&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/library/unittest.html&#34;&gt;Unit testing framework&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -281,7 +281,7 @@
 &lt;p&gt;&lt;a href=&#34;https://gist.githubusercontent.com/davified/41046fc2665804aa38da0098ab2f1b34/raw/3716b2fd3614e29591c3f0dbe981486bb5c5587d/test_model_metrics.py&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;read-more&#34;&gt;Read More&lt;/h4&gt;
+&lt;h3 id=&#34;read-more&#34;&gt;Read More&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/habits-for-managing-complexity-in-data-science-codebases-5a16314c3737&#34;&gt;Better habits for managing complexity in data science codebases&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.pytest.org/en/latest/&#34;&gt;pytest&lt;/a&gt;&lt;/li&gt;
@@ -301,7 +301,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;packages&#34;&gt;Packages&lt;/h4&gt;
+&lt;h3 id=&#34;packages&#34;&gt;Packages&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://click.palletsprojects.com/en/7.x/&#34;&gt;click&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://askubuntu.com/questions/646876/pass-filename-from-bash-to-python&#34;&gt;sys.argv&lt;/a&gt;&lt;/li&gt;
@@ -310,7 +310,7 @@
 &lt;p&gt;&lt;a href=&#34;https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df&#34;&gt;Different command line package&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
  &lt;br&gt;
-&lt;h4 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h4&gt;
+&lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://levelup.gitconnected.com/the-easy-guide-to-python-command-line-arguments-96b4607baea1&#34;&gt;The Easy Guide to Python Command Line Arguments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -321,32 +321,65 @@
     <item>
       <title>Docs: Packages</title>
       <link>/docs/coding/functional-coding/python/packages/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/coding/functional-coding/python/packages/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;python-packages&#34;&gt;python packages&lt;/h4&gt;
+&lt;h3 id=&#34;python-packages&#34;&gt;python packages&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/library/gc.html&#34;&gt;gc&lt;/a&gt;&lt;br&gt;
-This module provides an interface to the optional garbage collector. It provides the ability to disable the collector, tune the collection frequency, and set debugging options.&lt;/li&gt;
-&lt;li&gt;pathlib2&lt;/li&gt;
-&lt;li&gt;dabl (Data Analysis Baseline Library)&lt;/li&gt;
-&lt;li&gt;missingno&lt;/li&gt;
-&lt;li&gt;AutoViz&lt;/li&gt;
-&lt;li&gt;Bamboolib&lt;/li&gt;
-&lt;li&gt;FlashText&lt;/li&gt;
-&lt;li&gt;PyFlux&lt;/li&gt;
-&lt;li&gt;Numerizer&lt;/li&gt;
-&lt;li&gt;Emot&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ottogroup/palladium&#34;&gt;Palladium&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It is a pluggable framework for developing real-world machine learning solutions. It provides generic implementations for things commonly needed in machine learning, such as dataset loading, model training with parameter search, a web service, and persistence capabilities, allowing you to concentrate on the core task of developing an accurate machine learning model.&lt;/li&gt;
+&lt;li&gt;Built on sklearn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/drvinceknight/Nashpy&#34;&gt;Nashpy&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/game-theory-in-python-with-nashpy-cb5dceab262c&#34;&gt;Game Theory concepts with application in Python using Nashpy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.python.org/3/library/gc.html&#34;&gt;gc&lt;/a&gt;&lt;br&gt;
+This module provides an interface to the optional garbage collector. It provides the ability to disable the collector, tune the collection frequency, and set debugging options.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;pathlib2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;dabl (Data Analysis Baseline Library)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;missingno&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AutoViz&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bamboolib&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FlashText&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PyFlux&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Numerizer&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Emot&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/parulpandey/useful-python-libraries-for-data-science&#34;&gt;Useful python libraries for data science&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
   &lt;br&gt;
-&lt;h4 id=&#34;machine-learning&#34;&gt;Machine learning&lt;/h4&gt;
+&lt;h3 id=&#34;machine-learning&#34;&gt;Machine learning&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;lightgbm&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ai.googleblog.com/2019/03/introducing-gpipe-open-source-library.html&#34;&gt;GPipe&lt;/a&gt;&lt;/li&gt;
@@ -355,13 +388,13 @@ This module provides an interface to the optional garbage collector. It provides
 &lt;li&gt;&lt;a href=&#34;https://github.com/koaning/human-learn/&#34;&gt;human learn&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
   &lt;br&gt;   
-&lt;h4 id=&#34;data-versioning&#34;&gt;Data versioning&lt;/h4&gt;
+&lt;h3 id=&#34;data-versioning&#34;&gt;Data versioning&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://dvc.org/&#34;&gt;DVC&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/quiltdata/quilt&#34;&gt;Quilt&lt;/a&gt;: a versioned data portal for AWS&lt;/li&gt;
 &lt;/ul&gt;
   &lt;br&gt;  
-&lt;h4 id=&#34;data-visualization&#34;&gt;Data visualization&lt;/h4&gt;
+&lt;h3 id=&#34;data-visualization&#34;&gt;Data visualization&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Pylab is a module that belongs to the Python mathematics library Matplotlib. PyLab combines the numerical module numpy with the graphical plotting module pyplot. PyLab was designed with the interactive Python interpreter in mind, and therefore many of its functions are short and require minimal typing.&lt;/p&gt;
@@ -377,14 +410,14 @@ This module provides an interface to the optional garbage collector. It provides
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;  
-&lt;h4 id=&#34;data-science-pipeline&#34;&gt;Data science pipeline&lt;/h4&gt;
+&lt;h3 id=&#34;data-science-pipeline&#34;&gt;Data science pipeline&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/cgarciae/pypeln&#34;&gt;pypeln&lt;/a&gt;: creating concurrent data pipelines&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/EntilZha/PyFunctional#installation&#34;&gt;PyFunctional&lt;/a&gt;: creating data pipelines easy by using chained functional operators.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://joblib.readthedocs.io/en/latest/&#34;&gt;Joblib&lt;/a&gt;: running Python functions as pipeline jobs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;   
-&lt;h4 id=&#34;how-to-manage-application-dependencies&#34;&gt;How to manage application dependencies?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-manage-application-dependencies&#34;&gt;How to manage application dependencies?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://python-poetry.org/docs/basic-usage/&#34;&gt;Poetry: Dependency Management for Python&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -417,13 +450,13 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
   $ &lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; myproject
   $ pipenv install requests
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt; 
-&lt;h4 id=&#34;how-to-integrate-r-and-python-in-a-single-workflow&#34;&gt;How to integrate R and Python in a single workflow?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-integrate-r-and-python-in-a-single-workflow&#34;&gt;How to integrate R and Python in a single workflow?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use R snippet and python snippet developer tools in Knime&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://heather.cs.ucdavis.edu/~matloff/rpy2.html&#34;&gt;Use RPy Package for R/Python Interface&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
   &lt;br&gt;
-&lt;h4 id=&#34;how-to-operate-and-manipulate-physical-quantities-in-python&#34;&gt;How to operate and manipulate physical quantities in Python?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-operate-and-manipulate-physical-quantities-in-python&#34;&gt;How to operate and manipulate physical quantities in Python?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://pint.readthedocs.org/&#34;&gt;Pint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -448,7 +481,7 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
    &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;np&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sum&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
    &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Quantity&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;7.07&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;meter&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;how-to-do-geospatial-operations&#34;&gt;How to do geospatial operations?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-do-geospatial-operations&#34;&gt;How to do geospatial operations?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/manuelbieh/geolib&#34;&gt;Geolib&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -456,7 +489,7 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
 &lt;p&gt;Library to provide basic geospatial operations like distance calculation, conversion of decimal coordinates to sexagesimal and vice versa, etc. This library is currently 2D, meaning that altitude/elevation is not yet supported by any of its functions!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;data-science-glossary&#34;&gt;Data science glossary&lt;/h4&gt;
+&lt;h3 id=&#34;data-science-glossary&#34;&gt;Data science glossary&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://developers.google.com/machine-learning/glossary/&#34;&gt;By Google&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.analyticsvidhya.com/glossary-of-common-statistics-and-machine-learning-terms/&#34;&gt;Analytics Vidhya&lt;/a&gt;&lt;/li&gt;
@@ -475,7 +508,7 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;how-to-read-json-files-in-a-directory-to-a-dataframe&#34;&gt;How to read json files in a directory to a dataframe?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-read-json-files-in-a-directory-to-a-dataframe&#34;&gt;How to read json files in a directory to a dataframe?&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pandas&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pd&lt;/span&gt;
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;json&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;os&lt;/span&gt;
 

@@ -24,7 +24,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;label-smoothing&#34;&gt;Label Smoothing&lt;/h4&gt;
+&lt;h3 id=&#34;label-smoothing&#34;&gt;Label Smoothing&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://paperswithcode.com/method/label-smoothing&#34;&gt;Label Smoothing&lt;/a&gt; is a regularization technique that introduces noise for the labels.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1906.02629.pdf&#34;&gt;When Does Label Smoothing Help?&lt;/a&gt;&lt;/li&gt;
@@ -57,7 +57,7 @@ This results in loss of information in the logits about resemblances between ins
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;multi-label&#34;&gt;Multi-label&lt;/h4&gt;
+&lt;h3 id=&#34;multi-label&#34;&gt;Multi-label&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/thatbrguy/Multilabel-Classification&#34;&gt;Multilabel-Classification using TensorFlow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/journey-to-the-center-of-multi-label-classification-384c40229bff&#34;&gt;Deep dive into multi-label classification&lt;/a&gt;&lt;/li&gt;

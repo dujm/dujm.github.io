@@ -24,7 +24,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;1-tensorflow-datasets&#34;&gt;1. TensorFlow Datasets&lt;/h4&gt;
+&lt;h3 id=&#34;1-tensorflow-datasets&#34;&gt;1. TensorFlow Datasets&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install: pip install tensorflow-datasets&lt;/span&gt;
 
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tensorflow_datasets&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tfds&lt;/span&gt;
@@ -36,12 +36,12 @@
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;assert&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;isinstance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;mnist_train&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Dataset&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;2-data-for-everyone&#34;&gt;2. Data For Everyone&lt;/h4&gt;
+&lt;h3 id=&#34;2-data-for-everyone&#34;&gt;2. Data For Everyone&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.figure-eight.com/data-for-everyone/&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;3-autonomous-driving-dataset&#34;&gt;3. Autonomous Driving Dataset&lt;/h4&gt;
+&lt;h3 id=&#34;3-autonomous-driving-dataset&#34;&gt;3. Autonomous Driving Dataset&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.a2d2.audi/a2d2/en/download.html&#34;&gt;Audi A2D2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -49,7 +49,7 @@
 &lt;p&gt;A2D2 is around 2.3 TB in total. It is split by annotation type (i.e. semantic segmentation, 3D bounding box), to break up the download into smaller packages. Each split is packaged into a single tar file, while the remaining unlabelled sequence data is split into multiple tar files.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt; 
-&lt;h4 id=&#34;4-sound&#34;&gt;4. Sound&lt;/h4&gt;
+&lt;h3 id=&#34;4-sound&#34;&gt;4. Sound&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/turpaultn/DESED&#34;&gt;DESED&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -58,7 +58,7 @@
 &lt;/blockquote&gt;
 &lt;br&gt; 
 &lt;hr&gt;
-&lt;h4 id=&#34;read-more&#34;&gt;Read More&lt;/h4&gt;
+&lt;h3 id=&#34;read-more&#34;&gt;Read More&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/tensorflow/introducing-tensorflow-datasets-c7f01f7e19f3&#34;&gt;Introducing TensorFlow Datasets&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.tensorflow.org/datasets/datasets&#34;&gt;What datasets are available in Datasetsv1.0.2?&lt;/a&gt;&lt;/li&gt;
@@ -80,13 +80,13 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;snorkel&#34;&gt;Snorkel&lt;/h4&gt;
+&lt;h3 id=&#34;snorkel&#34;&gt;Snorkel&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://snorkel.org&#34;&gt;Snorkel website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/snorkel-team/snorkel-tutorials&#34;&gt;Snorkel tutorials&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://snorkel.readthedocs.io/&#34;&gt;Snorkel documentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;installation&#34;&gt;Installation&lt;/h5&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install snorkel
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or &lt;code&gt;conda&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;conda install snorkel -c conda-forge
@@ -104,7 +104,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;course-how-to-win-a-data-science-competition-learn-from-top-kagglers&#34;&gt;Course: How to win a data science competition: learn from top Kagglers&lt;/h4&gt;
+&lt;h3 id=&#34;course-how-to-win-a-data-science-competition-learn-from-top-kagglers&#34;&gt;Course: How to win a data science competition: learn from top Kagglers&lt;/h3&gt;
 &lt;dl&gt;
 &lt;dt&gt;Instructors&lt;/dt&gt;
 &lt;dd&gt;&lt;/dd&gt;
@@ -114,7 +114,7 @@ National Research University Higher School of Economics&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/competitive-data-science&#34;&gt;Course Link&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://github.com/dujm/kaggle_coursera&#34;&gt;My Notes&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;kaggle-perfect-scores&#34;&gt;Kaggle perfect scores&lt;/h4&gt;
+&lt;h3 id=&#34;kaggle-perfect-scores&#34;&gt;Kaggle perfect scores&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The public leaderboard is computed based on a fraction of the test set. The private leaderboard is computed on the whole test set.
 If you overfit the test set you can do very well in the public leaderboard and very bad in the private one.&lt;/p&gt;
@@ -126,7 +126,7 @@ If you overfit the test set you can do very well in the public leaderboard and v
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;how-to-download-data-using-kaggle-api&#34;&gt;How to download data using Kaggle API?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-download-data-using-kaggle-api&#34;&gt;How to download data using Kaggle API?&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;# 1) Install kaggle package
 pip install --user kaggle
 # Note: pip install kaggle &amp;lt;== This command cause problems
@@ -166,7 +166,7 @@ kaggle kernels pull usrname/mynotebook
  # Save and run
  zsh
 &lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h4 id=&#34;how-to-upload-functions-in-kaggle-kernel&#34;&gt;How to upload functions in Kaggle kernel?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-upload-functions-in-kaggle-kernel&#34;&gt;How to upload functions in Kaggle kernel?&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;# 1. Upload your awesome_function.py file as a Dataset in your Notebook/Script kernel
 
 In your running Notebook/Script kernel, click &#39;Add Dataset&#39; =&amp;gt; Select &#39;Dataset&#39; =&amp;gt; Click &#39;Upload a Dataset&#39; =&amp;gt; Upload your awesome_function.py file from local/GitHub =&amp;gt; Enter a title for your dataset e.g. &#39;kutil&#39; (This will in fact create a subfolder &#39;kutil&#39;)=&amp;gt; Click &#39;Create&#39;
@@ -185,7 +185,7 @@ copyfile(src = &amp;quot;../input/kutil/awesome_function.py&amp;quot;, dst = &#3
 # 4. Import functions from awesome_function.py to your Notebook/Script kernel
 from awsome_function import *
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Kaggle/kaggle-api&#34;&gt;Kaggle API&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/rtatman/import-functions-from-kaggle-script&#34;&gt;Import functions from Kaggle script&lt;/a&gt;&lt;/li&gt;

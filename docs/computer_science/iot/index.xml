@@ -94,7 +94,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;how-to-assemble-rpi-touch-screen-lcd&#34;&gt;How to assemble RPI Touch Screen LCD?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-assemble-rpi-touch-screen-lcd&#34;&gt;How to assemble RPI Touch Screen LCD?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=E1lua5mgrJs&#34;&gt;Raspberry Pi 7&amp;quot; Touch Screen LCD - Assembly&lt;/a&gt;&lt;br&gt;
 
@@ -104,15 +104,15 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;how-to-adjust-the-screen-brightness&#34;&gt;How to adjust the screen brightness?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-adjust-the-screen-brightness&#34;&gt;How to adjust the screen brightness?&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;# Adjust brightness
 sudo sh -c &#39;echo 90 &amp;gt; /sys/class/backlight/rpi_backlight/brightness&#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h4 id=&#34;how-to-disable-the-screen-saver&#34;&gt;How to disable the screen saver?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-disable-the-screen-saver&#34;&gt;How to disable the screen saver?&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;sudo apt-get install xscreensaver
 Go to GUI Preferences/Screensaver/DisplayMode/Dropdown/DisableScreenSaver
 &lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h4 id=&#34;how-to-install-virtual-keyboard-on-rpi&#34;&gt;How to install virtual keyboard on RPI?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-install-virtual-keyboard-on-rpi&#34;&gt;How to install virtual keyboard on RPI?&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;sudo apt-get install matchbox-keyboard -y
 &lt;/code&gt;&lt;/pre&gt;
       </description>

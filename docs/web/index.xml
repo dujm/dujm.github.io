@@ -71,16 +71,16 @@
 &lt;/div&gt;
 
 &lt;br&gt;
-&lt;h4 id=&#34;what-is-pelican&#34;&gt;What is Pelican?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-pelican&#34;&gt;What is Pelican?&lt;/h3&gt;
 &lt;p&gt;Pelican is a Python library that lets you generate static websites from templates.&lt;/p&gt;
-&lt;h4 id=&#34;1-installation&#34;&gt;1. Installation&lt;/h4&gt;
+&lt;h3 id=&#34;1-installation&#34;&gt;1. Installation&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install pelican&lt;/span&gt;
 pip install pelican markdown
 
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Choose a name for your project (e.g. pelican-website) and directory for your site (fishingbird)&lt;/span&gt;
 mkdir -p pelican-website/fishingbird
 &lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; pelican-website/fishingbird
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2-generate-the-initial-boilerplate&#34;&gt;2. Generate the initial boilerplate&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-generate-the-initial-boilerplate&#34;&gt;2. Generate the initial boilerplate&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pelican-quickstart
 
 &amp;gt; Where &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; you want to create your new web site? &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;.&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;
@@ -98,22 +98,22 @@ mkdir -p pelican-website/fishingbird
 &amp;gt; Do you want to upload your website using S3? &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;y/N&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt; n
 &amp;gt; Do you want to upload your website using Rackspace Cloud Files? &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;y/N&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt; n
 &amp;gt; Do you want to upload your website using GitHub Pages? &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;y/N&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt; y
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;3-add-content-in-a-markdown-file&#34;&gt;3. Add content in a markdown file&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-add-content-in-a-markdown-file&#34;&gt;3. Add content in a markdown file&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;vim content/fish.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;4-generate-your-site&#34;&gt;4. Generate your site&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-generate-your-site&#34;&gt;4. Generate your site&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pelican content
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;5-preview-your-site&#34;&gt;5. Preview your site&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;5-preview-your-site&#34;&gt;5. Preview your site&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pelican --listen
 
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Navigate to http://localhost:8000/ in your browser.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;6-optional&#34;&gt;6. Optional:&lt;/h4&gt;
-&lt;h4 id=&#34;61-how-to-add-a-theme&#34;&gt;6.1 How to add a theme?&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;6-optional&#34;&gt;6. Optional:&lt;/h3&gt;
+&lt;h3 id=&#34;61-how-to-add-a-theme&#34;&gt;6.1 How to add a theme?&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;# Choose a path for to clone pelican-themes directory (e.g. pelican-website/)
 git clone --recursive https://github.com/getpelican/pelican-themes ../pelican-themes
 
 # Add a theme in the pelicanconf.py of your site (e.g. fishingbird/pelicanconf.py)
 THEME = &#39;../pelican-themes/bootstrap2&#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;62--how-to-add-theme-as-git-module&#34;&gt;6.2  How to add theme as git module&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;62--how-to-add-theme-as-git-module&#34;&gt;6.2  How to add theme as git module&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Add a .gitmodules and a directory `themes/` in the project perclican-website&lt;/span&gt;
 git submodule add git@github.com:getpelican/pelican-themes.git themes
 
@@ -136,7 +136,7 @@ git submodule update
 &lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; ..
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;# Add the theme path in the pelicanconf.py of your site (e.g. fishingbird/pelicanconf.py)
 THEME = &#39;../themes/bootstrap2&#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;7-publish-to-github-project-page&#34;&gt;7. Publish to Github project page&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;7-publish-to-github-project-page&#34;&gt;7. Publish to Github project page&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;vim ./fishingbird/pelicanconf.py 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Vim&#34; data-lang=&#34;Vim&#34;&gt;# &lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;your&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SITE_URL&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pelicanconf&lt;/span&gt;.&lt;span style=&#34;color:#000&#34;&gt;py&lt;/span&gt; &lt;span style=&#34;color:#a40000&#34;&gt;
 &lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SITEURL&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;https://dj-application.github.io/pelican-website/&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;
@@ -144,7 +144,7 @@ THEME = &#39;../themes/bootstrap2&#39;
 pelican content -o output -s pelicanconf.py
 ghp-import output -n
 git push origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;8-what-are-the-files&#34;&gt;8. What are the files?&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;8-what-are-the-files&#34;&gt;8. What are the files?&lt;/h3&gt;
 &lt;hr&gt;
 &lt;pre&gt;&lt;code&gt; ├── License.md
  ├── README.md
@@ -165,7 +165,7 @@ git push origin gh-pages
 &lt;li&gt;content/ - This folder is where you’ll put the templates and files that will be translated into the content of your site.&lt;/li&gt;
 &lt;li&gt;output/ - This folder might not exist until you convert your content into html. By default, the translated website lands here.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;9-reference&#34;&gt;9. Reference&lt;/h4&gt;
+&lt;h3 id=&#34;9-reference&#34;&gt;9. Reference&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/getpelican/pelican/wiki/Tutorials&#34;&gt;Tutorials&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.getpelican.com/en/stable/&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
@@ -196,10 +196,10 @@ git push origin gh-pages
 &lt;/div&gt;
 
 &lt;br&gt;
-&lt;h4 id=&#34;what-is-hugo&#34;&gt;What is Hugo?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-hugo&#34;&gt;What is Hugo?&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo&#34;&gt;Hugo&lt;/a&gt; is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;1-create-two-repos-on-your-github&#34;&gt;1. Create two repos on your GitHub&lt;/h4&gt;
+&lt;h3 id=&#34;1-create-two-repos-on-your-github&#34;&gt;1. Create two repos on your GitHub&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a &lt;code&gt;your-project (e.g. hugo-website)&lt;/code&gt; repository on GitHub.&lt;/li&gt;
 &lt;/ul&gt;
@@ -213,7 +213,7 @@ git push origin gh-pages
 &lt;p&gt;This is the repository that will contain the fully rendered version of your Hugo website.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;2-add-website-content-in-your-project-eg-hugo-website&#34;&gt;2. Add website content in &lt;code&gt;your-project (e.g. hugo-website)&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;2-add-website-content-in-your-project-eg-hugo-website&#34;&gt;2. Add website content in &lt;code&gt;your-project (e.g. hugo-website)&lt;/code&gt;&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Add a new repo `hugo-website`on your GitHub&lt;/span&gt;
 git clone git@github.com:yourusrname/hugo-website.git&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; hugo-website
 git init
@@ -227,23 +227,23 @@ git submodule update --init --recursive
 git add .
 git commit &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;initial commit&amp;#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;3-enable-website-search&#34;&gt;3. Enable website search&lt;/h4&gt;
+&lt;h3 id=&#34;3-enable-website-search&#34;&gt;3. Enable website search&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;vim hugo-website/config.toml 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Vim&#34; data-lang=&#34;Vim&#34;&gt; # &lt;span style=&#34;color:#000&#34;&gt;Enable&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Lunr&lt;/span&gt;.&lt;span style=&#34;color:#000&#34;&gt;js&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;offline&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;search&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;
 &lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;offlineSearch&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;4-enable-emoji&#34;&gt;4. Enable Emoji&lt;/h4&gt;
+&lt;h3 id=&#34;4-enable-emoji&#34;&gt;4. Enable Emoji&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;vim hugo-website/config.toml 
 &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Vim&#34; data-lang=&#34;Vim&#34;&gt;# &lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;  &lt;span style=&#34;color:#a40000&#34;&gt;
 &lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;enableEmoji&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h4 id=&#34;5-add-resources-using-hugos-short-codes&#34;&gt;5. Add resources using Hugo&amp;rsquo;s short codes&lt;/h4&gt;
+&lt;h3 id=&#34;5-add-resources-using-hugos-short-codes&#34;&gt;5. Add resources using Hugo&amp;rsquo;s short codes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;Short codes&lt;/a&gt; are simple snippets inside your content files calling built-in or custom templates.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;6-deploy-to-yourusrnamegithubio&#34;&gt;6. Deploy to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;6-deploy-to-yourusrnamegithubio&#34;&gt;6. Deploy to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Make sure your website works locally
 &lt;ul&gt;
@@ -289,12 +289,12 @@ git commit &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;initial commit&amp
 &lt;li&gt;Check your website &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;Host on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h4 id=&#34;error&#34;&gt;Error&lt;/h4&gt;
+&lt;h3 id=&#34;error&#34;&gt;Error&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;If you acidentally delete (e.g. rm -rf public) the folder which Hugo uses to place the rendered flies, you probably will encounter this error when you try to git push:
 &lt;ul&gt;
