@@ -47,6 +47,11 @@
 &lt;li&gt;Docker is an OpenSource containerization platform for &lt;strong&gt;Building, Shipping and Running&lt;/strong&gt; applications using &lt;strong&gt;Container Virtualization technology&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Docker packages all the dependencies in form of a Docker containers to ensure that our applicaton works seamlessly in any of the environment.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;docker-image-vs-docker-container&#34;&gt;Docker Image vs Docker Container&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.microsoft.com/en-us/dotnet/architecture/microservices/container-docker-introduction/media/docker-containers-images-registries/taxonomy-of-docker-terms-and-concepts.png&#34; alt=&#34;Docker Image vs Docker Container&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://docs.microsoft.com/en-us/dotnet/architecture/microservices/container-docker-introduction/media/docker-containers-images-registries/taxonomy-of-docker-terms-and-concepts.png&#34;&gt;Image from microsoft.com&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
 &lt;h2 id=&#34;1-docker-images&#34;&gt;1. Docker Images&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Docker uses the concept of Docker images to deploy the Docker Containers.&lt;/li&gt;
