@@ -16,30 +16,14 @@
     
     <item>
       <title>Docs: Flax</title>
-      <link>/docs/machinelearning/frameworks/flax/_index_/</link>
+      <link>/docs/machinelearning/frameworks/flax/</link>
       <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/frameworks/flax/_index_/</guid>
+      <guid>/docs/machinelearning/frameworks/flax/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;h3 id=&#34;flax-a-neural-network-ecosystem-for-jax-designed-for-flexibility&#34;&gt;Flax: A neural network ecosystem for JAX designed for flexibility&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;What makes Flax a rising star in Machine learning? 🤩
-&lt;ul&gt;
-&lt;li&gt;It&amp;rsquo;s a fast, lightweight and highly customizable ML framework&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/google/flax&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/googles-approach-to-flexibility-in-machine-learning-170bd9d8f169&#34;&gt;Google’s Approach To Flexibility In Machine Learning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/shakespeare-meets-googles-flax-ecbd16f9d648&#34;&gt;Shakespeare Meets Google’s Flax&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;jax-autograd-and-xla&#34;&gt;JAX: Autograd and XLA&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/google/jax&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
       </description>
     </item>

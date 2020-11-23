@@ -14,5 +14,84 @@
       
     
     
+    <item>
+      <title>Docs: Flax</title>
+      <link>/docs/machinelearning/frameworks/flax/flax/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/frameworks/flax/flax/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;flax&#34;&gt;Flax&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A neural network ecosystem for JAX designed for flexibility&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;What makes Flax a rising star in Machine learning? 🤩
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a fast, lightweight and highly customizable ML framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/flax&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/googles-approach-to-flexibility-in-machine-learning-170bd9d8f169&#34;&gt;Google’s Approach To Flexibility In Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/shakespeare-meets-googles-flax-ecbd16f9d648&#34;&gt;Shakespeare Meets Google’s Flax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: JAX</title>
+      <link>/docs/machinelearning/frameworks/flax/jax/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/frameworks/flax/jax/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;jax&#34;&gt;JAX&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Autograd and XLA&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/jax&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jax.readthedocs.io/en/latest/notebooks/autodiff_cookbook.html&#34;&gt;Doc: Autodiff Cookbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[Try JAX on Cloud TPUs in Colab]((github.com/google/jax/tree/master/cloud_tpu_colabs)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://slideslive.com/38923687/jax-accelerated-machinelearning-research-via-composable-function-transformations-in-python&#34;&gt;Talk by Skye Wanderman-Milne&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://program-transformations.github.io/slides/NeurIPS_workshop_JAX_talk.pdf&#34;&gt;Slides: Accelerated machine-learning researchvia composable function transformationsin Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;what-is-jax&#34;&gt;What is JAX?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Numpy on GPU
+&lt;ul&gt;
+&lt;li&gt;Leverages &lt;a href=&#34;https://www.tensorflow.org/xla&#34;&gt;XLA compiler&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;XLA (Accelerated Linear Algebra) is a domain-specific compiler for linear algebra that can accelerate TensorFlow models with potentially no source code changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Autodifferentiation capability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;how to get gradients of some loss function your code computes with respect to you input parameters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sjmielke.com/jax-purify.htm&#34;&gt;From PyTorch to JAX: towards neural net frameworks that purify stateful code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
