@@ -15,18 +15,30 @@
     
     
     <item>
-      <title>Docs: Build Your Own Projects</title>
-      <link>/docs/swiss-knives/build-your-own-projects/</link>
+      <title>Docs: Flax</title>
+      <link>/docs/machinelearning/frameworks/flax/_index_/</link>
       <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/build-your-own-projects/</guid>
+      <guid>/docs/machinelearning/frameworks/flax/_index_/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;h2 id=&#34;machine-learning-projects&#34;&gt;Machine Learning Projects&lt;/h2&gt;
+&lt;h3 id=&#34;flax-a-neural-network-ecosystem-for-jax-designed-for-flexibility&#34;&gt;Flax: A neural network ecosystem for JAX designed for flexibility&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/the-innovation/130-machine-learning-projects-solved-and-explained-605d188fb392&#34;&gt;130 Machine Learning Projects Solved and Explained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What makes Flax a rising star in Machine learning? 🤩
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a fast, lightweight and highly customizable ML framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/flax&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/googles-approach-to-flexibility-in-machine-learning-170bd9d8f169&#34;&gt;Google’s Approach To Flexibility In Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/shakespeare-meets-googles-flax-ecbd16f9d648&#34;&gt;Shakespeare Meets Google’s Flax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;jax-autograd-and-xla&#34;&gt;JAX: Autograd and XLA&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/jax&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -75,6 +87,25 @@
 [Image from Jason Brownlee](&lt;a href=&#34;https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/&#34;&gt;https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Model</title>
+      <link>/docs/cloud/devops/model/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/devops/model/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbs.twimg.com/media/EmrU1L2UwAEBYu_?format=jpg&amp;amp;name=large&#34; alt=&#34;DevOps Evolution Model&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Image is copied from
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Next we have a maturity model that has never been shown publicly before to my knowledge; it appears to have sprung fully formed from the forehead of some god. &lt;a href=&#34;https://t.co/7PrKVKhTBG&#34;&gt;pic.twitter.com/7PrKVKhTBG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Corey Quinn (@QuinnyPig) &lt;a href=&#34;https://twitter.com/QuinnyPig/status/1327107148405305345?ref_src=twsrc%5Etfw&#34;&gt;November 13, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/p&gt;
 
       </description>
     </item>
@@ -3249,127 +3280,6 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     </item>
     
     <item>
-      <title>Docs: Docker</title>
-      <link>/docs/cloud/devops/docker/</link>
-      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/cloud/devops/docker/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h2 id=&#34;what-is-docker&#34;&gt;What is Docker?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Docker is an OpenSource containerization platform for &lt;strong&gt;Building, Shipping and Running&lt;/strong&gt; applications using &lt;strong&gt;Container Virtualization technology&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Docker packages all the dependencies in form of a Docker containers to ensure that our applicaton works seamlessly in any of the environment.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;docker-image-vs-docker-container&#34;&gt;Docker Image vs Docker Container&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://docs.microsoft.com/en-us/dotnet/architecture/microservices/container-docker-introduction/media/docker-containers-images-registries/taxonomy-of-docker-terms-and-concepts.png&#34; alt=&#34;Docker Image vs Docker Container&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;https://docs.microsoft.com/en-us/dotnet/architecture/microservices/container-docker-introduction/media/docker-containers-images-registries/taxonomy-of-docker-terms-and-concepts.png&#34;&gt;Image from microsoft.com&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;1-docker-images&#34;&gt;1. Docker Images&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Docker uses the concept of Docker images to deploy the Docker Containers.&lt;/li&gt;
-&lt;li&gt;Docker Images can be compaed with a template that can be used to create the Docker Containers.&lt;/li&gt;
-&lt;li&gt;Docker Images are read-only templates.&lt;/li&gt;
-&lt;li&gt;Docker Images are available on hub.docker.com and can also be created by users.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;11-how-to-pull-a-docker-image&#34;&gt;1.1 How to pull a Docker image?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Search an image on DockerHub&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# docker search IMAGE_NAME &lt;/span&gt;
-docker search pytorch
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Pull an image on DockerHub&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# docker pull IMAGE_NAME &lt;/span&gt;
-docker pull pytorch/pytorch
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;12-how-to-check-docker-images&#34;&gt;1.2 How to check docker images?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;List all the available images on our Docker Engine&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker images
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;13-how-to-run-a-docker-image&#34;&gt;1.3 How to run a docker image?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Creates the container and runs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker run IMAGE_NAME 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Run specified command&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker run IMAGE_NAME COMMAND
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Run a container with a specific name&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker run --name CONTAINER_NAME IMAGE_NAME COMMAND
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Run a container wth an interactive terminal&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker run -it IMAGE_NAME 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Run a container in background&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker run -d IMAGE_NAME COMMAND
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Delete a container as soon as it finishes its execution&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker run --rm IMAGE_NAME COMMAND
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;14-how-to-remove-a-docker-images&#34;&gt;1.4 How to remove a docker images?&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker rmi IMAGE_NAME
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h2 id=&#34;2-containers&#34;&gt;2. Containers&lt;/h2&gt;
-&lt;h3 id=&#34;21-how-to-check-docker-containers&#34;&gt;2.1 How to check docker containers?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;List all docker containers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker ps -a
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;List all running cocker containers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker ps
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;List only the IDs of cocker containers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker ps -q
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;22-how-to-start-a-docker-container&#34;&gt;2.2 How to start a docker container?&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker start CONTAINER_ID
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# or &lt;/span&gt;
-docker start CONTAINER_NAME
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;br&gt;
-&lt;h3 id=&#34;23-how-to-exceute-a-child-process-along-the-docker-container-parent-process&#34;&gt;2.3 How to exceute a child process along the docker container parent process?&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker &lt;span style=&#34;color:#204a87&#34;&gt;exec&lt;/span&gt; CONTAINER COMMAND
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;24-how-to-stop-a-docker-container&#34;&gt;2.4 How to stop a docker container?&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker stop CONTAINER_ID
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# or &lt;/span&gt;
-docker stop CONTAINER_NAME
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt; 
-&lt;h3 id=&#34;25-how-to-kill-a-docker-container&#34;&gt;2.5 How to kill a docker container?&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker &lt;span style=&#34;color:#204a87&#34;&gt;kill&lt;/span&gt; CONTAINER_ID
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# or &lt;/span&gt;
-docker &lt;span style=&#34;color:#204a87&#34;&gt;kill&lt;/span&gt; CONTAINER_NAME
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;br&gt;
-&lt;h3 id=&#34;26-how-to-remove-a-docker-container-from-memory&#34;&gt;2.6 How to remove a docker container from memory?&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker rm CONTAINER_ID
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# or &lt;/span&gt;
-docker rm CONTAINER_NAME
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;br&gt;
-&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dev.to/kshitizsaini113/getting-familiar-with-docker-564&#34;&gt;Getting familiar with Docker&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: Outliers</title>
       <link>/docs/coding/functional-coding/python/outliers/</link>
       <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
@@ -3977,7 +3887,7 @@ Deciding which one to use generally comes down to personal preference, with some
 
 &lt;span style=&#34;color:#000&#34;&gt;console&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;log&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;7-catch-missing-open-and-closing-parenthesis-after-a-function-call--&#34;&gt;7. Catch Missing Open and Closing Parenthesis After a Function Call  📞&lt;/h3&gt;
+&lt;h3 id=&#34;7-catch-missing-open-and-closing-parenthesis-after-a-function-call&#34;&gt;7. Catch Missing Open and Closing Parenthesis After a Function Call&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;When a function or method doesn&amp;rsquo;t take any arguments, you may forget to include the (empty) opening and closing parentheses when calling it.&lt;/li&gt;
 &lt;li&gt;Often times the result of a function call is saved in a variable for other use in your code. This error can be detected by &lt;code&gt;logging variable values&lt;/code&gt; (or &lt;code&gt;their types&lt;/code&gt;) to the console and seeing that one is set to a function reference, instead of the expected value the function returns.&lt;/li&gt;
@@ -4000,7 +3910,7 @@ Deciding which one to use generally comes down to personal preference, with some
 &lt;li&gt;Make sure to supply &lt;strong&gt;all required arguments&lt;/strong&gt;, in the &lt;strong&gt;proper order&lt;/strong&gt; to avoid these issues.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h3 id=&#34;9-catch-off-by-one-errors-when-using-indexing--&#34;&gt;9. Catch Off By One Errors When Using Indexing  🗂️&lt;/h3&gt;
+&lt;h3 id=&#34;9-catch-off-by-one-errors-when-using-indexing&#34;&gt;9. Catch Off By One Errors When Using Indexing&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Off by one errors (sometimes called &lt;code&gt;OBOE&lt;/code&gt;) crop up when you&amp;rsquo;re trying to target &lt;code&gt;a specific index of a string&lt;/code&gt; or &lt;code&gt;array&lt;/code&gt; (to slice or access a segment), or when &lt;code&gt;looping over the indices&lt;/code&gt; of them.&lt;/p&gt;
@@ -4030,8 +3940,7 @@ Deciding which one to use generally comes down to personal preference, with some
 &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#000&#34;&gt;console&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;log&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;alphabet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;k&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]);&lt;/span&gt;
 &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;too-many-bugs-take-a-break-and-listen-to-a-song--&#34;&gt;Too many bugs? Take a break and listen to a song  🎵&lt;/h3&gt;
+&lt;h3 id=&#34;too-many-bugs-take-a-break-and-listen-to-a-song&#34;&gt;Too many bugs? Take a break and listen to a song.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;

@@ -516,13 +516,8 @@ An equation that relates one or more functions and their derivatives&lt;/p&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h3 id=&#34;random-variables&#34;&gt;Random variables&lt;/h3&gt;
-&lt;p&gt;A function from the sample space S&lt;/p&gt;
+&lt;p&gt;A function from the sample space S to the rea lline&lt;/p&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;discrete-and-continuous-variables&#34;&gt;Discrete and continuous variables&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Discrete: PMF&lt;/li&gt;
-&lt;li&gt;Continuous: CDF&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3 id=&#34;bernoulli-distribution&#34;&gt;Bernoulli distribution&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;The Bernoulli distribution, named after Swiss mathematician Jacob Bernoulli, is the discrete probability distribution of a random variable which takes the value 1 with probability $p$ and the value 0 with probability $q = 1 − p$.
@@ -550,7 +545,6 @@ An equation that relates one or more functions and their derivatives&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
 
       </description>
     </item>

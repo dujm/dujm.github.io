@@ -303,7 +303,13 @@ git commit &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;initial commit&amp
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git rm --cached public
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# remove public dirctory&lt;/span&gt;
+rm public -r
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# remove files from the working tree and from the index&lt;/span&gt;
+git rm --cached public
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# re-add public as submodule &lt;/span&gt;
 git submodule add -b master --force git@github.com:yourusrname/yourusrname.github.io.git public
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
