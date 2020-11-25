@@ -21,26 +21,26 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>Imputation | DJ&#39;s Website</title><meta property="og:title" content="Imputation" />
-<meta property="og:description" content="fancyimpute  github Installation by pip. conda is not supported.  pip install fancyimpute 
-Usage from fancyimpute import KNN, NuclearNormMinimization, SoftImpute, BiScaler # X is the complete data matrix # X_incomplete has the same values as X except a subset have been replace with NaN # Use 3 nearest rows which have a feature to fill in each row&#39;s missing features X_filled_knn = KNN(k=3).fit_transform(X_incomplete) # matrix completion using convex optimization to find low-rank solution # that still matches observed values." />
+<meta property="og:description" content="1. Autoimpute Autoimpute is designed to be user friendly and flexible.
+ tutorials github  Usage  Installation  pip install autoimpute  Three imputers  from autoimpute.imputations import SingleImputer, MultipleImputer, MiceImputer si = SingleImputer() # pass through data once mi = MultipleImputer() # pass through data multiple times # mice mice = MiceImputer() # pass through data multiple times and iteratively optimize imputations in each column  Impute the easy way  # mice mice = MiceImputer() mice." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/coding/functional-coding/python/imputation/" />
-<meta property="article:published_time" content="2020-11-20T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-11-20T00:00:00+00:00" />
+<meta property="article:published_time" content="2020-11-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-11-25T00:00:00+00:00" />
 <meta itemprop="name" content="Imputation">
-<meta itemprop="description" content="fancyimpute  github Installation by pip. conda is not supported.  pip install fancyimpute 
-Usage from fancyimpute import KNN, NuclearNormMinimization, SoftImpute, BiScaler # X is the complete data matrix # X_incomplete has the same values as X except a subset have been replace with NaN # Use 3 nearest rows which have a feature to fill in each row&#39;s missing features X_filled_knn = KNN(k=3).fit_transform(X_incomplete) # matrix completion using convex optimization to find low-rank solution # that still matches observed values.">
-<meta itemprop="datePublished" content="2020-11-20T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-11-20T00:00:00+00:00" />
-<meta itemprop="wordCount" content="370">
+<meta itemprop="description" content="1. Autoimpute Autoimpute is designed to be user friendly and flexible.
+ tutorials github  Usage  Installation  pip install autoimpute  Three imputers  from autoimpute.imputations import SingleImputer, MultipleImputer, MiceImputer si = SingleImputer() # pass through data once mi = MultipleImputer() # pass through data multiple times # mice mice = MiceImputer() # pass through data multiple times and iteratively optimize imputations in each column  Impute the easy way  # mice mice = MiceImputer() mice.">
+<meta itemprop="datePublished" content="2020-11-25T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-11-25T00:00:00+00:00" />
+<meta itemprop="wordCount" content="850">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Imputation"/>
-<meta name="twitter:description" content="fancyimpute  github Installation by pip. conda is not supported.  pip install fancyimpute 
-Usage from fancyimpute import KNN, NuclearNormMinimization, SoftImpute, BiScaler # X is the complete data matrix # X_incomplete has the same values as X except a subset have been replace with NaN # Use 3 nearest rows which have a feature to fill in each row&#39;s missing features X_filled_knn = KNN(k=3).fit_transform(X_incomplete) # matrix completion using convex optimization to find low-rank solution # that still matches observed values."/>
+<meta name="twitter:description" content="1. Autoimpute Autoimpute is designed to be user friendly and flexible.
+ tutorials github  Usage  Installation  pip install autoimpute  Three imputers  from autoimpute.imputations import SingleImputer, MultipleImputer, MiceImputer si = SingleImputer() # pass through data once mi = MultipleImputer() # pass through data multiple times # mice mice = MiceImputer() # pass through data multiple times and iteratively optimize imputations in each column  Impute the easy way  # mice mice = MiceImputer() mice."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -132,7 +132,7 @@ Usage from fancyimpute import KNN, NuclearNormMinimization, SoftImpute, BiScaler
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.49f92247b1e4d65674149ef3761defc9279f50f813a386ac2872a43cb2935a63589c772e8410fba4aeac155f02fe57c611353298ef2c314ad60cfc3f98cc67b6.json"
+  data-offline-search-index-json-src="/offline-search-index.db9e2924af7be73f3ec40712174b713e22625284f9efe59eb0082aede03147d07e8f43a97126c3e13d45ad8236c89773e455096395fa381b9e6d4a47932264cf.json"
   data-offline-search-base-href="/"
 >
 
@@ -162,7 +162,7 @@ Usage from fancyimpute import KNN, NuclearNormMinimization, SoftImpute, BiScaler
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.49f92247b1e4d65674149ef3761defc9279f50f813a386ac2872a43cb2935a63589c772e8410fba4aeac155f02fe57c611353298ef2c314ad60cfc3f98cc67b6.json"
+  data-offline-search-index-json-src="/offline-search-index.db9e2924af7be73f3ec40712174b713e22625284f9efe59eb0082aede03147d07e8f43a97126c3e13d45ad8236c89773e455096395fa381b9e6d4a47932264cf.json"
   data-offline-search-base-href="/"
 >
 
@@ -2491,9 +2491,16 @@ Usage from fancyimpute import KNN, NuclearNormMinimization, SoftImpute, BiScaler
 
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#fancyimpute">fancyimpute</a>
+    <li><a href="#1-autoimpute">1. Autoimpute</a>
       <ul>
         <li><a href="#usage">Usage</a></li>
+        <li><a href="#imputation-methods">Imputation Methods</a></li>
+        <li><a href="#main-features">Main features</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-fancyimpute">2. fancyimpute</a>
+      <ul>
+        <li><a href="#usage-1">Usage</a></li>
         <li><a href="#algorithms">Algorithms</a></li>
       </ul>
     </li>
@@ -2566,14 +2573,173 @@ Usage from fancyimpute import KNN, NuclearNormMinimization, SoftImpute, BiScaler
 	<h1>Imputation</h1>
 	
 	<br>
-<h2 id="fancyimpute">fancyimpute</h2>
+<h2 id="1-autoimpute">1. Autoimpute</h2>
+<p>Autoimpute is designed to be user friendly and flexible.</p>
+<ul>
+<li><a href="https://kearnz.github.io/autoimpute-tutorials/">tutorials</a></li>
+<li><a href="https://github.com/kearnz/autoimpute">github</a></li>
+</ul>
+<h3 id="usage">Usage</h3>
+<ul>
+<li>Installation</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install autoimpute
+</code></pre></div><ul>
+<li>Three imputers</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">autoimpute.imputations</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">SingleImputer</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">MultipleImputer</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">MiceImputer</span>
+<span style="color:#000">si</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">SingleImputer</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#8f5902;font-style:italic"># pass through data once</span>
+<span style="color:#000">mi</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">MultipleImputer</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#8f5902;font-style:italic"># pass through data multiple times</span>
+<span style="color:#8f5902;font-style:italic"># mice</span>
+<span style="color:#000">mice</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">MiceImputer</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#8f5902;font-style:italic"># pass through data multiple times and iteratively optimize imputations in each column</span>
+
+</code></pre></div><ul>
+<li>Impute the easy way</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#8f5902;font-style:italic"># mice</span>
+<span style="color:#000">mice</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">MiceImputer</span><span style="color:#000;font-weight:bold">()</span>
+<span style="color:#000">mice</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fit_transform</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">data</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><ul>
+<li>Impute the complex way</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#8f5902;font-style:italic"># create a complex instance of the MiceImputer</span>
+<span style="color:#8f5902;font-style:italic"># Here, we specify strategies by column and predictors for each column</span>
+<span style="color:#8f5902;font-style:italic"># We also specify what additional arguments any `pmm` strategies should take</span>
+<span style="color:#000">imp</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">MiceImputer</span><span style="color:#000;font-weight:bold">(</span>
+    <span style="color:#000">n</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">strategy</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#34;salary&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;pmm&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;gender&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;bayesian binary logistic&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;age&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;norm&#34;</span><span style="color:#000;font-weight:bold">},</span>
+    <span style="color:#000">predictors</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#34;salary&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;all&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;gender&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;salary&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;education&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;weight&#34;</span><span style="color:#000;font-weight:bold">]},</span>
+    <span style="color:#000">imp_kwgs</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#34;pmm&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#34;fill_value&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;random&#34;</span><span style="color:#000;font-weight:bold">}},</span>
+    <span style="color:#000">visit</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;left-to-right&#34;</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">return_list</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#3465a4">True</span>
+<span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#8f5902;font-style:italic"># Because we set return_list=True, imputations are done all at once, not evaluated lazily.</span>
+<span style="color:#8f5902;font-style:italic"># This will return M*N, where M is the number of imputations and N is the size of original dataframe.</span>
+<span style="color:#000">imp</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fit_transform</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">data</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><ul>
+<li>Impute using supervised machine learning method
+<ul>
+<li>apply scikit-learn and stats models to multiply imputed datasets (using the MiceImputer under the hood).</li>
+<li>Now supporting linear regression and binary logistic regression.</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">autoimpute.analysis</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">MiLinearRegression</span>
+
+<span style="color:#8f5902;font-style:italic"># By default, use statsmodels OLS and MiceImputer()</span>
+<span style="color:#000">simple_lm</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">MiLinearRegression</span><span style="color:#000;font-weight:bold">()</span>
+
+<span style="color:#8f5902;font-style:italic"># fit the model on each multiply imputed dataset and pool parameters</span>
+<span style="color:#000">simple_lm</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fit</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">X_train</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">y_train</span><span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#8f5902;font-style:italic"># get summary of fit, which includes pooled parameters under Rubin&#39;s rules</span>
+<span style="color:#8f5902;font-style:italic"># also provides diagnostics related to analysis after multiple imputation</span>
+<span style="color:#000">simple_lm</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">summary</span><span style="color:#000;font-weight:bold">()</span>
+
+<span style="color:#8f5902;font-style:italic"># make predictions on a new dataset using pooled parameters</span>
+<span style="color:#000">predictions</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">simple_lm</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">predict</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">X_test</span><span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#8f5902;font-style:italic"># Control both the regression used and the MiceImputer itself</span>
+<span style="color:#000">mice_imputer_arguments</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87">dict</span><span style="color:#000;font-weight:bold">(</span>
+    <span style="color:#000">n</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">strategy</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#34;salary&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;pmm&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;gender&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;bayesian binary logistic&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;age&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;norm&#34;</span><span style="color:#000;font-weight:bold">},</span>
+    <span style="color:#000">predictors</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#34;salary&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;all&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;gender&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;salary&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;education&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;weight&#34;</span><span style="color:#000;font-weight:bold">]},</span>
+    <span style="color:#000">imp_kwgs</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#34;pmm&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#34;fill_value&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;random&#34;</span><span style="color:#000;font-weight:bold">}},</span>
+    <span style="color:#000">visit</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;left-to-right&#34;</span>
+<span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">complex_lm</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">MiLinearRegression</span><span style="color:#000;font-weight:bold">(</span>
+    <span style="color:#000">model_lib</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;sklearn&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#8f5902;font-style:italic"># use sklearn linear regression</span>
+    <span style="color:#000">mi_kwgs</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">mice_imputer_arguments</span> <span style="color:#8f5902;font-style:italic"># control the multiple imputer</span>
+<span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#8f5902;font-style:italic"># fit the model on each multiply imputed dataset</span>
+<span style="color:#000">complex_lm</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fit</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">X_train</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">y_train</span><span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#8f5902;font-style:italic"># get summary of fit, which includes pooled parameters under Rubin&#39;s rules</span>
+<span style="color:#8f5902;font-style:italic"># also provides diagnostics related to analysis after multiple imputation</span>
+<span style="color:#000">complex_lm</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">summary</span><span style="color:#000;font-weight:bold">()</span>
+
+<span style="color:#8f5902;font-style:italic"># make predictions on new dataset using pooled parameters</span>
+<span style="color:#000">predictions</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">complex_lm</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">predict</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">X_test</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><br>
+<h3 id="imputation-methods">Imputation Methods</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Univariate</th>
+<th style="text-align:left">Multivariate</th>
+<th>Time Series / Interpolation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Mean</td>
+<td style="text-align:left">Linear Regression</td>
+<td>Linear</td>
+</tr>
+<tr>
+<td style="text-align:left">Median</td>
+<td style="text-align:left">Binomial Logistic Regression</td>
+<td>Quadratic</td>
+</tr>
+<tr>
+<td style="text-align:left">Mode</td>
+<td style="text-align:left">Multinomial Logistic Regression</td>
+<td>Cubic</td>
+</tr>
+<tr>
+<td style="text-align:left">Random</td>
+<td style="text-align:left">Stochastic Regression</td>
+<td>Polynomial</td>
+</tr>
+<tr>
+<td style="text-align:left">Norm</td>
+<td style="text-align:left">Bayesian Linear Regression</td>
+<td><strong>Spline</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Categorical</td>
+<td style="text-align:left">Bayesian Binary Logistic Regression</td>
+<td>Time-weighted</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><strong>Predictive Mean Matching</strong></td>
+<td><strong>NextObs Carried Backward</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><strong>Local Residual Draws</strong></td>
+<td><strong>Last Obs Carried Forward</strong></td>
+</tr>
+</tbody>
+</table>
+<br>
+<h3 id="main-features">Main features</h3>
+<ul>
+<li>Utility functions to <strong>examine patterns in missing data</strong></li>
+<li><strong>Missingness classifier</strong> and automatic missing data test set generator</li>
+<li>Numerous imputation methods for <strong>continuous, categorical, and time-series</strong> data</li>
+<li>Single and multiple imputation frameworks to apply imputation methods</li>
+<li><strong>Custom visualization support</strong> for utility functions and imputation methods</li>
+<li><strong>Analysis methods</strong> and <strong>pooled parameter inference</strong> using multiply imputed datasets</li>
+<li>Adherence to <strong>scikit-learn API design</strong> for imputation and analysis classes</li>
+<li>Integration with <strong>pandas, scikit-learn, statsmodels, pymc3</strong>, and more</li>
+</ul>
+<br>
+<h2 id="2-fancyimpute">2. fancyimpute</h2>
 <ul>
 <li><a href="https://github.com/iskandr/fancyimpute">github</a></li>
-<li>Installation by <code>pip</code>. <code>conda</code> is not supported.</li>
+<li>Installation by <code>pip</code>.
+<ul>
+<li><code>conda</code> is not supported.</li>
+</ul>
+</li>
 </ul>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install fancyimpute
 </code></pre></div><br>
-<h3 id="usage">Usage</h3>
+<h3 id="usage-1">Usage</h3>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">fancyimpute</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">KNN</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">NuclearNormMinimization</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">SoftImpute</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">BiScaler</span>
 
 <span style="color:#8f5902;font-style:italic"># X is the complete data matrix</span>
@@ -2633,7 +2799,7 @@ matrix. Not guaranteed to converge but works well in practice. Taken from <a hre
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified November 20, 2020
+	<div class="text-muted mt-5 pt-3 border-top">Last modified November 25, 2020
 </div>
 </div>
 
