@@ -270,7 +270,7 @@
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# This will return M*N, where M is the number of imputations and N is the size of original dataframe.&lt;/span&gt;
 &lt;span style=&#34;color:#000&#34;&gt;imp&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;fit_transform&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Impute using supervised machine learning method
+&lt;li&gt;Impute using supervised machine learning methods
 &lt;ul&gt;
 &lt;li&gt;apply scikit-learn and stats models to multiply imputed datasets (using the MiceImputer under the hood).&lt;/li&gt;
 &lt;li&gt;Now supporting linear regression and binary logistic regression.&lt;/li&gt;

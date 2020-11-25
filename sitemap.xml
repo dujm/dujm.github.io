@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/frameworks/flax/</loc>
+    <loc>/docs/machinelearning/frameworks/flax/flax/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/frameworks/flax/flax/</loc>
+    <loc>/docs/machinelearning/frameworks/flax/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -459,6 +459,11 @@
   
   <url>
     <loc>/docs/coding/functional-coding/python/imputation/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/frameworks/flax/jraph/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -972,13 +977,13 @@
   </url>
   
   <url>
-    <loc>/blog/2020/</loc>
-    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+    <loc>/docs/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+    <loc>/blog/2020/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

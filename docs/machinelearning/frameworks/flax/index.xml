@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DJ&#39;s Website – Flax</title>
+    <title>DJ&#39;s Website – JAX</title>
     <link>/docs/machinelearning/frameworks/flax/</link>
-    <description>Recent content in Flax on DJ&#39;s Website</description>
+    <description>Recent content in JAX on DJ&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
     
@@ -90,6 +90,56 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://sjmielke.com/jax-purify.htm&#34;&gt;From PyTorch to JAX: towards neural net frameworks that purify stateful code&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Jraph</title>
+      <link>/docs/machinelearning/frameworks/flax/jraph/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/frameworks/flax/jraph/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;jraph&#34;&gt;Jraph&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/deepmind/jraph/blob/master/README.md&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Jraph (pronounced giraffe) is a lightweight library for working with &lt;strong&gt;graph neural networks&lt;/strong&gt; in jax.
+It provides a data structure for graphs, a set of utilites for working with graphs, and a &amp;lsquo;zoo&amp;rsquo; of forkable graph neural network models.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install git+git://github.com/deepmind/jraph.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Jraph is designed to provide utilities for
+working with graphs in jax, but doesn&amp;rsquo;t prescribe a way to write or develop
+graph neural networks.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;graph.py&lt;/code&gt; provides a lightweight data structure, &lt;code&gt;GraphsTuple&lt;/code&gt;, for working
+with graphs.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;utils.py&lt;/code&gt; provides utilies for working with &lt;code&gt;GraphsTuples&lt;/code&gt; in jax.
+&lt;ul&gt;
+&lt;li&gt;Utilities for batching datasets of &lt;code&gt;GraphsTuples&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Utilities to support jit compilation of variable shaped graphs via
+padding and masking.&lt;/li&gt;
+&lt;li&gt;Utilities for defining losses on partitions of inputs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;models.py&lt;/code&gt; provides examples of different types of graph neural network
+message passing. These are designed to be lightweight, easy to fork and
+adapt. They do not manage parameters for you - for that, consider using
+&lt;code&gt;haiku&lt;/code&gt; or &lt;code&gt;flax&lt;/code&gt;. See the examples for more details.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://4.bp.blogspot.com/-Hc9CpvFkg80/UQXUenBWSWI/AAAAAAAAACU/zEtmFDB7PPQ/s1600/babymel2.jpg&#34; alt=&#34;Baby Melman&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://4.bp.blogspot.com/-Hc9CpvFkg80/UQXUenBWSWI/AAAAAAAAACU/zEtmFDB7PPQ/s1600/babymel2.jpg&#34;&gt;Image source&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
