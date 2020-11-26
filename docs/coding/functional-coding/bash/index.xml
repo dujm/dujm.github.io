@@ -73,5 +73,86 @@ conda clean -a
       </description>
     </item>
     
+    <item>
+      <title>Docs: Commands</title>
+      <link>/docs/coding/functional-coding/bash/commands/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/bash/commands/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;60-common-commands&#34;&gt;60 Common commands&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;alias&lt;/li&gt;
+&lt;li&gt;basename&lt;/li&gt;
+&lt;li&gt;bg&lt;/li&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;li&gt;cd&lt;/li&gt;
+&lt;li&gt;chmod&lt;/li&gt;
+&lt;li&gt;chown&lt;/li&gt;
+&lt;li&gt;clear&lt;/li&gt;
+&lt;li&gt;cp&lt;/li&gt;
+&lt;li&gt;crontab&lt;/li&gt;
+&lt;li&gt;df&lt;/li&gt;
+&lt;li&gt;diff&lt;/li&gt;
+&lt;li&gt;dirname&lt;/li&gt;
+&lt;li&gt;du&lt;/li&gt;
+&lt;li&gt;echo&lt;/li&gt;
+&lt;li&gt;emacs editor&lt;/li&gt;
+&lt;li&gt;env&lt;/li&gt;
+&lt;li&gt;export&lt;/li&gt;
+&lt;li&gt;fg&lt;/li&gt;
+&lt;li&gt;find&lt;/li&gt;
+&lt;li&gt;grep&lt;/li&gt;
+&lt;li&gt;gunzip&lt;/li&gt;
+&lt;li&gt;gzip&lt;/li&gt;
+&lt;li&gt;history&lt;/li&gt;
+&lt;li&gt;jobs&lt;/li&gt;
+&lt;li&gt;kill&lt;/li&gt;
+&lt;li&gt;killall&lt;/li&gt;
+&lt;li&gt;less&lt;/li&gt;
+&lt;li&gt;ln&lt;/li&gt;
+&lt;li&gt;ls&lt;/li&gt;
+&lt;li&gt;man&lt;/li&gt;
+&lt;li&gt;mkdir&lt;/li&gt;
+&lt;li&gt;mv&lt;/li&gt;
+&lt;li&gt;nano editor&lt;/li&gt;
+&lt;li&gt;nohup&lt;/li&gt;
+&lt;li&gt;open&lt;/li&gt;
+&lt;li&gt;passwd&lt;/li&gt;
+&lt;li&gt;ping&lt;/li&gt;
+&lt;li&gt;printenv&lt;/li&gt;
+&lt;li&gt;ps&lt;/li&gt;
+&lt;li&gt;pwd&lt;/li&gt;
+&lt;li&gt;rmdir&lt;/li&gt;
+&lt;li&gt;sort&lt;/li&gt;
+&lt;li&gt;su&lt;/li&gt;
+&lt;li&gt;sudo&lt;/li&gt;
+&lt;li&gt;tail&lt;/li&gt;
+&lt;li&gt;tar&lt;/li&gt;
+&lt;li&gt;top&lt;/li&gt;
+&lt;li&gt;touch&lt;/li&gt;
+&lt;li&gt;traceroute&lt;/li&gt;
+&lt;li&gt;type&lt;/li&gt;
+&lt;li&gt;umask&lt;/li&gt;
+&lt;li&gt;uname&lt;/li&gt;
+&lt;li&gt;uniq&lt;/li&gt;
+&lt;li&gt;vim editor&lt;/li&gt;
+&lt;li&gt;wc&lt;/li&gt;
+&lt;li&gt;which&lt;/li&gt;
+&lt;li&gt;who&lt;/li&gt;
+&lt;li&gt;whoami&lt;/li&gt;
+&lt;li&gt;xargs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-traceroute-command&#34;&gt;The Linux Handbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
