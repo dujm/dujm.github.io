@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/coding/functional-coding/python/testing/</loc>
+    <lastmod>2020-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/cloud/devops/api/</loc>
     <lastmod>2020-11-23T00:00:00+00:00</lastmod>
   </url>
@@ -723,7 +728,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/python/unittest/</loc>
+    <loc>/docs/coding/functional-coding/python/testing/unittest/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -1003,7 +1008,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
