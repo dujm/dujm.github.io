@@ -1688,6 +1688,68 @@ interests.&lt;/li&gt;
     </item>
     
     <item>
+      <title>Docs: Converter PDF - Image</title>
+      <link>/docs/swiss-knives/converter-pdf-image/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/swiss-knives/converter-pdf-image/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;converting-pdf-to-image-on-linux&#34;&gt;Converting pdf to image on Linux&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Syntax&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# pdftoppm {input.pdf} {output.file} -png&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Example&lt;/span&gt;
+pdftoppm Bulldog.pdf Bulldog.pdf -png
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;#  each page from the PDF file is converted to Bulldog.pdf-1.png, Bulldog.pdf-2.png&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;For a large number of pdf files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Step 1 - PDF to IMAGE / PNG format #&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; p in *.pdf
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; 
+   pdftoppm &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$p&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$p&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; -png
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;converting-image-to-pdf-on-linu&#34;&gt;Converting image to pdf on Linu&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;mkdir out
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# convert&lt;/span&gt;
+convert out-Bulldog.pdf-1.png Bulldog.pdf-2.png Bulldog.pdf-3.png out/final-Bulldog.pdf
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# open &lt;/span&gt;
+xdg-open out/final-Bulldog.pdf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;For a large number of images&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Step 2 - IMAGE / PNG to PDF format #&lt;/span&gt;
+mkdir output
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; i in *.pdf
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; 
+  &lt;span style=&#34;color:#000&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$i&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
+  convert &lt;span style=&#34;color:#000&#34;&gt;$b&lt;/span&gt;-?.png &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;output/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$b&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; 
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;compress-files-if-needed&#34;&gt;Compress files if needed&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;zip -r -e /tmp/Bulldog.pdf /tmp/output
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-r&lt;/code&gt; : Recurse into directories&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-e&lt;/code&gt; : Password protect our zip file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/tmp/project-invoices.pdf&lt;/code&gt;: Zip file name&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/tmp/output&lt;/code&gt;: Path/folder name to zip and compress everything for ease of use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cyberciti.biz/faq/how-to-convert-pdf-to-image-on-linux-command-line/&#34;&gt;How to convert pdf to image on Linux command line&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://secure.img1-fg.wfcdn.com/im/71066008/compr-r85/4307/43074606/sitting-sleepy-bulldog-puppy-statue.jpg&#34; alt=&#34;Bull Dog&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://secure.img1-fg.wfcdn.com/im/71066008/compr-r85/4307/43074606/sitting-sleepy-bulldog-puppy-statue.jpg&#34;&gt;Bull Dog&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Converter PDF - Table</title>
       <link>/docs/swiss-knives/converter-pdf-table/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
