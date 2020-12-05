@@ -158,11 +158,6 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/classification/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/machinelearning/models/deep-learning/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
@@ -463,6 +458,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/models/clustering/</loc>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/bash/commands/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
@@ -528,6 +528,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/models/classification/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/practices/error_collection/pyspark/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -565,6 +570,11 @@
   <url>
     <loc>/docs/web/pelican-website/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/models/clustering/density/</loc>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -932,6 +942,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/courses/</loc>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/math/machinelearning/activation/math-proof/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
@@ -962,11 +977,6 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/projects/</loc>
-    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/data/visual-art/geo-spatial/</loc>
     <lastmod>2020-11-11T00:00:00+00:00</lastmod>
   </url>
@@ -974,6 +984,11 @@
   <url>
     <loc>/docs/swiss-knives/white-board/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/projects/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1013,7 +1028,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>

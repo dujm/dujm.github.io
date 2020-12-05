@@ -29,11 +29,11 @@
     </item>
     
     <item>
-      <title>Docs: Classification</title>
-      <link>/docs/machinelearning/models/classification/</link>
+      <title>Docs: Deep Learning</title>
+      <link>/docs/machinelearning/models/deep-learning/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/models/classification/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/</guid>
       <description>
         
         
@@ -42,11 +42,24 @@
     </item>
     
     <item>
-      <title>Docs: Deep Learning</title>
-      <link>/docs/machinelearning/models/deep-learning/</link>
+      <title>Docs: Clustering</title>
+      <link>/docs/machinelearning/models/clustering/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/clustering/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Classification</title>
+      <link>/docs/machinelearning/models/classification/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/models/deep-learning/</guid>
+      <guid>/docs/machinelearning/models/classification/</guid>
       <description>
         
         

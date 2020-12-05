@@ -25,6 +25,18 @@
         
         &lt;br&gt;
 &lt;h3 id=&#34;causalmlhttpsgithubcomubercausalml&#34;&gt;&lt;a href=&#34;https://github.com/uber/causalml&#34;&gt;causalml&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/uber/causalml/master/docs/_static/img/uplift_tree_vis.png&#34; alt=&#34;Uplift Tree Visualization&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/uber/causalml/master/docs/_static/img/uplift_tree_vis.png&#34;&gt;Uplift Tree Visualization using causalml&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/uber/causalml/master/docs/_static/img/shap_vis.png&#34; alt=&#34;Meta Learner Feature Importances&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/uber/causalml/master/docs/_static/img/shap_vis.png&#34;&gt;Meta Learner Feature Importances using causalml&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;explainedaihttpsexplainedai&#34;&gt;&lt;a href=&#34;https://explained.ai/&#34;&gt;Explained.ai&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://explained.ai/tensor-sensor/index.html&#34;&gt;Clarifying exceptions and visualizing tensor operations in deep learning code&lt;/a&gt;
+&lt;img src=&#34;https://explained.ai/tensor-sensor/images/teaser.png&#34; alt=&#34;Teaser&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://explained.ai/tensor-sensor/images/teaser.png&#34;&gt;Image from Explained.ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
