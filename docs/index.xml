@@ -15,6 +15,277 @@
     
     
     <item>
+      <title>Docs: Introduction</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f1-intro/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f1-intro/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;application&#34;&gt;Application&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Game&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Backgammon game
+&lt;ul&gt;
+&lt;li&gt;10 - 20 game state&lt;/li&gt;
+&lt;li&gt;TD-Gammon: the 1st NN that advanced the theroy of Backgammon by discovering strategies previously unkown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Atari breakout&lt;/li&gt;
+&lt;li&gt;Dota2
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/dota-2/&#34;&gt;OpenAI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepmind.com/blog/article/alphago-zero-starting-scratch&#34;&gt;AlphaGo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Robotics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Walk
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepmind.com/blog/article/producing-flexible-behaviours-simulated-environments&#34;&gt;Producing flexible behaviours in simulated environments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Driving&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Other:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Biology&lt;/li&gt;
+&lt;li&gt;Telecommunications
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://papers.nips.cc/paper/1999/file/54f5f4071faca32ad5285fef87b78646-Paper.pdf&#34;&gt;Low Power Wireless Communication via Reinforcement Learning &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Finance
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/&#34;&gt;Introduction to Learning to Trade with Reinforcement Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Inventory management
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://read.pudn.com/downloads142/sourcecode/others/617477/inventory%20supply%20chain/04051310570412465(1).pdf&#34;&gt;Inventory management in supply chains: a reinforcement learning approach&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;exploration-exploitation-dilemma&#34;&gt;Exploration-Exploitation Dilemma&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://52aces.com/wp-content/uploads/2020/04/luxury-pattern-1024x529.png&#34; alt=&#34;Managing the Exploration-Exploitation Dilemma&#34;&gt;
+&lt;a href=&#34;https://52aces.com/wp-content/uploads/2020/04/luxury-pattern-1024x529.png&#34;&gt;Managing the Exploration-Exploitation Dilemma, image from 52Aces&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: RL Problem</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;the-settings&#34;&gt;The Settings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Agent&amp;rsquo;s Actions: Goal is to maximize expected cumulative reward&lt;/li&gt;
+&lt;li&gt;Env&lt;/li&gt;
+&lt;li&gt;Rewards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;episodic-vs-continuing-tasks&#34;&gt;Episodic vs. Continuing Tasks&lt;/h2&gt;
+&lt;p&gt;A task is an instance of the reinforcement learning (RL) problem.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Episodic task: interaction ends at some time step T
+&lt;ul&gt;
+&lt;li&gt;In this case, we refer to a complete sequence of interaction, from start to finish, as an episode&lt;/li&gt;
+&lt;li&gt;Episodic tasks come to an end whenever the agent reaches a terminal state&lt;/li&gt;
+&lt;li&gt;About past life regression and reincarnation 😳&lt;/li&gt;
+&lt;li&gt;Game&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Continuing Tasks: interaction continues for ever, without limit 😬
+&lt;ul&gt;
+&lt;li&gt;Stocks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;the-reward-hypothesis&#34;&gt;The Reward Hypothesis&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Problem of sparse rewards&lt;/strong&gt;: when the reward signal is largely uninformative&lt;/li&gt;
+&lt;li&gt;Cumulative reward
+&lt;ul&gt;
+&lt;li&gt;The goal of the agent at time step T: maximize accumulative reward&lt;/li&gt;
+&lt;li&gt;The robot learns to move a bit slowly to sacrifice a little bit of reward but it will payoff because it will avoid falling for longer and collect higher accumulative reward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Discounted return: we give a discount rate $\gamma \in (0,1)$ to Reward at each step to avoid having to look too far into the limitless future
+&lt;ul&gt;
+&lt;li&gt;$\gamma = 0$: agent only cares about most immediate reward, not caring about the future&lt;/li&gt;
+&lt;li&gt;$\gamma = 1$: agent only cares about the future accumulative reward. This becomes a pretty difficult task if the future is limitless&lt;/li&gt;
+&lt;li&gt;Most relevant for selection of actions in continuing tasks&lt;/li&gt;
+&lt;li&gt;Note: with or without the discount rate, the goal of agent is always the same&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Consider an agent who would like to learn to escape a maze. Which reward signals will encourage the agent to escape the maze as quickly as possible?&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Syllabus</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/syllabus/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/syllabus/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;udacity-deep-reinforcement-learning&#34;&gt;Udacity Deep Reinforcement Learning&lt;/h2&gt;
+&lt;h2 id=&#34;trainers&#34;&gt;Trainers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Arthur Juliani, Deep Learning Researcher at Unity&lt;/li&gt;
+&lt;li&gt;Avilay Parekh, Principal Machine Learning Engineer at Unity&lt;/li&gt;
+&lt;li&gt;Melody Guan, Machine Learning Ph.D. at Stanford University&lt;/li&gt;
+&lt;li&gt;Peter Welinder, Research Scientist at OpenAI&lt;/li&gt;
+&lt;li&gt;Vincent Gao, Software Engineer (Machine Learning) at Unity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;estimated-time&#34;&gt;Estimated Time&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;4 months: at 10-15 hrs/week&lt;/li&gt;
+&lt;li&gt;Total: 160-240 hrs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+&lt;h3 id=&#34;1-foundations-of-reinforcement-learning&#34;&gt;1. Foundations of Reinforcement Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;how to define real-world problems as &lt;strong&gt;Markov Decision Processes&lt;/strong&gt; (MDPs), so that they can be solved with reinforcement learning.&lt;/li&gt;
+&lt;li&gt;implement classical methods such as &lt;strong&gt;SARSA&lt;/strong&gt; and &lt;strong&gt;Q-learning&lt;/strong&gt; to solve several environments in &lt;strong&gt;OpenAI Gym&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-value-based-methods&#34;&gt;2. Value-Based Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;how to leverage neural networks when solving complex problems using the Deep Q-Networks (DQN) algorithm&lt;/li&gt;
+&lt;li&gt;double Q-learning&lt;/li&gt;
+&lt;li&gt;prioritized experience replay&lt;/li&gt;
+&lt;li&gt;dueling networks&lt;/li&gt;
+&lt;li&gt;create an artificially intelligent game-playing agent that can navigate a spaceship&lt;/li&gt;
+&lt;li&gt;use a &lt;a href=&#34;http://gazebosim.org/&#34;&gt;Gazebo&lt;/a&gt; simulation to train a rover to navigate an environment without running into walls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-policy-based-methods&#34;&gt;3. Policy-Based Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Proximal Policy Optimization (PPO)&lt;/li&gt;
+&lt;li&gt;Advantage Actor-Critic (A2C)&lt;/li&gt;
+&lt;li&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/li&gt;
+&lt;li&gt;optimization techniques such as evolution strategies and hill climbing&lt;/li&gt;
+&lt;li&gt;how to apply deep reinforcement learning techniques to finance and explore an algorithm for &lt;strong&gt;optimal execution of portfolio transactions&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-multi-agent-reinforcement-learning&#34;&gt;4. Multi-Agent Reinforcement Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Most of reinforcement learning is concerned with a single agent that seeks to demonstrate proficiency at a single task. In this agent&amp;rsquo;s environment, there are no other agents.&lt;/li&gt;
+&lt;li&gt;However, if we&amp;rsquo;d like our agents to become truly intelligent, they must be able to communicate with and learn from other agents. In the final part of this nanodegree, we will extend the traditional framework to include multiple agents.&lt;/li&gt;
+&lt;li&gt;Monte Carlo Tree Search (MCTS), the skills behind DeepMind&amp;rsquo;s AlphaZero&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Project 1: Navigation
+In the first project, you’ll leverage neural networks to train an agent to navigate a virtual world and collect as many yellow bananas as possible while avoiding blue banana&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Project 2: Continuous Control
+In the second project, you’ll write an algorithm to &lt;strong&gt;train a robotic arm to reach moving target positions.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Project 3: Collaboration and Competition
+In the final project of the Nanodegree program, you’ll design your own algorithm to train a pair of agents to play tennis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;All of the projects in this Nanodegree program use the rich simulation environments from the &lt;a href=&#34;https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/&#34;&gt;Unity Machine Learning Agents (ML-Agents) software development kit (SDK)&lt;/a&gt;. It is a flexible and intuitive framework which enables:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Academic and industry researchers to study complex behaviors from visual content and realistic physics&lt;/li&gt;
+&lt;li&gt;Industrial and enterprise researchers to implement &lt;strong&gt;large-scale parallel training regimes for robotics&lt;/strong&gt;, &lt;strong&gt;autonomous vehicles&lt;/strong&gt;, and other industrial applications&lt;/li&gt;
+&lt;li&gt;Game developers to tackle challenges, such as using agents to dynamically adjust the game-difficulty level&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.unity.com/project/tanks-tutorial&#34;&gt;Tanks&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;installation-of-tools&#34;&gt;Installation of tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Unity-Technologies/ml-agents&#34;&gt;Unity ml-agents GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Unity-Technologies/ml-agents/blob/release_10_docs/docs/Installation.md&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gazebosim.org/download&#34;&gt;Gazebo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gym.openai.com/&#34;&gt;OpenAI Gym&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openai/gym&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;reach-out&#34;&gt;Reach out&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://knowledge.udacity.com/&#34;&gt;knowledge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hub.udacity.com/rooms/&#34;&gt;chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://classroom.udacity.com/career/main&#34;&gt;Udacity Services&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://career-resource-center.udacity.com/&#34;&gt;Resource Center&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLAwxTw4SYaPmclSEbUDs5itClivbrSCiY&#34;&gt;Coaching Events&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893&#34;&gt;Udacity Course Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/udacity/deep-reinforcement-learning&#34;&gt;Udacity GitHub: deep-reinforcement-learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/udacity/deep-reinforcement-learning-nanodegree-program-what-youll-learn-e424d0d66c1e&#34;&gt;Deep Reinforcement Learning Nanodegree Program: What You’ll Learn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/udacity/deep-reinforcement-learning/blob/master/cheatsheet/cheatsheet.pdf&#34;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/19jUvEO82qt3itGP3mXRmaoMbVOyE6bLOp5_QwqITzaM/edit&#34;&gt;Student curated links&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;books-to-read&#34;&gt;Books to read&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Barto.https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf&#34;&gt;Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G.&lt;/a&gt;. This book is a classic text with an excellent introduction to reinforcement learning fundamentals.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/grokking-deep-reinforcement-learning&#34;&gt;Grokking Deep Reinforcement Learning by Miguel Morales&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;good-to-know&#34;&gt;Good to know&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn by doing&lt;/li&gt;
+&lt;li&gt;Data from nearly 100,000 Udacity graduates show that commitment and persistence are the highest predictors of whether or not a student will graduate.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Flax</title>
       <link>/docs/machinelearning/frameworks/flax/flax/</link>
       <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
@@ -6035,115 +6306,6 @@ Strict inequality will not convert data types.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Author: A.M.Turing&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pdfs.semanticscholar.org/19df/a4e93917cfffffda3b9aaeacb298930a9f21.pdf&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: PyTorch</title>
-      <link>/docs/machinelearning/frameworks/pytorch/pytorch-toolkit/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/frameworks/pytorch/pytorch-toolkit/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;high-level-training-apis-in-the-pytorch-ecosystemhttpshackernooncomeight-leaders-explain-their-model-training-libraries-from-pytorch-ecosystem-nk4g32iq&#34;&gt;&lt;a href=&#34;https://hackernoon.com/eight-leaders-explain-their-model-training-libraries-from-pytorch-ecosystem-nk4g32iq&#34;&gt;High-level training APIs in the PyTorch Ecosystem&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Skorch&lt;/li&gt;
-&lt;li&gt;Catalyst&lt;/li&gt;
-&lt;li&gt;Fastai&lt;/li&gt;
-&lt;li&gt;PyTorch Ignite&lt;/li&gt;
-&lt;li&gt;PyTorch Lightning&lt;/li&gt;
-&lt;li&gt;TorchBearer&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;serve&#34;&gt;Serve&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/pytorch/serve&#34;&gt;Model Serving on PyTorch&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pytorch/serve/blob/master/docs/README.md&#34;&gt;Full Documentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Fibroblasts</title>
-      <link>/docs/healthcare/papers/fibroblasts/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/healthcare/papers/fibroblasts/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;fibroblasts-fuel-immune-escape-in-the-tumor-microenvironment&#34;&gt;Fibroblasts Fuel Immune Escape in the Tumor Microenvironment&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Emiel A. De Jaeghere, Hannelore G. Denys, Olivier De Wever&lt;br&gt;
-Published: October 28, 2019&lt;br&gt;
-Trends in Cancer&lt;br&gt;
-DOI:https://doi.org/10.1016/j.trecan.2019.09.009   &lt;br&gt;
-&lt;a href=&#34;https://www.cell.com/trends/cancer/fulltext/S2405-8033(19)30192-X?dgcid=STMJ_1585764662_TOPA_TOPOTR&amp;amp;utm_content=124593792&amp;amp;utm_medium=social&amp;amp;utm_source=twitter&amp;amp;hss_channel=tw-18477428&#34;&gt;Read Here&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://marlin-prod.literatumonline.com/cms/attachment/7c41a726-d94e-4f3c-856f-a8c19c405002/gr1.jpg&#34; alt=&#34;Cancer-Associated Fibroblast (CAF)-Dependent Mechanisms of Tumor Immune Escape&#34;&gt;  &lt;br&gt;
-&lt;a href=&#34;https://marlin-prod.literatumonline.com/cms/attachment/7c41a726-d94e-4f3c-856f-a8c19c405002/gr1.jpg&#34;&gt;Cancer-Associated Fibroblast (CAF)-Dependent Mechanisms of Tumor Immune Escape&lt;/a&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Find Papers</title>
-      <link>/docs/swiss-knives/find-papers/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/find-papers/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
-&lt;p&gt;To the extent possible under law,  &lt;a href=&#34;https://github.com/papers-we-love/papers-we-love&#34;&gt;papers-we-love&lt;/a&gt; has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;where-to-find-papers&#34;&gt;Where to Find Papers&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://iclr.cc/virtual_2020/index.html&#34;&gt;ICLR&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap&#34;&gt;Deep Learning Papers Reading Roadmap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/terryum/awesome-deep-learning-papers&#34;&gt;awesome-deep-learning-papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/keeroyz&#34;&gt;2 Minute Papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.alcatel-lucent.com/bell-labs-journals&#34;&gt;Bell System Technical Journal, 1922-1983&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://jeffhuang.com/best_paper_awards.html&#34;&gt;Best Paper Awards in Computer Science&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://research.fb.com/publications/&#34;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://scholar.google.com/citations?view_op=top_venues&amp;amp;hl=en&amp;amp;vq=eng&#34;&gt;Google Scholar&lt;/a&gt; (choose a subcategory)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://research.microsoft.com/apps/catalog/default.aspx?t=publications&#34;&gt;Microsoft Research&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://alexott.net/en/fp/books/&#34;&gt;Functional Programming Books Review&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dspace.mit.edu/handle/1721.1/39813&#34;&gt;MIT&amp;rsquo;s Artificial Intelligence Lab Publications&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dsrg.pdos.csail.mit.edu/&#34;&gt;MIT&amp;rsquo;s Distributed System&amp;rsquo;s Reading Group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://arxiv.org/&#34;&gt;arXiv Paper Repository&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://scirate.com/&#34;&gt;SciRate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://doc.cat-v.org/&#34;&gt;cat-v.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://yarchive.net/comp/index.html&#34;&gt;y-archive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.netlib.org/&#34;&gt;netlib&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mmcgrana/services-engineering&#34;&gt;Services Engineering Reading List&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html&#34;&gt;Readings in Distributed Systems&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://samth.github.io/gradual-typing-bib/&#34;&gt;Gradual Typing Bibliography&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/&#34;&gt;Security Data Science Papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~rwh/papers/index.html&#34;&gt;Research Papers from Robert Harper, Carnegie Mellon University&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lobste.rs/t/pdf&#34;&gt;Lobste.rs tagged as PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.acolyer.org/&#34;&gt;The Morning Paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Check out &lt;a href=&#34;https://github.com/papers-we-love/papers-we-love/wiki/Other-Good-Sources-of-Reading-Material&#34;&gt;paper-we-love- wiki-page&lt;/a&gt; for links to blogs, books, exchanges that are worth a good read.&lt;/p&gt;
-&lt;p&gt;Check out more on &lt;a href=&#34;https://www.youtube.com/user/PapersWeLove&#34;&gt;YouTube&lt;/a&gt; and &lt;a href=&#34;https://www.mixcloud.com/paperswelove/&#34;&gt;MixCloud&lt;/a&gt; (audio-only format) channels.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;how-to-read-a-paper&#34;&gt;How To Read a Paper&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://organizationsandmarkets.com/2010/08/31/how-to-read-an-academic-article/&#34;&gt;How to read an academic article&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cc.gatech.edu/~akmassey/posts/2012-02-15-advice-on-reading-academic-papers.html&#34;&gt;Advice on reading academic papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://violentmetaphors.com/2013/08/25/how-to-read-and-understand-a-scientific-paper-2/&#34;&gt;How to read and understand a scientific paper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://michaelrbernste.in/2014/10/21/should-i-read-papers.html&#34;&gt;Should I Read Papers?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8eRx5Wo3xYA&#34;&gt;The Refreshingly Rewarding Realm of Research Papers&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

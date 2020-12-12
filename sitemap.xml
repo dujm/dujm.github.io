@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f1-intro/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/syllabus/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/python/testing/</loc>
     <lastmod>2020-11-27T00:00:00+00:00</lastmod>
   </url>
@@ -225,6 +240,11 @@
   <url>
     <loc>/docs/web/my-app/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -463,6 +483,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/courses/deeplearning/</loc>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/bash/commands/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
@@ -518,6 +543,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/courses/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/python/plot/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url>
@@ -570,6 +600,11 @@
   <url>
     <loc>/docs/web/pelican-website/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -942,11 +977,6 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/</loc>
-    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/math/machinelearning/activation/math-proof/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
@@ -1028,7 +1058,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>

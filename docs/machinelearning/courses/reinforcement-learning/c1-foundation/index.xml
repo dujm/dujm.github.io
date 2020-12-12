@@ -1,0 +1,151 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Foundation</title>
+    <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</link>
+    <description>Recent content in Foundation on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Introduction</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f1-intro/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f1-intro/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;application&#34;&gt;Application&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Game&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Backgammon game
+&lt;ul&gt;
+&lt;li&gt;10 - 20 game state&lt;/li&gt;
+&lt;li&gt;TD-Gammon: the 1st NN that advanced the theroy of Backgammon by discovering strategies previously unkown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Atari breakout&lt;/li&gt;
+&lt;li&gt;Dota2
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/dota-2/&#34;&gt;OpenAI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepmind.com/blog/article/alphago-zero-starting-scratch&#34;&gt;AlphaGo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Robotics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Walk
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepmind.com/blog/article/producing-flexible-behaviours-simulated-environments&#34;&gt;Producing flexible behaviours in simulated environments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Driving&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Other:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Biology&lt;/li&gt;
+&lt;li&gt;Telecommunications
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://papers.nips.cc/paper/1999/file/54f5f4071faca32ad5285fef87b78646-Paper.pdf&#34;&gt;Low Power Wireless Communication via Reinforcement Learning &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Finance
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/&#34;&gt;Introduction to Learning to Trade with Reinforcement Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Inventory management
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://read.pudn.com/downloads142/sourcecode/others/617477/inventory%20supply%20chain/04051310570412465(1).pdf&#34;&gt;Inventory management in supply chains: a reinforcement learning approach&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;exploration-exploitation-dilemma&#34;&gt;Exploration-Exploitation Dilemma&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://52aces.com/wp-content/uploads/2020/04/luxury-pattern-1024x529.png&#34; alt=&#34;Managing the Exploration-Exploitation Dilemma&#34;&gt;
+&lt;a href=&#34;https://52aces.com/wp-content/uploads/2020/04/luxury-pattern-1024x529.png&#34;&gt;Managing the Exploration-Exploitation Dilemma, image from 52Aces&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: RL Problem</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;the-settings&#34;&gt;The Settings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Agent&amp;rsquo;s Actions: Goal is to maximize expected cumulative reward&lt;/li&gt;
+&lt;li&gt;Env&lt;/li&gt;
+&lt;li&gt;Rewards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;episodic-vs-continuing-tasks&#34;&gt;Episodic vs. Continuing Tasks&lt;/h2&gt;
+&lt;p&gt;A task is an instance of the reinforcement learning (RL) problem.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Episodic task: interaction ends at some time step T
+&lt;ul&gt;
+&lt;li&gt;In this case, we refer to a complete sequence of interaction, from start to finish, as an episode&lt;/li&gt;
+&lt;li&gt;Episodic tasks come to an end whenever the agent reaches a terminal state&lt;/li&gt;
+&lt;li&gt;About past life regression and reincarnation 😳&lt;/li&gt;
+&lt;li&gt;Game&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Continuing Tasks: interaction continues for ever, without limit 😬
+&lt;ul&gt;
+&lt;li&gt;Stocks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;the-reward-hypothesis&#34;&gt;The Reward Hypothesis&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Problem of sparse rewards&lt;/strong&gt;: when the reward signal is largely uninformative&lt;/li&gt;
+&lt;li&gt;Cumulative reward
+&lt;ul&gt;
+&lt;li&gt;The goal of the agent at time step T: maximize accumulative reward&lt;/li&gt;
+&lt;li&gt;The robot learns to move a bit slowly to sacrifice a little bit of reward but it will payoff because it will avoid falling for longer and collect higher accumulative reward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Discounted return: we give a discount rate $\gamma \in (0,1)$ to Reward at each step to avoid having to look too far into the limitless future
+&lt;ul&gt;
+&lt;li&gt;$\gamma = 0$: agent only cares about most immediate reward, not caring about the future&lt;/li&gt;
+&lt;li&gt;$\gamma = 1$: agent only cares about the future accumulative reward. This becomes a pretty difficult task if the future is limitless&lt;/li&gt;
+&lt;li&gt;Most relevant for selection of actions in continuing tasks&lt;/li&gt;
+&lt;li&gt;Note: with or without the discount rate, the goal of agent is always the same&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Consider an agent who would like to learn to escape a maze. Which reward signals will encourage the agent to escape the maze as quickly as possible?&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
