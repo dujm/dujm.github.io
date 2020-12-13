@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/machinelearning/courses/reinforcement-learning/syllabus/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
@@ -248,6 +243,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/frameworks/flax/jax/</loc>
     <lastmod>2020-11-23T00:00:00+00:00</lastmod>
   </url>
@@ -475,6 +475,11 @@
   <url>
     <loc>/docs/web/static-website/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f03-rl-solutions/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1058,7 +1063,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>

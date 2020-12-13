@@ -185,7 +185,7 @@ The agent-environment interaction in rl (Source: Sutton and Barto, 2017)&lt;/p&g
 &lt;p&gt;The agent knows 1-3 and does not know 4 and 5. Therefore, the agent needs to learn from interaction to accomplish its goal.&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;a-mdp-problem&#34;&gt;A MDP Problem&lt;/h2&gt;
-&lt;p&gt;For a can-picking robot:&lt;/p&gt;
+&lt;p&gt;For a can-picking recycling robot:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;He\gamma e is a method that the environment could use to decide the state and reward, at any time step.&lt;/p&gt;
@@ -246,9 +246,238 @@ The agent-environment interaction in rl (Source: Sutton and Barto, 2017)&lt;/p&g
 &lt;li&gt;&lt;a href=&#34;https://github.com/openai/gym/wiki/Table-of-environments&#34;&gt;Table of environments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-## Test
- * Consider an agent who would like to learn to escape a maze. Which reward signals will encourage the agent to escape the maze as quickly as possible? 
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Consider an agent who would like to learn to escape a maze. Which reward signals will encourage the agent to escape the maze as quickly as possible?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;who-is-markov&#34;&gt;Who is Markov?&lt;/h2&gt;
+&lt;p&gt;Andrey Markov (1856–1922) was a Russian mathematician best known for his work on stochastic processes. A primary subject of his research later became known as Markov chains and Markov processes.
+&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AAMarkov.jpg/800px-AAMarkov.jpg&#34; alt=&#34;Andrey Markov&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AAMarkov.jpg/800px-AAMarkov.jpg&#34;&gt;Andrey Markov, image from Wikipedia&lt;/a&gt;&lt;/p&gt;
 
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: RL Solutions</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f03-rl-solutions/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f03-rl-solutions/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;policies&#34;&gt;Policies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A deterministic policy: a mapping $\pi: S \to A$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For each state $s \in S$, it yields the action $a \in A$ that the agent will choose while in state $s$.&lt;/li&gt;
+&lt;li&gt;input: state&lt;/li&gt;
+&lt;li&gt;output: action&lt;/li&gt;
+&lt;li&gt;Example
+&lt;ul&gt;
+&lt;li&gt;$\pi(low) = recharge$&lt;/li&gt;
+&lt;li&gt;$\pi(high) = search$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A stochastic policy: a mapping $\pi: S \times A \to [0,1]$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For each state $s \in S$ and action $a \in A$, it yields the probability $\pi(a|s)$ that the agent chooses action $a$ while in state $s$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;input: state and action&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;output: probability that the agent takes action $A$ while in state $S$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\pi(a|s) =\Bbb{P}(A_t =a | S_t = s) $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Example&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;low
+&lt;ul&gt;
+&lt;li&gt;$\pi(recharge | low) = 0.5$&lt;/li&gt;
+&lt;li&gt;$\pi(wait | low) = 0.4$&lt;/li&gt;
+&lt;li&gt;$\pi(search | low) = 0.1$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;high
+&lt;ul&gt;
+&lt;li&gt;$\pi(search | high) = 0.6$&lt;/li&gt;
+&lt;li&gt;$\pi(wait | high) = 0.4$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;gridworld-example&#34;&gt;Gridworld Example&lt;/h2&gt;
+&lt;p&gt;In this gridworld example, once the agent selects an action,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;it always moves in the chosen direction (contrasting general MDPs where the agent doesn&amp;rsquo;t always have complete control over what the next state will be),&lt;/li&gt;
+&lt;li&gt;the reward can be predicted with complete certainty (contrasting general MDPs where the reward is a random draw from a probability distribution).&lt;/li&gt;
+&lt;li&gt;the value of any state can be calculated as the sum of the immediate reward and the (discounted) value of the next state.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/gridworld1.png&#34; alt=&#34;Grid Word&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/gridworld2.png&#34; alt=&#34;Grid Word2&#34;&gt; &lt;br&gt;
+&lt;a href=&#34;https://classroom.udacity.com/nanodegrees/nd893&#34;&gt;Grid Word images from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;state-value-functions&#34;&gt;State-Value Functions&lt;/h2&gt;
+&lt;p&gt;The state-value function for a policy is denoted $v_\pi$. For each state $s \in {S}$, it yields the expected return if the agent starts in state $s$ and then uses the policy to choose its actions for all time steps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The value of state $s$ under policy $\pi$: $v_{\pi}(s) = \Bbb{E}_{\pi}[G_t|S_t = s]$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;bellman-equations&#34;&gt;Bellman Equations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bellman equations attest to the fact that value functions satisfy recursive relationships.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Read More at &lt;a href=&#34;https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf&#34;&gt;Chapter 3.5 and 3.6&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It expresses the value of any state $s$ in terms of the &lt;em&gt;expected immediate reward&lt;/em&gt; and the e&lt;em&gt;xpected value of the next state&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$V_{\pi}(s) = \Bbb{E}_{\pi}[ R_{t+1} + {\gamma}v_{\pi}(S_{t+1}) | S_t) = s] $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the event that the agent&amp;rsquo;s policy $\pi$ is deterministic, the agent selects action $\pi(s)$ when in state $s$, and the Bellman Expectation Equation can be rewritten as the sum over two variables ($s&#39;$ and $r$):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$v_{\pi}(s) =  \sum_{s&#39;\in{S^{+}}, r \in{R}} p(s&#39;, r|s, \pi{s})(r+ \gamma v_{\pi}(s&#39;)) $&lt;/li&gt;
+&lt;li&gt;In this case, we multiply the sum of the reward and discounted value of the next state $(r+ \gamma v_{\pi}(s&#39;)) $ by its corresponding probability $p(s&#39;, r|s, \pi{s})$ and sum over all possibilities to yield the expected value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the agent&amp;rsquo;s policy $\pi$ is stochastic, the agent selects action $a$ with probability when in state $s$, and the Bellman Expectation Equation can be rewritten as the sum over three variables&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$v_{\pi}(s) =  \sum_{s&#39;\in{S^{+}}, r \in{R}, a \in{A_{(s)}}} \pi(a|s) p(s&#39;, r|s, a) (\gamma + \gamma v_{\pi}(s&#39;)) $&lt;br&gt;
+-In this case, we multiply the sum of the reward and discounted value of the next state $(\gamma + \gamma v_{\pi}(s&#39;))$ by its corresponding probability $\pi(a|s) p(s&#39;, r|s, a)$ and sum over all possibilities to yield the expected value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;action-value-functions&#34;&gt;Action-value Functions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The action-value function for a policy: $q_{\pi}$.&lt;/li&gt;
+&lt;li&gt;The value $q_{\pi}(s,a)$ is the value of taking action $a$ in state $s$ under a policy $\pi$&lt;/li&gt;
+&lt;li&gt;For each state $s \in S$ and action $a \in A$, it yields the expected return if the agent starts in state $s$, takes action $a$, and then follows the policy for all future time steps.&lt;/li&gt;
+&lt;li&gt;$q_{\pi}(s,a) = \Bbb{E}_{\pi}[G_t |S_t =s, A_t = a ]$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;optimality&#34;&gt;Optimality&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A policy $\pi$ is defined to be better than or equal to a policy $\pi$ if and only if $v_{\pi \prime} (s) \ge v_{\pi} (s)$ for all.&lt;/li&gt;
+&lt;li&gt;An optimal policy $\pi_\ast$ satisfies $\pi_\ast \ge  \pi$ is guaranteed to exist but may not be unique.&lt;/li&gt;
+&lt;li&gt;How do you define better policy?
+&lt;ul&gt;
+&lt;li&gt;Positive reward, which gives agent more motivation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;optimal-state-value-function&#34;&gt;Optimal State-value Function&lt;/h3&gt;
+&lt;p&gt;All optimal policies have the same state-value function $v_\ast$&lt;/p&gt;
+&lt;h3 id=&#34;optimal-action-value-function&#34;&gt;Optimal Action-value Function&lt;/h3&gt;
+&lt;p&gt;All optimal policies have the same action-value function $q_\ast$&lt;/p&gt;
+&lt;h3 id=&#34;optimal-policies&#34;&gt;Optimal Policies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Interaction ${\to}$ $q_\ast$ $\to$ $\pi_\ast$&lt;/li&gt;
+&lt;li&gt;Once the agent determines the optimal action-value function $q_\ast$, it can quickly obtain an optimal polity $\pi_ast$ by setting&lt;/li&gt;
+&lt;li&gt;$\pi(s) = argmax_{a \in A_{(s)}} q_\ast (s,a)$: Select the maximal actiona value $q$ at each step&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;h3 id=&#34;calculate-state-value-function-v_pi&#34;&gt;Calculate State-value Function $v_{\pi}$&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Assuming $\gamma = 1$, calculate $v_{\pi}(s_4)$ and $v_{\pi}(s_1)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solve the problem using Bellman Equations
+&lt;img src=&#34;/img/rl/calculate-grid.png&#34; alt=&#34;calculate-grid&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://classroom.udacity.com/nanodegrees/nd893&#34;&gt;Image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Answer: $v_{\pi}(s_4) = 1 $ and $v_{\pi}(s_1) = 2$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;about-deterministic-policy&#34;&gt;About Deterministic Policy&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;True or False?:&lt;/strong&gt;&lt;br&gt;
+For a deterministic policy $\pi$:&lt;br&gt;
+$v_{\pi}(s) = q_{\pi}(s,\pi(s)) $ holds for all $s \in S$.&lt;/p&gt;
+&lt;p&gt;Answer: True.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It also follows from how we have defined the action-value function.&lt;/li&gt;
+&lt;li&gt;The value of the state-action pair $s$, $\pi(s)$ is the expected return if the agent starts in state $s$, takes action $\pi(s)$, and henceforth follows the policy $\pi$.&lt;/li&gt;
+&lt;li&gt;In other words, it is the expected return if the agent starts in state $s$, and then follows the policy $\pi$, which is exactly equal to the value of state $s$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;optimal-policies-1&#34;&gt;Optimal Policies&lt;/h3&gt;
+&lt;p&gt;Consider a MDP (in the below table), with a corresponding optimal action-value function. Which of the following describes a potential optimal policy that corresponds to the optimal action-value function?&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;a1&lt;/th&gt;
+&lt;th&gt;a2&lt;/th&gt;
+&lt;th&gt;a3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;s1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;s2&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;s3&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Answer&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;State $s1$: the agent will always selects action $a3$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;State $s2$: the agent is free to select either $a1$ or $a2$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;State $s3$: the agetn must select $a1$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;   
       </description>
     </item>
     

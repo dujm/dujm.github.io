@@ -102,12 +102,11 @@ In the final project of the Nanodegree program, you’ll design your own algorit
 &lt;br&gt;
 &lt;h2 id=&#34;installation-of-tools&#34;&gt;Installation of tools&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Unity-Technologies/ml-agents&#34;&gt;Unity ml-agents GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Unity-Technologies/ml-agents&#34;&gt;ml-agents&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Unity-Technologies/ml-agents/blob/release_10_docs/docs/Installation.md&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://gazebosim.org/download&#34;&gt;Gazebo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gym.openai.com/&#34;&gt;OpenAI Gym&lt;/a&gt;
 &lt;ul&gt;
