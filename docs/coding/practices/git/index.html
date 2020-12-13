@@ -21,35 +21,23 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>Git | DJ&#39;s Website</title><meta property="og:title" content="Git" />
-<meta property="og:description" content="Find bugs git-bisect
- Use binary search to find the commit that introduced a bug
- Git patch Reference
- git add -p   git add partial (or patch)
-  git add -i   Git will ask you which files you would like to partially stage Then, for each section of the selected files, it will display hunks of the file diff and ask if you would like to stage them one by one." />
+<meta property="og:description" content="Branch # 1) Add a new branch from your origin/master branch git branch new-branch origin/master git checkout new-branch # 2) Make a commit of your work (e.g. you added your name in the README.md) git add README.md git commit -m &#39;add README&#39; # 3) If you had multiple commits, but you want to select a specific commit(e.g. commit id: bbb909f) for a pull request  git cherry-pick bbb909f # 4) Push to your new-branch git push origin new-branch" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/coding/practices/git/" />
 <meta property="article:published_time" content="2020-05-18T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-05-18T00:00:00+00:00" />
 <meta itemprop="name" content="Git">
-<meta itemprop="description" content="Find bugs git-bisect
- Use binary search to find the commit that introduced a bug
- Git patch Reference
- git add -p   git add partial (or patch)
-  git add -i   Git will ask you which files you would like to partially stage Then, for each section of the selected files, it will display hunks of the file diff and ask if you would like to stage them one by one.">
+<meta itemprop="description" content="Branch # 1) Add a new branch from your origin/master branch git branch new-branch origin/master git checkout new-branch # 2) Make a commit of your work (e.g. you added your name in the README.md) git add README.md git commit -m &#39;add README&#39; # 3) If you had multiple commits, but you want to select a specific commit(e.g. commit id: bbb909f) for a pull request  git cherry-pick bbb909f # 4) Push to your new-branch git push origin new-branch">
 <meta itemprop="datePublished" content="2020-05-18T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-05-18T00:00:00+00:00" />
-<meta itemprop="wordCount" content="468">
+<meta itemprop="wordCount" content="545">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Git"/>
-<meta name="twitter:description" content="Find bugs git-bisect
- Use binary search to find the commit that introduced a bug
- Git patch Reference
- git add -p   git add partial (or patch)
-  git add -i   Git will ask you which files you would like to partially stage Then, for each section of the selected files, it will display hunks of the file diff and ask if you would like to stage them one by one."/>
+<meta name="twitter:description" content="Branch # 1) Add a new branch from your origin/master branch git branch new-branch origin/master git checkout new-branch # 2) Make a commit of your work (e.g. you added your name in the README.md) git add README.md git commit -m &#39;add README&#39; # 3) If you had multiple commits, but you want to select a specific commit(e.g. commit id: bbb909f) for a pull request  git cherry-pick bbb909f # 4) Push to your new-branch git push origin new-branch"/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -141,7 +129,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.f229be62bcf0ec374c571ee3d8beecc8eed17b443eef875b606c0a71a34de582e64dfd70d8b828aff8992c9027a21e3d18c086ac61f55cb7a563f58cb4831033.json"
+  data-offline-search-index-json-src="/offline-search-index.14b836d12aaca8b22f73f02c54d444782ed202f45c7ec95fffb8d1ccf5e4072cc98c8496249513ab8c05a805146e8c3592f094a17071d5ad2c989deec980471e.json"
   data-offline-search-base-href="/"
 >
 
@@ -171,7 +159,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.f229be62bcf0ec374c571ee3d8beecc8eed17b443eef875b606c0a71a34de582e64dfd70d8b828aff8992c9027a21e3d18c086ac61f55cb7a563f58cb4831033.json"
+  data-offline-search-index-json-src="/offline-search-index.14b836d12aaca8b22f73f02c54d444782ed202f45c7ec95fffb8d1ccf5e4072cc98c8496249513ab8c05a805146e8c3592f094a17071d5ad2c989deec980471e.json"
   data-offline-search-base-href="/"
 >
 
@@ -1511,7 +1499,7 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningsyllabus" href="/docs/machinelearning/courses/reinforcement-learning/syllabus/">Syllabus</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learninglicense-udacitycourse" href="/docs/machinelearning/courses/reinforcement-learning/license-udacitycourse/">LICENSE</a>
       
       
       
@@ -1553,6 +1541,12 @@
   </ul>
 </ul>
 
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningsyllabus" href="/docs/machinelearning/courses/reinforcement-learning/syllabus/">Syllabus</a>
       
       
     </li>
@@ -2671,6 +2665,7 @@
   <ul>
     <li>
       <ul>
+        <li><a href="#branch">Branch</a></li>
         <li><a href="#find-bugs">Find bugs</a></li>
         <li><a href="#git-patch">Git patch</a></li>
         <li><a href="#commonly-used-commands">Commonly used commands</a></li>
@@ -2738,6 +2733,21 @@
 	<h1>Git</h1>
 	
 	<br>
+<h3 id="branch">Branch</h3>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8f5902;font-style:italic"># 1) Add a new branch from your origin/master branch</span>
+git branch new-branch origin/master
+git checkout new-branch
+
+<span style="color:#8f5902;font-style:italic"># 2) Make a commit of your work (e.g. you added your name in the README.md)</span>
+git add README.md
+git commit -m <span style="color:#4e9a06">&#39;add README&#39;</span> 
+
+<span style="color:#8f5902;font-style:italic"># 3) If you had multiple commits, but you want to select a specific commit(e.g. commit id: bbb909f) for a pull request </span>
+git cherry-pick bbb909f
+
+<span style="color:#8f5902;font-style:italic"># 4) Push to your new-branch</span>
+git push origin new-branch 
+</code></pre></div><br>
 <h3 id="find-bugs">Find bugs</h3>
 <p><code>git-bisect</code></p>
 <blockquote>

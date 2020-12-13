@@ -397,7 +397,6 @@ The agent-environment interaction in rl (Source: Sutton and Barto, 2017)&lt;/p&g
 &lt;li&gt;Interaction ${\to}$ $q_\ast$ $\to$ $\pi_\ast$&lt;/li&gt;
 &lt;li&gt;Once the agent determines the optimal action-value function $q_\ast$, it can quickly obtain an optimal polity $\pi_ast$ by setting&lt;/li&gt;
 &lt;li&gt;$\pi(s) = argmax_{a \in A_{(s)}} q_\ast (s,a)$: Select the maximal actiona value $q$ at each step&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
@@ -473,7 +472,7 @@ $v_{\pi}(s) = q_{\pi}(s,\pi(s)) $ holds for all $s \in S$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;State $s3$: the agetn must select $a1$&lt;/li&gt;
+&lt;li&gt;State $s3$: the agent must select $a1$&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

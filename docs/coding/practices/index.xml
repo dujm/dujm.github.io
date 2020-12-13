@@ -71,6 +71,21 @@
         
         
         &lt;br&gt;
+&lt;h3 id=&#34;branch&#34;&gt;Branch&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 1) Add a new branch from your origin/master branch&lt;/span&gt;
+git branch new-branch origin/master
+git checkout new-branch
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 2) Make a commit of your work (e.g. you added your name in the README.md)&lt;/span&gt;
+git add README.md
+git commit -m &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;add README&amp;#39;&lt;/span&gt; 
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 3) If you had multiple commits, but you want to select a specific commit(e.g. commit id: bbb909f) for a pull request &lt;/span&gt;
+git cherry-pick bbb909f
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 4) Push to your new-branch&lt;/span&gt;
+git push origin new-branch 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h3 id=&#34;find-bugs&#34;&gt;Find bugs&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;git-bisect&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;

@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/syllabus/</loc>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/license-udacitycourse/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -244,6 +244,11 @@
   
   <url>
     <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/syllabus/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -1043,7 +1048,7 @@
   
   <url>
     <loc>/docs/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>

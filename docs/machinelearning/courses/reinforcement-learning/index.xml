@@ -15,6 +15,42 @@
     
     
     <item>
+      <title>Docs: LICENSE</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/license-udacitycourse/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/license-udacitycourse/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;udacity-license&#34;&gt;Udacity LICENSE&lt;/h2&gt;
+&lt;p&gt;As a condition of accessing or using any of the Services and/or Online Courses, you are, prohibited from undertaking, and agree not to: (a) violate any applicable laws, regulations, or rules; (b) set up multiple User Accounts, (c) reproduce, duplicate, copy, sell, resell, display, publish, transfer, distribute, create derivative works of, or exploit for any commercial purposes any portion of the Services, the Online Courses, any Content (as defined below), or any other aspect of our operations, other than as expressly allowed under this Terms of Use; (d) reverse-engineer, decompile, disassemble or otherwise access the source code for any software that may be used to operate the Services; (e) use Udacity’s name, trademarks, service marks, or other materials in connection with, or to transmit, any unsolicited communications or emails; (f) use any high volume, automated, electronic, or third party means to access the Services including without limitation robots, crawlers, browser plug-ins, browser extensions, spiders, or scripts (“Add-ons”)); (g) frame the Services, place pop-up windows over its pages, or otherwise affect the display of its pages; (h) falsely state, impersonate, or otherwise misrepresent your identity, including but not limited to the use of a pseudonym or misrepresenting your affiliations with a person or entity, past or present; (i) force headers or otherwise manipulate identifiers in order to disguise the origin of any communication transmitted through the Services; (j) directly, or through any Add-ons, scrape any part of the Websites and/or Services; and/or (k) interfere with or disrupt the Services or servers or networks connected to the Services, or disobey any requirements, procedures, policies or regulations of networks connected to the Services.&lt;/p&gt;
+&lt;p&gt;In addition, you may not post, upload, or transmit to or otherwise make available through the Services any content, communications, or other information (collectively, &amp;ldquo;Unauthorized Content&amp;rdquo;):&lt;/p&gt;
+&lt;p&gt;that is obscene, fraudulent, indecent, or libelous or that defames, abuses, harasses, discriminates against or threatens others;
+that contains any viruses, Trojan horses, worms, time bombs, cancelbots, or other disabling devices or other harmful components intended to or that may damage, detrimentally interfere with, surreptitiously intercept, or expropriate any system, data, or personal information
+that you do not have the right to disclose or make available under any law or under contractual or fiduciary relationships (such as insider information, or proprietary and confidential information learned or disclosed as part of employment relationships or under nondisclosure agreements);
+that infringes the copyright, patent, trademark, trade secret, right of publicity, or other intellectual property or proprietary right of any third party;
+that violates the rights of other Users of the Services; or
+that violates any applicable local, state, national or international law or otherwise advocates or encourages any illegal activity.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Foundation</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Syllabus</title>
       <link>/docs/machinelearning/courses/reinforcement-learning/syllabus/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
@@ -148,19 +184,6 @@ In the final project of the Nanodegree program, you’ll design your own algorit
 &lt;li&gt;Data from nearly 100,000 Udacity graduates show that commitment and persistence are the highest predictors of whether or not a student will graduate.&lt;/li&gt;
 &lt;/ul&gt;
 
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Foundation</title>
-      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</link>
-      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
       </description>
     </item>
     
