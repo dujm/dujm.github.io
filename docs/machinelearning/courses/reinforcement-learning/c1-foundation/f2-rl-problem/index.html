@@ -21,26 +21,26 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>RL Problem | DJ&#39;s Website</title><meta property="og:title" content="RL Problem" />
-<meta property="og:description" content="The Settings  Agent&rsquo;s Actions: Goal is to maximize expected cumulative reward Env Rewards  Episodic vs. Continuing Tasks A task is an instance of the reinforcement learning (RL) problem.
- Episodic task: interaction ends at some time step T  In this case, we refer to a complete sequence of interaction, from start to finish, as an episode Episodic tasks come to an end whenever the agent reaches a terminal state About past life regression and reincarnation 😳 Game   Continuing Tasks: interaction continues for ever, without limit 😬  Stocks    The Reward Hypothesis  Problem of sparse rewards: when the reward signal is largely uninformative Cumulative reward  The goal of the agent at time step T: maximize accumulative reward The robot learns to move a bit slowly to sacrifice a little bit of reward but it will payoff because it will avoid falling for longer and collect higher accumulative reward   Discounted return: we give a discount rate $\gamma \in (0,1)$ to Reward at each step to avoid having to look too far into the limitless future  $\gamma = 0$: agent only cares about most immediate reward, not caring about the future $\gamma = 1$: agent only cares about the future accumulative reward." />
+<meta property="og:description" content="The Settings  Agent&rsquo;s Actions: Goal is to maximize expected cumulative reward Env Rewards  The agent-environment interaction in rl (Source: Sutton and Barto, 2017)
+ The reinforcement learning (RL) framework is characterized by an agent learning to interact with its environment. At each time step, the agent receives the environment&rsquo;s state (the environment presents a situation to the agent), and the agent must choose an appropriate action in response." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/" />
 <meta property="article:published_time" content="2020-12-12T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-12-12T00:00:00+00:00" />
 <meta itemprop="name" content="RL Problem">
-<meta itemprop="description" content="The Settings  Agent&rsquo;s Actions: Goal is to maximize expected cumulative reward Env Rewards  Episodic vs. Continuing Tasks A task is an instance of the reinforcement learning (RL) problem.
- Episodic task: interaction ends at some time step T  In this case, we refer to a complete sequence of interaction, from start to finish, as an episode Episodic tasks come to an end whenever the agent reaches a terminal state About past life regression and reincarnation 😳 Game   Continuing Tasks: interaction continues for ever, without limit 😬  Stocks    The Reward Hypothesis  Problem of sparse rewards: when the reward signal is largely uninformative Cumulative reward  The goal of the agent at time step T: maximize accumulative reward The robot learns to move a bit slowly to sacrifice a little bit of reward but it will payoff because it will avoid falling for longer and collect higher accumulative reward   Discounted return: we give a discount rate $\gamma \in (0,1)$ to Reward at each step to avoid having to look too far into the limitless future  $\gamma = 0$: agent only cares about most immediate reward, not caring about the future $\gamma = 1$: agent only cares about the future accumulative reward.">
+<meta itemprop="description" content="The Settings  Agent&rsquo;s Actions: Goal is to maximize expected cumulative reward Env Rewards  The agent-environment interaction in rl (Source: Sutton and Barto, 2017)
+ The reinforcement learning (RL) framework is characterized by an agent learning to interact with its environment. At each time step, the agent receives the environment&rsquo;s state (the environment presents a situation to the agent), and the agent must choose an appropriate action in response.">
 <meta itemprop="datePublished" content="2020-12-12T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-12-12T00:00:00+00:00" />
-<meta itemprop="wordCount" content="260">
+<meta itemprop="wordCount" content="804">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="RL Problem"/>
-<meta name="twitter:description" content="The Settings  Agent&rsquo;s Actions: Goal is to maximize expected cumulative reward Env Rewards  Episodic vs. Continuing Tasks A task is an instance of the reinforcement learning (RL) problem.
- Episodic task: interaction ends at some time step T  In this case, we refer to a complete sequence of interaction, from start to finish, as an episode Episodic tasks come to an end whenever the agent reaches a terminal state About past life regression and reincarnation 😳 Game   Continuing Tasks: interaction continues for ever, without limit 😬  Stocks    The Reward Hypothesis  Problem of sparse rewards: when the reward signal is largely uninformative Cumulative reward  The goal of the agent at time step T: maximize accumulative reward The robot learns to move a bit slowly to sacrifice a little bit of reward but it will payoff because it will avoid falling for longer and collect higher accumulative reward   Discounted return: we give a discount rate $\gamma \in (0,1)$ to Reward at each step to avoid having to look too far into the limitless future  $\gamma = 0$: agent only cares about most immediate reward, not caring about the future $\gamma = 1$: agent only cares about the future accumulative reward."/>
+<meta name="twitter:description" content="The Settings  Agent&rsquo;s Actions: Goal is to maximize expected cumulative reward Env Rewards  The agent-environment interaction in rl (Source: Sutton and Barto, 2017)
+ The reinforcement learning (RL) framework is characterized by an agent learning to interact with its environment. At each time step, the agent receives the environment&rsquo;s state (the environment presents a situation to the agent), and the agent must choose an appropriate action in response."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -132,7 +132,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.b03c730ce7059f244be132d87fa9aa6b01ea3cc3ecb21c4b56b14e01daa19855ced6a0dcf13ee0d808faaa2477687d1ea729288fa341552914c0ff77a1e02c75.json"
+  data-offline-search-index-json-src="/offline-search-index.a38b495dcbf60c20f389b53e3423ebfee71f3e31e94cb000e89a60061fcd9759ba8ce8604ceff6b0814834a4701052d0391836d4e02b27615204bee7f5723171.json"
   data-offline-search-base-href="/"
 >
 
@@ -162,7 +162,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.b03c730ce7059f244be132d87fa9aa6b01ea3cc3ecb21c4b56b14e01daa19855ced6a0dcf13ee0d808faaa2477687d1ea729288fa341552914c0ff77a1e02c75.json"
+  data-offline-search-index-json-src="/offline-search-index.a38b495dcbf60c20f389b53e3423ebfee71f3e31e94cb000e89a60061fcd9759ba8ce8604ceff6b0814834a4701052d0391836d4e02b27615204bee7f5723171.json"
   data-offline-search-base-href="/"
 >
 
@@ -2657,7 +2657,9 @@
     <li><a href="#the-settings">The Settings</a></li>
     <li><a href="#episodic-vs-continuing-tasks">Episodic vs. Continuing Tasks</a></li>
     <li><a href="#the-reward-hypothesis">The Reward Hypothesis</a></li>
-    <li><a href="#test">Test</a></li>
+    <li><a href="#markov-decision-process">Markov Decision Process</a></li>
+    <li><a href="#a-mdp-problem">A MDP Problem</a></li>
+    <li><a href="#openai-gym">OpenAI Gym</a></li>
   </ul>
 </nav>
 
@@ -2743,11 +2745,18 @@
 <li>Env</li>
 <li>Rewards</li>
 </ul>
-<br>
+<p><img src="/img/rl/agent-env.png" alt="The agent-environment interaction in rl (Source: Sutton and Barto, 2017)"><br>
+The agent-environment interaction in rl (Source: Sutton and Barto, 2017)</p>
+<ul>
+<li>The reinforcement learning (RL) framework is characterized by an agent learning to interact with its environment.</li>
+<li>At each time step, the agent receives the environment&rsquo;s state (the environment presents a situation to the agent), and the agent must choose an appropriate action in response. One time step later, the agent receives a reward (the environment indicates whether the agent has responded appropriately to the state) and a new state.</li>
+<li>All agents have the goal to maximize expected cumulative reward, or the expected sum of rewards attained over all time steps.
+<br></li>
+</ul>
 <h2 id="episodic-vs-continuing-tasks">Episodic vs. Continuing Tasks</h2>
 <p>A task is an instance of the reinforcement learning (RL) problem.</p>
 <ul>
-<li>Episodic task: interaction ends at some time step T
+<li>Episodic task: tasks with a well-defined starting and ending point.
 <ul>
 <li>In this case, we refer to a complete sequence of interaction, from start to finish, as an episode</li>
 <li>Episodic tasks come to an end whenever the agent reaches a terminal state</li>
@@ -2763,6 +2772,7 @@
 </ul>
 <br>
 <h2 id="the-reward-hypothesis">The Reward Hypothesis</h2>
+<p>All goals can be framed as the maximization of (expected) cumulative reward.</p>
 <ul>
 <li><strong>Problem of sparse rewards</strong>: when the reward signal is largely uninformative</li>
 <li>Cumulative reward
@@ -2773,18 +2783,115 @@
 </li>
 <li>Discounted return: we give a discount rate $\gamma \in (0,1)$ to Reward at each step to avoid having to look too far into the limitless future
 <ul>
+<li>For larger values of $\gamma$, the agent cares more about the distant future.</li>
+<li>Smaller values of $\gamma$ result in more extreme discounting</li>
 <li>$\gamma = 0$: agent only cares about most immediate reward, not caring about the future</li>
-<li>$\gamma = 1$: agent only cares about the future accumulative reward. This becomes a pretty difficult task if the future is limitless</li>
+<li>$\gamma = 1$: the return is not discounted. This becomes a pretty difficult task if the future is limitless</li>
 <li>Most relevant for selection of actions in continuing tasks</li>
 <li>Note: with or without the discount rate, the goal of agent is always the same</li>
 </ul>
 </li>
 </ul>
 <br>
-<h2 id="test">Test</h2>
+<h2 id="markov-decision-process">Markov Decision Process</h2>
+<p>A (finite) Markov Decision Process (MDP) is defined by:</p>
 <ul>
-<li>Consider an agent who would like to learn to escape a maze. Which reward signals will encourage the agent to escape the maze as quickly as possible?</li>
+<li>
+<ol>
+<li>a (finite) set of Action $A$: space of all possible actions available to the agent</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>a (finite) set of States $S$: all nonterminal states</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>at a dicount rate $\gamma \in (0,1)$</li>
+</ol>
+<ul>
+<li>$G_t = R_{t+1} + \gamma R_{t+2} + {\gamma}^2 R_{t+3} +&hellip;$</li>
+<li>A common choice: $\gamma = 0.9$</li>
 </ul>
+</li>
+<li>
+<ol start="4">
+<li>a (finite) set of Rewards $\gamma $</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li>the <strong>one-step dynamics of the environment</strong>: $p(s',\gamma |s,a) = \Bbb{P}(S_{t+1} = s', R_{t+1} =\gamma  | S_t =s, A_t = a)$</li>
+</ol>
+</li>
+</ul>
+<p>The agent knows 1-3 and does not know 4 and 5. Therefore, the agent needs to learn from interaction to accomplish its goal.</p>
+<br>
+<h2 id="a-mdp-problem">A MDP Problem</h2>
+<p>For a can-picking robot:</p>
+<ul>
+<li>
+<p>He\gamma e is a method that the environment could use to decide the state and reward, at any time step.</p>
+<ul>
+<li>$A$:
+<ul>
+<li>Search cans</li>
+<li>Wait</li>
+<li>Recharge</li>
+</ul>
+</li>
+<li>$S$:
+<ul>
+<li>High battery</li>
+<li>Low battery</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Say at an arbitrary time step t, the state of the robot&rsquo;s battery is high ($S_t = \text{high}$). Then, in response, the agent decides to search ($A_t = \text{search}$). You learned in the previous concept that in this case, the environment responds to the agent by flipping a theoretical coin with 70% probability of landing heads.</p>
+<ul>
+<li>If the coin lands heads, the environment decides that the next state is high ($S_{t+1} = \text{high}$), and the reward is $(R_{t+1} = 4$).</li>
+<li>If the coin lands tails, the environment decides that the next state is low ($S_{t+1} = \text{low}$), and the reward is $(R_{t+1} = 4)$.</li>
+<li>At an arbitrary time step $t$, the agent-environment interaction has evolved as a sequence of states, actions, and rewards. When the environment responds to the agent at time step $t+1$,
+<ul>
+<li>it considers only the state and action at the previous time step ($S_t, A_t$)</li>
+<li>it does not consider any of ${ R_0, \ldots, R_t }$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>For the case that $S_t = \text{high}$, and $A_t = \text{search}$, when the environment responds to the agent at the next time step,
+- with 70% probability, the next state is high and the reward is 4. In other words, $p(high,4|high,search) = \Bbb{P}(S_{t+1} = high, R_{t+1} = 4 | S_t = high, A_t = search) = 0.7$</p>
+</li>
+<li>
+<p>Consider the following probabilities,</p>
+<ul>
+<li>which of the above probabilities is equal to 0? (1,3,5)</li>
+<li>Which of the above probabilities is equal to 1? (2,4)
+<ul>
+<li>(1) $p(\text{low}, 1|\text{low},\text{search})$</li>
+<li>(2) $p(\text{high}, 0|\text{low},\text{recharge})$</li>
+<li>(3) $p(\text{high}, 1|\text{low},\text{wait})$</li>
+<li>(4) $p(\text{high}, 1|\text{high},\text{wait})$</li>
+<li>(5) $p(\text{high}, 1|\text{high},\text{search})$</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="/img/rl/MDP-robot.png" alt="mdp-robot"><br>
+<a href="https://classroom.udacity.com/nanodegrees/nd893">Image from Udacity nd893</a></p>
+<br>
+<h2 id="openai-gym">OpenAI Gym</h2>
+<ul>
+<li><a href="https://github.com/openai/gym/wiki/Table-of-environments">Table of environments</a></li>
+</ul>
+<br>
+## Test
+ * Consider an agent who would like to learn to escape a maze. Which reward signals will encourage the agent to escape the maze as quickly as possible? 
 
 	
 	
