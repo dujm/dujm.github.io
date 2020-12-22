@@ -38,19 +38,6 @@ that violates any applicable local, state, national or international law or othe
     </item>
     
     <item>
-      <title>Docs: Foundation</title>
-      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</link>
-      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: Syllabus</title>
       <link>/docs/machinelearning/courses/reinforcement-learning/syllabus/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
@@ -170,6 +157,7 @@ In the final project of the Nanodegree program, you’ll design your own algorit
 &lt;li&gt;&lt;a href=&#34;https://medium.com/udacity/deep-reinforcement-learning-nanodegree-program-what-youll-learn-e424d0d66c1e&#34;&gt;Deep Reinforcement Learning Nanodegree Program: What You’ll Learn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/udacity/deep-reinforcement-learning/blob/master/cheatsheet/cheatsheet.pdf&#34;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/19jUvEO82qt3itGP3mXRmaoMbVOyE6bLOp5_QwqITzaM/edit&#34;&gt;Student curated links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/the-complete-reinforcement-learning-dictionary-e16230b7d24e&#34;&gt;The Complete Reinforcement Learning Dictionary&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;books-to-read&#34;&gt;Books to read&lt;/h2&gt;
@@ -184,6 +172,19 @@ In the final project of the Nanodegree program, you’ll design your own algorit
 &lt;li&gt;Data from nearly 100,000 Udacity graduates show that commitment and persistence are the highest predictors of whether or not a student will graduate.&lt;/li&gt;
 &lt;/ul&gt;
 
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Foundation</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
       </description>
     </item>
     

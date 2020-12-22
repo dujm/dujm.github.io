@@ -149,57 +149,5 @@
       </description>
     </item>
     
-    <item>
-      <title>Docs: Git</title>
-      <link>/docs/coding/practices/error_collection/git/</link>
-      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/coding/practices/error_collection/git/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;commit&#34;&gt;Commit&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;How to revert last commit in the remote?&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git reset HEAD^ --hard&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git push -f&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;How to remove a file added in the most recent unpushed commit?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Stage our giant file for removal, but leave it on disk&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;git rm --cached giant_file&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Commit this change&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;git commit --amend -CHEAD&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Push our rewritten, smaller commit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;submodule&#34;&gt;Submodule&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;How to remove a Git submodule?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Delete the relevant section from the &lt;code&gt;.gitmodules&lt;/code&gt; file&lt;/li&gt;
-&lt;li&gt;Stage the .gitmodules changes &lt;code&gt;git add .gitmodules&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Delete the relevant section from &lt;code&gt;.git/config&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Run &lt;code&gt;git rm --cached path_to_submodule -r&lt;/code&gt; (no trailing slash)&lt;/li&gt;
-&lt;li&gt;Run &lt;code&gt;rm -rf .git/modules/path_to_submodule&lt;/code&gt; (no trailing slash)&lt;/li&gt;
-&lt;li&gt;Commit &lt;code&gt;git commit -m &#39;Removed submodule&#39;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Delete the now untracked submodule files &lt;code&gt;rm -rf path_to_submodule&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
   </channel>
 </rss>

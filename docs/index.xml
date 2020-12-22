@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Introduction</title>
-      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f1-intro/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f1-intro/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</guid>
       <description>
         
         
@@ -3428,10 +3428,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: RL Problem</title>
-      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/</guid>
       <description>
         
         
@@ -3721,6 +3721,7 @@ In the final project of the Nanodegree program, you’ll design your own algorit
 &lt;li&gt;&lt;a href=&#34;https://medium.com/udacity/deep-reinforcement-learning-nanodegree-program-what-youll-learn-e424d0d66c1e&#34;&gt;Deep Reinforcement Learning Nanodegree Program: What You’ll Learn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/udacity/deep-reinforcement-learning/blob/master/cheatsheet/cheatsheet.pdf&#34;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/19jUvEO82qt3itGP3mXRmaoMbVOyE6bLOp5_QwqITzaM/edit&#34;&gt;Student curated links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/the-complete-reinforcement-learning-dictionary-e16230b7d24e&#34;&gt;The Complete Reinforcement Learning Dictionary&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;books-to-read&#34;&gt;Books to read&lt;/h2&gt;

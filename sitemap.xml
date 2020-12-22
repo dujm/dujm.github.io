@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f1-intro/</loc>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -238,12 +238,7 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f2-rl-problem/</loc>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -483,8 +478,18 @@
   </url>
   
   <url>
+    <loc>/docs/coding/practices/env/conda/</loc>
+    <lastmod>2020-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f03-rl-solutions/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -610,6 +615,11 @@
   <url>
     <loc>/docs/web/pelican-website/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f04-monte-carlo/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -758,6 +768,11 @@
   </url>
   
   <url>
+    <loc>/docs/coding/practices/env/</loc>
+    <lastmod>2020-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/computer_science/software-engineering/sorts/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
@@ -795,6 +810,11 @@
   <url>
     <loc>/docs/machinelearning/models/graph-nn/applications/gans-house/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/coding/practices/error_collection/</loc>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -937,11 +957,6 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/error_collection/</loc>
-    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/swiss-knives/terminal-ubuntu/</loc>
     <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
@@ -1007,7 +1022,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/git/</loc>
+    <loc>/docs/coding/practices/version-control/git/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -1062,13 +1077,18 @@
   </url>
   
   <url>
+    <loc>/docs/coding/practices/version-control/</loc>
+    <lastmod>2020-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/healthcare/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1099,11 +1119,6 @@
   <url>
     <loc>/blog/2020/04/20/time/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/coding/practices/error_collection/git/</loc>
-    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>

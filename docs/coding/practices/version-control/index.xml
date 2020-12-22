@@ -1,0 +1,158 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Version Control</title>
+    <link>/docs/coding/practices/version-control/</link>
+    <description>Recent content in Version Control on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 21 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/coding/practices/version-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Git</title>
+      <link>/docs/coding/practices/version-control/git/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/practices/version-control/git/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;commit&#34;&gt;Commit&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;How to revert last commit in the remote?&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git reset HEAD^ --hard&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git push -f&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to remove a file added in the most recent unpushed commit?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stage our giant file for removal, but leave it on disk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;git rm --cached giant_file&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Commit this change&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;git commit --amend -CHEAD&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Push our rewritten, smaller commit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;How to remove a file from a Git repository without deleting it from the local filesystem
+&lt;code&gt;git rm --cached file&lt;/code&gt;
+&lt;code&gt;git rm -r --cached folderName&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;submodule&#34;&gt;Submodule&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;How to remove a Git submodule?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Delete the relevant section from the &lt;code&gt;.gitmodules&lt;/code&gt; file&lt;/li&gt;
+&lt;li&gt;Stage the .gitmodules changes &lt;code&gt;git add .gitmodules&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete the relevant section from &lt;code&gt;.git/config&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;git rm --cached path_to_submodule -r&lt;/code&gt; (no trailing slash)&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;rm -rf .git/modules/path_to_submodule&lt;/code&gt; (no trailing slash)&lt;/li&gt;
+&lt;li&gt;Commit &lt;code&gt;git commit -m &#39;Removed submodule&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete the now untracked submodule files &lt;code&gt;rm -rf path_to_submodule&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;branch&#34;&gt;Branch&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 1) Add a new branch from your origin/master branch&lt;/span&gt;
+git branch new-branch origin/master
+git checkout new-branch
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 2) Make a commit of your work (e.g. you added your name in the README.md)&lt;/span&gt;
+git add README.md
+git commit -m &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;add README&amp;#39;&lt;/span&gt; 
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 3) If you had multiple commits, but you want to select a specific commit(e.g. commit id: bbb909f) for a pull request &lt;/span&gt;
+git cherry-pick bbb909f
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 4) Push to your new-branch&lt;/span&gt;
+git push origin new-branch 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;find-bugs&#34;&gt;Find bugs&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;git-bisect&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Use binary search to find the commit that introduced a bug&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;git-patch&#34;&gt;Git patch&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/mattlewissf/9958704&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add -p&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git add partial (or patch)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add -i&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Git will ask you which files you would like to partially stage
+Then, for each section of the selected files, it will display hunks of the file diff and ask if you would like to stage them one by one.
+Choose type 5 or p (for patch)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git reset -p&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reset in patch&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git commit -p&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Combines git add -p and git commit in one command.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Patch mode allows you to stage parts of a changed file, instead of the entire file. This allows you to make concise, well-crafted commits that make for an easier to read history. This feature can improve the quality of the commits. It also makes it easy to remove parts of the changes in a file that were only there for debugging purposes - prior to the commit without having to go back to the editor.&lt;/p&gt;
+&lt;p&gt;It allows you to see the changes (delta) to the code that you are trying to add, and lets you add them (or not) separately from each other using an interactive prompt. Here&amp;rsquo;s how to use it:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/UbSnkwX.png&#34; alt=&#34;here&amp;rsquo;s a visual&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At each point, you will be asked whether you want to &amp;ldquo;stage this hunk&amp;rdquo;. Here are the commands you can use:&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;commonly-used-commands&#34;&gt;Commonly used commands&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;y - stage this hunk&lt;/li&gt;
+&lt;li&gt;n - do not stage this hunk&lt;/li&gt;
+&lt;li&gt;a - stage this and all the remaining hunks in the file&lt;/li&gt;
+&lt;li&gt;d - do not stage this hunk nor any of the remaining hunks in the file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;more-advanced-commands&#34;&gt;More advanced commands&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;g - select a hunk to go to&lt;/li&gt;
+&lt;li&gt;/ - search for a hunk matching the given regex&lt;/li&gt;
+&lt;li&gt;j - leave this hunk undecided, see next undecided hunk&lt;/li&gt;
+&lt;li&gt;J - leave this hunk undecided, see next hunk&lt;/li&gt;
+&lt;li&gt;k - leave this hunk undecided, see previous undecided hunk&lt;/li&gt;
+&lt;li&gt;K - leave this hunk undecided, see previous hunk&lt;/li&gt;
+&lt;li&gt;s - split the current hunk into smaller hunks&lt;/li&gt;
+&lt;li&gt;e - manually edit the current hunk&lt;/li&gt;
+&lt;li&gt;? - print help&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;some-cool-tips-from-the-internet&#34;&gt;Some cool tips from the internet:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If git presents you with a chunk larger than what you would like to add, you can use the &amp;ldquo;e&amp;rdquo; interactive command to specify the exact lines that you want added or removed. This is probably the most powerful option. As promised, it will open the hunk in a text editor and you can edit it to your hearts content&lt;/li&gt;
+&lt;li&gt;Split the hunk into smaller hunks. This only works if there’s unchanged lines between the changes in the displayed hunk, so this wouldn’t have any effect in the example above&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
