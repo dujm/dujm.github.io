@@ -30,7 +30,7 @@
 <meta itemprop="description" content="Prediction Problem  An approach that can be used to estimate the state-value function. Given a policy, how might the agent estimate the value function for that policy?   Gridworld Example  The agent has a policy in mind, it follows the policy to collect a lot of episodes. For each state, to figure out which action is best, the agent can look for which action tended to result in the most cumulative reward.">
 <meta itemprop="datePublished" content="2020-12-14T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-12-14T00:00:00+00:00" />
-<meta itemprop="wordCount" content="1702">
+<meta itemprop="wordCount" content="1857">
 
 
 
@@ -129,7 +129,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c0a7fc2ee60d65cf60e547b57c5b548d90cadfc48c7faa3f8e160e7cbadd548a45511f2ba910af4ed6b93e2bfa0a855d192192a4dc6c46e3777b7702dbadcb06.json"
+  data-offline-search-index-json-src="/offline-search-index.4d26390015cbbfa77d916d0644b91f522df35e5e5a2260e0e519e5b10821576a466dd76734de474ba7f55881bd811d6bf04bb7fe02f3c95199a047c5df7cfedb.json"
   data-offline-search-base-href="/"
 >
 
@@ -159,7 +159,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.c0a7fc2ee60d65cf60e547b57c5b548d90cadfc48c7faa3f8e160e7cbadd548a45511f2ba910af4ed6b93e2bfa0a855d192192a4dc6c46e3777b7702dbadcb06.json"
+  data-offline-search-index-json-src="/offline-search-index.4d26390015cbbfa77d916d0644b91f522df35e5e5a2260e0e519e5b10821576a466dd76734de474ba7f55881bd811d6bf04bb7fe02f3c95199a047c5df7cfedb.json"
   data-offline-search-base-href="/"
 >
 
@@ -1595,6 +1595,12 @@
       <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docsmachinelearningcoursesreinforcement-learningc1-foundationf04-monte-carlo" href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f04-monte-carlo/">Monte Carlo</a>
       
       
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc1-foundationf05-temporal-difference" href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f05-temporal-difference/">Temporal Difference</a>
+      
+      
     </li>
   </ul>
 </ul>
@@ -2746,9 +2752,11 @@
         <li><a href="#setting-epsilon-in-practice">Setting $\epsilon$ in Practice</a></li>
       </ul>
     </li>
-    <li><a href="#incremental-mean">Incremental Mean</a>
+    <li><a href="#incremental-mean">Incremental Mean</a></li>
+    <li><a href="#constant-alpha-mc-control">Constant-alpha MC control</a>
       <ul>
-        <li><a href="#constant-alpha-mc-control">Constant-alpha MC control</a></li>
+        <li><a href="#update-equation">Update equation</a></li>
+        <li><a href="#step-size-parameter-alpha">Step-size Parameter $\alpha$</a></li>
       </ul>
     </li>
     <li><a href="#excercise">Excercise</a>
@@ -2757,7 +2765,12 @@
         <li><a href="#openai-gym-frozenlake-v0">OpenAI Gym: FrozenLake-v0</a></li>
       </ul>
     </li>
-    <li><a href="#test">Test</a></li>
+    <li><a href="#test">Test</a>
+      <ul>
+        <li><a href="#greedy-policy-1">Greedy Policy</a></li>
+        <li><a href="#update-q-table">Update Q-table</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -2883,7 +2896,7 @@
 <br>
 <h3 id="q-table">Q-table</h3>
 <ul>
-<li>When working with finite MDPs, we can $estimate the action-value function$ $q_{\pi}$ corresponding to a policy $\pi$ in a table.</li>
+<li>When working with finite MDPs, we can estimate the action-value function $q_{\pi}$ corresponding to a policy $\pi$ in a table.</li>
 <li>This table has one row for each state and one column for each action.</li>
 <li>The entry in the $s$-th row and $a$-th column contains the agent&rsquo;s estimate for expected return that is likely to follow, if the agent starts in state $s$, selects action $a$, and then henceforth follows the policy $\pi$.</li>
 </ul>
@@ -2923,7 +2936,7 @@
 <li>Epsilon-Greedy Policy:
 <ul>
 <li><strong>most likely</strong> selects the greedy action, with probability $1 - \epsilon$</li>
-<li>pick up other non-greedy actions with small, but non-zero probability $\epsilon$
+<li>picks up other non-greedy actions with small, but non-zero probability $\epsilon$
 <ul>
 <li>the agent selects an action uniformly at random from the set of available (non-greedy <strong>AND</strong> greedy actions)</li>
 <li>allowing the agent to explore other probabilities</li>
@@ -3049,22 +3062,51 @@
 <p><img src="/img/rl/incremental-mean-function.png" alt="incremental-mean-function"><br>
 <a href="https://youtu.be/QFV1nI9Zpoo?t=18">Incremental Mean Function, image from Udacity nd893</a></p>
 <br>
-<h3 id="constant-alpha-mc-control">Constant-alpha MC control</h3>
+<h2 id="constant-alpha-mc-control">Constant-alpha MC control</h2>
 <ul>
 <li>uses a constant step-size parameter $\alpha$</li>
-<li>$Q(S_t, A_t) \leftarrow (1-a)Q(S_t, A_t) + \alpha G_t$</li>
-<li>The step-size parameter $\alpha$ must satisfy 0 &lt; $\alpha$ ≤1. Higher values of $\alpha$ will result in faster learning, but values of $\alpha$ that are too high can prevent MC control from converging to $\pi_*$
+</ul>
+<h3 id="update-equation">Update equation</h3>
 <ul>
-<li>Smaller values for \alphaα encourage the agent to consider a longer history of returns when calculating the action-value function estimate.</li>
-<li>Increasing the value of \alphaα ensures that the agent focuses more on the most recently sampled returns.</li>
+<li>
+<p>After each episode finishes, the Q-table is modified using the update equation:</p>
+<ul>
+<li>$Q(S_t, A_t) \leftarrow (1-a)Q(S_t, A_t) + \alpha G_t$</li>
+<li>$G_t := \sum_{s=t+1}^{T}\gamma^{s-t-1}R_s$ is the return at timestep $t$</li>
+<li>$Q(S_t,A_t)$ is the entry in the Q-table corresponding to state $S_t$ and action $A_t$.</li>
+</ul>
+</li>
+<li>
+<p>The main idea behind the update equation</p>
+<ul>
+<li>$Q(S_t,A_t)$ contains the agent&rsquo;s estimate for the expected return if the environment is in state $S_t$ and the agent selects action $A_t$</li>
+<li>If the return $G_t$ is <strong>not equal</strong> to $Q(S_t,A_t)$, then we push the value of $Q(S_t,A_t)$ to make it agree slightly more with the return</li>
+<li>The magnitude of the change that we make to $Q(S_t,A_t)$ is controlled by $\alpha &gt; 0$</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="step-size-parameter-alpha">Step-size Parameter $\alpha$</h3>
+<ul>
+<li>The step-size parameter $\alpha$ must satisfy 0 &lt; $\alpha$ ≤1.
+<ul>
+<li>Higher values of $\alpha$ will result in faster learning, but values of $\alpha$ that are too high can prevent MC control from converging to $\pi_*$</li>
+<li>Smaller values for $\alpha$ encourage the agent to consider a longer history of returns when calculating the action-value function estimate.</li>
+</ul>
+</li>
+<li>Increasing the value of $\alpha$ ensures that the agent focuses more on the most recently sampled returns.</li>
+</ul>
+<ul>
+<li>However,be careful to not set the value of $\alpha$ too close to 1. This is because very large values can keep the algorithm from converging to the optimal policy $\pi_*$</li>
+</ul>
+<ul>
+<li>Boundary values</li>
+</ul>
+<ul>
 <li>If $\alpha = 0$, then the action-value function estimate is never updated by the agent. Meaning, the agent never learns</li>
 <li>If $\alpha = 1$, then the final value estimate for each state-action pair is always equal to the last return that was experienced by the agent (after visiting the pair).</li>
 </ul>
-</li>
-<li>Be careful to not set the value of $\alpha$ too close to 1. This is because very large values can keep the algorithm from converging to the optimal policy $\pi_*$</li>
-</ul>
-<p>​	
-<img src="/img/rl/constant-alpha.png" alt="Constant-alpha"> <br>
+<p><img src="/img/rl/constant-alpha.png" alt="Constant-alpha"> <br>
 <a href="https://video.udacity-data.com/topher/2018/May/5aecba4c_screen-shot-2018-05-04-at-2.49.48-pm/screen-shot-2018-05-04-at-2.49.48-pm.png">Constant-alpha</a></p>
 <h2 id="excercise">Excercise</h2>
 <h3 id="openai-gym-blackjackenv">OpenAI Gym: BlackJackEnv</h3>
@@ -3088,6 +3130,7 @@
 <a href="https://www.gismeteo.com/static/news/img/src/30995/fae3a990.jpg">Image from gismeteo</a></p>
 <br>
 <h2 id="test">Test</h2>
+<h3 id="greedy-policy-1">Greedy Policy</h3>
 <p>Which of the values for epsilon yields an epsilon-greedy policy where the agent has the possibility of selecting a greedy action, but might select a non-greedy action instead? In other words, how might you guarantee that the agent selects each of the available (greedy and non-greedy) actions with nonzero probability?</p>
 <ul>
 <li>
@@ -3113,6 +3156,17 @@
 </ul>
 <blockquote>
 <p>As long as epsilon &gt; 0, the agent has nonzero probability of selecting any of the available actions. So the answer is <code>2,3,4</code></p>
+</blockquote>
+<br>
+<h3 id="update-q-table">Update Q-table</h3>
+<p>What is the new value for the entry in the Q-table corresponding to state 1 and action right?
+<img src="/img/rl/mc-quiz.png" alt="MC Control Method"><br>
+<a href="https://youtu.be/ZwIg6LDMyuo?t=62">MC Control Method Quiz from Udacity nd893</a></p>
+<blockquote>
+<p>Answer: 6 + 0.1(8-2) = 6.2
+Current estimate: 6
+Current reward: 8
+$\alpha = 0.1$</p>
 </blockquote>
 
 	

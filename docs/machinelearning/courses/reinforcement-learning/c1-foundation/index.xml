@@ -4,7 +4,7 @@
     <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</link>
     <description>Recent content in Foundation on DJ&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/index.xml" rel="self" type="application/rss+xml" />
     
@@ -536,7 +536,7 @@ $v_{\pi}(s) = q_{\pi}(s,\pi(s)) $ holds for all $s \in S$.&lt;/p&gt;
 &lt;br&gt;
 &lt;h3 id=&#34;q-table&#34;&gt;Q-table&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;When working with finite MDPs, we can $estimate the action-value function$ $q_{\pi}$ corresponding to a policy $\pi$ in a table.&lt;/li&gt;
+&lt;li&gt;When working with finite MDPs, we can estimate the action-value function $q_{\pi}$ corresponding to a policy $\pi$ in a table.&lt;/li&gt;
 &lt;li&gt;This table has one row for each state and one column for each action.&lt;/li&gt;
 &lt;li&gt;The entry in the $s$-th row and $a$-th column contains the agent&amp;rsquo;s estimate for expected return that is likely to follow, if the agent starts in state $s$, selects action $a$, and then henceforth follows the policy $\pi$.&lt;/li&gt;
 &lt;/ul&gt;
@@ -576,7 +576,7 @@ $v_{\pi}(s) = q_{\pi}(s,\pi(s)) $ holds for all $s \in S$.&lt;/p&gt;
 &lt;li&gt;Epsilon-Greedy Policy:
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;most likely&lt;/strong&gt; selects the greedy action, with probability $1 - \epsilon$&lt;/li&gt;
-&lt;li&gt;pick up other non-greedy actions with small, but non-zero probability $\epsilon$
+&lt;li&gt;picks up other non-greedy actions with small, but non-zero probability $\epsilon$
 &lt;ul&gt;
 &lt;li&gt;the agent selects an action uniformly at random from the set of available (non-greedy &lt;strong&gt;AND&lt;/strong&gt; greedy actions)&lt;/li&gt;
 &lt;li&gt;allowing the agent to explore other probabilities&lt;/li&gt;
@@ -702,22 +702,51 @@ $v_{\pi}(s) = q_{\pi}(s,\pi(s)) $ holds for all $s \in S$.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/img/rl/incremental-mean-function.png&#34; alt=&#34;incremental-mean-function&#34;&gt;&lt;br&gt;
 &lt;a href=&#34;https://youtu.be/QFV1nI9Zpoo?t=18&#34;&gt;Incremental Mean Function, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h3 id=&#34;constant-alpha-mc-control&#34;&gt;Constant-alpha MC control&lt;/h3&gt;
+&lt;h2 id=&#34;constant-alpha-mc-control&#34;&gt;Constant-alpha MC control&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;uses a constant step-size parameter $\alpha$&lt;/li&gt;
-&lt;li&gt;$Q(S_t, A_t) \leftarrow (1-a)Q(S_t, A_t) + \alpha G_t$&lt;/li&gt;
-&lt;li&gt;The step-size parameter $\alpha$ must satisfy 0 &amp;lt; $\alpha$ ≤1. Higher values of $\alpha$ will result in faster learning, but values of $\alpha$ that are too high can prevent MC control from converging to $\pi_*$
+&lt;/ul&gt;
+&lt;h3 id=&#34;update-equation&#34;&gt;Update equation&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Smaller values for \alphaα encourage the agent to consider a longer history of returns when calculating the action-value function estimate.&lt;/li&gt;
-&lt;li&gt;Increasing the value of \alphaα ensures that the agent focuses more on the most recently sampled returns.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;After each episode finishes, the Q-table is modified using the update equation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$Q(S_t, A_t) \leftarrow (1-a)Q(S_t, A_t) + \alpha G_t$&lt;/li&gt;
+&lt;li&gt;$G_t := \sum_{s=t+1}^{T}\gamma^{s-t-1}R_s$ is the return at timestep $t$&lt;/li&gt;
+&lt;li&gt;$Q(S_t,A_t)$ is the entry in the Q-table corresponding to state $S_t$ and action $A_t$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The main idea behind the update equation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$Q(S_t,A_t)$ contains the agent&amp;rsquo;s estimate for the expected return if the environment is in state $S_t$ and the agent selects action $A_t$&lt;/li&gt;
+&lt;li&gt;If the return $G_t$ is &lt;strong&gt;not equal&lt;/strong&gt; to $Q(S_t,A_t)$, then we push the value of $Q(S_t,A_t)$ to make it agree slightly more with the return&lt;/li&gt;
+&lt;li&gt;The magnitude of the change that we make to $Q(S_t,A_t)$ is controlled by $\alpha &amp;gt; 0$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;step-size-parameter-alpha&#34;&gt;Step-size Parameter $\alpha$&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The step-size parameter $\alpha$ must satisfy 0 &amp;lt; $\alpha$ ≤1.
+&lt;ul&gt;
+&lt;li&gt;Higher values of $\alpha$ will result in faster learning, but values of $\alpha$ that are too high can prevent MC control from converging to $\pi_*$&lt;/li&gt;
+&lt;li&gt;Smaller values for $\alpha$ encourage the agent to consider a longer history of returns when calculating the action-value function estimate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Increasing the value of $\alpha$ ensures that the agent focuses more on the most recently sampled returns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;However,be careful to not set the value of $\alpha$ too close to 1. This is because very large values can keep the algorithm from converging to the optimal policy $\pi_*$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Boundary values&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
 &lt;li&gt;If $\alpha = 0$, then the action-value function estimate is never updated by the agent. Meaning, the agent never learns&lt;/li&gt;
 &lt;li&gt;If $\alpha = 1$, then the final value estimate for each state-action pair is always equal to the last return that was experienced by the agent (after visiting the pair).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Be careful to not set the value of $\alpha$ too close to 1. This is because very large values can keep the algorithm from converging to the optimal policy $\pi_*$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;​	
-&lt;img src=&#34;/img/rl/constant-alpha.png&#34; alt=&#34;Constant-alpha&#34;&gt; &lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/constant-alpha.png&#34; alt=&#34;Constant-alpha&#34;&gt; &lt;br&gt;
 &lt;a href=&#34;https://video.udacity-data.com/topher/2018/May/5aecba4c_screen-shot-2018-05-04-at-2.49.48-pm/screen-shot-2018-05-04-at-2.49.48-pm.png&#34;&gt;Constant-alpha&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;excercise&#34;&gt;Excercise&lt;/h2&gt;
 &lt;h3 id=&#34;openai-gym-blackjackenv&#34;&gt;OpenAI Gym: BlackJackEnv&lt;/h3&gt;
@@ -741,6 +770,7 @@ $v_{\pi}(s) = q_{\pi}(s,\pi(s)) $ holds for all $s \in S$.&lt;/p&gt;
 &lt;a href=&#34;https://www.gismeteo.com/static/news/img/src/30995/fae3a990.jpg&#34;&gt;Image from gismeteo&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+&lt;h3 id=&#34;greedy-policy-1&#34;&gt;Greedy Policy&lt;/h3&gt;
 &lt;p&gt;Which of the values for epsilon yields an epsilon-greedy policy where the agent has the possibility of selecting a greedy action, but might select a non-greedy action instead? In other words, how might you guarantee that the agent selects each of the available (greedy and non-greedy) actions with nonzero probability?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -767,6 +797,82 @@ $v_{\pi}(s) = q_{\pi}(s,\pi(s)) $ holds for all $s \in S$.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;As long as epsilon &amp;gt; 0, the agent has nonzero probability of selecting any of the available actions. So the answer is &lt;code&gt;2,3,4&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;update-q-table&#34;&gt;Update Q-table&lt;/h3&gt;
+&lt;p&gt;What is the new value for the entry in the Q-table corresponding to state 1 and action right?
+&lt;img src=&#34;/img/rl/mc-quiz.png&#34; alt=&#34;MC Control Method&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://youtu.be/ZwIg6LDMyuo?t=62&#34;&gt;MC Control Method Quiz from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Answer: 6 + 0.1(8-2) = 6.2
+Current estimate: 6
+Current reward: 8
+$\alpha = 0.1$&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Temporal Difference</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f05-temporal-difference/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f05-temporal-difference/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;temporal-difference-td-control&#34;&gt;Temporal Difference (TD) Control&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A class of model-free reinforcement learning methods which learn by bootstrapping from the current estimate of the value function.&lt;/li&gt;
+&lt;li&gt;These methods sample from the environment, like Monte Carlo methods, and perform updates based on current estimates, like dynamic programming methods.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Temporal_difference_learning&#34;&gt;Ref&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;td-vs-mc-control&#34;&gt;TD vs MC Control&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;TD: update Q-table after every time step&lt;/li&gt;
+&lt;li&gt;MC: update the Q-table after complete an entire episode of interaction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;sarsa0-algorithm&#34;&gt;Sarsa(0) Algorithm&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Naming: State–action–reward–state–action&lt;/li&gt;
+&lt;li&gt;In the algorithm, the number of episodes the agent collects is equal to $num$ $episodes$. For every time step $t\ge 0$, the agent:
+&lt;ul&gt;
+&lt;li&gt;takes the action $A_t$ (from the current state $S_t$ that is $\epsilon$-greedy with respect to the Q-table&lt;/li&gt;
+&lt;li&gt;receives the reward $R_{t+1}$ and next state $S_{t+1}$&lt;/li&gt;
+&lt;li&gt;chooses the next action $A_{t+1}$ (from the next state $S_{t+1}$) that is $\epsilon$-greedy with respect to the Q-table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;uses the information in the tuple ($S_t,A_t, R_{t+1}, S_{t+1}, A_{t+1}$) tp ipdate the entry $Q(S_t, A_t)$ in the Q-table corresponding to the current state $S_t$ and the action $A_t$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/sarsa.png&#34; alt=&#34;Sarsa Algorithm&#34;&gt; &lt;br&gt;
+&lt;a href=&#34;https://video.udacity-data.com/topher/2018/May/5aece99b_screen-shot-2018-05-04-at-6.14.28-pm/screen-shot-2018-05-04-at-6.14.28-pm.png&#34;&gt;Sarsa Algorithm, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;sarsamax-q-learning&#34;&gt;Sarsamax (Q-Learning)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/sarsamax.png&#34; alt=&#34;Sarsamax&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://video.udacity-data.com/topher/2018/May/5aece9b8_screen-shot-2018-05-04-at-6.14.42-pm/screen-shot-2018-05-04-at-6.14.42-pm.png&#34;&gt;Sarsamax Algorithm, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;optimism-&#34;&gt;Optimism 🔭&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For any TD control method, you must begin by initializing the values in the Q-table. It has been shown that initializing the estimates to large values can improve performance.&lt;/li&gt;
+&lt;li&gt;If all of the possible rewards that can be received by the agent are negative, then initializing every estimate in the Q-table to zeros is a good technique.&lt;/li&gt;
+&lt;li&gt;In this case, we refer to the initialized Q-table as optimistic, since the action-value estimates are guaranteed to be larger than the true action values.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;excercise&#34;&gt;Excercise&lt;/h2&gt;
+&lt;h3 id=&#34;openai-gym-cliffwalkingenv&#34;&gt;OpenAI Gym: CliffWalkingEnv&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf&#34;&gt;Read in Example 6.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openai/gym/blob/master/gym/envs/toy_text/cliffwalking.py&#34;&gt;Openai cliffwalking.py&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+&lt;h3 id=&#34;sarsa&#34;&gt;Sarsa&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/sarsa-quiz1.png&#34; alt=&#34;Sarsa&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://video.udacity-data.com/topher/2018/May/5af768cf_environment/environment.png&#34;&gt;Sarsa Algorithm, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
