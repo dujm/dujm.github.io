@@ -869,10 +869,110 @@ $\alpha = 0.1$&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf&#34;&gt;Read in Example 6.6&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/openai/gym/blob/master/gym/envs/toy_text/cliffwalking.py&#34;&gt;Openai cliffwalking.py&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br&gt;
 &lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
 &lt;h3 id=&#34;sarsa&#34;&gt;Sarsa&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;/img/rl/sarsa-quiz1.png&#34; alt=&#34;Sarsa&#34;&gt;&lt;br&gt;
 &lt;a href=&#34;https://video.udacity-data.com/topher/2018/May/5af768cf_environment/environment.png&#34;&gt;Sarsa Algorithm, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Answer: 6.16&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Continuous Spaces</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f06-rl-continuous-spaces/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f06-rl-continuous-spaces/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;reinforcement-learning-framework&#34;&gt;Reinforcement Learning: Framework&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Model-based&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;requires a known transition and reward model&lt;/li&gt;
+&lt;li&gt;essentially apply dynamic programming to iteratively compute the desired value functions and optimal policies using that model&lt;/li&gt;
+&lt;li&gt;Examples
+&lt;ul&gt;
+&lt;li&gt;Policy iteration&lt;/li&gt;
+&lt;li&gt;Value iteration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Model-free&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;samples the environment by carrying out exploratory actions and use the experience gained to directly estimate value functions&lt;/li&gt;
+&lt;li&gt;Examples
+&lt;ul&gt;
+&lt;li&gt;Monte Carlo Methods&lt;/li&gt;
+&lt;li&gt;Temporal-Difference Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;dealing-with-discrete-and-continuous-spaces&#34;&gt;Dealing with Discrete and Continuous Spaces&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Discretization: Converting a continuous space into a discrete space&lt;/li&gt;
+&lt;li&gt;Function Approximation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/non-uniform-discretization.png&#34; alt=&#34;non-uniform-discretization&#34;&gt;&lt;br&gt;
+[Non-uniform Discretization, image from Udacity 893]&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;openai-environmentshttpsgithubcomopenaigymwikitable-of-environments&#34;&gt;&lt;a href=&#34;https://github.com/openai/gym/wiki/Table-of-environments&#34;&gt;OpenAI Environments&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Discrete()&lt;/code&gt;: refers to a discrete space&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Box()&lt;/code&gt;: indicates a continuous space&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tile-coding&#34;&gt;Tile Coding&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adaptive Tile Coding
+&lt;ul&gt;
+&lt;li&gt;does not rely on a human to specify a discretization ahead of time&lt;/li&gt;
+&lt;li&gt;the resulting space is appropriately partitioned based on its complexity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;coarse-coding&#34;&gt;Coarse Coding&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Generalization
+&lt;ul&gt;
+&lt;li&gt;Narrow generalization&lt;/li&gt;
+&lt;li&gt;Broad generalization&lt;/li&gt;
+&lt;li&gt;Asymmetric generalization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Redial Basis Functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/coarse-coding.png&#34; alt=&#34;Coarse Coding&#34;&gt;&lt;br&gt;
+[Coarse Coding, image from Udacity 893]&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;function-approximation&#34;&gt;Function Approximation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;State value approximation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;linear function approximation: $\hat{v}(s,w) = x(s)^T \cdot w$&lt;/li&gt;
+&lt;li&gt;Goal: Minimize Error&lt;/li&gt;
+&lt;li&gt;Use Gradient Descent: $\nabla_w \hat{v}(s, w) = x(s) $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Action value approximation&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/linear-function-approximation.png&#34; alt=&#34;Linear Function Approximation&#34;&gt;&lt;br&gt;
+[Linear Function Approximation]&lt;/p&gt;
 
       </description>
     </item>
