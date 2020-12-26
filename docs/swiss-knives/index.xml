@@ -2236,20 +2236,20 @@ open ~/.zshrc
     </item>
     
     <item>
-      <title>Docs: Themes</title>
-      <link>/docs/swiss-knives/theme/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      <title>Docs: TPU</title>
+      <link>/docs/swiss-knives/tpu/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/theme/</guid>
+      <guid>/docs/swiss-knives/tpu/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;h3 id=&#34;vs-code&#34;&gt;VS Code&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext&#34;&gt;Oceanic Next dimmed bg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda&#34;&gt;Panda&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;super-duper-fast-pytorch-tpu-kernel&#34;&gt;Super-duper fast pytorch tpu kernel&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Abhishek Thakur&lt;br&gt;
+&lt;a href=&#34;https://www.kaggle.com/abhishek/super-duper-fast-pytorch-tpu-kernel&#34;&gt;Kaggle Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
       </description>
     </item>
@@ -2326,20 +2326,27 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
     </item>
     
     <item>
-      <title>Docs: TPU</title>
-      <link>/docs/swiss-knives/tpu/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Docs: VS Code</title>
+      <link>/docs/swiss-knives/vscode/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/tpu/</guid>
+      <guid>/docs/swiss-knives/vscode/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;h3 id=&#34;super-duper-fast-pytorch-tpu-kernel&#34;&gt;Super-duper fast pytorch tpu kernel&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Abhishek Thakur&lt;br&gt;
-&lt;a href=&#34;https://www.kaggle.com/abhishek/super-duper-fast-pytorch-tpu-kernel&#34;&gt;Kaggle Link&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&#34;theme&#34;&gt;Theme&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext&#34;&gt;Oceanic Next dimmed bg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda&#34;&gt;Panda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+&lt;h2 id=&#34;extensions&#34;&gt;Extensions&lt;/h2&gt;
+&lt;h3 id=&#34;draw-note&#34;&gt;Draw Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Insert svg into Markdown files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;drawio-integration&#34;&gt;Draw.io Integration&lt;/h3&gt;
 
       </description>
     </item>

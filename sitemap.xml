@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c2-value-based-methods/dqn/</loc>
+    <lastmod>2020-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
@@ -618,6 +623,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/courses/reinforcement-learning/c2-value-based-methods/</loc>
+    <lastmod>2020-12-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/courses/reinforcement-learning/</loc>
     <lastmod>2020-12-22T00:00:00+00:00</lastmod>
   </url>
@@ -987,13 +997,13 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/theme/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
+    <loc>/docs/data/visual-art/3d/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/3d/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+    <loc>/docs/swiss-knives/tpu/</loc>
+    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1037,8 +1047,8 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/tpu/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
+    <loc>/docs/swiss-knives/vscode/</loc>
+    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1098,7 +1108,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-12-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
