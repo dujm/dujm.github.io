@@ -243,7 +243,16 @@ git commit &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;initial commit&amp
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;Short codes&lt;/a&gt; are simple snippets inside your content files calling built-in or custom templates.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h3 id=&#34;6-deploy-to-yourusrnamegithubio&#34;&gt;6. Deploy to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;6-insert-videos&#34;&gt;6. Insert videos&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;parent&amp;quot;&amp;gt;
+      &amp;lt;div class=&amp;quot;child&amp;quot; style=&amp;quot;position: relative; padding-bottom: 50%; height: 0; overflow: hidden;&amp;quot;&amp;gt;
+      &amp;lt;iframe src=&amp;quot;https://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/BipedalWalker-v2/original.mp4&amp;quot; style=&amp;quot;position: absolute; top: 0; left: 0; width: 40%; height: 40%; border:0;&amp;quot; allowfullscreen title=&amp;quot;BipedalWalker-v2&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+      &amp;lt;/div&amp;gt;
+      &amp;lt;div style=&amp;quot;position: relative; padding-bottom: 50%; height: 0; overflow: hidden;&amp;quot;&amp;gt;
+      &amp;lt;iframe src=&amp;quot;https://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/MountainCarContinuous-v0/original.mp4&amp;quot; style=&amp;quot;position: absolute; top: 0; left: 0; width: 40%; height: 40%; border:0;&amp;quot; allowfullscreen title=&amp;quot;MountainCar&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+      &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;7-deploy-to-yourusrnamegithubio&#34;&gt;7. Deploy to &lt;code&gt;yourusrname.github.io&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Make sure your website works locally
 &lt;ul&gt;

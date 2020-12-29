@@ -1,0 +1,396 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Policy-based</title>
+    <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/</link>
+    <description>Recent content in Policy-based on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/courses/reinforcement-learning/c3-policy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Introduction</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p01-intro/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p01-intro/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;policy-based-methods&#34;&gt;Policy-Based Methods&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;With value-based methods, the agent uses its experience with the environment to maintain an estimate of the optimal action-value function. The optimal policy is then obtained from the optimal action-value function estimate.&lt;/li&gt;
+&lt;li&gt;Policy-based methods directly learn the optimal policy, without having to maintain a separate value function estimate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;why&#34;&gt;Why&lt;/h3&gt;
+&lt;p&gt;There are three reasons why we consider policy-based methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplicity
+&lt;ul&gt;
+&lt;li&gt;Policy-based methods directly get to the problem at hand (estimating the optimal policy), without having to store a bunch of additional data (i.e., the action values) that may not be useful.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Stochastic policies
+&lt;ul&gt;
+&lt;li&gt;Unlike value-based methods, policy-based methods can learn true stochastic policies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Continuous action spaces
+&lt;ul&gt;
+&lt;li&gt;Policy-based methods are well-suited for continuous action spaces.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;policy-function-approximation&#34;&gt;Policy Function Approximation&lt;/h2&gt;
+&lt;h3 id=&#34;a-stochastic-policy&#34;&gt;A stochastic policy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The agent passes the &lt;strong&gt;current environment state&lt;/strong&gt; as input to the network, which returns action probabilities.&lt;/li&gt;
+&lt;li&gt;Then, the agent &lt;strong&gt;samples from those probabilities to select an action&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;a-deterministic-policy&#34;&gt;A Deterministic Policy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The agent passes the &lt;strong&gt;current environment state&lt;/strong&gt; as input to the network, which returns action probabilities.&lt;/li&gt;
+&lt;li&gt;Then, the agent &lt;strong&gt;selects the greedy action&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/c3.3-nn.png&#34; alt=&#34;NN that encodes action probabilities&#34;&gt;&lt;br&gt;
+NN that encodes action probabilities (&lt;a href=&#34;https://openai.com/blog/evolution-strategies/&#34;&gt;Source&lt;/a&gt;)&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;discrete-vs-continuous&#34;&gt;Discrete vs Continuous&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Discrete action spaces
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gym.openai.com/envs/CartPole-v1/&#34;&gt;Cart Pole&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;output layer: the probabilities for each action: 3 nodes&lt;/li&gt;
+&lt;li&gt;output activation function: softmax&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Continuous action spaces
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gym.openai.com/envs/BipedalWalker-v2/&#34;&gt;Bipedal Walker&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;output layer: 4 nodes&lt;/li&gt;
+&lt;li&gt;output activation function: tanh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gym.openai.com/envs/MountainCarContinuous-v0/&#34;&gt;Bontinuous Mountain Car&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;output layer: 1 node&lt;/li&gt;
+&lt;li&gt;output activation function: tanh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;div id=&#34;videoal&#34;&gt;
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            &lt;video width=&#34;300&#34; height=&#34;300&#34;  controls&gt;
+                &lt;source src=&#34;https://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/CartPole-v1/thumbnail.mp4&#34; type=&#34;video/mp4&#34;&gt;
+            &lt;/video&gt;
+       &lt;/td&gt;
+        &lt;td&gt;
+            &lt;video width=&#34;300&#34; height=&#34;300&#34; controls&gt;
+                &lt;source src=&#34;https://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/BipedalWalker-v2/original.mp4&#34; type=&#34;video/mp4&#34;&gt;
+            &lt;/video&gt;
+       &lt;/td&gt;
+       &lt;td&gt;
+           &lt;video width=&#34;300&#34; height=&#34;300&#34; controls&gt;
+              &lt;source src=&#34;https://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/MountainCarContinuous-v0/original.mp4&#34; type=&#34;video/mp4&#34;&gt;
+           &lt;/video&gt;
+       &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;gradient-ascent&#34;&gt;Gradient Ascent&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gradient descent&lt;/strong&gt; steps in the &lt;strong&gt;direction opposite the gradient&lt;/strong&gt;, since it wants to &lt;strong&gt;minimize a function&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;$\theta \leftarrow \theta - \alpha \nabla_\theta U(\theta) $&lt;/li&gt;
+&lt;li&gt;$\alpha$: step size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gradient ascent&lt;/strong&gt; is otherwise identical, except we &lt;strong&gt;step in the direction of the gradient&lt;/strong&gt;, to &lt;strong&gt;reach the maximum&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;$\theta \leftarrow \theta + \alpha \nabla_\theta U(\theta) $&lt;/li&gt;
+&lt;li&gt;$\alpha$: step size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;local-minima&#34;&gt;Local Minima&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A minimum within some neighborhood&lt;/li&gt;
+&lt;li&gt;It may not be a global minimum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;hill-climbinghttpsenwikipediaorgwikihill_climbing&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Hill_climbing&#34;&gt;Hill Climbing&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A mathematical &lt;strong&gt;optimization technique&lt;/strong&gt; which belongs to the family of &lt;strong&gt;local search&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;An iterative algorithm&lt;/strong&gt; that &lt;strong&gt;starts with an arbitrary solution&lt;/strong&gt; to a problem, then &lt;strong&gt;attempts to find a better solution&lt;/strong&gt; by making &lt;strong&gt;an incremental change&lt;/strong&gt; to the solution.&lt;/li&gt;
+&lt;li&gt;If the change produces a better solution, another incremental change is made to the new solution, and so on &lt;strong&gt;until no further improvements&lt;/strong&gt; can be found.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Mathematical Definition&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hill climbing is an iterative algorithm that can be used to find the weights $\theta$ for an optimal policy.&lt;/li&gt;
+&lt;li&gt;At each iteration,
+&lt;ul&gt;
+&lt;li&gt;we slightly perturb the values of the current best estimate for the weights $\theta_{best}$, to yield a new set of weights.&lt;/li&gt;
+&lt;li&gt;These new weights are then used to collect an episode.&lt;/li&gt;
+&lt;li&gt;If the new weights $\theta_{new}$ resulted in higher return than the old weights, then we set $\theta_{best} \leftarrow \theta_{new}$ .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;beyond-hill-climbing&#34;&gt;Beyond Hill Climbing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Steepest ascent hill climbing
+&lt;ul&gt;
+&lt;li&gt;a variation of hill climbing that &lt;strong&gt;chooses a small number of neighboring policies&lt;/strong&gt; at each iteration and &lt;strong&gt;chooses the best among them&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Simulated annealing
+&lt;ul&gt;
+&lt;li&gt;uses a &lt;strong&gt;pre-defined schedule&lt;/strong&gt; to &lt;strong&gt;control how the policy space is explored&lt;/strong&gt;, and gradually r&lt;strong&gt;educes the search radius&lt;/strong&gt; as we get closer to the optimal solution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Adaptive noise scaling
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;decreases the search radius&lt;/strong&gt; with each iteration when &lt;strong&gt;a new best policy is found&lt;/strong&gt;, and otherwise increases the search radius.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;more-black-box-optimization&#34;&gt;More Black-Box Optimization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The cross-entropy method
+&lt;ul&gt;
+&lt;li&gt;iteratively suggests a small number of neighboring policies,&lt;/li&gt;
+&lt;li&gt;and uses a small percentage of the best performing policies to calculate a new estimate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The evolution strategies technique considers the return corresponding to each candidate policy.
+&lt;ul&gt;
+&lt;li&gt;The policy estimate at the next iteration is a weighted sum of all of the candidate policies, where policies that got higher return are given higher weight.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/evolution-strategies/&#34;&gt;Evolution Strategies as a Scalable Alternative to Reinforcement Learning - OpenAI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gym.openai.com/envs/#classic_control&#34;&gt;Open AI classic control environments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ruder.io/optimizing-gradient-descent/&#34;&gt;An overview of gradient descent optimization algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://ruder.io/content/images/2016/09/contours_evaluation_optimizers.gif&#34; alt=&#34;SGD optimization on loss surface contours&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;%5BSource%5D(https://ruder.io/content/images/2016/09/contours_evaluation_optimizers.gif)&#34;&gt;SGD optimization on loss surface contours&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://ruder.io/content/images/2016/09/saddle_point_evaluation_optimizers.gif&#34; alt=&#34;SGD optimization on saddle point&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;%5BSource%5D(https://ruder.io/content/images/2016/09/saddle_point_evaluation_optimizers.gif)&#34;&gt;SGD optimization on saddle point&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Policy Gradient</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p02-gradient/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p02-gradient/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;policy-gradient-methods&#34;&gt;Policy Gradient Methods&lt;/h2&gt;
+&lt;h3 id=&#34;rl-vs-supervised-methods&#34;&gt;RL vs. Supervised Methods&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://karpathy.github.io/assets/rl/sl.png&#34; alt=&#34;Supervised Learning&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;http://karpathy.github.io/assets/rl/rl.png&#34; alt=&#34;Reinforcement Learning&#34;&gt;&lt;br&gt;
+Connections between supervised learning and reinforcement learning (&lt;a href=&#34;http://karpathy.github.io/2016/05/31/rl/&#34;&gt;Source&lt;/a&gt;)&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;the-big-picture&#34;&gt;The Big Picture&lt;/h3&gt;
+&lt;p&gt;The policy gradient method will iteratively amend the policy network weights to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;make (state, action) pairs that resulted in positive return more likely, 👍&lt;/li&gt;
+&lt;li&gt;make (state, action) pairs that resulted in negative return less likely. ⬇️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;reinforce&#34;&gt;Reinforce&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://openai.com/content/images/2017/03/second-graphic-1.png&#34; alt=&#34;Reinforce&#34;&gt;&lt;br&gt;
+REINFORCE increases the probability of &amp;ldquo;good&amp;rdquo; actions and decreases the probability of &amp;ldquo;bad&amp;rdquo; actions. (&lt;a href=&#34;https://openai.com/content/images/2017/03/second-graphic-1.png&#34;&gt;Source&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;algorithm&#34;&gt;Algorithm&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Our goal is to find the values of the weights $\theta$ in the neural network that maximize the expected return $U$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$U(\theta) = \sum_\tau P(\tau; \theta)R(\tau)$, where $\tau$ is an arbitrary trajectory (a sequence of states and actions)&lt;/li&gt;
+&lt;li&gt;One way to determine the value of $\theta$ that maximizes this function is through &lt;strong&gt;gradient ascent&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Once we know how to calculate or estimate this gradient, we can repeatedly apply this update step, in the hopes that $\theta$ converges to the value that maximizes $U(\theta)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\theta \leftarrow \theta + \alpha \color{#af8dc3} {\nabla_\theta U(\theta)} $&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\alpha$ is the step size that is generally allowed to decay over time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Estimate the gradient for one trajectory&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Collect an episode and trajectory $\tau =$ a full episode&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Change the weights of the policy network
+&lt;ul&gt;
+&lt;li&gt;$ \color{#af8dc3} {\nabla_\theta U(\theta)} \color{black} \approx \color{#af8dc3}  {\hat{g}} \color{black} := \color{#1b7837}  {\sum_{t=0} ^H} \color{black}\nabla_\theta log\color{blue}{\pi_\theta} \color{black} {(}\color{#1b7837}  {a_t|s_t}\color{black}) R(\color{#1b7837} {\tau} \color{black})$
+&lt;ul&gt;
+&lt;li&gt;$ \color{black}\nabla_\theta log\color{blue}{\pi_\theta} \color{black} {(}\color{#1b7837}  {a_t|s_t}\color{black}{)} $: direction of steepest increase of the $log$ probability of selecting action $a_t$ from state $s_t$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$R(\color{#1b7837} {\tau} \color{black})$: cumulative reward
+&lt;ul&gt;
+&lt;li&gt;If $\color{green}{Won}$: $R = +1$,
+&lt;ul&gt;
+&lt;li&gt;by taking a small step &lt;strong&gt;into&lt;/strong&gt; the gradient&lt;/li&gt;
+&lt;li&gt;we can increase the probability of each $\color{#1b7837} {(S, a)}$ combination 👍&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If $\color{red}{Lost}$: $R=-1$:
+&lt;ul&gt;
+&lt;li&gt;by taking a small step &lt;strong&gt;from&lt;/strong&gt; the gradient&lt;/li&gt;
+&lt;li&gt;we can decrease the probability of each $\color{#1b7837} {(S, a)}$ combination ⬇️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using $\color{blue}{m}$ trajectories to estimate the gradient $ \color{#af8dc3} {\nabla_\theta U(\theta)}$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Use the policy $\color{blue}{\pi_\theta}$ to collect $m$ trajectories ${\tau^{(1)}, \tau^{(2)}, &amp;hellip; \tau^{(m)}}$ with horizon $H$ (the last time step)
+&lt;ul&gt;
+&lt;li&gt;therefore, the $i$-th trajectory is
+$ \color{#1b7837} {\tau^{(i)}} \color{black} = (\color{#1b7837}  {{s_0}^{(i)}, {a_0}^{(i)}, &amp;hellip;, {s_H}^{(i)}, {a_H}^{(i)}, {s_{H+1}}^{(i)} }) $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Estimate the gradient
+&lt;ul&gt;
+&lt;li&gt;trajectory $\tau \le$ a full episode&lt;/li&gt;
+&lt;li&gt;$ \color{#af8dc3} {\nabla_\theta U(\theta)} \color{black} \approx \color{#af8dc3}  {\hat{g}} \color{black} := \color{blue} {\frac{1}{m} \sum_{i=1} ^m} \color{#1b7837}  {\sum_{t=0} ^H} \color{black}\nabla_\theta log\color{blue}{\pi_\theta} \color{black} {(}\color{#1b7837}  {a_t^{(i)}|s_t^{(i)}}\color{black}) R(\color{#1b7837} {\tau^{(i)}} \color{black})$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Update the weights of the policy:
+&lt;ul&gt;
+&lt;li&gt;$\theta \leftarrow \theta + \alpha \color{#af8dc3}  {\hat{g}} $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Loop over steps 1-3.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;continuous-action-spaces&#34;&gt;Continuous Action Spaces&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For an environment with a continuous action space, the corresponding policy network could have an output layer that parametrizes a &lt;a href=&#34;https://en.wikipedia.org/wiki/Probability_distribution#Continuous_probability_distribution&#34;&gt;continuous probability distribution&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For instance, assume the output layer returns the mean \muμ and variance $\sigma^2$ of a normal distribution&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then in order to select an action, the agent needs only to pass the most recent state $s_t$ as input to the network, and then use the output mean $\mu$ and variance $\sigma^2$ to sample from the distribution $a_t\sim\mathcal{N}(\mu, \sigma^2)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This should work in theory, but it&amp;rsquo;s unlikely to perform well in practice! To improve performance with continuous action spaces, we&amp;rsquo;ll have to make some small modifications to the REINFORCE algorithm&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://video.udacity-data.com/topher/2018/August/5b81ba57_350px-normal-distribution-pdf/350px-normal-distribution-pdf.png&#34; alt=&#34;Probability density function corresponding to normal distribution (Source: Wikipedia)&#34;&gt;&lt;br&gt;
+Probability density function corresponding to normal distribution (&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/220px-Normal_Distribution_PDF.svg.png&#34;&gt;Source: Wikipedia&lt;/a&gt;)&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;optional-derivation&#34;&gt;(Optional) Derivation&lt;/h3&gt;
+&lt;h2 id=&#34;read&#34;&gt;Read&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://karpathy.github.io/2016/05/31/rl/&#34;&gt;Deep Reinforcement Learning: Pong from Pixels &amp;ndash; Andrej Karpathy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: </title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: </title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p04-actor-critic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p04-actor-critic/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: </title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p05-deep-rl-finance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p05-deep-rl-finance/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

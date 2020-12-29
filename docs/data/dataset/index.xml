@@ -57,6 +57,14 @@
 &lt;p&gt;Domestic environment sound event detection (DESED). &amp;gt; Mix of recorded and synthetic data.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt; 
+&lt;h3 id=&#34;5-nlp-dataset&#34;&gt;5. NLP dataset&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/datasets&#34;&gt;Huggingface datasets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pip install datasets&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;read-more&#34;&gt;Read More&lt;/h3&gt;
 &lt;ul&gt;

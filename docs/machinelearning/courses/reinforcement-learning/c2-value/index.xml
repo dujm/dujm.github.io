@@ -1,0 +1,242 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Value-based</title>
+    <link>/docs/machinelearning/courses/reinforcement-learning/c2-value/</link>
+    <description>Recent content in Value-based on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 25 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/courses/reinforcement-learning/c2-value/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: DQN</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c2-value/dqn/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c2-value/dqn/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;deep-q-learning-algorithm&#34;&gt;Deep Q-Learning algorithm&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Represents the optimal action-value function $q_*$ as a neural network (instead of a table)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reinforcement learning is unstable when neural networks are used to represent the action values.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In this lesson, you&amp;rsquo;ll learn all about the Deep Q-Learning algorithm, which addressed these instabilities by using two key features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Experience Replay&lt;/li&gt;
+&lt;li&gt;Fixed Q-Targets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;atari-dqn&#34;&gt;Atari DQN&lt;/h3&gt;
+&lt;p&gt;For each Atari game, the DQN was trained from scratch on that game.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input: images of game
+&lt;ul&gt;
+&lt;li&gt;Images: spatial information&lt;/li&gt;
+&lt;li&gt;Stacked images: capture temporal information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;NN:
+&lt;ul&gt;
+&lt;li&gt;CNN&lt;/li&gt;
+&lt;li&gt;Fully Connected Layers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Output:
+&lt;ul&gt;
+&lt;li&gt;The predicted action values for each possible game action&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;experience-replay&#34;&gt;Experience Replay&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Based on the idea that we can learn better, if we do multiple passes over the sample experience&lt;/li&gt;
+&lt;li&gt;To Generate uncorrelated experience data for online training&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;fixed-q-targets&#34;&gt;Fixed Q-Targets&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In Q-Learning, we update a guess with a guess, which can potentially lead to harmful correlations&lt;/li&gt;
+&lt;li&gt;To avoid this, we can update the parameters $w$ in the network $\hat{q}$ to better approximate the action value corresponding to state $S$ and action A with the following update rule&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$\Delta{w} = \alpha \Bigl(\color{#fc8d59} {R + \gamma max \hat{q} (S&#39;,a, w^-)}  - \color{#4575b4} {\hat{q}(S,A,w)} \color{black} {\Bigr)\nabla_w \hat{q}(S,A,w)}$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TD target:
+&lt;ul&gt;
+&lt;li&gt;$\color{#fc8d59} {R + \gamma max \hat{q} (S&#39;,a, w^-)}$&lt;/li&gt;
+&lt;li&gt;$w^-$:
+&lt;ul&gt;
+&lt;li&gt;fixed&lt;/li&gt;
+&lt;li&gt;are the weights of a separate target network that are not changed during the learning step,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Current value: $\color{#4575b4} {\hat{q}(S,A,w)}$&lt;/li&gt;
+&lt;li&gt;TD error: $\Bigl(\color{#fc8d59} {R + \gamma max \hat{q} (S&#39;,a, w^-)}  - \color{#4575b4} {\hat{q}(S,A,w)} \color{black} {\Bigr)}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why&#34;&gt;Why?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Decoupling the target&amp;rsquo;s position from the agent&amp;rsquo;s actions (parameters)&lt;/li&gt;
+&lt;li&gt;Giving the agent a more stable learning environment&lt;/li&gt;
+&lt;li&gt;Making the learning algorithm more stable and less likely to diverge or fall into oscillations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/donkey.png&#34; alt=&#34;Non-fixed target&#34;&gt;&lt;br&gt;
+[Non-fixed target, image from Udacity nd839]&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/dokey-fixed-target.png&#34; alt=&#34;Fixed Target&#34;&gt;&lt;br&gt;
+[Fixed target, image from Udacity nd839]&lt;/p&gt;
+&lt;h2 id=&#34;deep-q-learning&#34;&gt;Deep Q-Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Uses two separate networks with identical architectures&lt;/li&gt;
+&lt;li&gt;The target Q-Network&amp;rsquo;s weights are updated less often (or more slowly) than the primary Q-Network&lt;/li&gt;
+&lt;li&gt;Without fixed Q-targets, we could encounter a harmful form of correlation, whereby we shift the parameters of the network based on a constantly moving target&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://video.udacity-data.com/topher/2018/May/5aef2add_dqn/dqn.png&#34; alt=&#34;Deep Q-Learning&#34;&gt;&lt;br&gt;
+Illustration of DQN Architecture (&lt;a href=&#34;https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf&#34;&gt;Source&lt;/a&gt;)&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;improvements&#34;&gt;Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Double DQN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Deep Q-Learning &lt;a href=&#34;https://www.ri.cmu.edu/pub_files/pub1/thrun_sebastian_1993_1/thrun_sebastian_1993_1.pdf&#34;&gt;tends to overestimate action values&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Double Q-Learning has been shown to work well in practice to help with this.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Prioritized Experience Replay&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Deep Q-Learning samples experience transitions uniformly from a replay memory.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1511.05952&#34;&gt;Prioritized experienced replay&lt;/a&gt; is based on the idea that the agent can learn more effectively from some transitions than from others, and the &lt;strong&gt;more important transitions&lt;/strong&gt; should be sampled with &lt;strong&gt;higher probability&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Dueling DQN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Currently, in order to determine which states are (or are not) valuable, we have to estimate the corresponding action values for each action.&lt;/li&gt;
+&lt;li&gt;However, by replacing the traditional Deep Q-Network (DQN) architecture with &lt;a href=&#34;https://arxiv.org/abs/1511.06581&#34;&gt;a dueling architecture&lt;/a&gt;, we can &lt;strong&gt;assess the value of each state, without having to learn the effect of each action&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Learning from &lt;a href=&#34;https://arxiv.org/abs/1602.01783&#34;&gt;multi-step bootstrap targets&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1707.06887&#34;&gt;Distributional DQN&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1706.10295&#34;&gt;Noisy DQN&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1710.02298&#34;&gt;Rainbow&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An agent that incorporated all above six DQN extensions&lt;/li&gt;
+&lt;li&gt;It outperforms each of the individual modifications and achieves state-of-the-art performance on Atari 2600 games!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://video.udacity-data.com/topher/2018/June/5b3814f1_screen-shot-2018-06-30-at-6.40.09-pm/screen-shot-2018-06-30-at-6.40.09-pm.png&#34; alt=&#34;Rainbow&#34;&gt;&lt;br&gt;
+(&lt;a href=&#34;https://arxiv.org/abs/1710.02298&#34;&gt;Source&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;in-practice&#34;&gt;In practice&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Try different env in openAI and evaluate the performance of Q-Learning&lt;/li&gt;
+&lt;li&gt;Assess trained RL agents to generalize to new tasks
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In mid-2018, OpenAI held a &lt;a href=&#34;https://contest.openai.com/2018-1/&#34;&gt;contest&lt;/a&gt;, where participants were tasked to create an algorithm that could learn to play the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sonic_the_Hedgehog&#34;&gt;Sonic the Hedgehog game&lt;/a&gt;. The participants were tasked to train their RL algorithms on provided game levels; then, the trained agents were ranked according to their performance on previously unseen levels.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;One of the provided baseline algorithms was Rainbow DQN. If you&amp;rsquo;d like to play with this dataset and run the baseline algorithms, you&amp;rsquo;re encouraged to follow the &lt;a href=&#34;https://contest.openai.com/2018-1/details/&#34;&gt;setup instructions&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;reading-papers&#34;&gt;Reading Papers&lt;/h2&gt;
+&lt;h3 id=&#34;questions&#34;&gt;Questions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What kind of tasks are the authors using deep reinforcement learning (RL) to solve? What are the states, actions, and rewards?&lt;/li&gt;
+&lt;li&gt;What neural network architecture is used to approximate the action-value function?&lt;/li&gt;
+&lt;li&gt;How are experience replay and fixed Q-targets used to stabilize the learning algorithm?&lt;/li&gt;
+&lt;li&gt;What are the results?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;papers&#34;&gt;Papers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Riedmiller, Martin. &lt;a href=&#34;http://ml.informatik.uni-freiburg.de/former/_media/publications/rieecml05.pdf&#34;&gt;&amp;ldquo;Neural fitted Q iteration–first experiences with a data efficient neural reinforcement learning method.&amp;quot;&lt;/a&gt; European Conference on Machine Learning. Springer, Berlin, Heidelberg, 2005.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mnih, Volodymyr, et al. &lt;a href=&#34;https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf&#34;&gt;&amp;ldquo;Human-level control through deep reinforcement learning&amp;rdquo;&lt;/a&gt; Nature518.7540 (2015): 529.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;van Hasselt, Guez, Silver &lt;a href=&#34;https://arxiv.org/abs/1509.06461&#34;&gt;&amp;ldquo;Deep Reinforcement Learning with Double Q-learning&amp;rdquo;&lt;/a&gt; arXiv (2015)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Thrun, Schwartz. &lt;a href=&#34;https://www.ri.cmu.edu/pub_files/pub1/thrun_sebastian_1993_1/thrun_sebastian_1993_1.pdf&#34;&gt;&amp;ldquo;Issues in Using Function Approximation for Reinforcement Learning&amp;rdquo;&lt;/a&gt; (1993)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Schaul, Quan, Antonoglou, Silver. &lt;a href=&#34;https://arxiv.org/abs/1511.05952&#34;&gt;&amp;ldquo;Prioritized Experience Replay&amp;rdquo;&lt;/a&gt; arXiv (2016)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wang, Schaul, et. al. &lt;a href=&#34;https://arxiv.org/abs/1511.06581&#34;&gt;&amp;ldquo;Dueling Network Architectures for Deep Reinforcement Learning&amp;rdquo;&lt;/a&gt; arXiv (2015)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hessel, Modayil, et. al. &lt;a href=&#34;https://arxiv.org/abs/1710.02298&#34;&gt;&amp;ldquo;Rainbow: Combining Improvements in Deep Reinforcement Learning&amp;rdquo;&lt;/a&gt; arXiv (2017)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: DQN Paper</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c2-value/paper-dqn/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c2-value/paper-dqn/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;human-level-control-through-deep-reinforcement-learning&#34;&gt;Human-level control through deep reinforcement learning&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This work bridges the divide between high-dimensional sensory inputs and actions, resulting in the first artificial agent that is capable of learning to excel at a diverse array of challenging tasks.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;deep-q-network-dqn&#34;&gt;Deep Q-network (DQN)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Combine &lt;strong&gt;reinforcement learning&lt;/strong&gt; with &lt;strong&gt;deep neural networks&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://axon.cs.byu.edu/~martinez/classes/678/Papers/Convolution_nets.pdf&#34;&gt;Deep convolutional network&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;which uses hierarchical layers of &lt;strong&gt;tiled convolutional filters&lt;/strong&gt; to mimic the &lt;strong&gt;effects of receptive fields&lt;/strong&gt;—inspired by Hubel and Wiesel’s seminal work on &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1359325/pdf/jphysiol01229-0174.pdf&#34;&gt;feedforward processing in early visual cortex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;thereby exploiting the &lt;strong&gt;local spatial correlations&lt;/strong&gt; present in images&lt;/li&gt;
+&lt;li&gt;and building in &lt;strong&gt;robustness to natural transformations&lt;/strong&gt; such as changes of viewpoint or scale.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mnih, Volodymyr, et al. &lt;a href=&#34;https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf&#34;&gt;&amp;ldquo;Human-level control through deep reinforcement learning&amp;rdquo;&lt;/a&gt; Nature518.7540 (2015): 529.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
