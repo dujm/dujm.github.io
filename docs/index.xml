@@ -3837,6 +3837,7 @@ Connections between supervised learning and reinforcement learning (&lt;a href=&
 &lt;li&gt;make (state, action) pairs that resulted in positive return more likely, 👍&lt;/li&gt;
 &lt;li&gt;make (state, action) pairs that resulted in negative return less likely. ⬇️&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br&gt;
 &lt;h3 id=&#34;reinforce&#34;&gt;Reinforce&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://openai.com/content/images/2017/03/second-graphic-1.png&#34; alt=&#34;Reinforce&#34;&gt;&lt;br&gt;
 REINFORCE increases the probability of &amp;ldquo;good&amp;rdquo; actions and decreases the probability of &amp;ldquo;bad&amp;rdquo; actions. (&lt;a href=&#34;https://openai.com/content/images/2017/03/second-graphic-1.png&#34;&gt;Source&lt;/a&gt;)&lt;/p&gt;
@@ -3955,6 +3956,7 @@ $ \color{#1b7837} {\tau^{(i)}} \color{black} = (\color{#1b7837}  {{s_0}^{(i)}, {
 Probability density function corresponding to normal distribution (&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/220px-Normal_Distribution_PDF.svg.png&#34;&gt;Source: Wikipedia&lt;/a&gt;)&lt;/p&gt;
 &lt;br&gt;
 &lt;h3 id=&#34;optional-derivation&#34;&gt;(Optional) Derivation&lt;/h3&gt;
+&lt;br&gt;
 &lt;h2 id=&#34;read&#34;&gt;Read&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://karpathy.github.io/2016/05/31/rl/&#34;&gt;Deep Reinforcement Learning: Pong from Pixels &amp;ndash; Andrej Karpathy&lt;/a&gt;&lt;/li&gt;

@@ -20,22 +20,33 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>DJ&#39;s Website</title><meta property="og:title" content="" />
-<meta property="og:description" content="" />
+<title>Proximal Policy Optimization | DJ&#39;s Website</title><meta property="og:title" content="Proximal Policy Optimization" />
+<meta property="og:description" content="Problems of REINFORCE There are three issues:
+  The update process is very inefficient! We run the policy once, update once, and then throw away the trajectory.
+  The gradient estimate $\hat{g}$ is very noisy. By chance the collected trajectory may not be representative of the policy.
+  There is no clear credit assignment! A trajectory may contain many good/bad actions and whether these actions are reinforced depends only on the final total output." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/" />
-
-<meta itemprop="name" content="">
-<meta itemprop="description" content="">
-
-<meta itemprop="wordCount" content="0">
+<meta property="article:published_time" content="2020-12-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-30T00:00:00+00:00" />
+<meta itemprop="name" content="Proximal Policy Optimization">
+<meta itemprop="description" content="Problems of REINFORCE There are three issues:
+  The update process is very inefficient! We run the policy once, update once, and then throw away the trajectory.
+  The gradient estimate $\hat{g}$ is very noisy. By chance the collected trajectory may not be representative of the policy.
+  There is no clear credit assignment! A trajectory may contain many good/bad actions and whether these actions are reinforced depends only on the final total output.">
+<meta itemprop="datePublished" content="2020-12-30T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-12-30T00:00:00+00:00" />
+<meta itemprop="wordCount" content="996">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Proximal Policy Optimization"/>
+<meta name="twitter:description" content="Problems of REINFORCE There are three issues:
+  The update process is very inefficient! We run the policy once, update once, and then throw away the trajectory.
+  The gradient estimate $\hat{g}$ is very noisy. By chance the collected trajectory may not be representative of the policy.
+  There is no clear credit assignment! A trajectory may contain many good/bad actions and whether these actions are reinforced depends only on the final total output."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -80,7 +91,7 @@
 
 
 
-    <title>DJ&#39;s Website</title>
+    <title>Proximal Policy Optimization | DJ&#39;s Website</title>
   </head>
   <body class="td-page">
     <header>
@@ -127,7 +138,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.045ba9958a3c4b80ac8e3d30782c0479ab9ebac2b401b19cb4a6703baccf515ae126af98bab26712381ff965636fe60ae9e1ac60f7895445da4b7e4c0b191c5c.json"
+  data-offline-search-index-json-src="/offline-search-index.ab35e816201234f8e901caa30b3c34e716d8d7824a60257ec4d67566f635bddb3c71901361a8ad04e1270055c433b329e97501d72eac807e7a8ce7587ea741b0.json"
   data-offline-search-base-href="/"
 >
 
@@ -157,7 +168,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.045ba9958a3c4b80ac8e3d30782c0479ab9ebac2b401b19cb4a6703baccf515ae126af98bab26712381ff965636fe60ae9e1ac60f7895445da4b7e4c0b191c5c.json"
+  data-offline-search-index-json-src="/offline-search-index.ab35e816201234f8e901caa30b3c34e716d8d7824a60257ec4d67566f635bddb3c71901361a8ad04e1270055c433b329e97501d72eac807e7a8ce7587ea741b0.json"
   data-offline-search-base-href="/"
 >
 
@@ -1678,7 +1689,7 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docsmachinelearningcoursesreinforcement-learningc3-policyp03-proximal" href="/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/"></a>
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docsmachinelearningcoursesreinforcement-learningc3-policyp03-proximal" href="/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/">Proximal Policy Optimization</a>
       
       
       
@@ -2834,6 +2845,31 @@
 
 
 
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#problems-of-reinforce">Problems of REINFORCE</a>
+      <ul>
+        <li><a href="#noise-reduction">Noise Reduction</a></li>
+        <li><a href="#rewards-normalization">Rewards Normalization</a></li>
+        <li><a href="#credit-assignment">Credit Assignment</a></li>
+        <li><a href="#importance-sampling">Importance Sampling</a></li>
+        <li><a href="#the-re-weighting-factor">The re-weighting factor</a></li>
+      </ul>
+    </li>
+    <li><a href="#proximal-policy-optimization-pro">Proximal Policy Optimization (PRO)</a>
+      <ul>
+        <li><a href="#algorithm">Algorithm</a></li>
+      </ul>
+    </li>
+    <li><a href="#test">Test</a>
+      <ul>
+        <li><a href="#policy-gradient-quiz">Policy Gradient Quiz</a></li>
+      </ul>
+    </li>
+    <li><a href="#ref">Ref</a></li>
+  </ul>
+</nav>
+
 
 
           </div>
@@ -2899,7 +2935,7 @@
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/"></a>
+	<a href="/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/">Proximal Policy Optimization</a>
 </li>
 
 	</ol>
@@ -2907,12 +2943,214 @@
 
             
 <div class="td-content">
-	<h1></h1>
+	<h1>Proximal Policy Optimization</h1>
+	
+	<br>
+<h2 id="problems-of-reinforce">Problems of REINFORCE</h2>
+<p>There are three issues:</p>
+<ul>
+<li>
+<p>The <strong>update process</strong> is very <strong>inefficient</strong>! We run the policy once, update once, and then <strong>throw away the trajectory</strong>.</p>
+</li>
+<li>
+<p>The <strong>gradient estimate</strong> $\hat{g}$ is very <strong>noisy</strong>. By chance the collected trajectory <strong>may not be representative of the policy</strong>.</p>
+</li>
+<li>
+<p>There is <strong>no clear credit assignment</strong>! A trajectory may contain many <strong>good/bad actions</strong> and whether these actions are reinforced depends only on the final total output.</p>
+</li>
+</ul>
+<h3 id="noise-reduction">Noise Reduction</h3>
+<ul>
+<li>Problem
+<ul>
+<li>Too many trajectories
+<ul>
+<li>There could easily be well <strong>over millions of trajectories</strong> for simple problems and <strong>infinite for continuous problems</strong>.</li>
+<li>So a lot of times, the result of a <strong>sampled trajectory comes down to chance</strong>, and doesn&rsquo;t contain that much information about our policy.</li>
+<li>The <strong>hope</strong> is that after training for a long time, the <strong>tiny signal accumulates</strong>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Solution
+<ul>
+<li>Simply <strong>sample more</strong> trajectories 😬
+<ul>
+<li>using distributed computing</li>
+<li>estimate the policy gradient by averaging across all the different trajectories</li>
+<li>we can collect all the <strong>total rewards</strong> and get a sense of how they are <strong>distributed</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="rewards-normalization">Rewards Normalization</h3>
+<ul>
+<li>
+<p>In many cases, the distribution of rewards shifts as learning happens. Reward = 1 might be really good in the beginning, but really bad after 1000 training episode.</p>
+</li>
+<li>
+<p>Learning can be improved if we normalize the rewards, where $\mu$ is the mean, and $\sigma$ the standard deviation.</p>
+<ul>
+<li>
+<p>$R_i \leftarrow \frac{R_i -\mu}{\sigma} \qquad$</p>
+<ul>
+<li>$ \mu = \frac{1}{N}\sum_i^N R_i \qquad$</li>
+<li>$\sigma = \sqrt{\frac{1}{N}\sum_i (R_i - \mu)^2}R$</li>
+</ul>
+</li>
+<li>
+<p>when all the $R_i$ are the same, $\sigma =0$, we can set all the normalized rewards to 0 to avoid numerical problems</p>
+</li>
+<li>
+<p>This <strong>batch-normalization</strong> technique is also used in many other problems in AI (e.g. image classification), where normalizing the input can improve learning.</p>
+</li>
+<li>
+<p><strong>Intuitively</strong>, normalizing the rewards roughly corresponds to picking <strong>half</strong> the actions to <strong>encourage/discourage</strong>, while also making sure the steps for gradient ascents are not too large/small.  🎲</p>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="credit-assignment">Credit Assignment</h3>
+<p>At time-step $t$</p>
+<ul>
+<li>
+<p>Even before an action is decided, the agent has already received all the rewards up until step $t-1$. So we can think of that part of the total reward as the reward from the past. The rest is denoted as the future reward.</p>
+<ul>
+<li>$(\overbrace{&hellip;+r_{t-1}}^{\require{cancel}\bcancel{R^{\rm past}_t}} + \overbrace{r_{t}+&hellip;}^{R^{\rm future}_t})$</li>
+</ul>
+</li>
+<li>
+<p>Because we have a Markov process, the action at time-step $t$ can only affect the future reward, so the past reward shouldn’t be contributing to the policy gradient.</p>
+<ul>
+<li>So to properly assign credit to the action $a_t$, we should ignore the past reward.</li>
+<li>So a better policy gradient would simply <strong>have the future reward as the coefficient</strong></li>
+<li>$g=\sum_t \color{blue}{R_t^{\rm future}} \color{black}{\nabla_{\theta}\log \pi_\theta(a_t|s_t)}$</li>
+</ul>
+</li>
+<li>
+<p>Mathematically, <strong>ignoring past rewards</strong> might change the gradient for each specific trajectory, but it <strong>doesn&rsquo;t change the averaged gradient</strong>.</p>
+<ul>
+<li>So even though the gradient is different during training, on average we are still maximizing the average reward.</li>
+<li>In fact, the resultant gradient is less noisy, so training using future reward should speed things up! 🚀</li>
+</ul>
+</li>
+</ul>
+<br>
+<p><img src="https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35/product_silo_images/qc35_black_EC.psd/_jcr_content/renditions/cq5dam.web.320.320.png" alt=""><br>
+<a href="https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35/product_silo_images/qc35_black_EC.psd/_jcr_content/renditions/cq5dam.web.320.320.png">Source</a></p>
+<br>
+<h3 id="importance-sampling">Importance Sampling</h3>
+<ul>
+<li>
+<p>The trajectories we generated using the policy $\pi_\theta$. It had a probability $P(\tau;\theta)$, to be sampled.</p>
+</li>
+<li>
+<p>Now Just by chance, the same trajectory can be sampled under the new policy, with a different probability $\color{blue} {P(\tau;\theta')}$.</p>
+</li>
+<li>
+<p>Imagine we want to compute the average of some quantity, say $f(\tau)$. We could simply generate trajectories from the new policy, compute $f(\tau)$ and average them.</p>
+</li>
+<li>
+<p>Mathematically, this is equivalent to adding up all the $f(\tau)$, weighted by a probability of sampling each trajectory under the new policy.</p>
+<ul>
+<li>$\sum_\tau \color{blue} {P(\tau;\theta')} f(\tau)$</li>
+</ul>
+</li>
+<li>
+<p>we could modify this equation, by multiplying and dividing by the same number, $P(\tau;\theta)$ and rearrange the terms</p>
+<ul>
+<li>$\sum_\tau \overbrace{P(\tau;\theta)}^{ \begin{matrix} \scriptsize \textrm{sampling under}\ \scriptsize \textrm{old policy } \pi_\theta \end{matrix} } \overbrace{\frac{ \color{blue} {P(\tau;\theta')}}{P(\tau;\theta)}}^{ \begin{matrix} \scriptsize \textrm{re-weighting}\ \scriptsize \textrm{factor} \end{matrix} } f(\tau)$</li>
+<li>we can reinterpret the first part as the <strong>coefficient for sampling under the old policy</strong>, with an extra <strong>re-weighting factor</strong>, in addition to just averaging.</li>
+</ul>
+</li>
+<li>
+<p>we can use <strong>old trajectories for computing averages for new policy</strong>, as long as we add this extra re-weighting factor, that takes into account how <strong>under or over–represented each trajectory is under the new policy</strong> compared to the old one.</p>
+<ul>
+<li>The same tricks are used frequently across statistics, where the <strong>re-weighting factor is included to unbias surveys and voting predictions</strong>.</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="the-re-weighting-factor">The re-weighting factor</h3>
+<p>$\frac{\color{blue} {P(\tau;\theta')}}{P(\tau;\theta)} =\frac {\pi_{\theta'}(a_1|s_1), \pi_{\theta'}(a_2|s_2), \pi_{\theta'}(a_3|s_3),&hellip;} {\pi_\theta(a_1|s_1) , \pi_\theta(a_2|s_2), \pi_\theta(a_2|s_2), &hellip;}$</p>
+<ul>
+<li>
+<p>Because each trajectory contains many steps, the probability contains a chain of products of each policy at different time-step.</p>
+</li>
+<li>
+<p>A Problem: when some of policy gets close to zero, the re-weighting factor can become close to zero, or worse, close to 1 over 0 which diverges to infinity.</p>
+<ul>
+<li>When this happens, <strong>the re-weighting trick becomes unreliable</strong>.</li>
+</ul>
+</li>
+<li>
+<p>A Solution: In practice, we want to <strong>make sure the re-weighting factor is not too far from 1</strong> when we <strong>utilize importance sampling</strong></p>
+</li>
+</ul>
+<br>
+<h2 id="proximal-policy-optimization-pro">Proximal Policy Optimization (PRO)</h2>
+<ul>
+<li>closely related to Trust Region Policy Optimization (TRPO)</li>
+<li><a href="https://arxiv.org/abs/1707.06347">developed by OpenAI</a></li>
+</ul>
+<br>
+<h3 id="algorithm">Algorithm</h3>
+<ul>
+<li>First, collect some trajectories based on some policy $\pi_\theta$ , and initialize theta prime $\theta'=\theta$</li>
+<li>Next, compute the gradient of the clipped surrogate function using the trajectories</li>
+<li>Update $\theta$ using gradient ascent
+<ul>
+<li>$\theta'\leftarrow\theta' +\alpha \nabla_{\theta'}L_{\rm sur}^{\rm clip}(\theta', \theta)$</li>
+</ul>
+</li>
+<li>Then we repeat step 2-3 without generating new trajectories. Typically, step 2-3 are only repeated a few times</li>
+<li>Set $\theta=\theta'$ go back to step 1, repeat.</li>
+</ul>
+<h2 id="test">Test</h2>
+<h3 id="policy-gradient-quiz">Policy Gradient Quiz</h3>
+<p>Suppose we are training an agent to play a computer game.</p>
+<ul>
+<li>There are only two possible action: 0 = Do nothing, 1 = Move
+<ul>
+<li>There are three time-steps in each game, and our policy is completely determined by one parameter $\theta$, such that the probability of &ldquo;moving&rdquo; is $\theta$, and the probability of doing nothing is $1-\theta$</li>
+<li>Initially $\theta=0.5$. Three games are played, the results are:
+<ul>
+<li>
+<p>Game 1: actions: (1,0,1) rewards: (1,0,1)</p>
+</li>
+<li>
+<p>Game 2: actions: (1,0,0) rewards: (0,0,1)</p>
+</li>
+<li>
+<p>Game 3: actions: (0,1,0) rewards: (1,0,1)</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Question 1: What are the future rewards for the first game?
+<blockquote>
+<p>(1+0+1, 1+0, 1) = (2, 1, 1)</p>
+</blockquote>
+</li>
+<li>Question 2: What is the policy gradient computed from the second game, using future rewards?
+<blockquote>
+<p>-2</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h2 id="ref">Ref</h2>
+<ul>
+<li><a href="https://arxiv.org/abs/1707.06347">Proximal Policy Optimization Algorithms &ndash; by OpenAI</a></li>
+</ul>
+
 	
 	
-	
-	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified January 1, 0001
+	<div class="text-muted mt-5 pt-3 border-top">Last modified December 30, 2020
 </div>
 </div>
 
