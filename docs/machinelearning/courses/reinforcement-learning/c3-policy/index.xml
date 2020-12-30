@@ -378,6 +378,7 @@ Probability density function corresponding to normal distribution (&lt;a href=&#
 &lt;p&gt;There is &lt;strong&gt;no clear credit assignment&lt;/strong&gt;! A trajectory may contain many &lt;strong&gt;good/bad actions&lt;/strong&gt; and whether these actions are reinforced depends only on the final total output.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;solutions&#34;&gt;Solutions&lt;/h2&gt;
 &lt;h3 id=&#34;noise-reduction&#34;&gt;Noise Reduction&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Problem
@@ -403,6 +404,8 @@ Probability density function corresponding to normal distribution (&lt;a href=&#
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35/product_silo_images/qc35_black_EC.psd/_jcr_content/renditions/cq5dam.web.320.320.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35/product_silo_images/qc35_black_EC.psd/_jcr_content/renditions/cq5dam.web.320.320.png&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h3 id=&#34;rewards-normalization&#34;&gt;Rewards Normalization&lt;/h3&gt;
 &lt;ul&gt;
@@ -457,9 +460,6 @@ Probability density function corresponding to normal distribution (&lt;a href=&#
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
-&lt;p&gt;&lt;img src=&#34;https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35/product_silo_images/qc35_black_EC.psd/_jcr_content/renditions/cq5dam.web.320.320.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35/product_silo_images/qc35_black_EC.psd/_jcr_content/renditions/cq5dam.web.320.320.png&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h3 id=&#34;importance-sampling&#34;&gt;Importance Sampling&lt;/h3&gt;
 &lt;ul&gt;
