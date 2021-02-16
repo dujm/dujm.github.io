@@ -571,28 +571,46 @@ Probability density function corresponding to normal distribution (&lt;a href=&#
     </item>
     
     <item>
-      <title>Docs: </title>
+      <title>Docs: Actor-Critic Methods</title>
       <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p04-actor-critic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p04-actor-critic/</guid>
       <description>
         
         
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: </title>
-      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p05-deep-rl-finance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p05-deep-rl-finance/</guid>
-      <description>
-        
-        
-        
+        &lt;br&gt;
+&lt;h2 id=&#34;actor-critic-methods&#34;&gt;Actor-Critic Methods&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Actor-critic agent is an agent that uses function approximation to learn a policy and value function&lt;/li&gt;
+&lt;li&gt;Employ two NN
+&lt;ul&gt;
+&lt;li&gt;One for Actor&lt;/li&gt;
+&lt;li&gt;One for Policy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Advantages:
+&lt;ul&gt;
+&lt;li&gt;more stable than value-based agents&lt;/li&gt;
+&lt;li&gt;Need fewer samples than policy-based agents&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;generalized-advantage-estimation-gae&#34;&gt;Generalized Advantage Estimation (GAE)&lt;/h3&gt;
+&lt;h3 id=&#34;ddpg&#34;&gt;DDPG&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Deep Deterministic Policy Gradient&lt;/li&gt;
+&lt;li&gt;DDPG is a DQN method for continuous action spaces&lt;/li&gt;
+&lt;li&gt;DDPG uses a replay buffer and soft updates to the target networks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;read&#34;&gt;Read&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1611.02247&#34;&gt;Q-Prop: Sample-Efficient Policy Gradient with An Off-Policy Critic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1506.02438&#34;&gt;High-Dimensional Continuous Control Using Generalized Advantage Estimation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
