@@ -1827,6 +1827,26 @@ mkdir output
     </item>
     
     <item>
+      <title>Docs: Converter .docx</title>
+      <link>/docs/swiss-knives/converter-docx-markdown/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/swiss-knives/converter-docx-markdown/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;mammoth&#34;&gt;Mammoth&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mwilliamson/python-mammoth&#34;&gt;Mammoth&lt;/a&gt; is designed to convert .docx documents, such as those created by Microsoft Word, Google Docs and LibreOffice, and convert them to HTML.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install mammoth
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Generate Markdown&lt;/span&gt;
+mammoth document.docx --output-format&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;markdown
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Converter Jupyter</title>
       <link>/docs/swiss-knives/converter-jupyter/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
@@ -1918,7 +1938,20 @@ http://0.0.0.0:9099/
 &lt;li&gt;&lt;a href=&#34;https://github.com/jupyterlab/jupyterlab-git&#34;&gt;jupyterlab-git&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jupyter/nbdime&#34;&gt;nbdime&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;how-to-add-conda-environment-to-jupyter-lab&#34;&gt;How to add conda environment to jupyter lab?&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Activate my conda environment mt &lt;/span&gt;
+conda activate mt
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;mt&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;$ conda install ipykernel
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;mt&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;$ ipython kernel install --user --name&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;mt
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;mt&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;$ conda deactivate
 
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Check in Jupyter lab &lt;/span&gt;
+jupyter lab
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h2 id=&#34;how-to-update-jupyter-lab&#34;&gt;How to update Jupyter Lab?&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;conda update jupyterlab
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     
@@ -2335,6 +2368,11 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
         
         
         &lt;br&gt;
+&lt;h2 id=&#34;crash-course&#34;&gt;Crash Course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=WPqXP_kLzpo&#34;&gt;Visual Studio Code Crash Course From freeCodeCamp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
 &lt;h2 id=&#34;theme&#34;&gt;Theme&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext&#34;&gt;Oceanic Next dimmed bg&lt;/a&gt;&lt;/li&gt;

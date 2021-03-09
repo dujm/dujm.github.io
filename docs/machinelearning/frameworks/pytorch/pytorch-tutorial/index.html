@@ -21,32 +21,35 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>PyTorch Tutorial | DJ&#39;s Website</title><meta property="og:title" content="PyTorch Tutorial" />
-<meta property="og:description" content="
-Install PyTorch Documentation
+<meta property="og:description" content="Install PyTorch Documentation
 conda install pytorch torchvision -c pytorch 
-What is PyTorch? Reference  pytorch 60 min pytorch pytorch kaggle  " />
+Tensor What is a Tensor?  Tensor: representated as N-dimensional array of data with certain transformation properties. Tensor factorization: high-order generalization of matrix SVD or PCA Matrix: a linear transformation  Tensor
+Methods of data reduction for a data tensor
+How to initialize a Tensor?  From a list From a numpy array From another tensor. The shape and datatype are reained, unless explicitly overridden." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/machinelearning/frameworks/pytorch/pytorch-tutorial/" />
 <meta property="article:published_time" content="2020-05-08T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-05-08T00:00:00+00:00" />
 <meta itemprop="name" content="PyTorch Tutorial">
-<meta itemprop="description" content="
-Install PyTorch Documentation
+<meta itemprop="description" content="Install PyTorch Documentation
 conda install pytorch torchvision -c pytorch 
-What is PyTorch? Reference  pytorch 60 min pytorch pytorch kaggle  ">
+Tensor What is a Tensor?  Tensor: representated as N-dimensional array of data with certain transformation properties. Tensor factorization: high-order generalization of matrix SVD or PCA Matrix: a linear transformation  Tensor
+Methods of data reduction for a data tensor
+How to initialize a Tensor?  From a list From a numpy array From another tensor. The shape and datatype are reained, unless explicitly overridden.">
 <meta itemprop="datePublished" content="2020-05-08T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-05-08T00:00:00+00:00" />
-<meta itemprop="wordCount" content="19">
+<meta itemprop="wordCount" content="876">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="PyTorch Tutorial"/>
-<meta name="twitter:description" content="
-Install PyTorch Documentation
+<meta name="twitter:description" content="Install PyTorch Documentation
 conda install pytorch torchvision -c pytorch 
-What is PyTorch? Reference  pytorch 60 min pytorch pytorch kaggle  "/>
+Tensor What is a Tensor?  Tensor: representated as N-dimensional array of data with certain transformation properties. Tensor factorization: high-order generalization of matrix SVD or PCA Matrix: a linear transformation  Tensor
+Methods of data reduction for a data tensor
+How to initialize a Tensor?  From a list From a numpy array From another tensor. The shape and datatype are reained, unless explicitly overridden."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -138,7 +141,7 @@ What is PyTorch? Reference  pytorch 60 min pytorch pytorch kaggle  "/>
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.6adf818d3006ce9b6f3f218febe8ca8180434dbfff734702e3e58ac48dded63f8048aea509451e642cf675ef519fc63abe06b04f78d699fdd440a742d67ec448.json"
+  data-offline-search-index-json-src="/offline-search-index.492805ab76290f3713ae62bb3fdf48b5b94d63040313b3e281f567703e2cd8d945019c94a6f633b0945ac4f11eb9bac24c5eac2804c7c802ad853c8f581e1ada.json"
   data-offline-search-base-href="/"
 >
 
@@ -168,7 +171,7 @@ What is PyTorch? Reference  pytorch 60 min pytorch pytorch kaggle  "/>
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.6adf818d3006ce9b6f3f218febe8ca8180434dbfff734702e3e58ac48dded63f8048aea509451e642cf675ef519fc63abe06b04f78d699fdd440a742d67ec448.json"
+  data-offline-search-index-json-src="/offline-search-index.492805ab76290f3713ae62bb3fdf48b5b94d63040313b3e281f567703e2cd8d945019c94a6f633b0945ac4f11eb9bac24c5eac2804c7c802ad853c8f581e1ada.json"
   data-offline-search-base-href="/"
 >
 
@@ -1916,7 +1919,13 @@ What is PyTorch? Reference  pytorch 60 min pytorch pytorch kaggle  "/>
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsfeaturefeature-selection" href="/docs/machinelearning/models/feature/feature-selection/">Method</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsfeaturefeature-selection" href="/docs/machinelearning/models/feature/feature-selection/">Feature Selection</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsfeaturefeature-stores" href="/docs/machinelearning/models/feature/feature-stores/">Feature Stores</a>
       
       
     </li>
@@ -2624,6 +2633,12 @@ What is PyTorch? Reference  pytorch 60 min pytorch pytorch kaggle  "/>
       
       
       
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesconverter-docx-markdown" href="/docs/swiss-knives/converter-docx-markdown/">Converter .docx</a>
+      
+      
+      
+      
+      
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesconverter-jupyter" href="/docs/swiss-knives/converter-jupyter/">Converter Jupyter</a>
       
       
@@ -2841,10 +2856,31 @@ What is PyTorch? Reference  pytorch 60 min pytorch pytorch kaggle  "/>
 
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#install-pytorch">Install PyTorch</a></li>
+    <li><a href="#tensor">Tensor</a>
       <ul>
-        <li><a href="#install-pytorch">Install PyTorch</a></li>
-        <li><a href="#what-is-pytorch">What is PyTorch?</a></li>
+        <li><a href="#what-is-a-tensor">What is a Tensor?</a></li>
+        <li><a href="#how-to-initialize-a-tensor">How to initialize a Tensor?</a></li>
+        <li><a href="#what-are-the-attributes-of-a-tensor">What are the attributes of a tensor?</a></li>
+        <li><a href="#tensor-operation-apihttpspytorchorgdocsstabletorchhtml"><a href="(https://pytorch.org/docs/stable/torch.html)">Tensor Operation API</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#autograd">Autograd</a>
+      <ul>
+        <li><a href="#notebook-tutorialhttpspytorchorgtutorialsbeginnerblitzautograd_tutorialhtml"><a href="https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html">Notebook Tutorial</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#computational-graph">Computational Graph</a>
+      <ul>
+        <li><a href="#dags">DAGs</a></li>
+        <li><a href="#inclusion-and-exclusion-from-the-dag">Inclusion and Exclusion from the DAG</a></li>
+        <li><a href="#why-exclusion-is-needed">Why exclusion is needed?</a></li>
+        <li><a href="#how-to-use-exlusionary-functionality">How to use exlusionary functionality?</a></li>
+      </ul>
+    </li>
+    <li><a href="#neural-networks">Neural Networks</a>
+      <ul>
+        <li><a href="#how-to-construct-a-nn">How to construct a NN?</a></li>
         <li><a href="#reference">Reference</a></li>
       </ul>
     </li>
@@ -2917,17 +2953,257 @@ What is PyTorch? Reference  pytorch 60 min pytorch pytorch kaggle  "/>
 	<h1>PyTorch Tutorial</h1>
 	
 	<br>
-<h3 id="install-pytorch">Install PyTorch</h3>
+<h2 id="install-pytorch">Install PyTorch</h2>
 <p><a href="https://pytorch.org/get-started/locally/#macos-version">Documentation</a></p>
 <pre><code>conda install pytorch torchvision -c pytorch
 </code></pre><br>
-<h3 id="what-is-pytorch">What is PyTorch?</h3>
+<h2 id="tensor">Tensor</h2>
+<h3 id="what-is-a-tensor">What is a Tensor?</h3>
+<ul>
+<li>Tensor: representated as N-dimensional array of data with certain transformation properties.</li>
+<li>Tensor factorization: high-order generalization of matrix SVD or PCA</li>
+<li>Matrix: a linear transformation</li>
+</ul>
+<p><img src="https://slideplayer.com/slide/2955751/11/images/5/A+tensor+is+a+multidimensional+array.jpg" alt="Tensor"><br>
+<a href="https://slideplayer.com/slide/2955751/11/images/5/A+tensor+is+a+multidimensional+array.jpg">Tensor</a></p>
+<br> 
+<p><img src="https://www.researchgate.net/profile/Jeffrey-Brender/publication/323305191/figure/fig8/AS:606001279541248@1521493372522/Methods-of-data-reduction-for-a-data-tensor-For-simplicity-the-data-tensor-is-shown.png" alt="Methods of data reduction for a data tensor"><br>
+<a href="https://www.researchgate.net/profile/Jeffrey-Brender/publication/323305191/figure/fig8/AS:606001279541248@1521493372522/Methods-of-data-reduction-for-a-data-tensor-For-simplicity-the-data-tensor-is-shown.png">Methods of data reduction for a data tensor</a></p>
 <br>
+<h3 id="how-to-initialize-a-tensor">How to initialize a Tensor?</h3>
+<ul>
+<li>From a list</li>
+<li>From a numpy array</li>
+<li>From another tensor. The shape and datatype are reained, unless explicitly overridden.</li>
+</ul>
+<h3 id="what-are-the-attributes-of-a-tensor">What are the attributes of a tensor?</h3>
+<ul>
+<li>Shape:  a tuple <code>(row, col)</code> to dtermine the dimensionality of a tensor</li>
+<li>dtype</li>
+<li>device a tensor is running on
+<ul>
+<li>cpu</li>
+<li>gpu</li>
+</ul>
+</li>
+</ul>
+<h3 id="tensor-operation-apihttpspytorchorgdocsstabletorchhtml"><a href="(https://pytorch.org/docs/stable/torch.html)">Tensor Operation API</a></h3>
+<ul>
+<li>Over 100 Operations</li>
+<li>In-place operations: operations that have a <code>_</code> suffix are in place
+<ul>
+<li><code>tensor.add_(5) </code></li>
+<li><code>x.copy_(y)</code></li>
+</ul>
+</li>
+<li>Transposing</li>
+<li>Indexing</li>
+<li>Sliding</li>
+<li>Mathmatical
+<ul>
+<li>Multiply
+<ul>
+<li>use <code>*</code></li>
+<li><code>tensor.mul(tensor)</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Linear Algebra
+<ul>
+<li>Matrix Multiplication
+<ul>
+<li><code>tensor @ tensor.T</code></li>
+<li><code>tensor.matmul(tensor.T)</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Random Sampling</li>
+<li>Tensor and Numpy
+<ul>
+<li>Tensor to Numpy <code>tensor.numpy()</code></li>
+<li>Numpy to Tensor <code>torch.from_numpy()</code></li>
+</ul>
+</li>
+</ul>
+<br>
+<h2 id="autograd">Autograd</h2>
+<h3 id="notebook-tutorialhttpspytorchorgtutorialsbeginnerblitzautograd_tutorialhtml"><a href="https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html">Notebook Tutorial</a></h3>
+<ul>
+<li>An automatic differentiation engine that powers NN training</li>
+<li>Training a NN happens in two steps:
+<ul>
+<li><strong>Forward Propagation</strong>: In forward prop, the NN makes its best guess
+about the correct output. It runs the input data through each of its
+functions to make this guess.</li>
+<li>Backward Propagation: In backprop, the NN adjusts its parameters proportionate to the error in its guess. It does this by traversing backwards from the output, collecting the derivatives of the error with respect to the parameters of the functions (<em>gradients</em>), and optimizing the parameters using gradient descent. For a more detailed walkthrough of backprop</li>
+</ul>
+</li>
+</ul>
+<h2 id="computational-graph">Computational Graph</h2>
+<p>Autograd keeps a record ot data(tensors) and all executed operations (along with resulting new tensors) in a directed acyclic graph (DAG) consisting of Function objects.</p>
+<ul>
+<li>Tensors
+<ul>
+<li>Leaves: input tensors</li>
+<li>Roots: output tensors</li>
+<li>From leaves to roots: run the requested operations</li>
+<li>From roots to leaves: compute the gradients using chain rules</li>
+</ul>
+</li>
+<li>Operations
+<ul>
+<li>Forward pass
+<ul>
+<li>run the requested operation to compute a resulting tensor</li>
+<li>maintain the operation&rsquo;s gradient function in the DAG</li>
+</ul>
+</li>
+<li>Backward pass
+<ul>
+<li>computes the gradients from each <code>.grad_fn</code></li>
+<li>accumulates them in the respective tensor&rsquo;s <code>.grad attributes</code></li>
+<li>use the chain rule, propagates all the way to leaf tensors</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="dags">DAGs</h3>
+<ul>
+<li>What are DAGs?
+<ul>
+<li>DAGs are <code>dynamic</code> in PyTorch An important thing to note is that the graph is recreated from scratch; after each <code>.backward()</code> call, autograd starts populating a new graph.</li>
+<li>This is exactly what allows you to use control flow statements in your model; you can change the shape, size and operations at every iteration if needed.</li>
+</ul>
+</li>
+</ul>
+<h3 id="inclusion-and-exclusion-from-the-dag">Inclusion and Exclusion from the DAG</h3>
+<ul>
+<li><code>torch.autograd </code>tracks operations on all tensors which have their requires_grad flag set to True.</li>
+<li>For tensors that don’t require gradients, setting this attribute to False excludes it from the gradient computation DAG</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">torch</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">rand</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">y</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">torch</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">rand</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">z</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">torch</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">rand</span><span style="color:#000;font-weight:bold">((</span><span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">),</span> <span style="color:#000">requires_grad</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#3465a4">True</span><span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#000">a</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">y</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">f</span><span style="color:#4e9a06">&#34;Does `a` require gradients? : {a.requires_grad}&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#8f5902;font-style:italic"># False</span>
+
+<span style="color:#000">b</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">z</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">f</span><span style="color:#4e9a06">&#34;Does `b` require gradients?: {b.requires_grad}&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#8f5902;font-style:italic"># True</span>
+</code></pre></div><h3 id="why-exclusion-is-needed">Why exclusion is needed?</h3>
+<ul>
+<li>Frozen Parameters</li>
+</ul>
+<ul>
+<li>Parameters that don&rsquo;t compute gradients</li>
+<li>Useful to <strong>freeze</strong> part of your model to offer some performance benefits by reducing autograd computations</li>
+</ul>
+<ul>
+<li>Finetune a pretrained network</li>
+</ul>
+<ul>
+<li>In finetuning, we freeze most of the model</li>
+<li>Modify the classifier layers to make predictions on new labels</li>
+</ul>
+<h3 id="how-to-use-exlusionary-functionality">How to use exlusionary functionality?</h3>
+<ul>
+<li>Use a context manager in <code>torch.no_grad()</code></li>
+<li>Set <code>requires_grad=False</code> in a tensor</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">torch</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">nn</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">optim</span>
+
+<span style="color:#000">model</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">torchvision</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">models</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">resnet18</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">pretrained</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#3465a4">True</span><span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#8f5902;font-style:italic"># Freeze all the parameters in the network!!!</span>
+<span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">param</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">model</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">parameters</span><span style="color:#000;font-weight:bold">():</span>
+    <span style="color:#000">param</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">requires_grad</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#3465a4">False</span>
+
+<span style="color:#8f5902;font-style:italic">#  Finetune the model on a new dataset with 10 labels. </span>
+<span style="color:#8f5902;font-style:italic"># In resnet, the classifier is the last linear layer model.fc. </span>
+<span style="color:#8f5902;font-style:italic"># We can simply replace it with a new linear layer (unfrozen by default) that acts as our classifier</span>
+<span style="color:#000">model</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fc</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">nn</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">Linear</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">512</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#8f5902;font-style:italic"># Now all parameters in the model, except the parameters of model.fc, are frozen. The only parameters that compute gradients are the weights and bias of model.fc</span>
+<span style="color:#8f5902;font-style:italic"># Optimize only the classifier</span>
+<span style="color:#000">optimizer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">optim</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">SGD</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">model</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fc</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">parameters</span><span style="color:#000;font-weight:bold">(),</span> <span style="color:#000">lr</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">1e-2</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">momentum</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">0.9</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><br>
+<h2 id="neural-networks">Neural Networks</h2>
+<ul>
+<li><a href="https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html">Tutorial</a></li>
+<li><a href="https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/97abb4c06a586d45ef3fc4b4b9634406/neural_networks_tutorial.ipynb">Colab</a></li>
+</ul>
+<h3 id="how-to-construct-a-nn">How to construct a NN?</h3>
+<ul>
+<li>Use <code>torch.nn</code> package</li>
+<li>Define the network</li>
+<li>You just have to define the forward function</li>
+<li>The backward function (where gradients are computed) is automatically defined for you using autograd.</li>
+<li>You can use any of the Tensor operations in the forward function.</li>
+<li>The learnable parameters of a model are returned by net.parameters()</li>
+</ul>
+<p><img src="https://pytorch.org/tutorials/_images/mnist.png" alt="convnet"><br>
+<a href="https://pytorch.org/tutorials/_images/mnist.png">convnet</a></p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">torch</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">torch.nn</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">nn</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">torch.nn.functional</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">F</span>
+
+
+<span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">Net</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">nn</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">Module</span><span style="color:#000;font-weight:bold">):</span>
+
+    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">__init__</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">):</span>
+        <span style="color:#204a87">super</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">Net</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">__init__</span><span style="color:#000;font-weight:bold">()</span>
+        <span style="color:#8f5902;font-style:italic"># 1 input image channel, 6 output channels, 3x3 square convolution</span>
+        <span style="color:#8f5902;font-style:italic"># kernel</span>
+        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">conv1</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">nn</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">Conv2d</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">6</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">)</span>
+        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">conv2</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">nn</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">Conv2d</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">6</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">16</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">)</span>
+        <span style="color:#8f5902;font-style:italic"># an affine operation: y = Wx + b</span>
+        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fc1</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">nn</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">Linear</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">16</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#0000cf;font-weight:bold">6</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#0000cf;font-weight:bold">6</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">120</span><span style="color:#000;font-weight:bold">)</span>  <span style="color:#8f5902;font-style:italic"># 6*6 from image dimension </span>
+        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fc2</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">nn</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">Linear</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">120</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">84</span><span style="color:#000;font-weight:bold">)</span>
+        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fc3</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">nn</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">Linear</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">84</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">)</span>
+
+    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">forward</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">x</span><span style="color:#000;font-weight:bold">):</span>
+        <span style="color:#8f5902;font-style:italic"># Max pooling over a (2, 2) window</span>
+        <span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">F</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">max_pool2d</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">F</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">relu</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">conv1</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span><span style="color:#000;font-weight:bold">)),</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">))</span>
+        <span style="color:#8f5902;font-style:italic"># If the size is a square you can only specify a single number</span>
+        <span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">F</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">max_pool2d</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">F</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">relu</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">conv2</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span><span style="color:#000;font-weight:bold">)),</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span>
+        <span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">x</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">view</span><span style="color:#000;font-weight:bold">(</span><span style="color:#ce5c00;font-weight:bold">-</span><span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">num_flat_features</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span><span style="color:#000;font-weight:bold">))</span>
+        <span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">F</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">relu</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fc1</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span><span style="color:#000;font-weight:bold">))</span>
+        <span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">F</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">relu</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fc2</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span><span style="color:#000;font-weight:bold">))</span>
+        <span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">fc3</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span><span style="color:#000;font-weight:bold">)</span>
+        <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">x</span>
+
+    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">num_flat_features</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">x</span><span style="color:#000;font-weight:bold">):</span>
+        <span style="color:#000">size</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">x</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">size</span><span style="color:#000;font-weight:bold">()[</span><span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">:]</span>  <span style="color:#8f5902;font-style:italic"># all dimensions except the batch dimension</span>
+        <span style="color:#000">num_features</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">1</span>
+        <span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">s</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">size</span><span style="color:#000;font-weight:bold">:</span>
+            <span style="color:#000">num_features</span> <span style="color:#ce5c00;font-weight:bold">*=</span> <span style="color:#000">s</span>
+        <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">num_features</span>
+
+
+<span style="color:#000">net</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Net</span><span style="color:#000;font-weight:bold">()</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">net</span><span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#8f5902;font-style:italic"># params</span>
+<span style="color:#000">params</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87">list</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">net</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">parameters</span><span style="color:#000;font-weight:bold">())</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87">len</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">params</span><span style="color:#000;font-weight:bold">))</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">params</span><span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">size</span><span style="color:#000;font-weight:bold">())</span>
+</code></pre></div><hr>
 <h3 id="reference">Reference</h3>
 <ul>
-<li><a href="https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html">pytorch 60 min</a></li>
+<li><a href="https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html">pytorch 60 min</a>
+<ul>
+<li><a href="https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/3c2b25b8a9f72db7780a6bf9b5fc9f62/tensor_tutorial.ipynb#scrollTo=DvankvOHqDcz">tensor</a></li>
+<li><a href="https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/009cea8b0f40dfcb55e3280f73b06cc2/autograd_tutorial.ipynb">autograd_tutorial.ipynb</a></li>
+</ul>
+</li>
 <li><a href="https://pytorch.org/">pytorch</a></li>
 <li><a href="https://www.kaggle.com/kanncaa1/pytorch-tutorial-for-deep-learning-lovers">pytorch kaggle</a></li>
+<li><a href="https://classroom.udacity.com/courses/ud188/lessons/b4ca7aaa-b346-43b1-ae7d-20d27b2eab65/concepts/3a0e2972-89dc-4b08-826a-1011b9b554ac">udacity</a></li>
 </ul>
 
 	
