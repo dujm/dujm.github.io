@@ -48,7 +48,15 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.data-to-viz.com/&#34;&gt;data-to-viz guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;which-tools-are-good-for-data-visualization&#34;&gt;Which tools are good for data visualization?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://holoviews.org/getting_started/Introduction.html&#34;&gt;HoloViews&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;conda install -c pyviz holoviews bokeh
 
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# If you are working with a JupyterLab version &amp;lt;2.0 you will also need the PyViz JupyterLab extension&lt;/span&gt;
+jupyter labextension install @pyviz/jupyterlab_pyviz
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     

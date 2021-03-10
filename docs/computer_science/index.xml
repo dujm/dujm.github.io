@@ -102,6 +102,57 @@ Analog vs. digital&lt;/li&gt;
     </item>
     
     <item>
+      <title>Docs: HPC</title>
+      <link>/docs/computer_science/hpc/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/hpc/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;high-peformance-computing&#34;&gt;High Peformance Computing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;About distributing &lt;strong&gt;storage&lt;/strong&gt; and &lt;strong&gt;processing&lt;/strong&gt; over many processors.&lt;/li&gt;
+&lt;li&gt;Not just hardware, but also software to manage the execution of the tasks on ha rdware
+&lt;ul&gt;
+&lt;li&gt;This is why we need the orchestration softwares.&lt;/li&gt;
+&lt;li&gt;e.g. The AlphaGo distributed processing on many different GPUs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;distributed-machine-learning&#34;&gt;Distributed Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Different models can be trained in parallel using different subsets of the data, and then the results can be merged.&lt;/li&gt;
+&lt;li&gt;The operation of a single but large model can be distributed over many processors.
+&lt;ul&gt;
+&lt;li&gt;e.g. A deep NN which have many layers, parts of it can be run on different processors working as a pipeline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;time-and-space&#34;&gt;Time and Space&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Machine learning is not just a component in a product.&lt;/li&gt;
+&lt;li&gt;Time and space sometimes are more important than accuracy
+&lt;ul&gt;
+&lt;li&gt;Time: a self-driving car in a real world only has limited amount of time to decide whether there is pedestrian on the road or not.
+&lt;ul&gt;
+&lt;li&gt;The accuracy of the recognizer becomes irrelevent when it can not decide fast enough.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Space: IoT devices have limited computing power.
+&lt;ul&gt;
+&lt;li&gt;Such systems may be making decisions on site or may just work as smart processors of the signal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: IoT</title>
       <link>/docs/computer_science/iot/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>

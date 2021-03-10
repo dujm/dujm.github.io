@@ -2407,5 +2407,21 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
       </description>
     </item>
     
+    <item>
+      <title>Docs: Random Thoughts</title>
+      <link>/docs/swiss-knives/thoughts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/swiss-knives/thoughts/</guid>
+      <description>
+        
+        
+        &lt;blockquote&gt;
+&lt;p&gt;物来顺应，未来不迎，当时不杂 — 曾国藩&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
