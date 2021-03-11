@@ -4064,6 +4064,33 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     </item>
     
     <item>
+      <title>Docs: Feature Engineering Books</title>
+      <link>/docs/machinelearning/feature/engineering/books/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/feature/engineering/books/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
+&lt;h3 id=&#34;feature-engineering-for-machine-learning&#34;&gt;Feature Engineering for Machine Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Author: Alice Zheng and Amanda Casari.&lt;/li&gt;
+&lt;li&gt;Version:  O&amp;rsquo;Reilly, 2018&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alicezheng/feature-engineering-book&#34;&gt;GitHub Noteboos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;feature-engineering-made-easy&#34;&gt;Feature Engineering Made Easy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Authors: Sinan Ozdemir, Divya Susarla&lt;/li&gt;
+&lt;li&gt;Version:  Packt, 2018&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/PacktPublishing/Feature-Engineering-Made-Easy&#34;&gt;GitHub Noteboos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Feature Stores</title>
       <link>/docs/machinelearning/models/feature/feature-stores/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
@@ -6742,23 +6769,6 @@ Strict inequality will not convert data types.&lt;/p&gt;
 &lt;h3 id=&#34;gans&#34;&gt;GANs&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/dimitreoliveira/introduction-to-cyclegan-monet-paintings&#34;&gt;introduction-to-cyclegan-monet-paintings&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Image Processing</title>
-      <link>/docs/data/visual-art/image-processing/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/data/visual-art/image-processing/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/overview.html&#34;&gt;scikit-image&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
