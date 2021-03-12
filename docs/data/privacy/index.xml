@@ -14,5 +14,23 @@
       
     
     
+    <item>
+      <title>Docs: Differential Privacy</title>
+      <link>/docs/data/privacy/differential-privacy/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/privacy/differential-privacy/</guid>
+      <description>
+        
+        
+        &lt;br&gt; 
+&lt;p&gt;&lt;a href=&#34;https://github.com/google/differential-privacy&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Google&amp;rsquo;s differential privacy library can be used to produce aggregate statistics over numeric data sets containing private or sensitive information. The functionality is currently available in C++ and Java.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

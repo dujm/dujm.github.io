@@ -1,0 +1,35 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Algorithms</title>
+    <link>/docs/machinelearning/models/supervised/classification/algorithms/</link>
+    <description>Recent content in Algorithms on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/models/supervised/classification/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Naive Bayes</title>
+      <link>/docs/machinelearning/models/supervised/classification/algorithms/-naive-bayes/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/supervised/classification/algorithms/-naive-bayes/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/x8-the-ai-community/a-simple-introduction-to-naive-bayes-23538a0395a&#34;&gt;A Simple Introduction to Naive Bayes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

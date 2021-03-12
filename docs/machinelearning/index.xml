@@ -15,11 +15,11 @@
     
     
     <item>
-      <title>Docs: AI</title>
-      <link>/docs/machinelearning/ai/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Courses</title>
+      <link>/docs/machinelearning/courses/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/ai/</guid>
+      <guid>/docs/machinelearning/courses/</guid>
       <description>
         
         
@@ -28,24 +28,11 @@
     </item>
     
     <item>
-      <title>Docs: CV</title>
-      <link>/docs/machinelearning/cv/</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Explainability</title>
+      <link>/docs/machinelearning/explainability/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/cv/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: NLP</title>
-      <link>/docs/machinelearning/nlp/</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/nlp/</guid>
+      <guid>/docs/machinelearning/explainability/</guid>
       <description>
         
         
@@ -63,19 +50,6 @@
         
         
         
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Courses</title>
-      <link>/docs/machinelearning/courses/</link>
-      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/courses/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
       </description>
     </item>
     
@@ -162,32 +136,6 @@
     </item>
     
     <item>
-      <title>Docs: Explainability</title>
-      <link>/docs/machinelearning/explainability/</link>
-      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/explainability/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Privacy</title>
-      <link>/docs/machinelearning/privacy/</link>
-      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/privacy/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: Projects</title>
       <link>/docs/machinelearning/projects/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
@@ -202,6 +150,20 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/dujm/Health_PrecisionMedicine&#34;&gt;NLP Application in Personalized Medicine&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/dujm/kaggle_quora&#34;&gt;NLP Text Classification of Quora Questsions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Workflow</title>
+      <link>/docs/machinelearning/workflow/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/workflow/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
 
       </description>
     </item>
