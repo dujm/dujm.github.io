@@ -4,7 +4,7 @@
     <link>/docs/machinelearning/feature/</link>
     <description>Recent content in Features on DJ&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="/docs/machinelearning/feature/index.xml" rel="self" type="application/rss+xml" />
     
@@ -24,6 +24,47 @@
         
         
         
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Feature Stores</title>
+      <link>/docs/machinelearning/feature/stores/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/feature/stores/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;features-should-be-treated-as-first-class-entities&#34;&gt;Features should be treated as first-class entities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=EI2QisCvEM4&#34;&gt;The Feature Store - Jim Dowling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Feature Selection</title>
+      <link>/docs/machinelearning/feature/selection/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/feature/selection/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;how-to-choose-a-feature-selection-method-for-machine-learning&#34;&gt;How to Choose a Feature Selection Method For Machine Learning?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/&#34;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/Overview-of-Feature-Selection-Techniques3.png&#34; alt=&#34;Feature Selection&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/&#34;&gt;Image from Jason Brownlee&lt;/a&gt;&lt;/p&gt;
+ &lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/How-to-Choose-Feature-Selection-Methods-For-Machine-Learning.png&#34; alt=&#34;Choose a Feature Selection Method&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/&#34;&gt;Image from Jason Brownlee&lt;/a&gt;&lt;/p&gt;
+
       </description>
     </item>
     
