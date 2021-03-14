@@ -299,10 +299,20 @@ functions to make this guess.&lt;/li&gt;
 &lt;li&gt;PyTorch Lightning&lt;/li&gt;
 &lt;li&gt;TorchBearer&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;serve&#34;&gt;Serve&lt;/h3&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;serve&#34;&gt;Serve&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/pytorch/serve&#34;&gt;Model Serving on PyTorch&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/pytorch/serve/blob/master/docs/README.md&#34;&gt;Full Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;models&#34;&gt;Models&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rwightman/pytorch-image-models&#34;&gt;timm&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pip install timm&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

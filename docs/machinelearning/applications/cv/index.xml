@@ -15,6 +15,20 @@
     
     
     <item>
+      <title>Docs: Methods</title>
+      <link>/docs/machinelearning/applications/cv/methods/</link>
+      <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/applications/cv/methods/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Papers</title>
       <link>/docs/machinelearning/applications/cv/papers/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
@@ -36,42 +50,11 @@
       <description>
         
         
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Methods</title>
-      <link>/docs/machinelearning/applications/cv/methods/</link>
-      <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/applications/cv/methods/</guid>
-      <description>
-        
-        
         &lt;br&gt;
-&lt;h2 id=&#34;harris-corner-detection&#34;&gt;Harris Corner Detection&lt;/h2&gt;
+&lt;h2 id=&#34;image-processing&#34;&gt;Image Processing&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;R Score
-&lt;ul&gt;
-&lt;li&gt;R &amp;laquo; Edge&lt;/li&gt;
-&lt;li&gt;R ≈ 0 Flat&lt;/li&gt;
-&lt;li&gt;R &amp;raquo; Corner&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=veieEffgd5A&#34;&gt;Kixcodes explaines Image Processing - Harris Corner Detection&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;/img/models/harris_region.jpg&#34; alt=&#34;Basic Idea&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;/img/models/harris_region.jpg&#34;&gt;Basic Idea&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;opencv-function&#34;&gt;OpenCV Function&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/3.4/dc/d0d/tutorial_py_features_harris.html&#34;&gt;Theory&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Functions
-&lt;ul&gt;
-&lt;li&gt;cv.cornerHarris()&lt;/li&gt;
-&lt;li&gt;cv.cornerSubPix()&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/&#34;&gt;sckit-image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/albumentations-team/albumentations&#34;&gt;Albumentations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

@@ -39,5 +39,61 @@
       </description>
     </item>
     
+    <item>
+      <title>Docs: Noise</title>
+      <link>/docs/machinelearning/optimization/noise/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/optimization/noise/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;what-is-noise&#34;&gt;What is noise?&lt;/h2&gt;
+&lt;p&gt;Noise is any unwanted anomaly in the data.&lt;/p&gt;
+&lt;h2 id=&#34;what-does-noise-do&#34;&gt;What does noise do?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Due to noise, the class may be difficult to learn.&lt;/li&gt;
+&lt;li&gt;Zero error may be infeasible with a simple hypothesis class.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-causes-noise&#34;&gt;What causes noise?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Imprecision in recording the input attributes&lt;/li&gt;
+&lt;li&gt;Teacher noise: errors in labeling the data&lt;/li&gt;
+&lt;li&gt;Hidden or latent attributes: additional attributes that have not been taken into account.
+&lt;ul&gt;
+&lt;li&gt;The effect of these neglected attributes is modeled as a random component and included in the noise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-choose-a-model-when-there-is-noise&#34;&gt;How to choose a model when there is noise?&lt;/h2&gt;
+&lt;p&gt;Choose a simpler model unless the training errors are big&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Easy to use
+&lt;ul&gt;
+&lt;li&gt;Easy to check for a future data instance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Easy to train with fewer parameters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;less variance but more bias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Easy to explain
+&lt;ul&gt;
+&lt;li&gt;less affected by noise (e.g. mislabeling)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;occams-razor&#34;&gt;Occam&amp;rsquo;s razor&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Simpler explanations are more plausible&lt;/li&gt;
+&lt;li&gt;Any unessary complexity should be shaved off&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

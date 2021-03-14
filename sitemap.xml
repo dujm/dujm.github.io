@@ -163,12 +163,12 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/graph-nn/applications/</loc>
+    <loc>/docs/machinelearning/applications/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/applications/cv/papers/</loc>
+    <loc>/docs/machinelearning/models/graph-nn/applications/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -405,11 +405,6 @@
   <url>
     <loc>/docs/machinelearning/frameworks/pytorch/pytorch-toolkit/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/machinelearning/applications/cv/tools/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -962,6 +957,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/applications/cv/methods/hc/</loc>
+    <lastmod>2021-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/math/intro/probability/s110_l07_l08_random_variables_distributions/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
   </url>
@@ -1107,7 +1107,7 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/supervised/noise/</loc>
+    <loc>/docs/machinelearning/optimization/noise/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -1142,6 +1142,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/applications/cv/papers/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/python/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
@@ -1158,7 +1163,7 @@
   
   <url>
     <loc>/blog/2021/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1197,6 +1202,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/applications/cv/methods/transformers/</loc>
+    <lastmod>2021-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/coding/functional-coding/python/typed/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
@@ -1212,6 +1222,11 @@
   </url>
   
   <url>
+    <loc>/docs/machinelearning/applications/cv/tools/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2019/</loc>
     <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url>
@@ -1222,22 +1237,23 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/thoughts/</loc>
-  </url>
-  
-  <url>
     <loc>/docs/healthcare/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2021-03-13T00:00:00+00:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2021-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2021-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2021/03/14/random-thoughts/</loc>
+    <lastmod>2021-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
