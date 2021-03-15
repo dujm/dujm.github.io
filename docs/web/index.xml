@@ -244,6 +244,17 @@ git commit &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;initial commit&amp
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h3 id=&#34;6-insert-videos&#34;&gt;6. Insert videos&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use short codes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt; 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/vzEcdzi0dgs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Use html codes&lt;/li&gt;
+&lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;parent&amp;quot;&amp;gt;
       &amp;lt;div class=&amp;quot;child&amp;quot; style=&amp;quot;position: relative; padding-bottom: 50%; height: 0; overflow: hidden;&amp;quot;&amp;gt;
       &amp;lt;iframe src=&amp;quot;https://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/BipedalWalker-v2/original.mp4&amp;quot; style=&amp;quot;position: absolute; top: 0; left: 0; width: 40%; height: 40%; border:0;&amp;quot; allowfullscreen title=&amp;quot;BipedalWalker-v2&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;
