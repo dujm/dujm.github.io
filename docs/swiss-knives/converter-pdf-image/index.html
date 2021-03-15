@@ -32,7 +32,7 @@ Converting image to pdf on Linux mkdir out # convert convert out-Bulldog." />
 Converting image to pdf on Linux mkdir out # convert convert out-Bulldog.">
 <meta itemprop="datePublished" content="2020-11-30T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-11-30T00:00:00+00:00" />
-<meta itemprop="wordCount" content="157">
+<meta itemprop="wordCount" content="186">
 
 
 
@@ -132,7 +132,7 @@ Converting image to pdf on Linux mkdir out # convert convert out-Bulldog."/>
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.59125f5a94b5b7409699cbd57f7bb3594fd50b8149e0c3c293ddfe57c849228e79899d4a6eaad4a3514e7afe9b09d7b24e39064d695bb853b4e41add2cbcaf4b.json"
+  data-offline-search-index-json-src="/offline-search-index.185363af2c5cc1cf38976a8500d821fbbb680aaaa575bb97066f7c55631cc66d6d3ce87b9b91f96f6d98be728761f4af469ffe24b9fab045e9606fc88132ae2d.json"
   data-offline-search-base-href="/"
 >
 
@@ -162,7 +162,7 @@ Converting image to pdf on Linux mkdir out # convert convert out-Bulldog."/>
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.59125f5a94b5b7409699cbd57f7bb3594fd50b8149e0c3c293ddfe57c849228e79899d4a6eaad4a3514e7afe9b09d7b24e39064d695bb853b4e41add2cbcaf4b.json"
+  data-offline-search-index-json-src="/offline-search-index.185363af2c5cc1cf38976a8500d821fbbb680aaaa575bb97066f7c55631cc66d6d3ce87b9b91f96f6d98be728761f4af469ffe24b9fab045e9606fc88132ae2d.json"
   data-offline-search-base-href="/"
 >
 
@@ -3009,14 +3009,14 @@ Converting image to pdf on Linux mkdir out # convert convert out-Bulldog."/>
 
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#converting-pdf-to-image-on-linux">Converting pdf to image on Linux</a>
       <ul>
-        <li><a href="#converting-pdf-to-image-on-linux">Converting pdf to image on Linux</a></li>
         <li><a href="#converting-image-to-pdf-on-linux">Converting image to pdf on Linux</a></li>
         <li><a href="#compress-files-if-needed">Compress files if needed</a></li>
         <li><a href="#ref">Ref</a></li>
       </ul>
     </li>
+    <li><a href="#convert-image-to-pdf">Convert Image to PDF</a></li>
   </ul>
 </nav>
 
@@ -3066,7 +3066,7 @@ Converting image to pdf on Linux mkdir out # convert convert out-Bulldog."/>
 	<h1>Converter PDF - Image</h1>
 	
 	<br>
-<h3 id="converting-pdf-to-image-on-linux">Converting pdf to image on Linux</h3>
+<h2 id="converting-pdf-to-image-on-linux">Converting pdf to image on Linux</h2>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8f5902;font-style:italic"># Syntax</span>
 <span style="color:#8f5902;font-style:italic"># pdftoppm {input.pdf} {output.file} -png</span>
 <span style="color:#8f5902;font-style:italic"># Example</span>
@@ -3111,10 +3111,19 @@ mkdir output
 <ul>
 <li><a href="https://www.cyberciti.biz/faq/how-to-convert-pdf-to-image-on-linux-command-line/">How to convert pdf to image on Linux command line</a></li>
 </ul>
- <br>
 <p><img src="https://secure.img1-fg.wfcdn.com/im/71066008/compr-r85/4307/43074606/sitting-sleepy-bulldog-puppy-statue.jpg" alt="Bull Dog"><br>
 <a href="https://secure.img1-fg.wfcdn.com/im/71066008/compr-r85/4307/43074606/sitting-sleepy-bulldog-puppy-statue.jpg">Image source</a></p>
-
+ <br>
+<h2 id="convert-image-to-pdf">Convert Image to PDF</h2>
+<ul>
+<li>[Ref](<a href="https://github.com/madmaze/pytesseract">https://github.com/madmaze/pytesseract</a></li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#8f5902;font-style:italic"># Get a searchable PDF</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">pytesseract</span>
+<span style="color:#000">pdf</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">pytesseract</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">image_to_pdf_or_hocr</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;test.png&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">extension</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;pdf&#39;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#204a87;font-weight:bold">with</span> <span style="color:#204a87">open</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;test.pdf&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;w+b&#39;</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">f</span><span style="color:#000;font-weight:bold">:</span>
+    <span style="color:#000">f</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">write</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">pdf</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic"># pdf type is bytes by default</span>
+</code></pre></div>
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified November 30, 2020
