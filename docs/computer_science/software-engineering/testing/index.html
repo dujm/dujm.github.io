@@ -132,7 +132,7 @@ Testing Basics  Eliminating syntax errors and static semantic errors  python can
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.874002b4dcbd5bab5d660e7644abb131bc6d7c4f83d2c2c7f2ab9793c8cf3515772af038121dacec509f47ffe34743a2820cb5aee0f2e2ddbf7548171b7c67cc.json"
+  data-offline-search-index-json-src="/offline-search-index.ecb8ff5535abf7178a06b757b40b65e0ccfd1a1ed04260a484c091be4adfc6b4fc6d7374b4e98a8ef4b009a0bb105d26f0cb1cddaf8474321f97281bc6a1618f.json"
   data-offline-search-base-href="/"
 >
 
@@ -162,7 +162,7 @@ Testing Basics  Eliminating syntax errors and static semantic errors  python can
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.874002b4dcbd5bab5d660e7644abb131bc6d7c4f83d2c2c7f2ab9793c8cf3515772af038121dacec509f47ffe34743a2820cb5aee0f2e2ddbf7548171b7c67cc.json"
+  data-offline-search-index-json-src="/offline-search-index.ecb8ff5535abf7178a06b757b40b65e0ccfd1a1ed04260a484c091be4adfc6b4fc6d7374b4e98a8ef4b009a0bb105d26f0cb1cddaf8474321f97281bc6a1618f.json"
   data-offline-search-base-href="/"
 >
 
@@ -3216,10 +3216,14 @@ python3 -c <span style="color:#4e9a06">&#34;from test0 import test_prime; test_p
 <li>explore paths through code</li>
 <li>use code to directly guide design of testing cases</li>
 <li>path complete: if every potential path through code is tested at least once</li>
-<li>drawbacks:</li>
+<li>drawbacks:
+<ul>
 <li>can go through loops arbitrarily many times</li>
 <li>missing paths</li>
-<li>guidelines:</li>
+</ul>
+</li>
+<li>guidelines:
+<ul>
 <li>branches: exercises all parts of a conditional</li>
 <li>for loops:
 <ul>
@@ -3232,6 +3236,8 @@ python3 -c <span style="color:#4e9a06">&#34;from test0 import test_prime; test_p
 <ul>
 <li>same as for loops</li>
 <li>cases that catch all ways to exit loop</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

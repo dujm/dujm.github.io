@@ -35,11 +35,10 @@
 &lt;ul&gt;
 &lt;li&gt;Time efficiency: Faster? Time complexity&lt;/li&gt;
 &lt;li&gt;Space efficiency: Less memory intensive?&lt;/li&gt;
-&lt;li&gt;More readable ?&lt;/li&gt;
+&lt;li&gt;More readable?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;big-o-notation&#34;&gt;Big O Notation&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dujm.github.io/docs/computer_science/software-engineering/big-o/&#34;&gt;My summary&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bigocheatsheet.com/&#34;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;n: the length of input to your function&lt;/li&gt;
 &lt;li&gt;Approximation: Worst, average, best case&lt;/li&gt;
@@ -992,10 +991,14 @@ python3 -c &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;from test0 import 
 &lt;li&gt;explore paths through code&lt;/li&gt;
 &lt;li&gt;use code to directly guide design of testing cases&lt;/li&gt;
 &lt;li&gt;path complete: if every potential path through code is tested at least once&lt;/li&gt;
-&lt;li&gt;drawbacks:&lt;/li&gt;
+&lt;li&gt;drawbacks:
+&lt;ul&gt;
 &lt;li&gt;can go through loops arbitrarily many times&lt;/li&gt;
 &lt;li&gt;missing paths&lt;/li&gt;
-&lt;li&gt;guidelines:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;guidelines:
+&lt;ul&gt;
 &lt;li&gt;branches: exercises all parts of a conditional&lt;/li&gt;
 &lt;li&gt;for loops:
 &lt;ul&gt;
@@ -1008,6 +1011,8 @@ python3 -c &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;from test0 import 
 &lt;ul&gt;
 &lt;li&gt;same as for loops&lt;/li&gt;
 &lt;li&gt;cases that catch all ways to exit loop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
