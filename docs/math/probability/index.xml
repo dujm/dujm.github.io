@@ -15,6 +15,184 @@
     
     
     <item>
+      <title>Docs: Bayes Theorem</title>
+      <link>/docs/math/probability/bayes-theorem/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/probability/bayes-theorem/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.greenteapress.com/thinkbayes/thinkbayes.pdf&#34;&gt;Think Bayes by Allen B. Downey, free book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-does-bayes-theorem-do&#34;&gt;What does Bayes Theorem do?&lt;/h3&gt;
+&lt;p&gt;It helps us to update a hypothesis based on new evidence.&lt;/p&gt;
+&lt;h3 id=&#34;terms&#34;&gt;Terms&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Base Rate Fallacy (Base Rate Neglect): If presented with related &lt;strong&gt;base rate information&lt;/strong&gt; (i.e., general information on prevalence) and &lt;strong&gt;specific information&lt;/strong&gt; (i.e., information pertaining only to a specific case), people tend to &lt;strong&gt;ignore the base rate&lt;/strong&gt; in favor of the individuating information, rather than correctly integrating the two.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://thedecisionlab.b-cdn.net/wp-content/uploads/2020/09/base-rate-fallacy.jpg&#34; alt=&#34;stereotypes&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://thedecisionlab.b-cdn.net/wp-content/uploads/2020/09/base-rate-fallacy.jpg&#34;&gt;Image from thedecisionlab&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Birthday</title>
+      <link>/docs/math/probability/s110_l03_birthday/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/probability/s110_l03_birthday/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;what-is-pigeonhole-principle&#34;&gt;What is pigeonhole principle?&lt;/h3&gt;
+&lt;p&gt;If $n$ items are put into $m$ containers, with $n &amp;gt; m$ then at least one container must contain more than one item.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34; alt=&#34;pigeonhole principle&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34;&gt;pigeonhole principle&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;what-is-the-probability-of-two-people-among-k-people-having-the-same-birthday&#34;&gt;What is the probability of two people among $k$ people having the same birthday?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If $k &amp;gt; 366$, $P = 1$&lt;/li&gt;
+&lt;li&gt;If $k&amp;lt;366$, what is the minimal $k$ to get $P \approx 0.5$?
+&lt;ul&gt;
+&lt;li&gt;$P_{no match} = \frac{365 \cdot 364 \dots (365-k+1)}{365^k}$&lt;/li&gt;
+&lt;li&gt;$P_{match} = 1- P_{no match}$
+&lt;ul&gt;
+&lt;li&gt;$0.51$, $k =23$&lt;/li&gt;
+&lt;li&gt;$0.97$, $k =50$&lt;/li&gt;
+&lt;li&gt;$0.99999$, $k =100$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Let&amp;rsquo;s build some intuition of $P_{match} = \binom{k}{2}$
+&lt;ul&gt;
+&lt;li&gt;$\binom{23}{2} = \frac{23 \cdot 22}{2} =253$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;probability-properties&#34;&gt;Probability Properties&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;$P_{(A^c)} = 1-P_{(A)}$&lt;/li&gt;
+&lt;li&gt;$P_{(A)} \le P_{(B)}$ if $A$ is contained in $B$ ($A \in B$)
+&lt;ul&gt;
+&lt;li&gt;$B= A {\bigcup} (B \bigcap A^c)$, disjoint&lt;/li&gt;
+&lt;li&gt;$P_{(B)} = P_{(A)} + P_{(B \bigcap A^c)} \ge P_{(A)}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$P_{A \bigcup B} =P_{(A)} + P_{(B)} - P_{(A \bigcap B)}$&lt;/li&gt;
+&lt;li&gt;$P_{A \bigcup B \bigcup} =P_{(A)} + P_{(B)} + P_{(C)} - P_{(A \bigcap B)}- P_{(A \bigcap C)}- P_{(B \bigcap C)} + P_{(A \bigcap B \bigcap C)}$&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752&#34;&gt;General Case&lt;/a&gt;&lt;br&gt;
+&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752&#34; alt=&#34;General&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34; alt=&#34;Inclusion–exclusion illustrated by a Venn diagram for three sets&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34;&gt;Inclusion–exclusion illustrated by a Venn diagram for three sets&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;de-montmorts-problem&#34;&gt;De Montmort&amp;rsquo;s Problem&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;1713&lt;/li&gt;
+&lt;li&gt;matching problem for gambling
+&lt;ul&gt;
+&lt;li&gt;$n$ cards, labeled $1, 2, 3, &amp;hellip;, n$, let $A_j$ be the event with matches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$P_{(A_1 \bigcup A_2 \bigcup \dots \bigcup A_n)} \approx 1- \frac{1}{e}$&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Conditional Probability</title>
+      <link>/docs/math/probability/s110_l04_conditional_probability/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/probability/s110_l04_conditional_probability/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Conditioning – the soul of statistics&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;br&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Thinking conditionally – a condition for thinking&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;independence-means-multiplication&#34;&gt;Independence means multiplication&lt;/h3&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;newtonpepys-problem-another-gambling-problem-&#34;&gt;Newton–Pepys problem: another gambling problem 🎲&lt;/h3&gt;
+&lt;p&gt;Which of the following three propositions has the greatest chance of success?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A. Six fair dice are tossed independently and at least one “6” appears.&lt;/li&gt;
+&lt;li&gt;B. Twelve fair dice are tossed independently and at least two “6”s appear.&lt;/li&gt;
+&lt;li&gt;C. Eighteen fair dice are tossed independently and at least three “6”s appear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/600cae735b31b4b7eedd4bf6993f00f8c2ca12db&#34; alt=&#34;Newton–Pepys problem&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f2ec31fa405ee2da878b9989baa1b5387025dce1&#34; alt=&#34;Newton–Pepys problem&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f2f2780521f3bc5e4ececb4ea588ed11f152b1ef&#34; alt=&#34;Newton–Pepys problem&#34;&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;conditional-probability-&#34;&gt;Conditional probability 🏄‍♂️&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;How do you update probabilities/beliefs/uncertainty based on new evidence?&lt;/li&gt;
+&lt;li&gt;Do you update in a coherent, consistent, and logical manner?&lt;/li&gt;
+&lt;li&gt;$posterior = \frac{prior x likelihood}{evidence}$&lt;/li&gt;
+&lt;li&gt;$P_{(A | B)} = \frac{P_{(A \bigcap B)}}{P_{(B)}}$ if $P_{(B)} &amp;gt; 0$&lt;/li&gt;
+&lt;li&gt;$P_{(A \bigcap B)} = P_{(B)} P_{(A|B)} = P_{(A)} P_{(B|A)}$&lt;/li&gt;
+&lt;li&gt;$P_{(A | B)} = \frac{P_{(B | A)}P_{(A)}}{P_{(B)}}$  ❤️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;how-do-you-solve-a-problem&#34;&gt;How do you solve a problem?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Try simple and extreme conditions&lt;/li&gt;
+&lt;li&gt;Try to decompose a complex problem into simpler pieces&lt;/li&gt;
+&lt;li&gt;Try Richard Feynman&amp;rsquo;s approach
+&lt;ul&gt;
+&lt;li&gt;Write down the problem&lt;/li&gt;
+&lt;li&gt;Think hard about it 🤔🤔🤔&lt;/li&gt;
+&lt;li&gt;Write down the solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_problem&#34;&gt;Newton–Pepys problem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Monty Hall, Simpson&#39;s Paradox</title>
+      <link>/docs/math/probability/s110_l06_montyhall/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/probability/s110_l06_montyhall/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Probability and Counting</title>
       <link>/docs/math/probability/s110_l01_probability_and_counting/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
@@ -24,7 +202,7 @@
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;probability-and-life&#34;&gt;Probability and Life&lt;/h4&gt;
+&lt;h3 id=&#34;probability-and-life&#34;&gt;Probability and Life&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Genetics&lt;/li&gt;
 &lt;li&gt;Finance&lt;/li&gt;
@@ -48,11 +226,11 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;what-is-a-sample-space-s&#34;&gt;What is a sample space &lt;code&gt;S&lt;/code&gt;?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-a-sample-space-s&#34;&gt;What is a sample space &lt;code&gt;S&lt;/code&gt;?&lt;/h3&gt;
 &lt;p&gt;The set of all possible outcomes of a (random) experiment.&lt;/p&gt;
-&lt;h4 id=&#34;what-is-an-event&#34;&gt;What is an event?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-an-event&#34;&gt;What is an event?&lt;/h3&gt;
 &lt;p&gt;A subset of the sample space.&lt;/p&gt;
-&lt;h4 id=&#34;what-is-probability&#34;&gt;What is probability?&lt;/h4&gt;
+&lt;h3 id=&#34;what-is-probability&#34;&gt;What is probability?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;The very naive definition of $P_{(A)}$
 &lt;ul&gt;
@@ -91,7 +269,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;what-are-some-basic-principles-of-counting&#34;&gt;What are some basic principles of counting?&lt;/h4&gt;
+&lt;h3 id=&#34;what-are-some-basic-principles-of-counting&#34;&gt;What are some basic principles of counting?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Multiplication rules:&lt;/p&gt;
@@ -118,7 +296,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;how-to-choose-k-objects-out-of-n&#34;&gt;How to choose $k$ objects out of $n$?&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-choose-k-objects-out-of-n&#34;&gt;How to choose $k$ objects out of $n$?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Sampling table&lt;/li&gt;
 &lt;/ul&gt;
@@ -198,14 +376,20 @@
 &lt;p&gt;&lt;img src=&#34;https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-1.1.0&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=496&amp;amp;fit=clip&#34; alt=&#34;icecream&#34;&gt;&lt;br&gt;
 &lt;a href=&#34;https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-1.1.0&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=496&amp;amp;fit=clip&#34;&gt;Image Source&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KbB0FjPg0mw&amp;amp;list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&amp;amp;index=1&#34;&gt;Lecture 1: Probability and Counting | Statistics 110&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KbB0FjPg0mw&amp;amp;list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&amp;amp;index=1&#34;&gt;Lecture 1: Probability and Counting | Statistics 110&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/buruzaemon/stats-110&#34;&gt;GitHub notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1VmkAAGOYCTORq1wxSQqy255qLJjTNvBI/view&#34;&gt;The book provided by authors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/introduction-to-probability&#34;&gt;edx course&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vTs2IQ8OefQ&#34;&gt;Financial Theory (ECON 251)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.amazon.de/Introduction-Quantitative-Finance-Stephen-Blyth/dp/0199666598&#34;&gt;An Introduction to Quantitative Finance by Stephen Blyth&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;terms&#34;&gt;Terms&lt;/h4&gt;
+&lt;h3 id=&#34;terms&#34;&gt;Terms&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate&#34;&gt;Bose-Einstein condensate (BEC)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -225,6 +409,80 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     </item>
     
     <item>
+      <title>Docs: Random Variables and Distributions</title>
+      <link>/docs/math/probability/s110_l07_l08_random_variables_distributions/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/probability/s110_l07_l08_random_variables_distributions/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;gamblers-rules&#34;&gt;Gambler&amp;rsquo;s Rules&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;i&lt;/td&gt;
+&lt;td&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Difference equation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$q=1-p$&lt;/li&gt;
+&lt;li&gt;$p_i = pp_{i+1} + qp_{i-1}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Differential equation
+An equation that relates one or more functions and their derivatives&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;random-variables&#34;&gt;Random variables&lt;/h3&gt;
+&lt;p&gt;A function from the sample space S to the rea lline&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;bernoulli-distribution&#34;&gt;Bernoulli distribution&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Bernoulli distribution, named after Swiss mathematician Jacob Bernoulli, is the discrete probability distribution of a random variable which takes the value 1 with probability $p$ and the value 0 with probability $q = 1 − p$.
+&lt;ul&gt;
+&lt;li&gt;$P_{x=1} = p$&lt;/li&gt;
+&lt;li&gt;$P_{x=0} = 1-p$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;binomial-distribution&#34;&gt;Binomial distribution&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In n independent Bernoulli trails, e.g. flipping a coin $n$ times, the distribution of success is called Binomial distribution&lt;/li&gt;
+&lt;li&gt;Indicator variables&lt;/li&gt;
+&lt;li&gt;Independent and identically distributed (iid)&lt;/li&gt;
+&lt;li&gt;Probability Math Function (PMF)
+&lt;ul&gt;
+&lt;li&gt;$P_{(x=k)} = p^k(1-p)^{n-k}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Binomial Distribution vs Normal Distribution:
+&lt;ul&gt;
+&lt;li&gt;Normal distribution describes continuous data which have a symmetric distribution, with a characteristic &amp;lsquo;bell&amp;rsquo; shape.&lt;/li&gt;
+&lt;li&gt;Binomial distribution describes the distribution of binary data from a finite sample. Thus it gives the probability of getting r events out of n trials.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Story Proofs, Axioms of Probability</title>
       <link>/docs/math/probability/s110_l02_story_proofs_axioms_probability/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
@@ -234,7 +492,7 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
         
         
         &lt;br&gt;
-&lt;h4 id=&#34;story-proof&#34;&gt;Story Proof&lt;/h4&gt;
+&lt;h3 id=&#34;story-proof&#34;&gt;Story Proof&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Proof by interpretation
 &lt;ul&gt;
@@ -267,11 +525,11 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Alexandre-Th%C3%A9ophile_Vandermonde&#34;&gt;Alexandre-Théophile Vandermonde&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h4&gt;
+&lt;h3 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Labeling people is dangerous, but labeling events in a probability problem is important&lt;/li&gt;
 &lt;li&gt;Think about the subtle differences between probabilities of
@@ -304,119 +562,20 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     </item>
     
     <item>
-      <title>Docs: Birthday</title>
-      <link>/docs/math/probability/s110_l03_birthday/</link>
-      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      <title>Docs: </title>
+      <link>/docs/math/probability/bayesian-decision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/probability/s110_l03_birthday/</guid>
+      <guid>/docs/math/probability/bayesian-decision/</guid>
       <description>
         
         
-        &lt;br&gt;
-&lt;h4 id=&#34;what-is-pigeonhole-principle&#34;&gt;What is pigeonhole principle?&lt;/h4&gt;
-&lt;p&gt;If $n$ items are put into $m$ containers, with $n &amp;gt; m$ then at least one container must contain more than one item.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34; alt=&#34;pigeonhole principle&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34;&gt;pigeonhole principle&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;what-is-the-probability-of-two-people-among-k-people-having-the-same-birthday&#34;&gt;What is the probability of two people among $k$ people having the same birthday?&lt;/h4&gt;
+        &lt;h2 id=&#34;bayesian-decision-theory&#34;&gt;Bayesian Decision Theory&lt;/h2&gt;
+&lt;p&gt;In classification, Bayes&#39; rule is used to calculate the probabilities of the classes.
+We generalize to discuss how we can make rational decisions among multiple actions to minimize expected risk. We also discuss learning association rules from data.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;If $k &amp;gt; 366$, $P = 1$&lt;/li&gt;
-&lt;li&gt;If $k&amp;lt;366$, what is the minimal $k$ to get $P \approx 0.5$?
-&lt;ul&gt;
-&lt;li&gt;$P_{no match} = \frac{365 \cdot 364 \dots (365-k+1)}{365^k}$&lt;/li&gt;
-&lt;li&gt;$P_{match} = 1- P_{no match}$
-&lt;ul&gt;
-&lt;li&gt;$0.51$, $k =23$&lt;/li&gt;
-&lt;li&gt;$0.97$, $k =50$&lt;/li&gt;
-&lt;li&gt;$0.99999$, $k =100$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Let&amp;rsquo;s build some intuition of $P_{match} = \binom{k}{2}$
-&lt;ul&gt;
-&lt;li&gt;$\binom{23}{2} = \frac{23 \cdot 22}{2} =253$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;probability-properties&#34;&gt;Probability Properties&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;$P_{(A^c)} = 1-P_{(A)}$&lt;/li&gt;
-&lt;li&gt;$P_{(A)} \le P_{(B)}$ if $A$ is contained in $B$ ($A \in B$)
-&lt;ul&gt;
-&lt;li&gt;$B= A {\bigcup} (B \bigcap A^c)$, disjoint&lt;/li&gt;
-&lt;li&gt;$P_{(B)} = P_{(A)} + P_{(B \bigcap A^c)} \ge P_{(A)}$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;$P_{A \bigcup B} =P_{(A)} + P_{(B)} - P_{(A \bigcap B)}$&lt;/li&gt;
-&lt;li&gt;$P_{A \bigcup B \bigcup} =P_{(A)} + P_{(B)} + P_{(C)} - P_{(A \bigcap B)}- P_{(A \bigcap C)}- P_{(B \bigcap C)} + P_{(A \bigcap B \bigcap C)}$&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752&#34;&gt;General Case&lt;/a&gt;&lt;br&gt;
-&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752&#34; alt=&#34;General&#34;&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34; alt=&#34;Inclusion–exclusion illustrated by a Venn diagram for three sets&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34;&gt;Inclusion–exclusion illustrated by a Venn diagram for three sets&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;de-montmorts-problem&#34;&gt;De Montmort&amp;rsquo;s Problem&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;1713&lt;/li&gt;
-&lt;li&gt;matching problem for gambling
-&lt;ul&gt;
-&lt;li&gt;$n$ cards, labeled $1, 2, 3, &amp;hellip;, n$, let $A_j$ be the event with matches&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;$P_{(A_1 \bigcup A_2 \bigcup \dots \bigcup A_n)} \approx 1- \frac{1}{e}$&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Conditional Probability</title>
-      <link>/docs/math/probability/s110_l04_conditional_probability/</link>
-      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/math/probability/s110_l04_conditional_probability/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;Conditioning – the soul of statistics&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;br&gt;
-&lt;h4 id=&#34;independence-means-multiplication&#34;&gt;Independence means multiplication&lt;/h4&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;newtonpepys-problem-another-gambling-problem-&#34;&gt;Newton–Pepys problem: another gambling problem 🎲&lt;/h4&gt;
-&lt;p&gt;Which of the following three propositions has the greatest chance of success?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A. Six fair dice are tossed independently and at least one “6” appears.&lt;/li&gt;
-&lt;li&gt;B. Twelve fair dice are tossed independently and at least two “6”s appear.&lt;/li&gt;
-&lt;li&gt;C. Eighteen fair dice are tossed independently and at least three “6”s appear.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/600cae735b31b4b7eedd4bf6993f00f8c2ca12db&#34; alt=&#34;Newton–Pepys problem&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f2ec31fa405ee2da878b9989baa1b5387025dce1&#34; alt=&#34;Newton–Pepys problem&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f2f2780521f3bc5e4ececb4ea588ed11f152b1ef&#34; alt=&#34;Newton–Pepys problem&#34;&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;h4 id=&#34;conditional-probability-&#34;&gt;Conditional probability 🏄‍♂️&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;How do you update probabilities/beliefs/uncertainty based on new evidence?&lt;/li&gt;
-&lt;li&gt;Do you update in a coherent, consistent, and logical manner?&lt;/li&gt;
-&lt;li&gt;$P_{(A | B)} = \frac{P_{(A \bigcap B)}}{P_{(B)}}$ if $P_{(B)} &amp;gt; 0$&lt;/li&gt;
-&lt;li&gt;$P_{(A \bigcap B)} = P_{(B)} P_{(A|B)} = P_{(A)} P_{(B|A)}$&lt;/li&gt;
-&lt;li&gt;$P_{(A | B)} = \frac{P_{(B | A)}P_{(A)}}{P_{(B)}}$  ❤️
-&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;ref&#34;&gt;Ref&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_problem&#34;&gt;Newton–Pepys problem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unobservable variables&lt;/li&gt;
+&lt;li&gt;Observable variables&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

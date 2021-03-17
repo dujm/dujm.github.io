@@ -1,0 +1,502 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Linear Algebra</title>
+    <link>/docs/math/linear-algebra/</link>
+    <description>Recent content in Linear Algebra on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/math/linear-algebra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Linear Algebra</title>
+      <link>/docs/math/linear-algebra/linear_algebra/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/linear-algebra/linear_algebra/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#table-of-contents&#34;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#algebra&#34;&gt;Algebra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#matrices&#34;&gt;Matrices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vector&#34;&gt;Vector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#determinant&#34;&gt;Determinant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#2-d&#34;&gt;2-D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#3-d&#34;&gt;3-D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dot-products&#34;&gt;Dot products&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cross-products&#34;&gt;Cross products&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cramers-rule&#34;&gt;Cramer&amp;rsquo;s rule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#linear-transformations&#34;&gt;Linear transformations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-linear-transformation&#34;&gt;What is linear transformation?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#matrix-vector-multiplication&#34;&gt;Matrix vector multiplication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#matrix-multiplication&#34;&gt;Matrix multiplication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-of-basis&#34;&gt;Change of basis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#eigenvectors-and-eigenvalues&#34;&gt;Eigenvectors and eigenvalues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#abstract-vector-spaces&#34;&gt;Abstract vector spaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#questions&#34;&gt;Questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#glossary&#34;&gt;Glossary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#read-more&#34;&gt;Read More&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;algebra&#34;&gt;Algebra&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear algebra is the study of &lt;strong&gt;vectors&lt;/strong&gt; and certain &lt;strong&gt;rules&lt;/strong&gt; to manipulate vectors.&lt;/li&gt;
+&lt;li&gt;Vectors: are special objects that can be added together and multiplied by scalars to produce another object of the same kind.
+&lt;ul&gt;
+&lt;li&gt;Examples
+&lt;ul&gt;
+&lt;li&gt;Geometric vectors&lt;/li&gt;
+&lt;li&gt;Polynomials&lt;/li&gt;
+&lt;li&gt;Audio signals&lt;/li&gt;
+&lt;li&gt;Elements of $\Bbb{R}^n $(tuples of $n$ real numebers)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Geometric Interpretation of Systems of Linear Equatiion
+&lt;ul&gt;
+&lt;li&gt;In a system of linear equations
+&lt;ul&gt;
+&lt;li&gt;with two variables x1, x2, &lt;strong&gt;each linear equation&lt;/strong&gt; defines &lt;strong&gt;a line&lt;/strong&gt; on the x1x2-plane.&lt;/li&gt;
+&lt;li&gt;with three variables, x1, x2, x3, &lt;strong&gt;each linear equation&lt;/strong&gt; defines a plane in three-dimensional space.
+&lt;ul&gt;
+&lt;li&gt;When we intersect these planes, i.e., satisfy all linear equations at the same time, we can obtain a solution set that is &lt;strong&gt;a plane&lt;/strong&gt;, &lt;strong&gt;a line&lt;/strong&gt;, &lt;strong&gt;a point&lt;/strong&gt; or &lt;strong&gt;empty&lt;/strong&gt; (when the planes have no common intersection).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;matrices&#34;&gt;Matrices&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A central role in linear algebra
+&lt;ul&gt;
+&lt;li&gt;used to compactly represent systems of linear equations&lt;/li&gt;
+&lt;li&gt;represent linear functions (linear mappints)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Matrix&lt;/li&gt;
+&lt;li&gt;Matrix addtion&lt;/li&gt;
+&lt;li&gt;Matrix multiplication&lt;/li&gt;
+&lt;li&gt;Hadamard product: element-wise product. It is a binary operation that takes two matrices of the same dimensions and produces another matrix of the same dimension as the operands, where each element &lt;code&gt;i, j&lt;/code&gt; is the product of elements &lt;code&gt;i, j&lt;/code&gt; of the original two matrices.&lt;/li&gt;
+&lt;li&gt;Matrix product&lt;/li&gt;
+&lt;li&gt;Identity matrix: $n × n$-matrix containing $1$ on the diagonal and $0$ everywhere else&lt;/li&gt;
+&lt;li&gt;Matrix properties
+&lt;ul&gt;
+&lt;li&gt;Associativity&lt;/li&gt;
+&lt;li&gt;Distributivity&lt;/li&gt;
+&lt;li&gt;Multiplication with the identity matrix&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2019/08/20/normal/a8ce1ee7cf007e96bfcd1280b79a89d9.jpg&#34; alt=&#34;kr&#34;&gt;   &lt;br&gt;
+&lt;a href=&#34;https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2019/08/20/normal/a8ce1ee7cf007e96bfcd1280b79a89d9.jpg&#34;&gt;Image from jconlineimagem&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;vector&#34;&gt;Vector&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Imagine we have a two dimensional space composed of x and y axis, and their intersection called origin (0).&lt;/li&gt;
+&lt;li&gt;$\begin{bmatrix}1 \\2 \end{bmatrix}$ : The coordinate of a vector is a pair of numbers which gives instructions to tell the vector how to get from the origin of the vector to the tip of the vector.&lt;/li&gt;
+&lt;li&gt;The first number tells you how far to walk on the x-axis&lt;/li&gt;
+&lt;li&gt;After that, the second number tells you how far to walk parallel to the y-axis&lt;/li&gt;
+&lt;li&gt;To differentiate vectors from points, the convention is to write these two numbers vertically in a square bracket.&lt;/li&gt;
+&lt;li&gt;Every pair of numbers is associated with one and only one vector, vice versa&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&#34;&gt;Vectors, what even are they? 3&#39;- 4&#39;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;determinant&#34;&gt;Determinant&lt;/h3&gt;
+&lt;h3 id=&#34;2-d&#34;&gt;2-D&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;$A = \begin{bmatrix}a&amp;amp;b \\c&amp;amp;d \end{bmatrix}$&lt;/li&gt;
+&lt;li&gt;Determinant of $A$: $det(A)$&lt;/li&gt;
+&lt;li&gt;Numerically
+&lt;ul&gt;
+&lt;li&gt;a scalar value that can be computed from the elements of a square matrix and measures the scaling of linear transformation described by the matrix&lt;/li&gt;
+&lt;li&gt;$det(A)= ad-bc$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Geometrically
+&lt;ul&gt;
+&lt;li&gt;$det(A)$:the area scaling factor of the linear transformation&lt;/li&gt;
+&lt;li&gt;$\lvert det(A) \rvert &amp;gt; 1$, increase the area by a factor of 5&lt;/li&gt;
+&lt;li&gt;0&amp;lt; $\lvert det(A) \rvert &amp;lt; 1$: squish down area&lt;/li&gt;
+&lt;li&gt;Zero determinant: when $det(A) =0$, the transformation squishes down the area to a line or a point&lt;/li&gt;
+&lt;li&gt;$det(A) &amp;lt; 0$:  the orientation of space is inverted (space is inverted. The basis vector $\vec{i}$ is now on the left side of $\vec{j}$)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-d&#34;&gt;3-D&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;$B = \begin{bmatrix}u_1&amp;amp;v_1&amp;amp;w_1 \\u_2&amp;amp;v_2&amp;amp;w_2  \\u_3&amp;amp;v_3&amp;amp;w_3 \end{bmatrix}$&lt;/li&gt;
+&lt;li&gt;Numerically:
+&lt;ul&gt;
+&lt;li&gt;$det(B)$: the volume scaling factor of the linear transformation described by the matrix&lt;/li&gt;
+&lt;li&gt;$det(B) = u_1(v2w3-w2v3)-v_1(u_2w_3-w_2u_3)+w_1(u_2v_3-v_2u_3)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Geometrically
+&lt;ul&gt;
+&lt;li&gt;$det(B) &amp;lt; 0$: Right finger rule no longer fits
+&lt;ul&gt;
+&lt;li&gt;index finger: points to the direction of $\vec{i}$&lt;/li&gt;
+&lt;li&gt;middle finger: points to the direction of $\vec{j}$&lt;/li&gt;
+&lt;li&gt;thumb: points to the direction of $\vec{k}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;dot-products&#34;&gt;Dot products&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Two vectors of the same dimension&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$\vec{v}$ =  $\begin{bmatrix}1 \\2 \end{bmatrix}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\vec{w}$  = $\begin{bmatrix}3 \\4 \end{bmatrix}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Order: doesn&amp;rsquo;t matter&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Numerically&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pair the coordinates of multiply them together and add the result&lt;/li&gt;
+&lt;li&gt;$\begin{bmatrix}1 \\2 \end{bmatrix}$ $\cdot$  $\begin{bmatrix}3 \\4 \end{bmatrix}$ =  1 $\cdot$  3+ 2 $\cdot$ 4 = 11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Geometrically&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Project $\vec{w}$ onto the line passing through the origin on the tip of $\vec{v}$&lt;/li&gt;
+&lt;li&gt;$\vec{v}$ $\cdot$ $\vec{w}$  =  (length of projected  $\vec{w}$) $\cdot$ (length of projected  $\vec{v}$)&lt;/li&gt;
+&lt;li&gt;Dot product vs Directions
+&lt;ul&gt;
+&lt;li&gt;$\vec{v}$ $\cdot$ $\vec{w}$&amp;gt; 0: vectors are pointing to similar directions&lt;/li&gt;
+&lt;li&gt;$\vec{v}$ $\cdot$ $\vec{w}$&amp;lt; 0: vectors are pointing to opposing direction&lt;/li&gt;
+&lt;li&gt;$\vec{v}$ $\cdot$ $\vec{w}$ = 0: vectors are perpendicular&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Duality: natural-but-surprising correspondence&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Matrix vector product:&lt;br&gt;
+[$u_x$ $u_y$] $\begin{bmatrix}x \\y \end{bmatrix}$ = $u_x$ $\cdot$ $x$ + $u_y$ $\cdot$ $y$&lt;/li&gt;
+&lt;li&gt;Dot product:&lt;br&gt;
+$\begin{bmatrix}u_x \\u_y \end{bmatrix}$ $\cdot$ $\begin{bmatrix}x \\y \end{bmatrix}$ = $u_x$ $\cdot$ $x$ + $u_y$ $\cdot$ $y$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/math/dotproduct.png&#34; alt=&#34;dot product projection&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=LyGKycYT2v0&amp;amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&amp;amp;index=9&#34;&gt;Screenshot at 2:19 in video&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cross-products&#34;&gt;Cross products&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The standard basis vectors $\vec{i}$, $\vec{j}$, and $\vec{k}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Two vectors of the same dimension&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$\vec{v}$ =  $\begin{bmatrix}v_1 \\v_2\\v_3 \end{bmatrix}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\vec{w}$ = $\begin{bmatrix}w_1 \\w_2 \\w_3\end{bmatrix}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Order: matters&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cross products&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\vec{p}$ = $\vec{v}$ $\times$ $\vec{w}$&lt;/li&gt;
+&lt;li&gt;$\vec{p}$ is a vector that is perpendicular to both $\vec{v}$ and $\vec{w}$  and thus normal to the plane containing them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\vec{p}$ directions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\vec{p}$ &amp;gt; 0: when $\vec{v}$ is on the right side of $\vec{w}$&lt;/li&gt;
+&lt;li&gt;$\vec{p}$ &amp;lt; 0: when $\vec{v}$ is on the left side of $\vec{w}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Numerically&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\begin{bmatrix}v_1 \\v_2\\v_3 \end{bmatrix}$  $\times$ $\begin{bmatrix}w_1 \\w_2 \\w_3\end{bmatrix}$ = ($v_2w_3 -w_2v_3)\vec{i}$ + ($v_3w_1$ - $v_1w_3)\vec{j}$ + ($v_1w_2$ - $v_3w_1)\vec{k}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Geometrically&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The positive area of the parallelogram having $\vec{v}$ and $\vec{w}$ as sides&lt;/li&gt;
+&lt;li&gt;The length of $\vec{p}$ = the area of parallelogram defined by $\vec{v}$ and  $\vec{w}$&lt;/li&gt;
+&lt;li&gt;The direction of $\vec{p}$ is defined using the Right Hand Rule
+&lt;ul&gt;
+&lt;li&gt;index finger: points to the direction of $\vec{v}$&lt;/li&gt;
+&lt;li&gt;middle finger: points to the direction of $\vec{w}$&lt;/li&gt;
+&lt;li&gt;thumb: points to the direction of $\vec{p}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/math/crossproduct.png&#34; alt=&#34;cross product projection&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=eu6i7WJeinw&amp;amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&amp;amp;index=10&#34;&gt;Screenshot at 6:03 in video&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;cramers-rule&#34;&gt;Cramer&amp;rsquo;s rule&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cramer&amp;rsquo;s rule expresses the solution in terms of the determinants of the (square) coefficient matrix and of matrices obtained from it by replacing one column by the column vector of right-hand-sides of the equations. It is named after Gabriel Cramer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consider a system of linear equation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$ax + by =e$&lt;br&gt;
+$cx+dy=f$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\frac{e-ax}{b}=\frac{f-cx}{a}$;  $x = \frac{ed-bf}{ad-bc}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\frac {e-by} {a} = \frac{f-dy}{c}$;  $y = \frac{af-ec} {ad=bc}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Matrix Equation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$\begin{bmatrix}a&amp;amp;b \\c&amp;amp;d \end{bmatrix} \begin{bmatrix}x \\y \end{bmatrix} =  \begin{bmatrix}e \\f \end{bmatrix}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$x = \frac { \begin{array}{| cc |} e&amp;amp;b\\ f&amp;amp;d\end{array} } { {\begin{array}{|cc|} a&amp;amp;b\\c&amp;amp;d\end{array} } }$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$y = \frac { \begin{array}{|cc|} a&amp;amp;e\\c&amp;amp;f\end{array} } { {\begin{array}{|cc|} a&amp;amp;b\\c&amp;amp;d\end{array} } }$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;linear-transformations&#34;&gt;Linear transformations&lt;/h3&gt;
+&lt;h3 id=&#34;what-is-linear-transformation&#34;&gt;What is linear transformation?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A function that takes an input vector and generates an output vector&lt;/li&gt;
+&lt;li&gt;The word &amp;lsquo;transformation&amp;rsquo; suggests that we think using movement&lt;/li&gt;
+&lt;li&gt;The word &amp;lsquo;Linear&amp;rsquo; suggests all spatial grid lines (for visualizing the coordinate system) must remain parallel and evenly spaced (not curvy), and the origin remains fixed  (not moving).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What is a shear matrix?&lt;br&gt;
+A shear matrix is an elementary matrix that represents the addition of a multiple of one row or column to another.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\begin{bmatrix}1&amp;amp;s \\0&amp;amp;1 \end{bmatrix}$&lt;/li&gt;
+&lt;li&gt;$\begin{bmatrix}1&amp;amp;0 \\s&amp;amp;1 \end{bmatrix}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How is matrix useful?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Computer graphics&lt;/li&gt;
+&lt;li&gt;Robotics: e.g. rotation&lt;/li&gt;
+&lt;li&gt;Solve system equations: Linear system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;matrix-vector-multiplication&#34;&gt;Matrix vector multiplication&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Numerically:
+&lt;ul&gt;
+&lt;li&gt;$\begin{bmatrix}a&amp;amp;b \\c&amp;amp;d \end{bmatrix} \begin{bmatrix}x \\y \end{bmatrix} =  x\begin{bmatrix}a \\c \end{bmatrix} + y\begin{bmatrix}b \\d \end{bmatrix} = \begin{bmatrix}{ax+by} \\ {cx+dy} \end{bmatrix}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Geometrically: apply a transformation to a vector
+&lt;ul&gt;
+&lt;li&gt;Think of the columns of a matrix as transformed basis vectors $\begin{bmatrix}a \\c \end{bmatrix}$ and $\begin{bmatrix}b \\d \end{bmatrix}$&lt;/li&gt;
+&lt;li&gt;The linear trans result is the linear combination of the transformed basis vectors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;/img/math/matrix-vector.png&#34; alt=&#34;matrix-vector&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=kYB8IZa5AuE&amp;amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&amp;amp;index=3&#34;&gt;Matrix Vector multiplication 8:00&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;matrix-multiplication&#34;&gt;Matrix multiplication&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Numerically: Right to left
+&lt;ul&gt;
+&lt;li&gt;$\begin{bmatrix}a&amp;amp;b \\c&amp;amp;d \end{bmatrix}\begin{bmatrix}e&amp;amp;f \\g&amp;amp;h \end{bmatrix} =\begin{bmatrix}{ae+bg}&amp;amp;{af+bh} \\ {ce+dg}&amp;amp;{cf+dh}\end{bmatrix}$&lt;/li&gt;
+&lt;li&gt;Step1: $\begin{bmatrix}a&amp;amp;b \\c&amp;amp;d \end{bmatrix}\begin{bmatrix}e \\g \end{bmatrix} =  e\begin{bmatrix}a \\c \end{bmatrix} + g\begin{bmatrix}b \\d \end{bmatrix} = \begin{bmatrix}{ae+bg} \\ {ce+dg} \end{bmatrix}$&lt;/li&gt;
+&lt;li&gt;Step 2: $\begin{bmatrix}a&amp;amp;b \\c&amp;amp;d \end{bmatrix}\begin{bmatrix}f \\h \end{bmatrix} =  f\begin{bmatrix}a \\c \end{bmatrix} + h\begin{bmatrix}b \\d \end{bmatrix} = \begin{bmatrix}{af+bh} \\ {cf+dh} \end{bmatrix}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Geometrically:
+&lt;ul&gt;
+&lt;li&gt;$f(g(x))$&lt;/li&gt;
+&lt;li&gt;Composition: apply one transformation $f$ after another $g$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Order: matters $M_1M_2 \ne M_2M_1$&lt;/li&gt;
+&lt;li&gt;Associativity: $(AB)C=A(BC)$, meaning applying transformation C, B, and A&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;change-of-basis&#34;&gt;Change of basis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Translate between two coordinate systems&lt;/li&gt;
+&lt;li&gt;An inverse transformation $A^{-1}$ means: reverse the transformation&lt;/li&gt;
+&lt;li&gt;$A^{-1}MA$
+&lt;ul&gt;
+&lt;li&gt;$M$: a transformation in coordinate system P&lt;/li&gt;
+&lt;li&gt;$A^{-1}$ and $A$: mathematical sort of empathy&lt;/li&gt;
+&lt;li&gt;$A^{-1}MA$: mathematical product in coordinate system Q&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;eigenvectors-and-eigenvalues&#34;&gt;Eigenvectors and eigenvalues&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Eigenvector: a vector that stays on its own span (the line passing through the origin and the tip of the vector) during a matrix transformation, unlike other vectors that are knocked off their spans during transformation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Eigenvalue: The factor by which the eigengectors is stretched or squished&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;e.g. Matrix $A = \begin{bmatrix}3&amp;amp;1 \\0&amp;amp;2 \end{bmatrix}$
+Eigenvector $\vec{v}$ =  $\begin{bmatrix}-1 \\1 \end{bmatrix}$, eigenvalue of $\vec{v}$ is 2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img src=&#34;/img/math/eigen.png&#34; alt=&#34;eigen&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=PFDu9oVAE-g&amp;amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&amp;amp;index=14&#34;&gt;Eigenvector 3:39&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The axis of a 3-D rotation: the span of an eigenvector, with eigenvalue equal to 1 (no stretching or squishing during rotation)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Eigenbasis: a set of basis vectors which are also eigenvectors&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;useful for matrix operations,&lt;/li&gt;
+&lt;li&gt;e.g. To calculate $\begin{bmatrix}3&amp;amp;1 \\0&amp;amp;2 \end{bmatrix}^{100}$, change the basis vector to eigenbasis system $\begin{bmatrix}1&amp;amp;-1 \\0&amp;amp;1 \end{bmatrix}$&lt;/li&gt;
+&lt;li&gt;$\begin{bmatrix}1&amp;amp;-1 \\0&amp;amp;1 \end{bmatrix}^{-1}$ $\begin{bmatrix}3&amp;amp;1 \\0&amp;amp;2 \end{bmatrix}$ $\begin{bmatrix}1&amp;amp;-1 \\0&amp;amp;1 \end{bmatrix}$ = $\begin{bmatrix}3&amp;amp;0 \\0&amp;amp;2 \end{bmatrix}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to calculate the eigenvalue of a matrix?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Matrix-vector multiplication $A\vec{v} = \lambda\vec{v}$ Scalar multiplication&lt;/li&gt;
+&lt;li&gt;Change the scalar multiplication to matrix multiplication ($I\vec{v}$) scaled by a factor $\lambda$&lt;/li&gt;
+&lt;li&gt;$A\vec{v} = \lambda I \vec{v}$; matrix-vector multiplication on both sides&lt;/li&gt;
+&lt;li&gt;$I = \begin{bmatrix}1 &amp;amp;0 \\0&amp;amp;1 \end{bmatrix}$, the identity matrix with ones in the diagonal&lt;/li&gt;
+&lt;li&gt;$(A-\lambda I)\vec{v} = 0$&lt;/li&gt;
+&lt;li&gt;For non-zero $\vec{v}$, the transformation associated with the matrix has to be squished down to a lower dimension (squishification), which corresponds to a zero determinant of the matrix $det(A-\lambda I) = 0$&lt;/li&gt;
+&lt;li&gt;e.g.
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For matrix $A = \begin{bmatrix}3&amp;amp;1 \\0&amp;amp;2 \end{bmatrix}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\biggl(\begin{bmatrix}3&amp;amp;1 \\0&amp;amp;2 \end{bmatrix} - \lambda\begin{bmatrix}1 &amp;amp;0 \\0&amp;amp;1 \end{bmatrix}\biggr)\vec{v}=0$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$det \biggl(\begin{bmatrix}{3-\lambda}&amp;amp;1 \\0&amp;amp;{2-\lambda } \end{bmatrix}\biggr) = 0$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$(3-\lambda)(2-\lambda)=0$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\lambda$ can only be an eigenvalue, therefore, $\lambda=2$ or $\lambda=3$, which are the eigenvectors of matrix $A$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;abstract-vector-spaces&#34;&gt;Abstract vector spaces&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Function: a type of vectors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;questions&#34;&gt;Questions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;What does a determinant of 0 mean for a matrix transformation?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$det(A)=0$&lt;/li&gt;
+&lt;li&gt;The matrix is squished down to a lower dimension&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What kind of matrices have no eigenvalues?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Non-square matrix&lt;/li&gt;
+&lt;li&gt;A skew-symmetric matrix (or anti-symmetric matrix) where $A^T=-A$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What properties do linear transformations have?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear transformations preserve addition and scalar multiplication&lt;/li&gt;
+&lt;li&gt;Preserving additivity: The result of adding two vectors and applying transformation to the sum is the same as adding the transformed vectors.&lt;br&gt;
+$L(\vec{v}+\vec{w})=L(\vec{v})+L(\vec{w})$&lt;/li&gt;
+&lt;li&gt;Preserving scaling: when you scale a vector by a scaler and then apply the transformation is the same as scaling the transformed vector.&lt;/li&gt;
+&lt;li&gt;These properties make it possible to represent any vector and do matrix multiplications.
+$L(c\vec{v})=cL(\vec{v})$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;glossary&#34;&gt;Glossary&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Column space: all the linear combinations of the column vectors &lt;a href=&#34;https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/null-column-space/v/column-space-of-a-matrix&#34;&gt;Video by Sal Khan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Identity transformation: the transformation that does nothing&lt;/li&gt;
+&lt;li&gt;Gaussian elimination&lt;/li&gt;
+&lt;li&gt;Inverse matrices: the inverse transformation in geometry (clockwise-counterclockwise, rightward shear &amp;ndash; leftward shear)
+$A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
+&lt;li&gt;Rank: the number of dimensions in the output of a transformation (e.g. Rank 2: All vectors after a transformation land on a 2-D plane)&lt;/li&gt;
+&lt;li&gt;Null space (kernel): the space of all vectors becoming null&lt;/li&gt;
+&lt;li&gt;Row echelon form&lt;/li&gt;
+&lt;li&gt;Span: the set of all linear combinations of two vectors.&lt;/li&gt;
+&lt;li&gt;Symmetric matrix: $A^T=A$&lt;/li&gt;
+&lt;li&gt;Skew-symmetric matrix $A^T=-A$&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;read-more&#34;&gt;Read More&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&#34;&gt;Essence of linear algebra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/linear-algebra-cross-product-introduction&#34;&gt;Cross product introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&#34;&gt;Essence of linear algebra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://math.mit.edu/~gs/linearalgebra/ila0601.pdf&#34;&gt;MIT Eigen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.math.harvard.edu/archive/20_spring_05/handouts/ch05_notes.pdf&#34;&gt;Eigenvalues and Eigenvectors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.math.lsa.umich.edu/~kesmith/EigenValues.pdf&#34;&gt;KSmith-EigenValues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.maa.org/external_archive/joma/Volume8/Kalman/Linear3.html&#34;&gt;Shears and one directional scaling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://faculty.psau.edu.sa/filedownload/doc-4-pdf-0a187866618ca3049030ec5014860ae8-original.pdf&#34;&gt;Mary L Boas, John Wiley and Sons, 3rd Ed, 2006. Linear Algebra - Chapter 3.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://math.mit.edu/~gs/linearalgebra&#34;&gt;Introduction to Linear Algebra by Gilbert Strang, Wellesley-Cambridge Press, 5th Ed, 2016.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vmls-book.stanford.edu&#34;&gt;Introduction to Applied Linear Algebra – Vectors, Matrices, and Least Squares, by Stephen Boyd and Lieven Vandenberghe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

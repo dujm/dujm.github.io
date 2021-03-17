@@ -1,0 +1,180 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Statistics</title>
+    <link>/docs/math/statistics/</link>
+    <description>Recent content in Statistics on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/math/statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Continuous and Discrete</title>
+      <link>/docs/math/statistics/continuous/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/statistics/continuous/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;continuous-distributions-and-their-standard-properties&#34;&gt;Continuous distributions and their standard properties&lt;/h2&gt;
+&lt;h3 id=&#34;central-limit-theorem&#34;&gt;Central limit theorem&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;sampling distribution of the &lt;strong&gt;sample means&lt;/strong&gt; approaches &lt;strong&gt;a normal distribution&lt;/strong&gt; as the sample size gets larger — no matter what the &lt;strong&gt;shape of the population distribution&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This fact holds especially true for sample sizes over 30.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;An essential component of the Central Limit Theorem is that the average of your sample means will be the population mean.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;is-percentage-data-continuous-or-discrete&#34;&gt;Is Percentage data continuous or discrete?&lt;/h3&gt;
+&lt;p&gt;Percentages are not continuous however are often considered in that format. Try this to get an indication of what happens when you ‘normalize’ the data,  Make a set of normal data – say 100 data points – of defects with opportunities. This would be similar to the count data that you have – then covert it to a percentage. Now run a 1 sample t-test for a 20% improvement on the percentage data and a 1 proportion test for the same improvement on the count data. This will give you the number of samples required to indicate that a shift in the data is observable. Compare the sample sizes- have fun with it.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Statistics</title>
+      <link>/docs/math/statistics/statistics/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/statistics/statistics/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Statistics – the logic of uncertainty&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h3 id=&#34;read-more&#34;&gt;Read More&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/&#34;&gt;Statistics for Applications &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw&#34;&gt;StatQuest with Josh Starmer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/statistics?siteID=lVarvwc5BD0-1nQtJg8.ENATqSUIufAaaw&amp;amp;utm_content=2&amp;amp;utm_medium=partners&amp;amp;utm_source=linkshare&amp;amp;utm_campaign=lVarvwc5BD0&amp;amp;ranMID=40328&amp;amp;ranEAID=je6NUbpObpQ&amp;amp;ranSiteID=je6NUbpObpQ-xCM1Xw3kG_HPBPyYFr1lKw&amp;amp;siteID=je6NUbpObpQ-xCM1Xw3kG_HPBPyYFr1lKw&amp;amp;utm_content=10&amp;amp;utm_medium=partners&amp;amp;utm_source=linkshare&amp;amp;utm_campaign=je6NUbpObpQ&#34;&gt;Statistics with R Specialization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mavam/stat-cookbook&#34;&gt;stat-cookbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Parametric and Non-parametric</title>
+      <link>/docs/math/statistics/parametric-nonparametric/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/statistics/parametric-nonparametric/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;parametric-vs-non-parametric&#34;&gt;Parametric vs Non-parametric&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;S.No.&lt;/th&gt;
+&lt;th&gt;Parametric Methods&lt;/th&gt;
+&lt;th&gt;Non-Parametric Methods&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Parametric Methods uses a fixed number of parameters to build the model.&lt;/td&gt;
+&lt;td&gt;Non-Parametric Methods use the flexible number of parameters to build the model.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Parametric analysis is to test group means.&lt;/td&gt;
+&lt;td&gt;A non-parametric analysis is to test medians.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;It is applicable only for variables.&lt;/td&gt;
+&lt;td&gt;It is applicable for both – Variable and Attribute.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;It always considers strong assumptions about data.&lt;/td&gt;
+&lt;td&gt;It generally fewer assumptions about data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Parametric Methods require lesser data than Non-Parametric Methods.&lt;/td&gt;
+&lt;td&gt;Non-Parametric Methods requires much more data than Parametric Methods.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Parametric methods assumed to be a normal distribution.&lt;/td&gt;
+&lt;td&gt;There is no assumed distribution in non-parametric methods.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Parametric data handles – Intervals data or ratio data.&lt;/td&gt;
+&lt;td&gt;But non-parametric methods handle original data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Here when we use parametric methods then the result or outputs generated can be easily affected by outliers.&lt;/td&gt;
+&lt;td&gt;When we use non-parametric methods then the result or outputs generated cannot be seriously affected by outliers.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Parametric Methods can perform well in many situations but its performance is at peak (top) when the spread of each group is different.&lt;/td&gt;
+&lt;td&gt;Similarly, Non-Parametric Methods can perform well in many situations but its performance is at peak (top) when the spread of each group is the same.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;Parametric methods have more statistical power than Non-Parametric methods.&lt;/td&gt;
+&lt;td&gt;Non-parametric methods have less statistical power than Parametric methods.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;As far as the computation is considered these methods are computationally faster than the Non-Parametric methods.&lt;/td&gt;
+&lt;td&gt;As far as the computation is considered these methods are computationally faster than the Parametric methods.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Examples –&lt;/td&gt;
+&lt;td&gt;Examples –&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Logistic Regression, Naïve Bayes Model, etc.&lt;/td&gt;
+&lt;td&gt;KNN, Decision Tree Model, etc.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: </title>
+      <link>/docs/math/statistics/distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/statistics/distributions/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

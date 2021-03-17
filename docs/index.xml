@@ -630,287 +630,26 @@ that violates any applicable local, state, national or international law or othe
     </item>
     
     <item>
-      <title>Docs: Linear Algebra</title>
-      <link>/docs/math/machinelearning/02linear_algebra/</link>
-      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Bayes Theorem</title>
+      <link>/docs/math/probability/bayes-theorem/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/machinelearning/02linear_algebra/</guid>
+      <guid>/docs/math/probability/bayes-theorem/</guid>
       <description>
         
         
-        &lt;br&gt;
-&lt;h3 id=&#34;algebra&#34;&gt;Algebra&lt;/h3&gt;
+        &lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Linear algebra is the study of &lt;strong&gt;vectors&lt;/strong&gt; and certain &lt;strong&gt;rules&lt;/strong&gt; to manipulate vectors.&lt;/li&gt;
-&lt;li&gt;Vectors: are special objects that can be added together and multiplied by scalars to produce another object of the same kind.
-&lt;ul&gt;
-&lt;li&gt;Examples
-&lt;ul&gt;
-&lt;li&gt;Geometric vectors&lt;/li&gt;
-&lt;li&gt;Polynomials&lt;/li&gt;
-&lt;li&gt;Audio signals&lt;/li&gt;
-&lt;li&gt;Elements of $\Bbb{R}^n $(tuples of $n$ real numebers)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.greenteapress.com/thinkbayes/thinkbayes.pdf&#34;&gt;Think Bayes by Allen B. Downey, free book&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Geometric Interpretation of Systems of Linear Equatiion
-&lt;ul&gt;
-&lt;li&gt;In a system of linear equations
-&lt;ul&gt;
-&lt;li&gt;with two variables x1, x2, &lt;strong&gt;each linear equation&lt;/strong&gt; defines &lt;strong&gt;a line&lt;/strong&gt; on the x1x2-plane.&lt;/li&gt;
-&lt;li&gt;with three variables, x1, x2, x3, &lt;strong&gt;each linear equation&lt;/strong&gt; defines a plane in three-dimensional space.
-&lt;ul&gt;
-&lt;li&gt;When we intersect these planes, i.e., satisfy all linear equations at the same time, we can obtain a solution set that is &lt;strong&gt;a plane&lt;/strong&gt;, &lt;strong&gt;a line&lt;/strong&gt;, &lt;strong&gt;a point&lt;/strong&gt; or &lt;strong&gt;empty&lt;/strong&gt; (when the planes have no common intersection).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;matrices&#34;&gt;Matrices&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;A central role in linear algebra
-&lt;ul&gt;
-&lt;li&gt;used to compactly represent systems of linear equations&lt;/li&gt;
-&lt;li&gt;represent linear functions (linear mappints)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Matrix&lt;/li&gt;
-&lt;li&gt;Matrix addtion&lt;/li&gt;
-&lt;li&gt;Matrix multiplication&lt;/li&gt;
-&lt;li&gt;Hadamard product: element-wise product. It is a binary operation that takes two matrices of the same dimensions and produces another matrix of the same dimension as the operands, where each element &lt;code&gt;i, j&lt;/code&gt; is the product of elements &lt;code&gt;i, j&lt;/code&gt; of the original two matrices.&lt;/li&gt;
-&lt;li&gt;Matrix product&lt;/li&gt;
-&lt;li&gt;Identity matrix: $n × n$-matrix containing $1$ on the diagonal and $0$ everywhere else&lt;/li&gt;
-&lt;li&gt;Matrix properties
-&lt;ul&gt;
-&lt;li&gt;Associativity&lt;/li&gt;
-&lt;li&gt;Distributivity&lt;/li&gt;
-&lt;li&gt;Multiplication with the identity matrix&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;p&gt;&lt;img src=&#34;https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2019/08/20/normal/a8ce1ee7cf007e96bfcd1280b79a89d9.jpg&#34; alt=&#34;kr&#34;&gt;   &lt;br&gt;
-&lt;a href=&#34;https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2019/08/20/normal/a8ce1ee7cf007e96bfcd1280b79a89d9.jpg&#34;&gt;Image from jconlineimagem&lt;/a&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Probability and Counting</title>
-      <link>/docs/math/intro/probability/s110_l01_probability_and_counting/</link>
-      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/math/intro/probability/s110_l01_probability_and_counting/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;probability-and-life&#34;&gt;Probability and Life&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Genetics&lt;/li&gt;
-&lt;li&gt;Finance&lt;/li&gt;
-&lt;li&gt;History
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.historyofinformation.com/detail.php?id=4333&#34;&gt;Mosteller &amp;amp; Wallace Apply Computing in Disputed Authorship Investigation of The Federalist Papers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Games
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.york.ac.uk/depts/maths/histstat/pascal.pdf&#34;&gt;Fermat and Pascal Letters&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;The problem of points, also called the problem of division of the stakes, is a classical problem in probability theory. One of the famous problems that motivated the beginnings of modern probability theory in the 17th century, it led Blaise Pascal to the first explicit reasoning about what today is known as an expected value.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Game theory
-&lt;ul&gt;
-&lt;li&gt;The study of mathematical models of strategic interaction among rational decision-makers.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;what-is-a-sample-space-s&#34;&gt;What is a sample space &lt;code&gt;S&lt;/code&gt;?&lt;/h3&gt;
-&lt;p&gt;The set of all possible outcomes of a (random) experiment.&lt;/p&gt;
-&lt;h3 id=&#34;what-is-an-event&#34;&gt;What is an event?&lt;/h3&gt;
-&lt;p&gt;A subset of the sample space.&lt;/p&gt;
-&lt;h3 id=&#34;what-is-probability&#34;&gt;What is probability?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The very naive definition of $P_{(A)}$
-&lt;ul&gt;
-&lt;li&gt;Number of favorable outcomes $A$ divided by all possible outcomes&lt;/li&gt;
-&lt;li&gt;Assumptions:
-&lt;ul&gt;
-&lt;li&gt;all outcomes are equally likely&lt;/li&gt;
-&lt;li&gt;the sample space is finite&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;The non-naive definition $P_{(A)}$ or Probability Axioms
-&lt;ul&gt;
-&lt;li&gt;A function which takes an input, event $A$, a subset of sample space $S$,&lt;/li&gt;
-&lt;li&gt;returns $P_{(A)} \in [0,1]$ as an output,&lt;/li&gt;
-&lt;li&gt;such that
-&lt;ul&gt;
-&lt;li&gt;the probability of the empty set $P_{\varnothing} = 0$
-&lt;ul&gt;
-&lt;li&gt;An event that is impossible to happy&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;the probability of the full set $P_{S} = 1$
-&lt;ul&gt;
-&lt;li&gt;Certainty: a guaranteed event that always happens&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;the probability of a countable infinite union equals to the sum of the probabilities of $A_1$,$A_2$,&amp;hellip;, $A_n$ if they are disjoined (non-overlapping)
-&lt;ul&gt;
-&lt;li&gt;$P_{(\bigcup_{i=1}^{\infty} A_{n})} = \sum_{n=1}^{\infty}P_{A_n}$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;what-are-some-basic-principles-of-counting&#34;&gt;What are some basic principles of counting?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Multiplication rules:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Independent events assuming
-&lt;ul&gt;
-&lt;li&gt;$P_{(A and B)}=P_{(A)}⋅P_{(B)}$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;The general rule
-&lt;ul&gt;
-&lt;li&gt;$P_{(A and B)}=P_{(A)}⋅P_{(B|A)}$&lt;/li&gt;
-&lt;li&gt;If the events are independent, one happening doesn&amp;rsquo;t impact the probability of the other, and in that case $P_{(B|A)}=P_{(B)}$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Binomial coefficient	$\binom{n}{k} = \frac{n!}{k!(n-k)!}$ = $\frac{n(n-1)(n-2)(n-k+1)}{k!}$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Example, what is the probability of having a full house card? (A full house has three cards of one kind and two of another)&lt;/li&gt;
-&lt;li&gt;First you choose a type of card (13 choices), then you choose three out of four of those cards, then you choose a second type of card, and finally you choose two of those four cards.&lt;/li&gt;
-&lt;li&gt;$P = \frac{\binom{13}{1} \cdot \binom{4}{3} \cdot \binom{12}{1 }\binom{4}{2}}  {\binom{52}{5}} \approx 0.00144 $&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;how-to-choose-k-objects-out-of-n&#34;&gt;How to choose $k$ objects out of $n$?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Sampling table&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;Order matters&lt;/th&gt;
-&lt;th&gt;Order doesn&amp;rsquo;t matter&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Without replacement&lt;/td&gt;
-&lt;td&gt;S1: $n(n-1)&amp;hellip;(n-k+1)$&lt;/td&gt;
-&lt;td&gt;S3: $\binom{n}{k}$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;With replacement&lt;/td&gt;
-&lt;td&gt;S2: $n^k$&lt;/td&gt;
-&lt;td&gt;S4:$\binom{n+k-1}{k}$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;S1: The number of choices reduces every time&lt;/li&gt;
-&lt;li&gt;S2: $n$ choices each time&lt;/li&gt;
-&lt;li&gt;S3: $n$ choose $k$: think about how you choose the ice cream flavor and cones&lt;/li&gt;
-&lt;li&gt;S4:
-&lt;ul&gt;
-&lt;li&gt;Simple trivial cases
-&lt;ul&gt;
-&lt;li&gt;$k = 0$:
-&lt;ul&gt;
-&lt;li&gt;$P = \binom{n-1}{0} = 1$&lt;/li&gt;
-&lt;li&gt;not choosing is also a choice&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;$k = 1$:
-&lt;ul&gt;
-&lt;li&gt;$P = \binom{n}{1} = n$&lt;/li&gt;
-&lt;li&gt;you only choose once, there&amp;rsquo;s no difference whether there&amp;rsquo;s order or replacement&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Simple non-trivial cases
-&lt;ul&gt;
-&lt;li&gt;$n = 2$:
-&lt;ul&gt;
-&lt;li&gt;$P = \binom{k+1}{k} = \binom{k+1}{1} = k + 1$&lt;/li&gt;
-&lt;li&gt;put $k$ particles in two boxes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;General cases
-&lt;ul&gt;
-&lt;li&gt;how many ways are there to put $k$ indistinguishable particles in $n$ distinguishable boxes?&lt;/li&gt;
-&lt;li&gt;convert the question to a &amp;ldquo;dot and separator&amp;rdquo; code&lt;/li&gt;
-&lt;li&gt;$\binom{n+k-1}{k}$: $n+k-1$ positions, choose $k$ positions to put the dots&lt;/li&gt;
-&lt;li&gt;the same as $\binom{n+k-1}{n-1}$: $n+k-1$ positions, choose $n-1$ positions to put the seperators&lt;/li&gt;
-&lt;li&gt;e.g.
-&lt;ul&gt;
-&lt;li&gt;$n= 4$, $k=6$&lt;/li&gt;
-&lt;li&gt;$\cdot\cdot|\cdot|\cdot|\cdot\cdot$&lt;/li&gt;
-&lt;li&gt;6 dots and 3 separators = 9 positions&lt;/li&gt;
-&lt;li&gt;choose 6 positions to put the dots&lt;/li&gt;
-&lt;li&gt;the same as choose 3 positions to put the seperators&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-1.1.0&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=496&amp;amp;fit=clip&#34; alt=&#34;icecream&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-1.1.0&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=496&amp;amp;fit=clip&#34;&gt;Image Source&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KbB0FjPg0mw&amp;amp;list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&amp;amp;index=1&#34;&gt;Lecture 1: Probability and Counting | Statistics 110&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/buruzaemon/stats-110&#34;&gt;GitHub notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1VmkAAGOYCTORq1wxSQqy255qLJjTNvBI/view&#34;&gt;The book provided by authors&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/introduction-to-probability&#34;&gt;edx course&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vTs2IQ8OefQ&#34;&gt;Financial Theory (ECON 251)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.de/Introduction-Quantitative-Finance-Stephen-Blyth/dp/0199666598&#34;&gt;An Introduction to Quantitative Finance by Stephen Blyth&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
+&lt;h3 id=&#34;what-does-bayes-theorem-do&#34;&gt;What does Bayes Theorem do?&lt;/h3&gt;
+&lt;p&gt;It helps us to update a hypothesis based on new evidence.&lt;/p&gt;
 &lt;h3 id=&#34;terms&#34;&gt;Terms&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate&#34;&gt;Bose-Einstein condensate (BEC)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Base Rate Fallacy (Base Rate Neglect): If presented with related &lt;strong&gt;base rate information&lt;/strong&gt; (i.e., general information on prevalence) and &lt;strong&gt;specific information&lt;/strong&gt; (i.e., information pertaining only to a specific case), people tend to &lt;strong&gt;ignore the base rate&lt;/strong&gt; in favor of the individuating information, rather than correctly integrating the two.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In condensed matter physics, a Bose–Einstein condensate (BEC) is a state of matter (also called the fifth state of matter) which is typically formed when a &lt;strong&gt;gas of bosons&lt;/strong&gt; at low densities is cooled to temperatures very close to absolute zero (-273.15 °C, -459.67 °F). Under such conditions, a large fraction of bosons occupy the lowest quantum state, at which point microscopic quantum mechanical phenomena, particularly wavefunction interference, become apparent &lt;strong&gt;macroscopically&lt;/strong&gt;.
-A BEC is formed by cooling a gas of extremely low density (about one-hundred-thousandth (1/100,000) the density of normal air) to ultra-low temperatures.
-This state was first predicted, generally, in 1924–1925 by Albert Einstein following and crediting a pioneering paper by Satyendra Nath Bose on the new field now known as &lt;strong&gt;quantum statistics&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Particle_statistics#Quantum_statistics&#34;&gt;Quantum statistics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In quantum statistics, Bose–Einstein (B–E) statistics describe one of two possible ways in which a collection of &lt;strong&gt;non-interacting, indistinguishable&lt;/strong&gt; particles may occupy a set of available discrete energy states at thermodynamic equilibrium.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://thedecisionlab.b-cdn.net/wp-content/uploads/2020/09/base-rate-fallacy.jpg&#34; alt=&#34;stereotypes&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://thedecisionlab.b-cdn.net/wp-content/uploads/2020/09/base-rate-fallacy.jpg&#34;&gt;Image from thedecisionlab&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -2489,31 +2228,93 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
     
     <item>
       <title>Docs: Linear Algebra</title>
-      <link>/docs/math/intro/linear_algebra/</link>
+      <link>/docs/math/linear-algebra/linear_algebra/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/intro/linear_algebra/</guid>
+      <guid>/docs/math/linear-algebra/linear_algebra/</guid>
       <description>
         
         
         &lt;br&gt;
 &lt;h3 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#table-of-contents&#34;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#algebra&#34;&gt;Algebra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#matrices&#34;&gt;Matrices&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#vector&#34;&gt;Vector&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#determinant&#34;&gt;Determinant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#2-d&#34;&gt;2-D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#3-d&#34;&gt;3-D&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#dot-products&#34;&gt;Dot products&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#cross-products&#34;&gt;Cross products&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#cramer-rule&#34;&gt;Cramer&amp;rsquo;s rule&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#transformations&#34;&gt;Linear transformations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#matrix-vector&#34;&gt;Matrix vector multiplication&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#matrix-multiply&#34;&gt;Matrix multiplication&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#basis&#34;&gt;Change of basis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#eigen&#34;&gt;Eigenvectors and eigenvalues&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#vector&#34;&gt;Abstract vector spaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cramers-rule&#34;&gt;Cramer&amp;rsquo;s rule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#linear-transformations&#34;&gt;Linear transformations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-linear-transformation&#34;&gt;What is linear transformation?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#matrix-vector-multiplication&#34;&gt;Matrix vector multiplication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#matrix-multiplication&#34;&gt;Matrix multiplication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-of-basis&#34;&gt;Change of basis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#eigenvectors-and-eigenvalues&#34;&gt;Eigenvectors and eigenvalues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#abstract-vector-spaces&#34;&gt;Abstract vector spaces&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#questions&#34;&gt;Questions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#glossary&#34;&gt;Glossary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#read-more&#34;&gt;Read More&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;algebra&#34;&gt;Algebra&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear algebra is the study of &lt;strong&gt;vectors&lt;/strong&gt; and certain &lt;strong&gt;rules&lt;/strong&gt; to manipulate vectors.&lt;/li&gt;
+&lt;li&gt;Vectors: are special objects that can be added together and multiplied by scalars to produce another object of the same kind.
+&lt;ul&gt;
+&lt;li&gt;Examples
+&lt;ul&gt;
+&lt;li&gt;Geometric vectors&lt;/li&gt;
+&lt;li&gt;Polynomials&lt;/li&gt;
+&lt;li&gt;Audio signals&lt;/li&gt;
+&lt;li&gt;Elements of $\Bbb{R}^n $(tuples of $n$ real numebers)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Geometric Interpretation of Systems of Linear Equatiion
+&lt;ul&gt;
+&lt;li&gt;In a system of linear equations
+&lt;ul&gt;
+&lt;li&gt;with two variables x1, x2, &lt;strong&gt;each linear equation&lt;/strong&gt; defines &lt;strong&gt;a line&lt;/strong&gt; on the x1x2-plane.&lt;/li&gt;
+&lt;li&gt;with three variables, x1, x2, x3, &lt;strong&gt;each linear equation&lt;/strong&gt; defines a plane in three-dimensional space.
+&lt;ul&gt;
+&lt;li&gt;When we intersect these planes, i.e., satisfy all linear equations at the same time, we can obtain a solution set that is &lt;strong&gt;a plane&lt;/strong&gt;, &lt;strong&gt;a line&lt;/strong&gt;, &lt;strong&gt;a point&lt;/strong&gt; or &lt;strong&gt;empty&lt;/strong&gt; (when the planes have no common intersection).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;matrices&#34;&gt;Matrices&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A central role in linear algebra
+&lt;ul&gt;
+&lt;li&gt;used to compactly represent systems of linear equations&lt;/li&gt;
+&lt;li&gt;represent linear functions (linear mappints)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Matrix&lt;/li&gt;
+&lt;li&gt;Matrix addtion&lt;/li&gt;
+&lt;li&gt;Matrix multiplication&lt;/li&gt;
+&lt;li&gt;Hadamard product: element-wise product. It is a binary operation that takes two matrices of the same dimensions and produces another matrix of the same dimension as the operands, where each element &lt;code&gt;i, j&lt;/code&gt; is the product of elements &lt;code&gt;i, j&lt;/code&gt; of the original two matrices.&lt;/li&gt;
+&lt;li&gt;Matrix product&lt;/li&gt;
+&lt;li&gt;Identity matrix: $n × n$-matrix containing $1$ on the diagonal and $0$ everywhere else&lt;/li&gt;
+&lt;li&gt;Matrix properties
+&lt;ul&gt;
+&lt;li&gt;Associativity&lt;/li&gt;
+&lt;li&gt;Distributivity&lt;/li&gt;
+&lt;li&gt;Multiplication with the identity matrix&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2019/08/20/normal/a8ce1ee7cf007e96bfcd1280b79a89d9.jpg&#34; alt=&#34;kr&#34;&gt;   &lt;br&gt;
+&lt;a href=&#34;https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2019/08/20/normal/a8ce1ee7cf007e96bfcd1280b79a89d9.jpg&#34;&gt;Image from jconlineimagem&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
 &lt;h3 id=&#34;vector&#34;&gt;Vector&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Imagine we have a two dimensional space composed of x and y axis, and their intersection called origin (0).&lt;/li&gt;
@@ -4270,79 +4071,70 @@ In the final project of the Nanodegree program, you’ll design your own algorit
     </item>
     
     <item>
-      <title>Docs: Story Proofs, Axioms of Probability</title>
-      <link>/docs/math/intro/probability/s110_l02_story_proofs_axioms_probability/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Birthday</title>
+      <link>/docs/math/probability/s110_l03_birthday/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/intro/probability/s110_l02_story_proofs_axioms_probability/</guid>
+      <guid>/docs/math/probability/s110_l03_birthday/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;h3 id=&#34;story-proof&#34;&gt;Story Proof&lt;/h3&gt;
+&lt;h3 id=&#34;what-is-pigeonhole-principle&#34;&gt;What is pigeonhole principle?&lt;/h3&gt;
+&lt;p&gt;If $n$ items are put into $m$ containers, with $n &amp;gt; m$ then at least one container must contain more than one item.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34; alt=&#34;pigeonhole principle&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34;&gt;pigeonhole principle&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;what-is-the-probability-of-two-people-among-k-people-having-the-same-birthday&#34;&gt;What is the probability of two people among $k$ people having the same birthday?&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Proof by interpretation
+&lt;li&gt;If $k &amp;gt; 366$, $P = 1$&lt;/li&gt;
+&lt;li&gt;If $k&amp;lt;366$, what is the minimal $k$ to get $P \approx 0.5$?
 &lt;ul&gt;
-&lt;li&gt;Count the same thing in two ways:
+&lt;li&gt;$P_{no match} = \frac{365 \cdot 364 \dots (365-k+1)}{365^k}$&lt;/li&gt;
+&lt;li&gt;$P_{match} = 1- P_{no match}$
 &lt;ul&gt;
-&lt;li&gt;$\binom{n}{k} = \binom{n}{n-k}$&lt;/li&gt;
-&lt;li&gt;$ k\binom{n}{k} = n\binom{n-1}{k-1}$
-&lt;ul&gt;
-&lt;li&gt;Story proof:
-&lt;ul&gt;
-&lt;li&gt;Picking $k$ Cabinet members out of $n$ people, with one selected as the Prime Minister&lt;/li&gt;
-&lt;li&gt;the same as picking one person from $n$ people as the Prime Minister, the rest as $k-1$ the Cabinet members&lt;/li&gt;
+&lt;li&gt;$0.51$, $k =23$&lt;/li&gt;
+&lt;li&gt;$0.97$, $k =50$&lt;/li&gt;
+&lt;li&gt;$0.99999$, $k =100$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Vandermonde&amp;rsquo;s identity $\binom{m+n}{k} = \sum_{j=0}^{k}\binom{m}{j}\binom{n}{k-j}$
 &lt;ul&gt;
-&lt;li&gt;Story proof:
+&lt;li&gt;Let&amp;rsquo;s build some intuition of $P_{match} = \binom{k}{2}$
 &lt;ul&gt;
-&lt;li&gt;Picking $k$ people from $m+n$ places
-= the same as picking $j$ people from place $m$, $k-j$ people from place $n$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;$\binom{23}{2} = \frac{23 \cdot 22}{2} =253$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;probability-properties&#34;&gt;Probability Properties&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Alexandre-Th%C3%A9ophile_Vandermonde&#34;&gt;Alexandre-Théophile Vandermonde&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h3&gt;
+&lt;li&gt;$P_{(A^c)} = 1-P_{(A)}$&lt;/li&gt;
+&lt;li&gt;$P_{(A)} \le P_{(B)}$ if $A$ is contained in $B$ ($A \in B$)
 &lt;ul&gt;
-&lt;li&gt;Labeling people is dangerous, but labeling events in a probability problem is important&lt;/li&gt;
-&lt;li&gt;Think about the subtle differences between probabilities of
-&lt;ul&gt;
-&lt;li&gt;choosing one people in a team from four people
-&lt;ul&gt;
-&lt;li&gt;$P = \binom{4}{1}$&lt;/li&gt;
+&lt;li&gt;$B= A {\bigcup} (B \bigcap A^c)$, disjoint&lt;/li&gt;
+&lt;li&gt;$P_{(B)} = P_{(A)} + P_{(B \bigcap A^c)} \ge P_{(A)}$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;choosing three people in a team from four people
+&lt;li&gt;$P_{A \bigcup B} =P_{(A)} + P_{(B)} - P_{(A \bigcap B)}$&lt;/li&gt;
+&lt;li&gt;$P_{A \bigcup B \bigcup} =P_{(A)} + P_{(B)} + P_{(C)} - P_{(A \bigcap B)}- P_{(A \bigcap C)}- P_{(B \bigcap C)} + P_{(A \bigcap B \bigcap C)}$&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752&#34;&gt;General Case&lt;/a&gt;&lt;br&gt;
+&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752&#34; alt=&#34;General&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34; alt=&#34;Inclusion–exclusion illustrated by a Venn diagram for three sets&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34;&gt;Inclusion–exclusion illustrated by a Venn diagram for three sets&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;de-montmorts-problem&#34;&gt;De Montmort&amp;rsquo;s Problem&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;$P = \binom{4}{3}$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;choosing one people in a team, three people in another team from a total of four people
+&lt;li&gt;1713&lt;/li&gt;
+&lt;li&gt;matching problem for gambling
 &lt;ul&gt;
-&lt;li&gt;$P = \binom{4}{1} = \binom{4}{3}$&lt;/li&gt;
+&lt;li&gt;$n$ cards, labeled $1, 2, 3, &amp;hellip;, n$, let $A_j$ be the event with matches&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;choosing two people in a team, two people in another team from a total of four people
-&lt;ul&gt;
-&lt;li&gt;$P = \frac{\binom{4}{2}}{2}$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;$P_{(A_1 \bigcup A_2 \bigcup \dots \bigcup A_n)} \approx 1- \frac{1}{e}$&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -6372,6 +6164,410 @@ Strict inequality will not convert data types.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.machinelearningplus.com/nlp/cosine-similarity/&#34;&gt;Cosine Similarity – Understanding the math and how it works (with python codes)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.machinelearningplus.com/nlp/gensim-tutorial/&#34;&gt;Gensim Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Books</title>
+      <link>/docs/swiss-knives/books/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/swiss-knives/books/</guid>
+      <description>
+        
+        
+           &lt;br&gt;
+&lt;h3 id=&#34;deep-learninghttpswwwdeeplearningbookorg&#34;&gt;&lt;a href=&#34;https://www.deeplearningbook.org/&#34;&gt;Deep Learning&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ian Goodfellow and Yoshua Bengio and Aaron Courville&lt;/p&gt;
+&lt;/blockquote&gt;
+   &lt;br&gt; 
+&lt;h3 id=&#34;the-65-books-released-by-springerhttpstowardsdatasciencecomspringer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189&#34;&gt;&lt;a href=&#34;https://towardsdatascience.com/springer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189&#34;&gt;The 65 books released by Springer&lt;/a&gt;&lt;/h3&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;The Elements of Statistical Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Trevor Hastie, Robert Tibshirani, Jerome Friedman&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-84858-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-84858-7&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Introductory Time Series with R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Paul S.P. Cowpertwait, Andrew V. Metcalfe&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-88698-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-88698-5&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;A Beginner’s Guide to R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alain Zuur, Elena N. Ieno, Erik Meesters&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-93837-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-93837-0&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Evolutionary Computing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A.E. Eiben, J.E. Smith&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-662-44874-8&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-662-44874-8&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Siegmund Brandt&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-03762-2&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-03762-2&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear and Nonlinear Programming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;David G. Luenberger, Yinyu Ye&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-18842-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-18842-3&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Partial Differential Equations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;David Borthwick&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-48936-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-48936-0&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Fundamentals of Robotic Mechanical Systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Jorge Angeles&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-01851-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-01851-5&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Structures and Algorithms with Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kent D. Lee, Steve Hubbard&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-13072-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-13072-9&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Partial Differential Equations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Peter J. Olver&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-02099-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-02099-0&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Methods of Mathematical Modelling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thomas Witelski, Mark Bowen&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-23042-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-23042-9&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;LaTeX in 24 Hours&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dilip Datta&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-47831-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-47831-9&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Statistics and Data Analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Christian Heumann, Michael Schomaker, Shalabh&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-46162-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-46162-5&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Principles of Data Mining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Max Bramer&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-7307-6&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-7307-6&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Computer Vision&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Richard Szeliski&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84882-935-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84882-935-0&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Mining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Charu C. Aggarwal&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-14142-8&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-14142-8&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Computational Geometry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mark de Berg, Otfried Cheong, Marc van Kreveld, Mark Overmars&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-540-77974-2&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-540-77974-2&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Robotics, Vision and Control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Peter Corke&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-54413-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-54413-7&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Statistical Analysis and Data Display&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Richard M. Heiberger, Burt Holland&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2122-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2122-5&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Statistics and Data Analysis for Financial Engineering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;David Ruppert, David S. Matteson&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2614-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2614-5&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Stochastic Processes and Calculus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Uwe Hassler&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-23428-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-23428-1&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Statistical Analysis of Clinical Data on a Pocket Calculator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ton J. Cleophas, Aeilko H. Zwinderman&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-94-007-1211-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-94-007-1211-9&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Clinical Data Analysis on a Pocket Calculator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ton J. Cleophas, Aeilko H. Zwinderman&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-27104-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-27104-0&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;The Data Science Design Manual&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Steven S. Skiena&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-55444-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-55444-0&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;An Introduction to Machine Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Miroslav Kubat&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-63913-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-63913-0&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Guide to Discrete Mathematics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gerard O’Regan&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-44561-8&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-44561-8&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Time Series and Forecasting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Peter J. Brockwell, Richard A. Davis&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-29854-2&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-29854-2&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Multivariate Calculus and Geometry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Seán Dineen&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-6419-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-6419-7&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Statistics and Analysis of Scientific Data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Massimiliano Bonamente&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-6572-4&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-6572-4&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Modelling Computing Systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Faron Moller, Georg Struth&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84800-322-4&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84800-322-4&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Search Methodologies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Edmund K. Burke, Graham Kendall&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6940-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6940-7&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear Algebra Done Right&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sheldon Axler&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-11080-6&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-11080-6&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear Algebra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Jörg Liesen, Volker Mehrmann&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-24346-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-24346-7&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Algebra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Serge Lang&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4613-0041-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4613-0041-0&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding Analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stephen Abbott&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2712-8&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2712-8&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear Programming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Robert J Vanderbei&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-7630-6&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-7630-6&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding Statistics Using R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Randall Schumacker, Sara Tomek&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6227-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6227-9&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;An Introduction to Statistical Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-7138-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-7138-7&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Statistical Learning from a Regression Perspective&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Richard A. Berk&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-44048-4&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-44048-4&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Applied Partial Differential Equations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;J. David Logan&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-12493-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-12493-3&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Robotics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bruno Siciliano, Lorenzo Sciavicco, Luigi Villani, Giuseppe Oriolo&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84628-642-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84628-642-1&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Regression Modeling Strategies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Frank E. Harrell , Jr.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-19425-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-19425-7&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;A Modern Introduction to Probability and Statistics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;F.M. Dekking, C. Kraaikamp, H.P. Lopuhaä, L.E. Meester&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84628-168-6&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84628-168-6&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;The Python Workbook&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ben Stephenson&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-14240-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-14240-1&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Machine Learning in Medicine — a Complete Overview&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ton J. Cleophas, Aeilko H. Zwinderman&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-15195-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-15195-3&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Object-Oriented Analysis, Design and Implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Brahma Dathan, Sarnath Ramnath&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-24280-4&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-24280-4&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Data Science&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Laura Igual, Santi Seguí&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-50017-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-50017-1&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Applied Predictive Modeling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Max Kuhn, Kjell Johnson&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6849-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6849-3&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Python For ArcGIS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Laura Tateosian&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-18398-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-18398-5&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Concise Guide to Databases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Peter Lake, Paul Crowther&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-5601-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-5601-7&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Digital Image Processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wilhelm Burger, Mark J. Burge&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-6684-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-6684-9&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Bayesian Essentials with R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Jean-Michel Marin, Christian P. Robert&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-8687-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-8687-9&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Robotics, Vision and Control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Peter Corke&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-642-20144-8&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-642-20144-8&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Foundations of Programming Languages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kent D. Lee&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-70790-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-70790-7&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Artificial Intelligence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wolfgang Ertel&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-58487-4&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-58487-4&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Deep Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sandro Skansi&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-73004-2&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-73004-2&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear Algebra and Analytic Geometry for Physical Sciences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Giovanni Landi, Alessandro Zampini&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-78361-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-78361-1&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Applied Linear Algebra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Peter J. Olver, Chehrzad Shakiban&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-91041-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-91041-3&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Neural Networks and Deep Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Charu C. Aggarwal&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-94463-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-94463-0&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Science and Predictive Analytics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ivo D. Dinov&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-72347-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-72347-1&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Analysis for Computer Scientists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Michael Oberguggenberger, Alexander Ostermann&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-91155-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-91155-7&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Excel Data Analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hector Guerrero&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-01279-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-01279-3&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;A Beginners Guide to Python 3 Programming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;John Hunt&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-20290-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-20290-3&lt;/a&gt;&lt;/p&gt;
+   &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Advanced Guide to Python 3 Programming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;John Hunt&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-25943-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-25943-3&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>

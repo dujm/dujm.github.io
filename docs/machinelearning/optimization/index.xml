@@ -15,6 +15,19 @@
     
     
     <item>
+      <title>Docs: Activation</title>
+      <link>/docs/machinelearning/optimization/activation/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/optimization/activation/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Bayesian Optimization</title>
       <link>/docs/machinelearning/optimization/bayesian-optimization/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
@@ -90,6 +103,81 @@
 &lt;ul&gt;
 &lt;li&gt;Simpler explanations are more plausible&lt;/li&gt;
 &lt;li&gt;Any unessary complexity should be shaved off&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ethem Alpaydin, 2020, Introduction to Machine Learning&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Selection</title>
+      <link>/docs/machinelearning/optimization/selection/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/optimization/selection/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;ill-posed-problem&#34;&gt;Ill-posed Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The data itself is not sufficient to find a unique solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;induction-bias&#34;&gt;Induction Bias&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The set of assumptions we make to have learning possible&lt;/li&gt;
+&lt;li&gt;Leaning is not possible without inductive bias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;model-selection&#34;&gt;Model Selection&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;About choosing the right bias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;model-generalization&#34;&gt;Model Generalization&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How well a model trained on the training set predicts the right output for new instances&lt;/li&gt;
+&lt;li&gt;Underfitting&lt;/li&gt;
+&lt;li&gt;Overfitting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;triple-trade-off&#34;&gt;Triple Trade-Off&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The complexity of the hypothesis we fit to data&lt;/li&gt;
+&lt;li&gt;The amount of training data&lt;/li&gt;
+&lt;li&gt;The generalization error on new examples&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cross-validation&#34;&gt;Cross Validation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chose the hypothesis that is best on the validation set&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Version spaces&lt;/li&gt;
+&lt;li&gt;Near miss
+&lt;ul&gt;
+&lt;li&gt;proposed by Winston 1975&lt;/li&gt;
+&lt;li&gt;a negative example that is very much like a positive example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Active learning:
+&lt;ul&gt;
+&lt;li&gt;proposed by Angluin 1988&lt;/li&gt;
+&lt;li&gt;an algorithm that can generate instances itself and ask for them tobe labeled&lt;/li&gt;
+&lt;li&gt;instead of passively being given them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;VC dimension
+&lt;ul&gt;
+&lt;li&gt;proposed by Vapnik and Chervonenkis in the early 1970s&lt;/li&gt;
+&lt;li&gt;Nothing is more than a good theory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PAC model
+&lt;ul&gt;
+&lt;li&gt;proposed by Valient (1984)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
 &lt;ul&gt;

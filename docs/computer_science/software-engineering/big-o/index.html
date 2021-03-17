@@ -22,17 +22,17 @@
 
 <title>big-O | DJ&#39;s Website</title><meta property="og:title" content="big-O" />
 <meta property="og:description" content="Flat is better than nested — The Zen of Python
- 1. How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  2. What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  3. How to measure the code performance using big-O?  Assignment statements and if statements that are only executed once regardless of the size of the problem are O(1)." />
+ How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  Big O Notation: O(n)  My summary cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/computer_science/software-engineering/big-o/" />
 <meta property="article:published_time" content="2020-03-19T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-03-19T00:00:00+00:00" />
 <meta itemprop="name" content="big-O">
 <meta itemprop="description" content="Flat is better than nested — The Zen of Python
- 1. How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  2. What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  3. How to measure the code performance using big-O?  Assignment statements and if statements that are only executed once regardless of the size of the problem are O(1).">
+ How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  Big O Notation: O(n)  My summary cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?">
 <meta itemprop="datePublished" content="2020-03-19T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-03-19T00:00:00+00:00" />
-<meta itemprop="wordCount" content="324">
+<meta itemprop="wordCount" content="467">
 
 
 
@@ -40,7 +40,7 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="big-O"/>
 <meta name="twitter:description" content="Flat is better than nested — The Zen of Python
- 1. How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  2. What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  3. How to measure the code performance using big-O?  Assignment statements and if statements that are only executed once regardless of the size of the problem are O(1)."/>
+ How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  Big O Notation: O(n)  My summary cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?"/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -132,7 +132,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.9360b55e8fb052f2869f75a09f7630f68e2a29cd02148bbd1a6fbc3dcbf0be0886a2653fca1e09f41b4f1967b537168212ef58ade18bde35f2063fc8c38b2b31.json"
+  data-offline-search-index-json-src="/offline-search-index.04914687c1b789ff7fab0e9baf6b06a9555952e0e7e8f2c12b801b0294a3983d361a7c8c93a1cf7157f6b8ee34b4ec54ce1cbf936dd327e76ea3e8955776566d.json"
   data-offline-search-base-href="/"
 >
 
@@ -162,7 +162,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.9360b55e8fb052f2869f75a09f7630f68e2a29cd02148bbd1a6fbc3dcbf0be0886a2653fca1e09f41b4f1967b537168212ef58ade18bde35f2063fc8c38b2b31.json"
+  data-offline-search-index-json-src="/offline-search-index.04914687c1b789ff7fab0e9baf6b06a9555952e0e7e8f2c12b801b0294a3983d361a7c8c93a1cf7157f6b8ee34b4ec54ce1cbf936dd327e76ea3e8955776566d.json"
   data-offline-search-base-href="/"
 >
 
@@ -1050,41 +1050,6 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/computer_science/software-engineering/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Software Engineering</a>
-  </li>
-  <ul>
-    <li class="collapse show" id="docscomputer_sciencesoftware-engineering">
-      
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docscomputer_sciencesoftware-engineeringbig-o" href="/docs/computer_science/software-engineering/big-o/">big-O</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_sciencesoftware-engineeringsorts" href="/docs/computer_science/software-engineering/sorts/">Sorts</a>
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
     <a  href="/docs/computer_science/hpc/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">HPC</a>
   </li>
   <ul>
@@ -1131,6 +1096,59 @@
       
       
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_scienceiotrpi-lcd-display" href="/docs/computer_science/iot/rpi-lcd-display/">RPI Touch Screen LCD</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/computer_science/software-engineering/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Software Engineering</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="docscomputer_sciencesoftware-engineering">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docscomputer_sciencesoftware-engineeringbig-o" href="/docs/computer_science/software-engineering/big-o/">big-O</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_sciencesoftware-engineeringdata-structure" href="/docs/computer_science/software-engineering/data-structure/">Data Structure</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_sciencesoftware-engineeringefficiency" href="/docs/computer_science/software-engineering/efficiency/">Efficiency</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_sciencesoftware-engineeringmemory" href="/docs/computer_science/software-engineering/memory/">Memory</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_sciencesoftware-engineeringtesting" href="/docs/computer_science/software-engineering/testing/">Testing</a>
       
       
     </li>
@@ -2477,29 +2495,6 @@
 
       
       
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/machinelearning/models/selection/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Selection</a>
-  </li>
-  <ul>
-    <li class="collapse " id="docsmachinelearningmodelsselection">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
     </li>
   </ul>
 </ul>
@@ -2525,6 +2520,35 @@
       
       
       
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/optimization/activation/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Activation</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningoptimizationactivation">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningoptimizationactivationmath-proof" href="/docs/machinelearning/optimization/activation/math-proof/">Activation</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
       
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningoptimizationbayesian-optimization" href="/docs/machinelearning/optimization/bayesian-optimization/">Bayesian Optimization</a>
       
@@ -2533,6 +2557,12 @@
       
       
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningoptimizationnoise" href="/docs/machinelearning/optimization/noise/">Noise</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningoptimizationselection" href="/docs/machinelearning/optimization/selection/">Selection</a>
       
       
     </li>
@@ -2580,23 +2610,29 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/math/intro/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Introduction</a>
+    <a  href="/docs/math/calculus/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Calculus</a>
   </li>
   <ul>
-    <li class="collapse " id="docsmathintro">
+    <li class="collapse " id="docsmathcalculus">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrolinear_algebra" href="/docs/math/intro/linear_algebra/">Linear Algebra</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathcalculuscalculus" href="/docs/math/calculus/calculus/">Calculus</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrocalculus" href="/docs/math/intro/calculus/">Calculus</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathrender-math" href="/docs/math/render-math/">Math Formulas</a>
       
       
       
@@ -2609,89 +2645,17 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/math/intro/probability/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Probablity</a>
+    <a  href="/docs/math/linear-algebra/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Linear Algebra</a>
   </li>
   <ul>
-    <li class="collapse " id="docsmathintroprobability">
+    <li class="collapse " id="docsmathlinear-algebra">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l01_probability_and_counting" href="/docs/math/intro/probability/s110_l01_probability_and_counting/">Probability and Counting</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l02_story_proofs_axioms_probability" href="/docs/math/intro/probability/s110_l02_story_proofs_axioms_probability/">Story Proofs, Axioms of Probability</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l03_birthday" href="/docs/math/intro/probability/s110_l03_birthday/">Birthday</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l04_conditional_probability" href="/docs/math/intro/probability/s110_l04_conditional_probability/">Conditional Probability</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l05_conditioning_2" href="/docs/math/intro/probability/s110_l05_conditioning_2/">Conditional Probability</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l06_montyhall" href="/docs/math/intro/probability/s110_l06_montyhall/">Monty Hall</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l07_l08_random_variables_distributions" href="/docs/math/intro/probability/s110_l07_l08_random_variables_distributions/">Random Variables and Distributions</a>
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrostatistics" href="/docs/math/intro/statistics/">Statistics</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrorender-math" href="/docs/math/intro/render-math/">Math Formulas</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrobayes-theorem" href="/docs/math/intro/bayes-theorem/">Bayes Theorem</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroneural-networks" href="/docs/math/intro/neural-networks/">Mathematics of Neural Networks</a>
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrostatisticssummary" href="/docs/math/intro/statistics/summary/"></a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathlinear-algebralinear_algebra" href="/docs/math/linear-algebra/linear_algebra/">Linear Algebra</a>
       
       
     </li>
@@ -2710,17 +2674,65 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/math/machinelearning/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Machine Learning</a>
+    <a  href="/docs/math/probability/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Probablity</a>
   </li>
   <ul>
-    <li class="collapse " id="docsmathmachinelearning">
+    <li class="collapse " id="docsmathprobability">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathmachinelearning02linear_algebra" href="/docs/math/machinelearning/02linear_algebra/">Linear Algebra</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathprobabilitybayes-theorem" href="/docs/math/probability/bayes-theorem/">Bayes Theorem</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathprobabilitys110_l03_birthday" href="/docs/math/probability/s110_l03_birthday/">Birthday</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathprobabilitys110_l04_conditional_probability" href="/docs/math/probability/s110_l04_conditional_probability/">Conditional Probability</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathprobabilitys110_l06_montyhall" href="/docs/math/probability/s110_l06_montyhall/">Monty Hall</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathprobabilitys110_l01_probability_and_counting" href="/docs/math/probability/s110_l01_probability_and_counting/">Probability and Counting</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathprobabilitys110_l07_l08_random_variables_distributions" href="/docs/math/probability/s110_l07_l08_random_variables_distributions/">Random Variables and Distributions</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathprobabilitys110_l02_story_proofs_axioms_probability" href="/docs/math/probability/s110_l02_story_proofs_axioms_probability/">Story Proofs, Axioms of Probability</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathprobabilitybayesian-decision" href="/docs/math/probability/bayesian-decision/"></a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
       
       
       
@@ -2733,23 +2745,35 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/math/machinelearning/activation/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Activation</a>
+    <a  href="/docs/math/statistics/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Statistics</a>
   </li>
   <ul>
-    <li class="collapse " id="docsmathmachinelearningactivation">
+    <li class="collapse " id="docsmathstatistics">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathmachinelearningactivationmath-proof" href="/docs/math/machinelearning/activation/math-proof/">Activation</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathstatisticscontinuous" href="/docs/math/statistics/continuous/">Continuous</a>
       
       
-    </li>
-  </ul>
-</ul>
-
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathstatisticsstatistics" href="/docs/math/statistics/statistics/">Statistics</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathstatisticsparametric-nonparametric" href="/docs/math/statistics/parametric-nonparametric/">Parametric</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathstatisticsdistributions" href="/docs/math/statistics/distributions/"></a>
       
       
     </li>
@@ -3061,14 +3085,23 @@
 
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#how-do-you-evaluate-codes">How do you evaluate codes?</a></li>
+    <li><a href="#big-o-notation-on">Big O Notation: O(n)</a>
       <ul>
-        <li><a href="#1-how-do-you-evaluate-codes">1. How do you evaluate codes?</a></li>
-        <li><a href="#2-what-is-big-o-notation">2. What is big-O notation?</a></li>
-        <li><a href="#3-how-to-measure-the-code-performance-using--big-o">3. How to measure the code performance using  big-O?</a></li>
-        <li><a href="#rules">Rules:</a></li>
-        <li><a href="#4-what-are-the-big-o-notations-from-these-ml-techniques">4. What are the big-O notations from these ML techniques?</a></li>
-        <li><a href="#5-bigo-of-various-operations-in-current-cpython">5. BigO of various operations in current CPython</a></li>
+        <li><a href="#what-is-big-o-notation">What is big-O notation?</a></li>
+        <li><a href="#how-to-measure-the-code-performance-using--big-o">How to measure the code performance using  big-O?</a></li>
+        <li><a href="#rules">Rules</a></li>
+        <li><a href="#what-are-the-big-o-notations-from-these-ml-techniques">What are the big-O notations from these ML techniques?</a></li>
+        <li><a href="#bigo-of-various-operations-in-current-cpython">BigO of various operations in current CPython</a></li>
+      </ul>
+    </li>
+    <li><a href="#searching-and-sorting">Searching and Sorting</a>
+      <ul>
+        <li><a href="#binary-searchhttpswwwcsusfcaedugallesvisualizationsearchhtml"><a href="https://www.cs.usfca.edu/~galles/visualization/Search.html">Binary Search</a></a></li>
+        <li><a href="#bubble-sort">Bubble Sort</a></li>
+        <li><a href="#merge-sorthttpsalgs4csprincetonedu22mergesort"><a href="https://algs4.cs.princeton.edu/22mergesort/">Merge Sort</a></a></li>
+        <li><a href="#quick-sort">Quick Sort</a></li>
+        <li><a href="#selection-sort">Selection Sort</a></li>
         <li><a href="#6-references">6. References</a></li>
       </ul>
     </li>
@@ -3138,62 +3171,107 @@
 </div>
 
 <br>
-<h3 id="1-how-do-you-evaluate-codes">1. How do you evaluate codes?</h3>
+<h2 id="how-do-you-evaluate-codes">How do you evaluate codes?</h2>
 <ul>
 <li>Time efficiency: Faster? Time complexity</li>
 <li>Space efficiency: Less memory intensive?</li>
 <li>More readable ?</li>
 </ul>
-<br>
-<h3 id="2-what-is-big-o-notation">2. What is big-O notation?</h3>
+<h2 id="big-o-notation-on">Big O Notation: O(n)</h2>
+<ul>
+<li><a href="https://dujm.github.io/docs/computer_science/software-engineering/big-o/">My summary</a></li>
+<li><a href="https://www.bigocheatsheet.com/">cheatsheet</a></li>
+<li>n: the length of input to your function</li>
+<li>Approximation: Worst, average, best case</li>
+<li>Space efficiency: Copy code</li>
+</ul>
+<h3 id="what-is-big-o-notation">What is big-O notation?</h3>
 <ul>
 <li>a fuzzy way for counting</li>
 <li>a big picture of the time efficiency of the code</li>
 </ul>
-<br>
-<h3 id="3-how-to-measure-the-code-performance-using--big-o">3. How to measure the code performance using  big-O?</h3>
+<h3 id="how-to-measure-the-code-performance-using--big-o">How to measure the code performance using  big-O?</h3>
 <ul>
-<li>Assignment statements and if statements that are only executed once regardless of the size of the problem are O(1).</li>
-<li>A simple “for” loop from 0 to n (with no internal loops), contributes O(n) (linear complexity);
-a nested loop of the same type (or bounded by the first loop parameter), gives O(n^2) (quadratic complexity);</li>
-<li>A loop in which the controlling parameter is divided by two at each step (and which terminates when it reaches 1), gives O(log n) (logarithmic complexity);</li>
+<li>Assignment statements and if statements that are only executed once regardless of the size of the problem are $O(1)$.</li>
+<li>A simple “for” loop from 0 to n (with no internal loops), contributes $O(n)$ (linear complexity);
+a nested loop of the same type (or bounded by the first loop parameter), gives $O(n^2)$ (quadratic complexity);</li>
+<li>A loop in which the controlling parameter is divided by two at each step (and which terminates when it reaches 1), gives $O(log n)$ (logarithmic complexity);</li>
 <li>A “while” loop may vary depends on the actual numbers of iterations it will run ( OK. It means as same as the for loop. That is to say, for all kinds of loops, we only care about the actual number of iterations that they’ve executed before they hit the upper bond).</li>
-<li>A loop with a not-O(1) execution inside, simply multiplies the complexity of the body of the loop, by the number of times the loop will execute.</li>
+<li>A loop with a not-$O(1)$ execution inside, simply multiplies the complexity of the body of the loop, by the number of times the loop will execute.</li>
 <li>When dealing with multiple statements, add them up.</li>
 </ul>
-<h3 id="rules">Rules:</h3>
+<h3 id="rules">Rules</h3>
 <ul>
 <li>
 <p>Constants doesn&rsquo;t matter</p>
-</li>
-<li>
-<p>O(2N) = O(N)</p>
-</li>
-<li>
-<p>O(5) = O(500) = O(1)</p>
-</li>
-<li>
-<p>O (17N<em>N) = O (N</em>N)</p>
+<ul>
+<li>$O(2N) = O(N)$</li>
+<li>$O(5) = O(500) = O(1)$</li>
+</ul>
 </li>
 <li>
 <p>Smaller terms doesn&rsquo;t matter</p>
-</li>
-<li>
-<p>O($N^2$ +50N +10) == O($N^2$)</p>
-</li>
-<li>
-<p>O(1) &lt; O(log n) &lt; O( Sqrt(n) ) &lt; O(n) &lt; O(n log n) &lt; O($n^2$) &lt; O($n^3$) &lt; O($2^n$)</p>
-</li>
-</ul>
-<br>
-<h3 id="4-what-are-the-big-o-notations-from-these-ml-techniques">4. What are the big-O notations from these ML techniques?</h3>
 <ul>
-<li>Linear:  O(N)</li>
-<li>Sorting: O(nlogN)</li>
+<li>$O(N^2 +50N +10) == O(N^2)$</li>
+</ul>
+</li>
+<li>
+<p>$O(1) &lt; O(log n) &lt; O(Sqrt(n) ) &lt; O(n) &lt; O(n log n) &lt; O(n^2) &lt; O(n^3) &lt; O(2^n)$</p>
+</li>
+</ul>
+<h3 id="what-are-the-big-o-notations-from-these-ml-techniques">What are the big-O notations from these ML techniques?</h3>
+<ul>
+<li>Linear:  $O(N)$</li>
+<li>Sorting: $O(nlogN)$</li>
+</ul>
+<h3 id="bigo-of-various-operations-in-current-cpython">BigO of various operations in current CPython</h3>
+<p><a href="https://wiki.python.org/moin/TimeComplexity">Time Complexity</a></p>
+<br>
+<h2 id="searching-and-sorting">Searching and Sorting</h2>
+<h3 id="binary-searchhttpswwwcsusfcaedugallesvisualizationsearchhtml"><a href="https://www.cs.usfca.edu/~galles/visualization/Search.html">Binary Search</a></h3>
+<ul>
+<li>Definition</li>
+<li>Efficiency: $O(log(n))$,  not $O(N)$, typically base 2 in CS</li>
+</ul>
+<h3 id="bubble-sort">Bubble Sort</h3>
+<ul>
+<li>Time complexity: (n-1)(n-1): $n^2$</li>
+<li>Space complexity: Auxillary space O(1) because we don&rsquo;t need extra arrays etc . In space sorting algorithm</li>
+</ul>
+<h3 id="merge-sorthttpsalgs4csprincetonedu22mergesort"><a href="https://algs4.cs.princeton.edu/22mergesort/">Merge Sort</a></h3>
+<ul>
+<li>Divide and Conquer
+<ul>
+<li>Break the array down into small pieces and build it up along the way</li>
+</ul>
+</li>
+<li>time complexity: $nlog(n)$</li>
+<li>space complexity: $O(n)$, need to copy array at each step</li>
 </ul>
 <br>
-<h3 id="5-bigo-of-various-operations-in-current-cpython">5. BigO of various operations in current CPython</h3>
-<p><a href="https://wiki.python.org/moin/TimeComplexity">Time Complexity</a></p>
+<h3 id="quick-sort">Quick Sort</h3>
+<ul>
+<li>Pivot: pick up a random value
+<ul>
+<li>But the convention is to pick the last one as a pivot</li>
+</ul>
+</li>
+<li>Method: move the pivot in the middle
+<ul>
+<li>run from both directions</li>
+<li>select the median of the last few pivots</li>
+</ul>
+</li>
+<li>Time complexity:
+<ul>
+<li>Worst case: $O(n^2)$, the biggest numbers are already in the right place (e.g. end)</li>
+<li>Average case: $nlog(n)$</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="selection-sort">Selection Sort</h3>
+<p><img src="https://www.studytonight.com/data-structures/images/simple-selection-sort.png" alt="Selection Sort"></p>
 <br>
 <h3 id="6-references">6. References</h3>
 <ul>

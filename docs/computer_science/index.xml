@@ -24,7 +24,7 @@
         
         
         &lt;br&gt;
-&lt;h3 id=&#34;cs-courses&#34;&gt;CS Courses&lt;/h3&gt;
+&lt;h2 id=&#34;cs-courses&#34;&gt;CS Courses&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/computer-science-101&#34;&gt;Computer Science 101&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -79,24 +79,14 @@ Analog vs. digital&lt;/li&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/Web-Dev-For-Beginners&#34;&gt;Microsoft Web Dev For Beginners&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/how-to-hack-your-own-cs-degree-for-free/&#34;&gt;How to Hack Together Your Own CS Degree Online&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Software Engineering</title>
-      <link>/docs/computer_science/software-engineering/</link>
-      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/computer_science/software-engineering/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
+&lt;h2 id=&#34;read&#34;&gt;Read&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sre.google/sre-book/table-of-contents/&#34;&gt;Site Reliability Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
@@ -162,6 +152,20 @@ Analog vs. digital&lt;/li&gt;
         
         
         
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Software Engineering</title>
+      <link>/docs/computer_science/software-engineering/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/software-engineering/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;br&gt;
       </description>
     </item>
     
