@@ -37,7 +37,7 @@
 &lt;li&gt;Space efficiency: Less memory intensive?&lt;/li&gt;
 &lt;li&gt;More readable ?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;big-o-notation-on&#34;&gt;Big O Notation: O(n)&lt;/h2&gt;
+&lt;h2 id=&#34;big-o-notation&#34;&gt;Big O Notation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://dujm.github.io/docs/computer_science/software-engineering/big-o/&#34;&gt;My summary&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bigocheatsheet.com/&#34;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
@@ -133,7 +133,7 @@ a nested loop of the same type (or bounded by the first loop parameter), gives $
 &lt;h3 id=&#34;selection-sort&#34;&gt;Selection Sort&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.studytonight.com/data-structures/images/simple-selection-sort.png&#34; alt=&#34;Selection Sort&#34;&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h3 id=&#34;6-references&#34;&gt;6. References&lt;/h3&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.albertgao.xyz/2016/08/09/everything-you-need-to-know-about-big-o-notation/&#34;&gt;Everything about big-o&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pdfs.semanticscholar.org/a8b4/786c9128d4a94caeb67c858ab4f4288c49ff.pdf&#34;&gt;SVM Analysis&lt;/a&gt;&lt;/li&gt;
@@ -211,7 +211,7 @@ We call a dynamic set that supports these operations (the ability to insert elem
 &lt;/blockquote&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;list&#34;&gt;List&lt;/h2&gt;
-&lt;h2 id=&#34;linked-lists&#34;&gt;Linked lists&lt;/h2&gt;
+&lt;h3 id=&#34;linked-lists&#34;&gt;Linked lists&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;An array&amp;rsquo;s linear order is determined by the array indices&lt;/li&gt;
 &lt;li&gt;A linked list is a data structure in which the objects are arranged in a linear order&lt;/li&gt;
@@ -298,8 +298,8 @@ We call a dynamic set that supports these operations (the ability to insert elem
 &lt;li&gt;&lt;a href=&#34;https://docs.python.org/2/tutorial/datastructures.html#using-lists-as-stacks&#34;&gt;e.g.list&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Underflows: pop an empty stack
-*Overflows: if S.top &amp;gt;n&lt;/li&gt;
+&lt;li&gt;Underflows: pop an empty stack&lt;/li&gt;
+&lt;li&gt;Overflows: if S.top &amp;gt;n&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;queues&#34;&gt;Queues&lt;/h2&gt;
@@ -1023,6 +1023,24 @@ python3 -c &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;from test0 import 
 &lt;li&gt;A path complete test suite could still miss a bug&lt;/li&gt;
 &lt;li&gt;Should still hit boundary cases (0, -1)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;assert&#34;&gt;Assert&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;at the beginning of a function&lt;/li&gt;
+&lt;li&gt;assert what you expects, if the assertion is false, what to do and the function terminates&lt;/li&gt;
+&lt;li&gt;prevents the program propagating bad values, getting an unexpected results at the end&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;when-to-use-assertions&#34;&gt;When to use assertions?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;raise exceptions if users supply bad data input&lt;/li&gt;
+&lt;li&gt;use assertions to
+&lt;ul&gt;
+&lt;li&gt;check types of arguments of values&lt;/li&gt;
+&lt;li&gt;check that invariants on data structures are met&lt;/li&gt;
+&lt;li&gt;check constraints on return values&lt;/li&gt;
+&lt;li&gt;check for violations of constraints on procedure (e.g. no duplicates)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;debugging&#34;&gt;Debugging&lt;/h2&gt;
 &lt;h3 id=&#34;history-of-debugging&#34;&gt;History of debugging&lt;/h3&gt;
 &lt;p&gt;Mark II, Debugging of a real bug&lt;/p&gt;
@@ -1081,24 +1099,6 @@ python3 -c &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;from test0 import 
 &lt;li&gt;except &amp;ldquo;Error&amp;rdquo;, return 0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;assert&#34;&gt;Assert&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;at the beginning of a function&lt;/li&gt;
-&lt;li&gt;assert what you expects, if the assertion is false, what to do and the function terminates&lt;/li&gt;
-&lt;li&gt;prevents the program propagating bad values, getting an unexpected results at the end&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;when-to-use-assertions&#34;&gt;When to use assertions?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;raise exceptions if users supply bad data input&lt;/li&gt;
-&lt;li&gt;use assertions to
-&lt;ul&gt;
-&lt;li&gt;check types of arguments of values&lt;/li&gt;
-&lt;li&gt;check that invariants on data structures are met&lt;/li&gt;
-&lt;li&gt;check constraints on return values&lt;/li&gt;
-&lt;li&gt;check for violations of constraints on procedure (e.g. no duplicates)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

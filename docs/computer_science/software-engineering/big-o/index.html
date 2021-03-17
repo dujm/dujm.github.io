@@ -22,17 +22,17 @@
 
 <title>big-O | DJ&#39;s Website</title><meta property="og:title" content="big-O" />
 <meta property="og:description" content="Flat is better than nested — The Zen of Python
- How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  Big O Notation: O(n)  My summary cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?" />
+ How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  Big O Notation  My summary cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/computer_science/software-engineering/big-o/" />
 <meta property="article:published_time" content="2020-03-19T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-03-19T00:00:00+00:00" />
 <meta itemprop="name" content="big-O">
 <meta itemprop="description" content="Flat is better than nested — The Zen of Python
- How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  Big O Notation: O(n)  My summary cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?">
+ How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  Big O Notation  My summary cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?">
 <meta itemprop="datePublished" content="2020-03-19T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-03-19T00:00:00+00:00" />
-<meta itemprop="wordCount" content="467">
+<meta itemprop="wordCount" content="465">
 
 
 
@@ -40,7 +40,7 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="big-O"/>
 <meta name="twitter:description" content="Flat is better than nested — The Zen of Python
- How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  Big O Notation: O(n)  My summary cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?"/>
+ How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable ?  Big O Notation  My summary cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?"/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -132,7 +132,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.04914687c1b789ff7fab0e9baf6b06a9555952e0e7e8f2c12b801b0294a3983d361a7c8c93a1cf7157f6b8ee34b4ec54ce1cbf936dd327e76ea3e8955776566d.json"
+  data-offline-search-index-json-src="/offline-search-index.874002b4dcbd5bab5d660e7644abb131bc6d7c4f83d2c2c7f2ab9793c8cf3515772af038121dacec509f47ffe34743a2820cb5aee0f2e2ddbf7548171b7c67cc.json"
   data-offline-search-base-href="/"
 >
 
@@ -162,7 +162,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.04914687c1b789ff7fab0e9baf6b06a9555952e0e7e8f2c12b801b0294a3983d361a7c8c93a1cf7157f6b8ee34b4ec54ce1cbf936dd327e76ea3e8955776566d.json"
+  data-offline-search-index-json-src="/offline-search-index.874002b4dcbd5bab5d660e7644abb131bc6d7c4f83d2c2c7f2ab9793c8cf3515772af038121dacec509f47ffe34743a2820cb5aee0f2e2ddbf7548171b7c67cc.json"
   data-offline-search-base-href="/"
 >
 
@@ -3086,7 +3086,7 @@
 <nav id="TableOfContents">
   <ul>
     <li><a href="#how-do-you-evaluate-codes">How do you evaluate codes?</a></li>
-    <li><a href="#big-o-notation-on">Big O Notation: O(n)</a>
+    <li><a href="#big-o-notation">Big O Notation</a>
       <ul>
         <li><a href="#what-is-big-o-notation">What is big-O notation?</a></li>
         <li><a href="#how-to-measure-the-code-performance-using--big-o">How to measure the code performance using  big-O?</a></li>
@@ -3102,9 +3102,9 @@
         <li><a href="#merge-sorthttpsalgs4csprincetonedu22mergesort"><a href="https://algs4.cs.princeton.edu/22mergesort/">Merge Sort</a></a></li>
         <li><a href="#quick-sort">Quick Sort</a></li>
         <li><a href="#selection-sort">Selection Sort</a></li>
-        <li><a href="#6-references">6. References</a></li>
       </ul>
     </li>
+    <li><a href="#references">References</a></li>
   </ul>
 </nav>
 
@@ -3177,7 +3177,7 @@
 <li>Space efficiency: Less memory intensive?</li>
 <li>More readable ?</li>
 </ul>
-<h2 id="big-o-notation-on">Big O Notation: O(n)</h2>
+<h2 id="big-o-notation">Big O Notation</h2>
 <ul>
 <li><a href="https://dujm.github.io/docs/computer_science/software-engineering/big-o/">My summary</a></li>
 <li><a href="https://www.bigocheatsheet.com/">cheatsheet</a></li>
@@ -3273,7 +3273,7 @@ a nested loop of the same type (or bounded by the first loop parameter), gives $
 <h3 id="selection-sort">Selection Sort</h3>
 <p><img src="https://www.studytonight.com/data-structures/images/simple-selection-sort.png" alt="Selection Sort"></p>
 <br>
-<h3 id="6-references">6. References</h3>
+<h2 id="references">References</h2>
 <ul>
 <li><a href="http://www.albertgao.xyz/2016/08/09/everything-you-need-to-know-about-big-o-notation/">Everything about big-o</a></li>
 <li><a href="https://pdfs.semanticscholar.org/a8b4/786c9128d4a94caeb67c858ab4f4288c49ff.pdf">SVM Analysis</a></li>
