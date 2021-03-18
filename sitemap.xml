@@ -493,11 +493,6 @@
   </url>
   
   <url>
-    <loc>/docs/math/calculus/</loc>
-    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/math/probability/s110_l04_conditional_probability/</loc>
     <lastmod>2020-10-27T00:00:00+00:00</lastmod>
   </url>
@@ -583,7 +578,7 @@
   </url>
   
   <url>
-    <loc>/docs/healthcare/computation/</loc>
+    <loc>/docs/healthcare/informatics/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -653,7 +648,7 @@
   </url>
   
   <url>
-    <loc>/docs/healthcare/computation/sc-rnaseq/</loc>
+    <loc>/docs/healthcare/informatics/sc-rnaseq/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -714,11 +709,6 @@
   
   <url>
     <loc>/docs/web/hugo-website/</loc>
-    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/math/statistics/statistics/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -942,7 +932,12 @@
   </url>
   
   <url>
-    <loc>/docs/healthcare/computation/inchi/</loc>
+    <loc>/docs/healthcare/informatics/inchi-converter/</loc>
+    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/healthcare/informatics/inchi/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -1172,6 +1167,11 @@
   </url>
   
   <url>
+    <loc>/docs/healthcare/informatics/similarity/</loc>
+    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/optimization/selection/</loc>
     <lastmod>2021-03-16T00:00:00+00:00</lastmod>
   </url>
@@ -1273,7 +1273,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-03-17T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1299,6 +1299,11 @@
   <url>
     <loc>/blog/2020/11/15/temperature/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/math/calculus/</loc>
+    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1418,10 +1423,6 @@
   
   <url>
     <loc>/docs/math/probability/bayesian-decision/</loc>
-  </url>
-  
-  <url>
-    <loc>/docs/math/statistics/distributions/</loc>
   </url>
   
   <url>

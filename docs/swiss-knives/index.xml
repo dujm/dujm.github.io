@@ -1747,7 +1747,7 @@ mkdir output
  &lt;br&gt;
 &lt;h2 id=&#34;convert-image-to-pdf&#34;&gt;Convert Image to PDF&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;[Ref](&lt;a href=&#34;https://github.com/madmaze/pytesseract&#34;&gt;https://github.com/madmaze/pytesseract&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/madmaze/pytesseract&#34;&gt;Ref&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Get a searchable PDF&lt;/span&gt;
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pytesseract&lt;/span&gt;
@@ -1807,7 +1807,7 @@ mkdir output
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;I tested the above both options. The extraction works but the results are always good, especially when the pdf tables are not properly formatted.&lt;/li&gt;
+&lt;li&gt;I tested both packages. The extraction works but the results are always good, especially when the pdf tables are not properly formatted.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
