@@ -14,20 +14,5 @@
       
     
     
-    <item>
-      <title>Docs: Activation</title>
-      <link>/docs/machinelearning/optimization/activation/math-proof/</link>
-      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/optimization/activation/math-proof/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/activation-functions-in-deep-learning-from-softmax-to-sparsemax-math-proof-50c1eb293456&#34;&gt;Activation Functions in Deep Learning: From Softmax to Sparsemax — Math Proof&lt;/a&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
   </channel>
 </rss>

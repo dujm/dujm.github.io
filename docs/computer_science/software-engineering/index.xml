@@ -23,20 +23,7 @@
       <description>
         
         
-        
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;Flat is better than nested — The Zen of Python&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;br&gt;
-&lt;h2 id=&#34;how-do-you-evaluate-codes&#34;&gt;How do you evaluate codes?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Time efficiency: Faster? Time complexity&lt;/li&gt;
-&lt;li&gt;Space efficiency: Less memory intensive?&lt;/li&gt;
-&lt;li&gt;More readable?&lt;/li&gt;
-&lt;/ul&gt;
+        &lt;br&gt;
 &lt;h2 id=&#34;big-o-notation&#34;&gt;Big O Notation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bigocheatsheet.com/&#34;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
@@ -85,52 +72,6 @@ a nested loop of the same type (or bounded by the first loop parameter), gives $
 &lt;/ul&gt;
 &lt;h3 id=&#34;bigo-of-various-operations-in-current-cpython&#34;&gt;BigO of various operations in current CPython&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://wiki.python.org/moin/TimeComplexity&#34;&gt;Time Complexity&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;searching-and-sorting&#34;&gt;Searching and Sorting&lt;/h2&gt;
-&lt;h3 id=&#34;binary-searchhttpswwwcsusfcaedugallesvisualizationsearchhtml&#34;&gt;&lt;a href=&#34;https://www.cs.usfca.edu/~galles/visualization/Search.html&#34;&gt;Binary Search&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Definition&lt;/li&gt;
-&lt;li&gt;Efficiency: $O(log(n))$,  not $O(N)$, typically base 2 in CS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;bubble-sort&#34;&gt;Bubble Sort&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Time complexity: (n-1)(n-1): $n^2$&lt;/li&gt;
-&lt;li&gt;Space complexity: Auxillary space O(1) because we don&amp;rsquo;t need extra arrays etc . In space sorting algorithm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;merge-sorthttpsalgs4csprincetonedu22mergesort&#34;&gt;&lt;a href=&#34;https://algs4.cs.princeton.edu/22mergesort/&#34;&gt;Merge Sort&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Divide and Conquer
-&lt;ul&gt;
-&lt;li&gt;Break the array down into small pieces and build it up along the way&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;time complexity: $nlog(n)$&lt;/li&gt;
-&lt;li&gt;space complexity: $O(n)$, need to copy array at each step&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;quick-sort&#34;&gt;Quick Sort&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Pivot: pick up a random value
-&lt;ul&gt;
-&lt;li&gt;But the convention is to pick the last one as a pivot&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Method: move the pivot in the middle
-&lt;ul&gt;
-&lt;li&gt;run from both directions&lt;/li&gt;
-&lt;li&gt;select the median of the last few pivots&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Time complexity:
-&lt;ul&gt;
-&lt;li&gt;Worst case: $O(n^2)$, the biggest numbers are already in the right place (e.g. end)&lt;/li&gt;
-&lt;li&gt;Average case: $nlog(n)$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;selection-sort&#34;&gt;Selection Sort&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.studytonight.com/data-structures/images/simple-selection-sort.png&#34; alt=&#34;Selection Sort&#34;&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;ul&gt;
@@ -637,12 +578,21 @@ Strongly connected directed graphs must have a path from every node and every ot
         
         
         &lt;br&gt;
-&lt;h2 id=&#34;efficiency&#34;&gt;Efficiency&lt;/h2&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Flat is better than nested — The Zen of Python&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h2 id=&#34;how-do-you-evaluate-codes&#34;&gt;How do you evaluate codes?&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Space: the amount of memory&lt;/li&gt;
-&lt;li&gt;Time&lt;/li&gt;
+&lt;li&gt;Time efficiency: Faster? Time complexity&lt;/li&gt;
+&lt;li&gt;Space efficiency: Less memory intensive?&lt;/li&gt;
+&lt;li&gt;More readable?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;big-o-notation-on&#34;&gt;Big O Notation: O(n)&lt;/h3&gt;
+&lt;h2 id=&#34;big-o-notation-on&#34;&gt;Big O Notation: O(n)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://dujm.github.io/docs/computer_science/software-engineering/big-o/&#34;&gt;My summary&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bigocheatsheet.com/&#34;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;

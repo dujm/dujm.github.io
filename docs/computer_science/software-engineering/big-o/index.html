@@ -21,26 +21,23 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>big-O | DJ&#39;s Website</title><meta property="og:title" content="big-O" />
-<meta property="og:description" content="Flat is better than nested — The Zen of Python
- How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable?  Big O Notation  cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?" />
+<meta property="og:description" content="Big O Notation  cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?  Assignment statements and if statements that are only executed once regardless of the size of the problem are $O(1)$." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/computer_science/software-engineering/big-o/" />
 <meta property="article:published_time" content="2020-03-19T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-03-19T00:00:00+00:00" />
 <meta itemprop="name" content="big-O">
-<meta itemprop="description" content="Flat is better than nested — The Zen of Python
- How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable?  Big O Notation  cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?">
+<meta itemprop="description" content="Big O Notation  cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?  Assignment statements and if statements that are only executed once regardless of the size of the problem are $O(1)$.">
 <meta itemprop="datePublished" content="2020-03-19T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-03-19T00:00:00+00:00" />
-<meta itemprop="wordCount" content="462">
+<meta itemprop="wordCount" content="305">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="big-O"/>
-<meta name="twitter:description" content="Flat is better than nested — The Zen of Python
- How do you evaluate codes?  Time efficiency: Faster? Time complexity Space efficiency: Less memory intensive? More readable?  Big O Notation  cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?"/>
+<meta name="twitter:description" content="Big O Notation  cheatsheet n: the length of input to your function Approximation: Worst, average, best case Space efficiency: Copy code  What is big-O notation?  a fuzzy way for counting a big picture of the time efficiency of the code  How to measure the code performance using big-O?  Assignment statements and if statements that are only executed once regardless of the size of the problem are $O(1)$."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -132,7 +129,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.8491d71d0df120bef5071a6b0d21f20ea7ccc11d5aea07227dfbd3f9ae2873f1df8ea62036e68a7b7f04998f6f20dd0beed6e96f7bf7aa76356e8da456388a0a.json"
+  data-offline-search-index-json-src="/offline-search-index.e68ef16b30d549a1582bde18713c868e8f48d0b759a1be8993d36e98eda1817a824350976802317910d51c8ca7d690aaaebfa3e763b99bd6b2054982c2bf7de6.json"
   data-offline-search-base-href="/"
 >
 
@@ -162,7 +159,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.8491d71d0df120bef5071a6b0d21f20ea7ccc11d5aea07227dfbd3f9ae2873f1df8ea62036e68a7b7f04998f6f20dd0beed6e96f7bf7aa76356e8da456388a0a.json"
+  data-offline-search-index-json-src="/offline-search-index.e68ef16b30d549a1582bde18713c868e8f48d0b759a1be8993d36e98eda1817a824350976802317910d51c8ca7d690aaaebfa3e763b99bd6b2054982c2bf7de6.json"
   data-offline-search-base-href="/"
 >
 
@@ -2535,12 +2532,6 @@
       
       
       
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningoptimizationactivationmath-proof" href="/docs/machinelearning/optimization/activation/math-proof/">Activation</a>
-      
-      
     </li>
   </ul>
 </ul>
@@ -2550,13 +2541,13 @@
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningoptimizationbayesian-optimization" href="/docs/machinelearning/optimization/bayesian-optimization/">Bayesian Optimization</a>
-      
-      
-      
-      
-      
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningoptimizationnoise" href="/docs/machinelearning/optimization/noise/">Noise</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningoptimizationoptimization" href="/docs/machinelearning/optimization/optimization/">Optimization</a>
       
       
       
@@ -3085,7 +3076,6 @@
 
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#how-do-you-evaluate-codes">How do you evaluate codes?</a></li>
     <li><a href="#big-o-notation">Big O Notation</a>
       <ul>
         <li><a href="#what-is-big-o-notation">What is big-O notation?</a></li>
@@ -3093,15 +3083,6 @@
         <li><a href="#rules">Rules</a></li>
         <li><a href="#what-are-the-big-o-notations-from-these-ml-techniques">What are the big-O notations from these ML techniques?</a></li>
         <li><a href="#bigo-of-various-operations-in-current-cpython">BigO of various operations in current CPython</a></li>
-      </ul>
-    </li>
-    <li><a href="#searching-and-sorting">Searching and Sorting</a>
-      <ul>
-        <li><a href="#binary-searchhttpswwwcsusfcaedugallesvisualizationsearchhtml"><a href="https://www.cs.usfca.edu/~galles/visualization/Search.html">Binary Search</a></a></li>
-        <li><a href="#bubble-sort">Bubble Sort</a></li>
-        <li><a href="#merge-sorthttpsalgs4csprincetonedu22mergesort"><a href="https://algs4.cs.princeton.edu/22mergesort/">Merge Sort</a></a></li>
-        <li><a href="#quick-sort">Quick Sort</a></li>
-        <li><a href="#selection-sort">Selection Sort</a></li>
       </ul>
     </li>
     <li><a href="#references">References</a></li>
@@ -3163,20 +3144,7 @@
 <div class="td-content">
 	<h1>big-O</h1>
 	
-	
-
-<div class="pageinfo pageinfo-primary">
-<p>Flat is better than nested — The Zen of Python</p>
-
-</div>
-
-<br>
-<h2 id="how-do-you-evaluate-codes">How do you evaluate codes?</h2>
-<ul>
-<li>Time efficiency: Faster? Time complexity</li>
-<li>Space efficiency: Less memory intensive?</li>
-<li>More readable?</li>
-</ul>
+	<br>
 <h2 id="big-o-notation">Big O Notation</h2>
 <ul>
 <li><a href="https://www.bigocheatsheet.com/">cheatsheet</a></li>
@@ -3225,52 +3193,6 @@ a nested loop of the same type (or bounded by the first loop parameter), gives $
 </ul>
 <h3 id="bigo-of-various-operations-in-current-cpython">BigO of various operations in current CPython</h3>
 <p><a href="https://wiki.python.org/moin/TimeComplexity">Time Complexity</a></p>
-<br>
-<h2 id="searching-and-sorting">Searching and Sorting</h2>
-<h3 id="binary-searchhttpswwwcsusfcaedugallesvisualizationsearchhtml"><a href="https://www.cs.usfca.edu/~galles/visualization/Search.html">Binary Search</a></h3>
-<ul>
-<li>Definition</li>
-<li>Efficiency: $O(log(n))$,  not $O(N)$, typically base 2 in CS</li>
-</ul>
-<h3 id="bubble-sort">Bubble Sort</h3>
-<ul>
-<li>Time complexity: (n-1)(n-1): $n^2$</li>
-<li>Space complexity: Auxillary space O(1) because we don&rsquo;t need extra arrays etc . In space sorting algorithm</li>
-</ul>
-<h3 id="merge-sorthttpsalgs4csprincetonedu22mergesort"><a href="https://algs4.cs.princeton.edu/22mergesort/">Merge Sort</a></h3>
-<ul>
-<li>Divide and Conquer
-<ul>
-<li>Break the array down into small pieces and build it up along the way</li>
-</ul>
-</li>
-<li>time complexity: $nlog(n)$</li>
-<li>space complexity: $O(n)$, need to copy array at each step</li>
-</ul>
-<br>
-<h3 id="quick-sort">Quick Sort</h3>
-<ul>
-<li>Pivot: pick up a random value
-<ul>
-<li>But the convention is to pick the last one as a pivot</li>
-</ul>
-</li>
-<li>Method: move the pivot in the middle
-<ul>
-<li>run from both directions</li>
-<li>select the median of the last few pivots</li>
-</ul>
-</li>
-<li>Time complexity:
-<ul>
-<li>Worst case: $O(n^2)$, the biggest numbers are already in the right place (e.g. end)</li>
-<li>Average case: $nlog(n)$</li>
-</ul>
-</li>
-</ul>
-<br>
-<h3 id="selection-sort">Selection Sort</h3>
-<p><img src="https://www.studytonight.com/data-structures/images/simple-selection-sort.png" alt="Selection Sort"></p>
 <br>
 <h2 id="references">References</h2>
 <ul>
