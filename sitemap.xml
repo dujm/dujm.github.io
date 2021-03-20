@@ -648,11 +648,6 @@
   </url>
   
   <url>
-    <loc>/docs/healthcare/informatics/sc-rnaseq/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/machinelearning/applications/nlp/nlp-tools/hay-stack/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url>
@@ -1037,6 +1032,11 @@
   </url>
   
   <url>
+    <loc>/docs/healthcare/informatics/similarity/</loc>
+    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/computer_science/software-engineering/memory/</loc>
     <lastmod>2021-03-17T00:00:00+00:00</lastmod>
   </url>
@@ -1159,11 +1159,6 @@
   <url>
     <loc>/docs/coding/functional-coding/python/file-reading/</loc>
     <lastmod>2020-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/healthcare/informatics/similarity/</loc>
-    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
