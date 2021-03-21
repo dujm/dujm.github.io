@@ -15,6 +15,33 @@
     
     
     <item>
+      <title>Docs: EDA</title>
+      <link>/docs/data/visual-art/eda/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/eda/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;data-frame-eda-packages&#34;&gt;Data Frame EDA Packages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pandas-profiling/pandas-profiling&#34;&gt;pandas profiling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fbdesignpro/sweetviz&#34;&gt;sweetviz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adamerose/pandasgui&#34;&gt;pandasgui&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lux-org/lux&#34;&gt;lux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install lux-api
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pd&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;read_csv&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;https://raw.githubusercontent.com/lux-org/lux-datasets/master/data/college.csv&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;intent&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;AverageCost&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;SATAverage&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Introduction</title>
       <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p01-intro/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
@@ -605,26 +632,6 @@ that violates any applicable local, state, national or international law or othe
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Next we have a maturity model that has never been shown publicly before to my knowledge; it appears to have sprung fully formed from the forehead of some god. &lt;a href=&#34;https://t.co/7PrKVKhTBG&#34;&gt;pic.twitter.com/7PrKVKhTBG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Corey Quinn (@QuinnyPig) &lt;a href=&#34;https://twitter.com/QuinnyPig/status/1327107148405305345?ref_src=twsrc%5Etfw&#34;&gt;November 13, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: EDA</title>
-      <link>/docs/data/visual-art/eda/</link>
-      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/data/visual-art/eda/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;data-frame-eda-packages&#34;&gt;Data Frame EDA Packages&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pandas-profiling/pandas-profiling&#34;&gt;pandas profiling&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/fbdesignpro/sweetviz&#34;&gt;sweetviz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/adamerose/pandasgui&#34;&gt;pandasgui&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
       </description>
     </item>

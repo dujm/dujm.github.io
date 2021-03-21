@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/data/visual-art/eda/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p01-intro/</loc>
     <lastmod>2020-12-29T00:00:00+00:00</lastmod>
   </url>
@@ -45,11 +50,6 @@
   <url>
     <loc>/docs/cloud/devops/model/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/data/visual-art/eda/</loc>
-    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -922,6 +922,11 @@
   </url>
   
   <url>
+    <loc>/docs/coding/functional-coding/python/imputation/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/healthcare/informatics/inchi-converter/</loc>
     <lastmod>2021-03-18T00:00:00+00:00</lastmod>
   </url>
@@ -934,11 +939,6 @@
   <url>
     <loc>/docs/machinelearning/explainability/explainability/</loc>
     <lastmod>2020-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/coding/functional-coding/python/imputation/</loc>
-    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1033,6 +1033,11 @@
   
   <url>
     <loc>/docs/healthcare/informatics/similarity/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/healthcare/informatics/similarity-check/</loc>
     <lastmod>2021-03-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -1162,6 +1167,11 @@
   </url>
   
   <url>
+    <loc>/docs/healthcare/informatics/sc-rnaseq/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/optimization/selection/</loc>
     <lastmod>2021-03-16T00:00:00+00:00</lastmod>
   </url>
@@ -1263,7 +1273,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
