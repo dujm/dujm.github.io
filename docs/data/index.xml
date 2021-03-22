@@ -28,6 +28,56 @@
     </item>
     
     <item>
+      <title>Docs: Data Cleaning</title>
+      <link>/docs/data/clean/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/clean/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Data Structure</title>
+      <link>/docs/data/structure/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/structure/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;courses&#34;&gt;Courses&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513&#34;&gt;Intro to Data Structures and Algorithms, Udacity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/&#34;&gt;Advanced Data Structures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;read&#34;&gt;Read&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/a-data-scientists-guide-to-data-structures-algorithms-1176395015a0&#34;&gt;A Data Scientist’s Guide to Data Structures &amp;amp; Algorithms, Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Data Visualization</title>
+      <link>/docs/data/visual-art/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Privacy and Security</title>
       <link>/docs/data/privacy/</link>
       <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
@@ -81,43 +131,6 @@
 &lt;li&gt;The experts in that area can access and analyze the model.&lt;/li&gt;
 &lt;/ul&gt;
 
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Data Structure</title>
-      <link>/docs/data/structure/</link>
-      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/data/structure/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;courses&#34;&gt;Courses&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513&#34;&gt;Intro to Data Structures and Algorithms, Udacity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/&#34;&gt;Advanced Data Structures&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;read&#34;&gt;Read&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/a-data-scientists-guide-to-data-structures-algorithms-1176395015a0&#34;&gt;A Data Scientist’s Guide to Data Structures &amp;amp; Algorithms, Part 1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Visualization</title>
-      <link>/docs/data/visual-art/</link>
-      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/data/visual-art/</guid>
-      <description>
-        
-        
-        
       </description>
     </item>
     

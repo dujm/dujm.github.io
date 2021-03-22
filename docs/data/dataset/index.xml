@@ -117,14 +117,20 @@
         
         &lt;br&gt;
 &lt;h3 id=&#34;course-how-to-win-a-data-science-competition-learn-from-top-kagglers&#34;&gt;Course: How to win a data science competition: learn from top Kagglers&lt;/h3&gt;
-&lt;dl&gt;
-&lt;dt&gt;Instructors&lt;/dt&gt;
-&lt;dd&gt;&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;Dmitry Ulyanov, Alexander Guschin, Mikhail Trofimov, Dmitry Altukhov, Marios Michailidis*
-National Research University Higher School of Economics&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/competitive-data-science&#34;&gt;Course Link&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://github.com/dujm/kaggle_coursera&#34;&gt;My Notes&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Instructors: Dmitry Ulyanov, Alexander Guschin, Mikhail Trofimov, Dmitry Altukhov, Marios Michailidis&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;National Research University Higher School of Economics&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/competitive-data-science&#34;&gt;Course Link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dujm/kaggle_coursera&#34;&gt;My Notes&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;br&gt;
 &lt;h3 id=&#34;kaggle-perfect-scores&#34;&gt;Kaggle perfect scores&lt;/h3&gt;
 &lt;blockquote&gt;
@@ -159,10 +165,10 @@ sudo chmod 600 ~/.kaggle/kaggle.json
 # 3) Download competition data in your project
 
  # List files in a competition
-kaggle competitions download -c quora-insincere-questions-classification
+kaggle competitions download -c competition
 
  # Download all files in a competition
-kaggle competitions files quora-insincere-questions-classification
+kaggle competitions files competition
 
  # Download your notebook mynotebook.ipynb from the kaggle kernel
 kaggle kernels pull usrname/mynotebook

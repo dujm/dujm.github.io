@@ -329,47 +329,9 @@ viewer_1616106092443153.render();
     </item>
     
     <item>
-      <title>Docs: Find The Most Similar Molecules</title>
-      <link>/docs/healthcare/informatics/similarity/</link>
-      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/healthcare/informatics/similarity/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h2 id=&#34;fragment-position---based&#34;&gt;Fragment Position - Based&lt;/h2&gt;
-&lt;h3 id=&#34;tanimoto-similarity&#34;&gt;Tanimoto Similarity&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The Tanimoto coefficient is the ratio of the number of fragment positions shared by the molecules divided by the fragment positions set by either molecule.&lt;/li&gt;
-&lt;li&gt;The Tanimoto score ranges from 0 (no similarity) to 1 (identical molecules)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/700/0*LtCn9l019IeLViyP&#34; alt=&#34;The Tanimoto coefficient measeares molecular similarity. Source: CMBI&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.eyesopen.com/toolkits/python/graphsimtk/measure.html&#34;&gt;Calculation Example&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;shape-based&#34;&gt;Shape-Based&lt;/h2&gt;
-&lt;h3 id=&#34;distance-geometry&#34;&gt;Distance Geometry&lt;/h3&gt;
-&lt;h3 id=&#34;conformer-generationhttprdkitblogspotcom201705looking-at-platinum-datasethtml&#34;&gt;&lt;a href=&#34;http://rdkit.blogspot.com/2017/05/looking-at-platinum-dataset.html&#34;&gt;Conformer Generation&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Balloon&lt;/li&gt;
-&lt;li&gt;Confab&lt;/li&gt;
-&lt;li&gt;Frog2&lt;/li&gt;
-&lt;li&gt;RDKit&lt;/li&gt;
-&lt;li&gt;MOE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;matched-molecular-pairs-mmp-analysis&#34;&gt;Matched Molecular Pairs (MMP) Analysis&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;The mining and statistical analysis of transformations and their impact on properties of interest (e.g. solubility or activity)。&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Molecular Similarity</title>
+      <title>Docs: Similar Molecules</title>
       <link>/docs/healthcare/informatics/similarity-check/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>/docs/healthcare/informatics/similarity-check/</guid>
       <description>
@@ -386,9 +348,7 @@ viewer_1616106092443153.render();
 &lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;The data will come from the gzip&amp;rsquo;ed SD file of the benzodiazepine data set.&lt;/li&gt;
-&lt;li&gt;Use the reference structure as the query structure, and use sdf file as the targets to find the 5most similar structures.&lt;/li&gt;
-&lt;li&gt;The output is sorted by similarity, from most similar to least.&lt;/li&gt;
-&lt;li&gt;Each target match is on its own line, and the line contains the similarity score in the first column in the range 0.00 to 1.00 (preferably to 2 decimal places), then a space, then the target ID, which is the title line from the SD file. &lt;br&gt;
+&lt;li&gt;Use the reference structure as the query structure, and use sdf file as the targets to find the 5 most similar structures.&lt;br&gt;
 &lt;a href=&#34;https://ctr.fandom.com/wiki/Find_the_10_nearest_neighbors_in_a_data_set&#34;&gt;Ref&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;starting-from-smile&#34;&gt;Starting from Smile&lt;/h2&gt;
@@ -503,6 +463,44 @@ RDKit WARNING: [23:35:43] WARNING: not removing hydrogen atom without neighbors
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Molecular Similarity</title>
+      <link>/docs/healthcare/informatics/similarity/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/healthcare/informatics/similarity/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;fragment-position---based&#34;&gt;Fragment Position - Based&lt;/h2&gt;
+&lt;h3 id=&#34;tanimoto-similarity&#34;&gt;Tanimoto Similarity&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Tanimoto coefficient is the ratio of the number of fragment positions shared by the molecules divided by the fragment positions set by either molecule.&lt;/li&gt;
+&lt;li&gt;The Tanimoto score ranges from 0 (no similarity) to 1 (identical molecules)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/700/0*LtCn9l019IeLViyP&#34; alt=&#34;The Tanimoto coefficient measeares molecular similarity. Source: CMBI&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.eyesopen.com/toolkits/python/graphsimtk/measure.html&#34;&gt;Calculation Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;shape-based&#34;&gt;Shape-Based&lt;/h2&gt;
+&lt;h3 id=&#34;distance-geometry&#34;&gt;Distance Geometry&lt;/h3&gt;
+&lt;h3 id=&#34;conformer-generationhttprdkitblogspotcom201705looking-at-platinum-datasethtml&#34;&gt;&lt;a href=&#34;http://rdkit.blogspot.com/2017/05/looking-at-platinum-dataset.html&#34;&gt;Conformer Generation&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Balloon&lt;/li&gt;
+&lt;li&gt;Confab&lt;/li&gt;
+&lt;li&gt;Frog2&lt;/li&gt;
+&lt;li&gt;RDKit&lt;/li&gt;
+&lt;li&gt;MOE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;matched-molecular-pairs-mmp-analysis&#34;&gt;Matched Molecular Pairs (MMP) Analysis&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The mining and statistical analysis of transformations and their impact on properties of interest (e.g. solubility or activity)。&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
