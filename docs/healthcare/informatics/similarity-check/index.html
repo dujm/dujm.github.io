@@ -30,7 +30,7 @@
 <meta itemprop="description" content="Goal: Find the most similar molecules to a reference molecule in a data set  A common task in cheminformatics is to find target structures in a data set which are similar to a query structure. The word &ldquo;similar&rdquo; is ill-defined. What we have instead are well-defined measures which are hopefully well correlated to what a chemist would call similar. One common measure is to generate a hash fingerprint then use the Tanimoto similarity as a proxy for molecular similarity.">
 <meta itemprop="datePublished" content="2021-03-21T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-03-21T00:00:00+00:00" />
-<meta itemprop="wordCount" content="355">
+<meta itemprop="wordCount" content="357">
 
 
 
@@ -129,7 +129,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.d7063a5c9c668c5db184ff19d840def07eb368558316bc69b3bac69617b3f257f6763f743deb985c580a12c486b4c23fb9dbeb7dc06cacb8d844b677fb6491e6.json"
+  data-offline-search-index-json-src="/offline-search-index.dd04460ebb5a50814551ae24ee7f77b9861a5ff1c50c5f5e46eb9cc8e1dddf26e7d988101e5ed7a460bdc678aa5f165a7be2040d7f504ecb542453df24f62d47.json"
   data-offline-search-base-href="/"
 >
 
@@ -159,7 +159,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.d7063a5c9c668c5db184ff19d840def07eb368558316bc69b3bac69617b3f257f6763f743deb985c580a12c486b4c23fb9dbeb7dc06cacb8d844b677fb6491e6.json"
+  data-offline-search-index-json-src="/offline-search-index.dd04460ebb5a50814551ae24ee7f77b9861a5ff1c50c5f5e46eb9cc8e1dddf26e7d988101e5ed7a460bdc678aa5f165a7be2040d7f504ecb542453df24f62d47.json"
   data-offline-search-base-href="/"
 >
 
@@ -696,12 +696,6 @@
   </ul>
 </ul>
 
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingmarkdown" href="/docs/coding/functional-coding/markdown/">Markdown</a>
       
       
       
@@ -1913,6 +1907,12 @@
       
       
       
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningexplainabilityread" href="/docs/machinelearning/explainability/read/">Challenges</a>
+      
+      
+      
+      
+      
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningexplainabilityexplainability" href="/docs/machinelearning/explainability/explainability/">Packages</a>
       
       
@@ -2882,6 +2882,12 @@
       
       
       
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesmarkdown" href="/docs/swiss-knives/markdown/">Markdown</a>
+      
+      
+      
+      
+      
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesterminal-ubuntu" href="/docs/swiss-knives/terminal-ubuntu/">Terminal for Ubuntu</a>
       
       
@@ -3107,7 +3113,7 @@
   <ul>
     <li><a href="#goal-find-the-most-similar-molecules-to-a-reference-molecule-in-a-data-set">Goal: Find the most similar molecules to a reference molecule in a data set</a></li>
     <li><a href="#implementation">Implementation</a></li>
-    <li><a href="#starting-from-smile">Starting from Smile</a></li>
+    <li><a href="#start-with-a-smile-">Start with a Smile :)</a></li>
     <li><a href="#reading-sets-of-molecules">Reading sets of molecules</a></li>
     <li><a href="#the-top-5-most-similar-structures-to-the-reference-molecule">The top 5 most similar structures to the reference molecule</a>
       <ul>
@@ -3186,7 +3192,7 @@
 <li>Use the reference structure as the query structure, and use sdf file as the targets to find the 5 most similar structures.<br>
 <a href="https://ctr.fandom.com/wiki/Find_the_10_nearest_neighbors_in_a_data_set">Ref</a></li>
 </ul>
-<h2 id="starting-from-smile">Starting from Smile</h2>
+<h2 id="start-with-a-smile-">Start with a Smile :)</h2>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">rdkit</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">Chem</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">DataStructs</span>
 <span style="color:#000">ref_smiles</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#39;Nc1nc2nc(N)nc(N)c2nc1-c1cccc(Cl)c1&#39;</span>
 <span style="color:#000">ref_mol</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Chem</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">MolFromSmiles</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">ref_smiles</span><span style="color:#000;font-weight:bold">)</span>
