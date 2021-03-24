@@ -138,7 +138,7 @@ arxix link
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.fc0632d6f18237a28de35e59e791eff567dc2c39239a6b9043da65ba9178f7f1e400ebe394c8afa2e3c2b614e7b2fc92185423e18db24dfdd5348d0f4df58194.json"
+  data-offline-search-index-json-src="/offline-search-index.432fc1400f9707d5a3778f94d0623d17842836632610c6349f6923e6ae3282a4568ef79433c2c072e79f3b07f3d6c8658dcebc9d7eb3ff8670844f2f135be10d.json"
   data-offline-search-base-href="/"
 >
 
@@ -168,7 +168,7 @@ arxix link
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.fc0632d6f18237a28de35e59e791eff567dc2c39239a6b9043da65ba9178f7f1e400ebe394c8afa2e3c2b614e7b2fc92185423e18db24dfdd5348d0f4df58194.json"
+  data-offline-search-index-json-src="/offline-search-index.432fc1400f9707d5a3778f94d0623d17842836632610c6349f6923e6ae3282a4568ef79433c2c072e79f3b07f3d6c8658dcebc9d7eb3ff8670844f2f135be10d.json"
   data-offline-search-base-href="/"
 >
 
@@ -3123,12 +3123,12 @@ arxix link
     <li><a href="#interpretable-machine-learning">Interpretable Machine Learning</a>
       <ul>
         <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#general-principles-of-interpretable-machine-learning">General Principles of Interpretable Machine Learning</a></li>
+        <li><a href="#model-and-data-types">Model and Data Types</a></li>
       </ul>
     </li>
-    <li><a href="#model-and-data-types">Model and Data Types</a></li>
-    <li><a href="#general-principles-of-interpretable-machine-learning">General Principles of Interpretable Machine Learning</a>
+    <li><a href="#what-are-some-interpretability-constraints">What are some interpretability constraints?</a>
       <ul>
-        <li></li>
         <li><a href="#pdf">PDF</a></li>
       </ul>
     </li>
@@ -3212,7 +3212,16 @@ arxix link
 <li>(10) <strong>Interpretable reinforcement learning</strong>.</li>
 </ul>
 <p>This survey is suitable as a starting point for statisticians and computer scientists interested in working in interpretable machine learning.</p>
-<h2 id="model-and-data-types">Model and Data Types</h2>
+<br> 
+<h3 id="general-principles-of-interpretable-machine-learning">General Principles of Interpretable Machine Learning</h3>
+<h5 id="1-an-interpretable-machine-learning-model-obeys-a-domain-specific-set-of-constraints-to-allow-it-to-be-more-easily-understood-by-humans">1. An interpretable machine learning model obeys <strong>a domain-specific set of constraints</strong> to allow it to be more easily understood by humans.</h5>
+<h5 id="2-despite-common-rhetoric-interpretable-models-do-not-necessarily-create-or-enable-trust--they-could-also-enable-distrust-they-simply-allow-users-to-decide-whether-to-trust-them-in-other-words-they-permit-a-decision-of-trust-rather-than-trust-itself">2. Despite common rhetoric, interpretable models do not necessarily create or enable trust – they could also enable distrust. They simply allow users to decide whether to trust them. In other words, they permit a <strong>decision of trust</strong>, rather than trust itself.</h5>
+<h5 id="3-it-is-important-not-to-assume-that-one-needs-to-make-a-sacrifice-in-accuracy-in-order-to-gain-interpretability">3 It is important not to assume that one needs to make a sacrifice in accuracy in order to gain interpretability.</h5>
+<p>In fact, interpretability often begets accuracy, and not the reverse. <strong>Interpretability versus accuracy</strong> is, in general, <strong>a false dichotomy</strong> in machine learning.</p>
+<h5 id="4-as-part-of-the-full-data-science-process-one-should-expect-both-the-performance-metric-and-interpretability-metric-to-be-iteratively-refined">4. As part of the full data science process, one should expect both the performance metric and interpretability metric to be iteratively refined.</h5>
+<h5 id="5-for-high-stakes-decisions-interpretable-models-should-be-used-if-possible-rather-than-explained-black-box-models">5. For high stakes decisions, interpretable models should be used if possible, rather than “explained” black box models.</h5>
+<br> 
+<h3 id="model-and-data-types">Model and Data Types</h3>
 <table>
 <thead>
 <tr>
@@ -3268,10 +3277,8 @@ arxix link
 </tbody>
 </table>
 <p>Table 1: Rule of thumb for the types of data that naturally apply to various supervised learning algorithms. “Clean” means that the data do not have too much <strong>noise or systematic bias</strong>. “Tabular” means that the features are <strong>categorical or real</strong>, and that each feature is a meaningful predictor of the output on its own (as opposed to “raw” or complex data like computer vision data, where each pixel is a feature).</p>
-<br> 
-<h2 id="general-principles-of-interpretable-machine-learning">General Principles of Interpretable Machine Learning</h2>
-<h5 id="1-an-interpretable-machine-learning-model-obeys-a-domain-specific-set-of-constraints-to-allow-it-to-be-more-easily-understood-by-humans">1. An interpretable machine learning model obeys <strong>a domain-specific set of constraints</strong> to allow it to be more easily understood by humans.</h5>
-<h5 id="what-are-some-interpretability-constraints">What are some interpretability constraints?</h5>
+<br>
+<h2 id="what-are-some-interpretability-constraints">What are some interpretability constraints?</h2>
 <p>Interpretability constraints can include</p>
 <ul>
 <li>sparsity of the model</li>
@@ -3282,11 +3289,7 @@ arxix link
 <li>preferences among the choice variables</li>
 <li>or any other type of constraint that is relevant to the domain.</li>
 </ul>
-<h5 id="2-despite-common-rhetoric-interpretable-models-do-not-necessarily-create-or-enable-trust--they-could-also-enable-distrust-they-simply-allow-users-to-decide-whether-to-trust-them-in-other-words-they-permit-a-decision-of-trust-rather-than-trust-itself">2. Despite common rhetoric, interpretable models do not necessarily create or enable trust – they could also enable distrust. They simply allow users to decide whether to trust them. In other words, they permit a <strong>decision of trust</strong>, rather than trust itself.</h5>
-<h5 id="3-it-is-important-not-to-assume-that-one-needs-to-make-a-sacrifice-in-accuracy-in-order-to-gain-interpretability">3 It is important not to assume that one needs to make a sacrifice in accuracy in order to gain interpretability.</h5>
-<p>In fact, interpretability often begets accuracy, and not the reverse. <strong>Interpretability versus accuracy</strong> is, in general, <strong>a false dichotomy</strong> in machine learning.</p>
-<h5 id="4-as-part-of-the-full-data-science-process-one-should-expect-both-the-performance-metric-and-interpretability-metric-to-be-iteratively-refined">4. As part of the full data science process, one should expect both the performance metric and interpretability metric to be iteratively refined.</h5>
-<h5 id="5-for-high-stakes-decisions-interpretable-models-should-be-used-if-possible-rather-than-explained-black-box-models">5. For high stakes decisions, interpretable models should be used if possible, rather than “explained” black box models.</h5>
+<br>
 <h3 id="pdf">PDF</h3>
 <object data="https://arxiv.org/pdf/2103.11251v1.pdf" type="application/pdf" width="760px" height="1000px">
     <embed src="https://arxiv.org/pdf/2103.11251v1.pdf">
