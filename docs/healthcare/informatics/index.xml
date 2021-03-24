@@ -499,7 +499,7 @@ RDKit WARNING: [23:35:43] WARNING: not removing hydrogen atom without neighbors
 &lt;/ul&gt;
 &lt;h2 id=&#34;matched-molecular-pairs-mmp-analysis&#34;&gt;Matched Molecular Pairs (MMP) Analysis&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;The mining and statistical analysis of transformations and their impact on properties of interest (e.g. solubility or activity)。&lt;/li&gt;
+&lt;li&gt;The mining and statistical analysis of transformations and their impact on properties of interest (e.g. solubility or activity)&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -523,12 +523,9 @@ RDKit WARNING: [23:35:43] WARNING: not removing hydrogen atom without neighbors
 &lt;p&gt;Scaden is a deep-learning based algorithm for cell type deconvolution of bulk RNA-seq samples. It was developed at the DZNE Tübingen and the ZMNH in Hamburg. A pre-print describing the method is available at &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/659227v2.full.pdf&#34;&gt;Biorxiv: Deep-learning based cell composition analysis&lt;/a&gt; from tissue expression profiles.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://satijalab.org/seurat/index.html&#34;&gt;Seurat&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/theislab/scarches&#34;&gt;scArches&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://satijalab.org/seurat/index.html&#34;&gt;Seurat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/KirstLab/asc_seurat&#34;&gt;Asc-Seurat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/theislab/scarches&#34;&gt;scArches&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
