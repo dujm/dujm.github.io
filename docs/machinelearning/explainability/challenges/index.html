@@ -36,7 +36,7 @@ arxix link
  Abstract Interpretability in machine learning (ML) is crucial for high stakes decisions and troubleshooting. In this work, we provide fundamental principles for interpretable ML, and dispel common misunderstandings that dilute the importance of this crucial topic. We also identify 10 technical challenge areas in interpretable machine learning and provide history and background on each problem.">
 <meta itemprop="datePublished" content="2021-03-24T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-03-24T00:00:00+00:00" />
-<meta itemprop="wordCount" content="625">
+<meta itemprop="wordCount" content="748">
 
 
 
@@ -138,7 +138,7 @@ arxix link
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.432fc1400f9707d5a3778f94d0623d17842836632610c6349f6923e6ae3282a4568ef79433c2c072e79f3b07f3d6c8658dcebc9d7eb3ff8670844f2f135be10d.json"
+  data-offline-search-index-json-src="/offline-search-index.625b8d14e78bc05bac43a6d68c5ea393d9df501902427ffc0f8f8a0a4b3d94c58dc93ed30ac9e14dea0a94d856b757aebc563e959e3c35f6876c3a33db66a7f8.json"
   data-offline-search-base-href="/"
 >
 
@@ -168,7 +168,7 @@ arxix link
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.432fc1400f9707d5a3778f94d0623d17842836632610c6349f6923e6ae3282a4568ef79433c2c072e79f3b07f3d6c8658dcebc9d7eb3ff8670844f2f135be10d.json"
+  data-offline-search-index-json-src="/offline-search-index.625b8d14e78bc05bac43a6d68c5ea393d9df501902427ffc0f8f8a0a4b3d94c58dc93ed30ac9e14dea0a94d856b757aebc563e959e3c35f6876c3a33db66a7f8.json"
   data-offline-search-base-href="/"
 >
 
@@ -3125,13 +3125,11 @@ arxix link
         <li><a href="#abstract">Abstract</a></li>
         <li><a href="#general-principles-of-interpretable-machine-learning">General Principles of Interpretable Machine Learning</a></li>
         <li><a href="#model-and-data-types">Model and Data Types</a></li>
+        <li><a href="#what-are-some-interpretability-constraints">What are some interpretability constraints?</a></li>
+        <li><a href="#decision-tree-vs-decision-lists-and-decision-sets">Decision Tree vs Decision Lists and Decision Sets</a></li>
       </ul>
     </li>
-    <li><a href="#what-are-some-interpretability-constraints">What are some interpretability constraints?</a>
-      <ul>
-        <li><a href="#pdf">PDF</a></li>
-      </ul>
-    </li>
+    <li><a href="#pdf">PDF</a></li>
   </ul>
 </nav>
 
@@ -3278,7 +3276,7 @@ arxix link
 </table>
 <p>Table 1: Rule of thumb for the types of data that naturally apply to various supervised learning algorithms. “Clean” means that the data do not have too much <strong>noise or systematic bias</strong>. “Tabular” means that the features are <strong>categorical or real</strong>, and that each feature is a meaningful predictor of the output on its own (as opposed to “raw” or complex data like computer vision data, where each pixel is a feature).</p>
 <br>
-<h2 id="what-are-some-interpretability-constraints">What are some interpretability constraints?</h2>
+<h3 id="what-are-some-interpretability-constraints">What are some interpretability constraints?</h3>
 <p>Interpretability constraints can include</p>
 <ul>
 <li>sparsity of the model</li>
@@ -3290,7 +3288,28 @@ arxix link
 <li>or any other type of constraint that is relevant to the domain.</li>
 </ul>
 <br>
-<h3 id="pdf">PDF</h3>
+<h3 id="decision-tree-vs-decision-lists-and-decision-sets">Decision Tree vs Decision Lists and Decision Sets</h3>
+<ul>
+<li>Decision trees are tree-structured predictive models where
+<ul>
+<li>each branch node tests a condition and</li>
+<li>each leaf node makes a prediction.</li>
+</ul>
+</li>
+<li>Decision lists, identical to rule lists or one-sided decision trees, are composed of if-then-else statements.
+<ul>
+<li>The rules are tried in order, and <strong>the first rule that is satisfied makes the prediction</strong>.</li>
+<li><strong>Sometimes rule lists have multiple conditions in each split</strong>, whereas decision trees typically do not.</li>
+</ul>
+</li>
+<li>A decision set, also known as a “disjunction of conjunctions,” “disjunctive normal form” (DNF), or an “OR of ANDs” is comprised of <strong>an unordered collection of rules</strong>, where <strong>each rule is a conjunction of conditions</strong>.
+<ul>
+<li>A positive prediction is made if <strong>at least one of the rules</strong> is satisfied.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/img/health/logical_models.png" alt="logical_models"></p>
+<h2 id="pdf">PDF</h2>
 <object data="https://arxiv.org/pdf/2103.11251v1.pdf" type="application/pdf" width="760px" height="1000px">
     <embed src="https://arxiv.org/pdf/2103.11251v1.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://arxiv.org/pdf/2103.11251v1.pdf">Download PDF</a>.</p>

@@ -111,7 +111,7 @@
 &lt;/table&gt;
 &lt;p&gt;Table 1: Rule of thumb for the types of data that naturally apply to various supervised learning algorithms. “Clean” means that the data do not have too much &lt;strong&gt;noise or systematic bias&lt;/strong&gt;. “Tabular” means that the features are &lt;strong&gt;categorical or real&lt;/strong&gt;, and that each feature is a meaningful predictor of the output on its own (as opposed to “raw” or complex data like computer vision data, where each pixel is a feature).&lt;/p&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;what-are-some-interpretability-constraints&#34;&gt;What are some interpretability constraints?&lt;/h2&gt;
+&lt;h3 id=&#34;what-are-some-interpretability-constraints&#34;&gt;What are some interpretability constraints?&lt;/h3&gt;
 &lt;p&gt;Interpretability constraints can include&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;sparsity of the model&lt;/li&gt;
@@ -123,7 +123,28 @@
 &lt;li&gt;or any other type of constraint that is relevant to the domain.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h3 id=&#34;pdf&#34;&gt;PDF&lt;/h3&gt;
+&lt;h3 id=&#34;decision-tree-vs-decision-lists-and-decision-sets&#34;&gt;Decision Tree vs Decision Lists and Decision Sets&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Decision trees are tree-structured predictive models where
+&lt;ul&gt;
+&lt;li&gt;each branch node tests a condition and&lt;/li&gt;
+&lt;li&gt;each leaf node makes a prediction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Decision lists, identical to rule lists or one-sided decision trees, are composed of if-then-else statements.
+&lt;ul&gt;
+&lt;li&gt;The rules are tried in order, and &lt;strong&gt;the first rule that is satisfied makes the prediction&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sometimes rule lists have multiple conditions in each split&lt;/strong&gt;, whereas decision trees typically do not.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A decision set, also known as a “disjunction of conjunctions,” “disjunctive normal form” (DNF), or an “OR of ANDs” is comprised of &lt;strong&gt;an unordered collection of rules&lt;/strong&gt;, where &lt;strong&gt;each rule is a conjunction of conditions&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;A positive prediction is made if &lt;strong&gt;at least one of the rules&lt;/strong&gt; is satisfied.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/health/logical_models.png&#34; alt=&#34;logical_models&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pdf&#34;&gt;PDF&lt;/h2&gt;
 &lt;object data=&#34;https://arxiv.org/pdf/2103.11251v1.pdf&#34; type=&#34;application/pdf&#34; width=&#34;760px&#34; height=&#34;1000px&#34;&gt;
     &lt;embed src=&#34;https://arxiv.org/pdf/2103.11251v1.pdf&#34;&gt;
         &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&#34;https://arxiv.org/pdf/2103.11251v1.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
