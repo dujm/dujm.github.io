@@ -30,6 +30,63 @@
     </item>
     
     <item>
+      <title>Docs: NN Compression</title>
+      <link>/docs/machinelearning/optimization/compression/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/optimization/compression/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;how-to-compress-a-neural-network&#34;&gt;How to compress a neural network?&lt;/h2&gt;
+&lt;h3 id=&#34;pruning&#34;&gt;Pruning&lt;/h3&gt;
+&lt;h4 id=&#34;pytorch&#34;&gt;PyTorch&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/tutorials/intermediate/pruning_tutorial.html&#34;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;tensorflow&#34;&gt;Tensorflow&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.tensorflow.org/2019/05/tf-model-optimization-toolkit-pruning-API.html?hl=es-uy&#34;&gt;tensorflow_model_optimization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;quantization&#34;&gt;Quantization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Post-training quantization&lt;/li&gt;
+&lt;li&gt;Quantization-aware training&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;pytorch-1&#34;&gt;PyTorch&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/docs/stable/quantization.html&#34;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;tensorflow-1&#34;&gt;Tensorflow&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tensorflow.org/lite/performance/model_optimization&#34;&gt;Tensorflow Lite&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;knowledge-distillation&#34;&gt;Knowledge distillation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Although quantization and pruning can be effective, they are destructive in the end. An alternative approach was developed by Geoffrey Hinton, Oriol Vinyals, and Jeff Dean in their paper Distilling the Knowledge in a Neural Network.&lt;/li&gt;
+&lt;li&gt;Knowledge distillation improves the inference time of the distilled models, not the training time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;h4 id=&#34;keras&#34;&gt;Keras&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://keras.io/examples/vision/knowledge_distillation/&#34;&gt;Keras&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;pytorch-2&#34;&gt;Pytorch&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/AberHu/Knowledge-Distillation-Zoo&#34;&gt;KD-Zoo&lt;/a&gt;
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/tensorflow/introducing-the-model-optimization-toolkit-for-tensorflow-254aca1ba0a3&#34;&gt;Introducing the Model Optimization Toolkit for TensorFlow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/how-to-compress-a-neural-network-427e8dddcc34&#34;&gt;How to compress a neural network&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/huggingface/distilbert-8cf3380435b5&#34;&gt;DilBERT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Noise</title>
       <link>/docs/machinelearning/optimization/noise/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>

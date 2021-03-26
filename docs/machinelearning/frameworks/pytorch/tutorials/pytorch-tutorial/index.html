@@ -36,7 +36,7 @@ What are PyTorch&rsquo;s core features?  An n-dimensional Tensor, similar to num
 Methods of data reduction for a data tensor">
 <meta itemprop="datePublished" content="2020-05-08T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-05-08T00:00:00+00:00" />
-<meta itemprop="wordCount" content="908">
+<meta itemprop="wordCount" content="931">
 
 
 
@@ -138,7 +138,7 @@ Methods of data reduction for a data tensor"/>
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.625b8d14e78bc05bac43a6d68c5ea393d9df501902427ffc0f8f8a0a4b3d94c58dc93ed30ac9e14dea0a94d856b757aebc563e959e3c35f6876c3a33db66a7f8.json"
+  data-offline-search-index-json-src="/offline-search-index.cdf58120c9e72bb6dcab557e9a86b7f059601aea0bb516b1cc4efcbf3c294012ef5d9cce52664a3f33219d758b5faef108e16b349e56ea19b3be3db20bcdf202.json"
   data-offline-search-base-href="/"
 >
 
@@ -168,7 +168,7 @@ Methods of data reduction for a data tensor"/>
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.625b8d14e78bc05bac43a6d68c5ea393d9df501902427ffc0f8f8a0a4b3d94c58dc93ed30ac9e14dea0a94d856b757aebc563e959e3c35f6876c3a33db66a7f8.json"
+  data-offline-search-index-json-src="/offline-search-index.cdf58120c9e72bb6dcab557e9a86b7f059601aea0bb516b1cc4efcbf3c294012ef5d9cce52664a3f33219d758b5faef108e16b349e56ea19b3be3db20bcdf202.json"
   data-offline-search-base-href="/"
 >
 
@@ -2573,6 +2573,12 @@ Methods of data reduction for a data tensor"/>
       
       
       
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningoptimizationcompression" href="/docs/machinelearning/optimization/compression/">Compression</a>
+      
+      
+      
+      
+      
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningoptimizationnoise" href="/docs/machinelearning/optimization/noise/">Noise</a>
       
       
@@ -3146,6 +3152,10 @@ Methods of data reduction for a data tensor"/>
     <li><a href="#neural-networks">Neural Networks</a>
       <ul>
         <li><a href="#how-to-construct-a-nn">How to construct a NN?</a></li>
+      </ul>
+    </li>
+    <li><a href="#pruning-pruning-tutorial">Pruning Pruning Tutorial</a>
+      <ul>
         <li><a href="#reference">Reference</a></li>
       </ul>
     </li>
@@ -3473,7 +3483,14 @@ functions to make this guess.</li>
 <span style="color:#000">params</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87">list</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">net</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">parameters</span><span style="color:#000;font-weight:bold">())</span>
 <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87">len</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">params</span><span style="color:#000;font-weight:bold">))</span>
 <span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">params</span><span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">]</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">size</span><span style="color:#000;font-weight:bold">())</span>
-</code></pre></div><hr>
+</code></pre></div><br>
+<h2 id="pruning-pruning-tutorial">Pruning Pruning Tutorial</h2>
+<ul>
+<li><a href="https://pytorch.org/tutorials/intermediate/pruning_tutorial.html">Link</a></li>
+<li>Use <code>torch.nn.utils.prune</code> to sparsify your neural networks, and how to extend it to implement your own custom pruning technique.</li>
+</ul>
+<br>
+<hr>
 <h3 id="reference">Reference</h3>
 <ul>
 <li><a href="https://pytorch.org/">pytorch</a></li>
