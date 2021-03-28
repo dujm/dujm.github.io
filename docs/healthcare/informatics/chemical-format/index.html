@@ -7,7 +7,6 @@
 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
-<link rel="alternate" type="application/rss&#43;xml" href="/docs/healthcare/papers/index.xml">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -21,16 +20,24 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>Papers | DJ&#39;s Website</title><meta property="og:title" content="Papers" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/docs/healthcare/papers/" />
-<meta property="og:updated_time" content="2020-04-16T00:00:00+00:00" />
-<meta itemprop="name" content="Papers">
-<meta itemprop="description" content="">
+<title>Chemical Formats | DJ&#39;s Website</title><meta property="og:title" content="Chemical Formats" />
+<meta property="og:description" content="Comparison of Chemical Formats     SMILES InChI InChIKey Molfile CML     Linearized Yes Yes Yes No No   Unique, canonical Possibly (SMILES is normally not unique, but has the possibility of a canonical form, that is unique for each structure) Yes No (For every molecule only one InChIKey is valid, however two molecules may have the same InChIKey) No No   Human readable Easily Hardly Impossible Hardly Hardly   Includes atom coordinates No No No Yes4 Yes4   Length (characters per atom)5 1- 2 ~2 ~1 (InChIKey is fixed length (27 characters)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/healthcare/informatics/chemical-format/" />
+<meta property="article:published_time" content="2021-03-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-28T00:00:00+00:00" />
+<meta itemprop="name" content="Chemical Formats">
+<meta itemprop="description" content="Comparison of Chemical Formats     SMILES InChI InChIKey Molfile CML     Linearized Yes Yes Yes No No   Unique, canonical Possibly (SMILES is normally not unique, but has the possibility of a canonical form, that is unique for each structure) Yes No (For every molecule only one InChIKey is valid, however two molecules may have the same InChIKey) No No   Human readable Easily Hardly Impossible Hardly Hardly   Includes atom coordinates No No No Yes4 Yes4   Length (characters per atom)5 1- 2 ~2 ~1 (InChIKey is fixed length (27 characters).">
+<meta itemprop="datePublished" content="2021-03-28T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-03-28T00:00:00+00:00" />
+<meta itemprop="wordCount" content="314">
+
+
+
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Papers"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Chemical Formats"/>
+<meta name="twitter:description" content="Comparison of Chemical Formats     SMILES InChI InChIKey Molfile CML     Linearized Yes Yes Yes No No   Unique, canonical Possibly (SMILES is normally not unique, but has the possibility of a canonical form, that is unique for each structure) Yes No (For every molecule only one InChIKey is valid, however two molecules may have the same InChIKey) No No   Human readable Easily Hardly Impossible Hardly Hardly   Includes atom coordinates No No No Yes4 Yes4   Length (characters per atom)5 1- 2 ~2 ~1 (InChIKey is fixed length (27 characters)."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -75,9 +82,9 @@
 
 
 
-    <title>Papers | DJ&#39;s Website</title>
+    <title>Chemical Formats | DJ&#39;s Website</title>
   </head>
-  <body class="td-section">
+  <body class="td-page">
     <header>
       
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
@@ -3000,17 +3007,17 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/healthcare/informatics/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Informatics</a>
+    <a  href="/docs/healthcare/informatics/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Informatics</a>
   </li>
   <ul>
-    <li class="collapse " id="docshealthcareinformatics">
+    <li class="collapse show" id="docshealthcareinformatics">
       
       
       
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docshealthcareinformaticschemical-format" href="/docs/healthcare/informatics/chemical-format/">Chemical Formats</a>
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docshealthcareinformaticschemical-format" href="/docs/healthcare/informatics/chemical-format/">Chemical Formats</a>
       
       
       
@@ -3065,10 +3072,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/healthcare/papers/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Papers</a>
+    <a  href="/docs/healthcare/papers/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Papers</a>
   </li>
   <ul>
-    <li class="collapse show" id="docshealthcarepapers">
+    <li class="collapse " id="docshealthcarepapers">
       
       
       
@@ -3114,6 +3121,22 @@
 
 
 
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#comparison-of-chemical-formats">Comparison of Chemical Formats</a></li>
+    <li><a href="#smiles">SMILES</a>
+      <ul>
+        <li><a href="#atoms">Atoms</a></li>
+        <li><a href="#bonds">Bonds</a></li>
+        <li><a href="#ring">Ring</a></li>
+        <li><a href="#aromacity">Aromacity</a></li>
+      </ul>
+    </li>
+    <li><a href="#mol">Mol</a></li>
+    <li><a href="#ref">Ref</a></li>
+  </ul>
+</nav>
+
 
 
           </div>
@@ -3124,6 +3147,9 @@
             <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
 	<ol class="breadcrumb spb-1">
 		
+
+
+
 
 
 
@@ -3148,8 +3174,15 @@
 
 
 
+<li class="breadcrumb-item" >
+	<a href="/docs/healthcare/informatics/">Informatics</a>
+</li>
+
+
+
+
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="/docs/healthcare/papers/">Papers</a>
+	<a href="/docs/healthcare/informatics/chemical-format/">Chemical Formats</a>
 </li>
 
 	</ol>
@@ -3157,545 +3190,134 @@
 
             
 <div class="td-content">
-	<h1>Papers</h1>
+	<h1>Chemical Formats</h1>
 	
-	
-        <div class="section-index">
-    
-    
-    
-    
-    <hr class="panel-line">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/docs/healthcare/papers/fibroblasts/">Fibroblasts</a>
-                    </h5>
-                    <p></p>
-                </div>
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    
-</div>
+	<br>
+<h2 id="comparison-of-chemical-formats">Comparison of Chemical Formats</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>SMILES</th>
+<th>InChI</th>
+<th>InChIKey</th>
+<th>Molfile</th>
+<th>CML</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linearized</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Unique, canonical</td>
+<td>Possibly (SMILES is normally not unique, but has the possibility of a canonical form, that is unique for each structure)</td>
+<td>Yes</td>
+<td>No (For every molecule only one InChIKey is valid, however two molecules may have the same InChIKey)</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Human readable</td>
+<td>Easily</td>
+<td>Hardly</td>
+<td>Impossible</td>
+<td>Hardly</td>
+<td>Hardly</td>
+</tr>
+<tr>
+<td>Includes atom coordinates</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes4</td>
+<td>Yes4</td>
+</tr>
+<tr>
+<td>Length (characters per atom)5</td>
+<td>1- 2</td>
+<td>~2</td>
+<td>~1 (InChIKey is fixed length (27 characters). For typical organic molecules its length is around 1 character per atom, but can be as much as 27 characters per atom for single atom molecules. For large molecules the ratio drops near to 0 characters/atom.)</td>
+<td>~50</td>
+<td>~50</td>
+</tr>
+<tr>
+<td>Software support (0-1)</td>
+<td>0.3</td>
+<td>0.1</td>
+<td>0.2</td>
+<td>1 (Molfile is a format supported by most chemical packages.)</td>
+<td>0.5</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h2 id="smiles">SMILES</h2>
+<h3 id="atoms">Atoms</h3>
+<ul>
+<li>Atoms are represented by chemical symbols in capital letter</li>
+<li>Hydrogen is usually ignored.</li>
+<li>Atoms that are bonded must stand nearby</li>
+</ul>
+<h3 id="bonds">Bonds</h3>
+<ul>
+<li>Single bonds are not displayed</li>
+<li>Double: <code>=</code></li>
+<li>Triple <code>#</code></li>
+<li>Quadruple bonds <code>$</code></li>
+</ul>
+<h3 id="ring">Ring</h3>
+<ul>
+<li>Written by breaking each ring at an arbitrary point to make a &lsquo;straight non-ring&rsquo; structure</li>
+<li>Adding numerical ring closure labels to show connectivity between non-adjacent atoms.</li>
+</ul>
+<h3 id="aromacity">Aromacity</h3>
+<p>Writing the constituent B, C, N, O, P and S atoms in lower-case forms.</p>
+<p><img src="https://www.daylight.com/dayhtml/doc/theory/theory4.gif" alt="C1CCCCC1"></p>
+<p><a href="https://www.daylight.com/dayhtml/doc/theory/theory4.gif">SMILE Example; Image Source</a></p>
+<br>
+<h2 id="mol">Mol</h2>
+<ul>
+<li>
+<p>A file format that keeps information about the atoms, bonds, connectivity and coordinates of a molecule.</p>
+</li>
+<li>
+<p>Typical MOL consists of</p>
+<ul>
+<li>Header information</li>
+<li>Connection Table containing atom info, then bond connections and types</li>
+<li>Followed by sections for more complex information.</li>
+</ul>
+</li>
+<li>
+<p>MOL representations can either hold information about 2D or 3D structure of the molecule.</p>
+</li>
+<li>
+<p>This format is so widely spread that most cheminformatics software systems are able to read it.</p>
+</li>
+</ul>
+<p><img src="https://files.mtstatic.com/site_4334/112699/0?Expires=1616965613&amp;Signature=Pa8JOnNpIWqMKCokD4j92B30Rw4pDykmxPgOTNLY7VhVz73qPI5iZSvxKkPTG86At~UtjVbLqnhJEMYmekgK9bKcdpSplcAxJ-972EL3hWHg1UI6iYPEL5TugdjfmNp1-qKk-byuZ2~Jpu-w-2h~RWYXvKirSFZAESLh7C7bTiY_&amp;Key-Pair-Id=APKAJ5Y6AV4GI7A555NA" alt="Mol"><br>
+<a href="https://files.mtstatic.com/site_4334/112699/0?Expires=1616965613&amp;Signature=Pa8JOnNpIWqMKCokD4j92B30Rw4pDykmxPgOTNLY7VhVz73qPI5iZSvxKkPTG86At~UtjVbLqnhJEMYmekgK9bKcdpSplcAxJ-972EL3hWHg1UI6iYPEL5TugdjfmNp1-qKk-byuZ2~Jpu-w-2h~RWYXvKirSFZAESLh7C7bTiY_&amp;Key-Pair-Id=APKAJ5Y6AV4GI7A555NA">Mol Example; Image Source</a></p>
+<br>
+<h2 id="ref">Ref</h2>
+<ul>
+<li><a href="http://inchi.info/inchi_comparison_en.html">Comparison of InChI to other chemical formats</a></li>
+<li><a href="http://inchi.info/inchikey_overview_en.html">InChIKey</a></li>
+<li><a href="https://docs.chemaxon.com/display/docs/molecule-formats.md">Molecule Formats</a></li>
+<li><a href="https://www.kaggle.com/vladislavkisin/tutorial-ml-in-chemistry-research-rdkit-mol2vec#SIMPLE-ML-IN-CHEMISTRY-RESEARCH:-RDKIT-AND-MOL2VEC">Smiles in Chemistry Research RDkit &amp; mol2vec</a></li>
+</ul>
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified April 16, 2020
+	<div class="text-muted mt-5 pt-3 border-top">Last modified March 28, 2021
 </div>
 </div>
+
 
           </main>
         </div>
