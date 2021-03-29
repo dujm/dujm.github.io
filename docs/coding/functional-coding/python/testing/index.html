@@ -122,7 +122,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.500068f2761c363caa42912253ef06eec7569d086b428afd2eae3ae6e19177592bacdc8d18fdde7637a0da1a8be17eecfbc7d64de7252c7acab2b6747a101571.json"
+  data-offline-search-index-json-src="/offline-search-index.dc70f9408641506ca90cfb6c44a407b4485b7501f4984d809ebdf357d42c7abc3ec36e2b0c4791dae2dbd1baae62301a8ad900e1525dd9d2cb13da366a088f86.json"
   data-offline-search-base-href="/"
 >
 
@@ -152,7 +152,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.500068f2761c363caa42912253ef06eec7569d086b428afd2eae3ae6e19177592bacdc8d18fdde7637a0da1a8be17eecfbc7d64de7252c7acab2b6747a101571.json"
+  data-offline-search-index-json-src="/offline-search-index.dc70f9408641506ca90cfb6c44a407b4485b7501f4984d809ebdf357d42c7abc3ec36e2b0c4791dae2dbd1baae62301a8ad900e1525dd9d2cb13da366a088f86.json"
   data-offline-search-base-href="/"
 >
 
@@ -3120,6 +3120,7 @@
     <li><a href="#pytest">pytest</a></li>
     <li><a href="#mock">Mock</a></li>
     <li><a href="#hypothesis">Hypothesis</a></li>
+    <li><a href="#doctest">doctest</a></li>
   </ul>
 </nav>
 
@@ -3249,6 +3250,74 @@
     <span style="color:#204a87;font-weight:bold">assert</span> <span style="color:#000">decode</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">encode</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">s</span><span style="color:#000;font-weight:bold">))</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#000">s</span>
 
 <span style="color:#000">test_decode_inverts_encode</span><span style="color:#000;font-weight:bold">()</span>
+</code></pre></div><h2 id="doctest">doctest</h2>
+<p>The doctest module searches for pieces of text that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown. There are several common ways to use doctest:</p>
+<ul>
+<li>
+<p>To check that a module’s docstrings are up-to-date by verifying that all interactive examples still work as documented.</p>
+</li>
+<li>
+<p>To perform <strong>regression testing</strong> by verifying that interactive examples from a test file or a test object work as expected.</p>
+</li>
+<li>
+<p>To write tutorial documentation for a package, liberally illustrated with input-output examples. Depending on whether the examples or the expository text are emphasized, this has the flavor of “literate testing” or “executable documentation”.</p>
+</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#4e9a06">&#34;&#34;&#34;
+</span><span style="color:#4e9a06">This is the &#34;example&#34; module.
+</span><span style="color:#4e9a06">
+</span><span style="color:#4e9a06">The example module supplies one function, factorial().  For example,
+</span><span style="color:#4e9a06">
+</span><span style="color:#4e9a06">&gt;&gt;&gt; factorial(5)
+</span><span style="color:#4e9a06">120
+</span><span style="color:#4e9a06">&#34;&#34;&#34;</span>
+ <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">A</span> <span style="color:#000">small</span> <span style="color:#000">but</span> <span style="color:#000">complete</span> <span style="color:#000">module</span>
+ 
+<span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">factorial</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">n</span><span style="color:#000;font-weight:bold">):</span>
+    <span style="color:#4e9a06">&#34;&#34;&#34;Return the factorial of n, an exact integer &gt;= 0.
+</span><span style="color:#4e9a06">
+</span><span style="color:#4e9a06">    &gt;&gt;&gt; [factorial(n) for n in range(6)]
+</span><span style="color:#4e9a06">    [1, 1, 2, 6, 24, 120]
+</span><span style="color:#4e9a06">    &gt;&gt;&gt; factorial(30)
+</span><span style="color:#4e9a06">    265252859812191058636308480000000
+</span><span style="color:#4e9a06">    &gt;&gt;&gt; factorial(-1)
+</span><span style="color:#4e9a06">    Traceback (most recent call last):
+</span><span style="color:#4e9a06">        ...
+</span><span style="color:#4e9a06">    ValueError: n must be &gt;= 0
+</span><span style="color:#4e9a06">
+</span><span style="color:#4e9a06">    Factorials of floats are OK, but the float must be an exact integer:
+</span><span style="color:#4e9a06">    &gt;&gt;&gt; factorial(30.1)
+</span><span style="color:#4e9a06">    Traceback (most recent call last):
+</span><span style="color:#4e9a06">        ...
+</span><span style="color:#4e9a06">    ValueError: n must be exact integer
+</span><span style="color:#4e9a06">    &gt;&gt;&gt; factorial(30.0)
+</span><span style="color:#4e9a06">    265252859812191058636308480000000
+</span><span style="color:#4e9a06">
+</span><span style="color:#4e9a06">    It must also not be ridiculously large:
+</span><span style="color:#4e9a06">    &gt;&gt;&gt; factorial(1e100)
+</span><span style="color:#4e9a06">    Traceback (most recent call last):
+</span><span style="color:#4e9a06">        ...
+</span><span style="color:#4e9a06">    OverflowError: n too large
+</span><span style="color:#4e9a06">    &#34;&#34;&#34;</span>
+
+    <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">math</span>
+    <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#204a87;font-weight:bold">not</span> <span style="color:#000">n</span> <span style="color:#ce5c00;font-weight:bold">&gt;=</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">:</span>
+        <span style="color:#204a87;font-weight:bold">raise</span> <span style="color:#c00;font-weight:bold">ValueError</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;n must be &gt;= 0&#34;</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">math</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">floor</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">n</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">!=</span> <span style="color:#000">n</span><span style="color:#000;font-weight:bold">:</span>
+        <span style="color:#204a87;font-weight:bold">raise</span> <span style="color:#c00;font-weight:bold">ValueError</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;n must be exact integer&#34;</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">n</span><span style="color:#ce5c00;font-weight:bold">+</span><span style="color:#0000cf;font-weight:bold">1</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#000">n</span><span style="color:#000;font-weight:bold">:</span>  <span style="color:#8f5902;font-style:italic"># catch a value like 1e300</span>
+        <span style="color:#204a87;font-weight:bold">raise</span> <span style="color:#c00;font-weight:bold">OverflowError</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;n too large&#34;</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">1</span>
+    <span style="color:#000">factor</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">2</span>
+    <span style="color:#204a87;font-weight:bold">while</span> <span style="color:#000">factor</span> <span style="color:#ce5c00;font-weight:bold">&lt;=</span> <span style="color:#000">n</span><span style="color:#000;font-weight:bold">:</span>
+        <span style="color:#000">result</span> <span style="color:#ce5c00;font-weight:bold">*=</span> <span style="color:#000">factor</span>
+        <span style="color:#000">factor</span> <span style="color:#ce5c00;font-weight:bold">+=</span> <span style="color:#0000cf;font-weight:bold">1</span>
+    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">result</span>
+
+
+<span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">__name__</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#4e9a06">&#34;__main__&#34;</span><span style="color:#000;font-weight:bold">:</span>
+    <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">doctest</span>
+    <span style="color:#000">doctest</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">testmod</span><span style="color:#000;font-weight:bold">()</span>
 </code></pre></div>
         <div class="section-index">
     

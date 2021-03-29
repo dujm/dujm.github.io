@@ -21,29 +21,26 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>Unit Test | DJ&#39;s Website</title><meta property="og:title" content="Unit Test" />
-<meta property="og:description" content="
-Unit Test  Unit testing framework  import unittest from sklearn.metrics import precision_score, recall_score from src.train import prepare_data_and_train_model class TestModelMetrics(unittest.TestCase): def test_model_precision_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) precision = precision_score(Y_test, Y_pred) self.assertGreaterEqual(precision, 0.7) def test_model_recall_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) recall = recall_score(Y_test, Y_pred) self.assertGreaterEqual(recall, 0.6)  Ref
- Read More  Better habits for managing complexity in data science codebases pytest Testing Your Code  " />
+<meta property="og:description" content="Unit Test  Unit testing framework  import unittest from sklearn.metrics import precision_score, recall_score from src.train import prepare_data_and_train_model class TestModelMetrics(unittest.TestCase): def test_model_precision_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) precision = precision_score(Y_test, Y_pred) self.assertGreaterEqual(precision, 0.7) def test_model_recall_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) recall = recall_score(Y_test, Y_pred) self.assertGreaterEqual(recall, 0.6)  Ref
+ Unit testing in Jupyter notebooks  Ref  Why?  Often Jupyter notebooks with Python are used for data exploration, and so users may not choose (or need) to write unit tests for their notebook code since they typically may be looking at results for each cell as they progress through the notebook, then coming to a conclusion, and moving on." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/coding/functional-coding/python/testing/unittest/" />
 <meta property="article:published_time" content="2020-05-18T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-05-18T00:00:00+00:00" />
 <meta itemprop="name" content="Unit Test">
-<meta itemprop="description" content="
-Unit Test  Unit testing framework  import unittest from sklearn.metrics import precision_score, recall_score from src.train import prepare_data_and_train_model class TestModelMetrics(unittest.TestCase): def test_model_precision_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) precision = precision_score(Y_test, Y_pred) self.assertGreaterEqual(precision, 0.7) def test_model_recall_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) recall = recall_score(Y_test, Y_pred) self.assertGreaterEqual(recall, 0.6)  Ref
- Read More  Better habits for managing complexity in data science codebases pytest Testing Your Code  ">
+<meta itemprop="description" content="Unit Test  Unit testing framework  import unittest from sklearn.metrics import precision_score, recall_score from src.train import prepare_data_and_train_model class TestModelMetrics(unittest.TestCase): def test_model_precision_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) precision = precision_score(Y_test, Y_pred) self.assertGreaterEqual(precision, 0.7) def test_model_recall_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) recall = recall_score(Y_test, Y_pred) self.assertGreaterEqual(recall, 0.6)  Ref
+ Unit testing in Jupyter notebooks  Ref  Why?  Often Jupyter notebooks with Python are used for data exploration, and so users may not choose (or need) to write unit tests for their notebook code since they typically may be looking at results for each cell as they progress through the notebook, then coming to a conclusion, and moving on.">
 <meta itemprop="datePublished" content="2020-05-18T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-05-18T00:00:00+00:00" />
-<meta itemprop="wordCount" content="66">
+<meta itemprop="wordCount" content="354">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Unit Test"/>
-<meta name="twitter:description" content="
-Unit Test  Unit testing framework  import unittest from sklearn.metrics import precision_score, recall_score from src.train import prepare_data_and_train_model class TestModelMetrics(unittest.TestCase): def test_model_precision_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) precision = precision_score(Y_test, Y_pred) self.assertGreaterEqual(precision, 0.7) def test_model_recall_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) recall = recall_score(Y_test, Y_pred) self.assertGreaterEqual(recall, 0.6)  Ref
- Read More  Better habits for managing complexity in data science codebases pytest Testing Your Code  "/>
+<meta name="twitter:description" content="Unit Test  Unit testing framework  import unittest from sklearn.metrics import precision_score, recall_score from src.train import prepare_data_and_train_model class TestModelMetrics(unittest.TestCase): def test_model_precision_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) precision = precision_score(Y_test, Y_pred) self.assertGreaterEqual(precision, 0.7) def test_model_recall_score_should_be_above_threshold(self): model, X_test, Y_test = prepare_data_and_train_model() Y_pred = model.predict(X_test) recall = recall_score(Y_test, Y_pred) self.assertGreaterEqual(recall, 0.6)  Ref
+ Unit testing in Jupyter notebooks  Ref  Why?  Often Jupyter notebooks with Python are used for data exploration, and so users may not choose (or need) to write unit tests for their notebook code since they typically may be looking at results for each cell as they progress through the notebook, then coming to a conclusion, and moving on."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -135,7 +132,7 @@ Unit Test  Unit testing framework  import unittest from sklearn.metrics import p
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.500068f2761c363caa42912253ef06eec7569d086b428afd2eae3ae6e19177592bacdc8d18fdde7637a0da1a8be17eecfbc7d64de7252c7acab2b6747a101571.json"
+  data-offline-search-index-json-src="/offline-search-index.dc70f9408641506ca90cfb6c44a407b4485b7501f4984d809ebdf357d42c7abc3ec36e2b0c4791dae2dbd1baae62301a8ad900e1525dd9d2cb13da366a088f86.json"
   data-offline-search-base-href="/"
 >
 
@@ -165,7 +162,7 @@ Unit Test  Unit testing framework  import unittest from sklearn.metrics import p
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.500068f2761c363caa42912253ef06eec7569d086b428afd2eae3ae6e19177592bacdc8d18fdde7637a0da1a8be17eecfbc7d64de7252c7acab2b6747a101571.json"
+  data-offline-search-index-json-src="/offline-search-index.dc70f9408641506ca90cfb6c44a407b4485b7501f4984d809ebdf357d42c7abc3ec36e2b0c4791dae2dbd1baae62301a8ad900e1525dd9d2cb13da366a088f86.json"
   data-offline-search-base-href="/"
 >
 
@@ -3127,6 +3124,19 @@ Unit Test  Unit testing framework  import unittest from sklearn.metrics import p
 
 
 
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#unit-test">Unit Test</a></li>
+    <li><a href="#unit-testing-in-jupyter-notebooks">Unit testing in Jupyter notebooks</a>
+      <ul>
+        <li><a href="#why">Why?</a></li>
+        <li><a href="#testbook">Testbook</a></li>
+      </ul>
+    </li>
+    <li><a href="#read-more">Read More</a></li>
+  </ul>
+</nav>
+
 
 
           </div>
@@ -3203,7 +3213,7 @@ Unit Test  Unit testing framework  import unittest from sklearn.metrics import p
 	<h1>Unit Test</h1>
 	
 	<br>
-<h3 id="unit-test">Unit Test</h3>
+<h2 id="unit-test">Unit Test</h2>
 <ul>
 <li><a href="https://docs.python.org/3/library/unittest.html">Unit testing framework</a></li>
 </ul>
@@ -3232,7 +3242,67 @@ Unit Test  Unit testing framework  import unittest from sklearn.metrics import p
 <p><a href="https://gist.githubusercontent.com/davified/41046fc2665804aa38da0098ab2f1b34/raw/3716b2fd3614e29591c3f0dbe981486bb5c5587d/test_model_metrics.py">Ref</a></p>
 </blockquote>
 <br>
-<h3 id="read-more">Read More</h3>
+<h2 id="unit-testing-in-jupyter-notebooks">Unit testing in Jupyter notebooks</h2>
+<ul>
+<li><a href="https://www.wrighters.io/unit-testing-python-code-in-jupyter-notebooks/">Ref</a></li>
+</ul>
+<h3 id="why">Why?</h3>
+<ul>
+<li>Often Jupyter notebooks with Python are used for data exploration, and so users may not choose (or need) to write unit tests for their notebook code since they typically may be looking at results for each cell as they progress through the notebook, then coming to a conclusion, and moving on.</li>
+<li>However, in my experience what typically happens with notebooks is soon the code in the notebook moves beyond data exploration and is useful for further work.</li>
+<li>Or, perhaps the notebook itself produces results that are useful and need to be run on a regular basis.</li>
+<li>Perhaps the code needs to be maintained and integrated with external data sources. Then it becomes important to ensure that the code in the notebook can be tested and verified.</li>
+</ul>
+<h3 id="testbook">Testbook</h3>
+<h4 id="if-you-dont-need-to-parse-arguments-in-the-unit-test-">If you don&rsquo;t need to parse arguments in the unit test 🍰</h4>
+<ul>
+<li>
+<p>Install Testbook using <code>pip install testbook</code></p>
+</li>
+<li>
+<p>Example</p>
+<ul>
+<li>Create a py file, e.g. <code>jp_test.py</code></li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#8f5902;font-style:italic"># jp_test.py</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">datetime</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">testbook</span>
+<span style="color:#5c35cc;font-weight:bold">@testbook.testbook</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;./jupyter_unit_tests.ipynb&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">execute</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#3465a4">True</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">test_make_url</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">tb</span><span style="color:#000;font-weight:bold">):</span>
+    <span style="color:#000">func</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">tb</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">ref</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;make_url&#34;</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#000">date</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">datetime</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">date</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">2020</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#204a87;font-weight:bold">assert</span> <span style="color:#000">make_url</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">date</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#4e9a06">&#34;https://api.example.com/v2/2020/1/1&#34;</span>
+</code></pre></div><ul>
+<li>Run <code>pytest jp_test.py</code></li>
+</ul>
+<h4 id="if-you-do-need-to-parse-arguments-in-the-unit-test">If you do need to parse arguments in the unit test</h4>
+<ul>
+<li>Inject Python code into the notebook</li>
+<li>Refer to it back in your unit test 😎</li>
+<li>Example</li>
+<li></li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">datetime</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">testbook</span>
+<span style="color:#5c35cc;font-weight:bold">@testbook.testbook</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;./jupyter_unit_tests.ipynb&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">execute</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#3465a4">True</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">test_make_url</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">tb</span><span style="color:#000;font-weight:bold">):</span>
+    <span style="color:#000">f</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">tb</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">ref</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;make_url&#34;</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#000">d</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;2020-01-02&#34;</span>
+    <span style="color:#204a87;font-weight:bold">assert</span> <span style="color:#000">f</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">d</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#4e9a06">&#34;https://api.example.com/v2/2020/1/2&#34;</span>
+    <span style="color:#8f5902;font-style:italic"># note that this is actually converted to a string</span>
+    <span style="color:#000">d</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">datetime</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">date</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">2020</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#204a87;font-weight:bold">assert</span> <span style="color:#000">f</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">d</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#4e9a06">&#34;https://api.example.com/v2/2020/1/2&#34;</span>
+    <span style="color:#8f5902;font-style:italic"># this one will be testing the date functionality</span>
+    <span style="color:#000">d2</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">tb</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">ref</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;testdate1&#34;</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#204a87;font-weight:bold">assert</span> <span style="color:#000">f</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">d2</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#4e9a06">&#34;https://api.example.com/v2/2020/1/1&#34;</span>
+    <span style="color:#8f5902;font-style:italic"># this one will inject similar code as above, then use it</span>
+    <span style="color:#000">tb</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">inject</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;d3 = datetime.date(2020, 2, 3)&#34;</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#000">d3</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">tb</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">ref</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;d3&#34;</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#204a87;font-weight:bold">assert</span> <span style="color:#000">f</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">d3</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">==</span> <span style="color:#4e9a06">&#34;https://api.example.com/v2/2020/2/3&#34;</span>
+</code></pre></div><br>
+<h2 id="read-more">Read More</h2>
 <ul>
 <li><a href="https://towardsdatascience.com/habits-for-managing-complexity-in-data-science-codebases-5a16314c3737">Better habits for managing complexity in data science codebases</a></li>
 <li><a href="https://docs.pytest.org/en/latest/">pytest</a></li>
