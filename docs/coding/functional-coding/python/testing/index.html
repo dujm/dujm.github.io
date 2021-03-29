@@ -122,7 +122,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.dc70f9408641506ca90cfb6c44a407b4485b7501f4984d809ebdf357d42c7abc3ec36e2b0c4791dae2dbd1baae62301a8ad900e1525dd9d2cb13da366a088f86.json"
+  data-offline-search-index-json-src="/offline-search-index.c171b72eebc6fd9e0f4f8517752271e31ac0c83b8ad8336c6db85be1fa1a54a7d83abc5bb0c7f921c8e3b43f678a3b810721a2e0998802927b41e764db51113d.json"
   data-offline-search-base-href="/"
 >
 
@@ -152,7 +152,7 @@
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.dc70f9408641506ca90cfb6c44a407b4485b7501f4984d809ebdf357d42c7abc3ec36e2b0c4791dae2dbd1baae62301a8ad900e1525dd9d2cb13da366a088f86.json"
+  data-offline-search-index-json-src="/offline-search-index.c171b72eebc6fd9e0f4f8517752271e31ac0c83b8ad8336c6db85be1fa1a54a7d83abc5bb0c7f921c8e3b43f678a3b810721a2e0998802927b41e764db51113d.json"
   data-offline-search-base-href="/"
 >
 
@@ -3116,7 +3116,6 @@
 
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#unit-test">unit test</a></li>
     <li><a href="#pytest">pytest</a></li>
     <li><a href="#mock">Mock</a></li>
     <li><a href="#hypothesis">Hypothesis</a></li>
@@ -3190,26 +3189,8 @@
 	<h1>Testing</h1>
 	
 	<br>
-<h2 id="unit-test">unit test</h2>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">unittest</span>
-
-<span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">TestStringMethods</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">unittest</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">TestCase</span><span style="color:#000;font-weight:bold">):</span>
-    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">test_upper</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">):</span>
-        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">assertEqual</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;foo&#39;</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">upper</span><span style="color:#000;font-weight:bold">(),</span> <span style="color:#4e9a06">&#39;FOO&#39;</span><span style="color:#000;font-weight:bold">)</span>
-
-    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">test_isupper</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">):</span>
-        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">assertTrue</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;FOO&#39;</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">isupper</span><span style="color:#000;font-weight:bold">())</span>
-        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">assertFalse</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;Foo&#39;</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">isupper</span><span style="color:#000;font-weight:bold">())</span>
-
-    <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">test_split</span><span style="color:#000;font-weight:bold">(</span><span style="color:#3465a4">self</span><span style="color:#000;font-weight:bold">):</span>
-        <span style="color:#000">s</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#39;hello world&#39;</span>
-        <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">assertEqual</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">s</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">split</span><span style="color:#000;font-weight:bold">(),</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#39;hello&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;world&#39;</span><span style="color:#000;font-weight:bold">])</span>
-        <span style="color:#8f5902;font-style:italic"># s.split should throw when the separator is not a string</span>
-        <span style="color:#204a87;font-weight:bold">with</span> <span style="color:#3465a4">self</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">assertRaises</span><span style="color:#000;font-weight:bold">(</span><span style="color:#c00;font-weight:bold">TypeError</span><span style="color:#000;font-weight:bold">):</span>
-            <span style="color:#000">s</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">split</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)</span>
-
-<span style="color:#000">unittest</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">main</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87">exit</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#3465a4">False</span><span style="color:#000;font-weight:bold">)</span>
-</code></pre></div><h2 id="pytest">pytest</h2>
+<h1 id="overview">Overview</h1>
+<h2 id="pytest">pytest</h2>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">pytest</span>
 
 <span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">test_upper</span><span style="color:#000;font-weight:bold">():</span>
