@@ -657,6 +657,7 @@ RDKit WARNING: [23:35:43] WARNING: not removing hydrogen atom without neighbors
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://satijalab.org/seurat/index.html&#34;&gt;Seurat&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/KirstLab/asc_seurat&#34;&gt;Asc-Seurat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/stemangiola/tidyseurat&#34;&gt;tidyseurat&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/theislab/scarches&#34;&gt;scArches&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
