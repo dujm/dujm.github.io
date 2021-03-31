@@ -67,6 +67,12 @@
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Levenshtein&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;develop-a-simple-question-answering-qa-systems-that-use-text-similarity-detection-in-python&#34;&gt;Develop a simple Question Answering (QA) Systems that use text similarity detection in Python&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kdnuggets.com/2020/04/simple-question-answering-systems-text-similarity-python.html&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.kdnuggets.com/wp-content/uploads/qa-system-similarity-1.png&#34; alt=&#34;QA system with approximate match function&#34;&gt; &lt;br&gt;
+&lt;a href=&#34;https://www.kdnuggets.com/wp-content/uploads/qa-system-similarity-1.png&#34;&gt;QA system with approximate match function&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
