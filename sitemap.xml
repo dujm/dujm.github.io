@@ -203,11 +203,6 @@
   </url>
   
   <url>
-    <loc>/docs/data/dataset/</loc>
-    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/coding/functional-coding/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
@@ -723,6 +718,11 @@
   </url>
   
   <url>
+    <loc>/docs/data/dataset/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/math/render-math/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
@@ -740,6 +740,11 @@
   <url>
     <loc>/docs/computer_science/iot/rpi-lcd-display/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/swiss-knives/jupyter-lab/</loc>
+    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -825,11 +830,6 @@
   <url>
     <loc>/docs/swiss-knives/converter-jupyter/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/swiss-knives/jupyter-lab/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1292,17 +1292,17 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2021/04/01/another-fools-day/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url>
   

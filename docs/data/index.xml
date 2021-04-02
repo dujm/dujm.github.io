@@ -15,19 +15,6 @@
     
     
     <item>
-      <title>Docs: Data Set</title>
-      <link>/docs/data/dataset/</link>
-      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/data/dataset/</guid>
-      <description>
-        
-        
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: Data Cleaning</title>
       <link>/docs/data/clean/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
@@ -70,6 +57,19 @@
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/data/visual-art/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Data Set</title>
+      <link>/docs/data/dataset/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/dataset/</guid>
       <description>
         
         
