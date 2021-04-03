@@ -1807,7 +1807,7 @@ mkdir output
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;I tested both packages. The extraction works but the results are always good, especially when the pdf tables are not properly formatted.&lt;/li&gt;
+&lt;li&gt;The extraction works but the results are not always good, especially when the pdf tables are not properly formatted.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
