@@ -17,13 +17,14 @@
     <item>
       <title>Docs: Command Line</title>
       <link>/docs/coding/functional-coding/python/command-line/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>/docs/coding/functional-coding/python/command-line/</guid>
       <description>
         
         
         &lt;br&gt;
+&lt;h2 id=&#34;run-command-line&#34;&gt;Run Command Line&lt;/h2&gt;
 &lt;h3 id=&#34;packages&#34;&gt;Packages&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://click.palletsprojects.com/en/7.x/&#34;&gt;click&lt;/a&gt;&lt;/li&gt;
@@ -37,6 +38,76 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://levelup.gitconnected.com/the-easy-guide-to-python-command-line-arguments-96b4607baea1&#34;&gt;The Easy Guide to Python Command Line Arguments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+ &lt;br&gt;
+&lt;h2 id=&#34;execute-local-command-elsewhere&#34;&gt;Execute Local Command Elsewhere&lt;/h2&gt;
+&lt;h3 id=&#34;outrun&#34;&gt;Outrun&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Overv/outrun&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;description&#34;&gt;Description&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;No need to first install the command on the other machine.&lt;/li&gt;
+&lt;li&gt;Reference local files and paths like you would normally.&lt;/li&gt;
+&lt;li&gt;Works across wildly different Linux distributions, like Ubuntu and Alpine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;installation&#34;&gt;Installation&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;pip3 install outrun&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You must have &lt;code&gt;root access to the other machine&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;either by being able to directly SSH into it as root&lt;/li&gt;
+&lt;li&gt;or by having sudo access.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This is necessary because outrun uses chroot.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Since the &lt;code&gt;remote machine will have full access to your local file&lt;/code&gt; system as your current user, &lt;strong&gt;make sure to only use machines that you trust!!&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;usage&#34;&gt;Usage&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If you would normally run:
+&lt;code&gt;ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then you can let outrun execute that same command using the processing power of user@host like this:
+&lt;code&gt;outrun user@host ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FFMPEG does not need to be installed on the other machine and input.mp4/output.mp4 will be read from and written to your local hard drive as you would expect.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Because the &lt;strong&gt;executable is dynamically linked&lt;/strong&gt; and it tries to load its library dependencies from the file system, which don’t exist on the other machine. You can use &lt;code&gt;ldd&lt;/code&gt; to see which shared libraries an ELF executable like this depends on:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ ldd &lt;span style=&#34;color:#4e9a06&#34;&gt;`&lt;/span&gt;which ffmpeg&lt;span style=&#34;color:#4e9a06&#34;&gt;`&lt;/span&gt;
+    linux-vdso.so.1 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;0x00007fffb7796000&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+    libavdevice.so.58 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;gt; /usr/lib/libavdevice.so.58 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;0x00007f2407f2a000&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+    libavfilter.so.7 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;gt; /usr/lib/libavfilter.so.7 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;0x00007f2407be0000&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+    libavformat.so.58 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;gt; /usr/lib/libavformat.so.58 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;0x00007f2407977000&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+    libavcodec.so.58 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;gt; /usr/lib/libavcodec.so.58 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;0x00007f2406434000&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+    libpostproc.so.55 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;gt; /usr/lib/libpostproc.so.55 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;0x00007f2406414000&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+    libswresample.so.3 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;gt; /usr/lib/libswresample.so.3 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;0x00007f24063f4000&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+    ...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;The first time you run a new command, it may take some time to start because its dependencies must first be copied to the other machine. This may happen even if another machine has already run FFMPEG on it before, because it likely has a slightly different version. The time this takes is highly dependent on your bandwidth and latency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;configuration&#34;&gt;Configuration&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;See the output of outrun &amp;ndash;help for an overview of available options to customize behaviour.&lt;/li&gt;
+&lt;li&gt;The persistent cache on each remote machine can be configured by creating a &lt;code&gt;~/.outrun/config&lt;/code&gt; file like this:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cache&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;path&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;~/.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;outrun&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cache&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;max_entries&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1024&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;max_size&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;21474836480&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# bytes -&amp;gt; 20 GB&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/Overv/outrun/master/outrun.gif&#34; alt=&#34;Outrun&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/Overv/outrun/master/outrun.gif&#34;&gt;GIF Source&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
