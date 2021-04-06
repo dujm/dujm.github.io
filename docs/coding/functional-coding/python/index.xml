@@ -216,6 +216,10 @@
         
         
         &lt;br&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sometimes the elegant implementation is a function. Not a method. Not a class. Not a framework. Just a function. — &lt;a href=&#34;https://en.wikipedia.org/wiki/John_Carmack&#34;&gt;John Carmack&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
 &lt;h2 id=&#34;functional-programming&#34;&gt;Functional Programming&lt;/h2&gt;
 &lt;h3 id=&#34;why&#34;&gt;Why&lt;/h3&gt;
 &lt;ul&gt;
@@ -939,6 +943,20 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
                 &lt;span style=&#34;color:#000&#34;&gt;ha&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;center&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; 
     &lt;span style=&#34;color:#000&#34;&gt;plt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;show&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Refactor</title>
+      <link>/docs/coding/functional-coding/python/refactor/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/python/refactor/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
       </description>
     </item>
     

@@ -1,0 +1,190 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Refactor</title>
+    <link>/docs/coding/functional-coding/python/refactor/</link>
+    <description>Recent content in Refactor on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/coding/functional-coding/python/refactor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Simplicity</title>
+      <link>/docs/coding/functional-coding/python/refactor/simplicity/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/python/refactor/simplicity/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Readability counts”
+— Tim Peters, Zen of Python&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;metrics-for-measuring-complexity&#34;&gt;Metrics for Measuring Complexity&lt;/h1&gt;
+&lt;h2 id=&#34;lines-of-code&#34;&gt;Lines of Code&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;LOC, or Lines of Code, is the crudest measure of complexity.&lt;/li&gt;
+&lt;li&gt;How to check?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# using the wc command &lt;/span&gt;
+$ wc -l file.py
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# add the combined lines in a folder by recursively searching for all .py files&lt;/span&gt;
+$ find . -name &lt;span style=&#34;color:#4e9a06&#34;&gt;\*&lt;/span&gt;.py &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; xargs wc -l
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# For Windows, PowerShell offers a word count command in Measure-Object and a recursive file search in Get-ChildItem&lt;/span&gt;
+$ Get-ChildItem -Path *.py -Recurse &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; Measure-Object –Line 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h2 id=&#34;cyclomatic-complexity&#34;&gt;Cyclomatic Complexity&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cyclomatic complexity is the measure of how many independent code paths there are through your application.&lt;/li&gt;
+&lt;li&gt;The Cyclomatic Complexity measure was developed by Thomas J. McCabe, Sr in 1976. You may see it referred to as the &lt;strong&gt;McCabe metric&lt;/strong&gt; or &lt;a href=&#34;https://en.wikipedia.org/wiki/Cyclomatic_complexity&#34;&gt;McCabe number&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Example with cyclomatic complexity of 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# cyclomatic_example.py&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;():&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;len&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;argv&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 1&lt;/span&gt;
+        &lt;span style=&#34;color:#000&#34;&gt;filepath&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;argv&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;else&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Provide a file path&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87&#34;&gt;exit&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;filepath&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 2&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;open&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;filepath&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;fp&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 3&lt;/span&gt;
+            &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;line&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;fp&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;readlines&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;():&lt;/span&gt;  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 4&lt;/span&gt;
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;line&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 5&lt;/span&gt;
+                    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;line&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;end&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;__name__&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;__main__&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Ignored.&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;radon-package&#34;&gt;Radon Package&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation &lt;code&gt;pip install radon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The radon command takes 2 main arguments:
+&lt;ul&gt;
+&lt;li&gt;The type of analysis (cc for cyclomatic complexity)&lt;/li&gt;
+&lt;li&gt;A path to the file or folder to analyze&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;evalute-cyclomatic-complexity&#34;&gt;Evalute Cyclomatic Complexity&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt; * The output is a little cryptic. Here is what each part means:
+ * F means function, M means method, and C means class.
+ * main is the name of the function.
+ * 4 is the line the function starts on.
+ * B is the rating from A to F. A is the best grade, meaning the least complexity.
+ * The number in parentheses, 6, is the cyclomatic complexity of the code.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ radon cc cyclomatic_example.py -s
+cyclomatic_example.py
+    F 4:0 main - B &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;6&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;halstead-metric&#34;&gt;Halstead Metric&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Halstead complexity metrics relate to the size of a program’s codebase. They were developed by Maurice H. Halstead in 1977.&lt;/li&gt;
+&lt;li&gt;There are 4 measures in the Halstead equations:
+&lt;ul&gt;
+&lt;li&gt;Operands are values and names of variables.&lt;/li&gt;
+&lt;li&gt;Operators are all of the built-in keywords, like if, else, for or while.&lt;/li&gt;
+&lt;li&gt;Length (N) is the number of operators plus the number of operands in your program.&lt;/li&gt;
+&lt;li&gt;Vocabulary (h) is the number of unique operators plus the number of unique operands in your a program.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;There are then 3 additional metrics with those measures:
+&lt;ul&gt;
+&lt;li&gt;Volume (V) represents a product of the length and the vocabulary.&lt;/li&gt;
+&lt;li&gt;Difficulty (D) represents a product of half the unique operands and the reuse of operands.&lt;/li&gt;
+&lt;li&gt;Effort (E) is the overall metric that is a product of volume and difficulty.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;All of this is very abstract, so let’s put it in relative terms:
+&lt;ul&gt;
+&lt;li&gt;The effort of your application is highest if you use a lot of operators and unique operands.&lt;/li&gt;
+&lt;li&gt;The effort of your application is lower if you use a few operators and fewer variables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Example using radon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;radon&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;hal&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cyclomatic_example&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;py&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cyclomatic_example&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;py&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;h2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;6&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;N1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;N2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;6&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;vocabulary&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;9&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;9&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;calculated_length&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;20.264662506490406&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;volume&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;28.529325012980813&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;difficulty&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1.5&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;effort&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;42.793987519471216&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;time&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2.377443751081734&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;bugs&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0.009509775004326938&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Why does radon give a metric for time and bugs?
+&lt;ul&gt;
+&lt;li&gt;Halstead theorized that you could estimate the time taken in seconds to code by dividing the effort (E) by 18.&lt;/li&gt;
+&lt;li&gt;Halstead also stated that the expected number of bugs could be estimated dividing the volume (V) by 3000.&lt;/li&gt;
+&lt;li&gt;Keep in mind this was written in 1977, before Python was even invented!&lt;/li&gt;
+&lt;li&gt;So don’t panic and start looking for bugs just yet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;maintainability-index&#34;&gt;Maintainability Index&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It calculates a scale that includes the number of
+&lt;ul&gt;
+&lt;li&gt;variables&lt;/li&gt;
+&lt;li&gt;operations&lt;/li&gt;
+&lt;li&gt;decision paths&lt;/li&gt;
+&lt;li&gt;lines of code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Equation
+&lt;ul&gt;
+&lt;li&gt;V is the Halstead volume metric&lt;/li&gt;
+&lt;li&gt;C is the cyclomatic complexity&lt;/li&gt;
+&lt;li&gt;L is the number of lines of code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://files.realpython.com/media/latex_d85438b40ae200b03ca93fef1cdd375a.0b70e9ab2442.png&#34; alt=&#34;Image&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://files.realpython.com/media/latex_d85438b40ae200b03ca93fef1cdd375a.0b70e9ab2442.png&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;On the maintainability index scale, all you need to be paying attention to is when your code is getting significantly lower (toward 0).
+&lt;ul&gt;
+&lt;li&gt;The scale considers anything lower than 25 as hard to maintain&lt;/li&gt;
+&lt;li&gt;and anything over 75 as easy to maintain.&lt;/li&gt;
+&lt;li&gt;The Maintainability Index is also referred to as MI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Example&lt;/li&gt;
+&lt;li&gt;A is the grade that radon has applied to the number 87.42 on a scale.&lt;/li&gt;
+&lt;li&gt;On this scale, A is most maintainable and F the least.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ radon mi cyclomatic_example.py -s
+cyclomatic_example.py - A &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;87.42&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://realpython.com/python-refactoring/&#34;&gt;Refactoring Python Applications for Simplicity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.python.org/dev/peps/pep-0008/&#34;&gt;PEP8 - Style Guide for Python Code&lt;/a&gt; : Style Guide for Python Code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://realpython.com/python-pep8/&#34;&gt;How to Write Beautiful Python Code With PEP 8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Elements-Software-Science-Operating-programming/dp/0444002057&#34;&gt;Elements of software science (Operating and programming systems series) by Maurice H. Halstead&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
