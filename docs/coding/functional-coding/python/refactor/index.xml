@@ -15,11 +15,11 @@
     
     
     <item>
-      <title>Docs: Simplicity</title>
-      <link>/docs/coding/functional-coding/python/refactor/simplicity/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      <title>Docs: Complexity</title>
+      <link>/docs/coding/functional-coding/python/refactor/complexity/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/python/refactor/simplicity/</guid>
+      <guid>/docs/coding/functional-coding/python/refactor/complexity/</guid>
       <description>
         
         
@@ -28,7 +28,9 @@
 &lt;p&gt;“Readability counts”
 — Tim Peters, Zen of Python&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;metrics-for-measuring-complexity&#34;&gt;Metrics for Measuring Complexity&lt;/h1&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h1 id=&#34;complexity-metrics&#34;&gt;Complexity Metrics&lt;/h1&gt;
 &lt;h2 id=&#34;lines-of-code&#34;&gt;Lines of Code&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;LOC, or Lines of Code, is the crudest measure of complexity.&lt;/li&gt;
@@ -70,26 +72,31 @@ $ Get-ChildItem -Path *.py -Recurse &lt;span style=&#34;color:#000;font-weight:b
 &lt;h3 id=&#34;radon-package&#34;&gt;Radon Package&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Installation &lt;code&gt;pip install radon&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;use-radon-to-evaluate-cyclomatic-complexity&#34;&gt;Use Radon to Evaluate Cyclomatic Complexity&lt;/h3&gt;
+&lt;ul&gt;
 &lt;li&gt;The radon command takes 2 main arguments:
 &lt;ul&gt;
 &lt;li&gt;The type of analysis (cc for cyclomatic complexity)&lt;/li&gt;
 &lt;li&gt;A path to the file or folder to analyze&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;The output is a little cryptic. Here is what each part means:
+&lt;ul&gt;
+&lt;li&gt;F means function, M means method, and C means class.&lt;/li&gt;
+&lt;li&gt;main is the name of the function.&lt;/li&gt;
+&lt;li&gt;4 is the line the function starts on.&lt;/li&gt;
+&lt;li&gt;B is the rating from A to F. A is the best grade, meaning the least complexity.&lt;/li&gt;
+&lt;li&gt;The number in parentheses, 6, is the cyclomatic complexity of the code.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;evalute-cyclomatic-complexity&#34;&gt;Evalute Cyclomatic Complexity&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt; * The output is a little cryptic. Here is what each part means:
- * F means function, M means method, and C means class.
- * main is the name of the function.
- * 4 is the line the function starts on.
- * B is the rating from A to F. A is the best grade, meaning the least complexity.
- * The number in parentheses, 6, is the cyclomatic complexity of the code.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ radon cc cyclomatic_example.py -s
 cyclomatic_example.py
     F 4:0 main - B &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;6&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;halstead-metric&#34;&gt;Halstead Metric&lt;/h3&gt;
+&lt;h2 id=&#34;halstead-metric&#34;&gt;Halstead Metric&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;The Halstead complexity metrics relate to the size of a program’s codebase. They were developed by Maurice H. Halstead in 1977.&lt;/li&gt;
 &lt;li&gt;There are 4 measures in the Halstead equations:
@@ -140,7 +147,7 @@ cyclomatic_example.py
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h3 id=&#34;maintainability-index&#34;&gt;Maintainability Index&lt;/h3&gt;
+&lt;h2 id=&#34;maintainability-index&#34;&gt;Maintainability Index&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;It calculates a scale that includes the number of
 &lt;ul&gt;
@@ -175,6 +182,280 @@ cyclomatic_example.py
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ radon mi cyclomatic_example.py -s
 cyclomatic_example.py - A &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;87.42&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h1 id=&#34;tools&#34;&gt;Tools&lt;/h1&gt;
+&lt;h2 id=&#34;use-wily-to-track-project-complexity&#34;&gt;Use Wily to Track Project Complexity&lt;/h2&gt;
+&lt;h3 id=&#34;who-is-wily&#34;&gt;Who is Wily?&lt;/h3&gt;
+&lt;p&gt;Wily is a command-line application for tracking, reporting on complexity of Python tests and applications.
+Will is&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;quick to think of things 💡&lt;/li&gt;
+&lt;li&gt;having a very good understanding of situations and possibilities 😎&lt;/li&gt;
+&lt;li&gt;often willing to use tricks to achieve an aim 😬&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://warehouse-camo.ingress.cmh1.psfhosted.org/10a7acf69080945a5901a4fe6d6a0b29868c423d/68747470733a2f2f6769746875622e636f6d2f746f6e7962616c6f6e65792f77696c792f7261772f6d61737465722f646f63732f736f757263652f5f7374617469632f6c6f676f2e706e67&#34; alt=&#34;&#34;&gt; &lt;a href=&#34;https://warehouse-camo.ingress.cmh1.psfhosted.org/10a7acf69080945a5901a4fe6d6a0b29868c423d/68747470733a2f2f6769746875622e636f6d2f746f6e7962616c6f6e65792f77696c792f7261772f6d61737465722f646f63732f736f757263652f5f7374617469632f6c6f676f2e706e67&#34;&gt;Image from Wily&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;pip install wily&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;By default, wily will assume your project folder is a git directory.&lt;/li&gt;
+&lt;li&gt;Wily will not build a cache if the working copy is dirty (has changed files not committed).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;use-wily-to-capture-projects-complexity&#34;&gt;Use Wily to Capture Project&amp;rsquo;s Complexity&lt;/h3&gt;
+&lt;p&gt;The purpose of wily is to give you the ability to see trends and changes in the complexity of your code over time. If you were trying to fine-tune a car or improve your fitness, you’d start off with measuring a baseline and tracking improvements over time.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://warehouse-camo.ingress.cmh1.psfhosted.org/0b34509596d1bfa44ad94c07749fb947e6a4009e/68747470733a2f2f6769746875622e636f6d2f746f6e7962616c6f6e65792f77696c792f7261772f6d61737465722f646f63732f736f757263652f5f7374617469632f77696c795f68656c702e706e67&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://warehouse-camo.ingress.cmh1.psfhosted.org/0b34509596d1bfa44ad94c07749fb947e6a4009e/68747470733a2f2f6769746875622e636f6d2f746f6e7962616c6f6e65792f77696c792f7261772f6d61737465722f646f63732f736f757263652f5f7374617469632f77696c795f68656c702e706e67&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;wily-build&#34;&gt;&lt;code&gt;wily build&lt;/code&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Iterate through the Git history and analyze the metrics for each file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://files.realpython.com/media/capture1.b776bd67d0b9.gif&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://files.realpython.com/media/capture1.b776bd67d0b9.gif&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;wily-report&#34;&gt;&lt;code&gt;wily report&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;After analyzing source code, see the historical trend in metrics for a given file or folder&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Show a specific metric for a given file, requires that &lt;code&gt;.wily/&lt;/code&gt; exists&lt;/li&gt;
+&lt;li&gt;Print a tabular report on the default metrics for each Git commit in reverse date order. You will see the most recent commit at the top and the oldest at the bottom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://warehouse-camo.ingress.cmh1.psfhosted.org/c71ac7c983fc9499bc6aa227e794e014ab018b77/68747470733a2f2f6769746875622e636f6d2f746f6e7962616c6f6e65792f77696c792f7261772f6d61737465722f646f63732f736f757263652f5f7374617469632f77696c795f7265706f72742e706e67&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://warehouse-camo.ingress.cmh1.psfhosted.org/c71ac7c983fc9499bc6aa227e794e014ab018b77/68747470733a2f2f6769746875622e636f6d2f746f6e7962616c6f6e65792f77696c792f7261772f6d61737465722f646f63732f736f757263652f5f7374617469632f77696c795f7265706f72742e706e67&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;wily-rank&#34;&gt;&lt;code&gt;wily rank&lt;/code&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Show the ranking for all files in a directory or a single file based on the metric provided, requires that &lt;code&gt;.wily/&lt;/code&gt; exists&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;wily rank&lt;/code&gt; will print a table of files and their metric values.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;wily-graph&#34;&gt;&lt;code&gt;wily graph&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;Graph a set of metrics in an HTML file&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://warehouse-camo.ingress.cmh1.psfhosted.org/05bc018333a0a34e5ccea143e81f9aec0c6a3ba1/68747470733a2f2f6769746875622e636f6d2f746f6e7962616c6f6e65792f77696c792f7261772f6d61737465722f646f63732f736f757263652f5f7374617469632f73696e676c655f6d65747269635f67726170682e706e67&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://warehouse-camo.ingress.cmh1.psfhosted.org/05bc018333a0a34e5ccea143e81f9aec0c6a3ba1/68747470733a2f2f6769746875622e636f6d2f746f6e7962616c6f6e65792f77696c792f7261772f6d61737465722f646f63732f736f757263652f5f7374617469632f73696e676c655f6d65747269635f67726170682e706e67&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;use-wily-as-a-pre-commit-hook&#34;&gt;Use Wily as a pre-commit Hook&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;To measure the improvements you make when you start to refactor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;install-pre-commit&#34;&gt;Install pre-commit&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;pip install pre-commit&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;usage&#34;&gt;Usage&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add the following to a &lt;code&gt;.pre-commit-config.yaml&lt;/code&gt; in your projects root directory:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;repos&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;&lt;/span&gt;- &lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;repo&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;local&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;hooks&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;    &lt;/span&gt;- &lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;wily&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;        &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;wily&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;        &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;entry&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;wily diff&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;        &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;verbose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;        &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;language&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;python&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;        &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;additional_dependencies&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;wily]&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Then, run &lt;code&gt;pre-commit install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Whenever you run the &lt;code&gt;git commit&lt;/code&gt; command, it will call &lt;code&gt;wily diff&lt;/code&gt; along with the list of files you’ve added to your staged changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;ipythonjupyter-notebooks&#34;&gt;IPython/Jupyter Notebooks&lt;/h3&gt;
+&lt;p&gt;Wily will detect and scan all Python code in .ipynb files automatically.&lt;/p&gt;
+&lt;p&gt;You can disable this behaviour if you require by setting ipynb_support = false in the configuration. You can also disable the behaviour of reporting on individual cells by setting ipynb_cells = false.&lt;/p&gt;
+&lt;br&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;use-rope-for-refactoring&#34;&gt;Use Rope for Refactoring&lt;/h2&gt;
+&lt;h3 id=&#34;installation-1&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;pip install rope&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/python-rope/rope/blob/master/docs/overview.rst#refactorings&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;usage-1&#34;&gt;Usage&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;#  Import the Project type &lt;/span&gt;
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rope.base.project&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Project&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Instantiate it with the path to the project&lt;/span&gt;
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;proj&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Project&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;dirPath&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Get the file api.py and assign it to a variable called api&lt;/span&gt;
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;f&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;proj&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_files&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()]&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;structures.py&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;status_codes.py&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;...&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;api.py&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;cookies.py&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Assign it to a variable called api&lt;/span&gt;
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;api&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;proj&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_file&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;api.py&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;refactor-after-renaming&#34;&gt;Refactor After Renaming&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If you wanted to rename this file, you could simply rename it on the filesystem.&lt;/li&gt;
+&lt;li&gt;However, any other Python files in your project that imported the old name would now be broken. Let’s rename the api.py to new_api.py&lt;/li&gt;
+&lt;li&gt;Therefore, you could use &lt;code&gt;Rename&lt;/code&gt; in rope&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rope.refactor.rename&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Rename&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;change&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Rename&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;proj&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;api&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_changes&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;new_api&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;proj&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;do&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;change&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Run &lt;code&gt;git status&lt;/code&gt; to check changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ git status
+On branch master
+Your branch is up to date with &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;origin/master&amp;#39;&lt;/span&gt;.
+
+Changes not staged &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; commit:
+  &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;use &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;git add/rm &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to update what will be committed&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+  &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;use &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;git checkout -- &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to discard changes in working directory&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+    modified:   dirPath/__init__.py
+    deleted:    dirPath/api.py
+
+Untracked files:
+  &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;use &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to include in what will be committed&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+   dirPath/.ropeproject/
+   dirPath/new_api.py
+
+no changes added to commit &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;use &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;git add&amp;#34;&lt;/span&gt; and/or &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;git commit -a&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;The three changes made by rope are the following:
+&lt;ul&gt;
+&lt;li&gt;Deleted &lt;code&gt;api.py &lt;/code&gt;and created &lt;code&gt;dirPath/new_api.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Modified &lt;code&gt;__init__.py &lt;/code&gt;to &lt;code&gt;import from new_api&lt;/code&gt; instead of &lt;code&gt;import api&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Created a project folder named &lt;code&gt;.ropeproject&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;refactor-in-vs-code&#34;&gt;Refactor in VS Code&lt;/h2&gt;
+&lt;h3 id=&#34;usage-2&#34;&gt;Usage&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract variables from a statement&lt;/li&gt;
+&lt;li&gt;Extract methods from a block of code&lt;/li&gt;
+&lt;li&gt;Sort imports into a logical order&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://files.realpython.com/media/vscode_extract_method.faccb51c62aa.gif&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://files.realpython.com/media/vscode_extract_method.faccb51c62aa.gif&#34;&gt;Using the Extract methods command from the command palette&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+&lt;h2 id=&#34;complexity-anti-patterns&#34;&gt;Complexity Anti-Patterns&lt;/h2&gt;
+&lt;h3 id=&#34;1-functions-that-should-be-objects&#34;&gt;1. Functions That Should Be Objects&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Similar arguments across functions&lt;/li&gt;
+&lt;li&gt;Higher number of Halstead h2 unique operands&lt;/li&gt;
+&lt;li&gt;Mix of mutable and immutable functions&lt;/li&gt;
+&lt;li&gt;Functions spread across multiple Python files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-objects-that-should-be-functions&#34;&gt;2. Objects That Should Be Functions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Classes with 1 method (other than .&lt;strong&gt;init&lt;/strong&gt;())&lt;/li&gt;
+&lt;li&gt;Classes that contain only static methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;use-pylint&#34;&gt;Use pylint&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation &lt;code&gt;pip install pylint&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;too-few-public-methods&lt;/code&gt; rule id &lt;code&gt;R0903&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ pylint --disable&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;all --enable&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;R0903 dirPath
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-converting-triangular-code-to-flat-code&#34;&gt;3. Converting “Triangular” Code to Flat Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If you were to zoom out on your source code and &lt;strong&gt;tilt your head 90 degrees&lt;/strong&gt; to the right, does the whitespace look flat like Holland or mountainous like the Himalayas?&lt;/li&gt;
+&lt;li&gt;Mountainous code is a sign that your code contains a lot of nesting. 🗻&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;solution&#34;&gt;Solution&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Return early&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;contains_errors&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;not&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;isinstance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;list&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#3465a4&#34;&gt;False&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;count&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;error&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Leverage list comprehensions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-handling-complex-dictionaries-with-query-tools&#34;&gt;4. Handling Complex Dictionaries With Query Tools&lt;/h3&gt;
+&lt;h4 id=&#34;use-jmespath&#34;&gt;Use Jmespath&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;JMESPath is a querying language designed for JSON, with a plugin available for Python that works with Python dictionaries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;installation-2&#34;&gt;Installation&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;pip install jmespath&lt;/code&gt;&lt;/p&gt;
+&lt;h5 id=&#34;example&#34;&gt;Example&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# data&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+ &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;network&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;lines&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+     &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name.en&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Ginza&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+     &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name.jp&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;銀座線&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+     &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;color&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;orange&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+     &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;number&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+     &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;sign&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;G&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;},&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+     &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name.en&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Marunouchi&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+     &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name.jp&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;丸ノ内線&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+     &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;color&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+     &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;number&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+     &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;sign&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;M&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+  &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+ &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# use jmespath&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;jmespath&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;jmespath&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;search&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;network.lines&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;5-using-attrs-and-dataclasses-to-reduce-code&#34;&gt;5. Using &lt;code&gt;attrs&lt;/code&gt; and &lt;code&gt;dataclasses &lt;/code&gt;to Reduce Code&lt;/h3&gt;
+&lt;h4 id=&#34;what-is-boilerplate&#34;&gt;What Is Boilerplate?&lt;/h4&gt;
+&lt;p&gt;Boilerplate code is code that has to be used in many places with little or no alterations. 🐙&lt;/p&gt;
+&lt;h4 id=&#34;attrs&#34;&gt;attrs&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using &lt;strong&gt;Python 3.5 or below&lt;/strong&gt;, attrs is a great alternative to dataclasses. Also, it provides many more features.&lt;/li&gt;
+&lt;li&gt;The equivalent dataclasses example in attrs would look similar. Instead of using type annotations, the class attributes are assigned with a value from &lt;code&gt;attrib()&lt;/code&gt;. This can take additional arguments, such as default values and callbacks for validating input:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;attr&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;attrs&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;attrib&lt;/span&gt;
+
+&lt;span style=&#34;color:#5c35cc;font-weight:bold&#34;&gt;@attrs&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Line&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;object&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;name_en&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;attrib&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;name_jp&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;attrib&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;color&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;attrib&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;number&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;attrib&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;sign&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;attrib&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;take-home-message&#34;&gt;Take Home Message&lt;/h2&gt;
+&lt;p&gt;How to refactor?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start off by creating a baseline of your project using a tool like &lt;code&gt;wily&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Look at some of the metrics and s&lt;code&gt;tart with the module&lt;/code&gt; that has the &lt;code&gt;lowest maintainability index&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Refactor that module using the safety provided in tests and the knowledge of tools like &lt;code&gt;rope&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;dataclass&#34;&gt;Dataclass&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Dataclasses module can help remove a lot of boilerplate for these types of classes where you’re just storing data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;dataclasses&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;dataclass&lt;/span&gt;
+
+&lt;span style=&#34;color:#5c35cc;font-weight:bold&#34;&gt;@dataclass&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Line&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;object&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;name_en&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;str&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;name_jp&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;str&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;str&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;number&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;int&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;sign&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;str&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;You can then create an instance of the Line type with the same arguments as before, with the same fields, and even &lt;code&gt;.__str__()&lt;/code&gt;, &lt;code&gt;.__repr__()&lt;/code&gt;, and &lt;code&gt;.__eq__()&lt;/code&gt; are implemented:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;line&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Line&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Marunouchi&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;丸ノ内線&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;M&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;line&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;color&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;red&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;line2&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Line&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Marunouchi&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;丸ノ内線&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;M&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;line&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;line2&lt;/span&gt;
+&lt;span style=&#34;color:#3465a4&#34;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h1 id=&#34;heading-2&#34;&gt;&lt;/h1&gt;
 &lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://realpython.com/python-refactoring/&#34;&gt;Refactoring Python Applications for Simplicity&lt;/a&gt;&lt;/li&gt;
