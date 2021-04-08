@@ -21,29 +21,29 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>Build | DJ&#39;s Website</title><meta property="og:title" content="Build" />
-<meta property="og:description" content="How to convert genome build? UCSC liftOver Tools  Web standalone R pyliftover  Install pip3 install pyliftover    Example using pyliftover &gt;&gt;&gt;from pyliftover import LiftOver &gt;&gt;&gt;lo = LiftOver(&#39;hg18&#39;, &#39;hg19&#39;) &gt;&gt;&gt;lo.convert_coordinate(&#39;chr1&#39;, 1000000) [(&#39;chr1&#39;, 1010137, &#39;&#43;&#39;, 21270150726)] # convert a chain file from UCSC &gt;&gt;&gt;lo = LiftOver(&#39;hg17ToHg18.over.chain.gz&#39;) &gt;&gt;&gt;lo.convert_coordinate(&#39;chr1&#39;, 1000000, &#39;-&#39;) 
+<meta property="og:description" content="How to convert genome build? UCSC liftOver Tools  Web standalone R pyliftover  Install pip3 install pyliftover    Example using pyliftover &gt;&gt;&gt;from pyliftover import LiftOver &gt;&gt;&gt;lo = LiftOver(&#39;hg18&#39;, &#39;hg19&#39;) &gt;&gt;&gt;lo.convert_coordinate(&#39;chr1&#39;, 1000000) [(&#39;chr1&#39;, 1010137, &#39;&#43;&#39;, 21270150726)] 
  CrossMap  Documentation  Installation pip3 install CrossMap
-Input  BAM, CRAM, or SAM BAM, CRAM, or SAM BED or BED-like." />
+Input  BAM, CRAM, or SAM BAM, CRAM, or SAM BED or BED-like. (BED file must have at least ‘chrom’, ‘start’, ‘end’) Wiggle (“variableStep”, “fixedStep” and “bedGraph” formats are supported) BigWig GFF or GTF VCF GVCF MAF  Usage $CrossMap." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/healthcare/informatics/genome/build/" />
 <meta property="article:published_time" content="2021-04-08T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-04-08T00:00:00+00:00" />
 <meta itemprop="name" content="Build">
-<meta itemprop="description" content="How to convert genome build? UCSC liftOver Tools  Web standalone R pyliftover  Install pip3 install pyliftover    Example using pyliftover &gt;&gt;&gt;from pyliftover import LiftOver &gt;&gt;&gt;lo = LiftOver(&#39;hg18&#39;, &#39;hg19&#39;) &gt;&gt;&gt;lo.convert_coordinate(&#39;chr1&#39;, 1000000) [(&#39;chr1&#39;, 1010137, &#39;&#43;&#39;, 21270150726)] # convert a chain file from UCSC &gt;&gt;&gt;lo = LiftOver(&#39;hg17ToHg18.over.chain.gz&#39;) &gt;&gt;&gt;lo.convert_coordinate(&#39;chr1&#39;, 1000000, &#39;-&#39;) 
+<meta itemprop="description" content="How to convert genome build? UCSC liftOver Tools  Web standalone R pyliftover  Install pip3 install pyliftover    Example using pyliftover &gt;&gt;&gt;from pyliftover import LiftOver &gt;&gt;&gt;lo = LiftOver(&#39;hg18&#39;, &#39;hg19&#39;) &gt;&gt;&gt;lo.convert_coordinate(&#39;chr1&#39;, 1000000) [(&#39;chr1&#39;, 1010137, &#39;&#43;&#39;, 21270150726)] 
  CrossMap  Documentation  Installation pip3 install CrossMap
-Input  BAM, CRAM, or SAM BAM, CRAM, or SAM BED or BED-like.">
+Input  BAM, CRAM, or SAM BAM, CRAM, or SAM BED or BED-like. (BED file must have at least ‘chrom’, ‘start’, ‘end’) Wiggle (“variableStep”, “fixedStep” and “bedGraph” formats are supported) BigWig GFF or GTF VCF GVCF MAF  Usage $CrossMap.">
 <meta itemprop="datePublished" content="2021-04-08T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-04-08T00:00:00+00:00" />
-<meta itemprop="wordCount" content="777">
+<meta itemprop="wordCount" content="764">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Build"/>
-<meta name="twitter:description" content="How to convert genome build? UCSC liftOver Tools  Web standalone R pyliftover  Install pip3 install pyliftover    Example using pyliftover &gt;&gt;&gt;from pyliftover import LiftOver &gt;&gt;&gt;lo = LiftOver(&#39;hg18&#39;, &#39;hg19&#39;) &gt;&gt;&gt;lo.convert_coordinate(&#39;chr1&#39;, 1000000) [(&#39;chr1&#39;, 1010137, &#39;&#43;&#39;, 21270150726)] # convert a chain file from UCSC &gt;&gt;&gt;lo = LiftOver(&#39;hg17ToHg18.over.chain.gz&#39;) &gt;&gt;&gt;lo.convert_coordinate(&#39;chr1&#39;, 1000000, &#39;-&#39;) 
+<meta name="twitter:description" content="How to convert genome build? UCSC liftOver Tools  Web standalone R pyliftover  Install pip3 install pyliftover    Example using pyliftover &gt;&gt;&gt;from pyliftover import LiftOver &gt;&gt;&gt;lo = LiftOver(&#39;hg18&#39;, &#39;hg19&#39;) &gt;&gt;&gt;lo.convert_coordinate(&#39;chr1&#39;, 1000000) [(&#39;chr1&#39;, 1010137, &#39;&#43;&#39;, 21270150726)] 
  CrossMap  Documentation  Installation pip3 install CrossMap
-Input  BAM, CRAM, or SAM BAM, CRAM, or SAM BED or BED-like."/>
+Input  BAM, CRAM, or SAM BAM, CRAM, or SAM BED or BED-like. (BED file must have at least ‘chrom’, ‘start’, ‘end’) Wiggle (“variableStep”, “fixedStep” and “bedGraph” formats are supported) BigWig GFF or GTF VCF GVCF MAF  Usage $CrossMap."/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -135,7 +135,7 @@ Input  BAM, CRAM, or SAM BAM, CRAM, or SAM BED or BED-like."/>
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.d93e1f61a11141e22c2c8c2c1d69cf15e60b189c106a839a9db1ae5dbaf96a7411668e468135f3e2564a9f0c821553b1de0dfb01325b86eb2bdb66da8059f5c7.json"
+  data-offline-search-index-json-src="/offline-search-index.77b24c07a7e266caa93df97f06dbc9e941af4cfc7f36a5d663ea773014069725bf86a2af5d480651c55db59d4b8b77fa9f849d43ba39850d32ada2da6600f5e7.json"
   data-offline-search-base-href="/"
 >
 
@@ -165,7 +165,7 @@ Input  BAM, CRAM, or SAM BAM, CRAM, or SAM BED or BED-like."/>
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.d93e1f61a11141e22c2c8c2c1d69cf15e60b189c106a839a9db1ae5dbaf96a7411668e468135f3e2564a9f0c821553b1de0dfb01325b86eb2bdb66da8059f5c7.json"
+  data-offline-search-index-json-src="/offline-search-index.77b24c07a7e266caa93df97f06dbc9e941af4cfc7f36a5d663ea773014069725bf86a2af5d480651c55db59d4b8b77fa9f849d43ba39850d32ada2da6600f5e7.json"
   data-offline-search-base-href="/"
 >
 
@@ -3338,9 +3338,6 @@ Input  BAM, CRAM, or SAM BAM, CRAM, or SAM BED or BED-like."/>
 <span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span><span style="color:#000">lo</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">convert_coordinate</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;chr1&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">1000000</span><span style="color:#000;font-weight:bold">)</span>
 <span style="color:#000;font-weight:bold">[(</span><span style="color:#4e9a06">&#39;chr1&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">1010137</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;+&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">21270150726</span><span style="color:#000;font-weight:bold">)]</span>
 
-<span style="color:#8f5902;font-style:italic"># convert a chain file from UCSC</span>
-<span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span><span style="color:#000">lo</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">LiftOver</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;hg17ToHg18.over.chain.gz&#39;</span><span style="color:#000;font-weight:bold">)</span>
-<span style="color:#ce5c00;font-weight:bold">&gt;&gt;&gt;</span><span style="color:#000">lo</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">convert_coordinate</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;chr1&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">1000000</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;-&#39;</span><span style="color:#000;font-weight:bold">)</span>
 </code></pre></div><br>
 <h1 id="heading"></h1>
 <h2 id="crossmap">CrossMap</h2>
