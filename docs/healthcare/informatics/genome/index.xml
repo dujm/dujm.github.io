@@ -1,0 +1,237 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Genome</title>
+    <link>/docs/healthcare/informatics/genome/</link>
+    <description>Recent content in Genome on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 18 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/healthcare/informatics/genome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Build</title>
+      <link>/docs/healthcare/informatics/genome/build/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/healthcare/informatics/genome/build/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;br&gt;
+&lt;h1 id=&#34;how-to-convert-genome-build&#34;&gt;How to convert genome build?&lt;/h1&gt;
+&lt;h2 id=&#34;ucsc-liftover&#34;&gt;UCSC liftOver&lt;/h2&gt;
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://genome.ucsc.edu/cgi-bin/hgLiftOver&#34;&gt;Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://hgdownload.cse.ucsc.edu/admin/exe/&#34;&gt;standalone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bioconductor.org/packages/release/workflows/vignettes/liftOver/inst/doc/liftov.html&#34;&gt;R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/konstantint/pyliftover&#34;&gt;pyliftover&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Install &lt;code&gt;pip3 install pyliftover&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;example-using-pyliftover&#34;&gt;Example using pyliftover&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pyliftover&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;LiftOver&lt;/span&gt;
+
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;lo&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;LiftOver&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;hg18&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;hg19&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;lo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;convert_coordinate&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;chr1&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1000000&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;chr1&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1010137&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;+&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;21270150726&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)]&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# convert a chain file from UCSC&lt;/span&gt;
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;lo&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;LiftOver&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;hg17ToHg18.over.chain.gz&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;lo&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;convert_coordinate&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;chr1&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1000000&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;-&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;crossmap&#34;&gt;CrossMap&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://crossmap.sourceforge.net/#&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;pip3 install CrossMap&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;input&#34;&gt;Input&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;BAM, CRAM, or SAM&lt;/li&gt;
+&lt;li&gt;BAM, CRAM, or SAM&lt;/li&gt;
+&lt;li&gt;BED or BED-like. (BED file must have at least ‘chrom’, ‘start’, ‘end’)&lt;/li&gt;
+&lt;li&gt;Wiggle (“variableStep”, “fixedStep” and “bedGraph” formats are supported)&lt;/li&gt;
+&lt;li&gt;BigWig&lt;/li&gt;
+&lt;li&gt;GFF or GTF&lt;/li&gt;
+&lt;li&gt;VCF&lt;/li&gt;
+&lt;li&gt;GVCF&lt;/li&gt;
+&lt;li&gt;MAF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;$CrossMap&lt;/span&gt;.py
+
+Program: CrossMap &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;v0.5.2&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+Description:
+  CrossMap is a program to convert genome coordinates between different reference
+  assemblies&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;e.g. from human hg19 to hg38 or vice versa&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;. The supported file
+  formats include BAM, BED, BigWig, CRAM, GFF, GTF, GVCF, MAF &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;mutation annotation
+  format&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;, SAM, Wiggle, and VCF.
+
+Usage: CrossMap.py &amp;lt;command&amp;gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;options&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;
+
+        bam    convert BAM, CRAM or SAM format file.
+        bed    convert BED, bedGraph or other BED-like files.
+        bigwig convert BigWig file.
+        gff    convert GFF or GTF format file.
+        gvcf   convert GVCF file.
+        maf    convert MAF &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;mutation annotation format&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt; file.
+        region convert big genomic regions &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;in BED format&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt; such as CNV blocks.
+        vcf    convert VCF file.
+        wig    convert Wiggle or bedGraph format file.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;example&#34;&gt;Example&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# filter out variants [reference_allele == alternative_allele]&lt;/span&gt;
+$ CrossMap.py  vcf  GRCh37_to_GRCh38.chain.gz  test02_hg19.vcf  hg38.fa  out.hg38.vcf
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Keep variants [reference_allele == alternative_allele]. Turn on --no-comp-allele&lt;/span&gt;
+$ CrossMap.py  vcf  GRCh37_to_GRCh38.chain.gz  test02_hg19.vcf  hg38.fa  out.hg38.vcf --no-comp-allele
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;genome-build-conversion&#34;&gt;Genome Build Conversion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cathaloruaidh/genomeBuildConversion&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbab069/6210068&#34;&gt;Converting single nucleotide variants between genome builds: from cautionary tale to solution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A novel algorithm to identify &lt;strong&gt;positions that are unstable&lt;/strong&gt; when converting between human genome reference builds.&lt;/li&gt;
+&lt;li&gt;These positions are detected independent of the conversion tools and are determined by the chain files, which provide a mapping of contiguous positions from one build to another.&lt;/li&gt;
+&lt;li&gt;We also provide the list of unstable positions for converting between the two most commonly used builds GRCh37 and GRCh38.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pre-excluding SNVs at these positions&lt;/strong&gt;, prior to conversion, results in SNVs that are &lt;strong&gt;stable to conversion&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;This simple procedure gives the same final list of stable SNVs as applying the algorithm and subsequently removing variants at unstable positions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;usage-1&#34;&gt;Usage&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Download conversion-unstable positions (CUPs) BED files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# GRCh37 CUPs&lt;/span&gt;
+wget https://raw.githubusercontent.com/cathaloruaidh/genomeBuildConversion/master/CUP_FILES/FASTA_BED.ALL_GRCh37.novel_CUPs.bed
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# GRCh38 CUPs&lt;/span&gt;
+wget https://raw.githubusercontent.com/cathaloruaidh/genomeBuildConversion/master/CUP_FILES/FASTA_BED.ALL_GRCh38.novel_CUPs.bed
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Remove CUPs from INPUT.vcf before conversion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;vcftools --vcf INPUT.vcf --exclude-bed FASTA_BED.ALL_GRCh3N.novel_CUPs.bed --recode --recode-INFO-all --out INPUT.stable
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Convert using liftOver or CrossMap
+&lt;ul&gt;
+&lt;li&gt;Independently&lt;/li&gt;
+&lt;li&gt;or using &lt;a href=&#34;https://github.com/cathaloruaidh/genomeBuildConversion&#34;&gt;example scripts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;algorithm--for-fun&#34;&gt;Algorithm: 🏃‍♂️ for fun&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 1) Download &lt;/span&gt;
+git clone https://github.com/cathaloruaidh/genomeBuildConversion.git
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; genomeBuildConversion &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 2) Set DIR&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;MAIN_DIR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PWD&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;REF_DIR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MAIN_DIR&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/REFERENCE
+&lt;span style=&#34;color:#000&#34;&gt;SCRIPT_DIR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MAIN_DIR&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/SCRIPTS
+&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; REF_DIR
+&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; SCRIPT_DIR
+mkdir CHR COMBINE WGS_DATA &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+chmod +x &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SCRIPT_DIR&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/*sh
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 3) From GRCh37 to GRCh38&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;GRCh37
+&lt;span style=&#34;color:#000&#34;&gt;TARGET&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;GRCh38
+&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; SOURCE TARGET
+&lt;span style=&#34;color:#000&#34;&gt;REGIONS&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;REF_DIR&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/GRCh37.region.Standard.bed
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 4.1 ) Use CrossMap&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;CrossMap
+&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; TOOL
+&lt;span style=&#34;color:#000&#34;&gt;LOOP_BED&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SCRIPT_DIR&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/loop_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.FullGenome.BED.sh
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 5) Create Input BED&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; CHR 
+date &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+parallel --plus -j &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;12&lt;/span&gt; --colsep &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;\t&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SCRIPT_DIR&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/createInputBed.sh {1} {2} {3} &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; :::: &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;REGIONS&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 6) Apply Algorithm: parallelised using GNU parallel, with 12 CPUs&lt;/span&gt;
+parallel --plus -j12  &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;. &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LOOP_BED&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt; {} 1 2 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; ::: &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; ls -d *_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; sort -V &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 7) Sanity check &lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Check if there are entries in the files of unstable positions for the second iteration by counting the lines (regardless of the source/target builds). &lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# The first two commands should return zeroes for all files, and the third command should return nothing.&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; FILE in &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; find *_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; -iname &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;*&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_GRCh37_2.reject.extract.bed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; wc -l &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FILE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;done&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; FILE in &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; find *_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; -iname &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;*&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_GRCh38_2.reject.extract.bed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; wc -l &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FILE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;done&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; FILE in &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; find *_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; -iname &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;*${TOOL}*_2.jump*&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; wc -l &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FILE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;done&lt;/span&gt;
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 8) Combine sites&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MAIN_DIR&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/COMBINE &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; 
+
+cat &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; find ../CHR/*_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; -iname &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;FASTA_BED.chr*_&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TARGET&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_*.jump_CHR.bed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools sort -i - &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools merge -i - &amp;gt; FASTA_BED.&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.ALL_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.CHR_jump_1.bed
+cat &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; find ../CHR/*_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; -iname &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;FASTA_BED.chr*_&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_*.jump_CHR.bed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools sort -i - &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools merge -i - &amp;gt; FASTA_BED.&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.ALL_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.CHR_jump_2.bed
+cat &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; find ../CHR/*_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; -iname &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;FASTA_BED.chr*_&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_*.jump_POS.bed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools sort -i - &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools merge -i - &amp;gt; FASTA_BED.&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.ALL_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.POS_jump.bed
+cat &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; find ../CHR/*_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; -iname &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;FASTA_BED.chr*_&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_*.reject.extract.bed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools sort -i - &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools merge -i - &amp;gt; FASTA_BED.&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.ALL_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.reject_1.bed
+cat &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; find ../CHR/*_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; -iname &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;FASTA_BED.chr*_&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TARGET&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;_*.reject.extract.bed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools sort -i - &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools merge -i - &amp;gt; FASTA_BED.&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.ALL_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.reject_2.bed
+cat FASTA_BED.&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.ALL_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;*jump*.bed FASTA_BED.&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.ALL_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;*reject_2.bed &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools sort -i - &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; bedtools merge -i - &amp;gt; FASTA_BED.&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.ALL_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.novel_CUPs.bed
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 4.2) Run liftOver and repeat step 5) - 8)&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;liftOver
+&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; TOOL
+&lt;span style=&#34;color:#000&#34;&gt;LOOP_BED&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SCRIPT_DIR&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/loop_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TOOL&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.FullGenome.BED.sh
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 9) Compare liftOver results with CrossMap results&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MAIN_DIR&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/COMBINE
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; LIFT in FASTA_BED.liftOver.ALL_&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SOURCE&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;.* &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CROSS&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LIFT&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; sed -e &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/liftOver/CrossMap/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;NAME&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LIFT&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; sed -e &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/liftOver\.//g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; -e &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NAME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;\t&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt; bedtools jaccard -a &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LIFT&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; -b &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CROSS&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; cut -f3 &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; tail -1 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt;  &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;done&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; column -t 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Single-cell RNAseq</title>
+      <link>/docs/healthcare/informatics/genome/sc-rnaseq/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/healthcare/informatics/genome/sc-rnaseq/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/KevinMenden/scaden&#34;&gt;scaden&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Scaden is a deep-learning based algorithm for cell type deconvolution of bulk RNA-seq samples. It was developed at the DZNE Tübingen and the ZMNH in Hamburg. A pre-print describing the method is available at &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/659227v2.full.pdf&#34;&gt;Biorxiv: Deep-learning based cell composition analysis&lt;/a&gt; from tissue expression profiles.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://satijalab.org/seurat/index.html&#34;&gt;Seurat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/KirstLab/asc_seurat&#34;&gt;Asc-Seurat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/stemangiola/tidyseurat&#34;&gt;tidyseurat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/theislab/scarches&#34;&gt;scArches&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

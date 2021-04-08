@@ -452,7 +452,7 @@ no changes added to commit &lt;span style=&#34;color:#ce5c00;font-weight:bold&#3
 &lt;p&gt;How to refactor?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Start off by creating a baseline of your project using a tool like &lt;code&gt;wily&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Look at some of the metrics and s&lt;code&gt;tart with the module&lt;/code&gt; that has the &lt;code&gt;lowest maintainability index&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Look at some of the metrics and &lt;code&gt;start with the module&lt;/code&gt; that has the &lt;code&gt;lowest maintainability index&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Refactor that module using the safety provided in tests and the knowledge of tools like &lt;code&gt;rope&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
