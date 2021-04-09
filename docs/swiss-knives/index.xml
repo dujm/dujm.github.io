@@ -471,463 +471,35 @@
     </item>
     
     <item>
-      <title>Docs: Books</title>
-      <link>/docs/swiss-knives/books/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Cheatsheets</title>
+      <link>/docs/swiss-knives/cheatsheets/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/books/</guid>
+      <guid>/docs/swiss-knives/cheatsheets/</guid>
       <description>
         
         
-           &lt;br&gt;
-&lt;h3 id=&#34;deep-learninghttpswwwdeeplearningbookorg&#34;&gt;&lt;a href=&#34;https://www.deeplearningbook.org/&#34;&gt;Deep Learning&lt;/a&gt;&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Ian Goodfellow and Yoshua Bengio and Aaron Courville&lt;/p&gt;
-&lt;/blockquote&gt;
-   &lt;br&gt; 
-&lt;h3 id=&#34;the-65-books-released-by-springerhttpstowardsdatasciencecomspringer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189&#34;&gt;&lt;a href=&#34;https://towardsdatascience.com/springer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189&#34;&gt;The 65 books released by Springer&lt;/a&gt;&lt;/h3&gt;
-   &lt;br&gt;
+        &lt;br&gt;
 &lt;ul&gt;
-&lt;li&gt;The Elements of Statistical Learning&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf&#34;&gt;conda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/daniellewisDL/streamlit-cheat-sheet/master/streamlit-cheat-sheet.png&#34;&gt;Sreamlit cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/abhat222/Data-Science--Cheat-Sheet&#34;&gt;Data science cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463&#34;&gt;A lof of cheatsheets&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Trevor Hastie, Robert Tibshirani, Jerome Friedman&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-84858-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-84858-7&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Introductory Time Series with R&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Paul S.P. Cowpertwait, Andrew V. Metcalfe&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-88698-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-88698-5&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;A Beginner’s Guide to R&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Alain Zuur, Elena N. Ieno, Erik Meesters&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-93837-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-0-387-93837-0&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Evolutionary Computing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A.E. Eiben, J.E. Smith&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-662-44874-8&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-662-44874-8&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Data Analysis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Siegmund Brandt&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-03762-2&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-03762-2&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Linear and Nonlinear Programming&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;David G. Luenberger, Yinyu Ye&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-18842-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-18842-3&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Partial Differential Equations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;David Borthwick&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-48936-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-48936-0&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Fundamentals of Robotic Mechanical Systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Jorge Angeles&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-01851-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-01851-5&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Data Structures and Algorithms with Python&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Kent D. Lee, Steve Hubbard&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-13072-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-13072-9&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Partial Differential Equations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Peter J. Olver&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-02099-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-02099-0&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Methods of Mathematical Modelling&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thomas Witelski, Mark Bowen&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-23042-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-23042-9&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;LaTeX in 24 Hours&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Dilip Datta&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-47831-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-47831-9&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Statistics and Data Analysis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Christian Heumann, Michael Schomaker, Shalabh&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-46162-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-46162-5&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Principles of Data Mining&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Max Bramer&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-7307-6&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-7307-6&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Computer Vision&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Richard Szeliski&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84882-935-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84882-935-0&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Data Mining&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Charu C. Aggarwal&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-14142-8&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-14142-8&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Computational Geometry&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Mark de Berg, Otfried Cheong, Marc van Kreveld, Mark Overmars&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-540-77974-2&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-540-77974-2&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Robotics, Vision and Control&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Peter Corke&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-54413-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-54413-7&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Statistical Analysis and Data Display&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Richard M. Heiberger, Burt Holland&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2122-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2122-5&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Statistics and Data Analysis for Financial Engineering&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;David Ruppert, David S. Matteson&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2614-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2614-5&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Stochastic Processes and Calculus&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Uwe Hassler&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-23428-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-23428-1&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Statistical Analysis of Clinical Data on a Pocket Calculator&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ton J. Cleophas, Aeilko H. Zwinderman&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-94-007-1211-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-94-007-1211-9&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Clinical Data Analysis on a Pocket Calculator&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ton J. Cleophas, Aeilko H. Zwinderman&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-27104-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-27104-0&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;The Data Science Design Manual&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Steven S. Skiena&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-55444-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-55444-0&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;An Introduction to Machine Learning&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Miroslav Kubat&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-63913-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-63913-0&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Guide to Discrete Mathematics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Gerard O’Regan&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-44561-8&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-44561-8&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Time Series and Forecasting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Peter J. Brockwell, Richard A. Davis&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-29854-2&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-29854-2&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Multivariate Calculus and Geometry&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Seán Dineen&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-6419-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-6419-7&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Statistics and Analysis of Scientific Data&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Massimiliano Bonamente&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-6572-4&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-6572-4&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Modelling Computing Systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Faron Moller, Georg Struth&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84800-322-4&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84800-322-4&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Search Methodologies&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Edmund K. Burke, Graham Kendall&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6940-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6940-7&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Linear Algebra Done Right&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sheldon Axler&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-11080-6&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-11080-6&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Linear Algebra&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Jörg Liesen, Volker Mehrmann&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-24346-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-24346-7&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Algebra&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Serge Lang&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4613-0041-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4613-0041-0&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Understanding Analysis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Stephen Abbott&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2712-8&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4939-2712-8&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Linear Programming&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Robert J Vanderbei&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-7630-6&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-7630-6&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Understanding Statistics Using R&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Randall Schumacker, Sara Tomek&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6227-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6227-9&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;An Introduction to Statistical Learning&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-7138-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-7138-7&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Statistical Learning from a Regression Perspective&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Richard A. Berk&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-44048-4&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-44048-4&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Applied Partial Differential Equations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;J. David Logan&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-12493-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-12493-3&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Robotics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Bruno Siciliano, Lorenzo Sciavicco, Luigi Villani, Giuseppe Oriolo&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84628-642-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84628-642-1&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Regression Modeling Strategies&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Frank E. Harrell , Jr.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-19425-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-19425-7&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;A Modern Introduction to Probability and Statistics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;F.M. Dekking, C. Kraaikamp, H.P. Lopuhaä, L.E. Meester&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84628-168-6&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-84628-168-6&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;The Python Workbook&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ben Stephenson&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-14240-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-14240-1&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Machine Learning in Medicine — a Complete Overview&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ton J. Cleophas, Aeilko H. Zwinderman&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-15195-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-15195-3&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Object-Oriented Analysis, Design and Implementation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Brahma Dathan, Sarnath Ramnath&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-24280-4&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-24280-4&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Data Science&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Laura Igual, Santi Seguí&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-50017-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-50017-1&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Applied Predictive Modeling&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Max Kuhn, Kjell Johnson&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6849-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-6849-3&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Python For ArcGIS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Laura Tateosian&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-18398-5&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-18398-5&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Concise Guide to Databases&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Peter Lake, Paul Crowther&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-5601-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-5601-7&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Digital Image Processing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Wilhelm Burger, Mark J. Burge&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-6684-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4471-6684-9&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Bayesian Essentials with R&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Jean-Michel Marin, Christian P. Robert&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-8687-9&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-1-4614-8687-9&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Robotics, Vision and Control&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Peter Corke&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-642-20144-8&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-642-20144-8&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Foundations of Programming Languages&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Kent D. Lee&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-70790-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-70790-7&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Artificial Intelligence&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Wolfgang Ertel&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-58487-4&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-58487-4&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Deep Learning&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sandro Skansi&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-73004-2&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-73004-2&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Linear Algebra and Analytic Geometry for Physical Sciences&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Giovanni Landi, Alessandro Zampini&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-78361-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-78361-1&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Applied Linear Algebra&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Peter J. Olver, Chehrzad Shakiban&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-91041-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-91041-3&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Neural Networks and Deep Learning&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Charu C. Aggarwal&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-94463-0&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-94463-0&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Data Science and Predictive Analytics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ivo D. Dinov&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-72347-1&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-72347-1&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Analysis for Computer Scientists&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Michael Oberguggenberger, Alexander Ostermann&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-91155-7&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-319-91155-7&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Excel Data Analysis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hector Guerrero&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-01279-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-01279-3&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;A Beginners Guide to Python 3 Programming&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;John Hunt&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-20290-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-20290-3&lt;/a&gt;&lt;/p&gt;
-   &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Advanced Guide to Python 3 Programming&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;John Hunt&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-25943-3&#34;&gt;http://link.springer.com/openurl?genre=book&amp;amp;isbn=978-3-030-25943-3&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>Docs: Find Papers</title>
-      <link>/docs/swiss-knives/find-papers/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Converter</title>
+      <link>/docs/swiss-knives/converter/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/find-papers/</guid>
+      <guid>/docs/swiss-knives/converter/</guid>
       <description>
         
         
-        &lt;br&gt;
-&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
-&lt;p&gt;To the extent possible under law,  &lt;a href=&#34;https://github.com/papers-we-love/papers-we-love&#34;&gt;papers-we-love&lt;/a&gt; has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;where-to-find-papers&#34;&gt;Where to Find Papers&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://iclr.cc/virtual_2020/index.html&#34;&gt;ICLR&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap&#34;&gt;Deep Learning Papers Reading Roadmap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/terryum/awesome-deep-learning-papers&#34;&gt;awesome-deep-learning-papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/keeroyz&#34;&gt;2 Minute Papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.alcatel-lucent.com/bell-labs-journals&#34;&gt;Bell System Technical Journal, 1922-1983&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://jeffhuang.com/best_paper_awards.html&#34;&gt;Best Paper Awards in Computer Science&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://research.fb.com/publications/&#34;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://scholar.google.com/citations?view_op=top_venues&amp;amp;hl=en&amp;amp;vq=eng&#34;&gt;Google Scholar&lt;/a&gt; (choose a subcategory)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://research.microsoft.com/apps/catalog/default.aspx?t=publications&#34;&gt;Microsoft Research&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://alexott.net/en/fp/books/&#34;&gt;Functional Programming Books Review&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dspace.mit.edu/handle/1721.1/39813&#34;&gt;MIT&amp;rsquo;s Artificial Intelligence Lab Publications&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dsrg.pdos.csail.mit.edu/&#34;&gt;MIT&amp;rsquo;s Distributed System&amp;rsquo;s Reading Group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://arxiv.org/&#34;&gt;arXiv Paper Repository&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://scirate.com/&#34;&gt;SciRate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://doc.cat-v.org/&#34;&gt;cat-v.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://yarchive.net/comp/index.html&#34;&gt;y-archive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.netlib.org/&#34;&gt;netlib&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mmcgrana/services-engineering&#34;&gt;Services Engineering Reading List&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html&#34;&gt;Readings in Distributed Systems&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://samth.github.io/gradual-typing-bib/&#34;&gt;Gradual Typing Bibliography&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/&#34;&gt;Security Data Science Papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~rwh/papers/index.html&#34;&gt;Research Papers from Robert Harper, Carnegie Mellon University&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lobste.rs/t/pdf&#34;&gt;Lobste.rs tagged as PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.acolyer.org/&#34;&gt;The Morning Paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Check out &lt;a href=&#34;https://github.com/papers-we-love/papers-we-love/wiki/Other-Good-Sources-of-Reading-Material&#34;&gt;paper-we-love- wiki-page&lt;/a&gt; for links to blogs, books, exchanges that are worth a good read.&lt;/p&gt;
-&lt;p&gt;Check out more on &lt;a href=&#34;https://www.youtube.com/user/PapersWeLove&#34;&gt;YouTube&lt;/a&gt; and &lt;a href=&#34;https://www.mixcloud.com/paperswelove/&#34;&gt;MixCloud&lt;/a&gt; (audio-only format) channels.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;how-to-read-a-paper&#34;&gt;How To Read a Paper&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://organizationsandmarkets.com/2010/08/31/how-to-read-an-academic-article/&#34;&gt;How to read an academic article&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cc.gatech.edu/~akmassey/posts/2012-02-15-advice-on-reading-academic-papers.html&#34;&gt;Advice on reading academic papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://violentmetaphors.com/2013/08/25/how-to-read-and-understand-a-scientific-paper-2/&#34;&gt;How to read and understand a scientific paper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://michaelrbernste.in/2014/10/21/should-i-read-papers.html&#34;&gt;Should I Read Papers?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8eRx5Wo3xYA&#34;&gt;The Refreshingly Rewarding Realm of Research Papers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
+        
       </description>
     </item>
     
@@ -1668,478 +1240,101 @@ interests.&lt;/li&gt;
     </item>
     
     <item>
-      <title>Docs: Cheatsheets</title>
-      <link>/docs/swiss-knives/cheatsheets/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/cheatsheets/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf&#34;&gt;conda&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/daniellewisDL/streamlit-cheat-sheet/master/streamlit-cheat-sheet.png&#34;&gt;Sreamlit cheat sheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/abhat222/Data-Science--Cheat-Sheet&#34;&gt;Data science cheatsheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463&#34;&gt;A lof of cheatsheets&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Converter PDF - Image</title>
-      <link>/docs/swiss-knives/converter-pdf-image/</link>
-      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/converter-pdf-image/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h2 id=&#34;converting-pdf-to-image-on-linux&#34;&gt;Converting pdf to image on Linux&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Syntax&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# pdftoppm {input.pdf} {output.file} -png&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Example&lt;/span&gt;
-pdftoppm Bulldog.pdf Bulldog.pdf -png
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;#  each page from the PDF file is converted to Bulldog.pdf-1.png, Bulldog.pdf-2.png&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;For a large number of pdf files&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Step 1 - PDF to IMAGE / PNG format #&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; p in *.pdf
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; 
-   pdftoppm &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$p&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$p&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; -png
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;done&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;converting-image-to-pdf-on-linux&#34;&gt;Converting image to pdf on Linux&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;mkdir out
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# convert&lt;/span&gt;
-convert out-Bulldog.pdf-1.png Bulldog.pdf-2.png Bulldog.pdf-3.png out/final-Bulldog.pdf
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# open &lt;/span&gt;
-xdg-open out/final-Bulldog.pdf
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;For a large number of images&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Step 2 - IMAGE / PNG to PDF format #&lt;/span&gt;
-mkdir output
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; i in *.pdf
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; 
-  &lt;span style=&#34;color:#000&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$i&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
-  convert &lt;span style=&#34;color:#000&#34;&gt;$b&lt;/span&gt;-?.png &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;output/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$b&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt; 
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;done&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;compress-files-if-needed&#34;&gt;Compress files if needed&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;zip -r -e /tmp/Bulldog.pdf /tmp/output
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;-r&lt;/code&gt; : Recurse into directories&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-e&lt;/code&gt; : Password protect our zip file&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;/tmp/project-invoices.pdf&lt;/code&gt;: Zip file name&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;/tmp/output&lt;/code&gt;: Path/folder name to zip and compress everything for ease of use&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cyberciti.biz/faq/how-to-convert-pdf-to-image-on-linux-command-line/&#34;&gt;How to convert pdf to image on Linux command line&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://secure.img1-fg.wfcdn.com/im/71066008/compr-r85/4307/43074606/sitting-sleepy-bulldog-puppy-statue.jpg&#34; alt=&#34;Bull Dog&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;https://secure.img1-fg.wfcdn.com/im/71066008/compr-r85/4307/43074606/sitting-sleepy-bulldog-puppy-statue.jpg&#34;&gt;Image source&lt;/a&gt;&lt;/p&gt;
- &lt;br&gt;
-&lt;h2 id=&#34;convert-image-to-pdf&#34;&gt;Convert Image to PDF&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/madmaze/pytesseract&#34;&gt;Ref&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Get a searchable PDF&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pytesseract&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pytesseract&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;image_to_pdf_or_hocr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;test.png&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extension&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;pdf&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;open&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;test.pdf&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;w+b&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
-    &lt;span style=&#34;color:#000&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;write&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# pdf type is bytes by default&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Converter PDF - Table</title>
-      <link>/docs/swiss-knives/converter-pdf-table/</link>
-      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/converter-pdf-table/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;tabula-py&#34;&gt;tabula-py&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/chezou/tabula-py&#34;&gt;tabula-py&lt;/a&gt; is a simple Python wrapper of tabula-java&lt;/li&gt;
-&lt;li&gt;Installation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install tabula-py
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Usage&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Read pdf into list of DataFrame&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;read_pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;test.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;all&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Read remote pdf into list of DataFrame&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;df2&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;read_pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;https://github.com/tabulapdf/tabula-java/raw/master/src/test/resources/technology/tabula/arabic.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# convert PDF into CSV file&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;convert_into&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;test.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;output.csv&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;output_format&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;csv&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;all&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# convert all PDFs in a directory&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;tabula&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;convert_into_by_batch&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;input_directory&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;output_format&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;csv&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;all)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;r-tabulizer&#34;&gt;R Tabulizer&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ropensci/tabulizer&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Installation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;install.packages&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;tabulizer&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Usage&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;library&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;tabulizer&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;f&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file.path&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;directory&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;my.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;out1&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extract_tables&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;str&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;out1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The extraction works but the results are not always good, especially when the pdf tables are not properly formatted.&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Converter CSV - TXT</title>
-      <link>/docs/swiss-knives/converter-csv-txt/</link>
+      <title>Docs: GPU</title>
+      <link>/docs/swiss-knives/gpu/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/converter-csv-txt/</guid>
+      <guid>/docs/swiss-knives/gpu/</guid>
       <description>
         
         
         &lt;br&gt;
-&lt;h3 id=&#34;how-to-convert-a-tab-deliminated-file-txttsv-to-a-csv&#34;&gt;How to convert a tab-deliminated file (.txt/.tsv) to a csv?&lt;/h3&gt;
-&lt;h3 id=&#34;0-open-the-terminal&#34;&gt;0. Open the terminal&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; filedirectory
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;1-convert-file-commas--to-semi-colon-&#34;&gt;1. Convert file commas (,) to semi-colon (;)&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/,/;/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-conver-tab-t-to-comma&#34;&gt;2. Conver tab (\t) to comma(,)&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/\t/,/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&#34;how-to-convert-a-csv-to-a-tab-deliminated-file-txttsv&#34;&gt;How to convert a csv to a tab-deliminated file (.txt/.tsv)?&lt;/h3&gt;
-&lt;h3 id=&#34;1--conver-file-tabs-t-to-semi-colon&#34;&gt;1.  Conver file tabs (\t) to semi-colon(;)&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/\t/;/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file3&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2--conver-comma--to-tab-t&#34;&gt;2.  Conver comma (,) to tab (\t)&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;perl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pe&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;s/,/\t/g&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file2&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;csv&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;file1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;txt&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Jupyter Lab</title>
-      <link>/docs/swiss-knives/jupyter-lab/</link>
-      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/jupyter-lab/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;gpu-dashborads&#34;&gt;GPU Dashborads&lt;/h3&gt;
+&lt;h2 id=&#34;gpu&#34;&gt;GPU&lt;/h2&gt;
+&lt;h3 id=&#34;how-can-i-find-the-memory-usage-on-my-gpu&#34;&gt;How can I find the memory usage on my GPU?&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;A JupyterLab extension for displaying dashboards of GPU usage.&lt;/li&gt;
-&lt;li&gt;Install &lt;a href=&#34;https://github.com/rapidsai/jupyterlab-nvdashboard&#34;&gt;jupyterlab-nvdashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For Nvidia GPUs:&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;nvidia-smi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;For Intel GPUs:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;intel_gpu_tools
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;For AMD GPUs:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;aticonfig --odgc --odgt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;For real time watching &amp;ndash; example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo watch nvidia-smi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://askubuntu.com/questions/276039/how-can-i-find-the-memory-usage-on-my-gpu&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;release-gpu&#34;&gt;Release GPU&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Terminal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo fuser -v /dev/nvidia*
+
+pkill -u PIDs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Use memory growing:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.ConfigProto&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()&lt;/span&gt;
+config.gpu_options.allow_growth &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; True
+&lt;span style=&#34;color:#000&#34;&gt;session&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.Session&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;config, ...&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Don&amp;rsquo;t allocate whole of your GPU memory(e.g. only 90%):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.ConfigProto&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()&lt;/span&gt;
+config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; 0.9
+&lt;span style=&#34;color:#000&#34;&gt;session&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.Session&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;config, ...&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Clear background&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;keras.backend.clear_session&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Add this in the notebook&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;keras&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;backend&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cfg&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;tf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ConfigProto&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cfg&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;gpu_options&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;allow_growth&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#3465a4&#34;&gt;True&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;set_session&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;tf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Session&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cfg&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/keras-team/keras/issues/3675&#34;&gt;Added gc.collect()&lt;/a&gt; to the end of my custom generator and it helped to get rid of memory errors.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reduce your batch size&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;tpu&#34;&gt;TPU&lt;/h2&gt;
+&lt;h3 id=&#34;super-duper-fast-pytorch-tpu-kernel&#34;&gt;Super-duper fast pytorch tpu kernel&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://medium.com/rapids-ai/gpu-dashboards-in-jupyter-lab-757b17aae1d5&#34;&gt;GPU Dashboards in Jupyter Lab&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abhishek Thakur&lt;br&gt;
+&lt;a href=&#34;https://www.kaggle.com/abhishek/super-duper-fast-pytorch-tpu-kernel&#34;&gt;Kaggle Link&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;version-control&#34;&gt;Version control&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jupyterlab/jupyterlab-git&#34;&gt;jupyterlab-git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jupyter/nbdime&#34;&gt;nbdime&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;how-to-add-conda-environment-to-jupyter-lab&#34;&gt;How to add conda environment to jupyter lab?&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Activate my conda environment mt &lt;/span&gt;
-conda activate mt
-&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;mt&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;$ conda install ipykernel
-&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;mt&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;$ ipython kernel install --user --name&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;mt
-&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;mt&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;$ conda deactivate
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Check in Jupyter lab &lt;/span&gt;
-jupyter lab
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h2 id=&#34;how-to-update-jupyter-lab&#34;&gt;How to update Jupyter Lab?&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;conda update jupyterlab
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h2 id=&#34;how-to-print-python-variables-in-markdown&#34;&gt;How to print python variables in Markdown?&lt;/h2&gt;
-&lt;h3 id=&#34;jupyter&#34;&gt;Jupyter&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/52812231/print-variable-in-jupyter-notebook-markdown-cell-python&#34;&gt;Stackoverflow&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;ipython-markdown&#34;&gt;IPython Markdown&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IPython.display&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Markdown&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;md&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Instead of setting the cell to Markdown, create Markdown from withnin a code cell!&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# We can just use python variable replacement syntax to make the text dynamic&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;n&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;10&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;md&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;The data consists of {n} observations. Bla, Bla, ....&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;jupyter_contrib_nbextensions&#34;&gt;jupyter_contrib_nbextensions&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install jupyter_contrib_nbextensions
-jupyter contrib nbextension install --user
-jupyter nbextension &lt;span style=&#34;color:#204a87&#34;&gt;enable&lt;/span&gt; python-markdown/main
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# in a markdown cell, use  {{ ac_score }} &lt;/span&gt;
-Accuracy --&amp;gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{{&lt;/span&gt; ac_score &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}}&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://i.stack.imgur.com/JPadd.png&#34; alt=&#34;python-markdown/main nbextension&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;https://i.stack.imgur.com/JPadd.png&#34;&gt;python-markdown/main nbextension&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;using-register_cell_magic&#34;&gt;Using &lt;code&gt;register_cell_magic&lt;/code&gt;.&lt;/h3&gt;
-&lt;p&gt;This has the advantage of allowing for Markdown linting when used with JupyterLab-LSP.&lt;/p&gt;
-&lt;p&gt;If developing a documentation with nbsphinx you can hide the input (source of the cell) by setting {&amp;ldquo;hide_input&amp;rdquo;: true} in cell metadata:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IPython.display&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Markdown&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IPython.core.magic&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;register_cell_magic&lt;/span&gt;
-
-
-&lt;span style=&#34;color:#5c35cc;font-weight:bold&#34;&gt;@register_cell_magic&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;markdown&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;line&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
-    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Markdown&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;format&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;globals&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://i.stack.imgur.com/295CQ.png&#34; alt=&#34;register_cell_magic&#34;&gt;&lt;br&gt;
-&lt;a href=&#34;https://i.stack.imgur.com/295CQ.png&#34;&gt;register_cell_magic&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;jupyter-sphinx-extension&#34;&gt;Jupyter Sphinx Extension&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jupyter-sphinx.readthedocs.io/en/latest/#jupyter-sphinx-extension&#34;&gt;Doc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Installation &lt;code&gt;pip install jupyter-sphinx&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Enable extension: add &lt;code&gt;jupyter_sphinx.execute&lt;/code&gt; to your enabled extensions in &lt;code&gt;conf.py&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Usage&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;#  use the jupyter-execute directive to embed code into the document&lt;/span&gt;
-&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;..&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;jupyter&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;execute&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;
-
-  &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;world&amp;#39;&lt;/span&gt;
-  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;hello &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;!&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h2 id=&#34;jupyterlab-sidecar&#34;&gt;Jupyterlab Sidecar&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jupyter-widgets/jupyterlab-sidecar&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Function
-&lt;ul&gt;
-&lt;li&gt;The sidecar widget is used as a context manager, just like ipywidgets&#39; output widget.&lt;/li&gt;
-&lt;li&gt;When a single output is displayed in a Sidecar, it is allowed to occupy all of the vertical space available. If more content is displayed, the natural height is used instead.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Installation &lt;code&gt;pip install sidecar&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Demo Code&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sidecar&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sidecar&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ipywidgets&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IntSlider&lt;/span&gt;
-
-&lt;span style=&#34;color:#000&#34;&gt;sc&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sidecar&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Sidecar Output&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;sl&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IntSlider&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;description&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Some slider&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sc&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
-    &lt;span style=&#34;color:#000&#34;&gt;display&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sl&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/jupyter-widgets/jupyterlab-sidecar/master/sidecar.gif&#34; alt=&#34;Side Car&#34;&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>Docs: Converter markdown to docx</title>
-      <link>/docs/swiss-knives/converter-docx-markdown/</link>
-      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/converter-docx-markdown/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h2 id=&#34;mammoth&#34;&gt;Mammoth&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/mwilliamson/python-mammoth&#34;&gt;Mammoth&lt;/a&gt; is designed to convert .docx documents, such as those created by Microsoft Word, Google Docs and LibreOffice, and convert them to HTML.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip install mammoth
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Generate Markdown&lt;/span&gt;
-mammoth document.docx --output-format&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;markdown
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Converter Jupyter</title>
-      <link>/docs/swiss-knives/converter-jupyter/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/converter-jupyter/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;1-jupytexthttpsgithubcommwoutsjupytext&#34;&gt;1. &lt;a href=&#34;https://github.com/mwouts/jupytext&#34;&gt;Jupytext&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Install jupytext&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Use conda or pip&lt;/span&gt;
-conda install -c conda-forge jupytext
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Edit Jupyter config&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Generate a Jupyter config&lt;/span&gt;
-jupyter notebook --generate-config
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Edit .jupyter/jupyter_notebook_config.py&lt;/span&gt;
-vim /Users/j/.jupyter/jupyter_notebook_config.py
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Append the following&lt;/span&gt;
-c.NotebookApp.contents_manager_class &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;jupytext.TextFileContentsManager&amp;#34;&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Restart Jupyter Notebook&lt;/span&gt;
-jupyter notebook
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Convert format within Notebook&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;# Click Edit=&amp;gt;Edit Notebook Metadata and append the below line
-&amp;quot;jupytext&amp;quot;: {&amp;quot;formats&amp;quot;: &amp;quot;ipynb,py&amp;quot;},
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Or convert format using command line&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;jupytext --to py:percent notebook.ipynb         &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# create a notebook.py file in the double percent format&lt;/span&gt;
-jupytext --to markdown notebook.ipynb           &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# create a notebook.md file&lt;/span&gt;
-jupytext --output script.py notebook.ipynb      &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# create a script.py file&lt;/span&gt;
-
-jupytext --to notebook notebook.py              &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# overwrite notebook.ipynb (remove outputs)&lt;/span&gt;
-jupytext --to notebook --update notebook.py     &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# update notebook.ipynb (preserve outputs)&lt;/span&gt;
-jupytext --to ipynb notebook1.md notebook2.py   &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# overwrite notebook1.ipynb and notebook2.ipynb&lt;/span&gt;
-
-jupytext --to md --test notebook.ipynb          &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Test round trip conversion&lt;/span&gt;
-
-jupytext --to md --output - notebook.ipynb      &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# display the markdown version on screen&lt;/span&gt;
-jupytext --from ipynb --to py:percent           &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# read ipynb from stdin and write double percent script on stdout&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/MarcusJones/jupytext&#34;&gt;Reference&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/jupytext-1-0-highlights-a49dca9baa7b&#34;&gt;Jupytext highlight&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;2-jupyter2slideshttpsgithubcomdatitranjupyter2slides&#34;&gt;2. &lt;a href=&#34;https://github.com/datitran/jupyter2slides&#34;&gt;jupyter2slides&lt;/a&gt;&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;python create_slides.py --file static/filename.ipynb
-python run.py --file static/filename.slides.html
-http://0.0.0.0:9099/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;change footer in jupyter_template.tpl&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;3-nbconverthttpsnbconvertreadthedocsioenlatestinstallhtml&#34;&gt;3. &lt;a href=&#34;https://nbconvert.readthedocs.io/en/latest/install.html&#34;&gt;nbconvert&lt;/a&gt;&lt;/h3&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Jupyter Notebook</title>
-      <link>/docs/swiss-knives/jupyter-notebook/</link>
+      <title>Docs: Jupyter</title>
+      <link>/docs/swiss-knives/jupyter/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/jupyter-notebook/</guid>
+      <guid>/docs/swiss-knives/jupyter/</guid>
       <description>
         
         
-        &lt;br&gt;
-&lt;h3 id=&#34;how-to-install-jupyter-using-miniconda&#34;&gt;How to install Jupyter using miniconda?&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;conda install jupyter
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
-&lt;h3 id=&#34;how-to-view-jupyter-notebook-if-github-page-fails-to-render-ipynb-notebook&#34;&gt;How to view Jupyter notebook if Github page fails to render ipynb notebook?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Go to &lt;a href=&#34;https://nbviewer.jupyter.org/&#34;&gt;https://nbviewer.jupyter.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Paste the link to your notebook&lt;/li&gt;
-&lt;/ul&gt;
-  &lt;br&gt;
-&lt;h3 id=&#34;how-to-parameterize-execute-and-analyze-jupyter-notebook&#34;&gt;How to parameterize, execute, and analyze Jupyter notebook?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/nteract/papermill&#34;&gt;papermill&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;how-to-format-code-in-jupyter-notebook&#34;&gt;How to format code in Jupyter notebook?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/drillan/jupyter-black&#34;&gt;Jupyter Black&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# install&lt;/span&gt;
-jupyter nbextension install https://github.com/drillan/jupyter-black/archive/master.zip --user
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# enable &lt;/span&gt;
-jupyter nbextension &lt;span style=&#34;color:#204a87&#34;&gt;enable&lt;/span&gt; jupyter-black-master/jupyter-black
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;how-to-download-all-files-in-a-path-on-jupyter-notebook-server&#34;&gt;How to download all files in a path on Jupyter notebook server&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Open a Jupyter notebook &lt;strong&gt;X&lt;/strong&gt; on the server&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;!tar cvfz allfiles.tar.gz *&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/43042793/download-all-files-in-a-path-on-jupyter-notebook-server/47355754#47355754&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A file allfiles.tar.gz can be found in the directory where your X is localized. Click the file to download it.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Extract files from the .tar.gz in your local terminal &lt;br&gt;
-&lt;code&gt;tar -xvzf allfiles.tar.gz&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;how-to-know-which-python-and-packages-are-used-in-jupyter-notebook&#34;&gt;How to know which Python and packages are used in jupyter notebook?&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;executable&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;version_info&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Get locally imported modules from current notebook&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pkg_resources&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;types&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;get_imports&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;():&lt;/span&gt;
-    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;val&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;globals&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;items&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;():&lt;/span&gt;
-        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;isinstance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;val&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;types&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ModuleType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
-            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Split ensures you get root package,&lt;/span&gt;
-            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# not just imported function&lt;/span&gt;
-            &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;val&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;__name__&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;split&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
-
-        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;elif&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;isinstance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;val&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
-            &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;val&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;__module__&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;split&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
-
-        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Some packages are weird and have different&lt;/span&gt;
-        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# imported names vs. system/pip names. Unfortunately,&lt;/span&gt;
-        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# there is no systematic way to get pip names from&lt;/span&gt;
-        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# a package&amp;#39;s imported name. You&amp;#39;ll have to had&lt;/span&gt;
-        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# exceptions to this list manually!&lt;/span&gt;
-        &lt;span style=&#34;color:#000&#34;&gt;poorly_named_packages&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
-            &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;PIL&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Pillow&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
-            &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;sklearn&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;scikit-learn&amp;#34;&lt;/span&gt;
-        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
-        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;poorly_named_packages&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;keys&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;():&lt;/span&gt;
-            &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;poorly_named_packages&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
-
-        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;yield&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;imports&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;list&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;set&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_imports&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()))&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# The only way I found to get the version of the root package&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# from only the name of the package is to cross-check the names&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# of installed packages vs. imported packages&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;requirements&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[]&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pkg_resources&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;working_set&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
-    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;project_name&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;imports&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;and&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;project_name&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;!=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;pip&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
-        &lt;span style=&#34;color:#000&#34;&gt;requirements&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;append&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;((&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;project_name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
-
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;r&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;requirements&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
-    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{}=={}&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;format&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;r&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/40428931/package-for-listing-version-of-packages-used-in-a-jupyter-notebook&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-
+        
       </description>
     </item>
     
     <item>
       <title>Docs: Markdown</title>
       <link>/docs/swiss-knives/markdown/</link>
-      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>/docs/swiss-knives/markdown/</guid>
       <description>
@@ -2219,305 +1414,28 @@ mdbook serve
     </item>
     
     <item>
-      <title>Docs: Terminal for Ubuntu</title>
-      <link>/docs/swiss-knives/terminal-ubuntu/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Docs: Read</title>
+      <link>/docs/swiss-knives/read/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/terminal-ubuntu/</guid>
+      <guid>/docs/swiss-knives/read/</guid>
       <description>
         
         
-        &lt;br&gt;
-&lt;h3 id=&#34;1-install-z-shell-and-oh-my-zshell&#34;&gt;1. Install z shell and oh-my-zshell&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt-get update
-sudo apt upgrade
-
-sudo apt install zsh
-sudo apt-get install powerline fonts-powerline
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
-
-vim .zshrc
-
-&lt;span style=&#34;color:#000&#34;&gt;ZSH_THEME&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;agnoster&amp;#34;&lt;/span&gt;
-
-chsh -s /bin/zsh
-&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; /.oh-my-zsh
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# syntax highlighting&lt;/span&gt;
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/.zsh-syntax-highlighting&amp;#34;&lt;/span&gt; --depth &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;
-
-&lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;source &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/.zshrc&amp;#34;&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# change back to bash&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# chsh -s /bin/bash&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;2-enable-conda-command&#34;&gt;2. Enable conda command&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# open bashrc&lt;/span&gt;
-vim ~/.bashshrc
-
-vim ~/.zshrc
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# copy below from bashrc to zshrc&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# added by miniconda3 5.3.0 installer&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; conda init &amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# !! Contents within this block are managed by &amp;#39;conda init&amp;#39; !!&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;__conda_setup&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CONDA_REPORT_ERRORS&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;false&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;/miniconda3/bin/conda&amp;#39;&lt;/span&gt; shell.bash hook 2&amp;gt; /dev/null&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;$?&lt;/span&gt; -eq &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;then&lt;/span&gt;
-    &lt;span style=&#34;color:#4e9a06&#34;&gt;\e&lt;/span&gt;val &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$__conda_setup&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;else&lt;/span&gt;
-    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt; -f &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;then&lt;/span&gt;
-        . &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34;&lt;/span&gt;
-        &lt;span style=&#34;color:#000&#34;&gt;CONDA_CHANGEPS1&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;false&lt;/span&gt; conda activate base
-    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;else&lt;/span&gt;
-        &lt;span style=&#34;color:#4e9a06&#34;&gt;\e&lt;/span&gt;xport &lt;span style=&#34;color:#000&#34;&gt;PATH&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/miniconda3/bin:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$PATH&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
-    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;fi&lt;/span&gt;
-&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;fi&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;unset&lt;/span&gt; __conda_setup
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# &amp;lt;&amp;lt;&amp;lt; conda init &amp;lt;&amp;lt;&amp;lt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Restart zshell&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.zshrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;3-level-up-install-power10k-theme&#34;&gt;3. Level Up: install power10k theme&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone --depth&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt; https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-&lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;source ~/powerlevel10k/powerlevel10k.zsh-theme&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt;! ~/.zshrc
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# config&lt;/span&gt;
-p10k configure
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Fix zsh compinit: insecure directories and files&lt;/span&gt;
-compaudit &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; xargs chmod g-w 
-compaudit &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; xargs chown root
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k#pure-compatibility&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;4-install-meslo-nerd-font&#34;&gt;4. Install Meslo Nerd Font&lt;/h3&gt;
-&lt;p&gt;Download these four ttf files:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf&#34;&gt;MesloLGS NF Regular.ttf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf&#34;&gt;MesloLGS NF Bold.ttf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf&#34;&gt;MesloLGS NF Italic.ttf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf&#34;&gt;MesloLGS NF Bold Italic.ttf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Double-click on each file and click &amp;ldquo;Install&amp;rdquo;. This will make &lt;code&gt;MesloLGS NF&lt;/code&gt; font available to all
-applications on your system. Configure your terminal to use this font:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GNOME Terminal&lt;/strong&gt; (the default Ubuntu terminal): Open &lt;em&gt;Terminal → Preferences&lt;/em&gt; and click on the
-selected profile under &lt;em&gt;Profiles&lt;/em&gt;. Check &lt;em&gt;Custom font&lt;/em&gt; under &lt;em&gt;Text Appearance&lt;/em&gt; and select
-&lt;code&gt;MesloLGS NF Regular&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;5-change-terminal-settings-for-vscode&#34;&gt;5. Change terminal settings for vscode&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# install vscode in Ubuntu &lt;/span&gt;
-sudo snap install --classic code  
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;View =&amp;gt; Command Pallete =&amp;gt; Type &lt;code&gt;settings&lt;/code&gt; and Select &lt;code&gt;Preferences: Open Settings (JSON)&lt;/code&gt; =&amp;gt; Add the below lines&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{
-&amp;quot;terminal.integrated.fontFamily&amp;quot;: &amp;quot;MesloLGS NF&amp;quot;,
-&amp;quot;terminal.integrated.shell.osx&amp;quot;: &amp;quot;/bin/zsh&amp;quot;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/480/3b41f449686a089f34edb45d00672f28&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
+        
       </description>
     </item>
     
     <item>
-      <title>Docs: Terminal for Mac</title>
-      <link>/docs/swiss-knives/terminal-mac/</link>
+      <title>Docs: Terminal</title>
+      <link>/docs/swiss-knives/terminal/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/terminal-mac/</guid>
+      <guid>/docs/swiss-knives/terminal/</guid>
       <description>
         
         
-        &lt;br&gt;
-&lt;h3 id=&#34;1-install-iterm2&#34;&gt;1. Install Iterm2&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install iterm2&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; myfolder
-brew cask install iterm2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;2-install-z-shell&#34;&gt;2. Install Z-shell&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install ZSH&lt;/span&gt;
-brew install zsh
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install Oh My Zsh&lt;/span&gt;
-sh -c &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Source .bash_profile&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.bash_profile
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# If you use conda environment&lt;/span&gt;
-conda init zsh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;3-install-color-scheme&#34;&gt;3. Install Color Scheme&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone git@github.com:mbadolato/iTerm2-Color-Schemes.git
-
-&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Colors &amp;gt; Color Presets &amp;gt; Import &amp;gt; Select Folder iTerm2-Color-Schemes/Schemes/yourfavouritecolor&amp;#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;4-install-powerline-font&#34;&gt;4. Install powerline font&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
-vim ~/.zshrc
-  &lt;span style=&#34;color:#000&#34;&gt;ZSH_THEME&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;agnoster&amp;#34;&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Clone&lt;/span&gt;
-git clone https://github.com/powerline/fonts.git --depth&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install fonts&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; fonts
-./install.sh
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Clean-up&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; ..
-rm -rf fonts
-
-&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Text &amp;gt; ChangeFont&amp;#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;p&gt;&lt;img src=&#34;/assets/pics/terminal.png&#34; alt=&#34;Terminal&#34;&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;5-get-miniconda-working-in-oh-my-zsh&#34;&gt;5. Get miniconda working in Oh My ZSH&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;open ~/.bash_profile
-open ~/.zshrc
-&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# Copy below from ~/.bash_profile to ~/.zshrc
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# added by miniconda3 5.3.0 installer
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; conda init &amp;gt;&amp;gt;&amp;gt;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# !! Contents within this block are managed by &amp;#39;&lt;/span&gt;conda init&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39; !!
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;__conda_setup=&amp;#34;$(CONDA_REPORT_ERRORS=false &amp;#39;&lt;/span&gt;/miniconda3/bin/conda&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39; shell.bash hook 2&amp;gt; /dev/null)&amp;#34;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;if [ $? -eq 0 ]; then
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    \eval &amp;#34;$__conda_setup&amp;#34;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;else
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    if [ -f &amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34; ]; then
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        . &amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        CONDA_CHANGEPS1=false conda activate base
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    else
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        \export PATH=&amp;#34;/miniconda3/bin:$PATH&amp;#34;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    fi
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;fi
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;unset __conda_setup
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# &amp;lt;&amp;lt;&amp;lt; conda init &amp;lt;&amp;lt;&amp;lt;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Add the below line in ~/.zshrc file&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PATH&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;~/Users/j/miniconda3/bin:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$PATH&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Restart zshell&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.zshrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;6-add-zsh-syntax-highlighting&#34;&gt;6. Add zsh syntax highlighting&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-
-&lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;source &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(q-)PWD&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ZDOTDIR&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;:-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/.zshrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156&#34;&gt;How to Configure your macOs Terminal with Zsh like a Pro&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh&#34;&gt;oh-my-zsh&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mbadolato/iTerm2-Color-Schemes&#34;&gt;iTerm2-Color-Schemes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/powerline/fonts&#34;&gt;powerline&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/@ryanwhocodes/you-could-uninstall-oh-my-zsh-de3e5cba031&#34;&gt;How to revert your terminal to its default settings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md&#34;&gt;zsh-syntax-highlighting&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: TPU</title>
-      <link>/docs/swiss-knives/tpu/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/tpu/</guid>
-      <description>
         
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;super-duper-fast-pytorch-tpu-kernel&#34;&gt;Super-duper fast pytorch tpu kernel&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Abhishek Thakur&lt;br&gt;
-&lt;a href=&#34;https://www.kaggle.com/abhishek/super-duper-fast-pytorch-tpu-kernel&#34;&gt;Kaggle Link&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: GPU</title>
-      <link>/docs/swiss-knives/gpu/</link>
-      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/gpu/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;how-can-i-find-the-memory-usage-on-my-gpu&#34;&gt;How can I find the memory usage on my GPU?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;For Nvidia GPUs:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;nvidia-smi
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;For Intel GPUs:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;intel_gpu_tools
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;For AMD GPUs:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;aticonfig --odgc --odgt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;For real time watching &amp;ndash; example&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo watch nvidia-smi
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://askubuntu.com/questions/276039/how-can-i-find-the-memory-usage-on-my-gpu&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;release-gpu&#34;&gt;Release GPU&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Terminal&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo fuser -v /dev/nvidia*
-
-pkill -u PIDs
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Use memory growing:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.ConfigProto&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()&lt;/span&gt;
-config.gpu_options.allow_growth &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; True
-&lt;span style=&#34;color:#000&#34;&gt;session&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.Session&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;config, ...&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Don&amp;rsquo;t allocate whole of your GPU memory(e.g. only 90%):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.ConfigProto&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()&lt;/span&gt;
-config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; 0.9
-&lt;span style=&#34;color:#000&#34;&gt;session&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; tf.Session&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;config, ...&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Clear background&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;keras.backend.clear_session&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Add this in the notebook&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;keras&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;backend&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;cfg&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;tf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ConfigProto&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;cfg&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;gpu_options&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;allow_growth&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#3465a4&#34;&gt;True&lt;/span&gt;
-&lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;set_session&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;K&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;tf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Session&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cfg&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/keras-team/keras/issues/3675&#34;&gt;Added gc.collect()&lt;/a&gt; to the end of my custom generator and it helped to get rid of memory errors.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Reduce your batch size&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
       </description>
     </item>
     
