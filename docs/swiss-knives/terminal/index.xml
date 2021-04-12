@@ -15,7 +15,109 @@
     
     
     <item>
-      <title>Docs: Terminal for Ubuntu</title>
+      <title>Docs: Mac</title>
+      <link>/docs/swiss-knives/terminal/terminal-mac/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/swiss-knives/terminal/terminal-mac/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;1-install-iterm2&#34;&gt;1. Install Iterm2&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install iterm2&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; myfolder
+brew cask install iterm2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;2-install-z-shell&#34;&gt;2. Install Z-shell&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install ZSH&lt;/span&gt;
+brew install zsh
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install Oh My Zsh&lt;/span&gt;
+sh -c &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Source .bash_profile&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.bash_profile
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# If you use conda environment&lt;/span&gt;
+conda init zsh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;3-install-color-scheme&#34;&gt;3. Install Color Scheme&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone git@github.com:mbadolato/iTerm2-Color-Schemes.git
+
+&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Colors &amp;gt; Color Presets &amp;gt; Import &amp;gt; Select Folder iTerm2-Color-Schemes/Schemes/yourfavouritecolor&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;4-install-powerline-font&#34;&gt;4. Install powerline font&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
+vim ~/.zshrc
+  &lt;span style=&#34;color:#000&#34;&gt;ZSH_THEME&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;agnoster&amp;#34;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Clone&lt;/span&gt;
+git clone https://github.com/powerline/fonts.git --depth&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install fonts&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; fonts
+./install.sh
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Clean-up&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; ..
+rm -rf fonts
+
+&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Text &amp;gt; ChangeFont&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/pics/terminal.png&#34; alt=&#34;Terminal&#34;&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;5-get-miniconda-working-in-oh-my-zsh&#34;&gt;5. Get miniconda working in Oh My ZSH&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;open ~/.bash_profile
+open ~/.zshrc
+&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# Copy below from ~/.bash_profile to ~/.zshrc
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# added by miniconda3 5.3.0 installer
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; conda init &amp;gt;&amp;gt;&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# !! Contents within this block are managed by &amp;#39;&lt;/span&gt;conda init&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39; !!
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;__conda_setup=&amp;#34;$(CONDA_REPORT_ERRORS=false &amp;#39;&lt;/span&gt;/miniconda3/bin/conda&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39; shell.bash hook 2&amp;gt; /dev/null)&amp;#34;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;if [ $? -eq 0 ]; then
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    \eval &amp;#34;$__conda_setup&amp;#34;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;else
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    if [ -f &amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34; ]; then
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        . &amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        CONDA_CHANGEPS1=false conda activate base
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    else
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        \export PATH=&amp;#34;/miniconda3/bin:$PATH&amp;#34;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    fi
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;fi
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;unset __conda_setup
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# &amp;lt;&amp;lt;&amp;lt; conda init &amp;lt;&amp;lt;&amp;lt;
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Add the below line in ~/.zshrc file&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PATH&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;~/Users/j/miniconda3/bin:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$PATH&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Restart zshell&lt;/span&gt;
+&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;6-add-zsh-syntax-highlighting&#34;&gt;6. Add zsh syntax highlighting&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+
+&lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;source &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(q-)PWD&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ZDOTDIR&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;:-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156&#34;&gt;How to Configure your macOs Terminal with Zsh like a Pro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh&#34;&gt;oh-my-zsh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mbadolato/iTerm2-Color-Schemes&#34;&gt;iTerm2-Color-Schemes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/powerline/fonts&#34;&gt;powerline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@ryanwhocodes/you-could-uninstall-oh-my-zsh-de3e5cba031&#34;&gt;How to revert your terminal to its default settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md&#34;&gt;zsh-syntax-highlighting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Ubuntu</title>
       <link>/docs/swiss-knives/terminal/terminal-ubuntu/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -121,108 +223,6 @@ sudo snap install --classic code
 &lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://gist.github.com/480/3b41f449686a089f34edb45d00672f28&#34;&gt;Ref&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Terminal for Mac</title>
-      <link>/docs/swiss-knives/terminal/terminal-mac/</link>
-      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/terminal/terminal-mac/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-&lt;h3 id=&#34;1-install-iterm2&#34;&gt;1. Install Iterm2&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install iterm2&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; myfolder
-brew cask install iterm2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;2-install-z-shell&#34;&gt;2. Install Z-shell&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install ZSH&lt;/span&gt;
-brew install zsh
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install Oh My Zsh&lt;/span&gt;
-sh -c &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Source .bash_profile&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.bash_profile
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# If you use conda environment&lt;/span&gt;
-conda init zsh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;3-install-color-scheme&#34;&gt;3. Install Color Scheme&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone git@github.com:mbadolato/iTerm2-Color-Schemes.git
-
-&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Colors &amp;gt; Color Presets &amp;gt; Import &amp;gt; Select Folder iTerm2-Color-Schemes/Schemes/yourfavouritecolor&amp;#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;4-install-powerline-font&#34;&gt;4. Install powerline font&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
-vim ~/.zshrc
-  &lt;span style=&#34;color:#000&#34;&gt;ZSH_THEME&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;agnoster&amp;#34;&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Clone&lt;/span&gt;
-git clone https://github.com/powerline/fonts.git --depth&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install fonts&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; fonts
-./install.sh
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Clean-up&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; ..
-rm -rf fonts
-
-&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;Go to iTerm2 &amp;gt; Preferences &amp;gt; Profile &amp;gt; Text &amp;gt; ChangeFont&amp;#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;p&gt;&lt;img src=&#34;/assets/pics/terminal.png&#34; alt=&#34;Terminal&#34;&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;5-get-miniconda-working-in-oh-my-zsh&#34;&gt;5. Get miniconda working in Oh My ZSH&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;open ~/.bash_profile
-open ~/.zshrc
-&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# Copy below from ~/.bash_profile to ~/.zshrc
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# added by miniconda3 5.3.0 installer
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; conda init &amp;gt;&amp;gt;&amp;gt;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# !! Contents within this block are managed by &amp;#39;&lt;/span&gt;conda init&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39; !!
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;__conda_setup=&amp;#34;$(CONDA_REPORT_ERRORS=false &amp;#39;&lt;/span&gt;/miniconda3/bin/conda&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39; shell.bash hook 2&amp;gt; /dev/null)&amp;#34;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;if [ $? -eq 0 ]; then
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    \eval &amp;#34;$__conda_setup&amp;#34;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;else
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    if [ -f &amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34; ]; then
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        . &amp;#34;/miniconda3/etc/profile.d/conda.sh&amp;#34;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        CONDA_CHANGEPS1=false conda activate base
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    else
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;        \export PATH=&amp;#34;/miniconda3/bin:$PATH&amp;#34;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;    fi
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;fi
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;unset __conda_setup
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;# &amp;lt;&amp;lt;&amp;lt; conda init &amp;lt;&amp;lt;&amp;lt;
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Add the below line in ~/.zshrc file&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PATH&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;~/Users/j/miniconda3/bin:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$PATH&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
-
-&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Restart zshell&lt;/span&gt;
-&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; ~/.zshrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;h3 id=&#34;6-add-zsh-syntax-highlighting&#34;&gt;6. Add zsh syntax highlighting&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-
-&lt;span style=&#34;color:#204a87&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;source &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(q-)PWD&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ZDOTDIR&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;:-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$HOME&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;}&lt;/span&gt;/.zshrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156&#34;&gt;How to Configure your macOs Terminal with Zsh like a Pro&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh&#34;&gt;oh-my-zsh&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mbadolato/iTerm2-Color-Schemes&#34;&gt;iTerm2-Color-Schemes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/powerline/fonts&#34;&gt;powerline&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/@ryanwhocodes/you-could-uninstall-oh-my-zsh-de3e5cba031&#34;&gt;How to revert your terminal to its default settings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md&#34;&gt;zsh-syntax-highlighting&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
       </description>
     </item>

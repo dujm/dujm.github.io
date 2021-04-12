@@ -1037,6 +1037,11 @@
   </url>
   
   <url>
+    <loc>/docs/computer_science/software-engineering/testing/makefile/</loc>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/swiss-knives/markdown/</loc>
     <lastmod>2021-04-09T00:00:00+00:00</lastmod>
   </url>
@@ -1074,6 +1079,11 @@
   <url>
     <loc>/docs/math/probability/s110_l06_montyhall/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/swiss-knives/terminal/terminal-mac/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1217,6 +1227,11 @@
   </url>
   
   <url>
+    <loc>/docs/computer_science/software-engineering/testing/</loc>
+    <lastmod>2021-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/machinelearning/optimization/selection/</loc>
     <lastmod>2021-03-16T00:00:00+00:00</lastmod>
   </url>
@@ -1257,7 +1272,7 @@
   </url>
   
   <url>
-    <loc>/docs/computer_science/software-engineering/testing/</loc>
+    <loc>/docs/computer_science/software-engineering/testing/testing/</loc>
     <lastmod>2021-03-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -1302,23 +1317,18 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/terminal/terminal-ubuntu/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/swiss-knives/terminal/</loc>
-    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/swiss-knives/terminal/terminal-mac/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/blog/2019/</loc>
     <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/swiss-knives/terminal/terminal-ubuntu/</loc>
+    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1343,7 +1353,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
