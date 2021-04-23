@@ -280,5 +280,64 @@ mkdir output
       </description>
     </item>
     
+    <item>
+      <title>Docs: Video/Audio</title>
+      <link>/docs/swiss-knives/converter/converter-video-audio/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/swiss-knives/converter/converter-video-audio/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;ffmpeg&#34;&gt;ffmpeg&lt;/h2&gt;
+&lt;h3 id=&#34;download&#34;&gt;Download&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ffmpeg.org/download.html&#34;&gt;Download zip file or exe file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Or download from source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;setup&#34;&gt;Setup&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract &lt;code&gt;ffmpeg&lt;/code&gt; from downloaded zip file if needed&lt;/li&gt;
+&lt;li&gt;Open terminal and go to the path of &lt;code&gt;ffmpeg &lt;/code&gt;file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;documentation&#34;&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ffmpeg.org/documentation.html&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;convert-video-format&#34;&gt;Convert video format&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert between &lt;code&gt;mp4&lt;/code&gt;, &lt;code&gt;avi&lt;/code&gt;, &lt;code&gt;mkv&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;ffmpeg -i  input.avi output.mp4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;To set the video bitrate of the output file to 64 kbit/s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;ffmpeg -i input.avi -b:v 64k -bufsize 64k output.avi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;To force the frame rate of the output file to 24 fps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;ffmpeg -i input.avi -r &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;24&lt;/span&gt; output.avi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;under-the-hood&#34;&gt;Under the hood&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ffmpeg&lt;/code&gt; calls the &lt;code&gt;libavformat&lt;/code&gt; library (containing &lt;code&gt;demuxers&lt;/code&gt;) to read input files and get packets containing encoded data from them.&lt;/li&gt;
+&lt;li&gt;When there are multiple input files, ffmpeg tries to keep them synchronized by tracking lowest timestamp on any active input stream.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;terms&#34;&gt;Terms&lt;/h2&gt;
+&lt;h3 id=&#34;frame-rate&#34;&gt;Frame rate&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;expressed in frames per second or FPS&lt;/li&gt;
+&lt;li&gt;the frequency (rate) at which consecutive images called frames appear on a display&lt;/li&gt;
+&lt;li&gt;the term applies equally to film and video cameras, computer graphics, and motion capture systems.&lt;/li&gt;
+&lt;li&gt;frame rate may also be called the frame frequency, and be expressed in hertz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bit-rate&#34;&gt;Bit rate&lt;/h3&gt;
+&lt;p&gt;In telecommunications and computing, bit rate (bitrate or as a variable R) is the number of bits that are conveyed or processed per unit of time.&lt;/p&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
