@@ -97,6 +97,21 @@
 &lt;li&gt;Bundle these files together with a &lt;code&gt;bodywork.yaml&lt;/code&gt; configuration file, into a Git repository and you&amp;rsquo;re ready to go.&lt;br&gt;
 &lt;img src=&#34;https://camo.githubusercontent.com/d785febc1b79a86d5b0176e55b4be33baa15560ce438ff63b7dd3251f05463b0/68747470733a2f2f626f6479776f726b2d6d656469612e73332e65752d776573742d322e616d617a6f6e6177732e636f6d2f70726f6a6563745f7374727563747572655f6d61702e706e67&#34; alt=&#34;stages&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;how-to-troubleshoot-a-serverless-application&#34;&gt;How to troubleshoot a serverless application?&lt;/h2&gt;
+&lt;h3 id=&#34;grafana&#34;&gt;Grafana&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon Managed Service for Grafana (AMG), is a fully managed service that makes visualizing and analyzing operational data at scale easier.&lt;/li&gt;
+&lt;li&gt;Many customers choose AMG because of an existing investment in Grafana, its deep integration with vendors they might already be using, consolidation of metrics across environments, and powerful visualizations for both in-cloud and on-premises workloads.&lt;/li&gt;
+&lt;li&gt;Amazon Managed Service for Grafana is a powerful tool for analyzing your serverless application’s metrics and logs.
+&lt;img src=&#34;https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/12/Richman-Grafana_F1.png&#34; alt=&#34;Grafana&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/12/Richman-Grafana_F1.png&#34;&gt;Grafana&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/mt/amazon-managed-grafana-getting-started/&#34;&gt;Amazon Managed Service for Grafana – Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/opensource/using-amazon-managed-service-for-grafana-to-troubleshoot-a-serverless-application/&#34;&gt;Using Amazon Managed Service for Grafana to troubleshoot a serverless application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
