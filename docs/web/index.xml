@@ -322,7 +322,6 @@ git rm -r --cached public
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# re-add public as submodule &lt;/span&gt;
 git submodule add -b master --force git@github.com:yourusrname/yourusrname.github.io.git public
 
-git submodule add -b master --force git@github.com:dujm/dujm.github.io.git public
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
