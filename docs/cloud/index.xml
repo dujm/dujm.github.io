@@ -1,0 +1,218 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Cloud</title>
+    <link>/docs/cloud/</link>
+    <description>Recent content in Cloud on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: AWS</title>
+      <link>/docs/cloud/aws/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/aws/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Azure</title>
+      <link>/docs/cloud/azure/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/azure/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;about-azure-devops&#34;&gt;About Azure DevOps&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Repo: a git repo (e.g. clone, fork etc)&lt;/li&gt;
+&lt;li&gt;Pipeline&lt;/li&gt;
+&lt;li&gt;Work Items (e.g. issue, epic )&lt;/li&gt;
+&lt;li&gt;Test Plan: more for large organization&lt;/li&gt;
+&lt;li&gt;Artifacts: more for a small team
+&lt;ul&gt;
+&lt;li&gt;Create new feed and use in the pipelines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;1-what-is-azure-pipeline&#34;&gt;1. What is Azure Pipeline?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops&#34;&gt;Azure Pipelines&lt;/a&gt; is a cloud service that you can use to automatically &lt;strong&gt;build and test&lt;/strong&gt; your code project and make it available to other users. It works with just about any language or project type.&lt;/p&gt;
+&lt;p&gt;Azure Pipelines combines &lt;strong&gt;continuous integration (CI)&lt;/strong&gt; and &lt;strong&gt;continuous delivery (CD)&lt;/strong&gt; to constantly and consistently test and build your code and ship it to any target.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Continuous integration (CI)&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Continuous delivery (CD)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Automatically ensure you don&amp;rsquo;t ship broken code.&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Automatically deploy code to production.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Build faster by splitting test and build run&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Ensure deployment targets have latest code.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Run tests continually.&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Use tested code from CI process.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Increase code coverage.&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;2-create-an-azure-pipeline-to-build-a-github-repository&#34;&gt;2. Create an Azure Pipeline to build a GitHub repository&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;On GitHub
+&lt;ul&gt;
+&lt;li&gt;Register a GitHub account&lt;/li&gt;
+&lt;li&gt;Create a new &lt;code&gt;public&lt;/code&gt; repo (e.g. &lt;code&gt;azure&lt;/code&gt;) and push an initial commit (e.g. &lt;code&gt;README.md&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;On Azure
+&lt;ul&gt;
+&lt;li&gt;Sign up an &lt;a href=&#34;https://azure.microsoft.com/en-us/services/devops/pipelines/&#34;&gt;an Azure DevOps account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add an Azure DevOps organization&lt;/li&gt;
+&lt;li&gt;Add a &lt;code&gt;public&lt;/code&gt; Azure project&lt;/li&gt;
+&lt;li&gt;In the project, navigate to the &lt;code&gt;Pipiline&lt;/code&gt; page&lt;/li&gt;
+&lt;li&gt;Select the GitHub repo &lt;code&gt;azure&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Build a new pipeline following the &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&amp;amp;tabs=tfs-2018-2&#34;&gt;tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-customize-your-pipeline&#34;&gt;3. Customize your pipeline&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Edit a yml file on Azure DevOps project/pipeline/Builds =&amp;gt; Commit and Run =&amp;gt; The yml file will be pushed to GitHub automatically&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Push a new yml file to GitHub =&amp;gt; On Azure DevOps, select &lt;code&gt;Existing Azure pipeline YAML file&lt;/code&gt; =&amp;gt; Select the yml on GitHub&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-pipeline-structures&#34;&gt;4. Pipeline structures&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Stage&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Major divisions in a pipeline&lt;/li&gt;
+&lt;li&gt;By default, stages run sequentially&lt;/li&gt;
+&lt;li&gt;e.g. &lt;code&gt;build this app&lt;/code&gt;, &lt;code&gt;run these tests&lt;/code&gt;, and &lt;code&gt;deploy to pre-production&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Job&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jobs can be run conditionally, and they may depend on earlier jobs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A collection of steps to be run by an agent or on the server.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A linear sequence of operations that make up a job&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Each step runs in its own process on an agent and has access to the pipeline workspace on disk.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This means environment variables are not preserved between steps but filesystem changes are.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Variables&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Hardcoded values can be added directly, or variable groups can be referenced.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Variables may be specified at the pipeline, stage, or job level.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=H-R2bCXfz8I&#34;&gt;Intro to Azure DevOps - Source Control, CI/CD, Automation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops&#34;&gt;Azure Pipelines Doc&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&amp;amp;tabs=yaml&#34;&gt;Jobs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&amp;amp;tabs=yaml%2Cbatch&#34;&gt;Variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MicrosoftDocs/pipelines-anaconda&#34;&gt;Pipelines-anaconda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/anaconda?view=azure-devops&amp;amp;tabs=macos&#34;&gt;Run pipelines with Anaconda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vlBuNM6Wzic&#34;&gt;Continuous Builds for master branch and pull request&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/python-webapp?view=azure-devops&#34;&gt;Deploy a Python web app using CI/CD to Azure App Service&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&amp;amp;tabs=schema&#34;&gt;YAML schema reference&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/yaml/&#34;&gt;Learn YAML in Y minutes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Google</title>
+      <link>/docs/cloud/google/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/google/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: DevOps</title>
+      <link>/docs/cloud/devops/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/devops/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

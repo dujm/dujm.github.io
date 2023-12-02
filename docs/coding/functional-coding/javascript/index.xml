@@ -1,0 +1,47 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – JavaScript</title>
+    <link>/docs/coding/functional-coding/javascript/</link>
+    <description>Recent content in JavaScript on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 17 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/coding/functional-coding/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Course</title>
+      <link>/docs/coding/functional-coding/javascript/course/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/course/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freecodecamp.org/learn/&#34;&gt;JavaScript Algorithm and Data Structures Certification by FreeCodeCamp&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Practices</title>
+      <link>/docs/coding/functional-coding/javascript/practices/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/practices/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

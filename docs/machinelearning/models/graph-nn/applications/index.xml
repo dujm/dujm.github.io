@@ -1,0 +1,42 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Applications</title>
+    <link>/docs/machinelearning/models/graph-nn/applications/</link>
+    <description>Recent content in Applications on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/models/graph-nn/applications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: House-GAN</title>
+      <link>/docs/machinelearning/models/graph-nn/applications/gans-house/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/graph-nn/applications/gans-house/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;house-gan&#34;&gt;House-GAN&lt;/h3&gt;
+&lt;p&gt;Relational Generative Adversarial Networks for Graph-constrained House Layout Generation&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/2003.06988.pdf&#34;&gt;Paper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nelson Nauata, Kai-Hung Chang, Chin-Yi Cheng, Greg Mori, Yasutaka Furukawa&lt;/p&gt;
+&lt;p&gt;This paper proposes a novel &lt;strong&gt;graph-constrained generative adversarial network&lt;/strong&gt;, whose g&lt;strong&gt;enerator and discriminator are built upon relational architecture&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The main idea is to encode the constraint into the graph structure of its relational networks.&lt;/p&gt;
+&lt;p&gt;We have demonstrated the proposed architecture for a new house layout generation problem, whose task is to take an architectural constraint as a graph (i.e., the number and types of rooms with their spatial adjacency) and produce a set of axis-aligned bounding boxes of rooms.&lt;/p&gt;
+&lt;p&gt;We measure the quality of generated house layouts with the three metrics: the realism, the diversity, and the compatibility with the input graph constraint.&lt;/p&gt;
+&lt;p&gt;Our qualitative and quantitative evaluations over 117,000 real floorplan images demonstrate that the proposed approach outperforms existing methods and baselines. We will publicly share all our code and data.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

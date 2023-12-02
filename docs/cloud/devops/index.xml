@@ -1,0 +1,140 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – DevOps</title>
+    <link>/docs/cloud/devops/</link>
+    <description>Recent content in DevOps on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/cloud/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: API</title>
+      <link>/docs/cloud/devops/api/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/devops/api/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;read&#34;&gt;Read&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/adnanbabakan/best-restful-api-practices-and-tools-1pbh&#34;&gt;Best RESTful API Practices and Tools &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Courses</title>
+      <link>/docs/cloud/devops/course/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/devops/course/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;mlops-machine-learning-operations-fundamentals&#34;&gt;MLOps (Machine Learning Operations) Fundamentals&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/mlops-fundamentals?utm_campaign=opencourse.Yo-aqRJkEeu9ZBLzQTJEhw.launch&amp;amp;utm_medium=email&amp;amp;utm_source=other&#34;&gt;Offered by Coursera and Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Model</title>
+      <link>/docs/cloud/devops/model/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/devops/model/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbs.twimg.com/media/EmrU1L2UwAEBYu_?format=jpg&amp;amp;name=large&#34; alt=&#34;DevOps Evolution Model&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Image is copied from
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Next we have a maturity model that has never been shown publicly before to my knowledge; it appears to have sprung fully formed from the forehead of some god. &lt;a href=&#34;https://t.co/7PrKVKhTBG&#34;&gt;pic.twitter.com/7PrKVKhTBG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Corey Quinn (@QuinnyPig) &lt;a href=&#34;https://twitter.com/QuinnyPig/status/1327107148405305345?ref_src=twsrc%5Etfw&#34;&gt;November 13, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: MLOps</title>
+      <link>/docs/cloud/devops/mlops/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cloud/devops/mlops/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;how-to-deploy-machine-learning-projects-to-kubernetes&#34;&gt;How to deploy machine learning projects to Kubernetes?&lt;/h2&gt;
+&lt;h3 id=&#34;bodywork&#34;&gt;bodywork&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bodywork-ml/bodywork-core&#34;&gt;GitHub Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bodywork.readthedocs.io/en/latest/installation/&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Installation: &lt;code&gt;pip install bodywork&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;functions-and-examples&#34;&gt;Functions and examples&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bodywork-ml/bodywork-serve-model-project&#34;&gt;serve models as microservices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bodywork-ml/bodywork-batch-job-project&#34;&gt;execute batch jobs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bodywork-ml/bodywork-ml-pipeline-project&#34;&gt;run reproducible pipelines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;benefits&#34;&gt;Benefits&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Bodywork brings DevOps to your machine learning projects and will form the basis of your Machine Learning Operations (MLOps) platform.&lt;/li&gt;
+&lt;li&gt;It will ensure that your projects are always trained with the &lt;strong&gt;latest data&lt;/strong&gt;, the most recent models are always deployed and your machine learning systems remain highly-available.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;target-users&#34;&gt;Target users&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Bodywork is aimed at teams who want to deploy machine learning projects in containers.&lt;/li&gt;
+&lt;li&gt;It will deliver your project&amp;rsquo;s Python modules directly from your &lt;code&gt;Git repository&lt;/code&gt; into Docker containers and manage their deployment to a Kubernetes cluster.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://camo.githubusercontent.com/d175f879e556ff692941356570dd38e8ebbf0c54e6e5ce4d06ff3c14a318dd28/68747470733a2f2f626f6479776f726b2d6d656469612e73332e65752d776573742d322e616d617a6f6e6177732e636f6d2f6d6c5f706970656c696e652e706e67&#34; alt=&#34;bodywork&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://camo.githubusercontent.com/d175f879e556ff692941356570dd38e8ebbf0c54e6e5ce4d06ff3c14a318dd28/68747470733a2f2f626f6479776f726b2d6d656469612e73332e65752d776573742d322e616d617a6f6e6177732e636f6d2f6d6c5f706970656c696e652e706e67&#34;&gt;bodywork&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;how-to-use-bodywork&#34;&gt;How to use bodywork?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;A GiHub account
+&lt;ul&gt;
+&lt;li&gt;support for GitLab, BitBucket and Azure DevOps will come later in 2021&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Access to Kubernetes cluster&lt;/li&gt;
+&lt;li&gt;Divide your project into discrete stages and create an executable Python module for each one.&lt;/li&gt;
+&lt;li&gt;Bundle these files together with a &lt;code&gt;bodywork.yaml&lt;/code&gt; configuration file, into a Git repository and you&amp;rsquo;re ready to go.&lt;br&gt;
+&lt;img src=&#34;https://camo.githubusercontent.com/d785febc1b79a86d5b0176e55b4be33baa15560ce438ff63b7dd3251f05463b0/68747470733a2f2f626f6479776f726b2d6d656469612e73332e65752d776573742d322e616d617a6f6e6177732e636f6d2f70726f6a6563745f7374727563747572655f6d61702e706e67&#34; alt=&#34;stages&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;how-to-troubleshoot-a-serverless-application&#34;&gt;How to troubleshoot a serverless application?&lt;/h2&gt;
+&lt;h3 id=&#34;grafana&#34;&gt;Grafana&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon Managed Service for Grafana (AMG), is a fully managed service that makes visualizing and analyzing operational data at scale easier.&lt;/li&gt;
+&lt;li&gt;Many customers choose AMG because of an existing investment in Grafana, its deep integration with vendors they might already be using, consolidation of metrics across environments, and powerful visualizations for both in-cloud and on-premises workloads.&lt;/li&gt;
+&lt;li&gt;Amazon Managed Service for Grafana is a powerful tool for analyzing your serverless application’s metrics and logs.
+&lt;img src=&#34;https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/12/Richman-Grafana_F1.png&#34; alt=&#34;Grafana&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/12/Richman-Grafana_F1.png&#34;&gt;Grafana&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/mt/amazon-managed-grafana-getting-started/&#34;&gt;Amazon Managed Service for Grafana – Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/opensource/using-amazon-managed-service-for-grafana-to-troubleshoot-a-serverless-application/&#34;&gt;Using Amazon Managed Service for Grafana to troubleshoot a serverless application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

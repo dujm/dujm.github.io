@@ -1,0 +1,114 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Models</title>
+    <link>/docs/machinelearning/models/</link>
+    <description>Recent content in Models on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/models/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Feature Selection</title>
+      <link>/docs/machinelearning/models/feature/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/feature/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Deep Learning</title>
+      <link>/docs/machinelearning/models/deep-learning/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Clustering</title>
+      <link>/docs/machinelearning/models/clustering/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/clustering/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Classification</title>
+      <link>/docs/machinelearning/models/classification/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/classification/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Naive Bayes</title>
+      <link>/docs/machinelearning/models/-naive-bayes/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/-naive-bayes/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/x8-the-ai-community/a-simple-introduction-to-naive-bayes-23538a0395a&#34;&gt;A Simple Introduction to Naive Bayes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Graph NN</title>
+      <link>/docs/machinelearning/models/graph-nn/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/graph-nn/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Optimization</title>
+      <link>/docs/machinelearning/models/optimization/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/optimization/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

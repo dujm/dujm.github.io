@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Papers</title>
+    <link>/docs/machinelearning/cv/papers/</link>
+    <description>Recent content in Papers on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/cv/papers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: R-CNN</title>
+      <link>/docs/machinelearning/cv/papers/mesh-r-cnn/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/cv/papers/mesh-r-cnn/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;mesh-r-cnn&#34;&gt;Mesh R-CNN&lt;/h3&gt;
+&lt;dl&gt;
+&lt;dt&gt;Authors&lt;/dt&gt;
+&lt;dd&gt;Georgia Gkioxari, Jitendra Malik, Justin Johnson (Facebook AI Research)&lt;br&gt;
+&lt;a href=&#34;https://gkioxari.github.io/meshrcnn/&#34;&gt;GitHub&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1906.02739.pdf&#34;&gt;Paper&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Rapid advances in 2D perception have led to systems that accurately detect objects in real-world images.
+However, these systems make predictions in 2D, &lt;strong&gt;ignoring the 3D structure&lt;/strong&gt; of the world. Concurrently, advances in 3D shape prediction have mostly focused on &lt;strong&gt;synthetic benchmarks&lt;/strong&gt; and &lt;strong&gt;isolated objects&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We unify advances in these two areas. We propose a system that detects objects in real-world images and produces &lt;strong&gt;a triangle mesh&lt;/strong&gt; giving the full 3D shape of each detected object. Our system, called Mesh R-CNN, &lt;strong&gt;augments Mask R-CNN with a mesh prediction branch&lt;/strong&gt; that outputs meshes with varying topological structure by &lt;strong&gt;first predicting coarse voxel representations&lt;/strong&gt; which are converted to meshes and &lt;strong&gt;refined with a graph convolution network&lt;/strong&gt; operating over the mesh&amp;rsquo;s vertices and edges.&lt;br&gt;
+We validate our mesh prediction branch on &lt;a href=&#34;http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf&#34;&gt;ShapeNet&lt;/a&gt;, where we outperform prior work on single-image shape prediction. We then deploy our full Mesh R-CNN system on &lt;a href=&#34;https://github.com/xingyuansun/pix3d&#34;&gt;Pix3D&lt;/a&gt;, where we jointly detect objects and predict their 3D shapes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://gkioxari.github.io/meshrcnn/resources/overview_fig.jpg&#34; alt=&#34;Mesh R-CNN&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

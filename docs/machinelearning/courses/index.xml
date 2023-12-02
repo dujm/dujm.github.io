@@ -1,0 +1,53 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Courses</title>
+    <link>/docs/machinelearning/courses/</link>
+    <description>Recent content in Courses on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/courses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Deep Learning</title>
+      <link>/docs/machinelearning/courses/deeplearning/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/deeplearning/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;deep-learning&#34;&gt;Deep Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?app=desktop&amp;amp;list=PLKvO2FVLnI9SYLe1umkXsOfIWmEez04Ii&#34;&gt;CS 839: Special Topics in Deep Learning&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;University of Wisconsin-Madison&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Reinforcement Learning</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

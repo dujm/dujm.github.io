@@ -1,0 +1,63 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Frameworks</title>
+    <link>/docs/machinelearning/frameworks/</link>
+    <description>Recent content in Frameworks on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/frameworks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: JAX</title>
+      <link>/docs/machinelearning/frameworks/flax/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/frameworks/flax/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: PyTorch</title>
+      <link>/docs/machinelearning/frameworks/pytorch/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/frameworks/pytorch/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Tensorflow</title>
+      <link>/docs/machinelearning/frameworks/tensorflow/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/frameworks/tensorflow/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;tutorial&#34;&gt;Tutorial&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/tensorflow-tutorial-deep-learning-with-tf-keras/&#34;&gt;TensorFlow 2 Tutorial: Get Started in Deep Learning With tf.keras&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

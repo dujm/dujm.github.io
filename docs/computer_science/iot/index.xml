@@ -1,0 +1,122 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – IoT</title>
+    <link>/docs/computer_science/iot/</link>
+    <description>Recent content in IoT on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/computer_science/iot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Development Boards</title>
+      <link>/docs/computer_science/iot/development_board/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/iot/development_board/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;/img/pics/RPI3B.jpg&#34; alt=&#34;My RPI&#34;&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.arduino.cc/en/Guide/HomePage&#34;&gt;Arduino&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://projects.raspberrypi.org/en/&#34;&gt;Raspberry Pi&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/BPI-SINOVOIP?tab=repositories&#34;&gt;Banana Pi&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.orangepi.org/&#34;&gt;Orange pi&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.mouser.de/ProductDetail/Coral/G950-01456-01?qs=sGAEpiMZZMtw0nEwywcFgJjuZv55GFNmI6%252BQrIB9AdMsI%252BDXofN1SA%3D%3D&#34;&gt;Coral&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.nvidia.com/embedded/buy/jetson-nano-devkit&#34;&gt;Jetson Nano&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.hackster.io/introducing-the-sparkfun-edge-34c9eb80a000&#34;&gt;Sparkfun Edge&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.google.com/solutions/iot/kit/&#34;&gt;More IoT developer prototyping kits&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: IBM IoT Course</title>
+      <link>/docs/computer_science/iot/ibm-iot-course/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/iot/ibm-iot-course/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/developer-iot&#34;&gt;Coursera Link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Instructors&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brian Innes (Developer Advocate, IBM Digital Business Group)&lt;/li&gt;
+&lt;li&gt;Yianna Papadakis Kantos (Curriculum Specialist, IoT User Education, IBM Watson IoT)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dujm/IoT_Course_IBM/blob/master/reports/IoT_Course_IBM.pdf&#34;&gt;My Notes&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: RPI Touch Screen LCD</title>
+      <link>/docs/computer_science/iot/rpi-lcd-display/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/iot/rpi-lcd-display/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;how-to-assemble-rpi-touch-screen-lcd&#34;&gt;How to assemble RPI Touch Screen LCD?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=E1lua5mgrJs&#34;&gt;Raspberry Pi 7&amp;quot; Touch Screen LCD - Assembly&lt;/a&gt;&lt;br&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/E1lua5mgrJs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;how-to-adjust-the-screen-brightness&#34;&gt;How to adjust the screen brightness?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;# Adjust brightness
+sudo sh -c &#39;echo 90 &amp;gt; /sys/class/backlight/rpi_backlight/brightness&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h3 id=&#34;how-to-disable-the-screen-saver&#34;&gt;How to disable the screen saver?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get install xscreensaver
+Go to GUI Preferences/Screensaver/DisplayMode/Dropdown/DisableScreenSaver
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h3 id=&#34;how-to-install-virtual-keyboard-on-rpi&#34;&gt;How to install virtual keyboard on RPI?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get install matchbox-keyboard -y
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

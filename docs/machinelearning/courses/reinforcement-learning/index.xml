@@ -1,0 +1,232 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Reinforcement Learning</title>
+    <link>/docs/machinelearning/courses/reinforcement-learning/</link>
+    <description>Recent content in Reinforcement Learning on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/courses/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: LICENSE</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/license-udacitycourse/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/license-udacitycourse/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;udacity-license&#34;&gt;Udacity LICENSE&lt;/h2&gt;
+&lt;p&gt;As a condition of accessing or using any of the Services and/or Online Courses, you are, prohibited from undertaking, and agree not to: (a) violate any applicable laws, regulations, or rules; (b) set up multiple User Accounts, (c) reproduce, duplicate, copy, sell, resell, display, publish, transfer, distribute, create derivative works of, or exploit for any commercial purposes any portion of the Services, the Online Courses, any Content (as defined below), or any other aspect of our operations, other than as expressly allowed under this Terms of Use; (d) reverse-engineer, decompile, disassemble or otherwise access the source code for any software that may be used to operate the Services; (e) use Udacity’s name, trademarks, service marks, or other materials in connection with, or to transmit, any unsolicited communications or emails; (f) use any high volume, automated, electronic, or third party means to access the Services including without limitation robots, crawlers, browser plug-ins, browser extensions, spiders, or scripts (“Add-ons”)); (g) frame the Services, place pop-up windows over its pages, or otherwise affect the display of its pages; (h) falsely state, impersonate, or otherwise misrepresent your identity, including but not limited to the use of a pseudonym or misrepresenting your affiliations with a person or entity, past or present; (i) force headers or otherwise manipulate identifiers in order to disguise the origin of any communication transmitted through the Services; (j) directly, or through any Add-ons, scrape any part of the Websites and/or Services; and/or (k) interfere with or disrupt the Services or servers or networks connected to the Services, or disobey any requirements, procedures, policies or regulations of networks connected to the Services.&lt;/p&gt;
+&lt;p&gt;In addition, you may not post, upload, or transmit to or otherwise make available through the Services any content, communications, or other information (collectively, &amp;ldquo;Unauthorized Content&amp;rdquo;):&lt;/p&gt;
+&lt;p&gt;that is obscene, fraudulent, indecent, or libelous or that defames, abuses, harasses, discriminates against or threatens others;
+that contains any viruses, Trojan horses, worms, time bombs, cancelbots, or other disabling devices or other harmful components intended to or that may damage, detrimentally interfere with, surreptitiously intercept, or expropriate any system, data, or personal information
+that you do not have the right to disclose or make available under any law or under contractual or fiduciary relationships (such as insider information, or proprietary and confidential information learned or disclosed as part of employment relationships or under nondisclosure agreements);
+that infringes the copyright, patent, trademark, trade secret, right of publicity, or other intellectual property or proprietary right of any third party;
+that violates the rights of other Users of the Services; or
+that violates any applicable local, state, national or international law or otherwise advocates or encourages any illegal activity.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Syllabus</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/syllabus/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/syllabus/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;udacity-deep-reinforcement-learning&#34;&gt;Udacity Deep Reinforcement Learning&lt;/h2&gt;
+&lt;h2 id=&#34;trainers&#34;&gt;Trainers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Arthur Juliani, Deep Learning Researcher at Unity&lt;/li&gt;
+&lt;li&gt;Avilay Parekh, Principal Machine Learning Engineer at Unity&lt;/li&gt;
+&lt;li&gt;Melody Guan, Machine Learning Ph.D. at Stanford University&lt;/li&gt;
+&lt;li&gt;Peter Welinder, Research Scientist at OpenAI&lt;/li&gt;
+&lt;li&gt;Vincent Gao, Software Engineer (Machine Learning) at Unity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;estimated-time&#34;&gt;Estimated Time&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;4 months: at 10-15 hrs/week&lt;/li&gt;
+&lt;li&gt;Total: 160-240 hrs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+&lt;h3 id=&#34;1-foundations-of-reinforcement-learning&#34;&gt;1. Foundations of Reinforcement Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;how to define real-world problems as &lt;strong&gt;Markov Decision Processes&lt;/strong&gt; (MDPs), so that they can be solved with reinforcement learning.&lt;/li&gt;
+&lt;li&gt;implement classical methods such as &lt;strong&gt;SARSA&lt;/strong&gt; and &lt;strong&gt;Q-learning&lt;/strong&gt; to solve several environments in &lt;strong&gt;OpenAI Gym&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-value-based-methods&#34;&gt;2. Value-Based Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;how to leverage neural networks when solving complex problems using the Deep Q-Networks (DQN) algorithm&lt;/li&gt;
+&lt;li&gt;double Q-learning&lt;/li&gt;
+&lt;li&gt;prioritized experience replay&lt;/li&gt;
+&lt;li&gt;dueling networks&lt;/li&gt;
+&lt;li&gt;create an artificially intelligent game-playing agent that can navigate a spaceship&lt;/li&gt;
+&lt;li&gt;use a &lt;a href=&#34;http://gazebosim.org/&#34;&gt;Gazebo&lt;/a&gt; simulation to train a rover to navigate an environment without running into walls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-policy-based-methods&#34;&gt;3. Policy-Based Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Proximal Policy Optimization (PPO)&lt;/li&gt;
+&lt;li&gt;Advantage Actor-Critic (A2C)&lt;/li&gt;
+&lt;li&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/li&gt;
+&lt;li&gt;optimization techniques such as evolution strategies and hill climbing&lt;/li&gt;
+&lt;li&gt;how to apply deep reinforcement learning techniques to finance and explore an algorithm for &lt;strong&gt;optimal execution of portfolio transactions&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-multi-agent-reinforcement-learning&#34;&gt;4. Multi-Agent Reinforcement Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Most of reinforcement learning is concerned with a single agent that seeks to demonstrate proficiency at a single task. In this agent&amp;rsquo;s environment, there are no other agents.&lt;/li&gt;
+&lt;li&gt;However, if we&amp;rsquo;d like our agents to become truly intelligent, they must be able to communicate with and learn from other agents. In the final part of this nanodegree, we will extend the traditional framework to include multiple agents.&lt;/li&gt;
+&lt;li&gt;Monte Carlo Tree Search (MCTS), the skills behind DeepMind&amp;rsquo;s AlphaZero&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Project 1: Navigation
+In the first project, you’ll leverage neural networks to train an agent to navigate a virtual world and collect as many yellow bananas as possible while avoiding blue banana&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Project 2: Continuous Control
+In the second project, you’ll write an algorithm to &lt;strong&gt;train a robotic arm to reach moving target positions.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Project 3: Collaboration and Competition
+In the final project of the Nanodegree program, you’ll design your own algorithm to train a pair of agents to play tennis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;All of the projects in this Nanodegree program use the rich simulation environments from the &lt;a href=&#34;https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/&#34;&gt;Unity Machine Learning Agents (ML-Agents) software development kit (SDK)&lt;/a&gt;. It is a flexible and intuitive framework which enables:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Academic and industry researchers to study complex behaviors from visual content and realistic physics&lt;/li&gt;
+&lt;li&gt;Industrial and enterprise researchers to implement &lt;strong&gt;large-scale parallel training regimes for robotics&lt;/strong&gt;, &lt;strong&gt;autonomous vehicles&lt;/strong&gt;, and other industrial applications&lt;/li&gt;
+&lt;li&gt;Game developers to tackle challenges, such as using agents to dynamically adjust the game-difficulty level&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.unity.com/project/tanks-tutorial&#34;&gt;Tanks&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;installation-of-tools&#34;&gt;Installation of tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Unity-Technologies/ml-agents&#34;&gt;ml-agents&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Unity-Technologies/ml-agents/blob/release_10_docs/docs/Installation.md&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gazebosim.org/download&#34;&gt;Gazebo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gym.openai.com/&#34;&gt;OpenAI Gym&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openai/gym&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;reach-out&#34;&gt;Reach out&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://knowledge.udacity.com/&#34;&gt;knowledge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hub.udacity.com/rooms/&#34;&gt;chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://classroom.udacity.com/career/main&#34;&gt;Udacity Services&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://career-resource-center.udacity.com/&#34;&gt;Resource Center&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLAwxTw4SYaPmclSEbUDs5itClivbrSCiY&#34;&gt;Coaching Events&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893&#34;&gt;Udacity Course Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/udacity/deep-reinforcement-learning&#34;&gt;Udacity GitHub: deep-reinforcement-learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/udacity/deep-reinforcement-learning-nanodegree-program-what-youll-learn-e424d0d66c1e&#34;&gt;Deep Reinforcement Learning Nanodegree Program: What You’ll Learn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/udacity/deep-reinforcement-learning/blob/master/cheatsheet/cheatsheet.pdf&#34;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/19jUvEO82qt3itGP3mXRmaoMbVOyE6bLOp5_QwqITzaM/edit&#34;&gt;Student curated links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/the-complete-reinforcement-learning-dictionary-e16230b7d24e&#34;&gt;The Complete Reinforcement Learning Dictionary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;books-to-read&#34;&gt;Books to read&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Barto.https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf&#34;&gt;Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G.&lt;/a&gt;. This book is a classic text with an excellent introduction to reinforcement learning fundamentals.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/grokking-deep-reinforcement-learning&#34;&gt;Grokking Deep Reinforcement Learning by Miguel Morales&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;good-to-know&#34;&gt;Good to know&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn by doing&lt;/li&gt;
+&lt;li&gt;Data from nearly 100,000 Udacity graduates show that commitment and persistence are the highest predictors of whether or not a student will graduate.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Foundation</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Value-based</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c2-value/</link>
+      <pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c2-value/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Policy-based</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Multi Agent</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c4-multi-agent/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c4-multi-agent/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

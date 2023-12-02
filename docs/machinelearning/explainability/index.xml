@@ -1,0 +1,114 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Explainability</title>
+    <link>/docs/machinelearning/explainability/</link>
+    <description>Recent content in Explainability on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/explainability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Packages</title>
+      <link>/docs/machinelearning/explainability/explainability/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/explainability/explainability/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;causalmlhttpsgithubcomubercausalml&#34;&gt;&lt;a href=&#34;https://github.com/uber/causalml&#34;&gt;causalml&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/uber/causalml/master/docs/_static/img/uplift_tree_vis.png&#34; alt=&#34;Uplift Tree Visualization&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/uber/causalml/master/docs/_static/img/uplift_tree_vis.png&#34;&gt;Uplift Tree Visualization using causalml&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/uber/causalml/master/docs/_static/img/shap_vis.png&#34; alt=&#34;Meta Learner Feature Importances&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/uber/causalml/master/docs/_static/img/shap_vis.png&#34;&gt;Meta Learner Feature Importances using causalml&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;explainedaihttpsexplainedai&#34;&gt;&lt;a href=&#34;https://explained.ai/&#34;&gt;Explained.ai&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://explained.ai/tensor-sensor/index.html&#34;&gt;Clarifying exceptions and visualizing tensor operations in deep learning code&lt;/a&gt;
+&lt;img src=&#34;https://explained.ai/tensor-sensor/images/teaser.png&#34; alt=&#34;Teaser&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://explained.ai/tensor-sensor/images/teaser.png&#34;&gt;Image from Explained.ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;tensor-sensor&#34;&gt;Tensor Sensor&lt;/h3&gt;
+&lt;p&gt;It works with Tensorflow, PyTorch, JAX, and Numpy, as well as higher-level libraries like Keras and fastai.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/parrt/tensor-sensor/blob/master/testing/examples.ipynb&#34;&gt;Example notebook&lt;/a&gt;
+&lt;img src=&#34;https://camo.githubusercontent.com/17de41c1b08b8d9a7cbbb8ea065a1e9873b1b30e655724ca5fe9d8b45329e2c5/68747470733a2f2f6578706c61696e65642e61692f74656e736f722d73656e736f722f696d616765732f7465617365722e706e67&#34; alt=&#34;Tensor Sensor&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/parrt/tensor-sensor&#34;&gt;Image from Tensor Sensor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;dalex&#34;&gt;DALEX&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ema.drwhy.ai/&#34;&gt;Gentle introduction to DALEX with examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Installation &lt;code&gt;pip install dalex -U&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;dalextra&#34;&gt;DALEXtra&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;scikit-learn&lt;/li&gt;
+&lt;li&gt;keras&lt;/li&gt;
+&lt;li&gt;H2O&lt;/li&gt;
+&lt;li&gt;tidymodels&lt;/li&gt;
+&lt;li&gt;xgboost&lt;/li&gt;
+&lt;li&gt;mlr or mlr3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/ModelOriented/DALEX/master/misc/DALEXpiramide.png&#34; alt=&#34;DALEX functions&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/ModelOriented/DALEX&#34;&gt;DALEX functions, image from DALEX &lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/ModelOriented/DALEX/master/misc/cheatsheet_local_explainers.png&#34; alt=&#34;DALEX Prediction models&#34;&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;why&#34;&gt;Why&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ModelOriented/DALEX&#34;&gt;From DALEX&lt;/a&gt;
+It&amp;rsquo;s clear that we need to control algorithms that may affect us. Such control is in our civic rights. Here we propose three requirements that any predictive model should fulfill.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Prediction&amp;rsquo;s justifications&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For every prediction of a model one should be able to understand which variables affect the prediction and how strongly.&lt;/li&gt;
+&lt;li&gt;Variable attribution to final prediction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Prediction&amp;rsquo;s speculations&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For every prediction of a model one should be able to understand how the model prediction would change if input variables were changed.&lt;/li&gt;
+&lt;li&gt;Hypothesizing about what-if scenarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Prediction&amp;rsquo;s validations&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For every prediction of a model one should be able to verify how strong are evidences that confirm this particular prediction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are two ways to comply with these requirements.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One is to use only models that fulfill these conditions by design.
+&lt;ul&gt;
+&lt;li&gt;White-box models like linear regression or decision trees.&lt;/li&gt;
+&lt;li&gt;In many cases the price for transparency is lower performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The other way is to use approximated explainers – techniques that find only approximated answers, but work for any black box model.
+&lt;ul&gt;
+&lt;li&gt;Here we present such techniques.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,126 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Functional Coding</title>
+    <link>/docs/coding/functional-coding/</link>
+    <description>Recent content in Functional Coding on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/coding/functional-coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Bash</title>
+      <link>/docs/coding/functional-coding/bash/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/bash/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: JavaScript</title>
+      <link>/docs/coding/functional-coding/javascript/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/javascript/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Markdown</title>
+      <link>/docs/coding/functional-coding/markdown/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/markdown/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;1-how-to-align-columns-in-markdown&#34;&gt;1. How to align columns in markdown?&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Left alignment&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Right alignment&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Center alignment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&amp;mdash;&amp;mdash;-:&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;:&amp;mdash;&amp;mdash;:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;2-how-to-copy-table-in-excel-and-paste-as-a-markdown-table&#34;&gt;2. How to copy table in excel and paste as a markdown table?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/&#34;&gt;thisdavej.com&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt; 
+&lt;h3 id=&#34;3-how-to-create-books-in-markdown&#34;&gt;3. How to create books in markdown?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rust-lang.github.io/mdBook/index.html&#34;&gt;mdBook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;mdBook is a command line tool and Rust crate to create books using Markdown files.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;# Install Rust
+curl --proto &#39;=https&#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Add Cargo&#39;s bin directory ($HOME/.cargo/bin) in your PATH
+
+source $HOME/.cargo/env
+
+# Install mdBook
+cargo install mdbook
+
+# Initialize 
+mdbook init 
+
+# Render your book
+mdbook build
+
+# Preview a book by serving it over HTTP at localhost:3000 by default 
+mdbook serve
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/GitbookIO/gitbook&#34;&gt;GitBook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-what-is-a-good-markdown-editor&#34;&gt;4. What is a good Markdown editor?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nhn/tui.editor&#34;&gt;tui.editor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-how-to-highlight-code-in-markdown&#34;&gt;5. How to highlight code in Markdown?&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;9&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/github/linguist/blob/master/lib/linguist/languages.yml&#34;&gt;Check Languages known to GitHub&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Python</title>
+      <link>/docs/coding/functional-coding/python/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/python/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,3614 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.76.5" />
+
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+<link rel="alternate" type="application/rss&#43;xml" href="/docs/machinelearning/ai/papers/index.xml">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>Papers | DJ&#39;s Website</title><meta property="og:title" content="Papers" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/docs/machinelearning/ai/papers/" />
+<meta property="og:updated_time" content="2020-04-21T00:00:00+00:00" />
+<meta itemprop="name" content="Papers">
+<meta itemprop="description" content="">
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Papers"/>
+<meta name="twitter:description" content=""/>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+>
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+>
+</script>
+
+  
+
+
+
+
+<link rel="preload" href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" as="style">
+<link href="/scss/main.min.13d434fbdc487bc4de1150d3995853a0eb848f317db153f12f0128e1eaf4e5b8.css" rel="stylesheet" integrity="">
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script
+  src="https://unpkg.com/lunr@2.3.8/lunr.min.js"
+  integrity="sha384-vRQ9bDyE0Wnu+lMfm57BlYLO0/XauFuKpVsZPs7KEDwYKktWi5+Kz3MP8++DFlRY"
+  crossorigin="anonymous"></script>
+
+
+
+
+    <title>Papers | DJ&#39;s Website</title>
+  </head>
+  <body class="td-section">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/">
+		<span class="navbar-logo"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500"><g><path style="fill:#fff" d="M116.8525 421.9722c-5.7041.0-10.3442-4.3127-10.3442-9.6129V88.183c0-5.3002 4.6401-9.6117 10.3442-9.6117H320.858c3.0347.0 9.3959.5498 11.7506 2.6302l.3545.3442 58.905 63.2912c2.3101 2.491 2.9202 8.4928 2.9202 11.3184v256.2039c0 5.3002-4.6407 9.6129-10.3436 9.6129H116.8525z"/><g><g><g><path style="fill:#767676" d="M384.4445 423.2066H116.852c-6.3839.0-11.5786-4.8658-11.5786-10.8474V88.1831c0-5.9804 5.1947-10.8461 11.5786-10.8461h204.0062c.377.0 9.2786.0329 12.568 2.9389l.3947.3833 58.9508 63.337c3.2135 3.4652 3.2514 11.7924 3.2514 12.1593v256.2036C396.0231 418.3408 390.8284 423.2066 384.4445 423.2066zM116.5079 411.9189c.0848.0278.1999.0531.3441.0531h267.5925c.1442.0.2581-.0253.3441-.0531V156.1556c-.0076-.9033-.3593-3.7347-.7034-5.0037l-57.6527-61.9416c-1.4651-.3176-4.4533-.6389-5.5742-.6389H116.852c-.143.0-.2594.024-.3441.0531V411.9189zm267.4533-261.149zM327.0321 89.371v.0013V89.371z"/></g></g></g><g><g><path style="fill:#5b7fc0" d="M189.0874 210.1754l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4473C177.5953 212.627 183.0601 210.1742 189.0874 210.1754zM197.0804 232.033c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 234.1722 197.0804 232.033z"/><path style="opacity:.3;fill:#fff" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zM197.0839 232.0372c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/><g><defs><path id="SVGID_1_" d="M194.7376 237.6875c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 234.2399 196.1861 236.239 194.7376 237.6875z"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_2_);fill:#fff" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/><path style="opacity:.13;clip-path:url(#SVGID_2_);fill:#020202" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/></g><g><defs><path id="SVGID_3_" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zM197.0839 232.0372c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_4_);fill:#5b7fc0" d="M172.6595 215.6045c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8475-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 209.1953 176.6171 211.647 172.6595 215.6045z"/></g></g><rect x="198.8952" y="225.1043" style="fill:#5b7fc0" width="122.6266" height="13.8671"/></g><g><path style="fill:#d95140" d="M189.0874 155.7611l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.0249 2.454-11.4897 6.4116-15.4473C177.5953 158.2128 183.0601 155.7599 189.0874 155.7611zM197.0804 177.6188c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.2508 181.7667 197.0816 179.758 197.0804 177.6188z"/><path style="opacity:.3;fill:#fff" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zM197.0839 177.623c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/><g><defs><path id="SVGID_5_" d="M194.7376 183.2733c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 179.8256 196.1861 181.8248 194.7376 183.2733z"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_6_);fill:#fff" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/><path style="opacity:.13;clip-path:url(#SVGID_6_);fill:#020202" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/></g><g><defs><path id="SVGID_7_" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zM197.0839 177.623c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_8_);fill:#d95140" d="M172.6595 161.1903c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 154.7811 176.6171 157.2327 172.6595 161.1903z"/></g><rect x="198.8952" y="170.69" style="fill:#d95140" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#56a55c" d="M189.5379 264.6147l.0012-.0012c7.7751.0012 15.0294 4.1862 18.932 10.9235 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032-5.8394.0-11.3281-2.2733-15.458-6.4032-4.13-4.13-6.4032-9.6186-6.4056-15.4628.0012-6.0249 2.454-11.4897 6.4116-15.4472C178.0458 267.0663 183.5105 264.6135 189.5379 264.6147zM197.5309 286.4723c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6538 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.7013 290.6202 197.5321 288.6115 197.5309 286.4723z"/><path style="opacity:.3;fill:#fff" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zM197.5344 286.4765c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/><g><defs><path id="SVGID_9_" d="M195.1881 292.1268c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9941 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.5344 288.6792 196.6366 290.6783 195.1881 292.1268z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_10_);fill:#fff" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/><path style="opacity:.13;clip-path:url(#SVGID_10_);fill:#020202" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/></g><g><defs><path id="SVGID_11_" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zM197.5344 286.4765c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/></defs><clipPath id="SVGID_12_"><use xlink:href="#SVGID_11_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_12_);fill:#56a55c" d="M173.11 270.0439c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7325-11.1497-10.9151-18.926-10.9151C182.5311 263.6346 177.0676 266.0863 173.11 270.0439z"/></g></g><rect x="199.3456" y="279.5436" style="fill:#56a55c" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#f1bc42" d="M189.0874 318.7208l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3305-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4472C177.5953 321.1724 183.0601 318.7196 189.0874 318.7208zM197.0804 340.5784c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 342.7176 197.0804 340.5784z"/><path style="opacity:.3;fill:#fff" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zM197.0839 340.5826c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/><g><defs><path id="SVGID_13_" d="M194.7376 346.2329c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 342.7853 196.1861 344.7844 194.7376 346.2329z"/></defs><clipPath id="SVGID_14_"><use xlink:href="#SVGID_13_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_14_);fill:#fff" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/><path style="opacity:.13;clip-path:url(#SVGID_14_);fill:#020202" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/></g><g><defs><path id="SVGID_15_" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zM197.0839 340.5826c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/></defs><clipPath id="SVGID_16_"><use xlink:href="#SVGID_15_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_16_);fill:#f1bc42" d="M172.6595 324.15c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8474-1.0151-7.6327-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 317.7407 176.6171 320.1924 172.6595 324.15z"/></g></g><rect x="198.8952" y="333.6497" style="fill:#f1bc42" width="122.6266" height="13.8671"/></g></g></svg></span><span class="text-uppercase font-weight-bold">DJ&#39;s Website</span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/community/" ><span>Contact</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link active" href="/docs/" ><span class="active">Data Science</span></a>
+			</li>
+			
+			
+			
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block">
+
+
+<input
+  type="search"
+  class="form-control td-search-input"
+  placeholder="&#xf002; Search this site…"
+  aria-label="Search this site…"
+  autocomplete="off"
+  
+  data-offline-search-index-json-src="/offline-search-index.6bccb341107099250298159f0fef04efd18fbb31bffe3a35f151f81ede194728d305b3dfd810e1323eadfd729a00b4a5ecddd7c811585e6e446495f722072388.json"
+  data-offline-search-base-href="/"
+>
+
+</div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+
+
+
+
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+
+
+<input
+  type="search"
+  class="form-control td-search-input"
+  placeholder="&#xf002; Search this site…"
+  aria-label="Search this site…"
+  autocomplete="off"
+  
+  data-offline-search-index-json-src="/offline-search-index.6bccb341107099250298159f0fef04efd18fbb31bffe3a35f151f81ede194728d305b3dfd810e1323eadfd729a00b4a5ecddd7c811585e6e446495f722072388.json"
+  data-offline-search-base-href="/"
+>
+
+
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  
+  <nav class="collapse td-sidebar-nav pt-2 pl-4" id="td-section-nav">
+    
+    
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Data Science</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="docs">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/cloud/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Cloud</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscloud">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/cloud/aws/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">AWS</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscloudaws">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscloudawscdk" href="/docs/cloud/aws/cdk/">CDK</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscloudawsaws_sdk_cli" href="/docs/cloud/aws/aws_sdk_cli/">SDK</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscloudazure" href="/docs/cloud/azure/">Azure</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/cloud/google/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Google</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscloudgoogle">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscloudgooglegcp_sdk" href="/docs/cloud/google/gcp_sdk/">GCP SDK Setup</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscloudgooglecolab" href="/docs/cloud/google/colab/">Google Colab</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/cloud/devops/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">DevOps</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsclouddevops">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/cloud/devops/api/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">API</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsclouddevopsapi">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsclouddevopscourse" href="/docs/cloud/devops/course/">Courses</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsclouddevopsmodel" href="/docs/cloud/devops/model/">Model</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsclouddevopsmlops" href="/docs/cloud/devops/mlops/">MLOps</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Coding</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscoding">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Functional Coding</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-coding">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/bash/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Bash</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingbash">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingbashfree" href="/docs/coding/functional-coding/bash/free/">Free up disk space</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingbashcommands" href="/docs/coding/functional-coding/bash/commands/">Commands</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/javascript/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">JavaScript</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingjavascript">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/javascript/course/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Course</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingjavascriptcourse">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/javascript/course/basics/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Basics</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingjavascriptcoursebasics">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursebasicsvariables" href="/docs/coding/functional-coding/javascript/course/basics/variables/">Variables</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursebasicsfunctions" href="/docs/coding/functional-coding/javascript/course/basics/functions/">Functions</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursebasicsobjects" href="/docs/coding/functional-coding/javascript/course/basics/objects/">Objects</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursebasicsloops" href="/docs/coding/functional-coding/javascript/course/basics/loops/">Loops</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursebasicsnumbers" href="/docs/coding/functional-coding/javascript/course/basics/numbers/">Numbers</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/javascript/course/es6/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">ES6</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingjavascriptcoursees6">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursees6part1" href="/docs/coding/functional-coding/javascript/course/es6/part1/">Part 1</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursees6part2" href="/docs/coding/functional-coding/javascript/course/es6/part2/">Part 2</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursees6part3" href="/docs/coding/functional-coding/javascript/course/es6/part3/">Part 3</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/javascript/course/regular-expression/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">RE</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingjavascriptcourseregular-expression">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcourseregular-expressionpart1" href="/docs/coding/functional-coding/javascript/course/regular-expression/part1/">Part 1</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcourseregular-expressionpart2" href="/docs/coding/functional-coding/javascript/course/regular-expression/part2/">Part 2</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcourseregular-expressionpart3" href="/docs/coding/functional-coding/javascript/course/regular-expression/part3/">Part 3</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/javascript/course/debugging/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Debugging</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingjavascriptcoursedebugging">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursedebuggingintro" href="/docs/coding/functional-coding/javascript/course/debugging/intro/">Introduction</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursedebugginghowto" href="/docs/coding/functional-coding/javascript/course/debugging/howto/">How to</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/javascript/course/data-structure/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Data Structure</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingjavascriptcoursedata-structure">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursedata-structureintro" href="/docs/coding/functional-coding/javascript/course/data-structure/intro/">Introduction</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptcoursedata-structurearray" href="/docs/coding/functional-coding/javascript/course/data-structure/array/">Recap Array</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/javascript/practices/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Practices</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingjavascriptpractices">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptpracticesbest-practices" href="/docs/coding/functional-coding/javascript/practices/best-practices/">Best practices</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingjavascriptpracticesnodejs" href="/docs/coding/functional-coding/javascript/practices/nodejs/">Node.js</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingmarkdown" href="/docs/coding/functional-coding/markdown/">Markdown</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/python/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Python</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingpython">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/python/testing/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Testing</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingpythontesting">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingpythontestingunittest" href="/docs/coding/functional-coding/python/testing/unittest/">Unit Test</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingpythonf-string" href="/docs/coding/functional-coding/python/f-string/">f-string</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingpythonoutliers" href="/docs/coding/functional-coding/python/outliers/">Outliers</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingpythonimputation" href="/docs/coding/functional-coding/python/imputation/">Imputation</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingpythonplot" href="/docs/coding/functional-coding/python/plot/">Plot</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/functional-coding/python/format/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Format</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingfunctional-codingpythonformat">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingpythonformatautopep8" href="/docs/coding/functional-coding/python/format/autopep8/">auto8pep</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingpythoncommand-line" href="/docs/coding/functional-coding/python/command-line/">Command Line</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingpythonpackages" href="/docs/coding/functional-coding/python/packages/">Packages</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingfunctional-codingpythonfile-reading" href="/docs/coding/functional-coding/python/file-reading/">Read Files</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/expressitive-coding/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Expressive Coding</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingexpressitive-coding">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingexpressitive-codingemojis" href="/docs/coding/expressitive-coding/emojis/">Emojis</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingexpressitive-codingcreative-coding" href="/docs/coding/expressitive-coding/creative-coding/">Creative Coding</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/practices/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Practices</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingpractices">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/practices/env/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Environment</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingpracticesenv">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingpracticesenvconda" href="/docs/coding/practices/env/conda/">conda</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/practices/error_collection/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Error Collections</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingpracticeserror_collection">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingpracticeserror_collectionaws" href="/docs/coding/practices/error_collection/aws/">AWS</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingpracticeserror_collectionpyspark" href="/docs/coding/practices/error_collection/pyspark/">Pyspark</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingpracticeserror_collectionpython" href="/docs/coding/practices/error_collection/python/">Python</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingpracticeserror_collectionwindows" href="/docs/coding/practices/error_collection/windows/">Windows</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingpracticeserror_collectioninstall" href="/docs/coding/practices/error_collection/install/">Installation</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingpracticeserror_collectionvscode" href="/docs/coding/practices/error_collection/vscode/">VScode</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingpracticesclean-code" href="/docs/coding/practices/clean-code/">Clean Code</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingpracticescreate-snippet" href="/docs/coding/practices/create-snippet/">Create Snippets</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/coding/practices/version-control/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Version Control</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscodingpracticesversion-control">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscodingpracticesversion-controlgit" href="/docs/coding/practices/version-control/git/">Git</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/computer_science/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Computer Science</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscomputer_science">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/computer_science/cs/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Courses</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscomputer_sciencecs">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/computer_science/software-engineering/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Software Engineering</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscomputer_sciencesoftware-engineering">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_sciencesoftware-engineeringbig-o" href="/docs/computer_science/software-engineering/big-o/">big-O</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_sciencesoftware-engineeringsorts" href="/docs/computer_science/software-engineering/sorts/">Sorts</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/computer_science/hpc/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">HPC</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscomputer_sciencehpc">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/computer_science/iot/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">IoT</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docscomputer_scienceiot">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_scienceiotdevelopment_board" href="/docs/computer_science/iot/development_board/">Development Boards</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_scienceiotibm-iot-course" href="/docs/computer_science/iot/ibm-iot-course/">IBM IoT Course</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docscomputer_scienceiotrpi-lcd-display" href="/docs/computer_science/iot/rpi-lcd-display/">RPI Touch Screen LCD</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/data/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Data</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsdata">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/data/dataset/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Data Set</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsdatadataset">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatadatasetfind-data" href="/docs/data/dataset/find-data/">Find Data</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatadatasetbuild-data" href="/docs/data/dataset/build-data/">Build Data</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatadatasetkaggle" href="/docs/data/dataset/kaggle/">Kaggle</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/data/privacy/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Privacy and Security</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsdataprivacy">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/data/structure/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Structure</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsdatastructure">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/data/visual-art/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Visualization</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsdatavisual-art">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatavisual-arteda" href="/docs/data/visual-art/eda/">EDA</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatavisual-artdata-viz" href="/docs/data/visual-art/data-viz/">Data to Viz</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatavisual-artimage-processing" href="/docs/data/visual-art/image-processing/">Image Processing</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatavisual-artmatplotlib" href="/docs/data/visual-art/matplotlib/">Matploitlib</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatavisual-artmultivariate" href="/docs/data/visual-art/multivariate/">Multivariate</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatavisual-art3d" href="/docs/data/visual-art/3d/">Visualization 3D</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatavisual-arttime-series" href="/docs/data/visual-art/time-series/">Visualization Timeline</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsdatavisual-artgeo-spatial" href="/docs/data/visual-art/geo-spatial/">Visualization Geospatial</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Machine Learning</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="docsmachinelearning">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/ai/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">AI</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="docsmachinelearningai">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/ai/papers/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Papers</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="docsmachinelearningaipapers">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningaipapersmind" href="/docs/machinelearning/ai/papers/mind/">Mind</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/cv/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">CV</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningcv">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/cv/papers/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Papers</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningcvpapers">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcvpapersmesh-r-cnn" href="/docs/machinelearning/cv/papers/mesh-r-cnn/">R-CNN</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/cv/tools/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Tools</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningcvtools">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/nlp/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">NLP</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningnlp">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/nlp/nlp-papers/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Papers</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningnlpnlp-papers">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningnlpnlp-papershugging-face" href="/docs/machinelearning/nlp/nlp-papers/hugging-face/">Hugging Face</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/nlp/nlp-tools/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Tools</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningnlpnlp-tools">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningnlpnlp-toolsgenism" href="/docs/machinelearning/nlp/nlp-tools/genism/">Genism</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningnlpnlp-toolshay-stack" href="/docs/machinelearning/nlp/nlp-tools/hay-stack/">Haystack</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningnlpnlp-toolsspark-nlp" href="/docs/machinelearning/nlp/nlp-tools/spark-nlp/">Spark NLP</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/courses/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Courses</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningcourses">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesdeeplearning" href="/docs/machinelearning/courses/deeplearning/">Deep Learning</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/courses/reinforcement-learning/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Reinforcement Learning</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningcoursesreinforcement-learning">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learninglicense-udacitycourse" href="/docs/machinelearning/courses/reinforcement-learning/license-udacitycourse/">LICENSE</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningsyllabus" href="/docs/machinelearning/courses/reinforcement-learning/syllabus/">Syllabus</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Foundation</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningcoursesreinforcement-learningc1-foundation">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc1-foundationf01-intro" href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/">Introduction</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc1-foundationf02-rl-problem" href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/">RL Problem</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc1-foundationf03-rl-solutions" href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f03-rl-solutions/">RL Solutions</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc1-foundationf04-monte-carlo" href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f04-monte-carlo/">Monte Carlo</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc1-foundationf05-temporal-difference" href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f05-temporal-difference/">Temporal Difference</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc1-foundationf06-rl-continuous-spaces" href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f06-rl-continuous-spaces/">Continuous Spaces</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/courses/reinforcement-learning/c2-value/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Value-based</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningcoursesreinforcement-learningc2-value">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc2-valuedqn" href="/docs/machinelearning/courses/reinforcement-learning/c2-value/dqn/">DQN</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc2-valuepaper-dqn" href="/docs/machinelearning/courses/reinforcement-learning/c2-value/paper-dqn/">DQN Paper</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/courses/reinforcement-learning/c3-policy/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Policy-based</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningcoursesreinforcement-learningc3-policy">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc3-policyp01-intro" href="/docs/machinelearning/courses/reinforcement-learning/c3-policy/p01-intro/">Introduction</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc3-policyp02-gradient" href="/docs/machinelearning/courses/reinforcement-learning/c3-policy/p02-gradient/">Policy Gradient</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc3-policyp03-proximal" href="/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/">Proximal Policy Optimization</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningcoursesreinforcement-learningc3-policyp04-actor-critic" href="/docs/machinelearning/courses/reinforcement-learning/c3-policy/p04-actor-critic/">Actor-Critic Methods</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/courses/reinforcement-learning/c4-multi-agent/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Multi Agent</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningcoursesreinforcement-learningc4-multi-agent">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/frameworks/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Frameworks</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningframeworks">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/frameworks/flax/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">JAX</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningframeworksflax">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningframeworksflaxflax" href="/docs/machinelearning/frameworks/flax/flax/">Flax</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningframeworksflaxjax" href="/docs/machinelearning/frameworks/flax/jax/">JAX</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningframeworksflaxjraph" href="/docs/machinelearning/frameworks/flax/jraph/">Jraph</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/frameworks/pytorch/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">PyTorch</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningframeworkspytorch">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningframeworkspytorchpytorch-tutorial" href="/docs/machinelearning/frameworks/pytorch/pytorch-tutorial/">PyTorch Tutorial</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningframeworkspytorchpytorch-toolkit" href="/docs/machinelearning/frameworks/pytorch/pytorch-toolkit/">PyTorch</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/frameworks/tensorflow/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Tensorflow</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningframeworkstensorflow">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningframeworkstensorflowoptimizer" href="/docs/machinelearning/frameworks/tensorflow/optimizer/">Optimizer</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningframeworkstensorflowcallbacks" href="/docs/machinelearning/frameworks/tensorflow/callbacks/">Callbacks</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningframeworkstensorflowtensorpipe" href="/docs/machinelearning/frameworks/tensorflow/tensorpipe/">TensorPipe</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/metrics/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Metrics</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmetrics">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Models</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodels">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/feature/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Feature Selection</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsfeature">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsfeaturefeature-selection" href="/docs/machinelearning/models/feature/feature-selection/">Feature Selection</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsfeaturefeature-stores" href="/docs/machinelearning/models/feature/feature-stores/">Feature Stores</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/deep-learning/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Deep Learning</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsdeep-learning">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsdeep-learningmodel-list" href="/docs/machinelearning/models/deep-learning/model-list/">Models</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsdeep-learninggans" href="/docs/machinelearning/models/deep-learning/gans/">GANs</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsdeep-learningcnn" href="/docs/machinelearning/models/deep-learning/cnn/">CNN</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/deep-learning/sequence-models/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Sequence Models</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsdeep-learningsequence-models">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsdeep-learningsequence-modelssequence-models" href="/docs/machinelearning/models/deep-learning/sequence-models/sequence-models/">Sequence Models</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsdeep-learningsequence-modelsword-embeddings" href="/docs/machinelearning/models/deep-learning/sequence-models/word-embeddings/">Word Embeddings</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsdeep-learningsequence-modelsattention-model" href="/docs/machinelearning/models/deep-learning/sequence-models/attention-model/">Attention Model</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/deep-learning/transformers/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Transformers</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsdeep-learningtransformers">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsdeep-learningtransformershugging-face" href="/docs/machinelearning/models/deep-learning/transformers/hugging-face/">Hugging Face</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsdeep-learningtransformersbenchmark" href="/docs/machinelearning/models/deep-learning/transformers/benchmark/">Benchmark</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/clustering/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Clustering</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsclustering">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsclusteringdensity" href="/docs/machinelearning/models/clustering/density/">Density-Based</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/classification/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Classification</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsclassification">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsclassificationmulti-class" href="/docs/machinelearning/models/classification/multi-class/">Multi-class</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsclassificationmulti-label" href="/docs/machinelearning/models/classification/multi-label/">Multi-label</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodels-naive-bayes" href="/docs/machinelearning/models/-naive-bayes/">Naive Bayes</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/graph-nn/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Graph NN</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsgraph-nn">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/graph-nn/applications/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Applications</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsgraph-nnapplications">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsgraph-nnapplicationsgans-house" href="/docs/machinelearning/models/graph-nn/applications/gans-house/">House-GAN</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/graph-nn/papers/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Papers</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsgraph-nnpapers">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsgraph-nnpaperscollections" href="/docs/machinelearning/models/graph-nn/papers/collections/">Collections</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsgraph-nnpaperscommunity-detection" href="/docs/machinelearning/models/graph-nn/papers/community-detection/">Community Detection</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/graph-nn/tools/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Tools</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsgraph-nntools">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsgraph-nntoolsgraph-analysis" href="/docs/machinelearning/models/graph-nn/tools/graph-analysis/">Graph Analysis</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsgraph-nntoolstutorials" href="/docs/machinelearning/models/graph-nn/tools/tutorials/">Tutorials</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsgraph-nntoolsrank" href="/docs/machinelearning/models/graph-nn/tools/rank/">Rank Algorithms</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/models/optimization/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Optimization</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningmodelsoptimization">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningmodelsoptimizationbayesian-optimization" href="/docs/machinelearning/models/optimization/bayesian-optimization/">NN Optimization</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/explainability/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Explainability</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningexplainability">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningexplainabilityexplainability" href="/docs/machinelearning/explainability/explainability/">Packages</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/machinelearning/privacy/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Privacy</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmachinelearningprivacy">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningprivacydifferential-privacy" href="/docs/machinelearning/privacy/differential-privacy/">Differential Privacy</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmachinelearningprojects" href="/docs/machinelearning/projects/">Projects</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/math/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Math</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmath">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/math/intro/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Introduction</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmathintro">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrolinear_algebra" href="/docs/math/intro/linear_algebra/">Linear Algebra</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrocalculus" href="/docs/math/intro/calculus/">Calculus</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/math/intro/probability/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Probablity</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmathintroprobability">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l01_probability_and_counting" href="/docs/math/intro/probability/s110_l01_probability_and_counting/">Probability and Counting</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l02_story_proofs_axioms_probability" href="/docs/math/intro/probability/s110_l02_story_proofs_axioms_probability/">Story Proofs, Axioms of Probability</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l03_birthday" href="/docs/math/intro/probability/s110_l03_birthday/">Birthday</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l04_conditional_probability" href="/docs/math/intro/probability/s110_l04_conditional_probability/">Conditional Probability</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l05_conditioning_2" href="/docs/math/intro/probability/s110_l05_conditioning_2/">Conditional Probability</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l06_montyhall" href="/docs/math/intro/probability/s110_l06_montyhall/">Monty Hall</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroprobabilitys110_l07_l08_random_variables_distributions" href="/docs/math/intro/probability/s110_l07_l08_random_variables_distributions/">Random Variables and Distributions</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrostatistics" href="/docs/math/intro/statistics/">Statistics</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrorender-math" href="/docs/math/intro/render-math/">Math Formulas</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrobayes-theorem" href="/docs/math/intro/bayes-theorem/">Bayes Theorem</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintroneural-networks" href="/docs/math/intro/neural-networks/">Mathematics of Neural Networks</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathintrostatisticssummary" href="/docs/math/intro/statistics/summary/"></a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/math/machinelearning/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Machine Learning</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmathmachinelearning">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathmachinelearning02linear_algebra" href="/docs/math/machinelearning/02linear_algebra/">Linear Algebra</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/math/machinelearning/activation/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Activation</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsmathmachinelearningactivation">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsmathmachinelearningactivationmath-proof" href="/docs/math/machinelearning/activation/math-proof/">Activation</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/swiss-knives/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Swiss Army Knives</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsswiss-knives">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesbuild-your-own" href="/docs/swiss-knives/build-your-own/">Build Your Own</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesbooks" href="/docs/swiss-knives/books/">Books</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesfind-papers" href="/docs/swiss-knives/find-papers/">Find Papers</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesdeveloper-website" href="/docs/swiss-knives/developer-website/">Developer&#39;s Websites</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivescheatsheets" href="/docs/swiss-knives/cheatsheets/">Cheatsheets</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesconverter-pdf-image" href="/docs/swiss-knives/converter-pdf-image/">Converter PDF - Image</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesconverter-pdf-table" href="/docs/swiss-knives/converter-pdf-table/">Converter PDF - Table</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesconverter-csv-txt" href="/docs/swiss-knives/converter-csv-txt/">Converter CSV - TXT</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesconverter-docx-markdown" href="/docs/swiss-knives/converter-docx-markdown/">Converter .docx</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesconverter-jupyter" href="/docs/swiss-knives/converter-jupyter/">Converter Jupyter</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesjupyter-lab" href="/docs/swiss-knives/jupyter-lab/">Jupyter Lab</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesjupyter-notebook" href="/docs/swiss-knives/jupyter-notebook/">Jupyter Notebook</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesterminal-ubuntu" href="/docs/swiss-knives/terminal-ubuntu/">Terminal for Ubuntu</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesterminal-mac" href="/docs/swiss-knives/terminal-mac/">Terminal for Mac</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivestpu" href="/docs/swiss-knives/tpu/">TPU</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesgpu" href="/docs/swiss-knives/gpu/">GPU</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesvscode" href="/docs/swiss-knives/vscode/">VS Code</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-kniveswhite-board" href="/docs/swiss-knives/white-board/">White Board</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/swiss-knives/download/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Download files</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsswiss-knivesdownload">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesdownloaddownload-workspace-file" href="/docs/swiss-knives/download/download-workspace-file/"></a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesthoughts" href="/docs/swiss-knives/thoughts/">Random Thoughts</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/web/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Web</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docsweb">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docswebmy-app" href="/docs/web/my-app/">My Apps</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docswebstatic-website" href="/docs/web/static-website/">Static Websites</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docswebpelican-website" href="/docs/web/pelican-website/">Pelican Website</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docswebhugo-website" href="/docs/web/hugo-website/">Hugo Website</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/healthcare/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Healthcare</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docshealthcare">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/healthcare/bioinfo/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Bioinformatics</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docshealthcarebioinfo">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docshealthcarebioinfosc-rnaseq" href="/docs/healthcare/bioinfo/sc-rnaseq/">sc-RNAseq</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docshealthcarehealthcare-data" href="/docs/healthcare/healthcare-data/">Health Data</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/healthcare/papers/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Papers</a>
+  </li>
+  <ul>
+    <li class="collapse " id="docshealthcarepapers">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docshealthcarepapersfibroblasts" href="/docs/healthcare/papers/fibroblasts/">Fibroblasts</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+  </nav>
+</div>
+
+
+
+
+          </div>
+          <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
+	<ol class="breadcrumb spb-1">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item" >
+	<a href="/docs/">Data Science</a>
+</li>
+
+
+
+
+<li class="breadcrumb-item" >
+	<a href="/docs/machinelearning/">Machine Learning</a>
+</li>
+
+
+
+
+<li class="breadcrumb-item" >
+	<a href="/docs/machinelearning/ai/">AI</a>
+</li>
+
+
+
+
+<li class="breadcrumb-item active" aria-current="page">
+	<a href="/docs/machinelearning/ai/papers/">Papers</a>
+</li>
+
+	</ol>
+</nav	>
+
+            
+<div class="td-content">
+	<h1>Papers</h1>
+	
+	
+        <div class="section-index">
+    
+    
+    
+    
+    <hr class="panel-line">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="entry">
+                    <h5>
+                        <a href="/docs/machinelearning/ai/papers/mind/">Mind</a>
+                    </h5>
+                    <p></p>
+                </div>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    
+</div>
+
+	
+	
+	<div class="text-muted mt-5 pt-3 border-top">Last modified April 21, 2020
+</div>
+</div>
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+        
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" aria-label="GitHub">
+    <a class="text-white" target="_blank" href="https://github.com/dujm">
+      <i class="fab fa-github"></i>
+ 
+    </a>
+  </li>
+  
+</ul>
+
+
+        
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2023 dujm All Rights Reserved</small>
+        <small class="ml-1"><a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Privacy Policy</a></small>
+	
+		
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+<script src="/js/main.min.07381cb6406f1d15281f85a6dea05a3c2e9460f063c7e8dcc39b41f18db3aad0.js" integrity="sha256-BzgctkBvHRUoH4Wm3qBaPC6UYPBjx&#43;jcw5tB8Y2zqtA=" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
+
+

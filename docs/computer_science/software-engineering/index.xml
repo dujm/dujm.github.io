@@ -1,0 +1,125 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Software Engineering</title>
+    <link>/docs/computer_science/software-engineering/</link>
+    <description>Recent content in Software Engineering on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/computer_science/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: big-O</title>
+      <link>/docs/computer_science/software-engineering/big-o/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/software-engineering/big-o/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Flat is better than nested — The Zen of Python&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h3 id=&#34;1-how-do-you-evaluate-codes&#34;&gt;1. How do you evaluate codes?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Time efficiency: Faster? Time complexity&lt;/li&gt;
+&lt;li&gt;Space efficiency: Less memory intensive?&lt;/li&gt;
+&lt;li&gt;More readable ?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;2-what-is-big-o-notation&#34;&gt;2. What is big-O notation?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;a fuzzy way for counting&lt;/li&gt;
+&lt;li&gt;a big picture of the time efficiency of the code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;3-how-to-measure-the-code-performance-using--big-o&#34;&gt;3. How to measure the code performance using  big-O?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Assignment statements and if statements that are only executed once regardless of the size of the problem are O(1).&lt;/li&gt;
+&lt;li&gt;A simple “for” loop from 0 to n (with no internal loops), contributes O(n) (linear complexity);
+a nested loop of the same type (or bounded by the first loop parameter), gives O(n^2) (quadratic complexity);&lt;/li&gt;
+&lt;li&gt;A loop in which the controlling parameter is divided by two at each step (and which terminates when it reaches 1), gives O(log n) (logarithmic complexity);&lt;/li&gt;
+&lt;li&gt;A “while” loop may vary depends on the actual numbers of iterations it will run ( OK. It means as same as the for loop. That is to say, for all kinds of loops, we only care about the actual number of iterations that they’ve executed before they hit the upper bond).&lt;/li&gt;
+&lt;li&gt;A loop with a not-O(1) execution inside, simply multiplies the complexity of the body of the loop, by the number of times the loop will execute.&lt;/li&gt;
+&lt;li&gt;When dealing with multiple statements, add them up.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rules&#34;&gt;Rules:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Constants doesn&amp;rsquo;t matter&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O(2N) = O(N)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O(5) = O(500) = O(1)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O (17N&lt;em&gt;N) = O (N&lt;/em&gt;N)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Smaller terms doesn&amp;rsquo;t matter&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O($N^2$ +50N +10) == O($N^2$)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O(1) &amp;lt; O(log n) &amp;lt; O( Sqrt(n) ) &amp;lt; O(n) &amp;lt; O(n log n) &amp;lt; O($n^2$) &amp;lt; O($n^3$) &amp;lt; O($2^n$)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;4-what-are-the-big-o-notations-from-these-ml-techniques&#34;&gt;4. What are the big-O notations from these ML techniques?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear:  O(N)&lt;/li&gt;
+&lt;li&gt;Sorting: O(nlogN)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;5-bigo-of-various-operations-in-current-cpython&#34;&gt;5. BigO of various operations in current CPython&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.python.org/moin/TimeComplexity&#34;&gt;Time Complexity&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;6-references&#34;&gt;6. References&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.albertgao.xyz/2016/08/09/everything-you-need-to-know-about-big-o-notation/&#34;&gt;Everything about big-o&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pdfs.semanticscholar.org/a8b4/786c9128d4a94caeb67c858ab4f4288c49ff.pdf&#34;&gt;SVM Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1407.7502&#34;&gt;RF Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=kS_gr2_-ws8&#34;&gt;Complete Beginner&amp;rsquo;s Guide to Big ONotation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=v4cd1O4zkGw&#34;&gt;Big O Notation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/python-pandemonium/never-write-for-loops-again-91a5a4c84baf&#34;&gt;You (Probably) Don’t Need For-Loops&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/53843459/neural-networks-and-big-o&#34;&gt;Neural networks and Big(O)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ai.stackexchange.com/questions/5728/what-is-the-time-complexity-for-training-a-neural-network-using-back-propagation&#34;&gt;Back Prop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dj-basis/BigO/blob/master/big-o-cheatsheet.pdf&#34;&gt;Big-O cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Sorts</title>
+      <link>/docs/computer_science/software-engineering/sorts/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/software-engineering/sorts/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;sorts&#34;&gt;Sorts&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/ineffective_sorts.png&#34; alt=&#34;Ineffective Sorts&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://xkcd.com/1185/&#34;&gt;Image from xkcd&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

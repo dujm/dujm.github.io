@@ -1,0 +1,981 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Foundation</title>
+    <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/</link>
+    <description>Recent content in Foundation on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/courses/reinforcement-learning/c1-foundation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Introduction</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;application&#34;&gt;Application&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Game&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Backgammon game
+&lt;ul&gt;
+&lt;li&gt;10 - 20 game state&lt;/li&gt;
+&lt;li&gt;TD-Gammon: the 1st NN that advanced the theroy of Backgammon by discovering strategies previously unkown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Atari breakout&lt;/li&gt;
+&lt;li&gt;Dota2
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/dota-2/&#34;&gt;OpenAI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepmind.com/blog/article/alphago-zero-starting-scratch&#34;&gt;AlphaGo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Robotics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Walk
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepmind.com/blog/article/producing-flexible-behaviours-simulated-environments&#34;&gt;Producing flexible behaviours in simulated environments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Driving&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Other:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Biology&lt;/li&gt;
+&lt;li&gt;Telecommunications
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://papers.nips.cc/paper/1999/file/54f5f4071faca32ad5285fef87b78646-Paper.pdf&#34;&gt;Low Power Wireless Communication via Reinforcement Learning &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Finance
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/&#34;&gt;Introduction to Learning to Trade with Reinforcement Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Inventory management
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://read.pudn.com/downloads142/sourcecode/others/617477/inventory%20supply%20chain/04051310570412465(1).pdf&#34;&gt;Inventory management in supply chains: a reinforcement learning approach&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;exploration-exploitation-dilemma&#34;&gt;Exploration-Exploitation Dilemma&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://52aces.com/wp-content/uploads/2020/04/luxury-pattern-1024x529.png&#34; alt=&#34;Managing the Exploration-Exploitation Dilemma&#34;&gt;
+&lt;a href=&#34;https://52aces.com/wp-content/uploads/2020/04/luxury-pattern-1024x529.png&#34;&gt;Managing the Exploration-Exploitation Dilemma, image from 52Aces&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: RL Problem</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;the-settings&#34;&gt;The Settings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Agent&amp;rsquo;s Actions: Goal is to maximize expected cumulative reward&lt;/li&gt;
+&lt;li&gt;Env&lt;/li&gt;
+&lt;li&gt;Rewards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/agent-env.png&#34; alt=&#34;The agent-environment interaction in rl (Source: Sutton and Barto, 2017)&#34;&gt;&lt;br&gt;
+The agent-environment interaction in rl (Source: Sutton and Barto, 2017)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The reinforcement learning (RL) framework is characterized by an agent learning to interact with its environment.&lt;/li&gt;
+&lt;li&gt;At each time step, the agent receives the environment&amp;rsquo;s state (the environment presents a situation to the agent), and the agent must choose an appropriate action in response. One time step later, the agent receives a reward (the environment indicates whether the agent has responded appropriately to the state) and a new state.&lt;/li&gt;
+&lt;li&gt;All agents have the goal to maximize expected cumulative reward, or the expected sum of rewards attained over all time steps.
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;episodic-vs-continuing-tasks&#34;&gt;Episodic vs. Continuing Tasks&lt;/h2&gt;
+&lt;p&gt;A task is an instance of the reinforcement learning (RL) problem.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Episodic task: tasks with a well-defined starting and ending point.
+&lt;ul&gt;
+&lt;li&gt;In this case, we refer to a complete sequence of interaction, from start to finish, as an episode&lt;/li&gt;
+&lt;li&gt;Episodic tasks come to an end whenever the agent reaches a terminal state&lt;/li&gt;
+&lt;li&gt;About past life regression and reincarnation 😳&lt;/li&gt;
+&lt;li&gt;Game&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Continuing Tasks: interaction continues for ever, without limit 😬
+&lt;ul&gt;
+&lt;li&gt;Stocks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;the-reward-hypothesis&#34;&gt;The Reward Hypothesis&lt;/h2&gt;
+&lt;p&gt;All goals can be framed as the maximization of (expected) cumulative reward.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Problem of sparse rewards&lt;/strong&gt;: when the reward signal is largely uninformative&lt;/li&gt;
+&lt;li&gt;Cumulative reward
+&lt;ul&gt;
+&lt;li&gt;The goal of the agent at time step T: maximize accumulative reward&lt;/li&gt;
+&lt;li&gt;The robot learns to move a bit slowly to sacrifice a little bit of reward but it will payoff because it will avoid falling for longer and collect higher accumulative reward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Discounted return: we give a discount rate $\gamma \in (0,1)$ to Reward at each step to avoid having to look too far into the limitless future
+&lt;ul&gt;
+&lt;li&gt;For larger values of $\gamma$, the agent cares more about the distant future.&lt;/li&gt;
+&lt;li&gt;Smaller values of $\gamma$ result in more extreme discounting&lt;/li&gt;
+&lt;li&gt;$\gamma = 0$: agent only cares about most immediate reward, not caring about the future&lt;/li&gt;
+&lt;li&gt;$\gamma = 1$: the return is not discounted. This becomes a pretty difficult task if the future is limitless&lt;/li&gt;
+&lt;li&gt;Most relevant for selection of actions in continuing tasks&lt;/li&gt;
+&lt;li&gt;Note: with or without the discount rate, the goal of agent is always the same&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;markov-decision-process&#34;&gt;Markov Decision Process&lt;/h2&gt;
+&lt;p&gt;A (finite) Markov Decision Process (MDP) is defined by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;a (finite) set of Action $A$: space of all possible actions available to the agent&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;a (finite) set of States $S$: all nonterminal states&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;at a dicount rate $\gamma \in (0,1)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;$G_t = R_{t+1} + \gamma R_{t+2} + {\gamma}^2 R_{t+3} +&amp;hellip;$&lt;/li&gt;
+&lt;li&gt;A common choice: $\gamma = 0.9$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;a (finite) set of Rewards $\gamma $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;the &lt;strong&gt;one-step dynamics of the environment&lt;/strong&gt;: $p(s&#39;,\gamma |s,a) = \Bbb{P}(S_{t+1} = s&#39;, R_{t+1} =\gamma  | S_t =s, A_t = a)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The agent knows 1-3 and does not know 4 and 5. Therefore, the agent needs to learn from interaction to accomplish its goal.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;a-mdp-problem&#34;&gt;A MDP Problem&lt;/h2&gt;
+&lt;p&gt;For a can-picking recycling robot:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;He\gamma e is a method that the environment could use to decide the state and reward, at any time step.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$A$:
+&lt;ul&gt;
+&lt;li&gt;Search cans&lt;/li&gt;
+&lt;li&gt;Wait&lt;/li&gt;
+&lt;li&gt;Recharge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$S$:
+&lt;ul&gt;
+&lt;li&gt;High battery&lt;/li&gt;
+&lt;li&gt;Low battery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Say at an arbitrary time step t, the state of the robot&amp;rsquo;s battery is high ($S_t = \text{high}$). Then, in response, the agent decides to search ($A_t = \text{search}$). You learned in the previous concept that in this case, the environment responds to the agent by flipping a theoretical coin with 70% probability of landing heads.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the coin lands heads, the environment decides that the next state is high ($S_{t+1} = \text{high}$), and the reward is $(R_{t+1} = 4$).&lt;/li&gt;
+&lt;li&gt;If the coin lands tails, the environment decides that the next state is low ($S_{t+1} = \text{low}$), and the reward is $(R_{t+1} = 4)$.&lt;/li&gt;
+&lt;li&gt;At an arbitrary time step $t$, the agent-environment interaction has evolved as a sequence of states, actions, and rewards. When the environment responds to the agent at time step $t+1$,
+&lt;ul&gt;
+&lt;li&gt;it considers only the state and action at the previous time step ($S_t, A_t$)&lt;/li&gt;
+&lt;li&gt;it does not consider any of ${ R_0, \ldots, R_t }$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For the case that $S_t = \text{high}$, and $A_t = \text{search}$, when the environment responds to the agent at the next time step,
+- with 70% probability, the next state is high and the reward is 4. In other words, $p(high,4|high,search) = \Bbb{P}(S_{t+1} = high, R_{t+1} = 4 | S_t = high, A_t = search) = 0.7$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Consider the following probabilities,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;which of the above probabilities is equal to 0? (1,3,5)&lt;/li&gt;
+&lt;li&gt;Which of the above probabilities is equal to 1? (2,4)
+&lt;ul&gt;
+&lt;li&gt;(1) $p(\text{low}, 1|\text{low},\text{search})$&lt;/li&gt;
+&lt;li&gt;(2) $p(\text{high}, 0|\text{low},\text{recharge})$&lt;/li&gt;
+&lt;li&gt;(3) $p(\text{high}, 1|\text{low},\text{wait})$&lt;/li&gt;
+&lt;li&gt;(4) $p(\text{high}, 1|\text{high},\text{wait})$&lt;/li&gt;
+&lt;li&gt;(5) $p(\text{high}, 1|\text{high},\text{search})$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/MDP-robot.png&#34; alt=&#34;mdp-robot&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://classroom.udacity.com/nanodegrees/nd893&#34;&gt;Image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;openai-gym&#34;&gt;OpenAI Gym&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openai/gym/wiki/Table-of-environments&#34;&gt;Table of environments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Consider an agent who would like to learn to escape a maze. Which reward signals will encourage the agent to escape the maze as quickly as possible?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;who-is-markov&#34;&gt;Who is Markov?&lt;/h2&gt;
+&lt;p&gt;Andrey Markov (1856–1922) was a Russian mathematician best known for his work on stochastic processes. A primary subject of his research later became known as Markov chains and Markov processes.
+&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AAMarkov.jpg/800px-AAMarkov.jpg&#34; alt=&#34;Andrey Markov&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AAMarkov.jpg/800px-AAMarkov.jpg&#34;&gt;Andrey Markov, image from Wikipedia&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: RL Solutions</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f03-rl-solutions/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f03-rl-solutions/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;policies&#34;&gt;Policies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A deterministic policy: a mapping $\pi: S \to A$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For each state $s \in S$, it yields the action $a \in A$ that the agent will choose while in state $s$.&lt;/li&gt;
+&lt;li&gt;input: state&lt;/li&gt;
+&lt;li&gt;output: action&lt;/li&gt;
+&lt;li&gt;Example
+&lt;ul&gt;
+&lt;li&gt;$\pi(low) = recharge$&lt;/li&gt;
+&lt;li&gt;$\pi(high) = search$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A stochastic policy: a mapping $\pi: S \times A \to [0,1]$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For each state $s \in S$ and action $a \in A$, it yields the probability $\pi(a|s)$ that the agent chooses action $a$ while in state $s$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;input: state and action&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;output: probability that the agent takes action $A$ while in state $S$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\pi(a|s) =\Bbb{P}(A_t =a | S_t = s) $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Example&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;low
+&lt;ul&gt;
+&lt;li&gt;$\pi(recharge | low) = 0.5$&lt;/li&gt;
+&lt;li&gt;$\pi(wait | low) = 0.4$&lt;/li&gt;
+&lt;li&gt;$\pi(search | low) = 0.1$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;high
+&lt;ul&gt;
+&lt;li&gt;$\pi(search | high) = 0.6$&lt;/li&gt;
+&lt;li&gt;$\pi(wait | high) = 0.4$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;gridworld-example&#34;&gt;Gridworld Example&lt;/h2&gt;
+&lt;p&gt;In this gridworld example, once the agent selects an action,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;it always moves in the chosen direction (contrasting general MDPs where the agent doesn&amp;rsquo;t always have complete control over what the next state will be),&lt;/li&gt;
+&lt;li&gt;the reward can be predicted with complete certainty (contrasting general MDPs where the reward is a random draw from a probability distribution).&lt;/li&gt;
+&lt;li&gt;the value of any state can be calculated as the sum of the immediate reward and the (discounted) value of the next state.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/gridworld1.png&#34; alt=&#34;Grid Word&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/gridworld2.png&#34; alt=&#34;Grid Word2&#34;&gt; &lt;br&gt;
+&lt;a href=&#34;https://classroom.udacity.com/nanodegrees/nd893&#34;&gt;Grid Word images from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;state-value-functions&#34;&gt;State-Value Functions&lt;/h2&gt;
+&lt;p&gt;The state-value function for a policy is denoted $v_\pi$. For each state $s \in {S}$, it yields the expected return if the agent starts in state $s$ and then uses the policy to choose its actions for all time steps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The value of state $s$ under policy $\pi$: $v_{\pi}(s) = \Bbb{E}_{\pi}[G_t|S_t = s]$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;bellman-equations&#34;&gt;Bellman Equations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bellman equations attest to the fact that value functions satisfy recursive relationships.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Read More at &lt;a href=&#34;https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf&#34;&gt;Chapter 3.5 and 3.6&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It expresses the value of any state $s$ in terms of the &lt;em&gt;expected immediate reward&lt;/em&gt; and the e&lt;em&gt;xpected value of the next state&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$V_{\pi}(s) = \Bbb{E}_{\pi}[ R_{t+1} + {\gamma}v_{\pi}(S_{t+1}) | S_t) = s] $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the event that the agent&amp;rsquo;s policy $\pi$ is deterministic, the agent selects action $\pi(s)$ when in state $s$, and the Bellman Expectation Equation can be rewritten as the sum over two variables ($s&#39;$ and $r$):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$v_{\pi}(s) =  \sum_{s&#39;\in{S^{+}}, r \in{R}} p(s&#39;, r|s, \pi{s})(r+ \gamma v_{\pi}(s&#39;)) $&lt;/li&gt;
+&lt;li&gt;In this case, we multiply the sum of the reward and discounted value of the next state $(r+ \gamma v_{\pi}(s&#39;)) $ by its corresponding probability $p(s&#39;, r|s, \pi{s})$ and sum over all possibilities to yield the expected value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the agent&amp;rsquo;s policy $\pi$ is stochastic, the agent selects action $a$ with probability when in state $s$, and the Bellman Expectation Equation can be rewritten as the sum over three variables&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$v_{\pi}(s) =  \sum_{s&#39;\in{S^{+}}, r \in{R}, a \in{A_{(s)}}} \pi(a|s) p(s&#39;, r|s, a) (\gamma + \gamma v_{\pi}(s&#39;)) $&lt;br&gt;
+-In this case, we multiply the sum of the reward and discounted value of the next state $(\gamma + \gamma v_{\pi}(s&#39;))$ by its corresponding probability $\pi(a|s) p(s&#39;, r|s, a)$ and sum over all possibilities to yield the expected value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;action-value-functions&#34;&gt;Action-value Functions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The action-value function for a policy: $q_{\pi}$.&lt;/li&gt;
+&lt;li&gt;The value $q_{\pi}(s,a)$ is the value of taking action $a$ in state $s$ under a policy $\pi$&lt;/li&gt;
+&lt;li&gt;For each state $s \in S$ and action $a \in A$, it yields the expected return if the agent starts in state $s$, takes action $a$, and then follows the policy for all future time steps.&lt;/li&gt;
+&lt;li&gt;$q_{\pi}(s,a) = \Bbb{E}_{\pi}[G_t |S_t =s, A_t = a ]$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;optimality&#34;&gt;Optimality&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A policy $\pi$ is defined to be better than or equal to a policy $\pi$ if and only if $v_{\pi \prime} (s) \ge v_{\pi} (s)$ for all.&lt;/li&gt;
+&lt;li&gt;An optimal policy $\pi_\ast$ satisfies $\pi_\ast \ge  \pi$ is guaranteed to exist but may not be unique.&lt;/li&gt;
+&lt;li&gt;How do you define better policy?
+&lt;ul&gt;
+&lt;li&gt;Positive reward, which gives agent more motivation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;optimal-state-value-function&#34;&gt;Optimal State-value Function&lt;/h3&gt;
+&lt;p&gt;All optimal policies have the same state-value function $v_\ast$&lt;/p&gt;
+&lt;h3 id=&#34;optimal-action-value-function&#34;&gt;Optimal Action-value Function&lt;/h3&gt;
+&lt;p&gt;All optimal policies have the same action-value function $q_\ast$&lt;/p&gt;
+&lt;h3 id=&#34;optimal-policies&#34;&gt;Optimal Policies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Interaction ${\to}$ $q_\ast$ $\to$ $\pi_\ast$&lt;/li&gt;
+&lt;li&gt;Once the agent determines the optimal action-value function $q_\ast$, it can quickly obtain an optimal polity $\pi_ast$ by setting&lt;/li&gt;
+&lt;li&gt;$\pi(s) = argmax_{a \in A_{(s)}} q_\ast (s,a)$: Select the maximal actiona value $q$ at each step&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;h3 id=&#34;calculate-state-value-function-v_pi&#34;&gt;Calculate State-value Function $v_{\pi}$&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Assuming $\gamma = 1$, calculate $v_{\pi}(s_4)$ and $v_{\pi}(s_1)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solve the problem using Bellman Equations
+&lt;img src=&#34;/img/rl/calculate-grid.png&#34; alt=&#34;calculate-grid&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://classroom.udacity.com/nanodegrees/nd893&#34;&gt;Image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Answer: $v_{\pi}(s_4) = 1 $ and $v_{\pi}(s_1) = 2$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;about-deterministic-policy&#34;&gt;About Deterministic Policy&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;True or False?:&lt;/strong&gt;&lt;br&gt;
+For a deterministic policy $\pi$:&lt;br&gt;
+$v_{\pi}(s) = q_{\pi}(s,\pi(s)) $ holds for all $s \in S$.&lt;/p&gt;
+&lt;p&gt;Answer: True.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It also follows from how we have defined the action-value function.&lt;/li&gt;
+&lt;li&gt;The value of the state-action pair $s$, $\pi(s)$ is the expected return if the agent starts in state $s$, takes action $\pi(s)$, and henceforth follows the policy $\pi$.&lt;/li&gt;
+&lt;li&gt;In other words, it is the expected return if the agent starts in state $s$, and then follows the policy $\pi$, which is exactly equal to the value of state $s$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;optimal-policies-1&#34;&gt;Optimal Policies&lt;/h3&gt;
+&lt;p&gt;Consider a MDP (in the below table), with a corresponding optimal action-value function. Which of the following describes a potential optimal policy that corresponds to the optimal action-value function?&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;a1&lt;/th&gt;
+&lt;th&gt;a2&lt;/th&gt;
+&lt;th&gt;a3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;s1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;s2&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;s3&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Answer&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;State $s1$: the agent will always selects action $a3$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;State $s2$: the agent is free to select either $a1$ or $a2$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;State $s3$: the agent must select $a1$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;   
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Monte Carlo</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f04-monte-carlo/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f04-monte-carlo/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;prediction-problem&#34;&gt;Prediction Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;An approach that can be used to estimate the &lt;strong&gt;state-value function&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Given a policy, how might the agent estimate the value function for that policy?
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gridworld-example&#34;&gt;Gridworld Example&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The agent has a policy in mind, it follows the policy to collect a lot of episodes.&lt;/li&gt;
+&lt;li&gt;For each state, to figure out which action is best, the agent can look for which action tended to result in the most cumulative reward.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/mc-grid-world.png&#34; alt=&#34;mc-grid-world&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://classroom.udacity.com/nanodegrees/nd893&#34;&gt;Monte Carlo Methods. Image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;monte-carlo-mc-methods&#34;&gt;Monte Carlo (MC) Methods&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Even though the underlying problem involves a great degree of randomness, we can infer useful information that we can trust just by &lt;strong&gt;collecting a lot of samples&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The equiprobable random policy is the stochastic policy where - from each state - the agent randomly selects from the set of available actions, and each action is selected with equal probability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;mc-prediction-mdp&#34;&gt;MC prediction (MDP)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Monte Carlo (MC) approaches to the prediction problem&lt;/li&gt;
+&lt;li&gt;The agent can take a bad policy, like the &lt;strong&gt;equiprobable random policy&lt;/strong&gt;, use it to collect some episodes, and then consolidate the results to arrive at a better policy.&lt;/li&gt;
+&lt;li&gt;Algorithms that solve the prediction problem determine the value function $v_{\pi}$ or $q_{\pi}$&lt;/li&gt;
+&lt;li&gt;Each occurrence of the state-action pair $s$, $a$ ($s \in S$, $a \in A$) in an episode is called a visit to $s$, $a$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;two-types-of-mc-prediction&#34;&gt;Two types of MC prediction&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Every-visit MC Prediction&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Average the returns following &lt;strong&gt;all visits to each state-action pair&lt;/strong&gt;, in all episodes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;First-visit MC Prediction&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For each episode, we only consider &lt;strong&gt;the first visit&lt;/strong&gt; to the state-action pair.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;q-table&#34;&gt;Q-table&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;When working with finite MDPs, we can estimate the action-value function $q_{\pi}$ corresponding to a policy $\pi$ in a table.&lt;/li&gt;
+&lt;li&gt;This table has one row for each state and one column for each action.&lt;/li&gt;
+&lt;li&gt;The entry in the $s$-th row and $a$-th column contains the agent&amp;rsquo;s estimate for expected return that is likely to follow, if the agent starts in state $s$, selects action $a$, and then henceforth follows the policy $\pi$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/mc-prediction.png&#34; alt=&#34;MC Prediction&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=9LP6uXdmWxQ&amp;amp;feature=youtu.be&#34;&gt;MC Prediction, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;first-visit-vs-every-visit&#34;&gt;First-visit vs Every-visit&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Both the first-visit and every-visit method are guaranteed to converge to the true action-value function, as the number of visits to each state-action pair approaches infinity.&lt;/li&gt;
+&lt;li&gt;As long as the agent gets enough experience with each state-action pair, the value function estimate will be pretty close to the true value.&lt;/li&gt;
+&lt;li&gt;In the case of first-visit MC, convergence follows from the Law of &lt;a href=&#34;https://en.wikipedia.org/wiki/Law_of_large_numbers&#34;&gt;Large Numbers&lt;/a&gt;, and the details are covered in section 5.1 of the &lt;a href=&#34;https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf&#34;&gt;textbook&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Differences
+&lt;ul&gt;
+&lt;li&gt;Every-visit MC is &lt;a href=&#34;https://en.wikipedia.org/wiki/Bias_of_an_estimator&#34;&gt;biased&lt;/a&gt;, whereas first-visit MC is unbiased (see Theorems 6 and 7).&lt;/li&gt;
+&lt;li&gt;Initially, every-visit MC has lower mean squared error (MSE), but as more episodes are collected, first-visit MC attains better MSE (see Corollary 9a and 10a, and Figure 4).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.32.9278&amp;amp;rep=rep1&amp;amp;type=pdf&#34;&gt;Ref - Reinforcement Learning with Replacing Eligibility Traces&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;greedy-policy&#34;&gt;Greedy Policy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/the-complete-reinforcement-learning-dictionary-e16230b7d24e&#34;&gt;A greedy policy&lt;/a&gt; means the agent constantly performs the action that is believed to yield the highest expected reward.&lt;/li&gt;
+&lt;li&gt;With respect to an action-value function estimate $Q$ if for every state $s \in S$, it is guaranteed to select an action $a \in A(s)$ such that $a = argmax_{a \in A_{s}}Q(s,a)$.&lt;/li&gt;
+&lt;li&gt;The greedy action: the selected action $a$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/greedy-policy.png&#34; alt=&#34;greedy-policy&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;/img/rl/greedy-policy.png&#34;&gt;greedy-policy, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;epsilon-greedy-policy&#34;&gt;Epsilon-Greedy Policy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Greedy Policy:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;always&lt;/strong&gt; selects the greedy action&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Epsilon-Greedy Policy:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;most likely&lt;/strong&gt; selects the greedy action, with probability $1 - \epsilon$&lt;/li&gt;
+&lt;li&gt;picks up other non-greedy actions with small, but non-zero probability $\epsilon$
+&lt;ul&gt;
+&lt;li&gt;the agent selects an action uniformly at random from the set of available (non-greedy &lt;strong&gt;AND&lt;/strong&gt; greedy actions)&lt;/li&gt;
+&lt;li&gt;allowing the agent to explore other probabilities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;when $\epsilon = 0$, the policy becomes a greedy policy&lt;/li&gt;
+&lt;li&gt;when $\epsilon = 1$, the policy becomes an epsilon-greedy policy that is equivalent to the equiprobable random policy
+&lt;ul&gt;
+&lt;li&gt;where, from each state, each action is equally likely to be selected&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;control-problem&#34;&gt;Control Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Estimates the optimal policy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;mc-control-method&#34;&gt;MC Control Method&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Algorithms designed to solve the &lt;strong&gt;control problem&lt;/strong&gt; determine the &lt;strong&gt;optimal policy&lt;/strong&gt; $\pi_*$ from interaction with the environment.&lt;/li&gt;
+&lt;li&gt;The MCC method uses alternating rounds of policy evaluation and improvement to recover the &lt;strong&gt;optimal policy&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;two-steps-of-mc-control&#34;&gt;Two Steps of MC Control&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Policy Evaluation: determine the &lt;strong&gt;action-value function&lt;/strong&gt; of the policy&lt;/li&gt;
+&lt;li&gt;Policy Improvement: improve the policy by changing it to be $\epsilon$-greedy with respect to the Q-table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/mc-control.png&#34; alt=&#34;MC Control&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;/img/rl/mc-control.png&#34;&gt;MC Control, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;exploration-exploitation-dilemma&#34;&gt;Exploration-Exploitation Dilemma&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In &lt;strong&gt;early&lt;/strong&gt; episodes,
+&lt;ul&gt;
+&lt;li&gt;the agent&amp;rsquo;s knowledge is quite limited (and potentially flawed).&lt;/li&gt;
+&lt;li&gt;So, it is highly likely that actions estimated to be &lt;strong&gt;non-greedy&lt;/strong&gt; by the agent are in fact better than the estimated greedy action.&lt;/li&gt;
+&lt;li&gt;With this in mind, a successful RL agent cannot act greedily at every time step (that is, it cannot always exploit its knowledge)&lt;/li&gt;
+&lt;li&gt;in order to discover the optimal policy, it has to continue to refine the estimated return for all state-action pairs (in other words, it has to continue to &lt;strong&gt;explore&lt;/strong&gt; the range of possibilities by visiting every state-action pair).&lt;/li&gt;
+&lt;li&gt;That said, the agent &lt;strong&gt;should always act somewhat greedily&lt;/strong&gt;, towards &lt;strong&gt;its goal of maximizing return as quickly as possible&lt;/strong&gt;. This motivated the idea of an $\epsilon$-greedy policy.&lt;/li&gt;
+&lt;li&gt;Therefore, the agent begins its interaction with the environment by &lt;strong&gt;favoring exploration&lt;/strong&gt; over exploitation. After all, when the agent knows relatively little about the environment&amp;rsquo;s dynamics, it should &lt;strong&gt;distrust its limited knowledge&lt;/strong&gt; and &lt;strong&gt;explore, or try out various strategies&lt;/strong&gt; for maximizing return.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;At later time steps, it makes sense to favor &lt;strong&gt;exploitation&lt;/strong&gt; over exploration, where the policy gradually becomes more greedy with respect to the action-value function estimate.
+&lt;ul&gt;
+&lt;li&gt;After all, the more the agent interacts with the environment, the more it can trust its estimated action-value function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;solution-early-sampling-and-late-specialization&#34;&gt;Solution: Early Sampling and Late Specialization&lt;/h3&gt;
+&lt;p&gt;One potential solution to this dilemma is implemented by &lt;strong&gt;gradually modifying&lt;/strong&gt; the value of $\epsilonϵ$ when constructing $\epsilon$-greedy policies.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The best starting policy is the &lt;strong&gt;equiprobable random policy&lt;/strong&gt;, as it is equally likely to explore all possible actions from each state.
+&lt;ul&gt;
+&lt;li&gt;$\epsilon_i &amp;gt;0$ for all time steps $i$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The later policy becomes more greedy
+&lt;ul&gt;
+&lt;li&gt;$\epsilon_i$ decays to $0$ in the limit as the time step $i$ approaches infinity ($lim_{i \to \infty}\epsilon_i = 0$)&lt;/li&gt;
+&lt;li&gt;To ensure convergence to the optimal policy, we could set $ \epsilon_i =  \frac 1 i $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;greedy-in-the-limit-with-infinite-exploration-glie&#34;&gt;Greedy in the limit with Infinite Exploration (GLIE)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A condition to guarantee that MC control converges to the optimal policy $\pi$
+&lt;ul&gt;
+&lt;li&gt;every state-action pair $s$, $a$ (for all $s \in S$ and $a \in A_{(s)}$) is visited infinitely many times&lt;/li&gt;
+&lt;li&gt;the policy converges to a policy that is greedy with respect to the action-value function estimate $Q$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The condition ensures that
+&lt;ul&gt;
+&lt;li&gt;the agent continues to explore for all time steps&lt;/li&gt;
+&lt;li&gt;the agent gradually exploits more (and explore less)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;setting-epsilon-in-practice&#34;&gt;Setting $\epsilon$ in Practice&lt;/h3&gt;
+&lt;p&gt;Even though convergence is not guaranteed by the mathematics, you can often get better results by either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;using fixed $\epsilon$&lt;/li&gt;
+&lt;li&gt;letting $\epsilon_i$ decay to a small positive number, like $0.1$.
+&lt;ul&gt;
+&lt;li&gt;If you get late in training and $\epsilon$ is really small, you pretty much want the agent to have already converged to the optimal policy, as it will take way too long otherwise for it to test out new actions!&lt;/li&gt;
+&lt;li&gt;An example of how the value of $\epsilon$ was set in the famous DQN algorithm by reading the Methods section of &lt;a href=&#34;https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf&#34;&gt;Human-level control through deep reinforcement learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The behavior policy during training was epsilon-greedy with epsilon annealed linearly from 1.0 to 0.1 over the first million frames, and fixed at 0.1 thereafter.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;incremental-mean&#34;&gt;Incremental Mean&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update the Q-table after every episode.&lt;/li&gt;
+&lt;li&gt;Use the updated Q-table to improve the policy.&lt;/li&gt;
+&lt;li&gt;That new policy could then be used to generate the next episode, and so on.&lt;/li&gt;
+&lt;li&gt;There are two relevant tables
+&lt;ul&gt;
+&lt;li&gt;$Q-Q$ table: with a row for each state and a column for each action . The entry corresponding to state and action is denoted $Q(s,a)$.&lt;/li&gt;
+&lt;li&gt;$N$ table: keeps track of the number of first visits we have made to each state-action pair&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The number of episodes the agent collects is equal to $num_episodes$&lt;/li&gt;
+&lt;li&gt;The algorithm proceeds by looping over the following steps to improve the policy after every episode
+&lt;ul&gt;
+&lt;li&gt;The policy $\pi$ is improved to be $\epsilon$-greedy with respect to $Q$, and the agent use $\pi$ to collect an episode.&lt;/li&gt;
+&lt;li&gt;$N$ is updated to count the total number of first visits to each state action pair&lt;/li&gt;
+&lt;li&gt;The estimates in $Q$ are updated to take into account the most recent information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/incremental-mean.png&#34; alt=&#34;incremental-mean&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://video.udacity-data.com/topher/2018/May/5aecc149_screen-shot-2018-05-04-at-3.14.47-pm/screen-shot-2018-05-04-at-3.14.47-pm.png&#34;&gt;Incremental Mean, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/incremental-mean-function.png&#34; alt=&#34;incremental-mean-function&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://youtu.be/QFV1nI9Zpoo?t=18&#34;&gt;Incremental Mean Function, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;constant-alpha-mc-control&#34;&gt;Constant-alpha MC control&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;uses a constant step-size parameter $\alpha$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;update-equation&#34;&gt;Update equation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;After each episode finishes, the Q-table is modified using the update equation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$Q(S_t, A_t) \leftarrow (1-a)Q(S_t, A_t) + \alpha G_t$&lt;/li&gt;
+&lt;li&gt;$G_t := \sum_{s=t+1}^{T}\gamma^{s-t-1}R_s$ is the return at timestep $t$&lt;/li&gt;
+&lt;li&gt;$Q(S_t,A_t)$ is the entry in the Q-table corresponding to state $S_t$ and action $A_t$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The main idea behind the update equation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$Q(S_t,A_t)$ contains the agent&amp;rsquo;s estimate for the expected return if the environment is in state $S_t$ and the agent selects action $A_t$&lt;/li&gt;
+&lt;li&gt;If the return $G_t$ is &lt;strong&gt;not equal&lt;/strong&gt; to $Q(S_t,A_t)$, then we push the value of $Q(S_t,A_t)$ to make it agree slightly more with the return&lt;/li&gt;
+&lt;li&gt;The magnitude of the change that we make to $Q(S_t,A_t)$ is controlled by $\alpha &amp;gt; 0$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;step-size-parameter-alpha&#34;&gt;Step-size Parameter $\alpha$&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The step-size parameter $\alpha$ must satisfy 0 &amp;lt; $\alpha$ ≤1.
+&lt;ul&gt;
+&lt;li&gt;Higher values of $\alpha$ will result in faster learning, but values of $\alpha$ that are too high can prevent MC control from converging to $\pi_*$&lt;/li&gt;
+&lt;li&gt;Smaller values for $\alpha$ encourage the agent to consider a longer history of returns when calculating the action-value function estimate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Increasing the value of $\alpha$ ensures that the agent focuses more on the most recently sampled returns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;However,be careful to not set the value of $\alpha$ too close to 1. This is because very large values can keep the algorithm from converging to the optimal policy $\pi_*$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Boundary values&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;If $\alpha = 0$, then the action-value function estimate is never updated by the agent. Meaning, the agent never learns&lt;/li&gt;
+&lt;li&gt;If $\alpha = 1$, then the final value estimate for each state-action pair is always equal to the last return that was experienced by the agent (after visiting the pair).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/constant-alpha.png&#34; alt=&#34;Constant-alpha&#34;&gt; &lt;br&gt;
+&lt;a href=&#34;https://video.udacity-data.com/topher/2018/May/5aecba4c_screen-shot-2018-05-04-at-2.49.48-pm/screen-shot-2018-05-04-at-2.49.48-pm.png&#34;&gt;Constant-alpha&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;excercise&#34;&gt;Excercise&lt;/h2&gt;
+&lt;h3 id=&#34;openai-gym-blackjackenv&#34;&gt;OpenAI Gym: BlackJackEnv&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Read &lt;a href=&#34;https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf&#34;&gt;Example 5.1 in textbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/udacity/deep-reinforcement-learning/tree/master/monte-carlo&#34;&gt;Github monte-carlo excercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/optimal-policy.png&#34; alt=&#34;Optimal Policy and State-Value Function in Blackjack (Sutton and Barto, 2017)&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;/img/rl/optimal-policy.png&#34;&gt;Optimal Policy and State-Value Function in Blackjack (Sutton and Barto, 2017)&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;openai-gym-frozenlake-v0&#34;&gt;OpenAI Gym: FrozenLake-v0&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Walking on the ice
+&lt;ul&gt;
+&lt;li&gt;The agent is rewarded for finding a walkable path to a goal tile.&lt;/li&gt;
+&lt;li&gt;The solutions are ranked according to the number of episodes needed to find the solution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.gismeteo.com/static/news/img/src/30995/fae3a990.jpg&#34; alt=&#34;Walking on the ice&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.gismeteo.com/static/news/img/src/30995/fae3a990.jpg&#34;&gt;Image from gismeteo&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+&lt;h3 id=&#34;greedy-policy-1&#34;&gt;Greedy Policy&lt;/h3&gt;
+&lt;p&gt;Which of the values for epsilon yields an epsilon-greedy policy where the agent has the possibility of selecting a greedy action, but might select a non-greedy action instead? In other words, how might you guarantee that the agent selects each of the available (greedy and non-greedy) actions with nonzero probability?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;$\epsilon = 0$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;$\epsilon = 0.3$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;$\epsilon = 0.5$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;$\epsilon = 1$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As long as epsilon &amp;gt; 0, the agent has nonzero probability of selecting any of the available actions. So the answer is &lt;code&gt;2,3,4&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;update-q-table&#34;&gt;Update Q-table&lt;/h3&gt;
+&lt;p&gt;What is the new value for the entry in the Q-table corresponding to state 1 and action right?
+&lt;img src=&#34;/img/rl/mc-quiz.png&#34; alt=&#34;MC Control Method&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://youtu.be/ZwIg6LDMyuo?t=62&#34;&gt;MC Control Method Quiz from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Answer: 6 + 0.1(8-2) = 6.2
+Current estimate: 6
+Current reward: 8
+$\alpha = 0.1$&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Temporal Difference</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f05-temporal-difference/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f05-temporal-difference/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;temporal-difference-td-control&#34;&gt;Temporal Difference (TD) Control&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A class of model-free reinforcement learning methods which learn by bootstrapping from the current estimate of the value function.&lt;/li&gt;
+&lt;li&gt;These methods sample from the environment, like Monte Carlo methods, and perform updates based on current estimates, like dynamic programming methods.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Temporal_difference_learning&#34;&gt;Ref&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;td-vs-mc-control&#34;&gt;TD vs MC Control&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;TD: update Q-table after every time step&lt;/li&gt;
+&lt;li&gt;MC: update the Q-table after complete an entire episode of interaction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;sarsa0-algorithm&#34;&gt;Sarsa(0) Algorithm&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Naming: State–action–reward–state–action&lt;/li&gt;
+&lt;li&gt;In the algorithm, the number of episodes the agent collects is equal to $num$ $episodes$. For every time step $t\ge 0$, the agent:
+&lt;ul&gt;
+&lt;li&gt;takes the action $A_t$ (from the current state $S_t$ that is $\epsilon$-greedy with respect to the Q-table&lt;/li&gt;
+&lt;li&gt;receives the reward $R_{t+1}$ and next state $S_{t+1}$&lt;/li&gt;
+&lt;li&gt;chooses the next action $A_{t+1}$ (from the next state $S_{t+1}$) that is $\epsilon$-greedy with respect to the Q-table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;uses the information in the tuple ($S_t,A_t, R_{t+1}, S_{t+1}, A_{t+1}$) tp ipdate the entry $Q(S_t, A_t)$ in the Q-table corresponding to the current state $S_t$ and the action $A_t$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/sarsa.png&#34; alt=&#34;Sarsa Algorithm&#34;&gt; &lt;br&gt;
+&lt;a href=&#34;https://video.udacity-data.com/topher/2018/May/5aece99b_screen-shot-2018-05-04-at-6.14.28-pm/screen-shot-2018-05-04-at-6.14.28-pm.png&#34;&gt;Sarsa Algorithm, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;sarsamax-q-learning&#34;&gt;Sarsamax (Q-Learning)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/sarsamax.png&#34; alt=&#34;Sarsamax&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://video.udacity-data.com/topher/2018/May/5aece9b8_screen-shot-2018-05-04-at-6.14.42-pm/screen-shot-2018-05-04-at-6.14.42-pm.png&#34;&gt;Sarsamax Algorithm, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;optimism-&#34;&gt;Optimism 🔭&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For any TD control method, you must begin by initializing the values in the Q-table. It has been shown that initializing the estimates to large values can improve performance.&lt;/li&gt;
+&lt;li&gt;If all of the possible rewards that can be received by the agent are negative, then initializing every estimate in the Q-table to zeros is a good technique.&lt;/li&gt;
+&lt;li&gt;In this case, we refer to the initialized Q-table as optimistic, since the action-value estimates are guaranteed to be larger than the true action values.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;excercise&#34;&gt;Excercise&lt;/h2&gt;
+&lt;h3 id=&#34;openai-gym-cliffwalkingenv&#34;&gt;OpenAI Gym: CliffWalkingEnv&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf&#34;&gt;Read in Example 6.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openai/gym/blob/master/gym/envs/toy_text/cliffwalking.py&#34;&gt;Openai cliffwalking.py&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+&lt;h3 id=&#34;sarsa&#34;&gt;Sarsa&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/sarsa-quiz1.png&#34; alt=&#34;Sarsa&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://video.udacity-data.com/topher/2018/May/5af768cf_environment/environment.png&#34;&gt;Sarsa Algorithm, image from Udacity nd893&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Answer: 6.16&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Continuous Spaces</title>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f06-rl-continuous-spaces/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f06-rl-continuous-spaces/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;reinforcement-learning-framework&#34;&gt;Reinforcement Learning: Framework&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Model-based&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;requires a known transition and reward model&lt;/li&gt;
+&lt;li&gt;essentially apply dynamic programming to iteratively compute the desired value functions and optimal policies using that model&lt;/li&gt;
+&lt;li&gt;Examples
+&lt;ul&gt;
+&lt;li&gt;Policy iteration&lt;/li&gt;
+&lt;li&gt;Value iteration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Model-free&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;samples the environment by carrying out exploratory actions and use the experience gained to directly estimate value functions&lt;/li&gt;
+&lt;li&gt;Examples
+&lt;ul&gt;
+&lt;li&gt;Monte Carlo Methods&lt;/li&gt;
+&lt;li&gt;Temporal-Difference Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;dealing-with-discrete-and-continuous-spaces&#34;&gt;Dealing with Discrete and Continuous Spaces&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Discretization: Converting a continuous space into a discrete space&lt;/li&gt;
+&lt;li&gt;Function Approximation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/non-uniform-discretization.png&#34; alt=&#34;non-uniform-discretization&#34;&gt;&lt;br&gt;
+[Non-uniform Discretization, image from Udacity 893]&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;openai-environmentshttpsgithubcomopenaigymwikitable-of-environments&#34;&gt;&lt;a href=&#34;https://github.com/openai/gym/wiki/Table-of-environments&#34;&gt;OpenAI Environments&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Discrete()&lt;/code&gt;: refers to a discrete space&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Box()&lt;/code&gt;: indicates a continuous space&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tile-coding&#34;&gt;Tile Coding&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adaptive Tile Coding
+&lt;ul&gt;
+&lt;li&gt;does not rely on a human to specify a discretization ahead of time&lt;/li&gt;
+&lt;li&gt;the resulting space is appropriately partitioned based on its complexity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;coarse-coding&#34;&gt;Coarse Coding&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Generalization
+&lt;ul&gt;
+&lt;li&gt;Narrow generalization&lt;/li&gt;
+&lt;li&gt;Broad generalization&lt;/li&gt;
+&lt;li&gt;Asymmetric generalization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Redial Basis Functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/coarse-coding.png&#34; alt=&#34;Coarse Coding&#34;&gt;&lt;br&gt;
+[Coarse Coding, image from Udacity 893]&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;function-approximation&#34;&gt;Function Approximation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;State value approximation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;linear function approximation: $\hat{v}(s,w) = x(s)^T \cdot w$&lt;/li&gt;
+&lt;li&gt;Goal: Minimize Error&lt;/li&gt;
+&lt;li&gt;Use Gradient Descent: $\nabla_w \hat{v}(s, w) = x(s)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Action value approximation&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rl/linear-function-approximation.png&#34; alt=&#34;Linear Function Approximation&#34;&gt;&lt;br&gt;
+[Linear Function Approximation]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

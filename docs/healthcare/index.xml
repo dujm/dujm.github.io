@@ -1,0 +1,67 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Healthcare</title>
+    <link>/docs/healthcare/</link>
+    <description>Recent content in Healthcare on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/healthcare/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Bioinformatics</title>
+      <link>/docs/healthcare/bioinfo/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/healthcare/bioinfo/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Manage your own health data</title>
+      <link>/docs/healthcare/healthcare-data/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/healthcare/healthcare-data/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;course-link-httpswwwfuturelearncomcoursesmanaging-your-health-data&#34;&gt;Course Link &lt;a href=&#34;https://www.futurelearn.com/courses/managing-your-health-data&#34;&gt;https://www.futurelearn.com/courses/managing-your-health-data&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;course-instructors-&#34;&gt;Course Instructors :&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;David Pérez del Rey&lt;/li&gt;
+&lt;li&gt;Sergio Paraiso&lt;/li&gt;
+&lt;li&gt;Raúl Alonso-Calvo&lt;/li&gt;
+&lt;li&gt;Edward Meinert&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;course-notes-httpsgithubcomdujmhealth_datablobmasterreportshealth_data_coursepdf&#34;&gt;&lt;a href=&#34;https://github.com/dujm/Health_Data/blob/master/reports/Health_data_course.pdf&#34;&gt;Course Notes &lt;/a&gt;&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Papers</title>
+      <link>/docs/healthcare/papers/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/healthcare/papers/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

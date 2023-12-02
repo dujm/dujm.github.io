@@ -1,0 +1,73 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Classification</title>
+    <link>/docs/machinelearning/models/classification/</link>
+    <description>Recent content in Classification on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/models/classification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Multi-class</title>
+      <link>/docs/machinelearning/models/classification/multi-class/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/classification/multi-class/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;label-smoothing&#34;&gt;Label Smoothing&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://paperswithcode.com/method/label-smoothing&#34;&gt;Label Smoothing&lt;/a&gt; is a regularization technique that introduces noise for the labels.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1906.02629.pdf&#34;&gt;When Does Label Smoothing Help?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We show that label smoothing encourages the representations of training examples from the same class to group in tight clusters.
+This results in loss of information in the logits about resemblances between instances of different classes, which is necessary for distillation, but does not hurt generalization or calibration of the model’s predictions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@nainaakash012/when-does-label-smoothing-help-89654ec75326&#34;&gt;When Does Label Smoothing Help? Medium post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/what-is-label-smoothing-108debd7ef06&#34;&gt;What is Label Smoothing?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pyimagesearch.com/2019/12/30/label-smoothing-with-keras-tensorflow-and-deep-learning/&#34;&gt;Label smoothing with Keras, TensorFlow, and Deep Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/shahules/tackle-with-label-smoothing-proved&#34;&gt;Kaggle notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/label-smoothing-making-model-robust-to-incorrect-labels-2fae037ffbd0&#34;&gt;Label Smoothing: An ingredient of higher model accuracy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.4betterhealthmedicine.com/wp-content/uploads/2016/08/Screen-Shot-2019-06-09-at-1.20.23-AM.png&#34; alt=&#34;Smoothie&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.4betterhealthmedicine.com/wp-content/uploads/2016/08/Screen-Shot-2019-06-09-at-1.20.23-AM.png&#34;&gt;Smoothie&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Multi-label</title>
+      <link>/docs/machinelearning/models/classification/multi-label/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/classification/multi-label/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;multi-label&#34;&gt;Multi-label&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/thatbrguy/Multilabel-Classification&#34;&gt;Multilabel-Classification using TensorFlow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/journey-to-the-center-of-multi-label-classification-384c40229bff&#34;&gt;Deep dive into multi-label classification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Tencent/NeuralNLP-NeuralClassifier&#34;&gt;NeuralClassifier: An Open-source Neural Hierarchical Multi-label Text Classification Toolkit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/scikit-multilearn/scikit-multilearn&#34;&gt;scikit-multilearn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1898-z&#34;&gt;Deep learning architectures for multi-label classification of intelligent health risk prediction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

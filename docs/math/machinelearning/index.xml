@@ -1,0 +1,101 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Machine Learning</title>
+    <link>/docs/math/machinelearning/</link>
+    <description>Recent content in Machine Learning on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/math/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Linear Algebra</title>
+      <link>/docs/math/machinelearning/02linear_algebra/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/machinelearning/02linear_algebra/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;algebra&#34;&gt;Algebra&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear algebra is the study of &lt;strong&gt;vectors&lt;/strong&gt; and certain &lt;strong&gt;rules&lt;/strong&gt; to manipulate vectors.&lt;/li&gt;
+&lt;li&gt;Vectors: are special objects that can be added together and multiplied by scalars to produce another object of the same kind.
+&lt;ul&gt;
+&lt;li&gt;Examples
+&lt;ul&gt;
+&lt;li&gt;Geometric vectors&lt;/li&gt;
+&lt;li&gt;Polynomials&lt;/li&gt;
+&lt;li&gt;Audio signals&lt;/li&gt;
+&lt;li&gt;Elements of $\Bbb{R}^n $(tuples of $n$ real numebers)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Geometric Interpretation of Systems of Linear Equatiion
+&lt;ul&gt;
+&lt;li&gt;In a system of linear equations
+&lt;ul&gt;
+&lt;li&gt;with two variables x1, x2, &lt;strong&gt;each linear equation&lt;/strong&gt; defines &lt;strong&gt;a line&lt;/strong&gt; on the x1x2-plane.&lt;/li&gt;
+&lt;li&gt;with three variables, x1, x2, x3, &lt;strong&gt;each linear equation&lt;/strong&gt; defines a plane in three-dimensional space.
+&lt;ul&gt;
+&lt;li&gt;When we intersect these planes, i.e., satisfy all linear equations at the same time, we can obtain a solution set that is &lt;strong&gt;a plane&lt;/strong&gt;, &lt;strong&gt;a line&lt;/strong&gt;, &lt;strong&gt;a point&lt;/strong&gt; or &lt;strong&gt;empty&lt;/strong&gt; (when the planes have no common intersection).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;matrices&#34;&gt;Matrices&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A central role in linear algebra
+&lt;ul&gt;
+&lt;li&gt;used to compactly represent systems of linear equations&lt;/li&gt;
+&lt;li&gt;represent linear functions (linear mappints)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Matrix&lt;/li&gt;
+&lt;li&gt;Matrix addtion&lt;/li&gt;
+&lt;li&gt;Matrix multiplication&lt;/li&gt;
+&lt;li&gt;Hadamard product: element-wise product. It is a binary operation that takes two matrices of the same dimensions and produces another matrix of the same dimension as the operands, where each element &lt;code&gt;i, j&lt;/code&gt; is the product of elements &lt;code&gt;i, j&lt;/code&gt; of the original two matrices.&lt;/li&gt;
+&lt;li&gt;Matrix product&lt;/li&gt;
+&lt;li&gt;Identity matrix: $n × n$-matrix containing $1$ on the diagonal and $0$ everywhere else&lt;/li&gt;
+&lt;li&gt;Matrix properties
+&lt;ul&gt;
+&lt;li&gt;Associativity&lt;/li&gt;
+&lt;li&gt;Distributivity&lt;/li&gt;
+&lt;li&gt;Multiplication with the identity matrix&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2019/08/20/normal/a8ce1ee7cf007e96bfcd1280b79a89d9.jpg&#34; alt=&#34;kr&#34;&gt;   &lt;br&gt;
+&lt;a href=&#34;https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2019/08/20/normal/a8ce1ee7cf007e96bfcd1280b79a89d9.jpg&#34;&gt;Image from jconlineimagem&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Activation</title>
+      <link>/docs/math/machinelearning/activation/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/machinelearning/activation/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

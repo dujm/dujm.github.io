@@ -1,0 +1,125 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Data</title>
+    <link>/docs/data/</link>
+    <description>Recent content in Data on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Data Set</title>
+      <link>/docs/data/dataset/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/dataset/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Privacy and Security</title>
+      <link>/docs/data/privacy/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/privacy/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;data-privacy&#34;&gt;Data Privacy&lt;/h2&gt;
+&lt;p&gt;The basic requirement is that the owners of the data should&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;know
+&lt;ul&gt;
+&lt;li&gt;what is collected&lt;/li&gt;
+&lt;li&gt;what it will be used for&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;be able to
+&lt;ul&gt;
+&lt;li&gt;view it&lt;/li&gt;
+&lt;li&gt;ask for any part of it to be corrected or deleted completely.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Companies that use use the data&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;are responsible for its safekeeping&lt;/li&gt;
+&lt;li&gt;should not share it without the authorization of the original owner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-sanitizer&#34;&gt;Data Sanitizer&lt;/h2&gt;
+&lt;p&gt;Personal data should be sanitized by hiding all the personal details.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anonymization is not enough
+&lt;ul&gt;
+&lt;li&gt;e.g. Fileds such as birth date and zip code are informative&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-diversity&#34;&gt;Data Diversity&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Machine learning programs are trained on data collected in the past, when there may have been lack of diversity
+&lt;ul&gt;
+&lt;li&gt;e.g. a bank may have had more men than women as customers in the past&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;explainable-artifical-intelligence-xai&#34;&gt;Explainable Artifical Intelligence (XAI)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We want models to be written down in a form understandable by human.&lt;/li&gt;
+&lt;li&gt;The experts in that area can access and analyze the model.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Data Structure</title>
+      <link>/docs/data/structure/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/structure/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;courses&#34;&gt;Courses&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513&#34;&gt;Intro to Data Structures and Algorithms, Udacity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/&#34;&gt;Advanced Data Structures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;read&#34;&gt;Read&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/a-data-scientists-guide-to-data-structures-algorithms-1176395015a0&#34;&gt;A Data Scientist’s Guide to Data Structures &amp;amp; Algorithms, Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Visualization</title>
+      <link>/docs/data/visual-art/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/data/visual-art/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

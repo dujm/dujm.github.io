@@ -1,0 +1,91 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Papers</title>
+    <link>/docs/machinelearning/nlp/nlp-papers/</link>
+    <description>Recent content in Papers on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/nlp/nlp-papers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Hugging Face Paper Discussions</title>
+      <link>/docs/machinelearning/nlp/nlp-papers/hugging-face/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/nlp/nlp-papers/hugging-face/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
+&lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/huggingface/awesome-papers/blob/master/README.md&#34;&gt;Awesome NLP Paper Discussions&lt;/a&gt;has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;april-7-2020&#34;&gt;April 7, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Topic&lt;/strong&gt;: Overview of recent work on: Indexing and Retrieval for Open Domain Question Answering&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presenter&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/YJernite&#34;&gt;Yacine Jernite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussion&lt;/strong&gt;: &lt;a href=&#34;https://docs.google.com/presentation/d/1A5wJEzFYGdNem7egJ-BTm6EMI3jGNe1lalyChYL54gw&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/denspi.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;march-24-2020&#34;&gt;March 24, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/2001.08361&#34;&gt;Scaling Laws for Neural Language Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, &lt;a href=&#34;https://twitter.com/scottgray76&#34;&gt;Scott Gray&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/AlecRad&#34;&gt;Alec Radford&lt;/a&gt;, Jeffrey Wu, Dario Amodei&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presenter&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/Fluke_Ellington&#34;&gt;Teven Le Scao&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussion&lt;/strong&gt;: &lt;a href=&#34;https://docs.google.com/document/d/1Rye61octaEF6FPHN3E7Bn2s-W3AWgMi1hukxrbkBmgY/edit#heading=h.s0a83j1o76km&#34;&gt;Google doc paper tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/scaling_laws.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;march-17-2020&#34;&gt;March 17, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/1807.03748&#34;&gt;Representation Learning with Contrastive Predictive Coding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authors&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/avdnoord&#34;&gt;Aaron van den Oord&lt;/a&gt;, Yazhe Li, Oriol Vinyals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presenter&lt;/strong&gt; &lt;a href=&#34;https://twitter.com/PatrickPlaten&#34;&gt;Patrick von Platen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussion&lt;/strong&gt;: &lt;a href=&#34;https://docs.google.com/presentation/d/1qxt7otjFI8iQSCpwzwTNei4_n4e4CIczC6nwy3jdiJY/edit?usp=sharing&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/cpc.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;march-10-2020&#34;&gt;March 10, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/1902.01007&#34;&gt;Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authors&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/RTomMcCoy&#34;&gt;R. Thomas McCoy&lt;/a&gt;, Ellie Pavlick, &lt;a href=&#34;https://twitter.com/tallinzen&#34;&gt;Tal Linzen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presenter&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/sanhestpasmoi&#34;&gt;Victor Sanh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussion&lt;/strong&gt;: &lt;a href=&#34;https://docs.google.com/presentation/d/15waw0-rr4RmPx0dhEzhNhkSiFnNqhvjm66IufWbRLyw/edit?usp=sharing&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/hans.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;march-3-2020&#34;&gt;March 3, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/2002.08909&#34;&gt;REALM: Retrieval-Augmented Language Model Pre-Training&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authors&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/kelvin_guu&#34;&gt;Kelvin Guu&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/kentonctlee&#34;&gt;Kenton Lee&lt;/a&gt;, Zora Tung, &lt;a href=&#34;https://twitter.com/IcePasupat&#34;&gt;Panupong Pasupat&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/mchang21&#34;&gt;Ming-Wei Chang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presenter&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/joeddav&#34;&gt;Joe Davison&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussion&lt;/strong&gt;: &lt;a href=&#34;https://joeddav.github.io/blog/2020/03/03/REALM.html&#34;&gt;Write-up&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/realm.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;february-25-2020&#34;&gt;February 25, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/1909.00015&#34;&gt;Adaptively Sparse Transformers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Gonçalo M. Correia, &lt;a href=&#34;https://twitter.com/vnfrombucharest&#34;&gt;Vlad Niculae&lt;/a&gt;, André F.T. Martins&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presenter&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/srush_nlp&#34;&gt;Sasha Rush&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussion&lt;/strong&gt;: &lt;a href=&#34;https://colab.research.google.com/drive/1EB7MI_3gzAR1gFwPPO27YU9uYzE_odSu&#34;&gt;Colab notebook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/adaptive-s-t.png&#34; alt=&#34;Adaptive sparse transformers&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/sparse.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;planned-discussions&#34;&gt;Planned Discussions&lt;/h3&gt;
+&lt;h3 id=&#34;march-31-2020&#34;&gt;March 31, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/1908.08351&#34;&gt;Compositionality decomposed: how do neural networks generalise?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authors&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/_dieuwke_&#34;&gt;Dieuwke Hupkes&lt;/a&gt;, Verna Dankers, Mathijs Mul, Elia Bruni&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presenter&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/Thom_Wolf&#34;&gt;Thomas Wolf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,459 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Sequence Models</title>
+    <link>/docs/machinelearning/models/deep-learning/sequence-models/</link>
+    <description>Recent content in Sequence Models on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/models/deep-learning/sequence-models/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Sequence Models</title>
+      <link>/docs/machinelearning/models/deep-learning/sequence-models/sequence-models/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/sequence-models/sequence-models/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;i-recurrent-neural-networks&#34;&gt;I: Recurrent Neural Networks&lt;/h3&gt;
+&lt;h3 id=&#34;1what-are-some-examples-of-sequence-data&#34;&gt;1.What are some examples of sequence data?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;DNA/RNA/Protein Sequence&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=d4Sn6ny_5LI&#34;&gt;Smart home&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stock change&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Supply chain&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Music generation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Speech recognition&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sentiment classification&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Video activity recognition&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Name entity recognition (one example here)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Representing Words
+&lt;ul&gt;
+&lt;li&gt;Words Index x&lt;sup&gt;T&lt;/sup&gt;, y&lt;sup&gt;T&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dictionary :
+&lt;ul&gt;
+&lt;li&gt;Big company use 1 million words&lt;/li&gt;
+&lt;li&gt;Commercial: 30k&lt;/li&gt;
+&lt;li&gt;This lecture example: 10k&lt;/li&gt;
+&lt;li&gt;One-Hot encoders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-why-dont-we-use-a-standard-network-for-sequence-data-analysis&#34;&gt;2. Why don&amp;rsquo;t we use a standard network for sequence data analysis?&lt;/h3&gt;
+&lt;p&gt;Problems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input and outputs can be different lengths in different sentences&lt;/li&gt;
+&lt;li&gt;You may pad or zero-pad each inputs up to that maximum length&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t share features learned across different positions of text&lt;/li&gt;
+&lt;li&gt;Huge matrix: each vector x&lt;sup&gt;T&lt;/sup&gt; * max No. of words&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;3-how-does-a-uni-directional-recurrent-neural-network-different-from-a-standard-network&#34;&gt;3. How does a (uni-directional) recurrent neural network different from a standard network?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;To kick off, add a made-up activation at time 0
+&lt;ul&gt;
+&lt;li&gt;Usually the vectors of zeros as the fake times zero activation)&lt;/li&gt;
+&lt;li&gt;Or initialize a&lt;sup&gt;0&lt;/sup&gt; randomly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reads the 1st word in a sentence, predict whether the word is a part of the name y1 for X1&lt;/li&gt;
+&lt;li&gt;Reads the 2nd word in a sentence, predict y2 for X2&lt;/li&gt;
+&lt;li&gt;Passes the activation information from time step 1 to time step 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/RNN.png&#34; alt=&#34;rnn&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/rnn2.png&#34; alt=&#34;rnn2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/rnn_step_forward.png&#34; alt=&#34;rnn-f&#34;&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;4-what-are-the-disadvantages-of-a-rnn&#34;&gt;4. What are the disadvantages of a RNN?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Exploding gradients:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Parameters get large&lt;/li&gt;
+&lt;li&gt;Gradient Clipping: when you derivatives explode or you see NaNs, then rescale numerical vectors. This is a very robust way.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vanishing gradients:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Harder to solve&lt;/li&gt;
+&lt;li&gt;GRU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;5-what-are-forward-propagation-and-backward-propagation&#34;&gt;5. What are forward propagation and backward propagation?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Forward Propagation&lt;/li&gt;
+&lt;li&gt;Backward propagation through time&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://karpathy.github.io/2015/05/21/rnn-effectiveness/&#34; title=&#34;The Unreasonable Effectiveness of Recurrent Neural Networks&#34;&gt;The Unreasonable Effectiveness of Recurrent Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;6-bidrectional-neural-networks-brnns&#34;&gt;6. Bidrectional Neural Networks (BRNNs)&lt;/h3&gt;
+&lt;h3 id=&#34;activation-functions&#34;&gt;Activation Functions:&lt;/h3&gt;
+&lt;h3 id=&#34;hidden-layers&#34;&gt;Hidden Layers:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Relu&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-7scQpJT7uo&#34;&gt;If a lot of neurons die&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Leaky Relu&lt;/li&gt;
+&lt;li&gt;MaxOut&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Don&amp;rsquo;t use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sigmoid
+&lt;ul&gt;
+&lt;li&gt;Gradient vanishing problems&lt;/li&gt;
+&lt;li&gt;Loss of control because it&amp;rsquo;s not 0-centered (all +)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tanh (Hyperbolic Tangent Function)
+&lt;ul&gt;
+&lt;li&gt;Gradient vanishing problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;output-layers&#34;&gt;Output layers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Softmax: For classification&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Linear function: For regression&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;note&#34;&gt;Note:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For a real type speech recognition applications: complex modules.&lt;/li&gt;
+&lt;li&gt;NLP processing applications: use standard BRNN when you can get the entire sentence all the same time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;7deep-brnns&#34;&gt;7.Deep BRNNs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You don&amp;rsquo;t see a lot of deep-connected layers because of the large temporal dimensions&lt;/li&gt;
+&lt;li&gt;3 layers is already deep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;8-language-modelling-and-sequence-generation&#34;&gt;8. Language modelling and sequence generation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A training set comprising a large corpus of text&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tokenization&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;End of Sentence (EOS)&lt;/li&gt;
+&lt;li&gt;Unkown words (UNK)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vocabulary-level language model&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Character-level language model&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Punctuations and space are also vectors&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t need to worry about UNK, assign non-zero vectors&lt;/li&gt;
+&lt;li&gt;Not good at capturing long-range word dependencies&lt;/li&gt;
+&lt;li&gt;An example of character level language model
+&lt;a href=&#34;https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%201/Dinosaur%20Island%20--%20Character-level%20language%20model/w1_Dinosaurus_Island_Character_level_language_model_final_v3_DJ.ipynb&#34;&gt;Dinosaurus land notebook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sequence generation&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;9-gated-recurrent-unit-gru&#34;&gt;9. Gated Recurrent Unit (GRU)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;What is GRU? &lt;a href=&#34;https://arxiv.org/abs/1409.1259/&#34; title=&#34;Cho et al., 2014. On the properties of neural machine translation: Encoder-decoder approaches&#34;&gt;GRU&lt;/a&gt; is a modification of the RNN hidden layer&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Why GRU? GRU is much better   &lt;a href=&#34;https://arxiv.org/abs/1412.3555/&#34; title=&#34;Chung et al., 2014. Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling&#34;&gt;capturing long range connections&lt;/a&gt; and helps a lot with the vanishing gradient problems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-is-a-common-gru-composed-of&#34;&gt;What is a common GRU composed of?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Memory Cell Value (c): a new variable in GRU&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Provide a bit of memory to remember&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;E.g. The dog, which already ate a sausage, was full.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The c will remember whether the subject of the sentence, &amp;ldquo;dog&amp;rdquo;, was singular or plural, so that when it gets much further into the sentence it can&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For GRU, c&lt;sup&gt;t&lt;/sup&gt; = a&lt;sup&gt;t&lt;/sup&gt; (output activation)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The optic gate&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Notion: capital Greek alphabet gamma Γ&lt;sub&gt;u&lt;/sub&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The job of the Gate, gamma u: to decide when do you update the value c&lt;sup&gt;t&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[0 -1] For intuition, think of gamma as either 0 or 1&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The relevance gate&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notion: Γ&lt;sub&gt;r&lt;/sub&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;10-long-short-term-memory-lstm-network&#34;&gt;10. Long Short-Term Memory (LSTM) network&lt;/h3&gt;
+&lt;h3 id=&#34;what-is-a-lstm-unit-and-network&#34;&gt;What is a LSTM unit and network?&lt;/h3&gt;
+&lt;p&gt;Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM units is often called an &lt;a href=&#34;https://en.wikipedia.org/wiki/Long_short-term_memory&#34;&gt;LSTM network&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-a-common-lstm-composed-of&#34;&gt;What is a common LSTM composed of?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;a cell&lt;/li&gt;
+&lt;li&gt;an input gate&lt;/li&gt;
+&lt;li&gt;an output gate&lt;/li&gt;
+&lt;li&gt;a forget gate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-does-lstm-work&#34;&gt;How does LSTM work?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Forget gate: LSTM should remove that piece of information (e.g. the singular subject) in the corresponding component. If one of the values is 1, then it will keep the information.&lt;/li&gt;
+&lt;li&gt;Update gate: Once we forget that the subject being discussed is singular, we need to find a way to update it to reflect that the new subject is now plural.&lt;/li&gt;
+&lt;li&gt;Updating the cell: To update the new subject we need to create a new vector of numbers that we can add to our previous cell state.&lt;/li&gt;
+&lt;li&gt;Output gate: To decide which outputs we will use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/LSTM.png&#34; alt=&#34;LSTM&#34;&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;read-more&#34;&gt;Read more?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/nlp-sequence-models/&#34;&gt;Text and Image source: &amp;ldquo;Sequence Models&amp;rdquo;, Coursera&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://colah.github.io/posts/2015-08-Understanding-LSTMs/&#34;&gt;Understanding LSTM Networks,  GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://jalammar.github.io/illustrated-bert/&#34;&gt;The Illustrated BERT, ELMo&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270&#34;&gt;BERT Explained: State of the art language model for NLP, Medium&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Word Embeddings</title>
+      <link>/docs/machinelearning/models/deep-learning/sequence-models/word-embeddings/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/sequence-models/word-embeddings/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;1-what-are-word-representations&#34;&gt;1. What are word representations?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;One-Hot encodings&lt;/li&gt;
+&lt;li&gt;Featurized representaion: word embeddings
+&lt;ul&gt;
+&lt;li&gt;Word embedding is one of the most popular word representation.&lt;/li&gt;
+&lt;li&gt;It is capable of capturing context of a word in a document, semantic and syntactic similarity, relation with other words, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-summary-of-word-embeddings&#34;&gt;2. Summary of word embeddings&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Word Embeddings&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Transfer Learning&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Training Set&lt;/td&gt;
+&lt;td&gt;small&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Entity recognition, text summarization, co-reference resolution, parsing&lt;/td&gt;
+&lt;td&gt;Good&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Language modeling and machine translation&lt;/td&gt;
+&lt;td&gt;Bad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Visulization&lt;/td&gt;
+&lt;td&gt;t-SNE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;3-how-does-word-embedding-algorithms-work&#34;&gt;3. How does word embedding algorithms work?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;How to use word embeddings to solve a &lt;strong&gt;Word Analogy&lt;/strong&gt; problem?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to load pre-trained word vectors, and &lt;strong&gt;Measure Similarity&lt;/strong&gt; using cosine similarity&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to modify word embeddings to &lt;strong&gt;reduce their gender bias&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Try the exercise on Coursera &lt;a href=&#34;https://www.coursera.org/learn/nlp-sequence-models/notebook/5NrJ6/operations-on-word-vectors-debiasing&#34;&gt;Coursera notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Take a look at &lt;a href=&#34;https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%202/Word_Vector_Representation/w2_Operations_onword_vectorsv2_DJ.ipynb&#34;&gt;my notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-how-to-create-an-embedding-layer-and-build-a-kears-lstm-model-for-sentiment-classification&#34;&gt;4. How to create an embedding layer and build a Kears LSTM model for sentiment classification?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Try the Emotify exercise on Coursera &lt;a href=&#34;https://www.coursera.org/learn/nlp-sequence-models/notebook/acNYU/emojify&#34;&gt;Coursera notebook&lt;/a&gt;&lt;br&gt;
+(Input a sentence and find the most appropriate emoji)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Take a look at &lt;a href=&#34;https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%202/Emojify/w2_Emojify_v2_DJ.ipynb&#34;&gt;my notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;  
+&lt;hr&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/nlp-sequence-models/home/week/2&#34;&gt;Natural Language Processing &amp;amp; Word Embeddings, Coursera&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/introduction-to-word-embedding-and-word2vec-652d0c2060fa&#34;&gt;Introduction to Word Embedding and Word2Vec&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Attention Model</title>
+      <link>/docs/machinelearning/models/deep-learning/sequence-models/attention-model/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/sequence-models/attention-model/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;1-what-is-attention&#34;&gt;1. What is attention?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/syncedreview/a-brief-overview-of-attention-mechanism-13c578ba9129&#34;&gt;Attention&lt;/a&gt; is a vector, often the outputs of dense layer using softmax function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-what-is-an-attention-model&#34;&gt;2. What is an attention model?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;a href=&#34;https://medium.com/syncedreview/a-brief-overview-of-attention-mechanism-13c578ba9129&#34;&gt;attention model&lt;/a&gt; plugs &lt;strong&gt;a context vector&lt;/strong&gt; into the gap between encoder and decoder.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;According to the schematic below, blue represents encoder and red represents decoder&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The context vector takes all cells’ outputs as input to compute the probability distribution of source language words for each single word decoder wants to generate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/img/models/attention_model.png&#34; alt=&#34;Attention_model&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/syncedreview/a-brief-overview-of-attention-mechanism-13c578ba9129&#34;&gt;Image Source&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;3-why-do-we-use-attention-model&#34;&gt;3. Why do we use attention model?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Attention model allows machine translator to look over all the information the original sentence holds, then generate the proper word according to current word it works on and the context.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It can even allow translator to zoom in or out (focus on local or global features).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;By utilizing attention model, it is possible for decoder to capture somewhat global information rather than solely to infer based on one hidden state.
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-how-to-solve-a-human-machine-translation-problem-using-a-attention-based-bidirectional-lstm&#34;&gt;4. How to solve a Human-Machine Translation problem using a attention-based bidirectional LSTM?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Try the Human-Machine Translation exercise on Coursera&lt;br&gt;
+(Translating human readable dates into machine readable dates)&lt;br&gt;
+&lt;a href=&#34;https://www.coursera.org/learn/nlp-sequence-models/notebook/npjGi/neural-machine-translation-with-attention&#34;&gt;Coursera notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Take a look at &lt;a href=&#34;https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%203/Machine%20Translation/w3_Neural_machine_translation_with_attentionv4_DJ.ipynb&#34;&gt;my notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;read-more&#34;&gt;Read more?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/syncedreview/a-brief-overview-of-attention-mechanism-13c578ba9129&#34;&gt;A Brief Overview of Attention Mechanism, Medium&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/&#34;&gt;How Does Attention Work in Encoder-Decoder Recurrent Neural Networks&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

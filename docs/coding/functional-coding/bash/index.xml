@@ -1,0 +1,158 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Bash</title>
+    <link>/docs/coding/functional-coding/bash/</link>
+    <description>Recent content in Bash on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/coding/functional-coding/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Free up disk space</title>
+      <link>/docs/coding/functional-coding/bash/free/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/bash/free/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;list-folder-size-and-corresponding-file-sizes&#34;&gt;List folder size and corresponding file sizes&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;du -chd &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; sort -h    
+du -aBM 2&amp;gt;/dev/null &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; sort -nr &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; head -n &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;50&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; more
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# use du&amp;#39;s -x flag to keep things limited to one filesystem &lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 2&amp;gt;/dev/null redirects any error messages into oblivion. If they don&amp;#39;t bother you, it&amp;#39;s not obligatory.&lt;/span&gt;
+sudo du -sx /* 2&amp;gt;/dev/null &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; sort -n
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# List all files larger than 1000MiB&lt;/span&gt;
+find / -size +1000M -ls
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+&lt;h3 id=&#34;clean-ubuntu&#34;&gt;Clean Ubuntu&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To delete downloaded packages (.deb) already installed (and no longer needed)&lt;/span&gt;
+sudo apt-get clean
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To remove all stored archives in your cache for packages that can not be downloaded anymore (thus packages that are no longer in the repository or that have a newer version in the repository).&lt;/span&gt;
+
+sudo apt-get autoclean
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To remove unnecessary packages (After uninstalling an app there could be packages you don&amp;#39;t need anymore)&lt;/span&gt;
+
+sudo apt-get autoremove
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Install bleachbit &lt;/span&gt;
+sudo apt-get install bleachbit
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Open bleachbit and select files to clean &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To delete old kernel versions&lt;/span&gt;
+
+sudo apt-get remove --purge linux-image-X.X.XX-XX-generic
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# If you don&amp;#39;t know which kernel version to remove&lt;/span&gt;
+
+dpkg --get-selections &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; grep linux-image
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt; 
+&lt;h3 id=&#34;clean-conda&#34;&gt;Clean conda&lt;/h3&gt;
+&lt;p&gt;Anaconda accumulate lots of garbage package caches and tarballs.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.conda.io/projects/conda/en/latest/commands/clean.html&#34;&gt;conda clean&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To delete caches, tarballs and lock files which are not used (except tmp)&lt;/span&gt;
+conda clean -iptf
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# To delete all&lt;/span&gt;
+conda clean -a
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Commands</title>
+      <link>/docs/coding/functional-coding/bash/commands/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/functional-coding/bash/commands/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;60-common-commands&#34;&gt;60 Common commands&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;alias&lt;/li&gt;
+&lt;li&gt;basename&lt;/li&gt;
+&lt;li&gt;bg&lt;/li&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;li&gt;cd&lt;/li&gt;
+&lt;li&gt;chmod&lt;/li&gt;
+&lt;li&gt;chown&lt;/li&gt;
+&lt;li&gt;clear&lt;/li&gt;
+&lt;li&gt;cp&lt;/li&gt;
+&lt;li&gt;crontab&lt;/li&gt;
+&lt;li&gt;df&lt;/li&gt;
+&lt;li&gt;diff&lt;/li&gt;
+&lt;li&gt;dirname&lt;/li&gt;
+&lt;li&gt;du&lt;/li&gt;
+&lt;li&gt;echo&lt;/li&gt;
+&lt;li&gt;emacs editor&lt;/li&gt;
+&lt;li&gt;env&lt;/li&gt;
+&lt;li&gt;export&lt;/li&gt;
+&lt;li&gt;fg&lt;/li&gt;
+&lt;li&gt;find&lt;/li&gt;
+&lt;li&gt;grep&lt;/li&gt;
+&lt;li&gt;gunzip&lt;/li&gt;
+&lt;li&gt;gzip&lt;/li&gt;
+&lt;li&gt;history&lt;/li&gt;
+&lt;li&gt;jobs&lt;/li&gt;
+&lt;li&gt;kill&lt;/li&gt;
+&lt;li&gt;killall&lt;/li&gt;
+&lt;li&gt;less&lt;/li&gt;
+&lt;li&gt;ln&lt;/li&gt;
+&lt;li&gt;ls&lt;/li&gt;
+&lt;li&gt;man&lt;/li&gt;
+&lt;li&gt;mkdir&lt;/li&gt;
+&lt;li&gt;mv&lt;/li&gt;
+&lt;li&gt;nano editor&lt;/li&gt;
+&lt;li&gt;nohup&lt;/li&gt;
+&lt;li&gt;open&lt;/li&gt;
+&lt;li&gt;passwd&lt;/li&gt;
+&lt;li&gt;ping&lt;/li&gt;
+&lt;li&gt;printenv&lt;/li&gt;
+&lt;li&gt;ps&lt;/li&gt;
+&lt;li&gt;pwd&lt;/li&gt;
+&lt;li&gt;rmdir&lt;/li&gt;
+&lt;li&gt;sort&lt;/li&gt;
+&lt;li&gt;su&lt;/li&gt;
+&lt;li&gt;sudo&lt;/li&gt;
+&lt;li&gt;tail&lt;/li&gt;
+&lt;li&gt;tar&lt;/li&gt;
+&lt;li&gt;top&lt;/li&gt;
+&lt;li&gt;touch&lt;/li&gt;
+&lt;li&gt;traceroute&lt;/li&gt;
+&lt;li&gt;type&lt;/li&gt;
+&lt;li&gt;umask&lt;/li&gt;
+&lt;li&gt;uname&lt;/li&gt;
+&lt;li&gt;uniq&lt;/li&gt;
+&lt;li&gt;vim editor&lt;/li&gt;
+&lt;li&gt;wc&lt;/li&gt;
+&lt;li&gt;which&lt;/li&gt;
+&lt;li&gt;who&lt;/li&gt;
+&lt;li&gt;whoami&lt;/li&gt;
+&lt;li&gt;xargs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ref&#34;&gt;Ref&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-traceroute-command&#34;&gt;The Linux Handbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,202 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Tools</title>
+    <link>/docs/machinelearning/nlp/nlp-tools/</link>
+    <description>Recent content in Tools on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/nlp/nlp-tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Genism</title>
+      <link>/docs/machinelearning/nlp/nlp-tools/genism/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/nlp/nlp-tools/genism/</guid>
+      <description>
+        
+        
+        &lt;br&gt; 
+&lt;h3 id=&#34;1-how-to-compare-document-similarity&#34;&gt;1. How to compare document similarity?&lt;/h3&gt;
+&lt;p&gt;A commonly used approach to match similar documents is based on counting the maximum number of common words between the documents.&lt;/p&gt;
+&lt;p&gt;But this approach has an inherent flaw. That is, as the size of the document increases, the number of common words tend to increase even if the documents talk about different topics.&lt;/p&gt;
+&lt;p&gt;The cosine similarity helps overcome this fundamental flaw in the ‘count-the-common-words’ or Euclidean distance approach.&lt;/p&gt;
+&lt;br&gt; 
+&lt;h3 id=&#34;2-what-is-cosine-similarity-and-why-is-it-advantageous&#34;&gt;2. What is Cosine Similarity and why is it advantageous?&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cosine similarity is a metric used to determine how similar the documents are irrespective of their size.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. In this context, the two vectors I am talking about are arrays containing the word counts of two documents.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As a similarity metric, how does cosine similarity differ from the number of common words?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When plotted on a multi-dimensional space, where each dimension corresponds to a word in the document, the cosine similarity captures the orientation (the angle) of the documents and not the magnitude. If you want the magnitude, compute the Euclidean distance instead.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance because of the size (like, the word ‘cricket’ appeared 50 times in one document and 10 times in another) they could still have a smaller angle between them. Smaller the angle, higher the similarity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.machinelearningplus.com/wp-content/uploads/2018/10/3d_projection-865x922.png&#34; alt=&#34;documents in a 3-dimensional space&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.machinelearningplus.com/wp-content/uploads/2018/10/3d_projection-865x922.png&#34;&gt;Documents in a 3-dimensional space&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;3-what-is-soft-cosine-similarity&#34;&gt;3. What is soft cosine similarity?&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Soft cosine similarity is similar to cosine similarity but in addition considers the semantic relationship between the words through its vector representation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.machinelearningplus.com/wp-content/uploads/2018/10/soft-cosine-865x413.png&#34; alt=&#34;Soft cosine similarity&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.machinelearningplus.com/wp-content/uploads/2018/10/soft-cosine-865x413.png&#34;&gt;Soft cosine similarity&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.machinelearningplus.com/nlp/cosine-similarity/&#34;&gt;Cosine Similarity – Understanding the math and how it works (with python codes)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.machinelearningplus.com/nlp/gensim-tutorial/&#34;&gt;Gensim Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Haystack</title>
+      <link>/docs/machinelearning/nlp/nlp-tools/hay-stack/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/nlp/nlp-tools/hay-stack/</guid>
+      <description>
+        
+        
+        &lt;br&gt; 
+&lt;h3 id=&#34;haystack--neural-question-answering-at-scalehttpsgithubcomdeepset-aihaystack&#34;&gt;&lt;a href=&#34;https://github.com/deepset-ai/haystack&#34;&gt;Haystack — Neural Question Answering At Scale&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The performance of modern Question Answering Models (BERT, ALBERT &amp;hellip;) has seen drastic improvements within the last year enabling many new opportunities for accessing information more efficiently. However, those models are designed to find answers within rather small text passages. Haystack lets you scale QA models to large collections of documents! While QA is the focussed use case for haystack, we will soon support additional options to boost search (re-ranking, most-similar search &amp;hellip;).&lt;/p&gt;
+&lt;p&gt;Haystack is designed in a modular way and lets you use any models trained with FARM or Transformers.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;core-features&#34;&gt;Core Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Powerful ML models: Utilize all latest transformer based models (BERT, ALBERT, RoBERTa &amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Modular &amp;amp; future-proof: Easily switch to newer models once they get published.&lt;/li&gt;
+&lt;li&gt;Developer friendly: Easy to debug, extend and modify.&lt;/li&gt;
+&lt;li&gt;Scalable: Production-ready deployments via Elasticsearch backend &amp;amp; REST API&lt;/li&gt;
+&lt;li&gt;Customizable: Fine-tune models to your own domain &amp;amp; improve them continuously via user feedback&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cmponents&#34;&gt;Cmponents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;DocumentStore: Database storing the documents for our search. We recommend Elasticsearch, but have also more light-weight options for fast prototyping (SQL or In-Memory).&lt;/li&gt;
+&lt;li&gt;Retriever: Fast, simple algorithm that identifies candidate passages from a large collection of documents. Algorithms include TF-IDF or BM25, custom Elasticsearch queries, and embedding-based approaches. The Retriever helps to narrow down the scope for Reader to smaller units of text where a given question could be answered.&lt;/li&gt;
+&lt;li&gt;Reader: Powerful neural model that reads through texts in detail to find an answer. Use diverse models like BERT, RoBERTa or XLNet trained via FARM or Transformers on SQuAD like tasks. The Reader takes multiple passages of text as input and returns top-n answers with corresponding confidence scores. You can just load a pretrained model from Hugging Face&amp;rsquo;s model hub or fine-tune it to your own domain data.&lt;/li&gt;
+&lt;li&gt;Finder: Glues together a Reader and a Retriever as a pipeline to provide an easy-to-use question answering interface.&lt;/li&gt;
+&lt;li&gt;REST API: Exposes a simple API for running QA search, collecting feedback and monitoring requests&lt;/li&gt;
+&lt;li&gt;Labeling Tool: Hosted version (Beta), Docker images (coming soon)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/deepset-ai/haystack/master/docs/_src/img/concepts_haystack_v2.png&#34; alt=&#34;haystack&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/deepset-ai/haystack/master/docs/_src/img/concepts_haystack_v2.png&#34;&gt;haystack&lt;/a&gt;&lt;/p&gt;
+ &lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/deepset-ai/haystack/master/docs/_src/img/code_snippet_usage.png&#34; alt=&#34;Q&amp;A&#34;&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/deepset-ai/haystack/master/docs/_src/img/code_snippet_usage.png&#34;&gt;Q&amp;amp;A&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Spark NLP</title>
+      <link>/docs/machinelearning/nlp/nlp-tools/spark-nlp/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/nlp/nlp-tools/spark-nlp/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
+&lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/JohnSnowLabs/spark-nlp&#34;&gt;Spark NLP&lt;/a&gt;  has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
+&lt;br&gt; 
+&lt;h3 id=&#34;what-is-spark-nlp&#34;&gt;What is Spark NLP?&lt;/h3&gt;
+&lt;p&gt;John Snow Labs &lt;a href=&#34;https://github.com/JohnSnowLabs/spark-nlp&#34;&gt;Spark NLP&lt;/a&gt; is a natural language processing library built on top of Apache Spark ML. It provides simple, performant &amp;amp; accurate NLP annotations for machine learning pipelines that scale easily in a distributed environment.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tokenization&lt;/li&gt;
+&lt;li&gt;Stop Words Removal&lt;/li&gt;
+&lt;li&gt;Normalizer&lt;/li&gt;
+&lt;li&gt;Stemmer&lt;/li&gt;
+&lt;li&gt;Lemmatizer&lt;/li&gt;
+&lt;li&gt;NGrams&lt;/li&gt;
+&lt;li&gt;Regex Matching&lt;/li&gt;
+&lt;li&gt;Text Matching&lt;/li&gt;
+&lt;li&gt;Chunking&lt;/li&gt;
+&lt;li&gt;Date Matcher&lt;/li&gt;
+&lt;li&gt;Sentence Detector&lt;/li&gt;
+&lt;li&gt;Part-of-speech tagging&lt;/li&gt;
+&lt;li&gt;Sentiment Detection (ML models)&lt;/li&gt;
+&lt;li&gt;Spell Checker (ML and DL models)&lt;/li&gt;
+&lt;li&gt;Word Embeddings (GloVe and Word2Vec)&lt;/li&gt;
+&lt;li&gt;BERT Embeddings (TF Hub models)&lt;/li&gt;
+&lt;li&gt;ELMO Embeddings (TF Hub models)&lt;/li&gt;
+&lt;li&gt;Universal Sentence Encoder (TF Hub models)&lt;/li&gt;
+&lt;li&gt;Sentence Embeddings&lt;/li&gt;
+&lt;li&gt;Chunk Embeddings&lt;/li&gt;
+&lt;li&gt;Multi-class Text Classification (Deep learning)&lt;/li&gt;
+&lt;li&gt;Named entity recognition (Deep learning)&lt;/li&gt;
+&lt;li&gt;Dependency parsing (Labeled/unlabled)&lt;/li&gt;
+&lt;li&gt;Easy TensorFlow integration&lt;/li&gt;
+&lt;li&gt;Full integration with Spark ML functions&lt;/li&gt;
+&lt;li&gt;+30 pre-trained models in 6 languages (English, French, German, Italian, Spanish, and Russian)&lt;/li&gt;
+&lt;li&gt;+30 pre-trained pipelines!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+&lt;p&gt;In order to use Spark NLP you need the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Java 8&lt;/li&gt;
+&lt;li&gt;Apache Spark 2.4.x&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ java -version
+# should be Java 8 (Oracle or OpenJDK)
+$ conda create -n sparknlp python=3.6 -y
+$ conda activate sparknlp
+$ pip install spark-nlp==2.4.5 pyspark==2.4.4
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h3 id=&#34;quickstart&#34;&gt;Quickstart&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;# Import Spark NLP
+from sparknlp.base import *
+from sparknlp.annotator import *
+from sparknlp.pretrained import PretrainedPipeline
+import sparknlp
+
+# Start Spark Session with Spark NLP
+spark = sparknlp.start()
+
+# Download a pre-trained pipeline
+pipeline = PretrainedPipeline(&#39;explain_document_dl&#39;, lang=&#39;en&#39;)
+
+# Your testing dataset
+text = &amp;quot;&amp;quot;&amp;quot;
+The Mona Lisa is a 16th century oil painting created by Leonardo.
+It&#39;s held at the Louvre in Paris.
+&amp;quot;&amp;quot;&amp;quot;
+
+# Annotate your testing dataset
+result = pipeline.annotate(text)
+
+# What&#39;s in the pipeline
+list(result.keys())
+Output: [&#39;entities&#39;, &#39;stem&#39;, &#39;checked&#39;, &#39;lemma&#39;, &#39;document&#39;,
+&#39;pos&#39;, &#39;token&#39;, &#39;ner&#39;, &#39;embeddings&#39;, &#39;sentence&#39;]
+
+# Check the results
+result[&#39;entities&#39;]
+Output: [&#39;Mona Lisa&#39;, &#39;Leonardo&#39;, &#39;Louvre&#39;, &#39;Paris&#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;h3 id=&#34;spark-nlp-workshophttpsgithubcomjohnsnowlabsspark-nlp-workshop&#34;&gt;&lt;a href=&#34;https://github.com/JohnSnowLabs/spark-nlp-workshop&#34;&gt;Spark NLP Workshop&lt;/a&gt;&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

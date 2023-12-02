@@ -1,0 +1,43 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Optimization</title>
+    <link>/docs/machinelearning/models/optimization/</link>
+    <description>Recent content in Optimization on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/models/optimization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: NN Optimization</title>
+      <link>/docs/machinelearning/models/optimization/bayesian-optimization/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/optimization/bayesian-optimization/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;bananas&#34;&gt;BANANAS&lt;/h3&gt;
+&lt;p&gt;Bayesian Optimization with Neural Architectures for Neural Architecture Search&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;Authors&lt;/dt&gt;
+&lt;dd&gt;Colin White, Willie Neiswanger, and Yash Savani&lt;br&gt;
+&lt;a href=&#34;https://github.com/naszilla/bananas&#34;&gt;GitHub&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1910.11858.pdf&#34;&gt;Paper&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;blockquote&gt;
+&lt;p&gt;BANANAS is a neural architecture search (NAS) algorithm which uses Bayesian optimization with a meta neural network to predict the validation accuracy of neural architectures. We use a path-based encoding scheme to featurize the neural architectures that are used to train the neural network model. After training on just 200 architectures, we are able to predict the validation accuracy of new architectures to within one percent on average. The full NAS algorithm beats the state of the art on the NASBench and the DARTS search spaces. On the NASBench search space, BANANAS is over 100x more efficient than random search, and 3.8x more efficent than the next-best algorithm we tried. On the DARTS search space, BANANAS finds an architecture with a test error of 2.57%.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/1835/1*27JsvCD6ftCicfTgcL5ZAQ.png&#34; alt=&#34;Bananas&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

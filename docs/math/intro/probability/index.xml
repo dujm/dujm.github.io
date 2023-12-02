@@ -1,0 +1,553 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Probablity</title>
+    <link>/docs/math/intro/probability/</link>
+    <description>Recent content in Probablity on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/math/intro/probability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Probability and Counting</title>
+      <link>/docs/math/intro/probability/s110_l01_probability_and_counting/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/probability/s110_l01_probability_and_counting/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;probability-and-life&#34;&gt;Probability and Life&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Genetics&lt;/li&gt;
+&lt;li&gt;Finance&lt;/li&gt;
+&lt;li&gt;History
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.historyofinformation.com/detail.php?id=4333&#34;&gt;Mosteller &amp;amp; Wallace Apply Computing in Disputed Authorship Investigation of The Federalist Papers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Games
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.york.ac.uk/depts/maths/histstat/pascal.pdf&#34;&gt;Fermat and Pascal Letters&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;The problem of points, also called the problem of division of the stakes, is a classical problem in probability theory. One of the famous problems that motivated the beginnings of modern probability theory in the 17th century, it led Blaise Pascal to the first explicit reasoning about what today is known as an expected value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Game theory
+&lt;ul&gt;
+&lt;li&gt;The study of mathematical models of strategic interaction among rational decision-makers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-is-a-sample-space-s&#34;&gt;What is a sample space &lt;code&gt;S&lt;/code&gt;?&lt;/h3&gt;
+&lt;p&gt;The set of all possible outcomes of a (random) experiment.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-an-event&#34;&gt;What is an event?&lt;/h3&gt;
+&lt;p&gt;A subset of the sample space.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-probability&#34;&gt;What is probability?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The very naive definition of $P_{(A)}$
+&lt;ul&gt;
+&lt;li&gt;Number of favorable outcomes $A$ divided by all possible outcomes&lt;/li&gt;
+&lt;li&gt;Assumptions:
+&lt;ul&gt;
+&lt;li&gt;all outcomes are equally likely&lt;/li&gt;
+&lt;li&gt;the sample space is finite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The non-naive definition $P_{(A)}$ or Probability Axioms
+&lt;ul&gt;
+&lt;li&gt;A function which takes an input, event $A$, a subset of sample space $S$,&lt;/li&gt;
+&lt;li&gt;returns $P_{(A)} \in [0,1]$ as an output,&lt;/li&gt;
+&lt;li&gt;such that
+&lt;ul&gt;
+&lt;li&gt;the probability of the empty set $P_{\varnothing} = 0$
+&lt;ul&gt;
+&lt;li&gt;An event that is impossible to happy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;the probability of the full set $P_{S} = 1$
+&lt;ul&gt;
+&lt;li&gt;Certainty: a guaranteed event that always happens&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;the probability of a countable infinite union equals to the sum of the probabilities of $A_1$,$A_2$,&amp;hellip;, $A_n$ if they are disjoined (non-overlapping)
+&lt;ul&gt;
+&lt;li&gt;$P_{(\bigcup_{i=1}^{\infty} A_{n})} = \sum_{n=1}^{\infty}P_{A_n}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-are-some-basic-principles-of-counting&#34;&gt;What are some basic principles of counting?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Multiplication rules:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Independent events assuming
+&lt;ul&gt;
+&lt;li&gt;$P_{(A and B)}=P_{(A)}⋅P_{(B)}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The general rule
+&lt;ul&gt;
+&lt;li&gt;$P_{(A and B)}=P_{(A)}⋅P_{(B|A)}$&lt;/li&gt;
+&lt;li&gt;If the events are independent, one happening doesn&amp;rsquo;t impact the probability of the other, and in that case $P_{(B|A)}=P_{(B)}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Binomial coefficient	$\binom{n}{k} = \frac{n!}{k!(n-k)!}$ = $\frac{n(n-1)(n-2)(n-k+1)}{k!}$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Example, what is the probability of having a full house card? (A full house has three cards of one kind and two of another)&lt;/li&gt;
+&lt;li&gt;First you choose a type of card (13 choices), then you choose three out of four of those cards, then you choose a second type of card, and finally you choose two of those four cards.&lt;/li&gt;
+&lt;li&gt;$P = \frac{\binom{13}{1} \cdot \binom{4}{3} \cdot \binom{12}{1 }\binom{4}{2}}  {\binom{52}{5}} \approx 0.00144 $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-to-choose-k-objects-out-of-n&#34;&gt;How to choose $k$ objects out of $n$?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sampling table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Order matters&lt;/th&gt;
+&lt;th&gt;Order doesn&amp;rsquo;t matter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Without replacement&lt;/td&gt;
+&lt;td&gt;S1: $n(n-1)&amp;hellip;(n-k+1)$&lt;/td&gt;
+&lt;td&gt;S3: $\binom{n}{k}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;With replacement&lt;/td&gt;
+&lt;td&gt;S2: $n^k$&lt;/td&gt;
+&lt;td&gt;S4:$\binom{n+k-1}{k}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;S1: The number of choices reduces every time&lt;/li&gt;
+&lt;li&gt;S2: $n$ choices each time&lt;/li&gt;
+&lt;li&gt;S3: $n$ choose $k$: think about how you choose the ice cream flavor and cones&lt;/li&gt;
+&lt;li&gt;S4:
+&lt;ul&gt;
+&lt;li&gt;Simple trivial cases
+&lt;ul&gt;
+&lt;li&gt;$k = 0$:
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{n-1}{0} = 1$&lt;/li&gt;
+&lt;li&gt;not choosing is also a choice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$k = 1$:
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{n}{1} = n$&lt;/li&gt;
+&lt;li&gt;you only choose once, there&amp;rsquo;s no difference whether there&amp;rsquo;s order or replacement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Simple non-trivial cases
+&lt;ul&gt;
+&lt;li&gt;$n = 2$:
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{k+1}{k} = \binom{k+1}{1} = k + 1$&lt;/li&gt;
+&lt;li&gt;put $k$ particles in two boxes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;General cases
+&lt;ul&gt;
+&lt;li&gt;how many ways are there to put $k$ indistinguishable particles in $n$ distinguishable boxes?&lt;/li&gt;
+&lt;li&gt;convert the question to a &amp;ldquo;dot and separator&amp;rdquo; code&lt;/li&gt;
+&lt;li&gt;$\binom{n+k-1}{k}$: $n+k-1$ positions, choose $k$ positions to put the dots&lt;/li&gt;
+&lt;li&gt;the same as $\binom{n+k-1}{n-1}$: $n+k-1$ positions, choose $n-1$ positions to put the seperators&lt;/li&gt;
+&lt;li&gt;e.g.
+&lt;ul&gt;
+&lt;li&gt;$n= 4$, $k=6$&lt;/li&gt;
+&lt;li&gt;$\cdot\cdot|\cdot|\cdot|\cdot\cdot$&lt;/li&gt;
+&lt;li&gt;6 dots and 3 separators = 9 positions&lt;/li&gt;
+&lt;li&gt;choose 6 positions to put the dots&lt;/li&gt;
+&lt;li&gt;the same as choose 3 positions to put the seperators&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-1.1.0&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=496&amp;amp;fit=clip&#34; alt=&#34;icecream&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-1.1.0&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=496&amp;amp;fit=clip&#34;&gt;Image Source&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KbB0FjPg0mw&amp;amp;list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&amp;amp;index=1&#34;&gt;Lecture 1: Probability and Counting | Statistics 110&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/buruzaemon/stats-110&#34;&gt;GitHub notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1VmkAAGOYCTORq1wxSQqy255qLJjTNvBI/view&#34;&gt;The book provided by authors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/introduction-to-probability&#34;&gt;edx course&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vTs2IQ8OefQ&#34;&gt;Financial Theory (ECON 251)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.de/Introduction-Quantitative-Finance-Stephen-Blyth/dp/0199666598&#34;&gt;An Introduction to Quantitative Finance by Stephen Blyth&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;terms&#34;&gt;Terms&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate&#34;&gt;Bose-Einstein condensate (BEC)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In condensed matter physics, a Bose–Einstein condensate (BEC) is a state of matter (also called the fifth state of matter) which is typically formed when a &lt;strong&gt;gas of bosons&lt;/strong&gt; at low densities is cooled to temperatures very close to absolute zero (-273.15 °C, -459.67 °F). Under such conditions, a large fraction of bosons occupy the lowest quantum state, at which point microscopic quantum mechanical phenomena, particularly wavefunction interference, become apparent &lt;strong&gt;macroscopically&lt;/strong&gt;.
+A BEC is formed by cooling a gas of extremely low density (about one-hundred-thousandth (1/100,000) the density of normal air) to ultra-low temperatures.
+This state was first predicted, generally, in 1924–1925 by Albert Einstein following and crediting a pioneering paper by Satyendra Nath Bose on the new field now known as &lt;strong&gt;quantum statistics&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Particle_statistics#Quantum_statistics&#34;&gt;Quantum statistics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In quantum statistics, Bose–Einstein (B–E) statistics describe one of two possible ways in which a collection of &lt;strong&gt;non-interacting, indistinguishable&lt;/strong&gt; particles may occupy a set of available discrete energy states at thermodynamic equilibrium.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Story Proofs, Axioms of Probability</title>
+      <link>/docs/math/intro/probability/s110_l02_story_proofs_axioms_probability/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/probability/s110_l02_story_proofs_axioms_probability/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;story-proof&#34;&gt;Story Proof&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Proof by interpretation
+&lt;ul&gt;
+&lt;li&gt;Count the same thing in two ways:
+&lt;ul&gt;
+&lt;li&gt;$\binom{n}{k} = \binom{n}{n-k}$&lt;/li&gt;
+&lt;li&gt;$ k\binom{n}{k} = n\binom{n-1}{k-1}$
+&lt;ul&gt;
+&lt;li&gt;Story proof:
+&lt;ul&gt;
+&lt;li&gt;Picking $k$ Cabinet members out of $n$ people, with one selected as the Prime Minister&lt;/li&gt;
+&lt;li&gt;the same as picking one person from $n$ people as the Prime Minister, the rest as $k-1$ the Cabinet members&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Vandermonde&amp;rsquo;s identity $\binom{m+n}{k} = \sum_{j=0}^{k}\binom{m}{j}\binom{n}{k-j}$
+&lt;ul&gt;
+&lt;li&gt;Story proof:
+&lt;ul&gt;
+&lt;li&gt;Picking $k$ people from $m+n$ places
+= the same as picking $j$ people from place $m$, $k-j$ people from place $n$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Alexandre-Th%C3%A9ophile_Vandermonde&#34;&gt;Alexandre-Théophile Vandermonde&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Labeling people is dangerous, but labeling events in a probability problem is important&lt;/li&gt;
+&lt;li&gt;Think about the subtle differences between probabilities of
+&lt;ul&gt;
+&lt;li&gt;choosing one people in a team from four people
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{4}{1}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;choosing three people in a team from four people
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{4}{3}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;choosing one people in a team, three people in another team from a total of four people
+&lt;ul&gt;
+&lt;li&gt;$P = \binom{4}{1} = \binom{4}{3}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;choosing two people in a team, two people in another team from a total of four people
+&lt;ul&gt;
+&lt;li&gt;$P = \frac{\binom{4}{2}}{2}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Birthday</title>
+      <link>/docs/math/intro/probability/s110_l03_birthday/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/probability/s110_l03_birthday/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;what-is-pigeonhole-principle&#34;&gt;What is pigeonhole principle?&lt;/h3&gt;
+&lt;p&gt;If $n$ items are put into $m$ containers, with $n &amp;gt; m$ then at least one container must contain more than one item.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34; alt=&#34;pigeonhole principle&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/TooManyPigeons.jpg/440px-TooManyPigeons.jpg&#34;&gt;pigeonhole principle&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;what-is-the-probability-of-two-people-among-k-people-having-the-same-birthday&#34;&gt;What is the probability of two people among $k$ people having the same birthday?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If $k &amp;gt; 366$, $P = 1$&lt;/li&gt;
+&lt;li&gt;If $k&amp;lt;366$, what is the minimal $k$ to get $P \approx 0.5$?
+&lt;ul&gt;
+&lt;li&gt;$P_{no match} = \frac{365 \cdot 364 \dots (365-k+1)}{365^k}$&lt;/li&gt;
+&lt;li&gt;$P_{match} = 1- P_{no match}$
+&lt;ul&gt;
+&lt;li&gt;$0.51$, $k =23$&lt;/li&gt;
+&lt;li&gt;$0.97$, $k =50$&lt;/li&gt;
+&lt;li&gt;$0.99999$, $k =100$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Let&amp;rsquo;s build some intuition of $P_{match} = \binom{k}{2}$
+&lt;ul&gt;
+&lt;li&gt;$\binom{23}{2} = \frac{23 \cdot 22}{2} =253$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;probability-properties&#34;&gt;Probability Properties&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;$P_{(A^c)} = 1-P_{(A)}$&lt;/li&gt;
+&lt;li&gt;$P_{(A)} \le P_{(B)}$ if $A$ is contained in $B$ ($A \in B$)
+&lt;ul&gt;
+&lt;li&gt;$B= A {\bigcup} (B \bigcap A^c)$, disjoint&lt;/li&gt;
+&lt;li&gt;$P_{(B)} = P_{(A)} + P_{(B \bigcap A^c)} \ge P_{(A)}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$P_{A \bigcup B} =P_{(A)} + P_{(B)} - P_{(A \bigcap B)}$&lt;/li&gt;
+&lt;li&gt;$P_{A \bigcup B \bigcup} =P_{(A)} + P_{(B)} + P_{(C)} - P_{(A \bigcap B)}- P_{(A \bigcap C)}- P_{(B \bigcap C)} + P_{(A \bigcap B \bigcap C)}$&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752&#34;&gt;General Case&lt;/a&gt;&lt;br&gt;
+&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f933fbaa2a215037fcb255cf1892c2fa20809752&#34; alt=&#34;General&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34; alt=&#34;Inclusion–exclusion illustrated by a Venn diagram for three sets&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/440px-Inclusion-exclusion.svg.png&#34;&gt;Inclusion–exclusion illustrated by a Venn diagram for three sets&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;de-montmorts-problem&#34;&gt;De Montmort&amp;rsquo;s Problem&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;1713&lt;/li&gt;
+&lt;li&gt;matching problem for gambling
+&lt;ul&gt;
+&lt;li&gt;$n$ cards, labeled $1, 2, 3, &amp;hellip;, n$, let $A_j$ be the event with matches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$P_{(A_1 \bigcup A_2 \bigcup \dots \bigcup A_n)} \approx 1- \frac{1}{e}$&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Conditional Probability</title>
+      <link>/docs/math/intro/probability/s110_l04_conditional_probability/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/probability/s110_l04_conditional_probability/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Conditioning – the soul of statistics&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h3 id=&#34;independence-means-multiplication&#34;&gt;Independence means multiplication&lt;/h3&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;newtonpepys-problem-another-gambling-problem-&#34;&gt;Newton–Pepys problem: another gambling problem 🎲&lt;/h3&gt;
+&lt;p&gt;Which of the following three propositions has the greatest chance of success?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A. Six fair dice are tossed independently and at least one “6” appears.&lt;/li&gt;
+&lt;li&gt;B. Twelve fair dice are tossed independently and at least two “6”s appear.&lt;/li&gt;
+&lt;li&gt;C. Eighteen fair dice are tossed independently and at least three “6”s appear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/600cae735b31b4b7eedd4bf6993f00f8c2ca12db&#34; alt=&#34;Newton–Pepys problem&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f2ec31fa405ee2da878b9989baa1b5387025dce1&#34; alt=&#34;Newton–Pepys problem&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wikimedia.org/api/rest_v1/media/math/render/svg/f2f2780521f3bc5e4ececb4ea588ed11f152b1ef&#34; alt=&#34;Newton–Pepys problem&#34;&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;conditional-probability-&#34;&gt;Conditional probability 🏄‍♂️&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;How do you update probabilities/beliefs/uncertainty based on new evidence?&lt;/li&gt;
+&lt;li&gt;Do you update in a coherent, consistent, and logical manner?&lt;/li&gt;
+&lt;li&gt;$P_{(A | B)} = \frac{P_{(A \bigcap B)}}{P_{(B)}}$ if $P_{(B)} &amp;gt; 0$&lt;/li&gt;
+&lt;li&gt;$P_{(A \bigcap B)} = P_{(B)} P_{(A|B)} = P_{(A)} P_{(B|A)}$&lt;/li&gt;
+&lt;li&gt;$P_{(A | B)} = \frac{P_{(B | A)}P_{(A)}}{P_{(B)}}$  ❤️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_problem&#34;&gt;Newton–Pepys problem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Conditional Probability</title>
+      <link>/docs/math/intro/probability/s110_l05_conditioning_2/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/probability/s110_l05_conditioning_2/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Thinking conditionally – a condition for thinking&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;how-do-you-solve-a-problem&#34;&gt;How do you solve a problem?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Try simple and extreme conditions&lt;/li&gt;
+&lt;li&gt;Try to decompose a complex problem into simpler pieces&lt;/li&gt;
+&lt;li&gt;Try Richard Feynman&amp;rsquo;s approach
+&lt;ul&gt;
+&lt;li&gt;Write down the problem&lt;/li&gt;
+&lt;li&gt;Think hard about it 🤔🤔🤔&lt;/li&gt;
+&lt;li&gt;Write down the solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Monty Hall, Simpson&#39;s Paradox</title>
+      <link>/docs/math/intro/probability/s110_l06_montyhall/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/probability/s110_l06_montyhall/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Random Variables and Distributions</title>
+      <link>/docs/math/intro/probability/s110_l07_l08_random_variables_distributions/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/math/intro/probability/s110_l07_l08_random_variables_distributions/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;gamblers-rules&#34;&gt;Gambler&amp;rsquo;s Rules&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;i&lt;/td&gt;
+&lt;td&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Difference equation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$q=1-p$&lt;/li&gt;
+&lt;li&gt;$p_i = pp_{i+1} + qp_{i-1}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Differential equation
+An equation that relates one or more functions and their derivatives&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;random-variables&#34;&gt;Random variables&lt;/h3&gt;
+&lt;p&gt;A function from the sample space S to the rea lline&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;bernoulli-distribution&#34;&gt;Bernoulli distribution&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Bernoulli distribution, named after Swiss mathematician Jacob Bernoulli, is the discrete probability distribution of a random variable which takes the value 1 with probability $p$ and the value 0 with probability $q = 1 − p$.
+&lt;ul&gt;
+&lt;li&gt;$P_{x=1} = p$&lt;/li&gt;
+&lt;li&gt;$P_{x=0} = 1-p$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;binomial-distribution&#34;&gt;Binomial distribution&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In n independent Bernoulli trails, e.g. flipping a coin $n$ times, the distribution of success is called Binomial distribution&lt;/li&gt;
+&lt;li&gt;Indicator variables&lt;/li&gt;
+&lt;li&gt;Independent and identically distributed (iid)&lt;/li&gt;
+&lt;li&gt;Probability Math Function (PMF)
+&lt;ul&gt;
+&lt;li&gt;$P_{(x=k)} = p^k(1-p)^{n-k}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Binomial Distribution vs Normal Distribution:
+&lt;ul&gt;
+&lt;li&gt;Normal distribution describes continuous data which have a symmetric distribution, with a characteristic &amp;lsquo;bell&amp;rsquo; shape.&lt;/li&gt;
+&lt;li&gt;Binomial distribution describes the distribution of binary data from a finite sample. Thus it gives the probability of getting r events out of n trials.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

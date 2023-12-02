@@ -1,0 +1,459 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Deep Learning</title>
+    <link>/docs/machinelearning/models/deep-learning/</link>
+    <description>Recent content in Deep Learning on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/models/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Models</title>
+      <link>/docs/machinelearning/models/deep-learning/model-list/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/model-list/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
+&lt;p&gt;To the extent possible under law, &lt;a href=&#34;https://github.com/rasbt/deeplearning-models&#34;&gt;rasbt&lt;/a&gt; has waived all copyright and related or neighboring rights to this work.&lt;/p&gt;
+&lt;p&gt;A collection of various deep learning architectures, models, and tips for TensorFlow and PyTorch in Jupyter Notebooks.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;traditional-machine-learning&#34;&gt;Traditional Machine Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perceptron&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/basic-ml/perceptron.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/basic-ml/perceptron.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/basic-ml/perceptron.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/basic-ml/perceptron.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Logistic Regression&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/basic-ml/logistic-regression.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/basic-ml/logistic-regression.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/basic-ml/logistic-regression.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/basic-ml/logistic-regression.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Softmax Regression (Multinomial Logistic Regression)&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/basic-ml/softmax-regression.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/basic-ml/softmax-regression.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/basic-ml/softmax-regression.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/basic-ml/softmax-regression.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Softmax Regression with MLxtend&amp;rsquo;s plot_decision_regions on Iris&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/basic-ml/softmax-regression-mlxtend-1.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/basic-ml/softmax-regression-mlxtend-1.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;multilayer-perceptrons&#34;&gt;Multilayer Perceptrons&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Multilayer Perceptron&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/mlp/mlp-basic.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/mlp/mlp-basic.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mlp/mlp-basic.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mlp/mlp-basic.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Multilayer Perceptron with Dropout&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/mlp/mlp-dropout.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/mlp/mlp-dropout.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mlp/mlp-dropout.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mlp/mlp-dropout.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Multilayer Perceptron with Batch Normalization&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/mlp/mlp-batchnorm.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/mlp/mlp-batchnorm.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mlp/mlp-batchnorm.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mlp/mlp-batchnorm.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Multilayer Perceptron with Backpropagation from Scratch&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/mlp/mlp-lowlevel.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/mlp/mlp-lowlevel.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mlp/mlp-fromscratch__sigmoid-mse.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mlp/mlp-fromscratch__sigmoid-mse.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;convolutional-neural-networks&#34;&gt;Convolutional Neural Networks&lt;/h3&gt;
+&lt;h3 id=&#34;basic&#34;&gt;Basic&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Convolutional Neural Network&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/cnn/cnn-basic.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/cnn/cnn-basic.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-basic.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-basic.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Neural Network with He Initialization &lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-he-init.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-he-init.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;concepts&#34;&gt;Concepts&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Replacing Fully-Connnected by Equivalent Convolutional Layers&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/fc-to-conv.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/fc-to-conv.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;fully-convolutional&#34;&gt;Fully Convolutional&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fully Convolutional Neural Network&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-allconv.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-allconv.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lenet&#34;&gt;LeNet&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;LeNet-5 on MNIST&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-lenet5-mnist.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-lenet5-mnist.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;LeNet-5 on CIFAR-10&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-lenet5-cifar10.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-lenet5-cifar10.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;LeNet-5 on QuickDraw&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-lenet5-quickdraw.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-lenet5-quickdraw.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;alexnet&#34;&gt;AlexNet&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AlexNet on CIFAR-10&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-alexnet-cifar10.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-alexnet-cifar10.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;vgg&#34;&gt;VGG&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Convolutional Neural Network VGG-16&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/cnn/cnn-vgg16.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/cnn/cnn-vgg16.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-vgg16.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-vgg16.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;VGG-16 Gender Classifier Trained on CelebA&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-vgg16-celeba.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-vgg16-celeba.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;VGG-16 Dogs vs Cats Classifier&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-vgg16-cats-dogs.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-vgg16-cats-dogs.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Neural Network VGG-19&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-vgg19.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-vgg19.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;densenet&#34;&gt;DenseNet&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;DenseNet-121 Digit Classifier Trained on MNIST&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-densenet121-mnist.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-densenet121-mnist.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;DenseNet-121 Image Classifier Trained on CIFAR-10&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-densenet121-cifar10.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-densenet121-cifar10.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resnet&#34;&gt;ResNet&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ResNet and Residual Blocks&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/resnet-ex-1.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/resnet-ex-1.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ResNet-18 Digit Classifier Trained on MNIST&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet18-mnist.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet18-mnist.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ResNet-18 Gender Classifier Trained on CelebA&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet18-celeba-dataparallel.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet18-celeba-dataparallel.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ResNet-34 Digit Classifier Trained on MNIST&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet34-mnist.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet34-mnist.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ResNet-34 Object Classifier Trained on QuickDraw&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet34-quickdraw.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet34-quickdraw.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ResNet-34 Gender Classifier Trained on CelebA&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet34-celeba-dataparallel.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet34-celeba-dataparallel.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ResNet-50 Digit Classifier Trained on MNIST&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet50-mnist.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet50-mnist.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ResNet-50 Gender Classifier Trained on CelebA&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet50-celeba-dataparallel.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet50-celeba-dataparallel.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ResNet-101 Gender Classifier Trained on CelebA&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet101-celeba.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet101-celeba.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ResNet-101 Trained on CIFAR-10&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet101-cifar10.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet101-cifar10.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ResNet-152 Gender Classifier Trained on CelebA&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet152-celeba.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet152-celeba.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;network-in-network&#34;&gt;Network in Network&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Network in Network CIFAR-10 Classifier&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/nin-cifar10.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/nin-cifar10.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;normalization-layers&#34;&gt;Normalization Layers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;BatchNorm before and after Activation for Network-in-Network CIFAR-10 Classifier  &lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/nin-cifar10_batchnorm.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/nin-cifar10_batchnorm.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Filter Response Normalization for Network-in-Network CIFAR-10 Classifier&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/nin-cifar10_filter-response-norm.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/nin-cifar10_filter-response-norm.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;metric-learning&#34;&gt;Metric Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Siamese Network with Multilayer Perceptrons&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/metric/siamese-1.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/metric/siamese-1.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;autoencoders&#34;&gt;Autoencoders&lt;/h3&gt;
+&lt;h3 id=&#34;fully-connected-autoencoders&#34;&gt;Fully-connected Autoencoders&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Autoencoder (MNIST)&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/autoencoder/ae-basic.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/autoencoder/ae-basic.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-basic.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-basic.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Autoencoder (MNIST) + Scikit-Learn Random Forest Classifier&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/autoencoder/ae-basic-with-rf.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/autoencoder/ae-basic.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-basic-with-rf.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-basic.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;convolutional-autoencoders&#34;&gt;Convolutional Autoencoders&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Convolutional Autoencoder with Deconvolutions / Transposed Convolutions&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/autoencoder/ae-deconv.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/autoencoder/ae-deconv.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-deconv.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-deconv.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Autoencoder with Deconvolutions and Continuous Jaccard Distance&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-deconv-jaccard.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-deconv-jaccard.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Autoencoder with Deconvolutions (without pooling operations)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-deconv-nopool.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-deconv-nopool.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Autoencoder with Nearest-neighbor Interpolation&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/autoencoder/ae-conv-nneighbor.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/autoencoder/ae-conv-nneighbor.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-conv-nneighbor.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-conv-nneighbor.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Autoencoder with Nearest-neighbor Interpolation &amp;ndash; Trained on CelebA&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-conv-nneighbor-celeba.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-conv-nneighbor-celeba.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Autoencoder with Nearest-neighbor Interpolation &amp;ndash; Trained on Quickdraw&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-conv-nneighbor-quickdraw-1.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-conv-nneighbor-quickdraw-1.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;variational-autoencoders&#34;&gt;Variational Autoencoders&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Variational Autoencoder&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-var.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-var.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Variational Autoencoder&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-conv-var.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-conv-var.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;conditional-variational-autoencoders&#34;&gt;Conditional Variational Autoencoders&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Conditional Variational Autoencoder (with labels in reconstruction loss)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-cvae.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-cvae.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Conditional Variational Autoencoder (without labels in reconstruction loss)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-cvae_no-out-concat.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-cvae_no-out-concat.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Conditional Variational Autoencoder (with labels in reconstruction loss)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-cnn-cvae.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-cnn-cvae.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Conditional Variational Autoencoder (without labels in reconstruction loss)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/autoencoder/ae-cnn-cvae_no-out-concat.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-cnn-cvae_no-out-concat.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;generative-adversarial-networks-gans&#34;&gt;Generative Adversarial Networks (GANs)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fully Connected GAN on MNIST&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/gan/gan.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/gan/gan.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/gan/gan.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/gan/gan.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Fully Connected Wasserstein GAN on MNIST&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/gan/wgan-1.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/gan/wgan-1.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional GAN on MNIST&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/gan/gan-conv.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/gan/gan-conv.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/gan/gan-conv.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/gan/gan-conv.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional GAN on MNIST with Label Smoothing&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/gan/gan-conv-smoothing.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/gan/gan-conv-smoothing.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/gan/gan-conv-smoothing.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/gan/gan-conv-smoothing.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Convolutional Wasserstein GAN on MNIST&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/gan/dc-wgan-1.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/gan/dc-wgan-1.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Deep Convolutional GAN&amp;rdquo; (DCGAN) on Cats and Dogs Images&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/gan/dcgan-cats-and-dogs.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/gan/dcgan-cats-and-dogs.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Deep Convolutional GAN&amp;rdquo; (DCGAN) on CelebA Face Images&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/gan/dcgan-celeba.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/gan/dcgan-celeba.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;graph-neural-networks-gnns&#34;&gt;Graph Neural Networks (GNNs)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Most Basic Graph Neural Network with Gaussian Filter on MNIST &lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/gnn/gnn-basic-1.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/gnn/gnn-basic-1.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Basic Graph Neural Network with Edge Prediction on MNIST &lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/gnn/gnn-basic-edge-1.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/gnn/gnn-basic-edge-1.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Basic Graph Neural Network with Spectral Graph Convolution on MNIST&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/gnn/gnn-basic-graph-spectral-1.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/gnn/gnn-basic-graph-spectral-1.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;recurrent-neural-networks-rnns&#34;&gt;Recurrent Neural Networks (RNNs)&lt;/h3&gt;
+&lt;h3 id=&#34;many-to-one-sentiment-analysis--classification&#34;&gt;Many-to-one: Sentiment Analysis / Classification&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A simple single-layer RNN (IMDB)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/rnn_simple_imdb.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_simple_imdb.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;A simple single-layer RNN with packed sequences to ignore padding characters (IMDB)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/rnn_simple_packed_imdb.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_simple_packed_imdb.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;RNN with LSTM cells (IMDB)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/rnn_lstm_packed_imdb.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_lstm_packed_imdb.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;RNN with LSTM cells (IMDB) and pre-trained GloVe word vectors&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/rnn_lstm_packed_imdb-glove.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_lstm_packed_imdb-glove.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;RNN with LSTM cells and Own Dataset in CSV Format (IMDB)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/rnn_lstm_packed_own_csv_imdb.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_lstm_packed_own_csv_imdb.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;RNN with GRU cells (IMDB)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/rnn_gru_packed_imdb.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_gru_packed_imdb.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Multilayer bi-directional RNN (IMDB)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/rnn_lstm_bi_imdb.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_lstm_bi_imdb.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Bidirectional Multi-layer RNN with LSTM with Own Dataset in CSV Format (AG News)  &lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/rnn_bi_multilayer_lstm_own_csv_agnews.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_bi_multilayer_lstm_own_csv_agnews.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;many-to-many--sequence-to-sequence&#34;&gt;Many-to-Many / Sequence-to-Sequence&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A simple character RNN to generate new text (Charles Dickens)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/char_rnn-charlesdickens.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/char_rnn-charlesdickens.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ordinal-regression&#34;&gt;Ordinal Regression&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ordinal Regression CNN &amp;ndash; CORAL w. ResNet34 on AFAD-Lite&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/ordinal/ordinal-cnn-coral-afadlite.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/ordinal/ordinal-cnn-coral-afadlite.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Ordinal Regression CNN &amp;ndash; Niu et al. 2016 w. ResNet34 on AFAD-Lite&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/ordinal/ordinal-cnn-niu-afadlite.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/ordinal/ordinal-cnn-niu-afadlite.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Ordinal Regression CNN &amp;ndash; Beckham and Pal 2016 w. ResNet34 on AFAD-Lite&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/ordinal/ordinal-cnn-beckham2016-afadlite.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/ordinal/ordinal-cnn-beckham2016-afadlite.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cyclical Learning Rate&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/tricks/cyclical-learning-rate.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/tricks/cyclical-learning-rate.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Annealing with Increasing the Batch Size (w. CIFAR-10 &amp;amp; AlexNet)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/tricks/cnn-alexnet-cifar10-batchincrease.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/tricks/cnn-alexnet-cifar10-batchincrease.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Gradient Clipping (w. MLP on MNIST)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/tricks/gradclipping_mlp.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/tricks/gradclipping_mlp.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;transfer-learning&#34;&gt;Transfer Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Transfer Learning Example (VGG16 pre-trained on ImageNet for Cifar-10)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/transfer/transferlearning-vgg16-cifar10-1.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/transfer/transferlearning-vgg16-cifar10-1.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;visualization-and-interpretation&#34;&gt;Visualization and Interpretation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vanilla Loss Gradient (wrt Inputs) Visualization (Based on a VGG16 Convolutional Neural Network for Kaggle&amp;rsquo;s Cats and Dogs Images)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/viz/cnns/cats-and-dogs/cnn-viz-grad__vgg16-cats-dogs.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/viz/cnns/cats-and-dogs/cnn-viz-grad__vgg16-cats-dogs.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Guided Backpropagation (Based on a VGG16 Convolutional Neural Network for Kaggle&amp;rsquo;s Cats and Dogs Images)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/viz/cnns/cats-and-dogs/cnn-viz-guided-backprop__vgg16-cats-dogs.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/viz/cnns/cats-and-dogs/cnn-viz-guided-backprop__vgg16-cats-dogs.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pytorch-workflows-and-mechanics&#34;&gt;PyTorch Workflows and Mechanics&lt;/h3&gt;
+&lt;h3 id=&#34;custom-datasets&#34;&gt;Custom Datasets&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Custom Data Loader Example for PNG Files&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/custom-dataloader-png/custom-dataloader-example.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/custom-dataloader-png/custom-dataloader-example.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using PyTorch Dataset Loading Utilities for Custom Datasets &amp;ndash; CSV files converted to HDF5&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/custom-data-loader-csv.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/custom-data-loader-csv.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using PyTorch Dataset Loading Utilities for Custom Datasets &amp;ndash; Face Images from CelebA&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/custom-data-loader-celeba.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/custom-data-loader-celeba.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using PyTorch Dataset Loading Utilities for Custom Datasets &amp;ndash; Drawings from Quickdraw&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/custom-data-loader-quickdraw.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/custom-data-loader-quickdraw.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using PyTorch Dataset Loading Utilities for Custom Datasets &amp;ndash; Drawings from the Street View House Number (SVHN) Dataset&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/custom-data-loader-svhn.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/custom-data-loader-svhn.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using PyTorch Dataset Loading Utilities for Custom Datasets &amp;ndash; Asian Face Dataset (AFAD)&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/custom-data-loader-afad.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/custom-data-loader-afad.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using PyTorch Dataset Loading Utilities for Custom Datasets &amp;ndash; Dating Historical Color Images&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/custom-data-loader_dating-historical-color-images.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/custom-data-loader_dating-historical-color-images.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using PyTorch Dataset Loading Utilities for Custom Datasets &amp;ndash; Fashion MNIST&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/custom-data-loader-quickdraw.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/custom-data-loader-quickdraw.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;training-and-preprocessing&#34;&gt;Training and Preprocessing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Generating Validation Set Splits&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/validation-splits.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/validation-splits.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Dataloading with Pinned Memory&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-resnet34-cifar10-pinmem.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet34-cifar10-pinmem.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Standardizing Images&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-standardized.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-standardized.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Image Transformation Examples&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/torchvision-transform-examples.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/torchvision-transform-examples.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Char-RNN with Own Text File&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/char_rnn-charlesdickens.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/char_rnn-charlesdickens.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Sentiment Classification RNN with Own CSV File&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/rnn/rnn_lstm_packed_own_csv_imdb.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_lstm_packed_own_csv_imdb.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;parallel-computing&#34;&gt;Parallel Computing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Using Multiple GPUs with DataParallel &amp;ndash; VGG-16 Gender Classifier on CelebA&lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/cnn/cnn-vgg16-celeba-data-parallel.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-vgg16-celeba-data-parallel.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sequential API and hooks &lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/mlp-sequential.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/mlp-sequential.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Weight Sharing Within a Layer &lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/cnn-weight-sharing.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/cnn-weight-sharing.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Plotting Live Training Performance in Jupyter Notebooks with just Matplotlib &lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/plot-jupyter-matplotlib.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/plot-jupyter-matplotlib.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;autograd&#34;&gt;Autograd&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Getting Gradients of an Intermediate Variable in PyTorch &lt;br&gt;
+   [PyTorch: &lt;a href=&#34;pytorch_ipynb/mechanics/manual-gradients.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/manual-gradients.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tensorflow-workflows-and-mechanics&#34;&gt;TensorFlow Workflows and Mechanics&lt;/h3&gt;
+&lt;h3 id=&#34;custom-datasets-1&#34;&gt;Custom Datasets&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chunking an Image Dataset for Minibatch Training using NumPy NPZ Archives&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/mechanics/image-data-chunking-npz.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/mechanics/image-data-chunking-npz.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Storing an Image Dataset for Minibatch Training using HDF5&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/mechanics/image-data-chunking-hdf5.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/mechanics/image-data-chunking-hdf5.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using Input Pipelines to Read Data from TFRecords Files&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/mechanics/tfrecords.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/mechanics/tfrecords.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using Queue Runners to Feed Images Directly from Disk&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/mechanics/file-queues.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/mechanics/file-queues.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using TensorFlow&amp;rsquo;s Dataset API&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/mechanics/dataset-api.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/mechanics/dataset-api.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;training-and-preprocessing-1&#34;&gt;Training and Preprocessing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Saving and Loading Trained Models &amp;ndash; from TensorFlow Checkpoint Files and NumPy NPZ Archives&lt;br&gt;
+   [TensorFlow 1: &lt;a href=&#34;tensorflow1_ipynb/mechanics/saving-and-reloading-models.ipynb&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/mechanics/saving-and-reloading-models.ipynb&#34;&gt;Nbviewer&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: GANs</title>
+      <link>/docs/machinelearning/models/deep-learning/gans/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/gans/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/podgorskiy/ALAE&#34;&gt;Adversarial Latent Autoencoders&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: CNN</title>
+      <link>/docs/machinelearning/models/deep-learning/cnn/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/cnn/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1603.07285.pdf&#34;&gt;A guide to convolution arithmetic for deep learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Sequence Models</title>
+      <link>/docs/machinelearning/models/deep-learning/sequence-models/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/sequence-models/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;coursera-coursehttpswwwcourseraorglearnnlp-sequence-modelshomewelcome&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/nlp-sequence-models/home/welcome&#34;&gt;Coursera Course&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;instructor&#34;&gt;Instructor&lt;/h3&gt;
+&lt;p&gt;Andrew Ng&lt;/p&gt;
+&lt;h3 id=&#34;exercises&#34;&gt;Exercises&lt;/h3&gt;
+&lt;h3 id=&#34;text-data-processing&#34;&gt;Text data processing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Use word embeddings to solve a Word Analogy problem&lt;br&gt;
+&lt;a href=&#34;https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%202/Word_Vector_Representation/w2_Operations_onword_vectorsv2_DJ.ipynb&#34;&gt;Jupyter Notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use word embeddings and Keras LSTM to solve a Sentiment Classification problem&lt;br&gt;
+&lt;a href=&#34;https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%202/Emojify/w2_Emojify_v2_DJ.ipynb&#34;&gt;Jupyter Notebook&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Character-level language model&lt;br&gt;
+&lt;a href=&#34;https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%201/Dinosaur%20Island%20--%20Character-level%20language%20model/w1_Dinosaurus_Island_Character_level_language_model_final_v3_DJ.ipynb&#34;&gt;Jupyter Noteboook&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;audio-data-processing&#34;&gt;Audio data processing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Trigger word detection&lt;br&gt;
+&lt;a href=&#34;https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%203/Trigger%20word%20detection/w3Trigger_word_detectionv1_DJ.ipynb&#34;&gt;Jupyter Notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Music generation&lt;br&gt;
+&lt;a href=&#34;https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%201/Jazz%20improvisation%20with%20LSTM/w1Improvise_a_Jazz_Solo_with_an_LSTM_Network_v3_DJ.ipynb&#34;&gt;Jupyter Notebook&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Transformers</title>
+      <link>/docs/machinelearning/models/deep-learning/transformers/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/transformers/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0fd545d3-1ead-4042-b692-093aa0587b0f/dddd19g-4eb3f900-2337-4385-9466-913592271a75.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMGZkNTQ1ZDMtMWVhZC00MDQyLWI2OTItMDkzYWEwNTg3YjBmXC9kZGRkMTlnLTRlYjNmOTAwLTIzMzctNDM4NS05NDY2LTkxMzU5MjI3MWE3NS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ccopwLzbIMjXDXlDyp0f-Sq2jWRk-oDMdbGaJ7d9wOg&#34; alt=&#34;Transformer&#34;&gt;&lt;br&gt;
+&lt;a href=&#34;https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0fd545d3-1ead-4042-b692-093aa0587b0f/dddd19g-4eb3f900-2337-4385-9466-913592271a75.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMGZkNTQ1ZDMtMWVhZC00MDQyLWI2OTItMDkzYWEwNTg3YjBmXC9kZGRkMTlnLTRlYjNmOTAwLTIzMzctNDM4NS05NDY2LTkxMzU5MjI3MWE3NS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ccopwLzbIMjXDXlDyp0f-Sq2jWRk-oDMdbGaJ7d9wOg&#34;&gt;Image source&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

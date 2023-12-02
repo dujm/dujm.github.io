@@ -1,0 +1,91 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Practices</title>
+    <link>/docs/coding/practices/</link>
+    <description>Recent content in Practices on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/coding/practices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Environment</title>
+      <link>/docs/coding/practices/env/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/practices/env/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Error Collections</title>
+      <link>/docs/coding/practices/error_collection/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/practices/error_collection/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Clean Code</title>
+      <link>/docs/coding/practices/clean-code/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/practices/clean-code/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;summary-of-clean-code--robert-c-martin&#34;&gt;Summary of &lt;em&gt;Clean code — Robert C. Martin&lt;/em&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Summarized by &lt;a href=&#34;https://gist.github.com/wojteklu&#34;&gt; wojteklu&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;script src=&#34;https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29.js&#34;&gt;&lt;/script&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Create Snippets</title>
+      <link>/docs/coding/practices/create-snippet/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/practices/create-snippet/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/how-to-boost-your-efficiency-with-customized-code-snippets-on-vscode-8127781788d7&#34;&gt;Boost Your Efficiency with Customized Code Snippets on VSCode&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Version Control</title>
+      <link>/docs/coding/practices/version-control/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/coding/practices/version-control/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

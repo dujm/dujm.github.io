@@ -1,0 +1,169 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Computer Science</title>
+    <link>/docs/computer_science/</link>
+    <description>Recent content in Computer Science on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/computer_science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Courses</title>
+      <link>/docs/computer_science/cs/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/cs/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;cs-courses&#34;&gt;CS Courses&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/computer-science-101&#34;&gt;Computer Science 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Six weeks
+The nature of computers and code, what they can and cannot do&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How computer hardware works: chips, cpu, memory, disk&lt;/li&gt;
+&lt;li&gt;Necessary jargon: bits, bytes, megabytes, gigabytes&lt;/li&gt;
+&lt;li&gt;How software works: what is a program, what is &amp;ldquo;running&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;How digital images work&lt;/li&gt;
+&lt;li&gt;Computer code: loops and logic&lt;/li&gt;
+&lt;li&gt;Big ideas: abstraction, logic, bugs&lt;/li&gt;
+&lt;li&gt;How structured data works&lt;/li&gt;
+&lt;li&gt;How the internet works: ip address, routing, ethernet, wi-fi&lt;/li&gt;
+&lt;li&gt;Computer security: viruses, trojans, and passwords, oh my!
+Analog vs. digital&lt;/li&gt;
+&lt;li&gt;Digital media, images, sounds, video, compression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5&#34;&gt;CS50&amp;rsquo;s Web Programming with Python and JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;This course picks up where Harvard University&amp;rsquo;s CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Flask, Django, and Bootstrap. Topics include database design, scalability, security, and user experience.&lt;/li&gt;
+&lt;li&gt;Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku.&lt;/li&gt;
+&lt;li&gt;By course&amp;rsquo;s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/cs50s-introduction-to-computer-science&#34;&gt;CS50&amp;rsquo;s Introduction to Computer Science&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;11 weeks&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A broad and robust understanding of computer science and programming&lt;/li&gt;
+&lt;li&gt;How to think algorithmically and solve programming problems efficiently&lt;/li&gt;
+&lt;li&gt;Concepts like abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development&lt;/li&gt;
+&lt;li&gt;Familiarity in a number of languages, including C, Python, SQL, and JavaScript plus CSS and HTML&lt;/li&gt;
+&lt;li&gt;How to engage with a vibrant community of like-minded learners from all levels of experience&lt;/li&gt;
+&lt;li&gt;How to develop and present a final programming project to your peers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://teachyourselfcs.com/&#34;&gt;Teach Yourself Computer Science&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/Web-Dev-For-Beginners&#34;&gt;Microsoft Web Dev For Beginners&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/how-to-hack-your-own-cs-degree-for-free/&#34;&gt;How to Hack Together Your Own CS Degree Online&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Software Engineering</title>
+      <link>/docs/computer_science/software-engineering/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/software-engineering/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: HPC</title>
+      <link>/docs/computer_science/hpc/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/hpc/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h2 id=&#34;high-peformance-computing&#34;&gt;High Peformance Computing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;About distributing &lt;strong&gt;storage&lt;/strong&gt; and &lt;strong&gt;processing&lt;/strong&gt; over many processors.&lt;/li&gt;
+&lt;li&gt;Not just hardware, but also software to manage the execution of the tasks on ha rdware
+&lt;ul&gt;
+&lt;li&gt;This is why we need the orchestration softwares.&lt;/li&gt;
+&lt;li&gt;e.g. The AlphaGo distributed processing on many different GPUs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;distributed-machine-learning&#34;&gt;Distributed Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Different models can be trained in parallel using different subsets of the data, and then the results can be merged.&lt;/li&gt;
+&lt;li&gt;The operation of a single but large model can be distributed over many processors.
+&lt;ul&gt;
+&lt;li&gt;e.g. A deep NN which have many layers, parts of it can be run on different processors working as a pipeline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;time-and-space&#34;&gt;Time and Space&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Machine learning is not just a component in a product.&lt;/li&gt;
+&lt;li&gt;Time and space sometimes are more important than accuracy
+&lt;ul&gt;
+&lt;li&gt;Time: a self-driving car in a real world only has limited amount of time to decide whether there is pedestrian on the road or not.
+&lt;ul&gt;
+&lt;li&gt;The accuracy of the recognizer becomes irrelevent when it can not decide fast enough.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Space: IoT devices have limited computing power.
+&lt;ul&gt;
+&lt;li&gt;Such systems may be making decisions on site or may just work as smart processors of the signal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: IoT</title>
+      <link>/docs/computer_science/iot/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/computer_science/iot/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ&#39;s Website – Tools</title>
+    <link>/docs/machinelearning/models/graph-nn/tools/</link>
+    <description>Recent content in Tools on DJ&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/models/graph-nn/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Graph Analysis</title>
+      <link>/docs/machinelearning/models/graph-nn/tools/graph-analysis/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/graph-nn/tools/graph-analysis/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;analysis-of-large-graphs&#34;&gt;Analysis of large graphs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-network.readthedocs.io/en/latest/installation.html&#34;&gt;scikit-network&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dj-bioinformatics/ipycytoscape&#34;&gt;ipycytoscape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/networkx/networkx&#34;&gt;NetworkX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/facebookresearch/PyTorch-BigGraph&#34;&gt;Pytorch BigGraph&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Tutorials</title>
+      <link>/docs/machinelearning/models/graph-nn/tools/tutorials/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/graph-nn/tools/tutorials/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://atcold.github.io/pytorch-Deep-Learning/en/week13/13-3/&#34;&gt;pytorch-Deep-Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Rank Algorithms</title>
+      <link>/docs/machinelearning/models/graph-nn/tools/rank/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/graph-nn/tools/rank/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;crank--prioritizing-network-communities&#34;&gt;CRank- Prioritizing network communities&lt;/h3&gt;
+&lt;p&gt;CRank is an automatic &lt;strong&gt;unsupervised&lt;/strong&gt; method for &lt;strong&gt;prioritizing network communities&lt;/strong&gt; and identifying the most promising ones for further experimentation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mims-harvard/crank/master/images/crank-overview.png&#34; alt=&#34;CRank&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mims-harvard/crank&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-018-04948-5&#34;&gt;Paper - Prioritizing network communities&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Uncovering modular structure in networks is fundamental for systems in biology, physics, and engineering.&lt;/p&gt;
+&lt;p&gt;Community detection identifies candidate modules as hypotheses, which then need to be validated through experiments, such as mutagenesis in a biological laboratory.&lt;/p&gt;
+&lt;p&gt;Only a few communities can typically be validated, and it is thus important to prioritize which communities to select for downstream experimentation.&lt;/p&gt;
+&lt;p&gt;Here we develop CRank, a mathematically principled approach for prioritizing network communities. CRank efficiently &lt;strong&gt;evaluates robustness and magnitude of structural features&lt;/strong&gt; of each community and then combines these features into the &lt;strong&gt;community prioritization&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;CRank can be used with any community detection method. It needs only information provided by the network structure and does not require any additional metadata or labels.&lt;/p&gt;
+&lt;p&gt;However, when available, CRank can incorporate domain-specific information to further boost performance. Experiments on many large networks show that CRank effectively prioritizes communities, yielding a nearly 50-fold improvement in community prioritization.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
