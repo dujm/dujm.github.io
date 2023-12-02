@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DJ&#39;s Website – Deep Learning</title>
+    <title>My Website – Deep Learning</title>
     <link>/docs/machinelearning/models/deep-learning/</link>
-    <description>Recent content in Deep Learning on DJ&#39;s Website</description>
+    <description>Recent content in Deep Learning on My Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
     

@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DJ&#39;s Website – Version Control</title>
+    <title>My Website – Version Control</title>
     <link>/docs/coding/practices/version-control/</link>
-    <description>Recent content in Version Control on DJ&#39;s Website</description>
+    <description>Recent content in Version Control on My Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 21 Dec 2020 00:00:00 +0000</lastBuildDate>
     

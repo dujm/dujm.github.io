@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DJ&#39;s Website – AWS</title>
+    <title>My Website – AWS</title>
     <link>/docs/cloud/aws/</link>
-    <description>Recent content in AWS on DJ&#39;s Website</description>
+    <description>Recent content in AWS on My Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     
