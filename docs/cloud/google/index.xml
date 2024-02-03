@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: GCP SDK Setup</title>
-      <link>/datascience/</link>
+      <link>/docs/cloud/google/gcp_sdk/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/cloud/google/gcp_sdk/</guid>
       <description>
         
         
@@ -56,10 +56,10 @@ gcloud auth list
     
     <item>
       <title>Docs: Google Colab</title>
-      <link>/datascience/</link>
+      <link>/docs/cloud/google/colab/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/cloud/google/colab/</guid>
       <description>
         
         

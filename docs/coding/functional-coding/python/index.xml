@@ -90,10 +90,10 @@
     
     <item>
       <title>Docs: f-string</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/python/f-string/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/python/f-string/</guid>
       <description>
         
         
@@ -194,10 +194,10 @@
     
     <item>
       <title>Docs: Outliers</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/python/outliers/</link>
       <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/python/outliers/</guid>
       <description>
         
         
@@ -291,10 +291,10 @@
     
     <item>
       <title>Docs: Imputation</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/python/imputation/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/python/imputation/</guid>
       <description>
         
         
@@ -528,10 +528,10 @@ matrix. Not guaranteed to converge but works well in practice. Taken from &lt;a 
     
     <item>
       <title>Docs: Plot</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/python/plot/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/python/plot/</guid>
       <description>
         
         
@@ -568,10 +568,10 @@ matrix. Not guaranteed to converge but works well in practice. Taken from &lt;a 
     
     <item>
       <title>Docs: Command Line</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/python/command-line/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/python/command-line/</guid>
       <description>
         
         
@@ -595,10 +595,10 @@ matrix. Not guaranteed to converge but works well in practice. Taken from &lt;a 
     
     <item>
       <title>Docs: Packages</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/python/packages/</link>
       <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/python/packages/</guid>
       <description>
         
         
@@ -775,10 +775,10 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
     
     <item>
       <title>Docs: Read Files</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/python/file-reading/</link>
       <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/python/file-reading/</guid>
       <description>
         
         

@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: CDK</title>
-      <link>/datascience/</link>
+      <link>/docs/cloud/aws/cdk/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/cloud/aws/cdk/</guid>
       <description>
         
         
@@ -35,10 +35,10 @@
     
     <item>
       <title>Docs: SDK</title>
-      <link>/datascience/</link>
+      <link>/docs/cloud/aws/aws_sdk_cli/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/cloud/aws/aws_sdk_cli/</guid>
       <description>
         
         

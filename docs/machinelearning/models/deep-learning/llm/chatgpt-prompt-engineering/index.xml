@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Guideline</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/guideline/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/guideline/</guid>
       <description>
         
         
@@ -373,10 +373,10 @@ Frame the query to request a chain of series of relevant reasoning (thought proc
     
     <item>
       <title>Docs: Iteration</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/iteration/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/iteration/</guid>
       <description>
         
         
@@ -547,10 +547,10 @@ Frame the query to request a chain of series of relevant reasoning (thought proc
     
     <item>
       <title>Docs: Summary</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/summary/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/summary/</guid>
       <description>
         
         

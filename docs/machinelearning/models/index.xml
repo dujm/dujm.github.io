@@ -4,7 +4,7 @@
     <link>/docs/machinelearning/models/</link>
     <description>Recent content in Models on My Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="/docs/machinelearning/models/index.xml" rel="self" type="application/rss+xml" />
     
@@ -69,10 +69,10 @@
     
     <item>
       <title>Docs: Naive Bayes</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/-naive-bayes/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/-naive-bayes/</guid>
       <description>
         
         

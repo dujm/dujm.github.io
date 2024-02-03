@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Collection</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/deep-learning/model-list/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/model-list/</guid>
       <description>
         
         
@@ -359,10 +359,10 @@
     
     <item>
       <title>Docs: CNN</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/deep-learning/cnn/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/cnn/</guid>
       <description>
         
         
@@ -376,10 +376,10 @@
     
     <item>
       <title>Docs: GANs</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/deep-learning/gans/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/gans/</guid>
       <description>
         
         

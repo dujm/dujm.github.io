@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: big-O</title>
-      <link>/datascience/</link>
+      <link>/docs/computer_science/software-engineering/big-o/</link>
       <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/computer_science/software-engineering/big-o/</guid>
       <description>
         
         
@@ -106,10 +106,10 @@ a nested loop of the same type (or bounded by the first loop parameter), gives O
     
     <item>
       <title>Docs: Sorts</title>
-      <link>/datascience/</link>
+      <link>/docs/computer_science/software-engineering/sorts/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/computer_science/software-engineering/sorts/</guid>
       <description>
         
         

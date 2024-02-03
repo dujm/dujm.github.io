@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: LLM Intro</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/deep-learning/llm/intro/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/llm/intro/</guid>
       <description>
         
         
@@ -208,10 +208,10 @@
     
     <item>
       <title>Docs: Introduction</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p01-intro/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p01-intro/</guid>
       <description>
         
         
@@ -399,10 +399,10 @@ NN that encodes action probabilities (&lt;a href=&#34;https://openai.com/blog/ev
     
     <item>
       <title>Docs: DQN</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c2-value/dqn/</link>
       <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c2-value/dqn/</guid>
       <description>
         
         
@@ -589,10 +589,10 @@ Illustration of DQN Architecture (&lt;a href=&#34;https://storage.googleapis.com
     
     <item>
       <title>Docs: Introduction</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</guid>
       <description>
         
         
@@ -660,10 +660,10 @@ Illustration of DQN Architecture (&lt;a href=&#34;https://storage.googleapis.com
     
     <item>
       <title>Docs: LICENSE</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/license-udacitycourse/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/license-udacitycourse/</guid>
       <description>
         
         
@@ -683,10 +683,10 @@ that violates any applicable local, state, national or international law or othe
     
     <item>
       <title>Docs: Flax</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/frameworks/flax/flax/</link>
       <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/frameworks/flax/flax/</guid>
       <description>
         
         
@@ -766,10 +766,10 @@ that violates any applicable local, state, national or international law or othe
     
     <item>
       <title>Docs: Courses</title>
-      <link>/datascience/</link>
+      <link>/docs/cloud/devops/course/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/cloud/devops/course/</guid>
       <description>
         
         
@@ -784,10 +784,10 @@ that violates any applicable local, state, national or international law or othe
     
     <item>
       <title>Docs: Feature Selection</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/feature/feature-selection/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/feature/feature-selection/</guid>
       <description>
         
         
@@ -813,10 +813,10 @@ that violates any applicable local, state, national or international law or othe
     
     <item>
       <title>Docs: Model</title>
-      <link>/datascience/</link>
+      <link>/docs/cloud/devops/model/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/cloud/devops/model/</guid>
       <description>
         
         
@@ -833,10 +833,10 @@ that violates any applicable local, state, national or international law or othe
     
     <item>
       <title>Docs: EDA</title>
-      <link>/datascience/</link>
+      <link>/docs/data/visual-art/eda/</link>
       <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/data/visual-art/eda/</guid>
       <description>
         
         
@@ -853,10 +853,10 @@ that violates any applicable local, state, national or international law or othe
     
     <item>
       <title>Docs: Linear Algebra</title>
-      <link>/datascience/</link>
+      <link>/docs/math/machinelearning/02linear_algebra/</link>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/math/machinelearning/02linear_algebra/</guid>
       <description>
         
         
@@ -923,10 +923,10 @@ that violates any applicable local, state, national or international law or othe
     
     <item>
       <title>Docs: Probability and Counting</title>
-      <link>/datascience/</link>
+      <link>/docs/math/intro/probability/s110_l01_probability_and_counting/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/math/intro/probability/s110_l01_probability_and_counting/</guid>
       <description>
         
         
@@ -1139,10 +1139,10 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     
     <item>
       <title>Docs: Optimizer</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/frameworks/tensorflow/optimizer/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/frameworks/tensorflow/optimizer/</guid>
       <description>
         
         
@@ -1168,10 +1168,10 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     
     <item>
       <title>Docs: Introduction</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/course/data-structure/intro/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/data-structure/intro/</guid>
       <description>
         
         
@@ -1197,10 +1197,10 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     
     <item>
       <title>Docs: Introduction</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/course/debugging/intro/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/debugging/intro/</guid>
       <description>
         
         
@@ -1245,10 +1245,10 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     
     <item>
       <title>Docs: Part 1</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/course/regular-expression/part1/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/regular-expression/part1/</guid>
       <description>
         
         
@@ -1449,10 +1449,10 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     
     <item>
       <title>Docs: Best practices</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/practices/best-practices/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/practices/best-practices/</guid>
       <description>
         
         
@@ -1491,10 +1491,10 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     
     <item>
       <title>Docs: Part 1</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/course/es6/part1/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/es6/part1/</guid>
       <description>
         
         
@@ -1935,10 +1935,10 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     
     <item>
       <title>Docs: Variables</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/course/basics/variables/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/basics/variables/</guid>
       <description>
         
         
@@ -2147,10 +2147,10 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     
     <item>
       <title>Docs: Collection</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/deep-learning/model-list/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/model-list/</guid>
       <description>
         
         
@@ -2490,10 +2490,10 @@ This state was first predicted, generally, in 1924–1925 by Albert Einstein fol
     
     <item>
       <title>Docs: PyTorch Tutorial</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/frameworks/pytorch/pytorch-tutorial/</link>
       <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/frameworks/pytorch/pytorch-tutorial/</guid>
       <description>
         
         
@@ -2756,10 +2756,10 @@ functions to make this guess.&lt;/li&gt;
     
     <item>
       <title>Docs: Free up disk space</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/bash/free/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/bash/free/</guid>
       <description>
         
         
@@ -2815,10 +2815,10 @@ conda clean -a
     
     <item>
       <title>Docs: Find Data</title>
-      <link>/datascience/</link>
+      <link>/docs/data/dataset/find-data/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/data/dataset/find-data/</guid>
       <description>
         
         
@@ -2879,10 +2879,10 @@ conda clean -a
     
     <item>
       <title>Docs: Data to Viz</title>
-      <link>/datascience/</link>
+      <link>/docs/data/visual-art/data-viz/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/data/visual-art/data-viz/</guid>
       <description>
         
         
@@ -2905,10 +2905,10 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
     
     <item>
       <title>Docs: AWS</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/practices/error_collection/aws/</link>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/practices/error_collection/aws/</guid>
       <description>
         
         
@@ -2952,10 +2952,10 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
     
     <item>
       <title>Docs: Emojis</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/expressitive-coding/emojis/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/expressitive-coding/emojis/</guid>
       <description>
         
         
@@ -2978,10 +2978,10 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
     
     <item>
       <title>Docs: f-string</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/python/f-string/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/python/f-string/</guid>
       <description>
         
         
@@ -3082,10 +3082,10 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
     
     <item>
       <title>Docs: Linear Algebra</title>
-      <link>/datascience/</link>
+      <link>/docs/math/intro/linear_algebra/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/math/intro/linear_algebra/</guid>
       <description>
         
         
@@ -3504,10 +3504,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: Sequence Models</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/deep-learning/sequence-models/sequence-models/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/sequence-models/sequence-models/</guid>
       <description>
         
         
@@ -3783,10 +3783,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: Build Your Own</title>
-      <link>/datascience/</link>
+      <link>/docs/swiss-knives/build-your-own/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/swiss-knives/build-your-own/</guid>
       <description>
         
         
@@ -4239,10 +4239,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: My Apps</title>
-      <link>/datascience/</link>
+      <link>/docs/web/my-app/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/web/my-app/</guid>
       <description>
         
         
@@ -4259,10 +4259,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: Guideline</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/guideline/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/guideline/</guid>
       <description>
         
         
@@ -4616,10 +4616,10 @@ Frame the query to request a chain of series of relevant reasoning (thought proc
     
     <item>
       <title>Docs: Feature Stores</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/feature/feature-stores/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/feature/feature-stores/</guid>
       <description>
         
         
@@ -4634,10 +4634,10 @@ Frame the query to request a chain of series of relevant reasoning (thought proc
     
     <item>
       <title>Docs: Policy Gradient</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p02-gradient/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p02-gradient/</guid>
       <description>
         
         
@@ -4784,10 +4784,10 @@ Probability density function corresponding to normal distribution (&lt;a href=&#
     
     <item>
       <title>Docs: DQN Paper</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c2-value/paper-dqn/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c2-value/paper-dqn/</guid>
       <description>
         
         
@@ -4818,10 +4818,10 @@ Probability density function corresponding to normal distribution (&lt;a href=&#
     
     <item>
       <title>Docs: RL Problem</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/</guid>
       <description>
         
         
@@ -4993,10 +4993,10 @@ The agent-environment interaction in rl (Source: Sutton and Barto, 2017)&lt;/p&g
     
     <item>
       <title>Docs: Syllabus</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/syllabus/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/syllabus/</guid>
       <description>
         
         
@@ -5131,10 +5131,10 @@ In the final project of the Nanodegree program, you’ll design your own algorit
     
     <item>
       <title>Docs: JAX</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/frameworks/flax/jax/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/frameworks/flax/jax/</guid>
       <description>
         
         
@@ -5195,10 +5195,10 @@ In the final project of the Nanodegree program, you’ll design your own algorit
     
     <item>
       <title>Docs: Outliers</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/python/outliers/</link>
       <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/python/outliers/</guid>
       <description>
         
         
@@ -5292,10 +5292,10 @@ In the final project of the Nanodegree program, you’ll design your own algorit
     
     <item>
       <title>Docs: Story Proofs, Axioms of Probability</title>
-      <link>/datascience/</link>
+      <link>/docs/math/intro/probability/s110_l02_story_proofs_axioms_probability/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/math/intro/probability/s110_l02_story_proofs_axioms_probability/</guid>
       <description>
         
         
@@ -5371,10 +5371,10 @@ In the final project of the Nanodegree program, you’ll design your own algorit
     
     <item>
       <title>Docs: Callbacks</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/frameworks/tensorflow/callbacks/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/frameworks/tensorflow/callbacks/</guid>
       <description>
         
         
@@ -5397,10 +5397,10 @@ In the final project of the Nanodegree program, you’ll design your own algorit
     
     <item>
       <title>Docs: TensorPipe</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/frameworks/tensorflow/tensorpipe/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/frameworks/tensorflow/tensorpipe/</guid>
       <description>
         
         
@@ -5422,10 +5422,10 @@ In the final project of the Nanodegree program, you’ll design your own algorit
     
     <item>
       <title>Docs: Recap Array</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/course/data-structure/array/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/data-structure/array/</guid>
       <description>
         
         
@@ -5619,10 +5619,10 @@ In the final project of the Nanodegree program, you’ll design your own algorit
     
     <item>
       <title>Docs: How to</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/course/debugging/howto/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/debugging/howto/</guid>
       <description>
         
         
@@ -5925,10 +5925,10 @@ Deciding which one to use generally comes down to personal preference, with some
     
     <item>
       <title>Docs: Part 2</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/course/regular-expression/part2/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/regular-expression/part2/</guid>
       <description>
         
         
@@ -6107,10 +6107,10 @@ Deciding which one to use generally comes down to personal preference, with some
     
     <item>
       <title>Docs: Part 2</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/course/es6/part2/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/es6/part2/</guid>
       <description>
         
         
@@ -6276,10 +6276,10 @@ Deciding which one to use generally comes down to personal preference, with some
     
     <item>
       <title>Docs: Functions</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/course/basics/functions/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/course/basics/functions/</guid>
       <description>
         
         
@@ -6656,10 +6656,10 @@ Strict inequality will not convert data types.&lt;/p&gt;
     
     <item>
       <title>Docs: Node.js</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/functional-coding/javascript/practices/nodejs/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/functional-coding/javascript/practices/nodejs/</guid>
       <description>
         
         
@@ -6679,10 +6679,10 @@ Strict inequality will not convert data types.&lt;/p&gt;
     
     <item>
       <title>Docs: Build Data</title>
-      <link>/datascience/</link>
+      <link>/docs/data/dataset/build-data/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/data/dataset/build-data/</guid>
       <description>
         
         
@@ -6703,10 +6703,10 @@ Strict inequality will not convert data types.&lt;/p&gt;
     
     <item>
       <title>Docs: Creative Coding</title>
-      <link>/datascience/</link>
+      <link>/docs/coding/expressitive-coding/creative-coding/</link>
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/coding/expressitive-coding/creative-coding/</guid>
       <description>
         
         

@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Introduction</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</guid>
       <description>
         
         
@@ -87,10 +87,10 @@
     
     <item>
       <title>Docs: RL Problem</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/</guid>
       <description>
         
         
@@ -262,10 +262,10 @@ The agent-environment interaction in rl (Source: Sutton and Barto, 2017)&lt;/p&g
     
     <item>
       <title>Docs: RL Solutions</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f03-rl-solutions/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f03-rl-solutions/</guid>
       <description>
         
         
@@ -482,10 +482,10 @@ $v_{\pi}(s) = q_{\pi}(s,\pi(s)) $ holds for all $s \in S$.&lt;/p&gt;
     
     <item>
       <title>Docs: Monte Carlo</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f04-monte-carlo/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f04-monte-carlo/</guid>
       <description>
         
         
@@ -814,10 +814,10 @@ $\alpha = 0.1$&lt;/p&gt;
     
     <item>
       <title>Docs: Temporal Difference</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f05-temporal-difference/</link>
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f05-temporal-difference/</guid>
       <description>
         
         
@@ -883,10 +883,10 @@ $\alpha = 0.1$&lt;/p&gt;
     
     <item>
       <title>Docs: Continuous Spaces</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f06-rl-continuous-spaces/</link>
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f06-rl-continuous-spaces/</guid>
       <description>
         
         

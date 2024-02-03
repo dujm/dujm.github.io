@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Multi-class</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/classification/multi-class/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/classification/multi-class/</guid>
       <description>
         
         
@@ -49,10 +49,10 @@ This results in loss of information in the logits about resemblances between ins
     
     <item>
       <title>Docs: Multi-label</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/models/classification/multi-label/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/models/classification/multi-label/</guid>
       <description>
         
         

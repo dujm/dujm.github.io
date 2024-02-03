@@ -34,10 +34,10 @@
     
     <item>
       <title>Docs: Courses</title>
-      <link>/datascience/</link>
+      <link>/docs/cloud/devops/course/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/cloud/devops/course/</guid>
       <description>
         
         
@@ -52,10 +52,10 @@
     
     <item>
       <title>Docs: Model</title>
-      <link>/datascience/</link>
+      <link>/docs/cloud/devops/model/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/cloud/devops/model/</guid>
       <description>
         
         
@@ -72,10 +72,10 @@
     
     <item>
       <title>Docs: MLOps</title>
-      <link>/datascience/</link>
+      <link>/docs/cloud/devops/mlops/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/cloud/devops/mlops/</guid>
       <description>
         
         

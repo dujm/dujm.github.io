@@ -67,6 +67,19 @@
     </item>
     
     <item>
+      <title>Docs: Models</title>
+      <link>/docs/machinelearning/models/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Metrics</title>
       <link>/docs/machinelearning/metrics/</link>
       <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
@@ -123,19 +136,6 @@
     </item>
     
     <item>
-      <title>Docs: Models</title>
-      <link>/docs/machinelearning/models/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/machinelearning/models/</guid>
-      <description>
-        
-        
-        &lt;br&gt;
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: NLP</title>
       <link>/docs/machinelearning/nlp/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
@@ -163,10 +163,10 @@
     
     <item>
       <title>Docs: Projects</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/projects/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/projects/</guid>
       <description>
         
         

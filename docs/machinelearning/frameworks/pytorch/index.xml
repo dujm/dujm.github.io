@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: PyTorch Tutorial</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/frameworks/pytorch/pytorch-tutorial/</link>
       <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/frameworks/pytorch/pytorch-tutorial/</guid>
       <description>
         
         
@@ -282,10 +282,10 @@ functions to make this guess.&lt;/li&gt;
     
     <item>
       <title>Docs: PyTorch</title>
-      <link>/datascience/</link>
+      <link>/docs/machinelearning/frameworks/pytorch/pytorch-toolkit/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/</guid>
+      <guid>/docs/machinelearning/frameworks/pytorch/pytorch-toolkit/</guid>
       <description>
         
         
