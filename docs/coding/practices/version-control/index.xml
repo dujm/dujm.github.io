@@ -150,7 +150,9 @@ Choose type 5 or p (for patch)&lt;/p&gt;
 &lt;li&gt;If git presents you with a chunk larger than what you would like to add, you can use the &amp;ldquo;e&amp;rdquo; interactive command to specify the exact lines that you want added or removed. This is probably the most powerful option. As promised, it will open the hunk in a text editor and you can edit it to your hearts content&lt;/li&gt;
 &lt;li&gt;Split the hunk into smaller hunks. This only works if there’s unchanged lines between the changes in the displayed hunk, so this wouldn’t have any effect in the example above&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;h3 id=&#34;git-ignore-locally-deleted-folder&#34;&gt;Git ignore locally deleted folder&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git ls-files --deleted -z &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; git update-index --assume-unchanged -z --stdin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     

@@ -4,7 +4,7 @@
     <link>/docs/machinelearning/models/deep-learning/</link>
     <description>Recent content in Deep Learning on My Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="/docs/machinelearning/models/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     
     
     <item>
-      <title>Docs: Models</title>
+      <title>Docs: Collection</title>
       <link>/docs/machinelearning/models/deep-learning/model-list/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
@@ -358,6 +358,23 @@
     </item>
     
     <item>
+      <title>Docs: CNN</title>
+      <link>/docs/machinelearning/models/deep-learning/cnn/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/cnn/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1603.07285.pdf&#34;&gt;A guide to convolution arithmetic for deep learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: GANs</title>
       <link>/docs/machinelearning/models/deep-learning/gans/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
@@ -375,17 +392,44 @@
     </item>
     
     <item>
-      <title>Docs: CNN</title>
-      <link>/docs/machinelearning/models/deep-learning/cnn/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      <title>Docs: LLMs</title>
+      <link>/docs/machinelearning/models/deep-learning/llm/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/models/deep-learning/cnn/</guid>
+      <guid>/docs/machinelearning/models/deep-learning/llm/</guid>
       <description>
         
         
         &lt;br&gt;
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1603.07285.pdf&#34;&gt;A guide to convolution arithmetic for deep learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/llm-workflow-engine/llm-workflow-engine&#34;&gt;LLM Workflow Engine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ShishirPatil/gorilla&#34;&gt;Gorila&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;Long Chain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simonw/llm&#34;&gt;llm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bentoml/OpenLLM&#34;&gt;Open LLM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;practice&#34;&gt;Practice&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mooler0410/LLMsPracticalGuide&#34;&gt;LLM Practical Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JNMVulH7fCo&#34;&gt;Train LLMs in 50 lines of code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/streamlit/llm-examples&#34;&gt;Streamlit + LLM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;courses&#34;&gt;Courses&lt;/h3&gt;
+&lt;h4 id=&#34;introduction&#34;&gt;Introduction&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/539&#34;&gt;Google LLM Intro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/courses?query=large%20language%20models&#34;&gt;Coursera&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;hands-on&#34;&gt;Hands-on&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/learn/computer-science/databricks-large-language-models-foundation-models-from-the-ground-up&#34;&gt;Databricks: Large Language Models: Foundation Models from the Ground Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/learn/computer-science/databricks-large-language-models-application-through-production&#34;&gt;Databricks: Large Language Models: Application through Production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/projects/data-analysis-with-openai-api-save-time-with-genai&#34;&gt;Data Analysis with OpenAI API: Save time with GenAI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cheatsheet&#34;&gt;Cheatsheet&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Hannibal046/Awesome-LLM&#34;&gt;Awesome LLM&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

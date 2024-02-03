@@ -1,0 +1,224 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Website – LLMs</title>
+    <link>/docs/machinelearning/models/deep-learning/llm/</link>
+    <description>Recent content in LLMs on My Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/docs/machinelearning/models/deep-learning/llm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: chatGPT Prompt Engineering</title>
+      <link>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: LLM Intro</title>
+      <link>/docs/machinelearning/models/deep-learning/llm/intro/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/machinelearning/models/deep-learning/llm/intro/</guid>
+      <description>
+        
+        
+        &lt;br&gt;
+&lt;h3 id=&#34;1what-is-large-language-model-llm&#34;&gt;1.What is large language model (LLM)?&lt;/h3&gt;
+&lt;p&gt;Large, general-purpose language models that can be pre-trained and then fine-tuned for specific purposes.&lt;/p&gt;
+&lt;h3 id=&#34;2-what-are-llms-trained-for&#34;&gt;2. What are LLMs trained for?&lt;/h3&gt;
+&lt;p&gt;For solving common language problems, such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;text classification&lt;/li&gt;
+&lt;li&gt;questions and answering&lt;/li&gt;
+&lt;li&gt;document summarization&lt;/li&gt;
+&lt;li&gt;text generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The models can then be tailored to solve specific problems in different files using a relatively small size of field datasets, like&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;retail&lt;/li&gt;
+&lt;li&gt;finance&lt;/li&gt;
+&lt;li&gt;entertainment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-what-are-the-features-of-llms&#34;&gt;3. What are the features of LLMs?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Large&lt;/li&gt;
+&lt;li&gt;training dataset&lt;/li&gt;
+&lt;li&gt;number of parameters&lt;/li&gt;
+&lt;li&gt;General purpose: models are sufficient to solve common problems because&lt;/li&gt;
+&lt;li&gt;the commonality of human languages regardless of the specific tasks&lt;/li&gt;
+&lt;li&gt;Resource restriction: only certain organizations can train such models with huge datasets&lt;/li&gt;
+&lt;li&gt;Pre-trained and fine-tuned&lt;/li&gt;
+&lt;li&gt;for specific aims with a smaller datasets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-what-are-the-benefits-of-using-llms&#34;&gt;4. What are the benefits of using LLMs?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A single model can be used for different tasks (dream come true)&lt;/li&gt;
+&lt;li&gt;The fine-tuning process requires minimal field data when you tailor them to solve specific problems (for few or zero shots senariors)&lt;/li&gt;
+&lt;li&gt;The performance is continuously growing with more data and parameters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-examples&#34;&gt;5. Examples&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PaLM: Pathway Language Model&lt;/li&gt;
+&lt;li&gt;Dense decoder only transformer model&lt;/li&gt;
+&lt;li&gt;540 billion parameters&lt;/li&gt;
+&lt;li&gt;Leverages the new Pathway system, which enabled Google to efficiently train a single model across multiple TPU v4 Pods&lt;/li&gt;
+&lt;li&gt;A new AI architecture that will handle many tasks at once, learn new tasks quickly and reflect a better understanding of the world.&lt;/li&gt;
+&lt;li&gt;The system enables PaLm to orchestrate distributed computation for accelerators.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6-how-does-llm-work&#34;&gt;6. How does LLM work?&lt;/h3&gt;
+&lt;p&gt;LLM is a transformer model which includes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;encoder: encodes the input sequence as representation and pass it to the decoder&lt;/li&gt;
+&lt;li&gt;decoder: learns representation and decodes representations for a relevant task&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;7-traditional-programming-vs-neural-networks&#34;&gt;7. Traditional programming vs Neural Networks&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Traditional programming: hard code rules about a dog&lt;/li&gt;
+&lt;li&gt;Neural networks: give pictures about dog  and ask is this a dog, and it would predict a dog&lt;/li&gt;
+&lt;li&gt;Generative language models (LaMDA, PaLM, GPT): users generate own text, ask models to read the text, then ask what is a dog&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;8-llm-vs-traditional-model-development&#34;&gt;8. LLM vs Traditional model development&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;LLM&lt;/th&gt;
+&lt;th&gt;Traditional&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Think about&lt;/td&gt;
+&lt;td&gt;Prompt design&lt;/td&gt;
+&lt;td&gt;Minimizing a loss function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ML expertise needed&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Compute time and hardware&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Training examples&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Training a model&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;9-what-are-prompt-design-and-prompt-engineering&#34;&gt;9. What are prompt design and prompt engineering?&lt;/h3&gt;
+&lt;p&gt;They both intend to create prompts that are clear, precise, and informative. However, there are key differences.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Prompt Design&lt;/th&gt;
+&lt;th&gt;Prompt Engineering&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Definition&lt;/td&gt;
+&lt;td&gt;The process of creating tailored instructions and context passed to a language model to achieve a desired task&lt;/td&gt;
+&lt;td&gt;The practice of developing and optimizing prompts to efficiently use language models for a variety of applications.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scope&lt;/td&gt;
+&lt;td&gt;Specific&lt;/td&gt;
+&lt;td&gt;Generalized&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scenario&lt;/td&gt;
+&lt;td&gt;Essential for a specific task&lt;/td&gt;
+&lt;td&gt;When requires a high degree of accuracy/performance&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;10-what-are-the-different-kinds-of-llms&#34;&gt;10. What are the different kinds of LLMs?&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Generic/Base&lt;/th&gt;
+&lt;th&gt;Instruction Tuned&lt;/th&gt;
+&lt;th&gt;Dialog Tuned&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;What does the model do?&lt;/td&gt;
+&lt;td&gt;Predict the next word (token) based on the language in the training data (autocomplete in search)&lt;/td&gt;
+&lt;td&gt;Follow instructions. Predict a response to the instructions given in the input. Use RLHF (Reinforcement learning with human feedback)&lt;/td&gt;
+&lt;td&gt;To have a dialog by predicting the next response  (a type of Instruction based)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Examples&lt;/td&gt;
+&lt;td&gt;Predict the next word&lt;/td&gt;
+&lt;td&gt;Sentiment analysis&lt;/td&gt;
+&lt;td&gt;Further specialization of instruction tuning that is expected to be in the context of a longer back and forth conversation, and typically works better with natural questions-like phrasings (Chatbot)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;11-chain-of-thought-reasoning&#34;&gt;11. Chain of thought reasoning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Models are better at getting the right answer when they first output text that explains the reason for the answer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12-why-is-tuning-needed&#34;&gt;12. Why is tuning needed?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A model that can do everything has practical limitations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13-task-specific-models&#34;&gt;13. Task specific models&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Language&lt;/th&gt;
+&lt;th&gt;Vision&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Extraction&lt;/td&gt;
+&lt;td&gt;Syntax analysis&lt;/td&gt;
+&lt;td&gt;Object detector&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Classification&lt;/td&gt;
+&lt;td&gt;Entity analysis&lt;/td&gt;
+&lt;td&gt;Occupancy analytics&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/introduction-to-large-language-models&#34;&gt;Introduction to Large Language Models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
