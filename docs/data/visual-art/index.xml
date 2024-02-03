@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: EDA</title>
-      <link>/docs/data/visual-art/eda/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/visual-art/eda/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -36,10 +36,10 @@
     
     <item>
       <title>Docs: Data to Viz</title>
-      <link>/docs/data/visual-art/data-viz/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/visual-art/data-viz/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -62,10 +62,10 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
     
     <item>
       <title>Docs: Image Processing</title>
-      <link>/docs/data/visual-art/image-processing/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/visual-art/image-processing/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -79,10 +79,10 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
     
     <item>
       <title>Docs: Matploitlib</title>
-      <link>/docs/data/visual-art/matplotlib/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/visual-art/matplotlib/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -96,10 +96,10 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
     
     <item>
       <title>Docs: Multivariate</title>
-      <link>/docs/data/visual-art/multivariate/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/visual-art/multivariate/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -151,10 +151,10 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
     
     <item>
       <title>Docs: Visualization 3D</title>
-      <link>/docs/data/visual-art/3d/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/visual-art/3d/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -191,10 +191,10 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytosca
     
     <item>
       <title>Docs: Visualization Timeline</title>
-      <link>/docs/data/visual-art/time-series/</link>
+      <link>/datascience/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/visual-art/time-series/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -214,10 +214,10 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-cytosca
     
     <item>
       <title>Docs: Visualization Geospatial</title>
-      <link>/docs/data/visual-art/geo-spatial/</link>
+      <link>/datascience/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/data/visual-art/geo-spatial/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         

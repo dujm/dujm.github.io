@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Free up disk space</title>
-      <link>/docs/coding/functional-coding/bash/free/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/bash/free/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -75,10 +75,10 @@ conda clean -a
     
     <item>
       <title>Docs: Commands</title>
-      <link>/docs/coding/functional-coding/bash/commands/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/coding/functional-coding/bash/commands/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         

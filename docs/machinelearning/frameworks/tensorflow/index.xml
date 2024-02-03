@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Optimizer</title>
-      <link>/docs/machinelearning/frameworks/tensorflow/optimizer/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/frameworks/tensorflow/optimizer/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -45,10 +45,10 @@
     
     <item>
       <title>Docs: Callbacks</title>
-      <link>/docs/machinelearning/frameworks/tensorflow/callbacks/</link>
+      <link>/datascience/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/frameworks/tensorflow/callbacks/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -71,10 +71,10 @@
     
     <item>
       <title>Docs: TensorPipe</title>
-      <link>/docs/machinelearning/frameworks/tensorflow/tensorpipe/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/frameworks/tensorflow/tensorpipe/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         

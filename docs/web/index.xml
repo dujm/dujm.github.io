@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: My Apps</title>
-      <link>/docs/web/my-app/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/web/my-app/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -36,10 +36,10 @@
     
     <item>
       <title>Docs: Static Websites</title>
-      <link>/docs/web/static-website/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/web/static-website/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -55,10 +55,10 @@
     
     <item>
       <title>Docs: Pelican Website</title>
-      <link>/docs/web/pelican-website/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/web/pelican-website/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -180,10 +180,10 @@ git push origin gh-pages
     
     <item>
       <title>Docs: Hugo Website</title>
-      <link>/docs/web/hugo-website/</link>
+      <link>/datascience/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/web/hugo-website/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         

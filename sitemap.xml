@@ -13,27 +13,27 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/llm/intro/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p01-intro/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c2-value/dqn/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f01-intro/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/license-udacitycourse/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,7 +48,7 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/frameworks/flax/flax/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,7 +58,7 @@
   </url>
   
   <url>
-    <loc>/docs/cloud/devops/course/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,22 +73,22 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/feature/feature-selection/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/cloud/devops/model/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/eda/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/machinelearning/02linear_algebra/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,37 +98,37 @@
   </url>
   
   <url>
-    <loc>/docs/math/intro/probability/s110_l01_probability_and_counting/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/frameworks/tensorflow/optimizer/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/data-structure/intro/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/debugging/intro/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/regular-expression/part1/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/practices/best-practices/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/es6/part1/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -148,32 +148,32 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/basics/variables/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/model-list/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/frameworks/pytorch/pytorch-tutorial/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/bash/free/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/data/dataset/find-data/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/data-viz/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -203,32 +203,32 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/error_collection/aws/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/expressitive-coding/emojis/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/python/f-string/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/linear_algebra/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/sequence-models/sequence-models/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/build-your-own/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -248,12 +248,12 @@
   </url>
   
   <url>
-    <loc>/docs/web/my-app/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/guideline/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -263,32 +263,32 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/feature/feature-stores/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p02-gradient/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c2-value/paper-dqn/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f02-rl-problem/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/syllabus/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/frameworks/flax/jax/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -303,7 +303,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/python/outliers/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -313,7 +313,7 @@
   </url>
   
   <url>
-    <loc>/docs/math/intro/probability/s110_l02_story_proofs_axioms_probability/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -323,7 +323,7 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/frameworks/tensorflow/callbacks/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -333,27 +333,27 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/frameworks/tensorflow/tensorpipe/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/data-structure/array/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/debugging/howto/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/regular-expression/part2/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/es6/part2/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -363,17 +363,17 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/basics/functions/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/practices/nodejs/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/data/dataset/build-data/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -383,7 +383,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/expressitive-coding/creative-coding/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -393,27 +393,27 @@
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/image-processing/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/matplotlib/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/graph-nn/tools/graph-analysis/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/graph-nn/tools/tutorials/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/nlp/nlp-tools/genism/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -423,17 +423,17 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/books/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/papers/mind/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/frameworks/pytorch/pytorch-toolkit/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -453,27 +453,27 @@
   </url>
   
   <url>
-    <loc>/docs/healthcare/papers/fibroblasts/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/find-papers/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/calculus/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/cnn/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/sequence-models/word-embeddings/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -483,27 +483,27 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/developer-website/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/web/static-website/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/iteration/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/python/format/autopep8/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2021-04-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -518,12 +518,12 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/env/conda/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f03-rl-solutions/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -533,37 +533,37 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/deeplearning/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/bash/commands/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/python/imputation/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/frameworks/flax/jraph/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/cloud/aws/cdk/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/gans/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/probability/s110_l03_birthday/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -578,7 +578,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/regular-expression/part3/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -588,17 +588,17 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/es6/part3/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/basics/objects/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/python/plot/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -613,27 +613,27 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/error_collection/pyspark/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/graph-nn/papers/collections/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/sequence-models/attention-model/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/cheatsheets/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/-naive-bayes/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -648,7 +648,7 @@
   </url>
   
   <url>
-    <loc>/docs/web/pelican-website/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -658,12 +658,12 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/llm/chatgpt-prompt-engineering/summary/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p04-actor-critic/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -683,22 +683,22 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f04-monte-carlo/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/clustering/density/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/converter-pdf-image/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/probability/s110_l04_conditional_probability/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -708,7 +708,7 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/converter-pdf-table/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -718,22 +718,22 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/basics/loops/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/healthcare/bioinfo/sc-rnaseq/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/nlp/nlp-tools/hay-stack/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/graph-nn/papers/community-detection/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -753,27 +753,27 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/error_collection/python/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/nlp/nlp-papers/hugging-face/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/computer_science/software-engineering/big-o/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-03-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/cloud/azure/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/cloud/google/gcp_sdk/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -783,47 +783,47 @@
   </url>
   
   <url>
-    <loc>/docs/cloud/google/colab/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/healthcare/healthcare-data/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/web/hugo-website/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/statistics/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/converter-csv-txt/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/render-math/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/computer_science/iot/development_board/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/computer_science/iot/ibm-iot-course/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/computer_science/iot/rpi-lcd-display/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -833,7 +833,7 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/converter-docx-markdown/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2021-03-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -843,7 +843,7 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f05-temporal-difference/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -853,17 +853,17 @@
   </url>
   
   <url>
-    <loc>/docs/computer_science/software-engineering/sorts/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/probability/s110_l05_conditioning_2/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/classification/multi-class/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -873,17 +873,17 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/javascript/course/basics/numbers/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/privacy/differential-privacy/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/python/testing/unittest/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -893,7 +893,7 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/graph-nn/applications/gans-house/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -903,27 +903,27 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/error_collection/windows/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/converter-jupyter/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/jupyter-lab/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/jupyter-notebook/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/data/dataset/kaggle/</loc>
+    <loc>/datascience/</loc>
   </url>
   
   <url>
@@ -937,22 +937,22 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/courses/reinforcement-learning/c1-foundation/f06-rl-continuous-spaces/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/probability/s110_l06_montyhall/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/classification/multi-label/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/bayes-theorem/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -962,7 +962,7 @@
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/graph-nn/tools/rank/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -982,7 +982,7 @@
   </url>
   
   <url>
-    <loc>/docs/math/intro/neural-networks/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -997,7 +997,7 @@
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/multivariate/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -1007,27 +1007,27 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/python/command-line/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/optimization/bayesian-optimization/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/nlp/nlp-tools/spark-nlp/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/python/packages/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/probability/s110_l07_l08_random_variables_distributions/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -1037,17 +1037,17 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/clean-code/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/transformers/hugging-face/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/cv/papers/mesh-r-cnn/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -1057,21 +1057,21 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/error_collection/install/</loc>
+    <loc>/datascience/</loc>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/explainability/explainability/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-12-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/practices/create-snippet/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/terminal-ubuntu/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -1081,7 +1081,7 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/terminal-mac/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -1091,12 +1091,12 @@
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/3d/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/tpu/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -1111,17 +1111,17 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/gpu/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/machinelearning/activation/math-proof/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/models/deep-learning/transformers/benchmark/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -1131,42 +1131,42 @@
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/time-series/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/practices/version-control/git/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/vscode/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/data/visual-art/geo-spatial/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/white-board/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/machinelearning/projects/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/cloud/devops/mlops/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/markdown/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-05-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -1176,12 +1176,12 @@
   </url>
   
   <url>
-    <loc>/docs/cloud/aws/aws_sdk_cli/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/datascience/</loc>
+    <loc>/docs/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -1195,7 +1195,7 @@
   </url>
   
   <url>
-    <loc>/docs/coding/practices/error_collection/vscode/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2021-07-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1205,7 +1205,7 @@
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/thoughts/</loc>
+    <loc>/datascience/</loc>
   </url>
   
   <url>
@@ -1224,16 +1224,16 @@
   </url>
   
   <url>
-    <loc>/docs/coding/functional-coding/python/file-reading/</loc>
+    <loc>/datascience/</loc>
     <lastmod>2020-03-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/math/intro/statistics/summary/</loc>
+    <loc>/datascience/</loc>
   </url>
   
   <url>
-    <loc>/docs/swiss-knives/download/download-workspace-file/</loc>
+    <loc>/datascience/</loc>
   </url>
   
   <url>

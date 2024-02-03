@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Flax</title>
-      <link>/docs/machinelearning/frameworks/flax/flax/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/frameworks/flax/flax/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -99,10 +99,10 @@
     
     <item>
       <title>Docs: JAX</title>
-      <link>/docs/machinelearning/frameworks/flax/jax/</link>
+      <link>/datascience/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/frameworks/flax/jax/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -163,10 +163,10 @@
     
     <item>
       <title>Docs: Jraph</title>
-      <link>/docs/machinelearning/frameworks/flax/jraph/</link>
+      <link>/datascience/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/frameworks/flax/jraph/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         

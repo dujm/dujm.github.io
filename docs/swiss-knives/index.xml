@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Build Your Own</title>
-      <link>/docs/swiss-knives/build-your-own/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/build-your-own/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -472,10 +472,10 @@
     
     <item>
       <title>Docs: Books</title>
-      <link>/docs/swiss-knives/books/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/books/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -876,10 +876,10 @@
     
     <item>
       <title>Docs: Find Papers</title>
-      <link>/docs/swiss-knives/find-papers/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/find-papers/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -933,10 +933,10 @@
     
     <item>
       <title>Docs: Developer&#39;s Websites</title>
-      <link>/docs/swiss-knives/developer-website/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/developer-website/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1669,10 +1669,10 @@ interests.&lt;/li&gt;
     
     <item>
       <title>Docs: Cheatsheets</title>
-      <link>/docs/swiss-knives/cheatsheets/</link>
+      <link>/datascience/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/cheatsheets/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1689,10 +1689,10 @@ interests.&lt;/li&gt;
     
     <item>
       <title>Docs: Converter PDF - Image</title>
-      <link>/docs/swiss-knives/converter-pdf-image/</link>
+      <link>/datascience/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/converter-pdf-image/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1751,10 +1751,10 @@ mkdir output
     
     <item>
       <title>Docs: Converter PDF - Table</title>
-      <link>/docs/swiss-knives/converter-pdf-table/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/converter-pdf-table/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1801,10 +1801,10 @@ mkdir output
     
     <item>
       <title>Docs: Converter CSV - TXT</title>
-      <link>/docs/swiss-knives/converter-csv-txt/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/converter-csv-txt/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1828,10 +1828,10 @@ mkdir output
     
     <item>
       <title>Docs: Converter .docx</title>
-      <link>/docs/swiss-knives/converter-docx-markdown/</link>
+      <link>/datascience/</link>
       <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/converter-docx-markdown/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1848,10 +1848,10 @@ mammoth document.docx --output-format&lt;span style=&#34;color:#ce5c00;font-weig
     
     <item>
       <title>Docs: Converter Jupyter</title>
-      <link>/docs/swiss-knives/converter-jupyter/</link>
+      <link>/datascience/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/converter-jupyter/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1916,10 +1916,10 @@ http://0.0.0.0:9099/
     
     <item>
       <title>Docs: Jupyter Lab</title>
-      <link>/docs/swiss-knives/jupyter-lab/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/jupyter-lab/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1957,10 +1957,10 @@ jupyter lab
     
     <item>
       <title>Docs: Jupyter Notebook</title>
-      <link>/docs/swiss-knives/jupyter-notebook/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/jupyter-notebook/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -2057,10 +2057,10 @@ jupyter nbextension &lt;span style=&#34;color:#204a87&#34;&gt;enable&lt;/span&gt
     
     <item>
       <title>Docs: Terminal for Ubuntu</title>
-      <link>/docs/swiss-knives/terminal-ubuntu/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/terminal-ubuntu/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -2168,10 +2168,10 @@ sudo snap install --classic code
     
     <item>
       <title>Docs: Terminal for Mac</title>
-      <link>/docs/swiss-knives/terminal-mac/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/terminal-mac/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -2270,10 +2270,10 @@ open ~/.zshrc
     
     <item>
       <title>Docs: TPU</title>
-      <link>/docs/swiss-knives/tpu/</link>
+      <link>/datascience/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/tpu/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -2289,10 +2289,10 @@ open ~/.zshrc
     
     <item>
       <title>Docs: GPU</title>
-      <link>/docs/swiss-knives/gpu/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/gpu/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -2360,10 +2360,10 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
     
     <item>
       <title>Docs: VS Code</title>
-      <link>/docs/swiss-knives/vscode/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/vscode/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -2391,10 +2391,10 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
     
     <item>
       <title>Docs: White Board</title>
-      <link>/docs/swiss-knives/white-board/</link>
+      <link>/datascience/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/white-board/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -2458,10 +2458,10 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
     
     <item>
       <title>Docs: Random Thoughts</title>
-      <link>/docs/swiss-knives/thoughts/</link>
+      <link>/datascience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/swiss-knives/thoughts/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         

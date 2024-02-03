@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Introduction</title>
-      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p01-intro/</link>
+      <link>/datascience/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p01-intro/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -207,10 +207,10 @@ NN that encodes action probabilities (&lt;a href=&#34;https://openai.com/blog/ev
     
     <item>
       <title>Docs: Policy Gradient</title>
-      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p02-gradient/</link>
+      <link>/datascience/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p02-gradient/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -357,10 +357,10 @@ Probability density function corresponding to normal distribution (&lt;a href=&#
     
     <item>
       <title>Docs: Proximal Policy Optimization</title>
-      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/</link>
+      <link>/datascience/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p03-proximal/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -572,10 +572,10 @@ Probability density function corresponding to normal distribution (&lt;a href=&#
     
     <item>
       <title>Docs: Actor-Critic Methods</title>
-      <link>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p04-actor-critic/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/docs/machinelearning/courses/reinforcement-learning/c3-policy/p04-actor-critic/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         

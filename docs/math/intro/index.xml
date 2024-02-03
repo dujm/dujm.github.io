@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Linear Algebra</title>
-      <link>/docs/math/intro/linear_algebra/</link>
+      <link>/datascience/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/intro/linear_algebra/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -438,10 +438,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: Calculus</title>
-      <link>/docs/math/intro/calculus/</link>
+      <link>/datascience/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/intro/calculus/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -942,10 +942,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: Statistics</title>
-      <link>/docs/math/intro/statistics/</link>
+      <link>/datascience/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/intro/statistics/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -970,10 +970,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: Math Formulas</title>
-      <link>/docs/math/intro/render-math/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/intro/render-math/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1728,10 +1728,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: Bayes Theorem</title>
-      <link>/docs/math/intro/bayes-theorem/</link>
+      <link>/datascience/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/intro/bayes-theorem/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1753,10 +1753,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: Mathematics of Neural Networks</title>
-      <link>/docs/math/intro/neural-networks/</link>
+      <link>/datascience/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/intro/neural-networks/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
@@ -1768,10 +1768,10 @@ $A^{-1}*A^1=\begin{bmatrix}0&amp;amp;1 \\1&amp;amp;0 \end{bmatrix}$&lt;/li&gt;
     
     <item>
       <title>Docs: </title>
-      <link>/docs/math/intro/statistics/summary/</link>
+      <link>/datascience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/math/intro/statistics/summary/</guid>
+      <guid>/datascience/</guid>
       <description>
         
         
