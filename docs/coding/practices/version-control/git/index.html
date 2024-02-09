@@ -28,11 +28,11 @@ git push -f
  Stage our giant file for removal, but leave it on disk  git rm --cached giant_file
  Commit this change  git commit --amend -CHEAD
  Push our rewritten, smaller commit  git push
-   How to remove a file from a Git repository without deleting it from the local filesystem git rm --cached file git rm -r --cached folderName  Submodule   How to remove a Git submodule?" />
+    How to remove a file from a Git repository without deleting it from the local filesystem git rm --cached file git rm -r --cached folderName" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/coding/practices/version-control/git/" />
-<meta property="article:published_time" content="2020-05-18T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-05-18T00:00:00+00:00" />
+<meta property="article:published_time" content="2024-02-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-02-09T00:00:00+00:00" />
 <meta itemprop="name" content="Git">
 <meta itemprop="description" content="Commit   How to revert last commit in the remote?
 git reset HEAD^ --hard
@@ -41,10 +41,10 @@ git push -f
  Stage our giant file for removal, but leave it on disk  git rm --cached giant_file
  Commit this change  git commit --amend -CHEAD
  Push our rewritten, smaller commit  git push
-   How to remove a file from a Git repository without deleting it from the local filesystem git rm --cached file git rm -r --cached folderName  Submodule   How to remove a Git submodule?">
-<meta itemprop="datePublished" content="2020-05-18T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-05-18T00:00:00+00:00" />
-<meta itemprop="wordCount" content="678">
+    How to remove a file from a Git repository without deleting it from the local filesystem git rm --cached file git rm -r --cached folderName">
+<meta itemprop="datePublished" content="2024-02-09T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2024-02-09T00:00:00+00:00" />
+<meta itemprop="wordCount" content="714">
 
 
 
@@ -58,7 +58,7 @@ git push -f
  Stage our giant file for removal, but leave it on disk  git rm --cached giant_file
  Commit this change  git commit --amend -CHEAD
  Push our rewritten, smaller commit  git push
-   How to remove a file from a Git repository without deleting it from the local filesystem git rm --cached file git rm -r --cached folderName  Submodule   How to remove a Git submodule?"/>
+    How to remove a file from a Git repository without deleting it from the local filesystem git rm --cached file git rm -r --cached folderName"/>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -150,7 +150,7 @@ git push -f
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.2f36addcc7ac001c1cb53c9912cd88521b1adf8dbfbb5bbf8ed350380dcbc6b0e7b30d4c0bc4b595f366c1f887fa32a8c589a1661a08d280ce36ae250869c234.json"
+  data-offline-search-index-json-src="/offline-search-index.a27972e1032bab1fab2989e0040d4d0645ae2bf9825bf2f5a6715aa340dc3711c8b2f60c38a8be8e25924866e0dd88bb678dcaf72789a6ac9e2349fe870eac59.json"
   data-offline-search-base-href="/"
 >
 
@@ -180,7 +180,7 @@ git push -f
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.2f36addcc7ac001c1cb53c9912cd88521b1adf8dbfbb5bbf8ed350380dcbc6b0e7b30d4c0bc4b595f366c1f887fa32a8c589a1661a08d280ce36ae250869c234.json"
+  data-offline-search-index-json-src="/offline-search-index.a27972e1032bab1fab2989e0040d4d0645ae2bf9825bf2f5a6715aa340dc3711c8b2f60c38a8be8e25924866e0dd88bb678dcaf72789a6ac9e2349fe870eac59.json"
   data-offline-search-base-href="/"
 >
 
@@ -2891,12 +2891,6 @@ git push -f
 
       
       
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docsswiss-knivesthoughts" href="/docs/swiss-knives/thoughts/">Random Thoughts</a>
-      
-      
     </li>
   </ul>
 </ul>
@@ -3140,7 +3134,7 @@ git push -f
 	
 	<div class="td-byline mb-4">
 		
-		<time datetime="2020-05-18" class="text-muted">Monday, May 18, 2020</time>
+		<time datetime="2024-02-09" class="text-muted">Friday, February 09, 2024</time>
 	</div>
 	<br>
 <h3 id="commit">Commit</h3>
@@ -3168,11 +3162,25 @@ git push -f
 </ul>
 <br>
 <ul>
-<li>How to remove a file from a Git repository without deleting it from the local filesystem
+<li>
+<p>How to remove a file from a Git repository without deleting it from the local filesystem
 <code>git rm --cached file</code>
-<code>git rm -r --cached folderName</code></li>
+<code>git rm -r --cached folderName</code></p>
+</li>
+<li>
+<p>How to &ldquo;reinit&rdquo; repository?</p>
+</li>
 </ul>
-<br>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#8f5902;font-style:italic"># first, remove your initial repository by this code</span>
+
+rm -rf .git
+
+<span style="color:#8f5902;font-style:italic"># Then re-initiate git and commit</span>
+git init
+git add README.md
+git commit -m <span style="color:#4e9a06">&#34;first commit&#34;</span>
+git branch -M main
+</code></pre></div><br>
 <h3 id="submodule">Submodule</h3>
 <ul>
 <li>

@@ -17,7 +17,7 @@
     <item>
       <title>Docs: Git</title>
       <link>/docs/coding/practices/version-control/git/</link>
-      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>/docs/coding/practices/version-control/git/</guid>
       <description>
@@ -49,11 +49,25 @@
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;ul&gt;
-&lt;li&gt;How to remove a file from a Git repository without deleting it from the local filesystem
+&lt;li&gt;
+&lt;p&gt;How to remove a file from a Git repository without deleting it from the local filesystem
 &lt;code&gt;git rm --cached file&lt;/code&gt;
-&lt;code&gt;git rm -r --cached folderName&lt;/code&gt;&lt;/li&gt;
+&lt;code&gt;git rm -r --cached folderName&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to &amp;ldquo;reinit&amp;rdquo; repository?&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# first, remove your initial repository by this code&lt;/span&gt;
+
+rm -rf .git
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Then re-initiate git and commit&lt;/span&gt;
+git init
+git add README.md
+git commit -m &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;first commit&amp;#34;&lt;/span&gt;
+git branch -M main
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;h3 id=&#34;submodule&#34;&gt;Submodule&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;

@@ -2385,6 +2385,10 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
 &lt;li&gt;Insert svg into Markdown files&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;drawio-integration&#34;&gt;Draw.io Integration&lt;/h3&gt;
+&lt;h3 id=&#34;databricks-notebook-runner&#34;&gt;Databricks Notebook Runner&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Show Databricks notebook in VSCode&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
@@ -2453,22 +2457,6 @@ config.gpu_options.per_process_gpu_memory_fraction &lt;span style=&#34;color:#ce
 
 &lt;span style=&#34;color:#000&#34;&gt;make_tar_file&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;dir_name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;target_file_name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ignore&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Random Thoughts</title>
-      <link>/docs/swiss-knives/thoughts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/swiss-knives/thoughts/</guid>
-      <description>
-        
-        
-        &lt;blockquote&gt;
-&lt;p&gt;物来顺应，未来不迎，当时不杂 — 曾国藩&lt;/p&gt;
-&lt;/blockquote&gt;
-
       </description>
     </item>
     
